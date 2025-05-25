@@ -1,0 +1,38 @@
+{
+ 
+  "682d014f0f0eb62eb4269012": {
+    "itemTplToClone": "661e52e29c8b4dadef008577",
+    "parentId": "55818af64bdc2d5b648b4570",
+    "handbookParentId": "5b5f71de86f774093f2ecf13",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Attachment_Foregrips/foregrip_ak5c_tangodown.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "TangoDown vertical foregrip (OD)",
+        "shortName": "TD OD",
+        "description": "Polymer vertical foregrip manufactured by TangoDown in an exclusive OD color scheme."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_foregrip"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 9999,
+    "handbookPriceRoubles": 4126,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  }
+}
