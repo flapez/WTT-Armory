@@ -34,5 +34,40 @@
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
-  }
+  },
+  "668070f11aff0d6b0cd7fb13": {
+    "itemTplToClone": "619386379fb0c665d5490dbe",
+    "parentId": "55818af64bdc2d5b648b4570",
+    "handbookParentId": "5b5f71de86f774093f2ecf13",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Attachment_Foregrips/foregrip_sturmgriff_blk.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "HK Sturmgriff foregrip (Black)",
+        "shortName": "Sturmgriff",
+        "description": "The Sturmgriff vertical foregrip. Manufactured by Heckler & Koch."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_foregrip"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 52845,
+    "handbookPriceRoubles": 3250,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
 }
