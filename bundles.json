@@ -1,6 +1,22 @@
 {
     "manifest": [
         {
+            "key": "Ammo/ammo_792x57mm_fmj.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Ammo/ammo_792x57mm_sp.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Attachment_Foregrips/foregrip_ak5c_tangodown.bundle",
             "dependencyKeys": [
                 "shaders",

@@ -1,17 +1,17 @@
-2025-05-25 20:54:11,772 - INFO - Bundle generation started.
-2025-05-25 20:54:11,792 - INFO - Added extra dependencies to WeaponAK5C/weapon_ak5c_boss_container.bundle
-2025-05-25 20:54:11,792 - INFO - Added extra dependencies to WeaponAK5C/weapon_ak5c_container.bundle
-2025-05-25 20:54:11,793 - INFO - Added extra dependencies to WeaponAK5C/weapon_ak5d_container.bundle
-2025-05-25 20:54:11,793 - INFO - Added extra dependencies to WeaponAK5C/weapon_ak5g_container.bundle
-2025-05-25 20:54:11,793 - INFO - Added extra dependencies to WeaponCZ75/weapon_cz75b_container.bundle
-2025-05-25 20:54:11,793 - INFO - Added extra dependencies to WeaponCZ75/weapon_cz75b_omega_container.bundle
-2025-05-25 20:54:11,793 - INFO - Added extra dependencies to WeaponGrizzly/weapon_grizzly_blk_container.bundle
-2025-05-25 20:54:11,793 - INFO - Added extra dependencies to WeaponGrizzly/weapon_grizzly_gold_container.bundle
-2025-05-25 20:54:11,794 - INFO - Added extra dependencies to WeaponGrizzly/weapon_grizzly_stainless_container.bundle
-2025-05-25 20:54:11,794 - INFO - Added extra dependencies to WeaponHK417/weapon_hk417_container.bundle
-2025-05-25 20:54:11,794 - INFO - Added extra dependencies to WeaponKACPDW/kacpdw_container.bundle
-2025-05-25 20:54:11,794 - INFO - Added extra dependencies to WeaponXM8/xm8blk_container.bundle
-2025-05-25 20:54:11,794 - INFO - Added extra dependencies to WeaponXM8/xm8fde_container.bundle
-2025-05-25 20:54:11,794 - INFO - Added extra dependencies to WeaponXM8/xm8od_container.bundle
-2025-05-25 20:54:11,794 - INFO - Added scope dependencies to Attachment_Scopes/cga5p_2x_scope.bundle
-2025-05-25 20:54:11,800 - INFO - bundles.json file has been generated.
+2025-05-25 20:59:10,225 - INFO - Bundle generation started.
+2025-05-25 20:59:10,229 - INFO - Added extra dependencies to WeaponAK5C/weapon_ak5c_boss_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added extra dependencies to WeaponAK5C/weapon_ak5c_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added extra dependencies to WeaponAK5C/weapon_ak5d_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added extra dependencies to WeaponAK5C/weapon_ak5g_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added extra dependencies to WeaponCZ75/weapon_cz75b_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added extra dependencies to WeaponCZ75/weapon_cz75b_omega_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added extra dependencies to WeaponGrizzly/weapon_grizzly_blk_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added extra dependencies to WeaponGrizzly/weapon_grizzly_gold_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added extra dependencies to WeaponGrizzly/weapon_grizzly_stainless_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added extra dependencies to WeaponHK417/weapon_hk417_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added extra dependencies to WeaponKACPDW/kacpdw_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added extra dependencies to WeaponXM8/xm8blk_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added extra dependencies to WeaponXM8/xm8fde_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added extra dependencies to WeaponXM8/xm8od_container.bundle
+2025-05-25 20:59:10,230 - INFO - Added scope dependencies to Attachment_Scopes/cga5p_2x_scope.bundle
+2025-05-25 20:59:10,233 - INFO - bundles.json file has been generated.
