@@ -50,5 +50,61 @@
         "loyal_level_items": {
             "6833a72141e331ea9c6f32e8": 1
         }
+    },
+    "SKIER": {
+        "items": [
+            {
+                "_id": "683644c7b6781d782cef23dc",
+                "_tpl": "679f2453d1970258c1df3fce",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": false,
+                    "StackObjectsCount": 5,
+                    "BuyRestrictionMax": 4,
+                    "Repairable": {
+                        "Durability": 100,
+                        "MaxDurability": 100
+                    }
+                }
+            },
+            {
+                "_id": "683644ddabeaf04adeef23dd",
+                "_tpl": "679f24d15ff75ca48f6462a2",
+                "parentId": "683644c7b6781d782cef23dc",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "683644ebc0bbbcf187ef23de",
+                "_tpl": "679f24e723451339c041f28d",
+                "parentId": "683644c7b6781d782cef23dc",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "683644f9a620a0632aef23df",
+                "_tpl": "679f24e0434b197ed7a10468",
+                "parentId": "683644c7b6781d782cef23dc",
+                "slotId": "mod_pistolgrip"
+            },
+            {
+                "_id": "68364508f8b32e6fbcef23e0",
+                "_tpl": "679f24edc0aba3ffa139b03f",
+                "parentId": "683644c7b6781d782cef23dc",
+                "slotId": "mod_magazine"
+            }
+        ],
+        "barter_scheme": {
+            "683644c7b6781d782cef23dc": [
+                [
+                    {
+                        "count": 8250,
+                        "_tpl": "5449016a4bdc2d6f028b456f"
+                    }
+                ]
+            ]
+        },
+        "loyal_level_items": {
+            "683644c7b6781d782cef23dc": 1
+        }
     }
 }
