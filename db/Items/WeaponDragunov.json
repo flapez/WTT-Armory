@@ -7,7 +7,7 @@
       "ExaminedByDefault": true,
       "RecoilCamera": 0.087,
       "Prefab": {
-        "path": "WeaponDragunov/weapon_dragunov.bundle",
+        "path": "WeaponDragunov/weapon_dragunov_container.bundle",
         "rcid": ""
       },
       "Slots": [
@@ -329,7 +329,7 @@
       "RecoilForceUp": 205,
       "RecoilCamera": 0.087,
       "Prefab": {
-        "path": "WeaponDragunov/weapon_dragunovgreen.bundle",
+        "path": "WeaponDragunov/weapon_dragunovgreen_container.bundle",
         "rcid": ""
       },
       "Slots": [

@@ -33,7 +33,7 @@
       "CoolFactorGun": 3.168,
       "HeatFactorByShot": 3.29,
       "Prefab": {
-        "path": "WeaponM76/weapon_m76.bundle",
+        "path": "WeaponM76/weapon_m76_container.bundle",
         "rcid": ""
       },
       "defMagType": "66e887e85c11853b81a538f4",

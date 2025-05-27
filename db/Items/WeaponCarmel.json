@@ -16,7 +16,7 @@
       "BaseMalfunctionChance": 0.15,
       "DurabilityBurnRatio": 1.14,
       "Prefab": {
-        "path": "WeaponCarmel/weapon_carmel.bundle",
+        "path": "WeaponCarmel/weapon_carmel_container.bundle",
         "rcid": ""
       },
       "defAmmo": "54527a984bdc2d4e668b4567",
@@ -546,7 +546,7 @@
       "BaseMalfunctionChance": 0.15,
       "DurabilityBurnRatio": 1.14,
       "Prefab": {
-        "path": "WeaponCarmel/weapon_carmel_fde.bundle",
+        "path": "WeaponCarmel/weapon_carmel_fde_container.bundle",
         "rcid": ""
       },
       "defAmmo": "54527a984bdc2d4e668b4567",
