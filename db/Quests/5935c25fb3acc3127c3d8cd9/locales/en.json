@@ -1,0 +1,25 @@
+{
+  "6833b8bc6f8ce71072c4e703 name": "False Flag",
+  "6833b8bc6f8ce71072c4e703 description": "Contractor, we have a humanitarian crisis brewing. Hostile factions are targeting UN aid convoys in Woods - but the media needs proof. Plant 5 UNTAR tags near some faction hotspots, put them on a few executed bodies. When the world sees the BEAR and USEC are decimating the blue helmets, donations to our 'operations' will triple. Saving lives through proper optics.",
+  "6833b8bc6f8ce71072c4e703 startedMessageText": "Plant the tags, stage the bodies, vanish. If they trace this back or you get caught, you're a rogue actor.",
+  "6833b8bc6f8ce71072c4e703 successMessageText": "Reuters just ran a story condeming PMC factions for their brutal atrocities. Geneva is screaming for sanctions. Our funding is secured... For now.",
+  "6833b8bc6f8ce71072c4e703 failMessageText": "You compromised the operation. UNTAR is breathing down my neck. If you can't handle the work, don't take the job.",
+  "6833b8bc6f8ce71072c4e703 acceptPlayerMessage": "This isn’t deception - it’s documenting atrocities they’d commit anyway. Get to Woods.", 
+  "6833b8bc6f8ce71072c4e703 declinePlayerMessage": "Not interested? Fine. When UNTAR finally gets pushed out, and the scavs are beating down the door to your hideout? Don't call me begging for help.",
+  "6833b8bc6f8ce71072c4e703 completePlayerMessage": "Perfect. If you setup the scene well enough, the world will see the atrocities BEAR and USEC are doing - even if we had to rely on some fabrication.",
+  "6833b8bc6f8ce71072c4e703 note": "Plant UNTAR dog tags on bodies in Woods. Be sure to remain unseen.",
+  "6833b5381f542c94c22a2381": "Plant UNTAR Dog Tag on dead body at the South-Eastern Bridge, next to the utility shed",
+  "6833b53a7e7e09c54a256827": "Plant UNTAR Dog Tag on dead body inside the Western shed of the ruined town in the South",
+  "6833b53c406cbfdf307f0e05": "Plant UNTAR Dog Tag on dead body leaning against Electric Tower before the Southern lakes",
+
+
+  "683645245a1c12488166b1a5 name": "Nordic Remnants",
+  "683645245a1c12488166b1a5 description": "It seems our Swedish friends misplaced a hard drive during their 'audit' of Tarkov’s relief efforts. Retrieve it from their abandoned armored vehicle in Streets. Its contents are of high value to us: tax havens, embargoed tech sales, shipping manifests. This info, in the right hands, could ‘inspire’ Stockholm to reallocate UN aid budgets to our operations. A shame if their arms deals with TerraGroup leaked…",
+  "683645245a1c12488166b1a5 startedMessageText": "The vehicle’s near Concordia. Expect some private militia along the way — eliminate discreetly. If that drive’s damaged, don't bother returning.",
+  "683645245a1c12488166b1a5 successMessageText": "Funny, Stockholm just pledged 10,000 antibiotic doses, and sent us some leftover munitions... after I *shared* a few file excerpts. How altruistic of them.",
+  "683645245a1c12488166b1a5 acceptPlayerMessage": "Just be sure to get that drive back to me intact. If we play our cards right, this should be a decent payday.",
+  "683645245a1c12488166b1a5 declinePlayerMessage": "Really? You're that scared of some action in the Streets? Didn't take you for a coward.",
+  "683645245a1c12488166b1a5 completePlayerMessage": "Another successful op in the books. We make quite the convincing argument for the cause. Check my stores next time you're around - the Swedes sent us some new shiny metal toys to pay for our silence.",
+  "683645245a1c12488166b1a5 note": "Retrieve Swedish intel drive from armored vehicle (Streets)",
+  "68363e9928ef789b2ccf31a1": "Get the hard drive from the APC near the helicopter crash site in Streets"
+}

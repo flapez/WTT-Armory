@@ -1,0 +1,70 @@
+{
+  "6834f82e5cab6617274214a5": {
+    "itemTplToClone": "591092ef86f7747bb8703422",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b619f1a86f77450a702a6f3",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "assets/content/items/barter/item_barter_dogtags/item_barter_dogtags_usec_tue.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Dogtag UNTAR",
+        "shortName": "UN",
+        "description": "Some 'acquired' Dogtags of some recently deceased UN soldiers. I wonder where Peacekeeper got them from..."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 225,
+    "handbookPriceRoubles": 170,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "683647bb7afb4f25023acf7a": {
+    "itemTplToClone": "6575a6ca8778e96ded05a802",
+    "parentId": "57864a66245977548f04a81f",
+    "handbookParentId": "5b619f1a86f77450a702a6f3",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "assets/content/items/barter/item_barter_electr_hdd/item_barter_electr_hdd_quest.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Swedish Intel hard drive",
+        "shortName": "HDD",
+        "description": "Hard drive recovered from a Swedish armored vehicle in Streets. It's said to containt some extremely sensitive material."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 225,
+    "handbookPriceRoubles": 170,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  }
+}

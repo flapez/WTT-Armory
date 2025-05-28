@@ -1,0 +1,53 @@
+{
+    "factory4_day": [
+    ],
+    "sandbox": [
+    ],
+    "interchange": [
+    ],
+    "woods": [
+    ],
+    "shoreline": [
+    ],
+    "tarkovstreets": [
+        {
+            "locationId": "(14.6785 2.9911 446.7815)",
+            "probability": 1,
+            "template": {
+                "Id": "nordic_remnants_hdd_questitem_spawn",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": 14.6785,
+                    "y": 2.9911,
+                    "z": 446.7815
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "6836527668e921cb59364017",
+                "Items": [
+                    {
+                        "_id": "6836527668e921cb59364017",
+                        "_tpl": "683647bb7afb4f25023acf7a",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            }
+        }
+    ],
+    "rezervbase": [
+    ],
+    "laboratory": [
+    ],
+    "bigmap": [
+    ]
+}

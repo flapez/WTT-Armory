@@ -1,0 +1,260 @@
+{
+  "6833b8bc6f8ce71072c4e703": {
+    "QuestName": "False Flag",
+    "_id": "6833b8bc6f8ce71072c4e703",
+    "traderId": "5935c25fb3acc3127c3d8cd9",
+    "type": "PickUp",
+    "location": "5704e3c2d2720bac5b8b4567",
+    "image": "/files/quest/icon/59c273da86f77459b8017e7b.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "6833b8bc6f8ce71072c4e703 description",
+    "startedMessageText": "6833b8bc6f8ce71072c4e703 startedMessageText",
+    "successMessageText": "6833b8bc6f8ce71072c4e703 successMessageText",
+    "failMessageText": "6833b8bc6f8ce71072c4e703 failMessageText",
+    "acceptPlayerMessage": "6833b8bc6f8ce71072c4e703 acceptPlayerMessage",
+    "declinePlayerMessage": "6833b8bc6f8ce71072c4e703 declinePlayerMessage",
+    "completePlayerMessage": "6833b8bc6f8ce71072c4e703 completePlayerMessage",
+    "changeQuestMessageText": "6833b8bc6f8ce71072c4e703 changeQuestMessageText",
+    "name": "6833b8bc6f8ce71072c4e703 name",
+    "note": "6833b8bc6f8ce71072c4e703 note",
+    "restartable": true,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "6833b5381f542c94c22a2381",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 10,
+          "target": [
+            "6834f82e5cab6617274214a5"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "deadbody_1",
+          "dynamicLocale": false
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "6833b53a7e7e09c54a256827",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 10,
+          "target": [
+            "6834f82e5cab6617274214a5"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "deadbody_2",
+          "dynamicLocale": false
+        },
+        {
+          "conditionType": "LeaveItemAtLocation",
+          "dogtagLevel": 0,
+          "id": "6833b53c406cbfdf307f0e05",
+          "index": 4,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "plantTime": 10,
+          "target": [
+            "6834f82e5cab6617274214a5"
+          ],
+          "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "deadbody_3",
+          "dynamicLocale": false
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6833b8bc14256d4f0c7cd7b9",
+          "index": 0,
+          "parentId": "",
+          "value": 25,
+          "visibilityConditions": []
+        },
+        {
+          "compareMethod": ">=",
+          "conditionType": "TraderLoyalty",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6833b8bc9d5ef78a30d776af",
+          "index": 1,
+          "parentId": "",
+          "target": "5935c25fb3acc3127c3d8cd9",
+          "value": 0,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [
+        {
+          "findInRaid": true,
+          "id": "6834f932c55873aa99532a48",
+          "index": 0,
+          "items": [
+            {
+              "_id": "6834f932125f7ff1772cdff6",
+              "_tpl": "6834f82e5cab6617274214a5",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "6834f932125f7ff1772cdff6",
+          "type": "Item",
+          "value": "1"
+        }
+      ],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "6833b8bc43319ad8d812b6b8",
+          "index": 0,
+          "type": "Experience",
+          "value": "2500",
+          "unknown": false
+        }
+      ]
+    }
+  },
+    "683645245a1c12488166b1a5": {
+      "QuestName": "Nordic Remnants",
+      "_id": "683645245a1c12488166b1a5",
+      "traderId": "5935c25fb3acc3127c3d8cd9",
+      "type": "PickUp",
+      "location": "5714dc692459777137212e12",
+      "image": "path/to/quest/image.png",
+      "acceptanceAndFinishingSource": "eft",
+      "arenaLocations": [],
+      "instantComplete": false,
+      "isKey": false,
+      "secretQuest": false,
+      "gameModes": [],
+      "progressSource": "eft",
+      "rankingModes": [],
+      "side": "Pmc",
+      "sideExclusive": "Pmc",
+      "description": "683645245a1c12488166b1a5 description",
+      "startedMessageText": "683645245a1c12488166b1a5 startedMessageText",
+      "successMessageText": "683645245a1c12488166b1a5 successMessageText",
+      "failMessageText": "683645245a1c12488166b1a5 failMessageText",
+      "acceptPlayerMessage": "683645245a1c12488166b1a5 acceptPlayerMessage",
+      "declinePlayerMessage": "683645245a1c12488166b1a5 declinePlayerMessage",
+      "completePlayerMessage": "683645245a1c12488166b1a5 completePlayerMessage",
+      "changeQuestMessageText": "683645245a1c12488166b1a5 changeQuestMessageText",
+      "name": "683645245a1c12488166b1a5 name",
+      "note": "683645245a1c12488166b1a5 note",
+      "restartable": false,
+      "canShowNotificationsInGame": true,
+      "status": 0,
+      "conditions": {
+        "AvailableForFinish": [
+          {
+            "conditionType": "FindItem",
+            "countInRaid": false,
+            "dogtagLevel": 0,
+            "dynamicLocale": false,
+            "globalQuestCounterId": "",
+            "id": "68363e9928ef789b2ccf31a1",
+            "index": 0,
+            "isEncoded": false,
+            "maxDurability": 100,
+            "minDurability": 0,
+            "onlyFoundInRaid": false,
+            "parentId": "",
+            "target": [
+                "683647bb7afb4f25023acf7a"
+            ],
+            "value": 1,
+            "visibilityConditions": []
+        }
+        ],
+        "AvailableForStart": [
+          {
+            "availableAfter": 0,
+            "conditionType": "Quest",
+            "dispersion": 0,
+            "dynamicLocale": false,
+            "globalQuestCounterId": "",
+            "id": "68364524012be9fa91eb0539",
+            "index": 0,
+            "parentId": "",
+            "status": [
+              4
+            ],
+            "target": "6833b8bc6f8ce71072c4e703",
+            "visibilityConditions": []
+          }
+        ],
+        "Fail": []
+      },
+      "rewards": {
+        "Fail": [],
+        "Started": [],
+        "Success": [
+          {
+            "availableInGameEditions": [],
+            "id": "683645243b37dda922a23309",
+            "index": 0,
+            "type": "Experience",
+            "value": "5000",
+            "unknown": false
+          },
+          {
+            "availableInGameEditions": [],
+            "id": "6836452446c3f11d5bcc53ec",
+            "index": 1,
+            "items": [
+              {
+                "_id": "68364aea4b4f530c67503db4",
+                "_tpl": "6671ebcdd32bd95eb398e920"
+              }
+            ],
+            "loyaltyLevel": 3,
+            "target": "68364aea4b4f530c67503db4",
+            "traderId": "5935c25fb3acc3127c3d8cd9",
+            "type": "AssortmentUnlock",
+            "unknown": false
+          }
+        ]
+      }
+    }
+  }

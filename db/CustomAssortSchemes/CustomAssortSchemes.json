@@ -9,6 +9,15 @@
                 "upd": {
                     "StackObjectsCount": 15000
                 }
+            },
+            {
+                "_id": "68364aea4b4f530c67503db4",
+                "_tpl": "6671ebcdd32bd95eb398e920",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "StackObjectsCount": 15000
+                }
             }
         ],
         "barter_scheme": {
@@ -19,10 +28,19 @@
                         "_tpl": "5696686a4bdc2da3298b456a"
                     }
                 ]
+            ],
+            "68364aea4b4f530c67503db4": [
+                [
+                    {
+                        "count": 42060,
+                        "_tpl": "5696686a4bdc2da3298b456a"
+                    }
+                ]
             ]
         },
         "loyal_level_items": {
-            "6833a7189e4c0ab1a8ed7c7d": 1
+            "6833a7189e4c0ab1a8ed7c7d": 1,
+            "68364aea4b4f530c67503db4": 3
         }
     },
     "MECHANIC": {
