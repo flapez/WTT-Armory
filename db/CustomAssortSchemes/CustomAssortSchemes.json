@@ -74,6 +74,95 @@
                 "_tpl": "683222ec8d737be9715552a9",
                 "parentId": "683a8743f65be1496e4a123f",
                 "slotId": "mod_magazine"
+            },
+			{
+				"_id": "684241fb39dbf03ff4049a64",
+				"_tpl": "67a01e4ea2b82626b73d10a3",
+				"parentId": "hideout",
+				"slotId": "hideout",
+				"upd": {
+					"Repairable": {
+						"MaxDurability": 100,
+						"Durability": 100
+					},
+					"FireMode": {
+						"FireMode": "single"
+					}
+				}
+			},
+			{
+				"_id": "684241fb39dbf03ff4049a65",
+				"_tpl": "5aaa5dfee5b5b000140293d3",
+				"slotId": "mod_magazine",
+				"parentId": "684241fb39dbf03ff4049a64"
+			},
+			{
+				"_id": "684241fb39dbf03ff4049a66",
+				"_tpl": "67a01e4ea2b82626b73d10bc",
+				"slotId": "mod_reciever",
+				"parentId": "684241fb39dbf03ff4049a64"
+			},
+			{
+				"_id": "684241fb39dbf03ff4049a67",
+				"_tpl": "67a01e4ea2b82626b73d10af",
+				"slotId": "mod_handguard",
+				"parentId": "684241fb39dbf03ff4049a64"
+			},
+			{
+				"_id": "684241fb39dbf03ff4049a68",
+				"_tpl": "67a01e4ea2b82626b73d10ab",
+				"slotId": "mod_barrel",
+				"parentId": "684241fb39dbf03ff4049a64"
+			},
+			{
+				"_id": "684241fb39dbf03ff4049a69",
+				"_tpl": "67a01e4ea2b82626b73d10b6",
+				"slotId": "mod_stock",
+				"parentId": "684241fb39dbf03ff4049a64"
+			},
+			{
+				"_id": "684241fb39dbf03ff4049a6b",
+				"_tpl": "5b3b99265acfc4704b4a1afb",
+				"slotId": "mod_scope",
+				"parentId": "684241fb39dbf03ff4049a66"
+			},
+			{
+				"_id": "684241fb39dbf03ff4049a6c",
+				"_tpl": "5b057b4f5acfc4771e1bd3e9",
+				"slotId": "mod_foregrip",
+				"parentId": "684241fb39dbf03ff4049a67"
+			},
+			{
+				"_id": "684241fb39dbf03ff4049a6d",
+				"_tpl": "5b07dd285acfc4001754240d",
+				"slotId": "mod_tactical",
+				"parentId": "684241fb39dbf03ff4049a67"
+			},
+			{
+				"_id": "684241fb39dbf03ff4049a6e",
+				"_tpl": "5c7954d52e221600106f4cc7",
+				"slotId": "mod_muzzle",
+				"parentId": "684241fb39dbf03ff4049a68"
+			},
+			{
+				"_id": "684241fb39dbf03ff4049a6f",
+				"_tpl": "618ba27d9008e4636a67f61d",
+				"slotId": "mod_scope",
+				"upd": {
+					"Sight": {
+						"ScopesCurrentCalibPointIndexes": [0],
+						"ScopesSelectedModes": [0],
+						"SelectedScope": 0,
+						"ScopeZoomValue": 0
+					}
+				},
+				"parentId": "684241fb39dbf03ff4049a6b"
+			},
+			{
+				"_id": "684241fb39dbf03ff4049a70",
+				"_tpl": "5c7955c22e221644f31bfd5e",
+				"slotId": "mod_muzzle",
+				"parentId": "684241fb39dbf03ff4049a6e"
             }
         ],
         "barter_scheme": {
@@ -90,13 +179,26 @@
                     {
                         "count": 17450,
                         "_tpl": "5449016a4bdc2d6f028b456f"
+                     }
+                ]
+            ],
+            "684241fb39dbf03ff4049a64": [
+                [
+                    {
+                        "count": 1,
+                        "_tpl": "5c12620d86f7743f8b198b72"
+                    },
+                    {
+                        "count": 1,
+                        "_tpl": "57347ca924597744596b4e71"           
                     }
                 ]
             ]
         },
         "loyal_level_items": {
             "6833a72141e331ea9c6f32e8": 1,
-            "683a8743f65be1496e4a123f": 1
+            "683a8743f65be1496e4a123f": 1,
+            "684241fb39dbf03ff4049a64": 1
         }
     },
     "SKIER": {
