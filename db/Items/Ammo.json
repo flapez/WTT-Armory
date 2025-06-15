@@ -29,7 +29,7 @@
       "en": {
         "name": "7.92x57mm FMJ",
         "shortName": "FMJ",
-        "description": "The 7.92x57mm Mauser is a rimless bottlenecked rifle cartridge. The 7.92x57mm Mauser cartridge was adopted by the German Empire in 1903x1905, and was the German service cartridge in both World Wars. In its prime, the 7.92x57mm Mauser cartridge was one of the world's most popular military cartridges. In the 21st century it is still a popular sport and hunting cartridge that is factory-produced in Europe and the United States."
+        "description": "Standard full metal jacket 7.92x57mm cartridge."
       }
     },
     "clearClonedProps": false,
@@ -74,12 +74,12 @@
       "HeatFactor": 1.37,
       "MalfFeedChance": 0.036
     },
-    "locales": {
-      "en": {
-        "name": "7.92x57mm SP",
-        "shortName": "SP",
-        "description": "The 7.92x57mm Mauser is a rimless bottlenecked rifle cartridge. The 7.92x57mm Mauser cartridge was adopted by the German Empire in 1903x1905, and was the German service cartridge in both World Wars. In its prime, the 7.92x57mm Mauser cartridge was one of the world's most popular military cartridges. In the 21st century it is still a popular sport and hunting cartridge that is factory-produced in Europe and the United States."
-      }
+      "locales": {
+        "en": {
+          "name": "7.92x57mm SP",
+          "shortName": "SP",
+          "description": "Civilian hunting 7.92x57mm soft point cartridge."
+        }
     },
     "clearClonedProps": false,
     "addtoInventorySlots": [],

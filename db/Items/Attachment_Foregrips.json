@@ -9,7 +9,8 @@
         "path": "Attachment_Foregrips/foregrip_ak5c_tangodown.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+      "ConflictingItems": ["62e7e7bbe6da9612f743f1e0"]
     },
     "locales": {
       "en": {
@@ -44,7 +45,8 @@
         "path": "Attachment_Foregrips/foregrip_sturmgriff_blk.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+      "ConflictingItems": ["62e7e7bbe6da9612f743f1e0"]
     },
     "locales": {
       "en": {
