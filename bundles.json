@@ -2282,6 +2282,157 @@
             ]
         },
         {
+            "key": "WeaponM249/m249_barrellong.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/m249_barrelshort.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/m249_bipod.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/m249_foregrip_saw.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/m249_fs.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/m249_handguardheavy.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/m249_handguardminimalist.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/m249_handguardod.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/m249_handguardtactical.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/m249_muzzle.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/m249_parastock.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/m249_stdhandguard.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/m249_stdstock1.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/mag_m249.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/mag_m249_lmg_100_rounder.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/stock_buffer_m249.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/stock_moe_m249.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponM249/weapon_m249_container.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/audio/blendoptions/assets.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle"
+            ]
+        },
+        {
             "key": "WeaponM76/drummag75rnd.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -2665,6 +2816,165 @@
                 "assets/content/audio/weapons/generic",
                 "assets/content/audio/blendoptions/assets.bundle",
                 "assets/content/weapons/additional_hands/client_assets.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/weapon_staccato_xc_container.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle",
+                "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+                "assets/systems/effects/heathaze/defaultheathaze.bundle",
+                "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+                "assets/content/audio/weapons/generic",
+                "assets/content/audio/blendoptions/assets.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_barrel.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_fs.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_hammer.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_hammer_comp.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_hammer_stainless.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_hammer_tactical.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_longbarrel.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_longslide.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_magazine.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_magazine_ext.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_magwell.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_opticplate.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_rs.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_slide.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_trigger.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_trigger_comp.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_trigger_lightweight.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponStaccatoXC/xc_trigger_stainless.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
             ]
         },
         {

@@ -4,11 +4,12 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "Ergonomics": 73,
-      "RecoilForceBack": 250,
-      "RecoilForceUp": 300,
+      "Ergonomics": 83,
+      "RecoilForceBack": 246,
+      "RecoilForceUp": 284,
       "RecoilDampingHandRotation": 0.76,
       "RecoilCamera": 0.006,
+      "Weight": 0.320,
       "Prefab": {
         "path": "WeaponCZ75/weapon_cz75b_container.bundle",
         "rcid": ""
@@ -165,6 +166,8 @@
     "parentId": "555ef6e44bdc2de9068b457e",
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
+      "Weight": 0.192,
+      "Ergonomics": -3,
       "Prefab": {
         "path": "WeaponCZ75/cz75_barrel_threaded.bundle",
         "rcid": ""
@@ -228,6 +231,7 @@
     "parentId": "555ef6e44bdc2de9068b457e",
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
+      "Weight": 0.186,
       "Prefab": {
         "path": "WeaponCZ75/cz75_barrel.bundle",
         "rcid": ""
@@ -265,6 +269,7 @@
     "parentId": "55818a304bdc2db5418b457d",
     "handbookParentId": "5b5f764186f77447ec5d7714",
     "overrideProperties": {
+      "Weight": 0.390,
       "Prefab": {
         "path": "WeaponCZ75/cz75b_slide.bundle",
         "rcid": ""
@@ -308,7 +313,7 @@
       },
       "Ergonomics": -2,
       "MalfunctionChance": 0.03,
-      "Weight": 0.1,
+      "Weight": 0.084,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -340,6 +345,7 @@
     "parentId": "55818a304bdc2db5418b457d",
     "handbookParentId": "5b5f764186f77447ec5d7714",
     "overrideProperties": {
+      "Weight": 0.390,
       "Prefab": {
         "path": "WeaponCZ75/cz75b_omega_slide.bundle",
         "rcid": ""
@@ -377,11 +383,12 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "Ergonomics": 77,
-      "RecoilForceBack": 250,
-      "RecoilForceUp": 300,
+      "Ergonomics": 79,
+      "RecoilForceBack": 238,
+      "RecoilForceUp": 278,
       "RecoilDampingHandRotation": 0.76,
       "RecoilCamera": 0.006,
+      "Weight": 0.344,
       "Prefab": {
         "path": "WeaponCZ75/weapon_cz75b_omega_container.bundle",
         "rcid": ""
