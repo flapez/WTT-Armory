@@ -4,14 +4,16 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "Ergonomics": 80,
+      "Ergonomics": 66,
       "HeatFactorGun": 1.04,
-      "RecoilForceBack": 260,
-      "RecoilForceUp": 311,
-      "RecoildReturnSpeedHandRotation": 4,
-      "RecoilCamera": 0.007,
+      "RecoilForceBack": 256,
+      "RecoilForceUp": 300,"RecoilCategoryMultiplierHandRotation": 0.1,
+	  "RecoilDampingHandRotation": 0.8,
+      "RecoildReturnSpeedHandRotation": 3,
+	  "RecoilReturnPathOffsetHandRotation": 0.01,
+      "RecoilCamera": 0.012,
       "bFirerate": 30,
-      "Weight": 0.231,
+      "Weight": 0.420,
       "isChamberLoad": false,
       "ManualBoltCatch": true,
       "Prefab": {
@@ -195,6 +197,7 @@
         "path": "WeaponC9/c9_barrel.bundle",
         "rcid": ""
       },
+      "Weight": 0.125,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -230,6 +233,7 @@
         "path": "WeaponC9/c9_slide.bundle",
         "rcid": ""
       },
+      "Weight": 0.390,
       "Slots": [],
       "ExaminedByDefault": true
     },
@@ -266,6 +270,7 @@
         "path": "WeaponC9/c9_magazine.bundle",
         "rcid": ""
       },
+      "Weight": 0.054,
       "ExaminedByDefault": true,
       "Cartridges": [
         {
@@ -327,6 +332,7 @@
         "path": "WeaponC9/c9_grips.bundle",
         "rcid": ""
       },
+      "Weight": 0.080,
       "ExaminedByDefault": true
     },
     "locales": {

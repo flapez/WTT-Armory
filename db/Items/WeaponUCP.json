@@ -4,6 +4,12 @@
         "parentId": "5447b5cf4bdc2d65278b4567",
         "handbookParentId": "5b5f792486f77447ed5636b3",
         "overrideProperties": {
+			"Ergonomics": 89,
+			"RecoilForceBack": 218,
+			"RecoilForceUp": 248,
+			"RecoilCamera": 0.007,
+			"RecolDispersion": 9,
+			"Weight":0.398,
             "Prefab": {
                 "path": "WeaponUCP/weapon_ucp_container.bundle",
                 "rcid": ""
@@ -230,6 +236,7 @@
         "parentId": "5448bc234bdc2d3c308b4569",
         "handbookParentId": "5b5f754a86f774094242f19b",
         "overrideProperties": {
+			"Weight":0.092,
             "Prefab": {
                 "path": "WeaponUCP/ucp_magazine.bundle",
                 "rcid": ""
@@ -265,6 +272,7 @@
         "parentId": "555ef6e44bdc2de9068b457e",
         "handbookParentId": "5b5f75c686f774094242f19f",
         "overrideProperties": {
+			"Weight":0.166,
             "Prefab": {
                 "path": "WeaponUCP/ucp_barrel.bundle",
                 "rcid": ""
@@ -301,6 +309,8 @@
         "parentId": "555ef6e44bdc2de9068b457e",
         "handbookParentId": "5b5f75c686f774094242f19f",
         "overrideProperties": {
+			"Weight":0.174,
+			"Ergonomics": 1,
             "Prefab": {
                 "path": "WeaponUCP/ucp_barrel_threaded.bundle",
                 "rcid": ""
@@ -356,6 +366,7 @@
         "parentId": "55818ac54bdc2d5b648b456e",
         "handbookParentId": "5b5f746686f77447ec5d7708",
         "overrideProperties": {
+			"Weight":0.01,
             "Prefab": {
                 "path": "WeaponUCP/ucp_rs.bundle",
                 "rcid": ""
@@ -391,6 +402,7 @@
         "parentId": "55818b224bdc2dde698b456f",
         "handbookParentId": "5b5f755f86f77447ec5d770e",
         "overrideProperties": {
+			"Weight":0.08,
             "Prefab": {
                 "path": "WeaponUCP/ucp_rail.bundle",
                 "rcid": ""
@@ -425,6 +437,8 @@
         "parentId": "55818a684bdc2ddd698b456d",
         "handbookParentId": "5b5f761f86f774094242f1a1",
         "overrideProperties": {
+			"Weight":0.06,
+			"Ergonomics": 4,
             "Prefab": {
                 "path": "WeaponUCP/ucp_grips.bundle",
                 "rcid": ""
@@ -468,11 +482,11 @@
                 "rcid": ""
             },
             "muzzleModType": "conpensator",
-            "Weight": 0.15,
+            "Weight": 0.16,
             "DurabilityBurnModificator": 0.96,
             "Ergonomics": -3,
             "Accuracy": 1,
-            "Recoil": -13,
+            "Recoil": -11,
             "ConflictingItems": ["6843749dcc3ddb0f04d2455c"],
             "Slots": [
                 {
