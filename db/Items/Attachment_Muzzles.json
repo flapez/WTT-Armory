@@ -37,7 +37,7 @@
         "locales": {
             "en": {
                 "name": "OSS 762 QD Muzzle Brake",
-                "shortName": "OSS QD",
+                "shortName": "OSS QD test",
                 "description": "A 2-port muzzle brake manufactured by OSS to act as a host for the OSS Helix QD 762 Suppressor."
             }
         },
