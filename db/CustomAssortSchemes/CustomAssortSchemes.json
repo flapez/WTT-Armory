@@ -373,7 +373,64 @@
                 "_id": "684e41392435082f5ab00bc9",
                 "_tpl": "68433b836de7d8ce99c642c6",
                 "parentId": "684e4117cb85469dfc76dd4d",
-                "slotId": "mod_magazine"       
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "6850d93879b6552e17df49e6",
+                "_tpl": "68452c3da87156b67d9ec538",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": false,
+                    "StackObjectsCount": 10,
+                    "BuyRestrictionMax": 5,
+                    "Repairable": {
+                        "Durability": 100,
+                        "MaxDurability": 100
+                    }
+                }
+            },
+            {
+                "_id": "6850d9513c998daf51df49e7",
+                "_tpl": "68452ea1e41a7fbeb0b2ff4e",
+                "parentId": "6850d93879b6552e17df49e6",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "6850d95eab6b1eb974df49e8",
+                "_tpl": "684602de00667a8b3a8c1881",
+                "parentId": "6850d93879b6552e17df49e6",
+                "slotId": "mod_trigger"
+            },
+            {
+                "_id": "6850d9bf2a3b80e66adf49e9",
+                "_tpl": "684602c4cb2dfb57366dbea3",
+                "parentId": "6850d93879b6552e17df49e6",
+                "slotId": "mod_hammer"
+            },
+            {
+                "_id": "6850d9d0fda5a3ec6edf49ea",
+                "_tpl": "68452ddf08572b1e3c35081c",
+                "parentId": "6850d93879b6552e17df49e6",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "6850d9f24d08500f29df49eb",
+                "_tpl": "6846039a06cd8ba4da4b764c",
+                "parentId": "6850d9d0fda5a3ec6edf49ea",
+                "slotId": "mod_scope"
+            },
+            {
+                "_id": "6850da00fb0201d455df49ec",
+                "_tpl": "68452da6051e580c48ede835",
+                "parentId": "6850d93879b6552e17df49e6",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "6850da104e1eb028c1df49ed",
+                "_tpl": "6846049fd008e00428409f24",
+                "parentId": "6850da00fb0201d455df49ec",
+                "slotId": "mod_sight_front"                 
             }
         ],
         "barter_scheme": {
@@ -424,8 +481,8 @@
             "684e3dbfdec741df4d62bbbc": [
                 [
                     {
-                        "count": 245,
-                        "_tpl": "5696686a4bdc2da3298b456a"
+                        "count": 27500,
+                        "_tpl": "5449016a4bdc2d6f028b456f"
                     }
                 ]
             ],
@@ -434,6 +491,14 @@
                     {
                         "count": 2,
                         "_tpl": "5d1b2ffd86f77425243e8d17"
+                    }
+                ]
+            ],
+            "6850d93879b6552e17df49e6": [
+                [
+                    {
+                        "count": 20000,
+                        "_tpl": "5449016a4bdc2d6f028b456f"    
                     }
                 ]
             ]
@@ -445,7 +510,8 @@
             "6843d026d8580c33adada1ec": 3,
             "684e38f727312e8909a1655f": 3,
             "684e3dbfdec741df4d62bbbc": 2,
-            "684e4117cb85469dfc76dd4d": 1
+            "684e4117cb85469dfc76dd4d": 1,
+            "6850d93879b6552e17df49e6": 2
         }
     },
     "SKIER": {
