@@ -2,17 +2,110 @@
     "PEACEKEEPER": {
         "items": [
             {
-                "_id": "68364aea4b4f530c67503db4",
+                "_id": "685632ddabcc4d4ec803bc18",
                 "_tpl": "6671ebcdd32bd95eb398e920",
-                "parentId": "hideout",
-                "slotId": "hideout",
                 "upd": {
-                    "StackObjectsCount": 15000
-                }
+                    "Repairable": {
+                        "MaxDurability": 100,
+                        "Durability": 100
+                    },
+                    "Foldable": {
+                        "Folded": false
+                    },
+                    "FireMode": {
+                        "FireMode": "single"
+                    },
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 99999,
+                    "BuyRestrictionMax": 0
+                },
+                "parentId": "hideout",
+                "slotId": "hideout"
+            },
+            {
+                "_id": "685632ddabcc4d4ec803bc19",
+                "_tpl": "6671ec6e0bebf6ee2d5abf61",
+                "slotId": "mod_pistol_grip",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "685632ddabcc4d4ec803bc18"
+            },
+            {
+                "_id": "685632ddabcc4d4ec803bc1a",
+                "_tpl": "6828b1226ef8b54f3f63a678",
+                "slotId": "mod_magazine",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "685632ddabcc4d4ec803bc18"
+            },
+            {
+                "_id": "685632ddabcc4d4ec803bc1b",
+                "_tpl": "6671ecb42225b07c8afc4ce3",
+                "slotId": "mod_stock",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "685632ddabcc4d4ec803bc18"
+            },
+            {
+                "_id": "685632ddabcc4d4ec803bc1c",
+                "_tpl": "6671ece3365d10b3362eb40f",
+                "slotId": "mod_handguard",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "685632ddabcc4d4ec803bc18"
+            },
+            {
+                "_id": "685632ddabcc4d4ec803bc1d",
+                "_tpl": "6671ed5805ef46250c47e46a",
+                "slotId": "mod_muzzle",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "685632ddabcc4d4ec803bc18"
+            },
+            {
+                "_id": "685632ddabcc4d4ec803bc1e",
+                "_tpl": "682b9dd126018d7470776a59",
+                "slotId": "mod_foregrip",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "685632ddabcc4d4ec803bc1c"
+            },
+            {
+                "_id": "685632ddabcc4d4ec803bc1f",
+                "_tpl": "682b9cb8150b5a86eeaed3fa",
+                "slotId": "mod_tactical_001",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "685632ddabcc4d4ec803bc1c"
+            },
+            {
+                "_id": "685632ddabcc4d4ec803bc20",
+                "_tpl": "682b9d50a05fef25589376d4",
+                "slotId": "mod_tactical_002",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "685632ddabcc4d4ec803bc1c"
+            },
+            {
+                "_id": "685632ddabcc4d4ec803bc21",
+                "_tpl": "682b9cb8150b5a86eeaed3fa",
+                "slotId": "mod_tactical_003",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "685632ddabcc4d4ec803bc1c"
             }
         ],
         "barter_scheme": {
-            "68364aea4b4f530c67503db4": [
+            "685632ddabcc4d4ec803bc18": [
                 [
                     {
                         "count": 789,
@@ -22,7 +115,7 @@
             ]
         },
         "loyal_level_items": {
-            "68364aea4b4f530c67503db4": 3
+            "685632ddabcc4d4ec803bc18": 3
         }
     },
     "MECHANIC": {
