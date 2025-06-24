@@ -41,12 +41,12 @@ export class QuestAPI
          * Wipe all quest data in the database
          * When I say all, I actually mean it...
          */
-    public wipeQuestDb(): void 
+    /*public wipeQuestDb(): void 
     {
         this.instanceManager.database.templates.quests = this.emptyDb;
         this.instanceManager.logger.log(`[${this.instanceManager.modName}] QuestAPI: Wiped all base quest data.`, LogTextColor.GREEN);
     }
-    /*public loadQuestsRepeatableTemplateFromDisk(): void
+    public loadQuestsRepeatableTemplateFromDisk(): void
     {
         const rQuestJsonString = fs.readFileSync(this.instanceManager.dbPath.concat("/Quests/repeatableQuests.json"), "utf-8");
         const jsonData: IRepeatableQuestDatabase = JSON.parse(rQuestJsonString) as IRepeatableQuestDatabase;
@@ -60,8 +60,8 @@ export class QuestAPI
 
     /**
      * Loads all quest files from disk.
-     * \user\mods\WelcomeToTarkov\db\quests\{trader}
-     * \user\mods\WelcomeToTarkov\db\quests\{trader}\locales
+     * \user\mods\WTT-Armory\db\quests\{trader}
+     * \user\mods\WTT-Armory\db\quests\{trader}\locales
      * 
      * @param {string} trader     Trader to load quests for.
      * @return {any[]}            Returns an array of parsed json objects

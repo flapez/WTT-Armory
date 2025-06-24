@@ -21,31 +21,31 @@ export class TraderQuestReplacer
         this.instanceManager = Instance;
         // Change base trader quests
 
-        this.instanceManager.questApi.loadQuestsFromDirectory("Therapist");
-        this.instanceManager.questApi.importQuestZones(TherapistZones, "Therapist");
+        //this.instanceManager.questApi.loadQuestsFromDirectory("Therapist");
+        //this.instanceManager.questApi.importQuestZones(TherapistZones, "Therapist");
 
-        this.instanceManager.questApi.loadQuestsFromDirectory("Ragman");
-        this.instanceManager.questApi.importQuestZones(RagmanZones, "Ragman");
+        //this.instanceManager.questApi.loadQuestsFromDirectory("Ragman");
+        //this.instanceManager.questApi.importQuestZones(RagmanZones, "Ragman");
 
-        this.instanceManager.questApi.loadQuestsFromDirectory("mechanic");
-        this.instanceManager.questApi.importQuestZones(mechanicZones, "mechanic");
+        this.instanceManager.questApi.loadQuestsFromDirectory("Mechanic");
+        this.instanceManager.questApi.importQuestZones(mechanicZones, "Mechanic");
 
-        this.instanceManager.questApi.loadQuestsFromDirectory("54cb50c76803fa8b248b4571");
-        this.instanceManager.questApi.importQuestZones(PraporZones, "54cb50c76803fa8b248b4571");
+        this.instanceManager.questApi.loadQuestsFromDirectory("Prapor");
+        this.instanceManager.questApi.importQuestZones(PraporZones, "Prapor");
 
-        this.instanceManager.questApi.loadQuestsFromDirectory("Jaeger");
+        //this.instanceManager.questApi.loadQuestsFromDirectory("Jaeger");
         //this.instanceManager.questApi.importQuestZones(JaegerZones, "Jaeger");
 
-        this.instanceManager.questApi.loadQuestsFromDirectory("Skier");
+        //this.instanceManager.questApi.loadQuestsFromDirectory("Skier");
         //this.instanceManager.questApi.importQuestZones(SkierZones, "Skier");
 
-        this.instanceManager.questApi.loadQuestsFromDirectory("5935c25fb3acc3127c3d8cd9");
-        //this.instanceManager.questApi.importQuestZones(PeaceKeeperZones, "5935c25fb3acc3127c3d8cd9");
+        this.instanceManager.questApi.loadQuestsFromDirectory("PeaceKeeper");
+        //this.instanceManager.questApi.importQuestZones(PeaceKeeperZones, "PeaceKeeper");
 
-        this.instanceManager.questApi.loadQuestsFromDirectory("Ref");
-        this.instanceManager.questApi.importQuestZones(RefZones, "RefZones");
+        //this.instanceManager.questApi.loadQuestsFromDirectory("Ref");
+        //this.instanceManager.questApi.importQuestZones(RefZones, "RefZones");
 
-        this.instanceManager.questApi.loadQuestsFromDirectory("Lightkeeper");
+        //this.instanceManager.questApi.loadQuestsFromDirectory("Lightkeeper");
         //this.instanceManager.questApi.importQuestZones(LightKeeperZones, "Lightkeeper");
 
         //this.instanceManager.questApi.loadQuestsFromDirectory("Artem");

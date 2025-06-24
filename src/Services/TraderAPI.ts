@@ -27,12 +27,6 @@ export class TraderAPI
     {
     }
     
-    public lockPeaceKeeper(database: IDatabaseTables): void
-    {
-        const traders = database.traders;
-        const peaceKeeper = traders["5935c25fb3acc3127c3d8cd9"].base;
-        peaceKeeper.unlockedByDefault = true;
-    }
     /**
      *  Trader to load database for 
      *  db/Traders/@param trader/{content}

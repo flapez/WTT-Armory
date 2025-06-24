@@ -21,6 +21,7 @@ import type { ImporterUtil } from "@spt/utils/ImporterUtil";
 import type { SaveServer } from "@spt/servers/SaveServer";
 import type { ItemHelper } from "@spt/helpers/ItemHelper";
 import type { ApplicationContext } from "@spt/context/ApplicationContext";
+import { WTTRouterService } from "./Services/RouterService";
 import { QuestAPI } from "./Services/QuestAPI";
 import { TraderAPI } from "./Services/TraderAPI";
 
@@ -31,8 +32,8 @@ export class WTTInstanceManager
     public debug: boolean;
     // Useful Paths
     public profilePath: string = path.join(process.cwd(), "\\user\\profiles");
-    public modPath: string = path.join(process.cwd(), "/user/mods/WTT-ARMORY/");
-    public dbPath: string = path.join(process.cwd(), "/user/mods/WTT-ARMORY/db");
+    public modPath: string = path.join(process.cwd(), "/user/mods/WTT-Armory/");
+    public dbPath: string = path.join(process.cwd(), "/user/mods/WTT-Armory/db");
 
     // Instances
     public container: DependencyContainer;
@@ -45,6 +46,7 @@ export class WTTInstanceManager
     public dynamicRouter: DynamicRouterModService;
     public profileController: ProfileController;
     public profileCallbacks: ProfileCallbacks;
+    private routerService: WTTRouterService = new WTTRouterService();
     //#endregion
 
     //#region Acceessible in or after postDBLoad
@@ -82,6 +84,7 @@ export class WTTInstanceManager
         this.traderAssortService = container.resolve<TraderAssortService>("TraderAssortService");
         this.questApi.preSptLoad(this);
         this.traderApi.preSptLoad(this);
+        this.routerService.preSptLoad(this);
 
 
     }
