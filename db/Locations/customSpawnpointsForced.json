@@ -1,14 +1,9 @@
 {
-    "factory4_day": [
-    ],
-    "sandbox": [
-    ],
-    "interchange": [
-    ],
-    "woods": [
-    ],
-    "shoreline": [
-    ],
+    "factory4_day": [],
+    "sandbox": [],
+    "interchange": [],
+    "woods": [],
+    "shoreline": [],
     "tarkovstreets": [
         {
             "locationId": "(14.6785 2.9911 446.7815)",
@@ -45,9 +40,40 @@
         }
     ],
     "rezervbase": [
+        {
+            "locationId": "(12.9191 1.31 -27.6702)",
+            "probability": 1,
+            "template": {
+                "Id": "antiqueppistol_questitem_spawn",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": 12.9191,
+                    "y": 1.31,
+                    "z": -27.6702
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "685618efe84357c38e29beaf",
+                "Items": [
+                    {
+                        "_id": "685618efe84357c38e29beaf",
+                        "_tpl": "685618fbcc160182de00bfc4",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            }
+        }
     ],
-    "laboratory": [
-    ],
-    "bigmap": [
-    ]
+    "laboratory": [],
+    "bigmap": []
 }
