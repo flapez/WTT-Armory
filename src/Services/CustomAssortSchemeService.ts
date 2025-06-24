@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import type { WTTInstanceManager } from "./WTTInstanceManager";
-import customAssortSchemes from "../db/CustomAssortSchemes/CustomAssortSchemes.json";
-import { traderIDs } from "./references/configConsts";
+import type { WTTInstanceManager } from "../WTTInstanceManager";
+import customAssortSchemes from "../../db/CustomAssortSchemes/CustomAssortSchemes.json";
+import { traderIDs } from "../references/configConsts";
 import type { ITraderAssort } from "@spt/models/eft/common/tables/ITrader";
 export class CustomAssortSchemeService 
 {

@@ -21,6 +21,8 @@ import type { ImporterUtil } from "@spt/utils/ImporterUtil";
 import type { SaveServer } from "@spt/servers/SaveServer";
 import type { ItemHelper } from "@spt/helpers/ItemHelper";
 import type { ApplicationContext } from "@spt/context/ApplicationContext";
+import { QuestAPI } from "./Services/QuestAPI";
+import { TraderAPI } from "./Services/TraderAPI";
 
 export class WTTInstanceManager 
 {
@@ -29,6 +31,8 @@ export class WTTInstanceManager
     public debug: boolean;
     // Useful Paths
     public profilePath: string = path.join(process.cwd(), "\\user\\profiles");
+    public modPath: string = path.join(process.cwd(), "/user/mods/WTT-ARMORY/");
+    public dbPath: string = path.join(process.cwd(), "/user/mods/WTT-ARMORY/db");
 
     // Instances
     public container: DependencyContainer;
@@ -54,6 +58,8 @@ export class WTTInstanceManager
     public importerUtil: ImporterUtil;
     public traderAssortService: TraderAssortService;
     public applicationContext: ApplicationContext;
+    public questApi: QuestAPI = new QuestAPI();
+    public traderApi: TraderAPI = new TraderAPI();
     //#endregion
 
     // Call at the start of the mods postDBLoad method
@@ -74,6 +80,8 @@ export class WTTInstanceManager
         this.staticRouter = container.resolve<StaticRouterModService>("StaticRouterModService");
         this.dynamicRouter = container.resolve<DynamicRouterModService>("DynamicRouterModService");
         this.traderAssortService = container.resolve<TraderAssortService>("TraderAssortService");
+        this.questApi.preSptLoad(this);
+        this.traderApi.preSptLoad(this);
 
 
     }
@@ -87,6 +95,8 @@ export class WTTInstanceManager
         this.ragfairPriceService = container.resolve<RagfairPriceService>("RagfairPriceService");
         this.importerUtil = container.resolve<ImporterUtil>("ImporterUtil");
         this.applicationContext = container.resolve<ApplicationContext>("ApplicationContext");
+        this.traderApi.postDBLoad();
+        this.questApi.postDBLoad();
 
     }
 
