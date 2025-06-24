@@ -3894,6 +3894,14 @@
             ]
         },
         {
+             "key": "Items_Quests/quest_antiquepistolcase.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponXM8/xm8toprailcarb.bundle",
             "dependencyKeys": [
                 "shaders",
