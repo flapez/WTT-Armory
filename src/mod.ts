@@ -27,7 +27,7 @@ implements IPreSptLoadMod, IPostSptLoadMod, IPostDBLoadMod
 {
     private instanceManager: WTTInstanceManager = new WTTInstanceManager();
     private version: string;
-    private modName = "WelcomeToTarkov";
+    private modName = "WTT-Armory";
 
     // Initialize class objects here.
      private traderApi: TraderAPI = new TraderAPI();
