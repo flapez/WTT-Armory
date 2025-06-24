@@ -94,11 +94,11 @@
             {
               "conditionType": "CompleteCondition",
               "id": "6859fee5a740146b5c359b1f",
-              "target": "68561c0d6d60f67604f1feb9"
+              "target": "68561b99da76e0be82eb3866"
             }
           ]
         }
-      ],    
+      ],
       "AvailableForStart": [
         {
           "compareMethod": ">=",
@@ -135,8 +135,8 @@
                 "dynamicLocale": false,
                 "id": "6859ffeb6e435401b2159ec6",
                 "target": [
-                  "RezervBase" 
-                ]   
+                  "RezervBase"
+                ]
               }
             ],
             "id": "6859f9a4dcdb39841d9b2f1f"
@@ -158,7 +158,7 @@
     "description": "68561cd4801134be939e11f6 description",
     "failMessageText": "68561cd4801134be939e11f6 failMessageText",
     "gameModes": [],
-    "image": "path/to/quest/image.png",
+    "image": "/files/Quests/Mechanic/Images/GiftsofThePast_Quest.png",
     "instantComplete": false,
     "isKey": false,
     "location": "5704e5fad2720bc05b8b4567",
@@ -245,6 +245,72 @@
           "type": "Item",
           "value": "1",
           "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "685b311788529e3223a07684",
+          "index": 2,
+          "items": [
+            {
+              "_id": "685b32879ad85fcba9fe3473",
+              "_tpl": "68452c3da87156b67d9ec538",
+              "parentId": "hideout",
+              "slotId": "hideout",
+              "upd": {
+                "StackObjectsCount": 1,
+                "Repairable": {
+                  "Durability": 100,
+                  "MaxDurability": 100
+                }
+              }
+            },
+            {
+              "_id": "685625b222cbdbc1b7efae59",
+              "_tpl": "68452ea1e41a7fbeb0b2ff4e",
+              "parentId": "685b32879ad85fcba9fe3473",
+              "slotId": "mod_magazine"
+            },
+            {
+              "_id": "685625bb6d4a2c1d6221d4b6",
+              "_tpl": "684602de00667a8b3a8c1881",
+              "parentId": "685b32879ad85fcba9fe3473",
+              "slotId": "mod_trigger"
+            },
+            {
+              "_id": "685625c04c788a011eaad2b7",
+              "_tpl": "684602c4cb2dfb57366dbea3",
+              "parentId": "685b32879ad85fcba9fe3473",
+              "slotId": "mod_hammer"
+            },
+            {
+              "_id": "685625c84ac9b841d2aed3ed",
+              "_tpl": "68452ddf08572b1e3c35081c",
+              "parentId": "685b32879ad85fcba9fe3473",
+              "slotId": "mod_reciever"
+            },
+            {
+              "_id": "685625d0a9af5cf8dcffe8a4",
+              "_tpl": "6846039a06cd8ba4da4b764c",
+              "parentId": "685625c84ac9b841d2aed3ed",
+              "slotId": "mod_scope"
+            },
+            {
+              "_id": "685625db3ad370a71c8c4c22",
+              "_tpl": "68452da6051e580c48ede835",
+              "parentId": "685b32879ad85fcba9fe3473",
+              "slotId": "mod_barrel"
+            },
+            {
+              "_id": "685624e6701a51fa57b8066c",
+              "_tpl": "6846049fd008e00428409f24",
+              "parentId": "685625db3ad370a71c8c4c22",
+              "slotId": "mod_sight_front"
+            }
+          ],
+          "loyaltyLevel": 2,
+          "target": "685b32879ad85fcba9fe3473",
+          "traderId": "6758f03d55bf9943a7b14e47",
+          "type": "AssortmentUnlock"
         }
       ]
     },
