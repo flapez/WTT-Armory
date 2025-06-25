@@ -66,5 +66,47 @@
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
+  },
+    "685618fbcc160182de00bfc4": {
+        "itemTplToClone": "66b37ea4c5d72b0277488439",
+        "parentId": "57864a3d24597754843f8721",
+        "handbookParentId": "5b47574386f77428ca22b2f1",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "Items_Quests/quest_antiquepistolcase.bundle",
+                "rcid": ""
+            },
+            "ExaminedByDefault": true,
+            "BackgroundColor": "violet",
+            "ItemSound": "generic",
+            "DiscardingBlock": false,
+            "DiscardLimit": 0,
+            "Width": 3,
+            "Height": 3,
+            "Weight": 6.804
+        },
+        "locales": {
+            "en": {
+                "name": "Antique Pistol Display",
+                "shortName": "Antique Pistol",
+                "description": "A sturdy display case housing an antique flintlock pistol from the 18th century."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 18890,
+        "handbookPriceRoubles": 13440,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []  
   }
 }
