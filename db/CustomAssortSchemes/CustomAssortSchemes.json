@@ -519,6 +519,180 @@
                     "StackObjectsCount": 100,
                     "BuyRestrictionMax": 10
                 }
+            },
+            {
+                "_id": "6860348cde97bd620403c988",
+                "_tpl": "665fe0e865683281eb8e7ed6",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 999999,
+                    "BuyRestrictionMax": 5,
+                    "Repairable": {
+                        "Durability": 100,
+                        "MaxDurability": 100
+                    }
+                }
+            },
+            {
+                "_id": "6860348cde97bd620403c989",
+                "_tpl": "665fe61369cb629f514cec21",
+                "parentId": "6860348cde97bd620403c988",
+                "slotId": "mod_barrel"
+            },
+            {
+                "_id": "6860348cde97bd620403c98a",
+                "_tpl": "665fe62bfdf6dce07f16e726",
+                "parentId": "6860348cde97bd620403c988",
+                "slotId": "mod_reciever"
+            },
+            {
+                "_id": "6860348cde97bd620403c98b",
+                "_tpl": "665fe5ed631d6b7dfcd7a4a9",
+                "parentId": "6860348cde97bd620403c988",
+                "slotId": "mod_magazine"
+            },
+            {
+                "_id": "6860348cde97bd620403c98c",
+                "_tpl": "665fe64b7b6c44d885b755a8",
+                "parentId": "6860348cde97bd620403c988",
+                "slotId": "mod_trigger"
+            },
+            {
+                "_id": "6860348cde97bd620403c98d",
+                "_tpl": "665fe6a117ff1ba8218d680c",
+                "parentId": "6860348cde97bd620403c988",
+                "slotId": "mod_hammer"
+            },
+            {
+                "_id": "6860348cde97bd620403c98e",
+                "_tpl": "665fe6b9c3f47f67713858df",
+                "parentId": "6860348cde97bd620403c988",
+                "slotId": "mod_catch"
+            },
+            {
+                "_id": "6860348cde97bd620403c98f",
+                "_tpl": "665fe70a14a35e1ed07facaf",
+                "slotId": "mod_sight_front",
+                "upd": {
+                    "Sight": {
+                        "ScopesCurrentCalibPointIndexes": [
+                            0
+                        ],
+                        "ScopesSelectedModes": [
+                            0
+                        ],
+                        "SelectedScope": 0,
+                        "ScopeZoomValue": 0
+                    }
+                },
+                "parentId": "6860348cde97bd620403c98a"
+            },
+            {
+                "_id": "6860348cde97bd620403c990",
+                "_tpl": "665fe63876838d24231faa26",
+                "slotId": "mod_scope",
+                "upd": {
+                    "Sight": {
+                        "ScopesCurrentCalibPointIndexes": [
+                            0
+                        ],
+                        "ScopesSelectedModes": [
+                            0
+                        ],
+                        "SelectedScope": 0,
+                        "ScopeZoomValue": 0
+                    }
+                },
+                "parentId": "6860348cde97bd620403c98a"
+            },
+            {
+                "_id": "68603ce7920cd4717003b698",
+                "_tpl": "665fe0e865683281eb8e7ed6",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 999999,
+                    "BuyRestrictionMax": 5,
+                    "Repairable": {
+                        "Durability": 100,
+                        "MaxDurability": 100
+                    }
+                }
+            },
+            {
+                "_id": "68603ce7920cd4717003b699",
+                "_tpl": "665fe61369cb629f514cec21",
+                "slotId": "mod_barrel",
+                "parentId": "68603ce7920cd4717003b698"
+            },
+            {
+                "_id": "68603ce7920cd4717003b69a",
+                "_tpl": "665fe62bfdf6dce07f16e726",
+                "slotId": "mod_reciever",
+                "parentId": "68603ce7920cd4717003b698"
+            },
+            {
+                "_id": "68603ce7920cd4717003b69b",
+                "_tpl": "665fe5ed631d6b7dfcd7a4a9",
+                "slotId": "mod_magazine",
+                "parentId": "68603ce7920cd4717003b698"
+            },
+            {
+                "_id": "68603ce7920cd4717003b69c",
+                "_tpl": "665fe64b7b6c44d885b755a8",
+                "slotId": "mod_trigger",
+                "parentId": "68603ce7920cd4717003b698"
+            },
+            {
+                "_id": "68603ce7920cd4717003b69d",
+                "_tpl": "665fe6a117ff1ba8218d680c",
+                "slotId": "mod_hammer",
+                "parentId": "68603ce7920cd4717003b698"
+            },
+            {
+                "_id": "68603ce7920cd4717003b69e",
+                "_tpl": "665fe6b9c3f47f67713858df",
+                "slotId": "mod_catch",
+                "parentId": "68603ce7920cd4717003b698"
+            },
+            {
+                "_id": "68603ce7920cd4717003b69f",
+                "_tpl": "665fe70a14a35e1ed07facaf",
+                "slotId": "mod_sight_front",
+                "upd": {
+                    "Sight": {
+                        "ScopesCurrentCalibPointIndexes": [
+                            0
+                        ],
+                        "ScopesSelectedModes": [
+                            0
+                        ],
+                        "SelectedScope": 0,
+                        "ScopeZoomValue": 0
+                    }
+                },
+                "parentId": "68603ce7920cd4717003b69a"
+            },
+            {
+                "_id": "68603ce7920cd4717003b6a0",
+                "_tpl": "665fe63876838d24231faa26",
+                "slotId": "mod_scope",
+                "upd": {
+                    "Sight": {
+                        "ScopesCurrentCalibPointIndexes": [
+                            0
+                        ],
+                        "ScopesSelectedModes": [
+                            0
+                        ],
+                        "SelectedScope": 0,
+                        "ScopeZoomValue": 0
+                    }
+                },
+                "parentId": "68603ce7920cd4717003b69a"
             }
         ],
         "barter_scheme": {
@@ -597,6 +771,26 @@
                         "_tpl": "5449016a4bdc2d6f028b456f"
                     }
                 ]
+            ],
+            "6860348cde97bd620403c988": [
+                [
+                    {
+                        "count": 1,
+                        "_tpl": "573477e124597737dd42e191"
+                    },
+                    {
+                        "count": 2,
+                        "_tpl": "5909e99886f7740c983b9984"
+                    }
+                ]
+            ],
+            "68603ce7920cd4717003b698": [
+                [
+                    {
+                        "count": 17250,
+                        "_tpl": "5449016a4bdc2d6f028b456f"
+                    }
+                ]
             ]
         },
         "loyal_level_items": {
@@ -608,7 +802,9 @@
             "684e4117cb85469dfc76dd4d": 1,
             "6850d93879b6552e17df49e6": 2,
             "6851bc8427133ba0a4d7ad26": 1,
-            "6851bd4f829d6a21d49701b1": 2
+            "6851bd4f829d6a21d49701b1": 2,
+            "6860348cde97bd620403c988": 1,
+            "68603ce7920cd4717003b698": 2
         }
     },
     "SKIER": {
