@@ -32,32 +32,6 @@
           "visibilityConditions": []
         },
         {
-          "conditionType": "HandoverItem",
-          "dogtagLevel": 0,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "68561c0d6d60f67604f1feb9",
-          "index": 1,
-          "isNecessary": false,
-          "isResetOnConditionFailed": false,
-          "isEncoded": false,
-          "maxDurability": 100,
-          "minDurability": 0,
-          "onlyFoundInRaid": true,
-          "parentId": "",
-          "target": [
-            "685618fbcc160182de00bfc4"
-          ],
-          "value": 1,
-          "visibilityConditions": [
-            {
-              "conditionType": "CompleteCondition",
-              "id": "6859fe1a0233da667ad2ff72",
-              "target": "68561b99da76e0be82eb3866"
-            }
-          ]
-        },
-        {
           "completeInSeconds": 0,
           "conditionType": "CounterCreator",
           "counter": {
@@ -94,6 +68,32 @@
             {
               "conditionType": "CompleteCondition",
               "id": "6859fee5a740146b5c359b1f",
+              "target": "68561b99da76e0be82eb3866"
+            }
+          ]
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68561c0d6d60f67604f1feb9",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "685618fbcc160182de00bfc4"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "6859fe1a0233da667ad2ff72",
               "target": "68561b99da76e0be82eb3866"
             }
           ]
@@ -158,7 +158,7 @@
     "description": "68561cd4801134be939e11f6 description",
     "failMessageText": "68561cd4801134be939e11f6 failMessageText",
     "gameModes": [],
-    "image": "/files/Quests/Mechanic/Images/GiftsofThePast_Quest.png",
+    "image": "/files/quest/icon/GiftsofThePast_Quest.png",
     "instantComplete": false,
     "isKey": false,
     "location": "5704e5fad2720bc05b8b4567",
@@ -188,8 +188,6 @@
             {
               "_id": "685624c8a98bfa9941a834aa",
               "_tpl": "68452c3da87156b67d9ec538",
-              "parentId": "hideout",
-              "slotId": "hideout",
               "upd": {
                 "StackObjectsCount": 1,
                 "Repairable": {
@@ -245,7 +243,7 @@
           "type": "Item",
           "value": "1",
           "unknown": false
-        },
+         },
         {
           "availableInGameEditions": [],
           "id": "685b311788529e3223a07684",
@@ -309,8 +307,8 @@
           ],
           "loyaltyLevel": 2,
           "target": "685b32879ad85fcba9fe3473",
-          "traderId": "6758f03d55bf9943a7b14e47",
-          "type": "AssortmentUnlock"
+          "traderId": "5a7c2eca46aef81a7ca2145d",
+          "type": "AssortmentUnlock"  
         }
       ]
     },

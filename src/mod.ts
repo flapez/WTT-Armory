@@ -14,6 +14,7 @@ import { WTTInstanceManager } from "./WTTInstanceManager";
 import { CustomItemService } from "./Services/CustomItemService";
 import { BaseTraderReplacer } from "./Services/BaseTraderReplacer";
 import { CustomImageReplacer } from "./Services/CustomImageReplacer";
+import { CustomAssortSchemeService } from "./Services/CustomAssortSchemeService";
 
 
 
@@ -37,6 +38,7 @@ implements IPreSptLoadMod, IPostSptLoadMod, IPostDBLoadMod
     private traderQuestReplacer: TraderQuestReplacer = new TraderQuestReplacer();
     private baseTraderReplacer: BaseTraderReplacer = new BaseTraderReplacer();
     private customImageReplacer: CustomImageReplacer = new CustomImageReplacer();
+    private customAssortSchemeService: CustomAssortSchemeService = new CustomAssortSchemeService();
     //#endregion
 
     //#region DEV
@@ -62,6 +64,7 @@ implements IPreSptLoadMod, IPostSptLoadMod, IPostDBLoadMod
         this.customItemService.preSptLoad(this.instanceManager);
         this.customImageReplacer.preSptLoad(this.instanceManager);
         this.baseTraderReplacer.preSptLoad(this.instanceManager);
+        this.customAssortSchemeService.preSptLoad(this.instanceManager);
 
     }
 
@@ -76,6 +79,7 @@ implements IPreSptLoadMod, IPostSptLoadMod, IPostDBLoadMod
         this.instanceManager.postDBLoad(container);
         // EVERYTHING AFTER HERE MUST USE THE INSTANCE
         this.customItemService.postDBLoad();
+        this.customAssortSchemeService.postDBLoad();
         this.baseTraderReplacer.postDBLoad();
         this.customImageReplacer.postDBLoad();
         this.traderQuestReplacer.postDBLoad(this.instanceManager);
@@ -121,4 +125,4 @@ implements IPreSptLoadMod, IPostSptLoadMod, IPostDBLoadMod
     }
 }
 
-module.exports = { mod: new WTTArmory() };
+module.exports = { mod: new WTTArmory() };;
