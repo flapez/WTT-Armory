@@ -9,9 +9,9 @@
         "path": "Attachment_Magazines/ar15_40roundstanag.bundle",
         "rcid": ""
       },
-      "Weight": 0.185,
+      "Weight": 0.29,
       "MalfunctionChance": 0.18,
-      "Ergonomics": -8.5,
+      "Ergonomics": -8,
       "LoadUnloadModifier": 12
     },
     "locales": {
@@ -29,7 +29,7 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 27800,
+    "fleaPriceRoubles": 23800,
     "handbookPriceRoubles": 4850,
     "addtoTraders": false,
     "addtoBots": false,
