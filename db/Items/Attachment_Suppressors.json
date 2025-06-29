@@ -19,8 +19,8 @@
     },
     "locales": {
       "en": {
-        "name": "OSS Helix QD 762 Suppressor",
-        "shortName": "OSS HX",
+        "name": "OSS Helix QD 7.62x51 sound suppressor",
+        "shortName": "HX-QD",
         "description": "A unique 7.62 suppressor that Uses a patented Flow-Through technology that redirects the expanding gasses into a helical pattern, allowing the gas to expand and cool as it moves through the suppressor body."
       }
     },
@@ -63,7 +63,7 @@
     },
     "locales": {
       "en": {
-        "name": "Gemtech Tundra 9x19mm Suppressor",
+        "name": "Gemtech Tundra 9x19 sound suppressor",
         "shortName": "Tundra",
         "description": "A direct-thread 9x19mm suppressor manufactured by Gemtech."
       }
