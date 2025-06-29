@@ -15,8 +15,8 @@
     "locales": {
       "en": {
         "name": "TangoDown vertical foregrip (OD)",
-        "shortName": "TD OD",
-        "description": "Polymer vertical foregrip manufactured by TangoDown in an exclusive OD color scheme."
+        "shortName": "TD VFG",
+        "description": "The BGV-QDITI vertical grip with a compartment for batteries or small items. Manufactured by TangoDown. Olive Drab version."
       }
     },
     "clearClonedProps": false,
@@ -27,7 +27,7 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 9999,
+    "fleaPriceRoubles": 13141,
     "handbookPriceRoubles": 4126,
     "addtoTraders": false,
     "addtoBots": false,
@@ -52,7 +52,7 @@
       "en": {
         "name": "HK Sturmgriff foregrip (Black)",
         "shortName": "Sturmgriff",
-        "description": "The Sturmgriff vertical foregrip. Manufactured by Heckler & Koch."
+        "description": "The Sturmgriff vertical foregrip. Manufactured by Heckler & Koch. Black version."
       }
     },
     "clearClonedProps": false,
@@ -63,7 +63,7 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 52845,
+    "fleaPriceRoubles": 28513,
     "handbookPriceRoubles": 3250,
     "addtoTraders": false,
     "addtoBots": false,

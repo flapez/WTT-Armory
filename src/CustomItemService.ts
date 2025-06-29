@@ -1,16 +1,17 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import type { NewItemFromCloneDetails } from "@spt/models/spt/mod/NewItemDetails";
-import type { ConfigItem } from "../references/configConsts";
-import { traderIDs } from "../references/configConsts";
-import { currencyIDs } from "../references/configConsts";
-import { inventorySlots } from "../references/configConsts";
-import { ItemMap } from "../references/items";
-import { ItemBaseClassMap } from "../references/itemBaseClasses";
-import { ItemHandbookCategoryMap } from "../references/itemHandbookCategories";
+import type { ConfigItem } from "./references/configConsts";
+import { traderIDs } from "./references/configConsts";
+import { currencyIDs } from "./references/configConsts";
+import { inventorySlots } from "./references/configConsts";
+import { TrophyFilterType } from "./references/configConsts";
+import { ItemMap } from "./references/items";
+import { ItemBaseClassMap } from "./references/itemBaseClasses";
+import { ItemHandbookCategoryMap } from "./references/itemHandbookCategories";
 import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
 import fs from "node:fs";
 import path from "node:path";
-import type { WTTInstanceManager } from "../WTTInstanceManager";
+import type { WTTInstanceManager } from "./WTTInstanceManager";
 import type { IDatabaseTables } from "@spt/models/spt/server/IDatabaseTables";
 import type { ILocation } from "@spt/models/eft/common/ILocation";
 import type { IPreset } from "@spt/models/eft/common/IGlobals";
@@ -26,7 +27,7 @@ export class CustomItemService {
     }
 
     public postDBLoad(): void {
-        const configPath = path.join(__dirname, "../../db/Items");
+        const configPath = path.join(__dirname, "../db/Items");
         const configFiles = fs
             .readdirSync(configPath)
             .filter((file) => !file.includes("BaseItemReplacement"));
@@ -57,7 +58,7 @@ export class CustomItemService {
                         this.instanceManager.customItem.createItemFromClone(exampleCloneItem);
     
                         this.processStaticLootContainers(itemConfig, itemId);
-                        this.processModSlots(itemConfig, [finalItemTplToClone], itemId);
+                        this.processModSlots(itemConfig, finalItemTplToClone, itemId);
                         this.processInventorySlots(itemConfig, itemId);
                         this.processMasterySections(itemConfig, itemId);
                         this.processWeaponPresets(itemConfig, itemId);
@@ -283,7 +284,7 @@ export class CustomItemService {
    */
     private processModSlots(
         itemConfig: ConfigItem[string],
-        finalItemTplToClone: string[],
+        finalItemTplToClone: string,
         itemId: string
     ): void {
         const tables = this.instanceManager.database;
@@ -355,15 +356,7 @@ export class CustomItemService {
                 if (addToModSlots) {
                     for (const modSlot of parentItem._props.Slots) {
                         if (lowercaseModSlots.includes(modSlot._name.toLowerCase())) {
-                            if (!modSlot._props.filters) {
-                                modSlot._props.filters = [
-                                    {
-                                        AnimationIndex: 0,
-                                        Filter: []
-                                    }
-                                ];
-                            }
-                            if (!modSlot._props.filters[0].Filter.includes(itemId)) {
+                            if (!modSlot._props.filters[0].Filter.includes(itemId) && modSlot._props.filters?.[0]?.Filter?.includes(finalItemTplToClone)) {
                                 modSlot._props.filters[0].Filter.push(itemId);
                                 if (this.instanceManager.debug) {
                                     console.log(`Successfully added item ${itemId} to the filter of mod slot ${modSlot._name} for parent item ${parentItemId}`);
@@ -596,23 +589,52 @@ export class CustomItemService {
     }
 
     private addtoHallofFame(itemConfig: ConfigItem[string], itemId: string) {
-        const hallofFame1 = this.instanceManager.database.templates.items["63dbd45917fff4dee40fe16e"];
-        const hallofFame2 = this.instanceManager.database.templates.items["65424185a57eea37ed6562e9"];
-        const hallofFame3 = this.instanceManager.database.templates.items["6542435ea57eea37ed6562f0"];
+        // Define hall of fame items
+        const hallMap = {
+            level1: this.instanceManager.database.templates.items["63dbd45917fff4dee40fe16e"],
+            level2: this.instanceManager.database.templates.items["65424185a57eea37ed6562e9"],
+            level3: this.instanceManager.database.templates.items["6542435ea57eea37ed6562f0"]
+        };
+    
+        const addOption = itemConfig.addtoHallOfFame;
+        if (!addOption) return;  // Exit if falsy
+    
+        // Normalize to array of filter types
+        let filterTypes: TrophyFilterType[] = [];
+        
+        if (addOption === true) {
+            // All filter types
+            filterTypes = ['dogtag', 'smallTrophies', 'bigTrophies'];
+        } else if (Array.isArray(addOption)) {
+            // Specific filter types
+            filterTypes = addOption.filter(type => 
+                ['dogtag', 'smallTrophies', 'bigTrophies'].includes(type)
+            );
+        } else if (typeof addOption === 'string') {
+            // Single filter type
+            if (['dogtag', 'smallTrophies', 'bigTrophies'].includes(addOption)) {
+                filterTypes = [addOption as TrophyFilterType];
+            }
+        }
+    
+        // Exit early if no valid filter types
+        if (filterTypes.length === 0) return;
+    
+        // Process all halls
+        for (const hall of Object.values(hallMap)) {
+            if (!hall) continue;
+    
+            for (const slot of hall._props.Slots) {
+                // Check if this filter matches any requested type
+                const isMatch = filterTypes.some(type => 
+                    slot._name && slot._name.startsWith(type)
+                );
 
-        // Add to Hall of Fame filters
-        if (itemConfig.addtoHallOfFame) {
-            const hallOfFames = [hallofFame1, hallofFame2, hallofFame3];
-            for (const hall of hallOfFames) {
-                for (const slot of hall._props.Slots) {
-                    for (const filter of slot._props.filters) {
-                        if (!filter.Filter.includes(itemId)) {
-                            filter.Filter.push(itemId);
-            
-                            if (this.instanceManager.debug) {
-                                console.log(`Added item ${itemId} to filter Hall of Fame ${hall._name}`);
-                            }
-                        }
+                if (isMatch && slot._props.filters[0].Filter && !slot._props.filters[0].Filter.includes(itemId)) {
+                    slot._props.filters[0].Filter.push(itemId);
+                    
+                    if (this.instanceManager.debug) {
+                        console.log(`Added item ${itemId} to ${slot._name} in ${hall._name}`);
                     }
                 }
             }

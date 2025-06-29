@@ -56,11 +56,12 @@ export interface ConfigItem
         };
         addweaponpreset: boolean;
         weaponpresets: IPreset[];
-        addtoHallOfFame: boolean;
+        addtoHallOfFame: HallOfFameOption;
         addtoSpecialSlots: boolean;
     };
 };
-
+export type TrophyFilterType = 'dogtag' | 'smallTrophies' | 'bigTrophies';
+export type HallOfFameOption = boolean | TrophyFilterType | TrophyFilterType[];
 export interface HeadConfig {
     path: string;
     addHeadToPlayer: boolean;
@@ -109,7 +110,33 @@ export interface ClothingConfig {
     price: number;              // Cost of the clothing item in the specified currency
 }
 
-
+export enum defaultCaliberAmmo 
+    {
+        Caliber762x25TT = "573603562459776430731618",
+        Caliber9x18PM = "57372140245977611f70ee91",
+        Caliber9x19PARA = "5efb0da7a29a85116f6ea05f",
+        Caliber9x21 = "6576f4708ca9c4381d16cd9d",
+        Caliber9x33R = "62330c40bdd19b369e1e53d1",
+        Caliber1143x23ACP = "5efb0cabfb3e451d70735af5",
+        Caliber127x33 = "66a0d1c87d0d369e270bb9de",
+        Caliber46x30 = "5ba26835d4351e0035628ff5",
+        Caliber57x28 = "5cc86840d7f00c002412c56c",
+        Caliber545x39 = "61962b617c6c7b169525f168",
+        Caliber556x45NATO = "59e690b686f7746c9f75e848",
+        Caliber68x51 = "6529243824cbe3c74a05e5c1",
+        Caliber762x35 = "5fbe3ffdf8b6a877a729ea82",
+        Caliber762x39 = "59e0d99486f7744a32234762",
+        Caliber762x51 = "5efb0c1bd79ff02a1f5e68d9",
+        Caliber762x54R = "560d61e84bdc2da74d8b4571",
+        Caliber9x39 = "57a0e5022459774d1673f889",
+        Caliber366TKM = "59e655cb86f77411dc52a77b",
+        Caliber127x55 = "5cadf6ddae9215051e1c23b2",
+        Caliber127x108 = "5cde8864d7f00c0010373be1",
+        Caliber12g = "5c0d591486f7744c505b416f",
+        Caliber20g = "5d6e6a5fa4b93614ec501745",
+        Caliber23x75 = "5f647f31b6238e5dd066e196",
+        Caliber40x46 = "5ede474b0c226a66f5402622",
+}
 export enum traderIDs 
     {
     MECHANIC = "5a7c2eca46aef81a7ca2145d",

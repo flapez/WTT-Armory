@@ -1,0 +1,79 @@
+{
+	"chances": {
+		"equipment": {
+			"FirstPrimaryWeapon": 100
+		},
+		"weaponMods": {
+			"mod_magazine": 100,
+			"mod_stock": 100,
+			"mod_barrel": 100,
+			"mod_muzzle": 100,
+			"mod_sight_front": 100,
+			"mod_handguard": 100,
+			"mod_tactical_001": 100,
+			"mod_tactical_000": 100,
+			"mod_sight_rear": 100,
+			"mod_pistolgrip_000": 100,
+			"mod_pistolgrip_001": 100,
+			"mod_bipod": 100
+		}
+	},
+	"inventory": {
+		"equipment": {
+			"FirstPrimaryWeapon": {
+				"65fb023261d5829b2d090755": 1111111111
+			}
+		},
+		"mods": {
+			"65fb023261d5829b2d090755": {
+				"mod_magazine": [
+					"660ea4453786cc0af808a1be"
+				],
+				"mod_stock": [
+					"660126161347bc1a5f0f4dba"
+				],
+				"mod_barrel": [
+					"66012788c752a02bbe05e68e"
+				],
+				"mod_handguard": [
+					"66012d003dff5074ed002e2c"
+				],
+				"mod_sight_rear": [
+					"6601265f98a610c1aa0ea637"
+				],
+				"mod_pistolgrip_000": [
+					"6601257f1347bc1a5f0f4db6"
+				],
+				"mod_bipod": [
+					"66012d9a3dff5074ed002e33"
+				]
+			},
+			"66012788c752a02bbe05e68e": {
+				"mod_muzzle": [
+					"664b9a705538c7da4f026f22"
+				],
+				"mod_sight_front": [
+					"660126a98f2b23af220b27e7"
+				]
+			},
+			"664b9a705538c7da4f026f22": {
+				"mod_muzzle": [
+					"664b9a4798222d80ce536df6"
+				]
+			},
+			"66012d003dff5074ed002e2c": {
+				"mod_tactical_001": [
+					"544909bb4bdc2d6f028b4577"
+				],
+				"mod_tactical_000": [
+					"544909bb4bdc2d6f028b4577"
+				]
+			},
+			"6601257f1347bc1a5f0f4db6": {
+				"mod_pistolgrip_001": [
+					"66152060a031cbb5570e3466"
+				]
+			}
+		}
+	}
+}

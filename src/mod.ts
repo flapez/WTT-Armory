@@ -1,56 +1,35 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 
-import * as fs from "node:fs";
-import * as path from "node:path";
-
+import fs from "node:fs";
+import path from "node:path";
 import type { DependencyContainer } from "tsyringe";
 import type { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
 import type { IPreSptLoadMod } from "@spt/models/external/IPreSptLoadMod";
-import type { IPostSptLoadMod } from "@spt/models/external/IPostSptLoadMod";
 import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
-
-// WTT imports
 import { WTTInstanceManager } from "./WTTInstanceManager";
-import { CustomItemService } from "./Services/CustomItemService";
-import { BaseTraderReplacer } from "./Services/BaseTraderReplacer";
-import { CustomImageReplacer } from "./Services/CustomImageReplacer";
-import { CustomAssortSchemeService } from "./Services/CustomAssortSchemeService";
-
-
-
-
-// Trader imports
-import { TraderAPI } from "./Services/TraderAPI";
-import { TraderQuestReplacer } from "./Traders/TraderQuestReplacer";
+import { CustomItemService } from "./CustomItemService";
+import { CustomAssortSchemeService } from "./CustomAssortSchemeService";
+import { QuestAPI } from "./QuestAPI";
+import { CustomLootspawnService } from "./CustomLootspawnService";
+import { CustomBotLoadoutService } from "./CustomBotLoadoutService";
 
 class WTTArmory
-implements IPreSptLoadMod, IPostSptLoadMod, IPostDBLoadMod 
+implements IPreSptLoadMod, IPostDBLoadMod
 {
     private instanceManager: WTTInstanceManager = new WTTInstanceManager();
     private version: string;
-    private modName = "WTT-Armory";
-
-    // Initialize class objects here.
-     private traderApi: TraderAPI = new TraderAPI();
-
-
+    private modName = "WTTArmory";
     private customItemService: CustomItemService = new CustomItemService();
-    private traderQuestReplacer: TraderQuestReplacer = new TraderQuestReplacer();
-    private baseTraderReplacer: BaseTraderReplacer = new BaseTraderReplacer();
-    private customImageReplacer: CustomImageReplacer = new CustomImageReplacer();
     private customAssortSchemeService: CustomAssortSchemeService = new CustomAssortSchemeService();
-    //#endregion
-
-    //#region DEV
-    // Toggle to disable pathToTarkov for development purposes to regain access to all traders
-    // Requires a new profile if you disable it to regain access to traders.
+    private questAPI: QuestAPI = new QuestAPI();
+    private customLootspawnService: CustomLootspawnService = new CustomLootspawnService();
+    private customBotLoadoutService: CustomBotLoadoutService = new CustomBotLoadoutService();
     debug = false;
-    //#endregion
 
-    // Anything that needs done on PreSptLoad, place here.
+    // Anything that needs done on preSptLoad, place here.
     public preSptLoad(container: DependencyContainer): void 
     {
-        // Initialize the instance manager DO NOTHING ELSE BEFORE THIS
+    // Initialize the instance manager DO NOTHING ELSE BEFORE THIS
         this.instanceManager.preSptLoad(container, this.modName);
         this.instanceManager.debug = this.debug;
         // EVERYTHING AFTER HERE MUST USE THE INSTANCE
@@ -58,45 +37,28 @@ implements IPreSptLoadMod, IPostSptLoadMod, IPostDBLoadMod
         this.getVersionFromJson();
         this.displayCreditBanner();
 
-
-
-        // WTT Services
         this.customItemService.preSptLoad(this.instanceManager);
-        this.customImageReplacer.preSptLoad(this.instanceManager);
-        this.baseTraderReplacer.preSptLoad(this.instanceManager);
         this.customAssortSchemeService.preSptLoad(this.instanceManager);
-
+        this.questAPI.preSptLoad(this.instanceManager);
+        this.customLootspawnService.preSptLoad(this.instanceManager);
+        this.customBotLoadoutService.preSptLoad(this.instanceManager);
     }
-
-    // Anything that needs done on postSptLoad, place here.
-    public postSptLoad(): void 
-    {}
 
     // Anything that needs done on postDBLoad, place here.
     postDBLoad(container: DependencyContainer): void 
     {
-        // Initialize the instance manager DO NOTHING ELSE BEFORE THIS
+    // Initialize the instance manager DO NOTHING ELSE BEFORE THIS
         this.instanceManager.postDBLoad(container);
         // EVERYTHING AFTER HERE MUST USE THE INSTANCE
         this.customItemService.postDBLoad();
         this.customAssortSchemeService.postDBLoad();
-        this.baseTraderReplacer.postDBLoad();
-        this.customImageReplacer.postDBLoad();
-        this.traderQuestReplacer.postDBLoad(this.instanceManager);
-
-
-
-
-        this.lateChanges();
+        this.questAPI.postDBLoad();
+        this.customLootspawnService.postDBLoad();
+        this.customBotLoadoutService.postDBLoad();
         this.instanceManager.colorLog(
             `[${this.modName}] Database: Loading complete.`,
             LogTextColor.GREEN
         );
-    }
-
-    private lateChanges(): void 
-    {
-        this.instanceManager.database.globals.config.Aiming.RecoilCrank = true;
     }
 
     private getVersionFromJson(): void 
@@ -118,11 +80,9 @@ implements IPreSptLoadMod, IPostSptLoadMod, IPostDBLoadMod
 
     private displayCreditBanner(): void 
     {
-        this.instanceManager.colorLog(
-            `[${this.modName}] A Compendium of Weapon Mods made by the WTT Team & friends`,
-            LogTextColor.GREEN
-        );
+        this.instanceManager.colorLog
+        (`[${this.modName}] A Compendium of Weapon Mods made by the WTT Team & friends`, "green");
     }
 }
 
-module.exports = { mod: new WTTArmory() };;
+module.exports = { mod: new WTTArmory() };
