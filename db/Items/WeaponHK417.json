@@ -14,8 +14,13 @@
         "fullauto"
       ],
       "bFirerate": 600,
+      "SingleFireRate": 500,
       "OperatingResource": 5200,
       "CanSellOnRagfair": true,
+      "BaseMalfunctionChance": 0.208725,
+      "HipInnaccuracyGain": 0.165,
+      "RecoilForceBack": 386,
+      "RecoilForceUp": 139,
       "defMagType": "664a5e1de6e9691c9c64f7d3",
       "Slots": [
         {
@@ -145,9 +150,9 @@
     },
     "locales": {
       "en": {
-        "name": "HK 417 7.62x51 Battle Rifle",
+        "name": "HK 417 7.62x51 assault rifle",
         "shortName": "HK417",
-        "description": "The HK417 is a heavy, fully automatic assault rifle in calibre 7.62 mm x 51 NATO that closes the gap between assault and sniper rifles in the ideal mixture of infantry weapons. The indirect gas-operated weapon achieves energy values of 2500 to 3100 joules in its calibre, depending on ammunition and barrel length. Sufficient energy to effectively engage targets beyond 500 metres."
+        "description": "The HK417 is a heavy, fully automatic assault rifle in 7.62x51mm NATO that closes the gap between assault and sniper rifles in the ideal mixture of infantry weapons. The indirect gas-operated weapon achieves energy values of 2500 to 3100 joules in its calibre, depending on ammunition and barrel length. Sufficient energy to effectively engage targets beyond 500 metres."
       }
     },
     "clearClonedProps": false,
@@ -471,8 +476,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK 417 7.62x51 Upper Receiver",
-        "shortName": "417",
+        "name": "HK 417 7.62x51 upper receiver",
+        "shortName": "417 upper",
         "description": "Upper receiver for the HK 417 battle rifle manufactured by Hekcler & Koch. Equipped with a top mount for attaching additional devices."
       }
     },
@@ -711,8 +716,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK 417 Quad-Rail Handguard",
-        "shortName": "417",
+        "name": "HK 417 Quad-Rail handguard",
+        "shortName": "417 quad",
         "description": "Quadrail handguard for 417 and compatables. Comes with a four picatinny rails for attaching wide amount of different accessories. Produced by Heckler and Koch."
       }
     },
@@ -747,8 +752,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK 417 Front Sight Post",
-        "shortName": "417",
+        "name": "HK 417 front sight",
+        "shortName": "417 FS",
         "description": "Standard HK front sight post for the HK 417 battle rifle."
       }
     },
@@ -829,8 +834,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK 417 Drum Rear Sight",
-        "shortName": "417",
+        "name": "HK 417 Drum rear sight",
+        "shortName": "417 RS",
         "description": "Standard drum rear sight for the HK 417 battle rifle."
       }
     },
@@ -957,7 +962,7 @@
     "locales": {
       "en": {
         "name": "HK417/G28 7.62x51 10-round magazine",
-        "shortName": "417 7.62",
+        "shortName": "417",
         "description": "A 10-round, double stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning."
       }
     },
@@ -992,7 +997,7 @@
     "locales": {
       "en": {
         "name": "HK417/G28 7.62x51 20-round magazine",
-        "shortName": "417 7.62",
+        "shortName": "417",
         "description": "A 20-round, double stack HK417/G28 magazine for 7.62x51 ammunition. The floor plate can easily be removed for disassembly and cleaning."
       }
     },
@@ -1027,7 +1032,7 @@
     "locales": {
       "en": {
         "name": "HK417 E1 extended charging handle",
-        "shortName": "417 E1",
+        "shortName": "417 ECH",
         "description": "An extended charging handle for HK417 and compatible systems, manufactured by Heckler & Koch."
       }
     },
@@ -1064,8 +1069,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK 417 Standard Flash Hider",
-        "shortName": "417",
+        "name": "HK 417 standard Flash Hider",
+        "shortName": "417 std.",
         "description": "Standard flash hider muzzle device for the HK 417 7.62x51mm battle rifle."
       }
     },

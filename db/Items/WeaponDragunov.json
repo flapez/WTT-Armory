@@ -6,6 +6,7 @@
     "overrideProperties": {
       "ExaminedByDefault": true,
       "RecoilCamera": 0.087,
+      "SingleFireRate": 400,
       "Prefab": {
         "path": "WeaponDragunov/weapon_dragunov_container.bundle",
         "rcid": ""
@@ -172,7 +173,7 @@
     },
     "locales": {
       "en": {
-        "name": "SVD 7.62x54R Sniper Rifle",
+        "name": "SVD 7.62x54R sniper rifle",
         "shortName": "SVD",
         "description": "The SVD was designed to serve in a squad support role to provide precise long-range engagement capabilities to ordinary troops following the Warsaw Pact adoption of the 7.62\u00d739mm intermediate cartridge and assault rifles as standard infantry weapon systems."
       }
@@ -328,6 +329,7 @@
       "RecoilForceBack": 650,
       "RecoilForceUp": 205,
       "RecoilCamera": 0.087,
+      "SingleFireRate": 400,
       "Prefab": {
         "path": "WeaponDragunov/weapon_dragunovgreen_container.bundle",
         "rcid": ""
@@ -494,8 +496,8 @@
     },
     "locales": {
       "en": {
-        "name": "SVD 7.62x54R Sniper Rifle (Camo)",
-        "shortName": "SVD (Camo)",
+        "name": "SVD 7.62x54R sniper rifle (Camo)",
+        "shortName": "SVD",
         "description": "The SVD was designed to serve in a squad support role to provide precise long-range engagement capabilities to ordinary troops following the Warsaw Pact adoption of the 7.62x39mm intermediate cartridge and assault rifles as standard infantry weapon systems."
       }
     },
@@ -655,7 +657,7 @@
     },
     "locales": {
       "en": {
-        "name": "SVD Wooden Handguard",
+        "name": "SVD wooden handguard",
         "shortName": "SVD",
         "description": "Wooden handguard for the SVD, produced by Izhmash."
       }
@@ -727,7 +729,7 @@
     },
     "locales": {
       "en": {
-        "name": "SVD Ghillie Handguard",
+        "name": "SVD ghillie handguard",
         "shortName": "SVD",
         "description": "Camoflauged handguard for the SVD wrapped with burlap and foliage."
       }
@@ -805,8 +807,8 @@
     },
     "locales": {
       "en": {
-        "name": "Polymer SVD Marksman Stock",
-        "shortName": "SVD",
+        "name": "SVD polymer marksman stock",
+        "shortName": "SVD poly.",
         "description": "Ergonomic polymer marksman style stock for the SVD 7.62x54R rifle."
       }
     },
@@ -844,9 +846,9 @@
     },
     "locales": {
       "en": {
-        "name": "Polymer SVD Marksman Stock",
-        "shortName": "SVD",
-        "description": "Ergonomic polymer marksman style stock for the SVD 7.62x54R rifle."
+        "name": "SVD polymer marksman stock (Green)",
+        "shortName": "SVD poly.",
+        "description": "Ergonomic polymer marksman style stock for the SVD 7.62x54R rifle. Green version."
       }
     },
     "clearClonedProps": false,
@@ -882,8 +884,8 @@
     },
     "locales": {
       "en": {
-        "name": "SVD Buffer Tube Adapter System",
-        "shortName": "SVD",
+        "name": "SVD buffer tube adapter system",
+        "shortName": "SVD adpt.",
         "description": "An AR15 buffer tube and pistol grip adapter system for the SVD 7.62x54R rifle."
       }
     },
@@ -985,7 +987,7 @@
     },
     "locales": {
       "en": {
-        "name": "SVD Carbine Length Barrel",
+        "name": "SVD carbine length barrel",
         "shortName": "SVD",
         "description": "A shortened, carbine length barrel for the SVD 7.62x54R rifle."
       }
@@ -1044,7 +1046,7 @@
     "locales": {
       "en": {
         "name": "SVD Custom 3-Port Muzzle Brake",
-        "shortName": "SVD",
+        "shortName": "SVD 3-Port",
         "description": "A custom 3-port muzzle brake for the SVD 7.62x54R rifle."
       }
     },
@@ -1101,7 +1103,7 @@
     "locales": {
       "en": {
         "name": "SVD Custom 2-Port Muzzle Brake",
-        "shortName": "SVD",
+        "shortName": "SVD 2-Port",
         "description": "A custom 2-port muzzle brake for the SVD 7.62x54R rifle."
       }
     },
@@ -1191,9 +1193,9 @@
     },
     "locales": {
       "en": {
-        "name": "SVD Camo Dust Cover",
-        "shortName": "SVD",
-        "description": "Camoflauged SVD top dust cover."
+        "name": "SVD dust cover (Camo)",
+        "shortName": "SVD DC",
+        "description": "A standard dust cover for the SVD designated marksman rifle. Camo version."
       }
     },
     "clearClonedProps": false,
@@ -1226,9 +1228,9 @@
     },
     "locales": {
       "en": {
-        "name": "SVD 7.62x54R 10-Round Camo Magazine",
+        "name": "SVD 7.62x54R 10-round magazine (Camo)",
         "shortName": "SVD",
-        "description": "A 10-round camoflauged magazine for the SVD 7.62x54R rifle."
+        "description": "A 10-round magazine for the SVD 7.62x54R rifle. Camo version."
       }
     },
     "clearClonedProps": false,
@@ -1265,9 +1267,9 @@
     },
     "locales": {
       "en": {
-        "name": "OmniTech Systems SVD 10-Round Polymer Magazine",
+        "name": "OmniTech Systems polymer SVD 10-round magazine",
         "shortName": "SVD",
-        "description": "An ergonomic 10-round polymer magazine for the SVD 7.62x54R rifle."
+        "description": "An ergonomic 10-round polymer magazine for the SVD 7.62x54R rifle. Manufactured by OmniTech Systems."
       }
     },
     "clearClonedProps": false,
@@ -1332,7 +1334,7 @@
       "en": {
         "name": "OmniTech Systems SVD 25-Round Polymer Magazine",
         "shortName": "SVD",
-        "description": "An ergonomic 25-round polymer magazine for the SVD 7.62x54R rifle."
+        "description": "An ergonomic 25-round polymer magazine for the SVD 7.62x54R rifle. Manufactured by OmniTech Systems."
       }
     },
     "clearClonedProps": false,

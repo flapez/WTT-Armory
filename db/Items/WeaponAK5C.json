@@ -414,7 +414,7 @@
     "locales": {
       "en": {
         "name": "Ak5C tactical polymer stock",
-        "shortName": "Ak5C Tac",
+        "shortName": "Ak5C Tac.",
         "description": "A lightweight tactical polymer folding stock for the Ak5C 5.56x45 rifle."
       }
     },
@@ -452,8 +452,8 @@
     },
     "locales": {
       "en": {
-        "name": "Ak5C advanced ergo stock",
-        "shortName": "Ak5C Ergo",
+        "name": "Ak5C advanced ergonomic stock",
+        "shortName": "Ak5C Ergo.",
         "description": "A highly ergonomic folding stock for the Ak5C 5.56x45 rifle."
       }
     },
@@ -511,7 +511,7 @@
     "locales": {
       "en": {
         "name": "Ak5C wire stock",
-        "shortName": "Ak5C Wire",
+        "shortName": "Ak5C Wire.",
         "description": "A folding wire stock for the Ak5C 5.56x45 rifle."
       }
     },
@@ -587,7 +587,7 @@
     },
     "locales": {
       "en": {
-        "name": "Ak5C flash hider",
+        "name": "Ak5C 5.56x45 flash hider",
         "shortName": "Ak5C",
         "description": "Standard flash-hider device for the Ak5C 5.56x45 rifle."
       }
@@ -626,8 +626,8 @@
     },
     "locales": {
       "en": {
-        "name": "Ak5C custom muzzle brake",
-        "shortName": "Ak5C C",
+        "name": "Ak5C 5.56x45 custom muzzle brake",
+        "shortName": "Ak5C Cust.",
         "description": "A custom muzzle brake device for the Ak5C 5.56x45 rifle that reduces felt recoil."
       }
     },
@@ -665,9 +665,9 @@
     },
     "locales": {
       "en": {
-        "name": "Ak5C custom muzzle brake (camo)",
-        "shortName": "Ak5C CC",
-        "description": "A custom muzzle brake device for the Ak5C 5.56x45 rifle that reduces felt recoil."
+        "name": "Ak5C 5.56x45 custom muzzle brake (camo)",
+        "shortName": "Ak5C Camo",
+        "description": "A custom muzzle brake device for the Ak5C 5.56x45 rifle that reduces felt recoil. Camo version."
       }
     },
     "clearClonedProps": false,
@@ -883,7 +883,7 @@
       "en": {
         "name": "Ak5C RIS handguard",
         "shortName": "Ak5C",
-        "description": "The Ak5C standard handguard is expertly crafted using a combination of durable hardened plastic and a blend of metals, meticulously designed to prioritize both comfort and optimal weight distribution."
+        "description": "The Bofors Ak5C RIS (Rail Interface System) is the standard handguard issued with the Ak5C; it was designed to allow the mounting of a front foregrip and tactical devices to aide the user. Manufactured by Bofors Carl Gustav."
       }
     },
     "clearClonedProps": false,
@@ -920,7 +920,7 @@
       "en": {
         "name": "Ak5C polymer pistol grip",
         "shortName": "Ak5C",
-        "description": "Standard issue polymer pistol grip for the Ak5C 5.56x45 rifle."
+        "description": "The Ak5C polymer pistol grip can be installed on any Ak5-series of rifle. Standard issue polymer pistol grip for the Ak5C 5.56x45 rifle."
       }
     },
     "clearClonedProps": false,
@@ -956,7 +956,7 @@
     },
     "locales": {
       "en": {
-        "name": "Ak5C 5.56x45 polymer 30-round magazine",
+        "name": "Ak5C 5.56x45 PMAG 30-round magazine",
         "shortName": "Ak5C",
         "description": "Standard issue 30-round polymer magazine that is proprietary to the Ak5C rifle platform."
       }
@@ -994,7 +994,7 @@
     },
     "locales": {
       "en": {
-        "name": "Ak5C 5.56x45 ergonomic polymer 20-round magazine",
+        "name": "Ak5C 5.56x45 ergonomic PMAG 20-round magazine",
         "shortName": "Ak5C-E",
         "description": "An ergonomic polymer 5.56x45 20-round magazine that is proprietary to the Ak5C rifle platform."
       }
@@ -1032,7 +1032,7 @@
     "locales": {
       "en": {
         "name": "Ak5C ergonomic pistol grip",
-        "shortName": "Ak5C Ergo",
+        "shortName": "Ak5C Ergo.",
         "description": "An ergonomic pistol grip for the Ak5C 5.56x45 rifle."
       }
     },
@@ -1069,7 +1069,7 @@
     "locales": {
       "en": {
         "name": "Ak5C slim-line pistol grip",
-        "shortName": "Ak5C Slim",
+        "shortName": "Slim-line",
         "description": "A slim and lightweight ergonomic pistol grip for the Ak5C 5.56x45 rifle."
       }
     },
@@ -1105,7 +1105,7 @@
     },
     "locales": {
       "en": {
-        "name": "Ak5C grooved ergonomic pistol grip",
+        "name": "Ak5C ergonomic grooved pistol grip",
         "shortName": "Ak5C GE",
         "description": "A grooved ergonomic pistol grip for the Ak5C 5.56x45 rifle."
       }
@@ -1118,8 +1118,8 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 15990,
-    "handbookPriceRoubles": 8950,
+    "fleaPriceRoubles": 16990,
+    "handbookPriceRoubles": 11950,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -1179,8 +1179,8 @@
     },
     "locales": {
       "en": {
-        "name": "Ak5C pistol grip (wrapped)",
-        "shortName": "Ak5C W",
+        "name": "Ak5C pistol grip (Wrapped)",
+        "shortName": "Ak5C",
         "description": "A standard Ak5C pistol grip that has been wrapped with fabric to increase ergonomics."
       }
     },
@@ -1217,7 +1217,7 @@
     "locales": {
       "en": {
         "name": "Ak5C tactical pistol grip",
-        "shortName": "Ak5C T",
+        "shortName": "Ak5C Tac.",
         "description": "A short tactical pistol grip for the Ak5C 5.56x45 rifle."
       }
     },
@@ -1299,8 +1299,8 @@
     "locales": {
       "en": {
         "name": "Ak5C RIS handguard rail covers (bottom)",
-        "shortName": "Ak5C",
-        "description": "Rail covers for the Ak5C RIS handguard."
+        "shortName": "Ak5C RIS",
+        "description": "Bottom Rail Covers for the Ak5C RIS handguard."
       }
     },
     "clearClonedProps": false,

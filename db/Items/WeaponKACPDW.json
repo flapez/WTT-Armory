@@ -9,6 +9,10 @@
                 "path": "WeaponKACPDW/kacpdw_container.bundle",
                 "rcid": ""
             },
+            "RecoilForceBack": 371,
+            "RecoilForceUp": 132,
+            "bFirerate": 720,
+            "RecoilCamera" :0.046,
             "Foldable": true,
             "FoldedSlot": "mod_stock",
             "defAmmo": "5fbe3ffdf8b6a877a729ea82",
@@ -131,7 +135,7 @@
         },
         "locales": {
             "en": {
-                "name": "Knight's Armament Company .300 BLK PDW",
+                "name": "Knight's Armament Company PDW .300 Blackout assault rifle",
                 "shortName": "KAC PDW",
                 "description": "An experimental personal defense weapon designed by Knight's Armament Company (KAC), firing the .300 BLK cartridge out of an optimized shortened barrel. The KAC's lower receiver, holding the magazine and trigger assembly, is essentially a shortened M16 rifle lower receiver, which makes the basic operating controls familiar to many potential users. However, the cartridge, upper receiver, and operating mechanism are all new designs by KAC. The KAC PDW uses a completely side-folding stock, unlike the M16 and M4 designs which have their main operating spring in a tube in the stock, and therefore can only partially telescope, and not fold sideways at all, unless specialized hardware is installed. The KAC PDW has two gas pistons tapping hot gas from the barrel to operate its mechanism, located on the top left and right sides of the bolt carrier. The single mainspring is located on top, between the two gas pistons."
             }
@@ -313,7 +317,7 @@
         },
         "locales": {
             "en": {
-                "name": "Knight's Armament Company .300 BLK PDW Barrel",
+                "name": "Knight's Armament Company .300 Blackout PDW barrel",
                 "shortName": "KAC PDW",
                 "description": "A shortened barrel chambered in .300 BLK for the KAC PDW weapon system."
             }
@@ -384,7 +388,7 @@
         },
         "locales": {
             "en": {
-                "name": "KAC PDW 30-Round .300BLK Magazine ",
+                "name": "KAC PDW .300 blackout 30-round magazine",
                 "shortName": "KAC PDW",
                 "description": "A polymer magazine that holds 30 rounds of .300 BLK for the KAC PDW."
             }
@@ -425,7 +429,7 @@
         },
         "locales": {
             "en": {
-                "name": "Knight's Armament Company .300 BLK PDW Folding Stock",
+                "name": "Knight's Armament Company PDW folding stock",
                 "shortName": "KAC PDW",
                 "description": "Metal folding stock for the KAC .300 BLK PDW."
             }
@@ -470,8 +474,8 @@
         },
         "locales": {
             "en": {
-                "name": "Knight's Armament Company .300 BLK PDW Muzzle Brake",
-                "shortName": "KAC PDW",
+                "name": "Knight's Armament Company .300 Blackout muzzle brake",
+                "shortName": "PDW Brake",
                 "description": "Muzzle brake for the KAC .300 BLK PDW."
             }
         },
@@ -782,7 +786,7 @@
         },
         "locales": {
             "en": {
-                "name": "Knight's Armament Company .300 BLK PDW Upper Receiver",
+                "name": "Knight's Armament Company PDW .300 Blackout upper reciever",
                 "shortName": "KAC PDW",
                 "description": "A railed upper receiver for the Knight's Armament Company .300 BLK PDW."
             }
@@ -818,8 +822,8 @@
         },
         "locales": {
             "en": {
-                "name": "Knight's Armament Company .300 BLK PDW Charging Handle",
-                "shortName": "KAC PDW",
+                "name": "Knight's Armament Company PDW .300 Blackout charging handle",
+                "shortName": "PDW CH",
                 "description": "Standard charging handle for the Knight's Armament Company .300 BLK PDW."
             }
         },
@@ -854,8 +858,8 @@
         },
         "locales": {
             "en": {
-                "name": "Knight's Armament Company .300 BLK PDW Ambidextrous Charging Handle",
-                "shortName": "KAC PDW",
+                "name": "Knight's Armament Company PDW .300 Blackout ambidextrous charging handle",
+                "shortName": "PDW Ambi.",
                 "description": "Ergonomic ambidextrous charging handle for the Knight's Armament Company .300 BLK PDW."
             }
         },

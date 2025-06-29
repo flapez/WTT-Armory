@@ -10,12 +10,12 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-      "Ergonomics": 10,
+      "Ergonomics": 6,
       "Weight": 0.07
     },
     "locales": {
       "en": {
-        "name": "B5 Systems P-Grip 23 AR-15 Pistol Grip",
+        "name": "B5 Systems P-Grip 23 AR-15 pistol grip",
         "shortName": "PG-23",
         "description": "The B5 Systems Type 23 P-Grip offers an increased vertical grip angle and extended tang to improve ergonomics and ensure proper trigger index for AR-15 platform rifles."
       }
@@ -47,14 +47,14 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-      "Ergonomics": 10,
+      "Ergonomics": 6,
       "Weight": 0.07
     },
     "locales": {
       "en": {
-        "name": "B5 Systems P-Grip 23 AR-15 Pistol Grip",
+        "name": "B5 Systems P-Grip 23 AR-15 pistol grip (FDE)",
         "shortName": "PG-23",
-        "description": "The B5 Systems Type 23 P-Grip offers an increased vertical grip angle and extended tang to improve ergonomics and ensure proper trigger index for AR-15 platform rifles."
+        "description": "The B5 Systems Type 23 P-Grip offers an increased vertical grip angle and extended tang to improve ergonomics and ensure proper trigger index for AR-15 platform rifles. Flat Dark Earth version."
       }
     },
     "clearClonedProps": false,

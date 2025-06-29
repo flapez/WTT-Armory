@@ -145,8 +145,8 @@
     },
     "locales": {
       "en": {
-        "name": "Heckler & Koch G3 7.62x51 assault rifle",
-        "shortName": "HK G3",
+        "name": "HK G3 7.62x51 assault rifle",
+        "shortName": "G3",
         "description": "The Heckler & Koch G3 (German: Gewehr 3) is a select-fire battle rifle chambered in 7.62x51mm NATO developed in the 1950s by the German firearms manufacturer Heckler & Koch, in collaboration with the Spanish state-owned firearms manufacturer CETME. The G3 was the service rifle of the German Bundeswehr until it was replaced by the Heckler & Koch G36 in the 1990s, and was adopted into service with numerous other countries. The G3 has been exported to over 70 countries and manufactured under license in at least 15 countries."
       }
     },
@@ -376,9 +376,9 @@
     },
     "locales": {
       "en": {
-        "name": "Heckler & Koch 11E 7.62x51 Light-Machine Gun",
-        "shortName": "HK11E LMG",
-        "description": "The HK21 is a German 7.62 mm general-purpose machine gun, developed in 1961 by small arms manufacturer Heckler & Koch and based on the G3 battle rifle. The weapon is in use with the armed forces of several Asian, African and Latin American countries. During the 1980s both the HK21A1 and HK11A1 were modernized based on user and testing feedback, resulting in a new modular family of machine guns that share the same receiver, trigger group and interchangeable barrels and feed units. The HK11A1 proved more successful in export sales and was adopted by the Hellenic Army and several African and Asian armies."
+        "name": "HK HK11E 7.62x51 light machine gun",
+        "shortName": "HK11E",
+        "description": "The HK21 is a German 7.62x51mm general-purpose machine gun, developed in 1961 by small arms manufacturer Heckler & Koch and based on the G3 battle rifle. The weapon is in use with the armed forces of several Asian, African and Latin American countries. During the 1980s both the HK21A1 and HK11A1 were modernized based on user and testing feedback, resulting in a new modular family of machine guns that share the same receiver, trigger group and interchangeable barrels and feed units. The HK11A1 proved more successful in export sales and was adopted by the Hellenic Army and several African and Asian armies."
       }
     },
     "clearClonedProps": false,
@@ -488,8 +488,8 @@
     },
     "locales": {
       "en": {
-        "name": "Heckler & Koch G3 20-Round Magazine",
-        "shortName": "HKG3",
+        "name": "HK G3 20-round magazine",
+        "shortName": "G3-20",
         "description": "A standard 20-round 7.62x51 NATO magazine for the Heckler & Koch G3 assault rifle."
       }
     },
@@ -540,8 +540,8 @@
     },
     "locales": {
       "en": {
-        "name": "Heckler & Koch G3 30-Round Magazine",
-        "shortName": "HKG3",
+        "name": "HK G3 30-round magazine",
+        "shortName": "G3-30",
         "description": "A standard 30-round 7.62x51 NATO magazine for the Heckler & Koch G3 assault rifle."
       }
     },
@@ -593,8 +593,8 @@
     "locales": {
       "en": {
         "name": "HK11E 7.62x51 100-round Drum Magazine",
-        "shortName": "HK11E Drum",
-        "description": "A standard 100-round 7.62x51 NATO drum magazine for the Heckler & Koch 11E light machinegun."
+        "shortName": "HK11E-100",
+        "description": "A standard 100-round 7.62x51 NATO drum magazine for the Heckler & Koch HK11E light machine gun."
       }
     },
     "clearClonedProps": false,
@@ -711,9 +711,9 @@
     },
     "locales": {
       "en": {
-        "name": "HK G3 7.62x51 17.7\" Barrel",
-        "shortName": "H&KG3 17.7in",
-        "description": "A 17.7 inch long barrel for the Heckler & Koch G3 7.62x51 series of firearms."
+        "name": "HK G3 7.62x51 17.7 inch barrel",
+        "shortName": "G3 17.7\"",
+        "description": "A 17.7 inch (450mm) long barrel for the Heckler & Koch G3 7.62x51 series of firearms."
       }
     },
     "clearClonedProps": false,
@@ -781,9 +781,9 @@
     },
     "locales": {
       "en": {
-        "name": "HK PSG-1 7.62x51 20\" Barrel",
-        "shortName": "H&KPSG-1 20in",
-        "description": "A 20 inch long barrel for the Heckler & Koch PSG-1 7.62x51 series of firearms."
+        "name": "HK PSG-1 7.62x51 20 inch barrel",
+        "shortName": "PSG-1 20\"",
+        "description": "A 20 inch (510mm) long barrel for the Heckler & Koch PSG-1 7.62x51 series of firearms."
       }
     },
     "clearClonedProps": false,
@@ -898,9 +898,9 @@
     },
     "locales": {
       "en": {
-        "name": "HK 11E 7.62x51 15\" Barrel",
-        "shortName": "HK11E 15in",
-        "description": "A 15 inch long barrel for the Heckler & Koch 11E 7.62x51 light machine gun."
+        "name": "HK HK11E 7.62x51 15 inch barrel",
+        "shortName": "HK11E 15\"",
+        "description": "A 15 inch (127mm) long barrel for the Heckler & Koch HK11E 7.62x51 light machine gun."
       }
     },
     "clearClonedProps": false,
@@ -1012,8 +1012,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK G3K 7.62x51 12.4\" Barrel",
-        "shortName": "HKG3K 12.4in",
+        "name": "HK G3K 7.62x51 12.4 inch barrel",
+        "shortName": "G3K 12.4\"",
         "description": "An 12.4 inch (315mm) long barrel for the Heckler & Koch G3K 7.62x51 series of firearms."
       }
     },
@@ -1126,8 +1126,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK G3K  7.62x51 11\" Barrel",
-        "shortName": "HKG3K 11in",
+        "name": "HK G3K  7.62x51 11 inch barrel",
+        "shortName": "G3K 11\"",
         "description": "An 11 inch (280mm) long barrel for the Heckler & Koch G3K 7.62x51 series of firearms."
       }
     },
@@ -1196,8 +1196,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK G3SD Custom Handguard and Barrel Assembly",
-        "shortName": "HK G3SD",
+        "name": "HK G3SD custom handguard and barrel assembly",
+        "shortName": "G3SD",
         "description": "A handguard and barrel for the G3 assault rifle, manufactured by Heckler & Koch. It is specifically designed to work with the G3 integral suppressor."
       }
     },
@@ -1457,8 +1457,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "MCS Swordfish Compensated Barrel & Rail System",
-				"shortName": "MCS Swordfish G3 System",
+				"name": "HK G3 MCS Swordfish compensated barrel and rail system",
+				"shortName": "MCS",
 				"description": "A custom-compensated barrel and rail system for the Heckler & Koch G3K 7.62x51 series of firearms. Manufactured by Modern Combat Sports."
 			}
 		},
@@ -1529,8 +1529,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK G3SD Integral Sound Suppressor",
-        "shortName": "HKG3SD",
+        "name": "HK G3SD integrated sound suppressor",
+        "shortName": "G3SD inte.",
         "description": "A standard G3SD integral sound suppressor manufactured by Heckler & Koch."
       }
     },
@@ -1583,8 +1583,8 @@
     },
     "locales": {
       "en": {
-        "name": "PTR G3 Polymer Handguard (BLK)",
-        "shortName": "PTR HKG3",
+        "name": "PTR G3 polymer handguard",
+        "shortName": "PTR G3",
         "description": "The PTR polymer handguard is designed for the Heckler & Koch G3 weapon series. For over 15 years, PTR has been on a slow, steady march toward the goal of making the most reliable and accurate roller-lock weapons in the world. Through precision manufacturing, and an unwavering commitment to quality we are committed to providing the very best overall experience to all who use our products."
       }
     },
@@ -1632,8 +1632,8 @@
     },
     "locales": {
       "en": {
-        "name": "PTR G3 Polymer Handguard (OD)",
-        "shortName": "PTR HKG3",
+        "name": "PTR G3 polymer handguard (OD)",
+        "shortName": "PTR G3",
         "description": "The PTR polymer handguard is designed for the Heckler & Koch G3 weapon series. For over 15 years, PTR has been on a slow, steady march toward the goal of making the most reliable and accurate roller-lock weapons in the world. Through precision manufacturing, and an unwavering commitment to quality we are committed to providing the very best overall experience to all who use our products. Olive Drab version."
       }
     },
@@ -1785,8 +1785,8 @@
     },
     "locales": {
       "en": {
-        "name": "Aim Sports HK G3 Extended M-LOK Handguard",
-        "shortName": "HKG3 MLOK",
+        "name": "HK G3 Aim Sports extended M-LOK handguard",
+        "shortName": "G3 MLOK",
         "description": "The Aim Sports HK G3 M-LOK extended handguard rail adapter allows you to install additional M-LOK attachments on the HK G3 weapon series."
       }
     },
@@ -1840,8 +1840,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK G3K Wood Handguard",
-        "shortName": "HKG3K",
+        "name": "HK G3K wooden handguard",
+        "shortName": "G3K wood.",
         "description": "The standard hand-crafted wood handguard for the Heckler & Koch G3K weapon series."
       }
     },
@@ -1893,8 +1893,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK G3K Polymer Handguard (OD)",
-        "shortName": "HKG3K",
+        "name": "HK G3K polymer handguard (OD)",
+        "shortName": "G3K poly",
         "description": "The standard polymer handguard for the Heckler & Koch G3K weapon series. Olive Drab version."
       }
     },
@@ -2039,8 +2039,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK PSG-1 Polymer Handguard",
-        "shortName": "HK PSG1",
+        "name": "HK PSG-1 polymer handguard",
+        "shortName": "PSG-1 poly",
         "description": "The standard PSG-1 polymer conversion handguard designed for the Heckler & Koch G3 weapon series. This features a custom-mounted rail for installation of foregrips and tactical devices."
       }
     },
@@ -2218,8 +2218,8 @@
     },
     "locales": {
       "en": {
-        "name": "Aim Sports HK G3K Length Tri-Rail Picatinny Handguard",
-        "shortName": "HKG3K RIS",
+        "name": "HK G3K Aim Sports Tri-Rail picatinny handguard",
+        "shortName": "Tri-Rail",
         "description": "A triple rail handguard for Heckler & Koch G3K rifles, manufactured by Aim Sports. Equipped with 3 picatinny rail mounts for installation of additional devices and accessories."
       }
     },
@@ -2402,8 +2402,8 @@
     },
     "locales": {
       "en": {
-        "name": "Aim Sports HK G3 Tri-Rail Picatinny Handguard",
-        "shortName": "HKG3 RIS",
+        "name": "HK G3 Aim Sports Tri-Rail picatinny handguard",
+        "shortName": "Tri-Rail",
         "description": "A triple rail handguard for Heckler & Koch G3 rifles, manufactured by Aim Sports. Equipped with 3 picatinny rail mounts for installation of additional devices and accessories."
       }
     },
@@ -2548,8 +2548,8 @@
     },
     "locales": {
       "en": {
-        "name": "HKP G3 M-LOK Handguard ",
-        "shortName": "HKG3 MLOK",
+        "name": "HK G3 M-LOK handguard",
+        "shortName": "G3 MLOK",
         "description": "HK G3 Low Profile M-LOK Handguard for Heckler & Koch G3 rifles, manufactured by Heckler & Koch Parts in Utah. Designed from the ground up by roller lock & HK enthusiasts with your shooting needs & requirements in mind. This is simply the most rock solid, lightest forearm available. Our modular hand guard will give your firearm the finest level of versatility & function."
       }
     },
@@ -2680,8 +2680,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK G3 Spuhr Style Handguard",
-        "shortName": "HKG3 SPUHR",
+        "name": "HK G3 Spuhr style handguard",
+        "shortName": "G3 Spuhr",
         "description": "HK G3 Spuhr Handguard for Heckler & Koch G3 rifles, manufactured by Spuhr i Dalby AB in Sweden. Lightweight slim profile aluminum handguard for Heckler & Koch G3 7.62x51 series of firearms. Made from single billet of 7075 T651."
       }
     },
@@ -2871,8 +2871,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK G3 B&T Handguard NAR",
-        "shortName": "HKG3 B&T",
+        "name": "HK G3 B&T NAR low-profile handguard",
+        "shortName": "G3 NAR",
         "description": "A modular aluminum handguard designed for Heckler & Koch G3 7.62x51 series of firearms, manufactured by B&T USA."
       }
     },
@@ -2983,7 +2983,7 @@
     },
     "locales": {
       "en": {
-        "name": "HK11E Ported Aluminum Ported Handguard",
+        "name": "HK HK11E ported aluminum handguard",
         "shortName": "HK11E",
         "description": "The Heckler & Koch ported handguard was designed for the HK11E light machine gun weapon series. It features a port on one side of the handguard to allow for better ventilation on the barrel during operation."
       }
@@ -3038,8 +3038,8 @@
     },
     "locales": {
       "en": {
-        "name": "PTR G3 Fixed Buttstock Assembly",
-        "shortName": "HKG3 Fixed",
+        "name": "PTR G3 fixed buttstock assembly",
+        "shortName": "G3 fixed",
         "description": "A standard fixed stock designed for the HK G3 series firearm series, manufactured by PTR."
       }
     },
@@ -3093,8 +3093,8 @@
     },
     "locales": {
       "en": {
-        "name": "PTR G3 Fixed Buttstock Assembly (OD)",
-        "shortName": "HKG3 Fixed",
+        "name": "PTR G3 fixed buttstock assembly (OD)",
+        "shortName": "G3 fixed",
         "description": "A standard fixed stock designed for the HK G3 series firearm series, manufactured by PTR. Olive Drab version."
       }
     },
@@ -3148,8 +3148,8 @@
     },
     "locales": {
       "en": {
-        "name": "Custom G3 Wood Fixed Buttstock Assembly",
-        "shortName": "HKG3 Fixed",
+        "name": "HK G3 custom wooden fixed buttstock assembly",
+        "shortName": "G3 fixed",
         "description": "A handcrafted wood fixed stock designed for the HK G3 series firearm series."
       }
     },
@@ -3204,7 +3204,7 @@
     "locales": {
       "en": {
         "name": "HK G3GSG-1 Fixed Stock",
-        "shortName": "HKG3SG/1",
+        "shortName": "G3SG/1 fixed",
         "description": "A polymer fixed stock, designed for the Heckler & Koch G3GSG-1 series of firearms."
       }
     },
@@ -3258,7 +3258,7 @@
     },
     "locales": {
       "en": {
-        "name": "HKG3A4 Aluminum Retractable Stock",
+        "name": "HKG3A4 aluminum retractable stock",
         "shortName": "HKG3A4",
         "description": "An aluminum retractable stock adapter, designed for the Heckler & Koch G3A4 firearm series."
       }
@@ -3313,8 +3313,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK PSG-1 Fixed Stock",
-        "shortName": "HKPSG-1",
+        "name": "HK PSG-1 fixed stock",
+        "shortName": "PSG-1 fixed",
         "description": "A polymer fixed stock, designed to convert the Heckler & Koch G3 into a PSG-1 designated marksman series of firearms."
       }
     },
@@ -3368,8 +3368,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK11E Polymer Fixed Stock",
-        "shortName": "HK11E Stock",
+        "name": "HK HK11E polymer fixed stock",
+        "shortName": "HK11E fixed",
         "description": "A standard fixed stock, designed for the 11E light machinegun series. Manufactured by Heckler & Koch."
       }
     },
@@ -3458,8 +3458,8 @@
     },
     "locales": {
       "en": {
-        "name": "HKG3 Buffer Tube Stock Adapter",
-        "shortName": "HKG3 Adpt",
+        "name": "HK G3 buffer tube stock adapter",
+        "shortName": "G3 adpt.",
         "description": "A stock adapter, designed for the Heckler & Koch G3-series weapons to mount buffer-tube style stocks."
       }
     },
@@ -3533,7 +3533,7 @@
     },
     "locales": {
       "en": {
-        "name": "Spuhr G3 R-410 Buffer Adapter",
+        "name": "HK G3 Spuhr R-410 buffer adapter",
         "shortName": "R-410",
         "description": "The R-410 G3 Stock Assembly brings the venerable HK G3 platform into the 22nd century, providing it with better handling and recoil management. Manufactured by Spuhr i Dalby AB in Sweden."
       }
@@ -3585,7 +3585,7 @@
     },
     "locales": {
       "en": {
-        "name": "Spuhr G3 R-410 Stock",
+        "name": "HK G3 Spuhr R-410 Stock",
         "shortName": "R-410",
         "description": "The R-410 G3 Stock Assembly brings the venerable HK G3 platform into the 22nd century, providing it with better handling and recoil management. Manufactured by Spuhr i Dalby AB in Sweden."
       }
@@ -3640,7 +3640,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "B&T G3 MBT Adjustable Stock",
+				"name": "HK G3 B&T MBT adjustable stock",
 				"shortName": "B&T MBT",
 				"description": "A modular polymer stock, designed for the Heckler & Koch G3 series of firearms. Manufactured by Brugger & Thomet."
 			}
@@ -3697,8 +3697,8 @@
     },
     "locales": {
       "en": {
-        "name": "HKG3 Polymer Pistol Grip",
-        "shortName": "HKG3 PG",
+        "name": "HKG3 polymer pistol grip",
+        "shortName": "G3 PG",
         "description": "A polymer pistol grip designed for the G3-series weapons, manufactured by Heckler & Koch."
       }
     },
@@ -3753,8 +3753,8 @@
     },
     "locales": {
       "en": {
-        "name": "HKG3 Polymer Pistol Grip (OD)",
-        "shortName": "HKG3 PG",
+        "name": "HK G3 polymer pistol grip (OD)",
+        "shortName": "G3 PG",
         "description": "A polymer pistol grip designed for the G3-series weapons, manufactured by Heckler & Koch. Olive Drab version."
       }
     },
@@ -3809,8 +3809,8 @@
     },
     "locales": {
       "en": {
-        "name": "HK PSG-1 DMR Wood Pistol Grip",
-        "shortName": "HKPSG-1",
+        "name": "HK PSG-1 DMR wooden pistol grip",
+        "shortName": "PSG-1 wood",
         "description": "A handcrafted wood pistol grip designed for the HK G3-series weapons to convert it into a PSG-1 designated marksman rifle."
       }
     },
@@ -3948,8 +3948,8 @@
     },
     "locales": {
       "en": {
-        "name": "HKG3 Aluminum Claw Scope Mount",
-        "shortName": "HKG3 Mount",
+        "name": "HKG3 aluminum claw scope mount",
+        "shortName": "G3 Claw",
         "description": "A standard-issue picatinny claw mount, designed for the G3-series weapons. Manufacted by Heckler & Koch."
       }
     },
@@ -4090,8 +4090,8 @@
     },
     "locales": {
       "en": {
-        "name": "HKG3 Aluminum Claw Low-Profile Scope Mount",
-        "shortName": "HKG3 Mount",
+        "name": "HKG3 aluminum claw low-profile scope mount",
+        "shortName": "G3 claw",
         "description": "A low-profile picatinny claw mount, designed for the G3-series weapons. Manufacted by Heckler & Koch."
       }
     },
@@ -4147,8 +4147,8 @@
     },
     "locales": {
       "en": {
-        "name": "HKG3 Rear Drum Sight",
-        "shortName": "HKG3 RS",
+        "name": "HK G3 drum rear sight",
+        "shortName": "G3 RS",
         "description": "A standard rear drum iron sight, designed for the G3 series. Manufacted by Heckler & Koch."
       }
     },
