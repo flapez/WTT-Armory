@@ -1,5 +1,4 @@
 {
- 
   "66d0c1319aba7b6bff460a37": {
     "itemTplToClone": "5e023e53d4353e3302577c4c",
     "parentId": "5485a8684bdc2da71d8b4567",
@@ -12,24 +11,24 @@
       "ExaminedByDefault": true,
       "Weight": 0.027,
       "InitialSpeed": 760,
-      "BallisticCoeficient": 0.593,
+      "BallisticCoeficient": 0.543,
       "BulletMassGram": 12.8,
       "BulletDiameterMilimeters": 7.92,
       "Damage": 76,
       "ammoAccr": -2,
       "ammoRec": 0,
-      "PenetrationPower": 33,
+      "PenetrationPower": 37,
       "PenetrationPowerDiviation": 0.19,
       "ArmorDamage": 39,
-      "DurabilityBurnModificator": 1.82,
+      "DurabilityBurnModificator": 1.32,
       "HeatFactor": 1.37,
       "MalfFeedChance": 0.036
     },
     "locales": {
       "en": {
-        "name": "7.92x57mm FMJ",
+        "name": "7.92x57mm RLA FMJ",
         "shortName": "FMJ",
-        "description": "Standard full metal jacket 7.92x57mm cartridge."
+        "description": "7.92x57mm Full Metal Jacket (FMJ) is a 198 grain match round with an 8 gram lead core designed to penetrate up to NIJ Level III armor; Intended for hunting, home defense, and target practice, produced by Rifle Line Ammunition. Despite not being a commonly adopted caliber, this cartridge is capable of outputting oustanding damage to its targets."
       }
     },
     "clearClonedProps": false,
@@ -59,27 +58,28 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-      "Weight": 0.027,
+      "Weight": 0.025,
       "InitialSpeed": 745,
       "BallisticCoeficient": 0.593,
-      "BulletMassGram": 13.1,
+      "BulletMassGram": 12,
       "BulletDiameterMilimeters": 7.92,
       "Damage": 88,
       "ammoAccr": 0,
       "ammoRec": 2,
-      "PenetrationPower": 27,
+      "PenetrationPower": 23,
       "PenetrationPowerDiviation": 0.21,
-      "ArmorDamage": 46,
+      "ArmorDamage": 30,
       "DurabilityBurnModificator": 1.43,
       "HeatFactor": 1.27,
+      "RicochetChance": 0.4,
       "MalfFeedChance": 0.036
     },
-      "locales": {
-        "en": {
-          "name": "7.92x57mm SP",
-          "shortName": "SP",
-          "description": "Civilian hunting 7.92x57mm soft point cartridge."
-        }
+    "locales": {
+      "en": {
+        "name": "7.92x57mm RLA SP",
+        "shortName": "SP",
+        "description": "7.92x57mm Soft Point (SP) is a 196 grain round with a soft-point bullet; intended for hunting, home defense, and target practice, produced by Rifle Line Ammunition. This round, despite it's aim towards flesh-based target, is still plenty capable at penetrating most soft armors."
+      }
     },
     "clearClonedProps": false,
     "addtoInventorySlots": [],
@@ -91,6 +91,55 @@
     "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 225,
     "handbookPriceRoubles": 170,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "6861847dfd5210a3e64677a3": {
+    "itemTplToClone": "5e023e53d4353e3302577c4c",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/ammo_792x57mm_fmj.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Weight": 0.029,
+      "InitialSpeed": 755,
+      "BallisticCoeficient": 0.541,
+      "BulletMassGram": 12.8,
+      "BulletDiameterMilimeters": 7.92,
+      "Damage": 74,
+      "ammoAccr": -4,
+      "ammoRec": 3,
+      "PenetrationPower": 36,
+      "PenetrationPowerDiviation": 0.23,
+      "ArmorDamage": 31,
+      "DurabilityBurnModificator": 1.82,
+      "HeatFactor": 1.47,
+      "MalfFeedChance": 0.042
+    },
+    "locales": {
+      "en": {
+        "name": "7.92x57mm FMJ Surplus",
+        "shortName": "FMJ",
+        "description": "A surplus variant of the 8mm Mauser FMJ round commonly used during the second World War. Due to it's age and materials, this round may be more likely to jam or damage any weapon it is run though."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 135,
+    "handbookPriceRoubles": 98,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
