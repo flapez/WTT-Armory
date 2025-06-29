@@ -148,6 +148,25 @@
             ]
         },
         {
+            "key": "Attachment_Scopes/mars_red_dot.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Attachment_Scopes/susat_new_scope.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "packages/com.unity.postprocessing/postprocessing/postprocessresources.bundle",
+                "assets/content/textures/holemanager/round_spec_mask.bundle",
+                "assets/systems/effects/opticsight/opticsightsmasks.bundle"
+            ]
+        },
+        {
             "key": "Attachment_Suppressors/suppressor_osshxqd.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -157,6 +176,14 @@
         },
         {
             "key": "Attachment_Suppressors/suppressor_tundra.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Items_Quests/quest_antiquepistolcase.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -3887,14 +3914,6 @@
         },
         {
             "key": "WeaponXM8/xm8toprail.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-             "key": "Items_Quests/quest_antiquepistolcase.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",

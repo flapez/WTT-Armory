@@ -341,5 +341,223 @@
         "masterySections": [],
         "addweaponpreset": false,
         "weaponpresets": []
-    }
+    },
+    "2322ee962f6c77a1284abc1e": {
+		"itemTplToClone": "57ac965c24597706be5f975c",
+		"parentId": "55818add4bdc2d5b648b456f",
+		"handbookParentId": "5b5f740a86f77447ec5d7706",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Scopes/susat_new.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.495,
+			"Ergonomics": -3.5,
+			"AimSensitivity": [
+				[
+					0.1625,
+					0.1625
+				],
+				[
+					0.7
+				]
+			],
+			"Zooms": [
+				[
+					4,
+					4
+				],
+				[
+					1
+				]
+			],
+			"ModesCount": [
+				2,
+				1
+			],
+			"ConflictingItems": [
+				"55d5f46a4bdc2d1b198b4567",
+				"5a7c74b3e899ef0014332c29",
+				"5bfd4c980db834001b73449d"
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "BAE Systems SUSAT 4x32 scope",
+				"shortName": "SUSAT",
+				"description": "Sight, Unit, Small Arms, Trilux. (SUSAT) Standard issue 4x magnification optical sight for the SA80 family of weapons."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 19000,
+		"handbookPriceRoubles": 12000,
+		"addtoTraders": false,
+		"traderId": "MECHANIC",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 17000,
+				"_tpl": "Roubles"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 3000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 3000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 3000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 3000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 3000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 3000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+    "5ae3d18efa17cbd51e898ced": {
+		"itemTplToClone": "655f13e0a246670fb0373245",
+		"parentId": "55818ad54bdc2ddc698b4569",
+		"handbookParentId": "5b5f742686f774093e6cb4ff",
+		"overrideProperties": {
+			"ExaminedByDefault": true,
+			"Prefab": {
+				"path": "Attachment_Scopes/mars_red_dot.bundle",
+				"rcid": ""
+			},
+			"Weight": 0.430,
+			"Ergonomics": -3.5,
+			"AimSensitivity":[
+				[
+					0.7,
+					0.7
+				]
+			],
+			"ModesCount":[
+				2
+			],
+			"ScopesCount": 1,
+			"Zooms":[
+				[
+					1,
+					1
+				]
+			]
+		},
+		"locales": {
+			"en": {
+				"name": "ITL MARS reflex sight",
+				"shortName": "MARS",
+				"description": "The ITL MARS (Multi-purpose Aiming Reflex Sight) is a gun sight that combines two sighting devices, a reflex sight and a laser sight. It is designed and produced by ITL Optronics company, based in Israel."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": true,
+		"modSlot": [
+			"mod_scope",
+			"mod_scope_000",
+			"mod_scope_001",
+			"mod_tactical",
+			"mod_tactical_000"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 32000,
+		"handbookPriceRoubles": 21000,
+		"addtoTraders": false,
+		"traderId": "SKIER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 22000,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 2,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+				"Probability": 3000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 3000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+				"Probability": 3000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+				"Probability": 3000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+				"Probability": 3000
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_WOODEN_CRATE",
+				"Probability": 3000
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Name": "M4",
+				"Templates": [
+					"4b81488c78c8a8ac7d37f9b9"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
 }
