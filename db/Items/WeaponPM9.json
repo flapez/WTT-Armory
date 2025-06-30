@@ -11,6 +11,7 @@
             },
             "Width": 2,
             "Height": 1,
+            "Ergonomics": 80,
             "Slots": [
                 {
                     "_id": "6830c2d85d8ea759b6b7f42b",
@@ -331,6 +332,7 @@
         "handbookParentId": "5b5f754a86f774094242f19b",
         "overrideProperties": {
             "ExaminedByDefault": true,
+            "Ergonomics": -3,
             "Prefab": {
                 "path": "WeaponPM9/pm9_magazine_25.bundle",
                 "rcid": ""
@@ -366,6 +368,7 @@
         "handbookParentId": "5b5f754a86f774094242f19b",
         "overrideProperties": {
             "ExaminedByDefault": true,
+            "Ergonomics": -4,
             "Prefab": {
                 "path": "WeaponPM9/pm9_magazine_32.bundle",
                 "rcid": ""
@@ -401,6 +404,7 @@
         "handbookParentId": "5b5f754a86f774094242f19b",
         "overrideProperties": {
             "ExaminedByDefault": true,
+            "ergomonics": -5,
             "Prefab": {
                 "path": "WeaponPM9/pm9_mag_40.bundle",
                 "rcid": ""
@@ -442,7 +446,7 @@
             },
             "Weight": 0.63,
             "Ergonomics": 6.5,
-            "Recoil": -19
+            "Recoil": -20
         },
         "locales": {
             "en": {
