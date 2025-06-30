@@ -121,6 +121,14 @@
             ]
         },
         {
+            "key": "Attachment_Magazines/magazine_ak103_plum.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Attachment_Muzzles/muzzle_oss762qd.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -606,14 +614,6 @@
         },
         {
             "key": "WeaponAEK/magazine_ak103_boss.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "WeaponAEK/magazine_ak103_plum.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",

@@ -17,6 +17,7 @@
 			"RecoilForceBack": 180,
             "RecoilForceUp": 65,
 			"CompactHandling": false,
+			"weapFireType": ["single"],
 			"defMagType": "55d4887d4bdc2d962f8b4570",
 			"Slots": [
 				{
