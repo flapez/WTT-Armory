@@ -250,63 +250,65 @@
           "index": 2,
           "items": [
             {
-              "_id": "685b32879ad85fcba9fe3473",
-              "_tpl": "68452c3da87156b67d9ec538",
-              "parentId": "hideout",
-              "slotId": "hideout",
-              "upd": {
-                "StackObjectsCount": 1,
-                "Repairable": {
-                  "Durability": 100,
-                  "MaxDurability": 100
+              "_id": "6850d93879b6552e17df49e6",
+                "_tpl": "68452c3da87156b67d9ec538",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": false,
+                    "StackObjectsCount": 10,
+                    "BuyRestrictionMax": 5,
+                    "Repairable": {
+                        "Durability": 100,
+                        "MaxDurability": 100
+                    }
                 }
-              }
             },
             {
-              "_id": "685625b222cbdbc1b7efae59",
-              "_tpl": "68452ea1e41a7fbeb0b2ff4e",
-              "parentId": "685b32879ad85fcba9fe3473",
-              "slotId": "mod_magazine"
+                "_id": "6850d9513c998daf51df49e7",
+                "_tpl": "68452ea1e41a7fbeb0b2ff4e",
+                "parentId": "6850d93879b6552e17df49e6",
+                "slotId": "mod_magazine"
             },
             {
-              "_id": "685625bb6d4a2c1d6221d4b6",
-              "_tpl": "684602de00667a8b3a8c1881",
-              "parentId": "685b32879ad85fcba9fe3473",
-              "slotId": "mod_trigger"
+                "_id": "6850d95eab6b1eb974df49e8",
+                "_tpl": "684602de00667a8b3a8c1881",
+                "parentId": "6850d93879b6552e17df49e6",
+                "slotId": "mod_trigger"
             },
             {
-              "_id": "685625c04c788a011eaad2b7",
-              "_tpl": "684602c4cb2dfb57366dbea3",
-              "parentId": "685b32879ad85fcba9fe3473",
-              "slotId": "mod_hammer"
+                "_id": "6850d9bf2a3b80e66adf49e9",
+                "_tpl": "684602c4cb2dfb57366dbea3",
+                "parentId": "6850d93879b6552e17df49e6",
+                "slotId": "mod_hammer"
             },
             {
-              "_id": "685625c84ac9b841d2aed3ed",
-              "_tpl": "68452ddf08572b1e3c35081c",
-              "parentId": "685b32879ad85fcba9fe3473",
-              "slotId": "mod_reciever"
+                "_id": "6850d9d0fda5a3ec6edf49ea",
+                "_tpl": "68452ddf08572b1e3c35081c",
+                "parentId": "6850d93879b6552e17df49e6",
+                "slotId": "mod_reciever"
             },
             {
-              "_id": "685625d0a9af5cf8dcffe8a4",
-              "_tpl": "6846039a06cd8ba4da4b764c",
-              "parentId": "685625c84ac9b841d2aed3ed",
-              "slotId": "mod_scope"
+                "_id": "6850d9f24d08500f29df49eb",
+                "_tpl": "6846039a06cd8ba4da4b764c",
+                "parentId": "6850d9d0fda5a3ec6edf49ea",
+                "slotId": "mod_scope"
             },
             {
-              "_id": "685625db3ad370a71c8c4c22",
-              "_tpl": "68452da6051e580c48ede835",
-              "parentId": "685b32879ad85fcba9fe3473",
-              "slotId": "mod_barrel"
+                "_id": "6850da00fb0201d455df49ec",
+                "_tpl": "68452da6051e580c48ede835",
+                "parentId": "6850d93879b6552e17df49e6",
+                "slotId": "mod_barrel"
             },
             {
-              "_id": "685624e6701a51fa57b8066c",
-              "_tpl": "6846049fd008e00428409f24",
-              "parentId": "685625db3ad370a71c8c4c22",
-              "slotId": "mod_sight_front"
+                "_id": "6850da104e1eb028c1df49ed",
+                "_tpl": "6846049fd008e00428409f24",
+                "parentId": "6850da00fb0201d455df49ec",
+                "slotId": "mod_sight_front"
             }
           ],
           "loyaltyLevel": 2,
-          "target": "685b32879ad85fcba9fe3473",
+          "target": "6850d93879b6552e17df49e6",
           "traderId": "5a7c2eca46aef81a7ca2145d",
           "type": "AssortmentUnlock"  
         }
