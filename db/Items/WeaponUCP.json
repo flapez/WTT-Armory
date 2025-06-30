@@ -4,7 +4,7 @@
         "parentId": "5447b5cf4bdc2d65278b4567",
         "handbookParentId": "5b5f792486f77447ed5636b3",
         "overrideProperties": {
-			"Ergonomics": 89,
+			"Ergonomics": 83,
 			"RecoilForceBack": 218,
 			"RecoilForceUp": 248,
 			"RecoilCamera": 0.007,
@@ -237,6 +237,7 @@
         "handbookParentId": "5b5f754a86f774094242f19b",
         "overrideProperties": {
 			"Weight":0.092,
+            "ergonomics": 1,
             "Prefab": {
                 "path": "WeaponUCP/ucp_magazine.bundle",
                 "rcid": ""
@@ -437,8 +438,6 @@
         "parentId": "55818a684bdc2ddd698b456d",
         "handbookParentId": "5b5f761f86f774094242f1a1",
         "overrideProperties": {
-			"Weight":0.06,
-			"Ergonomics": 4,
             "Prefab": {
                 "path": "WeaponUCP/ucp_grips.bundle",
                 "rcid": ""

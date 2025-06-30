@@ -192,7 +192,7 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Skeletonized AR-15",
+                "name": "Singuard Arms Wages of Sin Skeletonized 556x45 AR-15",
                 "shortName": "WoS Red",
                 "description": "Skeletonised AR-15 manufactured by Singuard Arms."
             }
@@ -623,8 +623,8 @@
             },
             "ExaminedByDefault": true,
             "Weight": 0.1879573,
-            "Recoil": -3,
-            "Ergonomics": 6,
+            "Recoil": -2,
+            "Ergonomics": 7,
             "HeatFactor": 0.983,
             "CoolFactor": 1.013,
             "DurabilityBurnModificator": 0.95,
@@ -857,7 +857,7 @@
             "Ergonomics": -1,
             "DurabilityBurnModificator": 0.90,
             "HeatFactor": 0.99,
-            "CoolFactor": 1.055,
+            "CoolFactor": 3.055,
             "Weight": 0.100
         },
         "locales": {
@@ -894,7 +894,7 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "Ergonomics": "13"
+            "Ergonomics": "12"
         },
         "locales": {
             "en": {
@@ -1192,7 +1192,7 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Skeletonized AR-15 (Black)",
+                "name": "Singuard Arms Wages of Sin Skeletonized 556x45 AR-15 (Black)",
                 "shortName": "WoS",
                 "description": "Skeletonised AR-15 manufactured by Singuard Arms. Black variant."
             }
@@ -1857,7 +1857,7 @@
             "Ergonomics": -1,
             "DurabilityBurnModificator": 0.90,
             "HeatFactor": 0.99,
-            "CoolFactor": 1.055,
+            "CoolFactor": 3.055,
             "Weight": 0.100
         },
         "locales": {
@@ -1894,7 +1894,7 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "Ergonomics": "13"
+            "Ergonomics": "12"
         },
         "locales": {
             "en": {
@@ -2192,7 +2192,7 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Skeletonized AR-15 (FDE)",
+                "name": "Singuard Arms Wages of Sin Skeletonized 556x45 AR-15 (FDE)",
                 "shortName": "WoS FDE",
                 "description": "Skeletonised AR-15 manufactured by Singuard Arms. FDE variant."
             }
@@ -2575,7 +2575,7 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "Ergonomics": "13"
+            "Ergonomics": "12"
         },
         "locales": {
             "en": {

@@ -287,8 +287,8 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "Recoil": -4,
-            "Ergonomics": -3,
+            "Recoil": -7,
+            "Ergonomics": -4,
             "Slots": [
                 {
                     "_id": "68452dc9511f2d982e63804d",
@@ -345,7 +345,7 @@
             },
             "ExaminedByDefault": true,
             "Recoil": -4,
-            "Ergonomics": -3
+            "Ergonomics": -4
         },
         "locales": {
             "en": {
@@ -440,7 +440,8 @@
                 "path": "WeaponStaccatoXC/xc_longslide.bundle",
                 "rcid": ""
             },
-            "Ergonomics": 3.5,
+            "Ergonomics": 2,
+            "Recoil": -2,
             "ConflictingItems": [
                 "68452da6051e580c48ede835"
             ],
@@ -537,7 +538,8 @@
                 "path": "WeaponStaccatoXC/xc_hammer_comp.bundle",
                 "rcid": ""
             },
-            "ExaminedByDefault": true
+            "ExaminedByDefault": true,
+            "Ergonomics": 3
         },
         "locales": {
             "en": {
@@ -677,7 +679,8 @@
                 "path": "WeaponStaccatoXC/xc_trigger_lightweight.bundle",
                 "rcid": ""
             },
-            "ExaminedByDefault": true
+            "ExaminedByDefault": true,
+            "Ergonomics": 3.5
         },
         "locales": {
             "en": {
@@ -747,7 +750,8 @@
                 "path": "WeaponStaccatoXC/xc_trigger_comp.bundle",
                 "rcid": ""
             },
-            "ExaminedByDefault": true
+            "ExaminedByDefault": true,
+            "Ergonomics": 4
         },
         "locales": {
             "en": {
@@ -782,7 +786,8 @@
                 "path": "WeaponStaccatoXC/xc_magazine.bundle",
                 "rcid": ""
             },
-            "ExaminedByDefault": true
+            "ExaminedByDefault": true,
+            "Ergonomics": -1
         },
         "locales": {
             "en": {
@@ -817,7 +822,8 @@
                 "path": "WeaponStaccatoXC/xc_magazine_ext.bundle",
                 "rcid": ""
             },
-            "ExaminedByDefault": true
+            "ExaminedByDefault": true,
+            "Ergonomics": -2
         },
         "locales": {
             "en": {
@@ -1000,7 +1006,7 @@
                 "path": "WeaponStaccatoXC/xc_magwell.bundle",
                 "rcid": ""
             },
-            "Ergonomics": 4,
+            "Ergonomics": 5,
             "Weight": 0.1,
             "ExaminedByDefault": true
         },

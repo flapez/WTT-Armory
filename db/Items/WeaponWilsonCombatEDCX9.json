@@ -271,7 +271,7 @@
         },
         "locales": {
             "en": {
-                "name": "Wilson Combat EDC X9 4-inch barrel",
+                "name": "Wilson Combat EDC X9 9x19 4-inch barrel",
                 "shortName": "EDC X9",
                 "description": "A 4-inch barrel for the Wilson Combat EDC X9 9x19mm pistol."
             }
@@ -313,7 +313,7 @@
         },
         "locales": {
             "en": {
-                "name": "Wilson Combat EDC X9 5-Inch extended barrel",
+                "name": "Wilson Combat EDC X9 9x19 5-Inch extended barrel",
                 "shortName": "EDC X9",
                 "description": "An aftermarket 5-inch barrel for the Wilson Combat EDC X9 9x19mm pistol."
             }
@@ -399,8 +399,8 @@
         "handbookParentId": "5b5f764186f77447ec5d7714",
         "overrideProperties": {
             "Weight": 0.41,
-            "Recoil": -3,
-            "Ergonomics": 6,
+            "Recoil": -4,
+            "Ergonomics": 7,
             "Prefab": {
                 "path": "WeaponWilsonCombatEDCX9/wilson_tacticalslide.bundle",
                 "rcid": ""
@@ -479,7 +479,7 @@
         "handbookParentId": "5b5f764186f77447ec5d7714",
         "overrideProperties": {
             "Weight": 0.47,
-            "Recoil": -5.5,
+            "Recoil": -5.9,
             "Ergonomics": 4.5,
             "Prefab": {
                 "path": "WeaponWilsonCombatEDCX9/wilson_longslide.bundle",
@@ -838,7 +838,7 @@
                 "path": "WeaponWilsonCombatEDCX9/wilson_magwell.bundle",
                 "rcid": ""
             },
-            "Ergonomics": 4,
+            "Ergonomics": 6,
             "Weight": 0.1,
             "ExaminedByDefault": true
         },
