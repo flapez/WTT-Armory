@@ -249,7 +249,7 @@
           "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "ammoCaliber": "Caliber556x45NATO",
+      "ammoCaliber": "5.56x45 / 7.62x39",
       "Chambers": [
         {
           "_name": "patron_in_weapon",
@@ -291,7 +291,7 @@
     },
     "locales": {
       "en": {
-        "name": "Remington Multi-Caliber Adaptive Combat Rifle",
+        "name": "Remington ACR Multi-Caliber assault rifle",
         "shortName": "ACR",
         "description": "The Remington ACR is a gas operated, selective fire weapon with a modular design. The key idea of the ACR's modular system, is that it will provide a wide variety of configurations within a matter of minutes. It is only available for the military and law enforcement market in 5.56\u00d745mm NATO, 7.62x39mm, 6.8mm Remington SPC and 6.5mm Grendel. It can change caliber in minutes at the user level by changing the bolt head, barrel, and magazine. It formerly designed by Magpul Industries of Austin, Texas, and known initially as the Masada. Design features from the Armalite AR-18 (short-stroke gas system), the FN SCAR (upper receiver, charging handle location), the Heckler & Koch G36 and XM8 (wide use of polymer components), and the M16/AR-15 (trigger pack, barrel, fire control group) were present."
       }
@@ -412,11 +412,12 @@
       "Prefab": {
         "path": "WeaponACR/acrfde_container.bundle",
         "rcid": ""
-      }
+      },
+      "ammoCaliber": "5.56x45 / 7.62x39"
     },
     "locales": {
       "en": {
-        "name": "Remington Multi-Caliber Adaptive Combat Rifle (FDE)",
+        "name": "Remington ACR Multi-Caliber assault rifle (FDE)",
         "shortName": "ACR",
         "description": "The Remington ACR is a gas operated, selective fire weapon with a modular design. The key idea of the ACR's modular system, is that it will provide a wide variety of configurations within a matter of minutes. It is only available for the military and law enforcement market in 5.56\u00d745mm NATO, 7.62x39mm, 6.8mm Remington SPC and 6.5mm Grendel. It can change caliber in minutes at the user level by changing the bolt head, barrel, and magazine. It formerly designed by Magpul Industries of Austin, Texas, and known initially as the Masada. Design features from the Armalite AR-18 (short-stroke gas system), the FN SCAR (upper receiver, charging handle location), the Heckler & Koch G36 and XM8 (wide use of polymer components), and the M16/AR-15 (trigger pack, barrel, fire control group) were present."
       }
