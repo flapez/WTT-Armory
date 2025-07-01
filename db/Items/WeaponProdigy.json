@@ -5,7 +5,7 @@
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
       "RecoilForceBack": 230,
-      "Ergonomics": 90,
+      "Ergonomics": 86,
       "BaseMalfunctionChance": 0.14,
       "RecoilForceUp": 285,
       "RecoilDampingHandRotation": 0.62,
@@ -337,7 +337,7 @@
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
       "RecoilForceBack": 230,
-      "Ergonomics": 90,
+      "Ergonomics": 86,
       "BaseMalfunctionChance": 0.14,
       "RecoilForceUp": 285,
       "RecoilDampingHandRotation": 0.62,
@@ -528,7 +528,7 @@
     },
     "locales": {
       "en": {
-        "name": "Springfield Armory DS Prodigy 9x19mm Handgun",
+        "name": "Springfield Armory DS Prodigy 9x19mm Handgun Flat Dark Earth",
         "shortName": "Prodigy",
         "description": "The Prodigy from Springfield Armory takes the proven 1911 platform and enhances it with double-stack capacity and a performance-driven feature set. Reconfigured around a double-stack magazine, the Prodigy's polymer grip module mounts to its forged steel frame offering capacities of 17+1.  Optics ready with an ambidextrous safety and Picatinny rail, the Prodigy combines the most beloved characteristics of the 1911 with modern capacity for unrivaled performance."
       }
@@ -1038,7 +1038,7 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-      "Ergonomics": -2
+      "Ergonomics": -3
     },
     "locales": {
       "en": {
