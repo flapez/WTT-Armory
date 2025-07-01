@@ -170,7 +170,7 @@
         },
         "locales": {
             "en": {
-                "name": "Staccato XC 9x19mm pistol",
+                "name": "Staccato XC 9x19 pistol",
                 "shortName": "XC",
                 "description": "The Staccato XC blends the precision of a 1911 with modern innovation, featuring a double-stack magazine, optics-ready slide, ambidextrous safety, and an integrated Picatinny rail. Its polymer grip and forged steel frame ensure superior performance and reliability, making it a top choice for competitive shooting."
             }
@@ -312,8 +312,8 @@
         },
         "locales": {
             "en": {
-                "name": "Staccato XC 9x19mm barrel",
-                "shortName": "XC Barrel",
+                "name": "Staccato XC 9x19 barrel",
+                "shortName": "XC 5\"",
                 "description": "A precision-engineered barrel with an integrated compensator for the Staccato XC 9x19mm pistol, designed for exceptional accuracy, durability, and optimal performance in competitive shooting."
             }
         },
@@ -349,8 +349,8 @@
         },
         "locales": {
             "en": {
-                "name": "Staccato XC 9x19mm extended barrel",
-                "shortName": "XC Barrel Ext",
+                "name": "Staccato XC 9x19 extended barrel",
+                "shortName": "XC Ext.",
                 "description": "A precision-engineered extended barrel for the Staccato XC 9x19mm pistol."
             }
         },
@@ -409,7 +409,7 @@
         },
         "locales": {
             "en": {
-                "name": "Staccato XC 9x19mm Slide",
+                "name": "Staccato XC 9x19 pistol slide",
                 "shortName": "XC",
                 "description": "An optics-ready slide for the Staccato XC 9x19mm pistol, crafted for precision, smooth cycling, and enhanced durability in competitive shooting environments."
             }
@@ -472,8 +472,8 @@
         },
         "locales": {
             "en": {
-                "name": "Staccato XC 9x19mm extended slide",
-                "shortName": "XC Ext",
+                "name": "Staccato XC 9x19 extended pistol slide",
+                "shortName": "XC Ext.",
                 "description": "An optics-ready extended slide for the Staccato XC 9x19mm pistol."
             }
         },
@@ -544,7 +544,7 @@
         "locales": {
             "en": {
                 "name": "Staccato XC competition hammer",
-                "shortName": "XC C",
+                "shortName": "XC Comp.",
                 "description": "A blue annodized competition hammer for the Staccato XC 9x19mm pistol."
             }
         },
@@ -579,7 +579,7 @@
         "locales": {
             "en": {
                 "name": "Staccato XC stainless hammer",
-                "shortName": "XC S",
+                "shortName": "XC SL",
                 "description": "A stainless steel performance hammer for the Staccato XC 9x19mm pistol."
             }
         },
@@ -614,7 +614,7 @@
         "locales": {
             "en": {
                 "name": "Staccato XC tactical lightweight hammer",
-                "shortName": "XC T",
+                "shortName": "XC TL",
                 "description": "A tactical lightweight hammer for the Staccato XC 9x19mm pistol."
             }
         },
@@ -649,7 +649,7 @@
         "locales": {
             "en": {
                 "name": "2011 Staccato XC trigger",
-                "shortName": "XC",
+                "shortName": "XC trig.",
                 "description": "Standard skeletonized trigger for the 2011 Staccato XC 9x19mm handgun."
             }
         },
@@ -685,7 +685,7 @@
         "locales": {
             "en": {
                 "name": "2011 Staccato XC lightweight trigger",
-                "shortName": "XC LW",
+                "shortName": "XC LW trig.",
                 "description": "Lightweight trigger for the 2011 Staccato XC 9x19mm handgun."
             }
         },
@@ -720,7 +720,7 @@
         "locales": {
             "en": {
                 "name": "2011 Staccato XC stainless trigger",
-                "shortName": "XC S",
+                "shortName": "XC trig.",
                 "description": "Stainless steel performance trigger for the 2011 Staccato XC 9x19mm handgun."
             }
         },
@@ -756,7 +756,7 @@
         "locales": {
             "en": {
                 "name": "2011 Staccato XC competition trigger",
-                "shortName": "XC C",
+                "shortName": "XC trig.",
                 "description": "A blue annodized competition trigger for the 2011 Staccato XC 9x19mm handgun."
             }
         },
@@ -791,7 +791,7 @@
         },
         "locales": {
             "en": {
-                "name": "Staccato XC 17-round 9x19mm magazine",
+                "name": "Staccato XC 9x19 17-round magazine",
                 "shortName": "XC-17",
                 "description": "Standard 17-round magazine for the Staccato XC 9x19mm pistol."
             }
@@ -827,7 +827,7 @@
         },
         "locales": {
             "en": {
-                "name": "Staccato XC 20-round extended 9x19mm magazine",
+                "name": "Staccato XC 9x19 20-round magazine",
                 "shortName": "XC-20",
                 "description": "Extended 20-round magazine for the Staccato XC 9x19mm pistol."
             }
@@ -885,8 +885,8 @@
         },
         "locales": {
             "en": {
-                "name": "Staccato XC 9x19mm RMR Sight Plate",
-                "shortName": "XC RMR Sight Plate",
+                "name": "Staccato XC RMR sight plate",
+                "shortName": "XC RMR",
                 "description": "An RMR sight plate for the Staccato XC 9x19mm pistol, offering a stable platform for Trijicon RMR red dot optics."
             }
         },
@@ -975,7 +975,7 @@
         },
         "locales": {
             "en": {
-                "name": "Staccato XC front sight post",
+                "name": "Staccato XC front sight",
                 "shortName": "XC FS",
                 "description": "A precision front sight for the Staccato XC 9x19mm pistol, designed for quick target acquisition and optimal visibility in various lighting conditions."
             }
