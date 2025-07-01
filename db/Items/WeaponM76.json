@@ -236,7 +236,7 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 7.92x57mm Marksman Rifle",
+        "name": "Zastava M76 7.92x57 marksman rifle",
         "shortName": "M76",
         "description": "The Zastava M76 is a military semi-automatic designated marksman rifle developed and manufactured by Zastava Arms. The Zastava Arms Company released the M76 in the mid-1970s. Since then it became the standard issue designated marksman rifle in the Serbian army and its predecessor the Yugoslav People's Army (JNA). It was designed to fulfill the same role as the Soviet Dragunov SVD, which was to provide a designated marksman capability to the infantry platoon."
       }
@@ -371,9 +371,9 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 Wooden Rifle Stock",
+        "name": "Zastava M76 fixed wooden stock",
         "shortName": "M76",
-        "description": "Standard wooden stock for the Zastava M76 7.92x57mm marksman rifle."
+        "description": "Standard wooden stock for the Zastava M76 7.92x57 marksman rifle."
       }
     },
     "clearClonedProps": false,
@@ -410,9 +410,9 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 RPK-Style Wooden Rifle Stock",
-        "shortName": "M76",
-        "description": "RPK-style wooden stock for the Zastava M76 7.92x57mm marksman rifle."
+        "name": "Zastava M76 RPK-style wooden rifle stock",
+        "shortName": "M76-RPK",
+        "description": "RPK-style wooden stock for the Zastava M76 7.92x57 marksman rifle."
       }
     },
     "clearClonedProps": false,
@@ -449,8 +449,8 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 PKM-Style Wooden Marksman Stock",
-        "shortName": "M76",
+        "name": "Zastava M76 PKM-Style wooden marksman stock",
+        "shortName": "M76 PKM",
         "description": "PKM-style wooden marksman stock for the Zastava M76 7.92x57mm marksman rifle."
       }
     },
@@ -485,8 +485,8 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 Rear Sight",
-        "shortName": "M76",
+        "name": "Zastava M76 rear sight",
+        "shortName": "M76 RS",
         "description": "Standard rear sight for the Zastava M76 7.92x57mm marksman rifle."
       }
     },
@@ -524,8 +524,8 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 Wooden Handguard with Gas Tube",
-        "shortName": "M76",
+        "name": "Zastava M76 gas block handguard assembly",
+        "shortName": "M76 HG",
         "description": "Standard wooden handguard and gas tube for the Zastava M76 7.92x57mm marksman rifle."
       }
     },
@@ -564,8 +564,8 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 Wooden Handguard with Foregrip and Gas Tube",
-        "shortName": "M76",
+        "name": "Zastava M76 gas block handguard assembly with foregrip",
+        "shortName": "M76 VFG",
         "description": "Zastava wooden handguard with foregrip and gas tube for the Zastava M76 7.92x57mm marksman rifle."
       }
     },
@@ -601,8 +601,8 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 Wooden Pistol Grip",
-        "shortName": "M76",
+        "name": "Zastava M76 wooden pistol grip",
+        "shortName": "M76 PG",
         "description": "Standard wooden pistol grip for the Zastava M76 7.92x57mm marksman rifle."
       }
     },
@@ -638,8 +638,8 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 Ergonomic Pistol Grip",
-        "shortName": "M76",
+        "name": "Zastava M76 ergonomic pistol grip",
+        "shortName": "M76 EPG",
         "description": "Ergonomic tactical pistol grip for the Zastava M76 7.92x57mm marksman rifle."
       }
     },
@@ -695,7 +695,7 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 10-Round 7.92x57mm Magazine",
+        "name": "Zastava M76 7.92x57 10-round magazine",
         "shortName": "M76",
         "description": "Standard 10-round magazine for the Zastava M76 7.92x57mm marksman rifle."
       }
@@ -757,7 +757,7 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 44-Round 7.92x57mm Makeshift Drum Magazine",
+        "name": "Zastava M76 7.92x57 makeshift 44-round drum magazine",
         "shortName": "M76 Drum",
         "description": "A makeshift drum magazine for the Zastava M76 that can hold 44 rounds of 7.92x57mm ammunition."
       }
@@ -794,8 +794,8 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 Dust Cover",
-        "shortName": "M76",
+        "name": "Zastava M76 standard dust cover",
+        "shortName": "M76 DC",
         "description": "Standard dust cover for the Zastava M76 7.92x57mm marksman rifle."
       }
     },
@@ -942,8 +942,8 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 Railed Dust Cover",
-        "shortName": "M76",
+        "name": "Zastava M76 railed dust cover",
+        "shortName": "M76 RDC",
         "description": "Railed dust cover for the Zastava M76 7.92x57mm marksman rifle."
       }
     },
@@ -982,8 +982,8 @@
     },
     "locales": {
       "en": {
-        "name": "Zastava M76 Flash Hider",
-        "shortName": "M76",
+        "name": "Zastava M76 flash hider",
+        "shortName": "M76 FH",
         "description": "Standard flash hider for the Zastava M76 7.92x57mm marksman rifle."
       }
     },
@@ -1024,9 +1024,9 @@
     },
     "locales": {
       "en": {
-        "name": "Moloc Armament Co. M76 7.92x57 Supressor",
-        "shortName": "M76",
-        "description": "A 7.92x57 supressor manufactured by Moloc Armament Company."
+        "name": "Zastava M76 Moloc Armament 7.92x57 sound suppressor",
+        "shortName": "Moloc",
+        "description": "A 7.92x57 sound suppressor manufactured by the Moloc Armament Company."
       }
     },
     "clearClonedProps": false,
