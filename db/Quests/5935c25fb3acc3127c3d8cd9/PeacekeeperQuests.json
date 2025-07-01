@@ -155,108 +155,262 @@
       ]
     }
   },
-    "683645245a1c12488166b1a5": {
-      "QuestName": "Nordic Remnants",
-      "_id": "5935c25fb3acc3127c3d8cd9",
-      "traderId": "5935c25fb3acc3127c3d8cd9",
-      "type": "PickUp",
-      "location": "5714dc692459777137212e12",
-      "image": "path/to/quest/image.png",
-      "acceptanceAndFinishingSource": "eft",
-      "arenaLocations": [],
-      "instantComplete": false,
-      "isKey": false,
-      "secretQuest": false,
-      "gameModes": [],
-      "progressSource": "eft",
-      "rankingModes": [],
-      "side": "Pmc",
-      "sideExclusive": "Pmc",
-      "description": "683645245a1c12488166b1a5 description",
-      "startedMessageText": "683645245a1c12488166b1a5 startedMessageText",
-      "successMessageText": "683645245a1c12488166b1a5 successMessageText",
-      "failMessageText": "683645245a1c12488166b1a5 failMessageText",
-      "acceptPlayerMessage": "683645245a1c12488166b1a5 acceptPlayerMessage",
-      "declinePlayerMessage": "683645245a1c12488166b1a5 declinePlayerMessage",
-      "completePlayerMessage": "683645245a1c12488166b1a5 completePlayerMessage",
-      "changeQuestMessageText": "683645245a1c12488166b1a5 changeQuestMessageText",
-      "name": "683645245a1c12488166b1a5 name",
-      "note": "683645245a1c12488166b1a5 note",
-      "restartable": false,
-      "canShowNotificationsInGame": true,
-      "status": 0,
-      "conditions": {
-        "AvailableForFinish": [
-          {
-            "conditionType": "FindItem",
-            "countInRaid": false,
-            "dogtagLevel": 0,
-            "dynamicLocale": false,
-            "globalQuestCounterId": "",
-            "id": "68363e9928ef789b2ccf31a1",
-            "index": 0,
-            "isEncoded": false,
-            "maxDurability": 100,
-            "minDurability": 0,
-            "onlyFoundInRaid": false,
-            "parentId": "",
-            "target": [
-                "683647bb7afb4f25023acf7a"
-            ],
-            "value": 1,
-            "visibilityConditions": []
+  "683645245a1c12488166b1a5": {
+    "QuestName": "Nordic Remnants",
+    "_id": "683645245a1c12488166b1a5",
+    "traderId": "5935c25fb3acc3127c3d8cd9",
+    "type": "PickUp",
+    "location": "5714dc692459777137212e12",
+    "image": "path/to/quest/image.png",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "instantComplete": false,
+    "isKey": false,
+    "secretQuest": false,
+    "gameModes": [],
+    "progressSource": "eft",
+    "rankingModes": [],
+    "side": "Pmc",
+    "sideExclusive": "Pmc",
+    "description": "683645245a1c12488166b1a5 description",
+    "startedMessageText": "683645245a1c12488166b1a5 startedMessageText",
+    "successMessageText": "683645245a1c12488166b1a5 successMessageText",
+    "failMessageText": "683645245a1c12488166b1a5 failMessageText",
+    "acceptPlayerMessage": "683645245a1c12488166b1a5 acceptPlayerMessage",
+    "declinePlayerMessage": "683645245a1c12488166b1a5 declinePlayerMessage",
+    "completePlayerMessage": "683645245a1c12488166b1a5 completePlayerMessage",
+    "changeQuestMessageText": "683645245a1c12488166b1a5 changeQuestMessageText",
+    "name": "683645245a1c12488166b1a5 name",
+    "note": "683645245a1c12488166b1a5 note",
+    "restartable": false,
+    "canShowNotificationsInGame": true,
+    "status": 0,
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68363e9928ef789b2ccf31a1",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "683647bb7afb4f25023acf7a"
+          ],
+          "value": 1,
+          "visibilityConditions": []
         }
-        ],
-        "AvailableForStart": [
-          {
-            "availableAfter": 0,
-            "conditionType": "Quest",
-            "dispersion": 0,
-            "dynamicLocale": false,
-            "globalQuestCounterId": "",
-            "id": "68364524012be9fa91eb0539",
-            "index": 0,
-            "parentId": "",
-            "status": [
-              4
-            ],
-            "target": "6833b8bc6f8ce71072c4e703",
-            "visibilityConditions": []
-          }
-        ],
-        "Fail": []
-      },
-      "rewards": {
-        "Fail": [],
-        "Started": [],
-        "Success": [
-          {
-            "availableInGameEditions": [],
-            "id": "683645243b37dda922a23309",
-            "index": 0,
-            "type": "Experience",
-            "value": "5000",
-            "unknown": false
-          },
-          {
-            "availableInGameEditions": [],
-            "id": "6836452446c3f11d5bcc53ec",
-            "index": 1,
-            "items": [
-              {
-                "_id": "68364aea4b4f530c67503db4",
-                "_tpl": "6671ebcdd32bd95eb398e920"
-              }
-            ],
-            "loyaltyLevel": 3,
-            "target": "68364aea4b4f530c67503db4",
-            "traderId": "5935c25fb3acc3127c3d8cd9",
-            "type": "AssortmentUnlock",
-            "unknown": false
-          }
-        ]
-      }
-   },
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68364524012be9fa91eb0539",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6833b8bc6f8ce71072c4e703",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "683645243b37dda922a23309",
+          "index": 0,
+          "type": "Experience",
+          "value": "5000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6836452446c3f11d5bcc53ec",
+          "index": 1,
+          "items": [
+            {
+              "_id": "685632ddabcc4d4ec803bc18",
+              "_tpl": "6671ebcdd32bd95eb398e920",
+              "upd": {
+                "Repairable": {
+                  "MaxDurability": 100,
+                  "Durability": 100
+                },
+                "Foldable": {
+                  "Folded": false
+                },
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "UnlimitedCount": true,
+                "StackObjectsCount": 99999,
+                "BuyRestrictionMax": 0
+              },
+              "parentId": "hideout",
+              "slotId": "hideout"
+            },
+            {
+              "_id": "685632ddabcc4d4ec803bc19",
+              "_tpl": "6671ec6e0bebf6ee2d5abf61",
+              "slotId": "mod_pistol_grip",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "685632ddabcc4d4ec803bc18"
+            },
+            {
+              "_id": "685632ddabcc4d4ec803bc1a",
+              "_tpl": "6828b1226ef8b54f3f63a678",
+              "slotId": "mod_magazine",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "685632ddabcc4d4ec803bc18"
+            },
+            {
+              "_id": "685632ddabcc4d4ec803bc1b",
+              "_tpl": "6671ecb42225b07c8afc4ce3",
+              "slotId": "mod_stock",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "685632ddabcc4d4ec803bc18"
+            },
+            {
+              "_id": "685632ddabcc4d4ec803bc1c",
+              "_tpl": "6671ece3365d10b3362eb40f",
+              "slotId": "mod_handguard",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "685632ddabcc4d4ec803bc18"
+            },
+            {
+              "_id": "685632ddabcc4d4ec803bc1d",
+              "_tpl": "6671ed5805ef46250c47e46a",
+              "slotId": "mod_muzzle",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "685632ddabcc4d4ec803bc18"
+            },
+            {
+              "_id": "685632ddabcc4d4ec803bc1e",
+              "_tpl": "682b9dd126018d7470776a59",
+              "slotId": "mod_foregrip",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "685632ddabcc4d4ec803bc1c"
+            },
+            {
+              "_id": "685632ddabcc4d4ec803bc1f",
+              "_tpl": "682b9cb8150b5a86eeaed3fa",
+              "slotId": "mod_tactical_001",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "685632ddabcc4d4ec803bc1c"
+            },
+            {
+              "_id": "685632ddabcc4d4ec803bc20",
+              "_tpl": "682b9d50a05fef25589376d4",
+              "slotId": "mod_tactical_002",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "685632ddabcc4d4ec803bc1c"
+            },
+            {
+              "_id": "685632ddabcc4d4ec803bc21",
+              "_tpl": "682b9cb8150b5a86eeaed3fa",
+              "slotId": "mod_tactical_003",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "685632ddabcc4d4ec803bc1c"
+            },
+            {
+              "_id": "68604d630f8b882c4803c86c",
+              "_tpl": "66839591f4d0cba7b041b2af",
+              "upd": {
+                "SpawnedInSession": true,
+                "Repairable": {
+                  "MaxDurability": 100,
+                  "Durability": 100
+                },
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "UnlimitedCount": true,
+                "StackObjectsCount": 999999,
+                "BuyRestrictionMax": 0
+              },
+              "parentId": "hideout",
+              "slotId": "hideout"
+            },
+            {
+              "_id": "68604d630f8b882c4803c86d",
+              "_tpl": "55d4887d4bdc2d962f8b4570",
+              "slotId": "mod_magazine",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "68604d630f8b882c4803c86c"
+            },
+            {
+              "_id": "68604d630f8b882c4803c86e",
+              "_tpl": "6683957f2e516f6146af483d",
+              "slotId": "mod_sight_rear",
+              "upd": {
+                "SpawnedInSession": true,
+                "Sight": {
+                  "ScopesCurrentCalibPointIndexes": [
+                    0
+                  ],
+                  "ScopesSelectedModes": [
+                    0
+                  ],
+                  "SelectedScope": 0,
+                  "ScopeZoomValue": 0
+                }
+              },
+              "parentId": "68604d630f8b882c4803c86c"
+            },
+            {
+              "_id": "68604d630f8b882c4803c86f",
+              "_tpl": "55d44fd14bdc2d962f8b456e",
+              "slotId": "mod_charge",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "68604d630f8b882c4803c86c"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "685632ddabcc4d4ec803bc18",
+          "traderId": "5935c25fb3acc3127c3d8cd9",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        }
+      ]
+    }
+  },
   "686051774a290eb6f216471f": {
     "QuestName": "Arms Recovery",
     "_id": "686051774a290eb6f216471f",
