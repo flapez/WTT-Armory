@@ -246,7 +246,7 @@
         },
         "locales": {
             "en": {
-                "name": "HK UCP 4.6x30mm 20-round magazine",
+                "name": "HK UCP 4.6x30 20-round magazine",
                 "shortName": "UCP",
                 "description": "A 20-round 4.6x30mm magazine for the HK UCP pistol."
             }
@@ -283,9 +283,9 @@
         },
         "locales": {
             "en": {
-                "name": "HK UCP 4.6x30mm pistol barrel",
-                "shortName": "UCP",
-                "description": "Standard pistol barrel for the HK UCP 4.6x30mm pistol."
+                "name": "HK UCP 4.6x30 5.1 inch barrel",
+                "shortName": "UCP 5.1\"",
+                "description": "A Standard 5.1 inch (130mm) pistol barrel for the HK UCP 4.6x30 pistol."
             }
         },
         "clearClonedProps": false,
@@ -376,9 +376,9 @@
         },
         "locales": {
             "en": {
-                "name": "HK UCP rear pistol sight",
-                "shortName": "UCP",
-                "description": "Rear pistol sight for the HK UCP 4.6x30mm pistol."
+                "name": "HK UCP rear sight",
+                "shortName": "UCP RS",
+                "description": "Rear pistol sight for the HK UCP 4.6x30 pistol."
             }
         },
         "clearClonedProps": false,
@@ -412,7 +412,7 @@
         "locales": {
             "en": {
                 "name": "HK UCP rear sight rail",
-                "shortName": "UCP Rail",
+                "shortName": "UCP RS rail",
                 "description": "Rear sight rail system for the HK UCP 4.6x30mm pistol."
             }
         },
@@ -448,8 +448,8 @@
         },
         "locales": {
             "en": {
-                "name": "HK UCP tactical rubber grips",
-                "shortName": "UCP Grips",
+                "name": "HK UCP tactical rubber grip glove",
+                "shortName": "UCP grip",
                 "description": "Tactical rubber grips for the HK UCP 4.6x30mm pistol."
             }
         },
@@ -518,8 +518,8 @@
         },
         "locales": {
             "en": {
-                "name": "HK UCP Custom Compensator",
-                "shortName": "UCP Comp",
+                "name": "HK UCP custom 4.6x30 compensator",
+                "shortName": "UCP Comp.",
                 "description": "A custom compensator with rail system for the HK UCP 4.6x30mm pistol."
             }
         },
@@ -557,9 +557,9 @@
         },
         "locales": {
             "en": {
-                "name": "HK UCP 4.6x30mm tactical suppressor",
-                "shortName": "UCP Tac",
-                "description": "A prototype USP style suppressor manufactured specifically for the HK UCP 4.6x30mm pistol."
+                "name": "HK UCP tactical 4.6x30 sound suppressor",
+                "shortName": "UCP",
+                "description": "A prototype USP style suppressor manufactured specifically for the HK UCP 4.6x30 pistol."
             }
         },
         "clearClonedProps": false,
