@@ -10,8 +10,8 @@
       "CenterOfImpact": 0.04,
       "DeviationCurve": 1.35,
       "DeviationMax": 23,
-      "RecoilForceBack": 480,
-      "RecoilForceUp": 155,
+      "RecoilForceBack": 880,
+      "RecoilForceUp": 337,
       "RecoilReturnPathDampingHandRotation": 0.45,
       "RecoilReturnPathOffsetHandRotation": 0.01,
       "RecoilAngle": 85,
@@ -408,7 +408,7 @@
     },
     "locales": {
       "en": {
-        "name": "Remington MSR .300 Winchester Magnum bolt-action sniper rifle",
+        "name": "Remington MSR .300 WM bolt-action sniper rifle",
         "shortName": "MSR",
         "description": "The Modular Sniper Rifle, or MSR, is a bolt-action sniper rifle developed and produced by Remington Arms for the United States Army. It was introduced in 2009, and was designed to meet specific United States Army and USSOCOM Precision Sniper Rifle requirements. The MSR initially won the PSR competition, and was called the Remington Mk 21 Precision Sniper Rifle in U.S. military service. However, it was then decided that the Mk 21 did not conform to SOCOM requirements at the time in 2018, and the program was re-competed with the Barrett MRAD selected in 2019 as the Mk 22 Advanced Sniper Rifle solution."
       }
@@ -578,7 +578,7 @@
     "locales": {
       "en": {
         "name": "Remington MSR skeletonized ergonomic rifle stock",
-        "shortName": "MSR S",
+        "shortName": "MSR Skel.",
         "description": "Skeletonized ergonomic rifle stock for the Remington MSR platform."
       }
     },
@@ -617,7 +617,7 @@
     "locales": {
       "en": {
         "name": "Remington MSR heavy marksman rifle stock",
-        "shortName": "MSR H",
+        "shortName": "MSR Heavy",
         "description": "Heavy duty marksman stock for the Remington MSR platform."
       }
     },
@@ -654,7 +654,7 @@
     "locales": {
       "en": {
         "name": "Remington MSR rubberized pistol grip",
-        "shortName": "MSR",
+        "shortName": "MSR PG",
         "description": "Standard rubberized pistol grip for the Remington MSR platform."
       }
     },
@@ -691,7 +691,7 @@
     "locales": {
       "en": {
         "name": "Remington MSR tactical grooved pistol grip",
-        "shortName": "MSR T",
+        "shortName": "MSR TG PG",
         "description": "Tactical grooved pistol grip for the Remington MSR platform."
       }
     },
@@ -748,7 +748,7 @@
     },
     "locales": {
       "en": {
-        "name": "Remington MSR 5-round .300 winchester magnum magazine",
+        "name": "Remington MSR .300 WM 5-round magazine",
         "shortName": "MSR-5",
         "description": "Standard 5-round .300 winchester magnum magazine for the Remington MSR platform."
       }
@@ -806,7 +806,7 @@
     },
     "locales": {
       "en": {
-        "name": "Remington MSR 10-round extended .300 winchester magnum magazine",
+        "name": "Remington MSR .300 WM 10-round magazine",
         "shortName": "MSR-10",
         "description": "Extended 10-round .300 winchester magnum magazine for the Remington MSR platform."
       }
@@ -873,9 +873,9 @@
     },
     "locales": {
       "en": {
-        "name": "Remington MSR 610mm .300 winchester magnum barrel",
-        "shortName": "MSR 610",
-        "description": "Standard 610mm .300 winchester magnum barrel for the Remington MSR platform."
+        "name": "Remington MSR .300 WM 24 inch barrel",
+        "shortName": "MSR 24\"",
+        "description": "Standard 24 inch (610mm) .300 WM barrel for the Remington MSR platform."
       }
     },
     "clearClonedProps": false,
@@ -940,9 +940,9 @@
     },
     "locales": {
       "en": {
-        "name": "Remington MSR 508mm .300 winchester magnum barrel",
-        "shortName": "MSR 508",
-        "description": "Shortened 508mm .300 winchester magnum barrel for the Remington MSR platform."
+        "name": "Remington MSR .300 WM 20 inch barrel",
+        "shortName": "MSR 20\"",
+        "description": "Shortened 20 inch (508mm) .300 WM barrel for the Remington MSR platform."
       }
     },
     "clearClonedProps": false,
@@ -1000,7 +1000,7 @@
     },
     "locales": {
       "en": {
-        "name": "Remington single port muzzle brake",
+        "name": "Remington MRS single-port muzzle brake",
         "shortName": "MSR-1",
         "description": "Single port muzzle brake for the Remington MSR platform."
       }
@@ -1040,7 +1040,7 @@
     },
     "locales": {
       "en": {
-        "name": "Remington dual port muzzle brake",
+        "name": "Remington MSR dual-port muzzle brake",
         "shortName": "MSR-2",
         "description": "Dual port muzzle brake for the Remington MSR platform."
       }
@@ -1073,17 +1073,17 @@
       },
       "HeatFactor": 1.18,
       "Ergonomics": -19,
-      "Recoil": -11,
+      "Recoil": -13,
       "Weight": 0.327,
-      "Loudness": -20,
+      "Loudness": -23,
       "DurabilityBurnModificator": 1.71,
-      "Velocity": 1.07,
+      "Velocity": 0.9,
       "ExaminedByDefault": true
     },
     "locales": {
       "en": {
-        "name": "Saber-5 .300 winchester magnum suppressor",
-        "shortName": "Saber-5",
+        "name": "OmniTech Systems Sabre-5 .300 WM sound suppressor",
+        "shortName": "Sabre-5",
         "description": "A proprietary suppressor designed specifically for .300 Winchest Magnum cartridges that fits onto the Remington MSR single port muzzle device."
       }
     },
