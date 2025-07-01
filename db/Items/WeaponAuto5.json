@@ -106,7 +106,7 @@
     },
     "locales": {
       "en": {
-        "name": "Browning Auto-5 12Ga shotgun",
+        "name": "Browning Auto-5 12ga shotgun",
         "shortName": "Auto-5",
         "description": "The Browning Auto-5 was the first mass-produced semi-automatic shotgun. Designed by John Browning in 1898 and patented in 1900, it was produced continually for almost 100 years by several makers with production ending in 1998."
       }
@@ -421,7 +421,7 @@
     },
     "locales": {
       "en": {
-        "name": "Browning Auto-5 12Ga shotgun",
+        "name": "Browning Auto-5 12ga shotgun (Custom)",
         "shortName": "Auto-5",
         "description": "The Browning Auto-5 was the first mass-produced semi-automatic shotgun. Designed by John Browning in 1898 and patented in 1900, it was produced continually for almost 100 years by several makers with production ending in 1998."
       }
@@ -607,7 +607,7 @@
     "locales": {
       "en": {
         "name": "Browning Auto-5 wooden pistol grip",
-        "shortName": "Auto-5 Pistol",
+        "shortName": "Auto-5 PG",
         "description": "A compact wooden pistol grip for the Browning Auto-5 12 gauge shotgun."
       }
     },
@@ -665,9 +665,9 @@
     },
     "locales": {
       "en": {
-        "name": "Browning Auto-5 710mm 12ga barrel",
-        "shortName": "Auto-5 710",
-        "description": "Standard 710mm barrel for the Browning Auto-5 12 gauge shotgun."
+        "name": "Browning Auto-5 12ga 27.9 inch barrel",
+        "shortName": "Auto-5 27.9\"",
+        "description": "Standard 27.9 inch (710mm) barrel for the Browning Auto-5 12 gauge shotgun."
       }
     },
     "clearClonedProps": false,
@@ -745,9 +745,9 @@
     },
     "locales": {
       "en": {
-        "name": "Heritage Ordnance Browning Auto-5 combat length barrel",
-        "shortName": "Auto-5 Com",
-        "description": "A 610mm barrel manufactured by Heritage Ordnance with mounted combat sights for the Browning Auto-5 12 gauge shotgun."
+        "name": "Browning Auto-5 Heritage Ordnance 12ga 24 inch barrel",
+        "shortName": "Auto-5 254\"",
+        "description": "A 24 inch (610mm) barrel manufactured by Heritage Ordnance with mounted combat sights for the Browning Auto-5 12 gauge shotgun."
       }
     },
     "clearClonedProps": false,
@@ -807,7 +807,7 @@
     "locales": {
       "en": {
         "name": "Browning Auto-5 shortened 12ga barrel",
-        "shortName": "Auto-5 Short",
+        "shortName": "Auto-5 Saw.",
         "description": "A custom length shortened barrel for the Browning Auto-5 12 gauge shotgun."
       }
     },
@@ -867,9 +867,9 @@
     },
     "locales": {
       "en": {
-        "name": "Browning Auto-5 custom-length 12ga barrel (Camo)",
-        "shortName": "Auto-5 Custom",
-        "description": "A camo painted custom length shortened barrel for the Browning Auto-5 12 gauge shotgun."
+        "name": "Browning Auto-5 12ga 12 inch barrel (Camo)",
+        "shortName": "Auto-5 12\"",
+        "description": "A 12 inch (305mm) camo painted custom length shortened barrel for the Browning Auto-5 12 gauge shotgun."
       }
     },
     "clearClonedProps": false,
@@ -993,7 +993,7 @@
     "locales": {
       "en": {
         "name": "Browning Auto-5 12ga extended 6-shell tube",
-        "shortName": "Auto-5 Ext",
+        "shortName": "Auto-5 Ext.",
         "description": "An extended 6-round tube for the Browning Auto-5 12 gauge shotgun."
       }
     },
@@ -1032,7 +1032,7 @@
     "locales": {
       "en": {
         "name": "Browning Auto-5 makeshift wooden foregrip",
-        "shortName": "Auto-5",
+        "shortName": "Auto-5 FG",
         "description": "A makeshift wooden foregrip for the Browning Auto-5 12 gauge shotgun."
       }
     },
