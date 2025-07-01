@@ -99,9 +99,9 @@
     },
     "locales": {
       "en": {
-        "name": "Hi-Point C9 9x19mm Pistol",
-        "shortName": "C9",
-        "description": ""
+        "name": "Hi-Point Model C-9 9x19 pistol",
+        "shortName": "C-9",
+        "description": "The Hi-Point Model C-9 is a polymer-framed semi-automatic pistol chambered in 9x19 Parabellum and is rated to accept +P ammunition. It is unknown why or how this weapon ended up in Tarkov."
       }
     },
     "clearClonedProps": false,
@@ -110,8 +110,8 @@
     "modSlot": [],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 10000,
-    "handbookPriceRoubles": 6500,
+    "fleaPriceRoubles": 8947,
+    "handbookPriceRoubles": 3558,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -202,9 +202,9 @@
     },
     "locales": {
       "en": {
-        "name": "Hi-Point C9 89mm Pistol Barrel",
-        "shortName": "C9",
-        "description": "Standard 89mm barrel for the Hi-Point C9 9x19mm pistol."
+        "name": "Hi-Point C-9 9x19 3.5 inch barrel",
+        "shortName": "C-9 3.5\"",
+        "description": "Standard 3.5 inch (89mm) barrel for the Hi-Point Model C-9 9x19mm pistol."
       }
     },
     "clearClonedProps": false,
@@ -239,9 +239,9 @@
     },
     "locales": {
       "en": {
-        "name": "Hi-Point C9 Pistol Slide",
-        "shortName": "C9",
-        "description": "Standard pistol slide for the Hi-Point C9 9x19mm pistol."
+        "name": "Hi-Point Model C-9 pistol slide",
+        "shortName": "C-9",
+        "description": "Standard pistol slide for the Hi-Point Model C-9 9x19 pistol."
       }
     },
     "clearClonedProps": false,
@@ -301,8 +301,8 @@
     },
     "locales": {
       "en": {
-        "name": "Hi-Point C9 9x19 8-Round Magazine",
-        "shortName": "C9",
+        "name": "Hi-Point Model C9 9x19 8-round magazine",
+        "shortName": "C-9",
         "description": "Standard 8-round magazine for the Hi-Point C9 9x19mm pistol."
       }
     },
@@ -337,8 +337,8 @@
     },
     "locales": {
       "en": {
-        "name": "Hi-Point C9 Pistol Grips",
-        "shortName": "C9",
+        "name": "Hi-Point Model C-9 side grips",
+        "shortName": "C-9",
         "description": "Standard pistol grips for the Hi-Point C9 9x19mm pistol."
       }
     },
