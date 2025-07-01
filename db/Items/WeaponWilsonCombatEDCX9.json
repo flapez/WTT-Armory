@@ -163,7 +163,7 @@
         },
         "locales": {
             "en": {
-                "name": "Wilson Combat EDC X9 9x19mm handgun",
+                "name": "Wilson Combat EDC X9 9x19 pistol",
                 "shortName": "EDC X9",
                 "description": "The Wilson Combat X-frame is a high-capacity 9mm 1911 frame that is similar in size to a traditional compact, single-stack 1911.  The X-frame is machined at Wilson Combat from T6-7075 aluminum and accepts a high-capacity magazine with a grip that is smaller in circumference than a standard 1911 while retaining traditional 1911 controls. "
             }
@@ -271,9 +271,9 @@
         },
         "locales": {
             "en": {
-                "name": "Wilson Combat EDC X9 9x19 4-inch barrel",
-                "shortName": "EDC X9",
-                "description": "A 4-inch barrel for the Wilson Combat EDC X9 9x19mm pistol."
+                "name": "Wilson Combat EDC X9 9x19 4 inch barrel",
+                "shortName": "EDC X9 4\"",
+                "description": "A 4 inch (101mm) barrel for the Wilson Combat EDC X9 9x19mm pistol."
             }
         },
         "clearClonedProps": false,
@@ -313,9 +313,9 @@
         },
         "locales": {
             "en": {
-                "name": "Wilson Combat EDC X9 9x19 5-Inch extended barrel",
+                "name": "Wilson Combat EDC X9 9x19 5 inch barrel",
                 "shortName": "EDC X9",
-                "description": "An aftermarket 5-inch barrel for the Wilson Combat EDC X9 9x19mm pistol."
+                "description": "An aftermarket 5 inch (127mm) barrel for the Wilson Combat EDC X9 9x19mm pistol."
             }
         },
         "clearClonedProps": false,
@@ -452,7 +452,7 @@
         "locales": {
             "en": {
                 "name": "Wilson Combat EDC X9 tactical pistol slide",
-                "shortName": "EDC Tac",
+                "shortName": "EDC Tac.",
                 "description": "An aftermarket ergonomic and recoil-reducing pistol slide and proprietary front night-sight for the Wilson Combat EDC X9 9x19mm pistol.  A slide cut was manufactured into the rear of the slide to allow for mounting of reflex sights."
             }
         },
@@ -535,7 +535,7 @@
         "locales": {
             "en": {
                 "name": "Wilson Combat EDC X9 extended pistol slide",
-                "shortName": "EDC Ext",
+                "shortName": "EDC Ext.",
                 "description": "An aftermarket extended pistol slide and proprietary front night-sight for the Wilson Combat EDC X9 9x19mm pistol.  A slide cut was manufactured into the rear of the slide to allow for mounting of reflex sights."
             }
         },
@@ -569,8 +569,8 @@
         },
         "locales": {
             "en": {
-                "name": "Wilson Combat 9x19mm 15-Round EDC X9 Magazine",
-                "shortName": "EDC X9",
+                "name": "Wilson Combat EDC X9 9x19 15-round magazine",
+                "shortName": "EDC-15",
                 "description": "A 15-round 9x19mm magazine for the Wilson Combat EDC X9 pistol."
             }
         },
@@ -606,7 +606,7 @@
         "locales": {
             "en": {
                 "name": "Wilson Combat EDC X9 tactical slide plate",
-                "shortName": "EDC Tac",
+                "shortName": "EDC Tac.",
                 "description": "Slide plate with rear pistol sights that covers the optic mounting area on the EDC X9 tactical pistol slide."
             }
         },
@@ -641,7 +641,7 @@
         "locales": {
             "en": {
                 "name": "Wilson Combat EDC X9 slide plate for extended slide",
-                "shortName": "EDC Ext",
+                "shortName": "EDC Ext.",
                 "description": "Slide plate with rear pistol sights that covers the optic mounting area on the EDC X9 extended pistol slide."
             }
         },
@@ -675,7 +675,7 @@
         "locales": {
             "en": {
                 "name": "Wilson Combat EDC X9 trigger",
-                "shortName": "EDC X9",
+                "shortName": "EDC trig.",
                 "description": "Standard trigger for the Wilson Combat EDC X9 9x19mm pistol."
             }
         },
@@ -709,7 +709,7 @@
         },
         "locales": {
             "en": {
-                "name": "Wilson Combat EDC X9 custom single port compensator",
+                "name": "Wilson Combat EDC X9 custom 9x19 single-port compensator",
                 "shortName": "EDC X9",
                 "description": "A custom single port compensator for the Wilson Combat EDC X9 9x19mm pistol."
             }
@@ -807,8 +807,8 @@
         },
         "locales": {
             "en": {
-                "name": "Wilson Combat EDC X9 extended 20-Round 9x19 magazine",
-                "shortName": "EDC X9 Ext",
+                "name": "Wilson Combat EDC X9 9x19 20-round magazine",
+                "shortName": "EDC-20",
                 "description": "A 20-round extended 9x19mm magazine for the Wilson Combat EDC X9 pistol."
             }
         },
