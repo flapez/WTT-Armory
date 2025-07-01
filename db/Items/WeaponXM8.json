@@ -196,7 +196,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "H&K XM8 5.56x45 assault rifle (FDE)",
+				"name": "HK XM8 5.56x45 assault rifle (FDE)",
 				"shortName": "XM8",
 				"description": "The XM8 is a lightweight assualt rifle system developed in the 1990's by Heckler & Koch as a replacement for the M4. While it would ultimately not be accepted, the XM8 is a reliable, light, and modular weapon. How it came to Tarkov is unknown, but it is a welcome addition."
 			}
@@ -290,7 +290,7 @@
 		"masteries": true,
 		"masterySections": [
 			{
-				"Name": "XM8",
+				"name": "HK XM8",
 				"Templates": [
 					"66b1770c5f8b2271bb5887dc"
 				],
@@ -496,7 +496,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "H&K XM8 5.56x45 assault rifle (OD)",
+				"name": "HK XM8 5.56x45 assault rifle (OD)",
 				"shortName": "XM8",
 				"description": "The XM8 is a lightweight assualt rifle system developed in the 1990's by Heckler & Koch as a replacement for the M4. While it would ultimately not be accepted, the XM8 is a reliable, light, and modular weapon. How it came to Tarkov is unknown, but it is a welcome addition."
 			}
@@ -590,7 +590,7 @@
 		"masteries": true,
 		"masterySections": [
 			{
-				"Name": "XM8",
+				"name": "HK XM8",
 				"Templates": [
 					"66b177141a00c9af1fd50b2d"
 				],
@@ -796,7 +796,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "H&K XM8 5.56x45 assault rifle (Black)",
+				"name": "HK XM8 5.56x45 assault rifle (Black)",
 				"shortName": "XM8",
 				"description": "The XM8 is a lightweight assualt rifle system developed in the 1990's by Heckler & Koch as a replacement for the M4. While it would ultimately not be accepted, the XM8 is a reliable, light, and modular weapon. How it came to Tarkov is unknown, but it is a welcome addition."
 			}
@@ -890,7 +890,7 @@
 		"masteries": true,
 		"masterySections": [
 			{
-				"Name": "XM8",
+				"name": "HK XM8",
 				"Templates": [
 					"66b17d6cbb296d01b4684944"
 				],
@@ -992,8 +992,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 5.56x45 LMG Length Barrel",
-				"shortName": "XM8 LMG Barrel",
+				"name": "HK XM8 5.56x45 LMG length barrel",
+				"shortName": "XM8 LMG",
 				"description": "A custom barrel for the XM8 made from a G36 barrel. A longer, heavier barrel designed for to withstand the heat of sustained automatic fire, or a higher level of accuracy and distance over smaller courses of fire."
 			}
 		},
@@ -1125,8 +1125,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 5.56x45 AR Length Barrel",
-				"shortName": "XM8 AR Barrel",
+				"name": "HK XM8 5.56x45 rifle length Barrel",
+				"shortName": "XM8 rifle",
 				"description": "A custom barrel for the XM8 made from a G36 barrel. A standard, rifle length barrel built for multiple roles."
 			}
 		},
@@ -1258,8 +1258,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 5.56x45 Carbine Length Barrel",
-				"shortName": "XM8 Carb Barrel",
+				"name": "HK XM8 5.56x45 carbine length barrel",
+				"shortName": "XM8 carbine",
 				"description": "A custom barrel for the XM8 made from a G36 barrel. A shorter, carbine length barrel that meets the middle ground for all tactical scenarios."
 			}
 		},
@@ -1391,8 +1391,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 5.56x45 PDW Length Barrel",
-				"shortName": "XM8 PDW Barrel",
+				"name": "HK XM8 5.56x45 PDW length barrel",
+				"shortName": "XM8 PDW",
 				"description": "A custom barrel for the XM8 made from a G36 barrel. A compact and stubby barrel designed for CQB and other confined spaces."
 			}
 		},
@@ -1445,7 +1445,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 gas block",
+				"name": "HK XM8 gas block",
 				"shortName": "XM8 Gas.",
 				"description": "An adjusted G36 Gas Block designed for use on the adapted G36 barrels being used for the XM8 platform in Tarkov."
 			}
@@ -1520,8 +1520,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 LMG Handguard",
-				"shortName": "XM8 LMG HG ",
+				"name": "HK XM8 LMG handguard",
+				"shortName": "XM8 LMG HG",
 				"description": "An AR length handguard equipped with a bipod for better prone performance and stable shooting."
 			}
 		},
@@ -1601,7 +1601,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 AR Length Handguard",
+				"name": "HK XM8 rifle length handguard",
 				"shortName": "XM8 AR HG",
 				"description": "A full length XM8 handguard."
 			}
@@ -1682,7 +1682,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Carbine Handguard",
+				"name": "HK XM8 carbine length handguard",
 				"shortName": "XM8 Carbine HG",
 				"description": "A carbine length handguard for the XM8 rifle."
 			}
@@ -1763,7 +1763,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 PDW Handguard",
+				"name": "HK XM8 PDW handguard",
 				"shortName": "XM8 PDW HG",
 				"description": "A compact handguard for the XM8, designed to minimize length and weight for close in operations."
 			}
@@ -1844,7 +1844,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 LMG Handguard OD",
+				"name": "HK XM8 LMG handguard (OD)",
 				"shortName": "XM8 LMG HG",
 				"description": "An AR length handguard equipped with a bipod for better prone performance and stable shooting."
 			}
@@ -1925,7 +1925,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 AR Length Handguard OD",
+				"name": "HK XM8 rifle length handguard (OD)",
 				"shortName": "XM8 AR HG",
 				"description": "A full length XM8 handguard."
 			}
@@ -2006,8 +2006,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Carbine Handguard OD",
-				"shortName": "XM8 Carb HG",
+				"name": "HK XM8 carbine length handguard (OD)",
+				"shortName": "XM8 Carbine HG",
 				"description": "A carbine length handguard for the XM8 rifle."
 			}
 		},
@@ -2087,7 +2087,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 PDW Handguard OD",
+				"name": "HK XM8 PDW handguard (OD)",
 				"shortName": "XM8 PDW HG",
 				"description": "A compact handguard for the XM8, designed to minimize length and weight for close in operations."
 			}
@@ -2168,7 +2168,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 LMG Handguard Black",
+				"name": "HK XM8 LMG handguard",
 				"shortName": "XM8 LMG HG",
 				"description": "An AR length handguard equipped with a bipod for better prone performance and stable shooting."
 			}
@@ -2249,7 +2249,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 AR Length Handguard Black",
+				"name": "HK XM8 rifle length handguard",
 				"shortName": "XM8 AR HG",
 				"description": "A full length XM8 handguard."
 			}
@@ -2330,7 +2330,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Carbine Handguard Black",
+				"name": "HK XM8 carbine length handguard black",
 				"shortName": "XM8 Carbine HG",
 				"description": "A carbine length handguard for the XM8 rifle."
 			}
@@ -2411,7 +2411,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 PDW Handguard Black",
+				"name": "HK XM8 PDW Handguard",
 				"shortName": "XM8 PDW HG",
 				"description": "A compact handguard for the XM8, designed to minimize length and weight for close in operations."
 			}
@@ -2472,8 +2472,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Adjustable Stock",
-				"shortName": "XM8 Stock.",
+				"name": "HK XM8 Adjustable Stock",
+				"shortName": "XM8 Stock",
 				"description": "An adjustable stock for the XM8 rifle."
 			}
 		},
@@ -2527,7 +2527,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Stock Cap",
+				"name": "HK XM8 Stock Cap",
 				"shortName": "XM8 BCap.",
 				"description": "A PDW style buttcap syle stock for the XM8, to be used in close in scenarions."
 			}
@@ -2580,8 +2580,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Folding Stock Adapter",
-				"shortName": "XM8 Adapt.",
+				"name": "HK XM8 folding stock adapter",
+				"shortName": "XM8 Adpt.",
 				"description": "Adapter to allow the installation of a folding stock to the XM8."
 			}
 		},
@@ -2641,8 +2641,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Folding Stock",
-				"shortName": "XM8 Folding",
+				"name": "HK XM8 folding stock",
+				"shortName": "XM8 fold.",
 				"description": "Folding stock for the XM8."
 			}
 		},
@@ -2696,8 +2696,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Adjustable Stock OD",
-				"shortName": "XM8 Stock OD.",
+				"name": "HK XM8 adjustable stock (OD)",
+				"shortName": "XM8 stock",
 				"description": "An adjustable stock for the XM8 rifle."
 			}
 		},
@@ -2751,8 +2751,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Stock Cap OD",
-				"shortName": "XM8 BCap OD",
+				"name": "HK XM8 stock cap (OD)",
+				"shortName": "XM8 BCap.",
 				"description": "A PDW style buttcap syle stock for the XM8, to be used in close in scenarions."
 			}
 		},
@@ -2804,8 +2804,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Folding Stock Adapter OD",
-				"shortName": "XM8 Adapt.",
+				"name": "HK XM8 folding stock adapter (OD)",
+				"shortName": "XM8 Adpt.",
 				"description": "Adapter to allow the installation of a folding stock to the XM8."
 			}
 		},
@@ -2865,8 +2865,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Folding Stock OD",
-				"shortName": "XM8 Fold.",
+				"name": "HK XM8 folding stock (OD)",
+				"shortName": "XM8 fold.",
 				"description": "Folding stock for the XM8."
 			}
 		},
@@ -2920,8 +2920,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Adjustable Stock Black",
-				"shortName": "XM8 Stock",
+				"name": "HK XM8 adjustable stock",
+				"shortName": "XM8 stock",
 				"description": "An adjustable stock for the XM8 rifle."
 			}
 		},
@@ -2975,8 +2975,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Stock Cap Black",
-				"shortName": "XM8 Bcap",
+				"name": "HK XM8 stock cap",
+				"shortName": "XM8 Bcap.",
 				"description": "A PDW style buttcap syle stock for the XM8, to be used in close in scenarions."
 			}
 		},
@@ -3028,8 +3028,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Folding Stock Adapter Black",
-				"shortName": "XM8 Adapter",
+				"name": "HK XM8 folding stock adapter",
+				"shortName": "XM8 adpt.",
 				"description": "Adapter to allow the installation of a folding stock to the XM8."
 			}
 		},
@@ -3089,8 +3089,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Folding Stock Black",
-				"shortName": "XM8 Folding",
+				"name": "HK XM8 folding stock",
+				"shortName": "XM8 fold.",
 				"description": "Folding stock for the XM8."
 			}
 		},
@@ -3260,8 +3260,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Picatinny Top Rail",
-				"shortName": "XM8 Pic Top Rail",
+				"name": "HK XM8 picatinny top rail",
+				"shortName": "XM8 Pic.",
 				"description": "A picatinny topped rail for the XM8 system. Allows a wide variety of optics and tactical attachments."
 			}
 		},
@@ -3384,8 +3384,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Flat Top Rail",
-				"shortName": "XM8 Flat Rail.",
+				"name": "HK XM8 flat top rail",
+				"shortName": "XM8 flat.",
 				"description": "A traditional, flat top XM8 rail, with a small, rear picatinny rail for mounting optics."
 			}
 		},
@@ -3513,7 +3513,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 AR/LMG PCAP to Picatinny Adapter",
+				"name": "HK XM8 AR/LMG PCAP-picatinny adapter",
 				"shortName": "XM8 P2PA.",
 				"description": "An adapter to convert the XM8's propriteray PCAP system to accept picatinny based attachments, for use on the AR and LMG handguards."
 			}
@@ -3642,8 +3642,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 Carbine PCAP to Picatinny Adapter",
-				"shortName": "XM8 Adapter",
+				"name": "HK XM8 Carbine PCAP-picatinny adapter",
+				"shortName": "XM8 P2PA.",
 				"description": "An adapter to convert the XM8's propriteray PCAP system to accept picatinny based attachments, for use with the Carbine handguard."
 			}
 		},
@@ -3771,8 +3771,8 @@
 		},
 		"locales": {
 			"en": {
-				"name": "XM8 PDW PCAP to Picatinny Adapter",
-				"shortName": "XM8 PDW P2PA .",
+				"name": "HK XM8 PDW PCAP-picatinny adapter",
+				"shortName": "XM8 P2PA.",
 				"description": "An adapter to convert the XM8's propriteray PCAP system to accept picatinny based attachments, for use with the PDW handguard."
 			}
 		},
