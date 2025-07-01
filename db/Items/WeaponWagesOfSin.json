@@ -192,9 +192,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Skeletonized 556x45 AR-15",
-                "shortName": "WoS Red",
-                "description": "Skeletonised AR-15 manufactured by Singuard Arms."
+                "name": "Singuard Arms \"Wages of Sin\" 5.56x45 assault rifle (Anodized Red)",
+                "shortName": "\"Wages of Sin\"",
+                "description": "A custom-built AR platform from Singuard Arms, the \"Wages of Sin\" is a stripped-down, skeletonised 5.56x45 rifle designed for maximum agility and minimal weight. Favored by high-speed operators and blacksite contractors."
             }
         },
         "clearClonedProps": false,
@@ -310,7 +310,7 @@
                         "slotId": "mod_gas_block"
                     }
                 ],
-                "_name": "Wages Of Sin Standard",
+                "_name": "Wages of Sin Standard",
                 "_parent": "51bfea96a331e89d3e47077f",
                 "_type": "Preset"
             }
@@ -384,9 +384,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms AR-15 Buffer Tube",
-                "shortName": "WoS Red",
-                "description": "Finely tuned buffer extension for the Singuard Arms Wages of Sin AR-15 platform."
+                "name": "Singuard Arms AR-15 buffer tube (Anodized Red)",
+                "shortName": "SIN",
+                "description": "Finely tuned buffer extension for the Singuard Arms \"Wages of Sin\" AR-15 platform."
             }
         },
         "clearClonedProps": false,
@@ -590,9 +590,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Handguard",
-                "shortName": "WoS Red",
-                "description": "Carbon fiber handguard for the Singuard Arms Wages of Sin AR-15 platform. Open and lightweight construction offers optimal ergonomics and nominal cooling factor to the barrel."
+                "name": "Singuard Arms \"Wages of Sin\" Handguard (Anodized Red)",
+                "shortName": "WoS HG",
+                "description": "Carbon fiber handguard for the Singuard Arms \"Wages of Sin\" AR-15 platform. Open and lightweight construction offers optimal ergonomics and nominal cooling factor to the barrel."
             }
         },
         "clearClonedProps": false,
@@ -820,9 +820,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Upper Receiver",
-                "shortName": "WoS Red",
-                "description": "Skeletonised upper receiver for the Singuard Arms Wages of Sin AR-15 platform. The precision machining cuts on the billet upper offer reduced felt weight and increased ergonomics for the end user."
+                "name": "Singuard Arms \"Wages of Sin\" 5.56x45 upper receiver (Anodized Red)",
+                "shortName": "WoS upper",
+                "description": "Skeletonised upper receiver for the Singuard Arms \"Wages of Sin\" AR-15 platform. The precision machining cuts on the billet upper offer reduced felt weight and increased ergonomics for the end user."
             }
         },
         "clearClonedProps": false,
@@ -862,9 +862,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin 5.56x45mm Muzzle Brake",
-                "shortName": "WoS Red",
-                "description": "A specially tuned muzzle brake for the Singuard Arms Wages of Sin AR-15 platform that greatly reduces felt recoil."
+                "name": "Singuard Arms \"Wages of Sin\" 5.56x45 muzzle brake (Anodized Red)",
+                "shortName": "WoS",
+                "description": "A specially tuned muzzle brake for the Singuard Arms \"Wages of Sin\" AR-15 platform that greatly reduces felt recoil."
             }
         },
         "clearClonedProps": false,
@@ -898,9 +898,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Pistol Grip",
-                "shortName": "WoS Red",
-                "description": "A skeletonised and ergonomic pistol grip for the Singuard Arms Wages of Sin AR-15 platform."
+                "name": "Singuard Arms \"Wages of Sin\" Pistol Grip",
+                "shortName": "WoS PG",
+                "description": "A skeletonised and ergonomic pistol grip for the Singuard Arms \"Wages of Sin\" AR-15 platform."
             }
         },
         "clearClonedProps": false,
@@ -940,9 +940,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Stock",
-                "shortName": "WoS Red",
-                "description": "A carbon fiber wireframe stock for the Singuard Arms Wages of Sin AR-15 platform designed specifically to fit on Singuard Arms AR-15 buffer tubes."
+                "name": "Singuard Arms \"Wages of Sin\" stock (Anodized Red)",
+                "shortName": "WoS",
+                "description": "A carbon fiber wireframe stock for the Singuard Arms \"Wages of Sin\" AR-15 platform designed specifically to fit on Singuard Arms AR-15 buffer tubes."
             }
         },
         "clearClonedProps": false,
@@ -977,9 +977,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin AR-15 Charging Handle",
-                "shortName": "WoS Red",
-                "description": "A skeletonised charging handle for the Singuard Arms Wages of Sin AR-15 platform."
+                "name": "Singuard Arms \"Wages of Sin\" charging handle (Anodized Red)",
+                "shortName": "WoS CH",
+                "description": "A skeletonised charging handle for the Singuard Arms \"Wages of Sin\" AR-15 platform."
             }
         },
         "clearClonedProps": false,
@@ -1192,9 +1192,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Skeletonized 556x45 AR-15 (Black)",
-                "shortName": "WoS",
-                "description": "Skeletonised AR-15 manufactured by Singuard Arms. Black variant."
+                "name": "Singuard Arms \"Wages of Sin\" 5.56x45 assault rifle",
+                "shortName": "\"Wages of Sin\"",
+                "description": "A custom-built AR platform from Singuard Arms, the \"Wages of Sin\" is a stripped-down, skeletonised 5.56x45 rifle designed for maximum agility and minimal weight. Favored by high-speed operators and blacksite contractors."
             }
         },
         "clearClonedProps": false,
@@ -1310,7 +1310,7 @@
                         "slotId": "mod_gas_block"
                     }
                 ],
-                "_name": "Wages Of Sin Black Standard",
+                "_name": "Wages of Sin Black Standard",
                 "_parent": "676b4f07c0c83269db1a3044",
                 "_type": "Preset"
             }
@@ -1384,9 +1384,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms AR-15 Buffer Tube (Black)",
-                "shortName": "WoS",
-                "description": "Finely tuned buffer extension for the Singuard Arms Wages of Sin AR-15 platform. Black variant."
+                "name": "Singuard Arms AR-15 buffer tube",
+                "shortName": "SIN",
+                "description": "Finely tuned buffer extension for the Singuard Arms \"Wages of Sin\" AR-15 platform. Black variant."
             }
         },
         "clearClonedProps": false,
@@ -1590,9 +1590,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Handguard (Black)",
-                "shortName": "WoS",
-                "description": "Carbon fiber handguard for the Singuard Arms Wages of Sin AR-15 platform. Open and lightweight construction offers optimal ergonomics and nominal cooling factor to the barrel. Black variant."
+                "name": "Singuard Arms \"Wages of Sin\" handguard",
+                "shortName": "WoS HG",
+                "description": "Carbon fiber handguard for the Singuard Arms \"Wages of Sin\" AR-15 platform. Open and lightweight construction offers optimal ergonomics and nominal cooling factor to the barrel. Black variant."
             }
         },
         "clearClonedProps": false,
@@ -1820,9 +1820,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Upper Receiver (Black)",
-                "shortName": "WoS",
-                "description": "Skeletonised upper receiver for the Singuard Arms Wages of Sin AR-15 platform. The precision machining cuts on the billet upper offer reduced felt weight and increased ergonomics for the end user. Black variant."
+                "name": "Singuard Arms \"Wages of Sin\" upper receiver",
+                "shortName": "WoS upper",
+                "description": "Skeletonised upper receiver for the Singuard Arms \"Wages of Sin\" AR-15 platform. The precision machining cuts on the billet upper offer reduced felt weight and increased ergonomics for the end user. Black variant."
             }
         },
         "clearClonedProps": false,
@@ -1862,9 +1862,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin 5.56x45mm Muzzle Brake (Black)",
+                "name": "Singuard Arms \"Wages of Sin\" 5.56x45 muzzle brake",
                 "shortName": "WoS",
-                "description": "A specially tuned muzzle brake for the Singuard Arms Wages of Sin AR-15 platform that greatly reduces felt recoil. Black variant."
+                "description": "A specially tuned muzzle brake for the Singuard Arms \"Wages of Sin\" AR-15 platform that greatly reduces felt recoil. Black variant."
             }
         },
         "clearClonedProps": false,
@@ -1898,9 +1898,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Pistol Grip (Black)",
-                "shortName": "WoS",
-                "description": "A skeletonised and ergonomic pistol grip for the Singuard Arms Wages of Sin AR-15 platform. Black variant."
+                "name": "Singuard Arms \"Wages of Sin\" pistol grip",
+                "shortName": "WoS PG",
+                "description": "A skeletonised and ergonomic pistol grip for the Singuard Arms \"Wages of Sin\" AR-15 platform. Black variant."
             }
         },
         "clearClonedProps": false,
@@ -1940,9 +1940,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Stock (Black)",
+                "name": "Singuard Arms \"Wages of Sin\" stock",
                 "shortName": "WoS",
-                "description": "A carbon fiber wireframe stock for the Singuard Arms Wages of Sin AR-15 platform designed specifically to fit on Singuard Arms AR-15 buffer tubes. Black variant."
+                "description": "A carbon fiber wireframe stock for the Singuard Arms \"Wages of Sin\" AR-15 platform designed specifically to fit on Singuard Arms AR-15 buffer tubes. Black variant."
             }
         },
         "clearClonedProps": false,
@@ -1977,9 +1977,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin AR-15 Charging Handle (Black)",
-                "shortName": "WoS",
-                "description": "A skeletonised charging handle for the Singuard Arms Wages of Sin AR-15 platform. Black variant."
+                "name": "Singuard Arms \"Wages of Sin\" AR-15 charging handle (Black)",
+                "shortName": "WoS CH",
+                "description": "A skeletonised charging handle for the Singuard Arms \"Wages of Sin\" AR-15 platform. Black variant."
             }
         },
         "clearClonedProps": false,
@@ -2192,9 +2192,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Skeletonized 556x45 AR-15 (FDE)",
-                "shortName": "WoS FDE",
-                "description": "Skeletonised AR-15 manufactured by Singuard Arms. FDE variant."
+                "name": "Singuard Arms \"Wages of Sin\" 5.56x45 assault rifle (FDE)",
+                "shortName": "\"Wages of Sin\"",
+                "description": "A custom-built AR platform from Singuard Arms, the \"Wages of Sin\" is a stripped-down, skeletonised 5.56x45 rifle designed for maximum agility and minimal weight. Favored by high-speed operators and blacksite contractors."
             }
         },
         "clearClonedProps": false,
@@ -2310,7 +2310,7 @@
                         "slotId": "mod_gas_block"
                     }
                 ],
-                "_name": "Wages Of Sin FDE Standard",
+                "_name": "Wages of Sin FDE Standard",
                 "_parent": "676c3e24a15d06fd6e363c66",
                 "_type": "Preset"
             }
@@ -2501,9 +2501,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Handguard (FDE)",
-                "shortName": "WoS FDE",
-                "description": "Carbon fiber handguard for the Singuard Arms Wages of Sin AR-15 platform. Open and lightweight construction offers optimal ergonomics and nominal cooling factor to the barrel. FDE variant."
+                "name": "Singuard Arms \"Wages of Sin\" Handguard (FDE)",
+                "shortName": "WoS",
+                "description": "Carbon fiber handguard for the Singuard Arms \"Wages of Sin\" AR-15 platform. Open and lightweight construction offers optimal ergonomics and nominal cooling factor to the barrel. FDE variant."
             }
         },
         "clearClonedProps": false,
@@ -2543,9 +2543,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin 5.56x45mm Muzzle Brake (FDE)",
-                "shortName": "WoS FDE",
-                "description": "A specially tuned muzzle brake for the Singuard Arms Wages of Sin AR-15 platform that greatly reduces felt recoil. FDE variant."
+                "name": "Singuard Arms \"Wages of Sin\" 5.56x45 muzzle brake (FDE)",
+                "shortName": "WoS",
+                "description": "A specially tuned muzzle brake for the Singuard Arms \"Wages of Sin\" AR-15 platform that greatly reduces felt recoil. FDE variant."
             }
         },
         "clearClonedProps": false,
@@ -2579,9 +2579,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Pistol Grip (FDE)",
-                "shortName": "WoS FDE",
-                "description": "A skeletonised and ergonomic pistol grip for the Singuard Arms Wages of Sin AR-15 platform. FDE variant."
+                "name": "Singuard Arms \"Wages of Sin\" pistol grip (FDE)",
+                "shortName": "WoS PG",
+                "description": "A skeletonised and ergonomic pistol grip for the Singuard Arms \"Wages of Sin\" AR-15 platform. FDE variant."
             }
         },
         "clearClonedProps": false,
@@ -2621,9 +2621,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin Stock (FDE)",
-                "shortName": "WoS FDE",
-                "description": "A carbon fiber wireframe stock for the Singuard Arms Wages of Sin AR-15 platform designed specifically to fit on Singuard Arms AR-15 buffer tubes. FDE variant."
+                "name": "Singuard Arms \"Wages of Sin\" stock (FDE)",
+                "shortName": "WoS",
+                "description": "A carbon fiber wireframe stock for the Singuard Arms \"Wages of Sin\" AR-15 platform designed specifically to fit on Singuard Arms AR-15 buffer tubes. FDE variant."
             }
         },
         "clearClonedProps": false,
@@ -2658,9 +2658,9 @@
         },
         "locales": {
             "en": {
-                "name": "Singuard Arms Wages of Sin AR-15 Charging Handle (FDE)",
-                "shortName": "WoS FDE",
-                "description": "A skeletonised charging handle for the Singuard Arms Wages of Sin AR-15 platform. FDE variant."
+                "name": "Singuard Arms \"Wages of Sin\" AR-15 charging handle (FDE)",
+                "shortName": "WoS CH",
+                "description": "A skeletonised charging handle for the Singuard Arms \"Wages of Sin\" AR-15 platform. FDE variant."
             }
         },
         "clearClonedProps": false,
