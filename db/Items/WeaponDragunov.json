@@ -5,6 +5,7 @@
     "handbookParentId": "5b5f791486f774093f2ed3be",
     "overrideProperties": {
       "ExaminedByDefault": true,
+      "Weight": 1.46,
       "RecoilCamera": 0.087,
       "SingleFireRate": 400,
       "Prefab": {
@@ -326,6 +327,8 @@
     "handbookParentId": "5b5f791486f774093f2ed3be",
     "overrideProperties": {
       "ExaminedByDefault": true,
+      "Weight": 1.46,
+      "CanSellOnRagfair": false,
       "RecoilForceBack": 650,
       "RecoilForceUp": 205,
       "RecoilCamera": 0.087,
@@ -507,7 +510,6 @@
     "modSlot": [],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 166765,
     "handbookPriceRoubles": 75355,
     "addtoTraders": false,
     "addtoBots": false,
@@ -652,7 +654,7 @@
         "path": "WeaponDragunov/svdwoodenhandguard.bundle",
         "rcid": ""
       },
-      "Weight": 0.265,
+      "Weight": 0.360,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -689,7 +691,7 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-      "Weight": 0.265
+      "Weight": 0.380
     },
     "locales": {
       "en": {
@@ -720,6 +722,7 @@
     "parentId": "55818a104bdc2db9688b4569",
     "handbookParentId": "5b5f75e486f77447ec5d7712",
     "overrideProperties": {
+      "CanSellOnRagfair": false,
       "Prefab": {
         "path": "WeaponDragunov/svdwoodenhandguardgreenghillie.bundle",
         "rcid": ""
@@ -742,8 +745,7 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 8000,
-    "handbookPriceRoubles": 3000,
+    "handbookPriceRoubles": 17896,
     "addtoTraders": false,
     "addtoBots": false,
     "addtostaticlootcontainer": false,
@@ -761,7 +763,7 @@
         "rcid": ""
       },
       "Recoil": -24,
-      "Weight": 0.5,
+      "Weight": 0.480,
       "Ergonomics": 6,
       "ExaminedByDefault": true,
       "Slots": []
@@ -834,6 +836,7 @@
     "parentId": "55818a684bdc2ddd698b456d",
     "handbookParentId": "5b5f761f86f774094242f1a1",
     "overrideProperties": {
+      "CanSellOnRagfair": false,
       "Prefab": {
         "path": "WeaponDragunov/svdpolymerstockgreen.bundle",
         "rcid": ""
@@ -859,8 +862,7 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 37500,
-    "handbookPriceRoubles": 8500,
+    "handbookPriceRoubles": 18500,
     "addtoTraders": false,
     "addtoBots": false,
     "addtostaticlootcontainer": false,
@@ -1000,12 +1002,10 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 105000,
-    "handbookPriceRoubles": 14000,
+    "handbookPriceRoubles": 38789,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
-    "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
   },
@@ -1171,7 +1171,7 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 15899,
+    "fleaPriceRoubles": 14800,
     "handbookPriceRoubles": 602,
     "addtoTraders": false,
     "addtoBots": false,
@@ -1185,11 +1185,15 @@
     "parentId": "55818a304bdc2db5418b457d",
     "handbookParentId": "5b5f764186f77447ec5d7714",
     "overrideProperties": {
+      "CanSellOnRagfair": false,
       "Prefab": {
         "path": "WeaponDragunov/svdgreencamodustcover.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+      "ConflictingItems": [
+        "5dfcd0e547101c39625f66f9"
+      ]
     },
     "locales": {
       "en": {
@@ -1206,12 +1210,10 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 5500,
-    "handbookPriceRoubles": 1109,
+    "handbookPriceRoubles": 8109,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
-    "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
   },
@@ -1220,6 +1222,7 @@
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
     "overrideProperties": {
+      "CanSellOnRagfair": false,
       "ExaminedByDefault": true,
       "Prefab": {
         "path": "WeaponDragunov/svd_cammomag.bundle",
@@ -1241,12 +1244,10 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 12000,
-    "handbookPriceRoubles": 4000,
+    "handbookPriceRoubles": 24000,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
-    "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
   },
@@ -1299,6 +1300,7 @@
       "LoadUnloadModifier": -10,
       "CheckTimeModifier": -10,
       "MalfunctionChance": 0.06,
+      "CanSellOnRagfair": false,
       "Prefab": {
         "path": "WeaponDragunov/svd_magazinepoly25.bundle",
         "rcid": ""
@@ -1345,12 +1347,10 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 45000,
-    "handbookPriceRoubles": 12000,
+    "handbookPriceRoubles": 34000,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
-    "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
   }
