@@ -231,7 +231,7 @@
     },
     "locales": {
       "en": {
-        "name": "M249 5.56x45 light machinegun",
+        "name": "M249 SAW 5.56x45 light machine gun",
         "shortName": "M249",
         "description": "The M249 SAW (Squad Automatic Weapon) is a gas operated and air cooled light machinegun widely used by the U.S. Armed Forces. The weapon was introduced in 1984 to address a lack of sustained automatic fire capability at the squad level. The M249 SAW combines the rate of fire of a machine gun with the accuracy and portability of an assault rifle."
       }
@@ -393,7 +393,7 @@
     },
     "locales": {
       "en": {
-        "name": "M249 5.56x45 200-Round Box Magazine",
+        "name": "M249 5.56x45 200-round box magazine",
         "shortName": "M249",
         "description": "Standard 200-round 5.56x45mm box magazine for the M249 light machinegun."
       }
@@ -427,11 +427,11 @@
       "ExaminedByDefault": true,
       "CanSellOnRagfair": true,
       "Weight": 0.875,
-      "Ergonomics": -20,
+      "Ergonomics": -18,
       "Width": 2,
       "Height": 2,
       "ExtraSideDown": 1,
-      "LoadUnloadModifier": 75,
+      "LoadUnloadModifier": 45,
       "Cartridges": [
         {
           "_name": "cartridges",
@@ -463,7 +463,7 @@
     },
     "locales": {
       "en": {
-        "name": "M249 5.56x45 100-Round Soft Pack",
+        "name": "M249 5.56x45 soft pack 100-round magazine",
         "shortName": "M249",
         "description": "A 100-round soft pack box magazine for the M249 5.56x45mm light machinegun."
       }
@@ -500,7 +500,7 @@
     "locales": {
       "en": {
         "name": "M249 Front Sight Post",
-        "shortName": "M249",
+        "shortName": "M249 FS",
         "description": "Standard front sight post for the M249 5.56x45mm light machinegun."
       }
     },
@@ -539,8 +539,8 @@
     },
     "locales": {
       "en": {
-        "name": "M249 Para Stock",
-        "shortName": "M249",
+        "name": "M249 PARA Stock",
+        "shortName": "M249 PARA.",
         "description": "Shortened ergonomic buttstock for the M249 5.56x45mm light machinegun designed for airborne and close quarters combat operations."
       }
     },
@@ -662,7 +662,7 @@
     },
     "locales": {
       "en": {
-        "name": "AR-15 Custom Magpul MOE Carbine Stock",
+        "name": "AR-15 Magpul MOE custom carbine stock",
         "shortName": "MOE",
         "description": "A customized Magpul MOE Carbine stock with cheek rest."
       }
@@ -702,8 +702,8 @@
     },
     "locales": {
       "en": {
-        "name": "M249 Polymer Stock",
-        "shortName": "M249",
+        "name": "M249 polymer stock",
+        "shortName": "M249 poly",
         "description": "Standard polymer stock for the M249 5.56x45mm light machinegun."
       }
     },
@@ -743,8 +743,8 @@
     },
     "locales": {
       "en": {
-        "name": "M249 Polymer Handguard",
-        "shortName": "M249",
+        "name": "M249 polymer handguard",
+        "shortName": "M249 poly",
         "description": "Standard polymer handguard for the M249 5.56x45mm light machinegun."
       }
     },
@@ -853,8 +853,8 @@
     },
     "locales": {
       "en": {
-        "name": "M249 Standard Barrel Assembly",
-        "shortName": "M249",
+        "name": "M249 standard 5.56x45 barrel sssembly",
+        "shortName": "M249 std.",
         "description": "Standard barrel assembly for the M249 5.56x45mm light machinegun."
       }
     },
@@ -963,8 +963,8 @@
     },
     "locales": {
       "en": {
-        "name": "M249 Para Barrel Assembly",
-        "shortName": "M249",
+        "name": "M249 PARA 5.56x45 barrel assembly",
+        "shortName": "M249 PARA.",
         "description": "Shortened barrel assembly for the M249 5.56x45mm light machinegun optimized for airborne infantry and close quarters combat operations."
       }
     },
@@ -1003,8 +1003,8 @@
     },
     "locales": {
       "en": {
-        "name": "M249 5.56x45 Standard Flash Hider",
-        "shortName": "M249",
+        "name": "M249 5.56x45 standard flash hider",
+        "shortName": "M249 std.",
         "description": "Standard flash hider muzzle device for the M249 5.56x45 light machinegun."
       }
     },
@@ -1207,7 +1207,7 @@
     },
     "locales": {
       "en": {
-        "name": "Moloc Armament Co. Heavy Handguard",
+        "name": "M249 Moloc Armament Heavy handguard",
         "shortName": "MAC Heavy",
         "description": "MAC Manufactured Heavy RAS Handguard inspired by the KAC RAS system"
       }
@@ -1372,8 +1372,8 @@
     },
     "locales": {
       "en": {
-        "name": "Moloc Armament Co. Sleek OD",
-        "shortName": "MAC OD HG",
+        "name": "M249 Moloc Armament \"Sleek\" handguard( OD)",
+        "shortName": "\"Sleek\"",
         "description": "Sleek OD Green handguard produced by Moloc Armament Co."
       }
     },
