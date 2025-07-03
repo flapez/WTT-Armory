@@ -1,0 +1,91 @@
+{
+	"chances": {
+		"equipment": {
+			"FirstPrimaryWeapon": 100
+		},
+		"weaponMods": {
+			"mod_pistol_grip": 100,
+			"mod_magazine": 100,
+			"mod_barrel": 100,
+			"mod_muzzle": 100,
+			"mod_sight_front": 100,
+			"mod_gas_block": 100,
+			"mod_mount_001": 100,
+			"mod_handguard": 100,
+			"mod_sight_rear": 100,
+			"mod_reciever": 100,
+			"mod_mount_002": 100,
+			"mod_tactical": 100
+		}
+	},
+	"inventory": {
+		"equipment": {
+			"FirstPrimaryWeapon": {
+				"6657bd4d3a4d6e7c33fd2fdc": 115000
+			}
+		},
+		"mods": {
+			"6657bd4d3a4d6e7c33fd2fdc": {
+				"mod_pistol_grip": [
+					"6657bda8ebfed767215c15d4"
+				],
+				"mod_magazine": [
+					"6657be2ae0a6ff466db575de",
+					"6657be3d8876d16a5866f413",
+					"6657be33ed0d0e6d65f1ba00"
+				],
+				"mod_barrel": [
+					"6657bdc55b6dea8c9e65dc93"
+				],
+				"mod_mount_001": [
+					"5c471c2d2e22164bef5d077f"
+				],
+				"mod_reciever": [
+					"6657be1f9014a9663b39bc4b"
+				],
+				"mod_mount_002": [
+					"5c82342f2e221644f31c060e"
+				]
+			},
+			"6657bdc55b6dea8c9e65dc93": {
+				"mod_muzzle": [
+					"6657bdde5fb53ba8b0657bd6",
+					"6657bdd3ceb56099bc50c188"
+				],
+				"mod_gas_block": [
+					"5c471c842e221615214259b5"
+				]
+			},
+			"6657bdde5fb53ba8b0657bd6": {
+				"mod_sight_front": [
+					"5c471ba12e221602b3137d76"
+				]
+			},
+			"6657bdd3ceb56099bc50c188": {
+				"mod_sight_front": [
+					"5c471ba12e221602b3137d76"
+				]
+			},
+			"5c471c2d2e22164bef5d077f": {
+				"mod_handguard": [
+					"6657bd891b74ff27b6a64fae",
+					"6657bd80a635c01603bd9ef7"
+				],
+				"mod_sight_rear": [
+					"5c471b7e2e2216152006e46c"
+				]
+			},
+			"5c82342f2e221644f31c060e": {
+				"mod_tactical": [
+					"57f3a5ae2459772b0e0bf19e"
+				]
+			}
+		},
+		"ammo": {
+			"Caliber762x54R": {
+				"59e77a2386f7742ee578960a": 199,
+				"560d61e84bdc2da74d8b4571": 55
+			}
+		}
+	}
+}
