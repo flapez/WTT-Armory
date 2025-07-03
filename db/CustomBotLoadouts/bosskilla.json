@@ -7,12 +7,12 @@
 			"mod_pistol_grip": 100,
 			"mod_magazine": 100,
 			"mod_reciever": 100,
-			"mod_scope": 35,
+			"mod_scope": 60,
 			"mod_barrel": 100,
 			"mod_muzzle": 100,
 			"mod_gas_block": 100,
 			"mod_handguard": 100,
-			"mod_foregrip": 35,
+			"mod_foregrip": 50,
 			"mod_stock": 100,
 			"mod_stock_000": 100,
 			"mod_charge": 100
@@ -25,7 +25,7 @@
 			}
 		},
 		"mods": {
-			"6761b213607f9a6f79017d40": {
+			"676b4e2ff185a450a0b300b4": {
 				"mod_pistol_grip": [
 					"6761b213607f9a6f79017d46",
 					"615d8faecabb9b7ad90f4d5d",
