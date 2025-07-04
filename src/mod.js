@@ -22,7 +22,7 @@ class WTTArmory {
     questAPI = new QuestAPI_1.QuestAPI();
     customLootspawnService = new CustomLootspawnService_1.CustomLootspawnService();
     customBotLoadoutService = new CustomBotLoadoutService_1.CustomBotLoadoutService();
-    debug = true;
+    debug = false;
     // Anything that needs done on preSptLoad, place here.
     preSptLoad(container) {
         // Initialize the instance manager DO NOTHING ELSE BEFORE THIS

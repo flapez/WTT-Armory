@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import type { WTTInstanceManager } from "./WTTInstanceManager";
 import * as customSpawnpointsForced from "../db/Locations/customSpawnpointsForced.json";
-//import * as customSpawnpoints from "../../db/Locations/customSpawnpoints.json"
+import * as customSpawnpoints from "../db/Locations/customSpawnpoints.json"
 
 export class CustomLootspawnService 
 {
@@ -27,13 +27,11 @@ export class CustomLootspawnService
             }
 
             // REGULAR LOOSELOOT SPAWNPOINTS
-            /*
             if (customSpawnpoints[locationId])
             {
                 // Concatenate the existing spawnpoints with the new ones
-                location.looseLoot.spawnpoints[locationId] = location.looseLoot.spawnpoints[locationId].concat(customSpawnpoints[locationId]);
+                location.looseLoot.spawnpoints = location.looseLoot.spawnpoints.concat(customSpawnpoints[locationId]);
             }
-            */
         }
     }
 }
