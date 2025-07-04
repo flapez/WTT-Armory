@@ -308,5 +308,159 @@
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
-  }
+  },
+  "c556f40e464c7f09d4c757fc": {
+		"itemTplToClone": "5fc275cf85fd526b824a571a",
+		"parentId": "AMMO",
+		"handbookParentId": "AMMO_ROUNDS",
+		"overrideProperties": {
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "Mods/Bullets/338_norma_fmj.bundle",
+				"rcid": ""
+			},
+			"Caliber": "Caliber338Norma",
+			"ammoAccr": 6,
+			"BallisticCoeficient": 0.768,
+			"BulletMassGram": 19.44,
+			"CanSellOnRagfair": false,
+			"casingMass": 69,
+			"Damage": 146,
+			"InitialSpeed": 810,
+			"PenetrationPower": 39,
+			"Weight": 0.039
+		},
+		"locales": {
+			"en": {
+				"name": ".338 Norma Magnum Norma 300gr MatchKing",
+				"shortName": "Matchking 300",
+				"description": "Sierra designed the Matchking bullet to be a record setting accurate projectile meant for a variety of uses from ELR matches to trophy hunts. This bullet performs amazingly at range and is the gold standard for long range precision rounds, this particular version matched with legendary Norma brass."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 1150,
+		"handbookPriceRoubles": 200,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 500
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 465,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 3,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Level2": 150,
+				"Level3": 200,
+				"Name": "AXMC",
+				"Templates": [
+					"deee28079e76d537f532021c"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	},
+	"ea4cdb6fc3dd4f799eeef33e": {
+		"itemTplToClone": "5fc275cf85fd526b824a571a",
+		"parentId": "AMMO",
+		"handbookParentId": "AMMO_ROUNDS",
+		"overrideProperties": {
+			"ExaminedByDefault": false,
+			"Prefab": {
+				"path": "Mods/Bullets/338_norma_fmj.bundle",
+				"rcid": ""
+			},
+			"Caliber": "Caliber338Norma",
+			"ammoAccr": 3,
+			"BallisticCoeficient": 0.735,
+			"BulletMassGram": 18.47,
+			"CanSellOnRagfair": false,
+			"casingMass": 69,
+			"Damage": 112,
+			"InitialSpeed": 827,
+			"PenetrationPower": 48,
+			"Weight": 0.039
+		},
+		"locales": {
+			"en": {
+				"name": ".338 Norma Magnum Sierra 250gr Matchking",
+				"shortName": "Matchking 250",
+				"description": "Sierra designed the Matchking to be a record setting accurate bullet meant for a variety of uses from ELR matches to trophy hunts. This bullet performs amazingly at range and is the gold standard for long range precision rounds."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 1320,
+		"handbookPriceRoubles": 250,
+		"addtoTraders": true,
+		"traderId": "JAEGER",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 500
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 590,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 4,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [
+			{
+				"ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+				"Probability": 250
+			},
+			{
+				"ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+				"Probability": 150
+			}
+		],
+		"masteries": false,
+		"masterySections": [
+			{
+				"Level2": 150,
+				"Level3": 200,
+				"Name": "AXMC",
+				"Templates": [
+					"deee28079e76d537f532021c"
+				]
+			}
+		],
+		"addweaponpreset": false,
+		"weaponpresets": []
+	}
 }

@@ -4396,6 +4396,276 @@
                 "cubemaps",
                 "assets/commonassets/physics/physicsmaterials.bundle"
             ]
+        },
+        {
+            "key": "m700_meshes.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Bullets/338_norma_fmj.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Barrels/m700la_barrel_14.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Barrels/m700la_barrel_16.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Barrels/m700la_barrel_18.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Barrels/m700la_barrel_20.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Barrels/m700la_barrel_22.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Barrels/m700la_barrel_24.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Barrels/m700la_barrel_26.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Barrels/m700la_barrel_28.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Barrels/m700la_barrel_twolf.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Handguards/mdt_ess_hg_12.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Handguards/mdt_ess_hg_15.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Handguards/mdt_ess_hg_18.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Magazines/m700la_338_5rd.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Magazines/m700la_338_8rd.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Misc_Acc/aics_efr.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Misc_Acc/aics_efr_side.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Muzzle_Devices/twolf_mbrake.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Pistol_Grips/ar_pgrip_mdt.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/m700la_aics_chassis.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/m700la_mcmillan.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/m700la_mcmillan_fde.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/m700la_mcmillan_green.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/m700la_mdt_ess_chassis.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/mdt_btube.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/mdt_btube_adapter.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Stocks/mdt_ess_stock.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Mods/Suppressors/twolf_suppressor.bundle",
+            "dependencyKeys": [
+                "m700_meshes.bundle",
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Weapons/weapon_m700la.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle",
+                "assets/content/audio/blendoptions/assets.bundle",
+                "assets/content/weapons/additional_hands/client_assets.bundle",
+                "assets/content/weapons/weapon_root_anim_fix.bundle"
+            ]
         }
     ]
 }
