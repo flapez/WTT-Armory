@@ -8,10 +8,11 @@
                 "path": "WeaponStaccatoXC/weapon_staccato_xc_container.bundle",
                 "rcid": ""
             },
-            "RecoilForceBack": 230,
-            "Ergonomics": 90,
+            "RecoilForceBack": 253,
+            "Ergonomics": 83,
             "BaseMalfunctionChance": 0.14,
-            "RecoilForceUp": 285,
+            "RecoilForceUp": 289,
+			"Weight":0.354,
             "RecoilDampingHandRotation": 0.62,
             "ExaminedByDefault": true,
             "defMagType": "68452ea1e41a7fbeb0b2ff4e",
@@ -286,9 +287,10 @@
                 "path": "WeaponStaccatoXC/xc_barrel.bundle",
                 "rcid": ""
             },
+			"Weight":0.106,
             "ExaminedByDefault": true,
             "Recoil": -7,
-            "Ergonomics": -4,
+            "Ergonomics": -2,
             "Slots": [
                 {
                     "_id": "68452dc9511f2d982e63804d",
@@ -343,9 +345,10 @@
                 "path": "WeaponStaccatoXC/xc_longbarrel.bundle",
                 "rcid": ""
             },
-            "ExaminedByDefault": true,
-            "Recoil": -4,
-            "Ergonomics": -4
+            "Recoil": -5,
+            "Ergonomics": -4,
+			"Weight":0.100,
+            "ExaminedByDefault": true
         },
         "locales": {
             "en": {
@@ -380,10 +383,11 @@
                 "path": "WeaponStaccatoXC/xc_slide.bundle",
                 "rcid": ""
             },
+			"Weight":0.380,
             "ConflictingItems": [
                 "684606c63dc00b27e95bb5fa"
             ],
-            "Ergonomics": 3.5,
+            "Ergonomics": 4,
             "Slots": [
                 {
                     "_id": "684601b95163a2d37fb8cf48",
@@ -441,7 +445,8 @@
                 "rcid": ""
             },
             "Ergonomics": 2,
-            "Recoil": -2,
+            "Recoil": -4,
+			"Weight":0.474,
             "ConflictingItems": [
                 "68452da6051e580c48ede835"
             ],
@@ -503,6 +508,7 @@
                 "path": "WeaponStaccatoXC/xc_hammer.bundle",
                 "rcid": ""
             },
+			"Weight":0.018,
             "ExaminedByDefault": true
         },
         "locales": {
@@ -538,8 +544,10 @@
                 "path": "WeaponStaccatoXC/xc_hammer_comp.bundle",
                 "rcid": ""
             },
-            "ExaminedByDefault": true,
-            "Ergonomics": 3
+			"Weight":0.011,
+            "Ergonomics": 4,
+			"DurabilityBurnModificator": 0.95,
+            "ExaminedByDefault": true
         },
         "locales": {
             "en": {
@@ -574,6 +582,8 @@
                 "path": "WeaponStaccatoXC/xc_hammer_stainless.bundle",
                 "rcid": ""
             },
+			"Weight":0.016,
+			"DurabilityBurnModificator": 0.96,
             "ExaminedByDefault": true
         },
         "locales": {
@@ -609,6 +619,9 @@
                 "path": "WeaponStaccatoXC/xc_hammer_tactical.bundle",
                 "rcid": ""
             },
+			"Weight":0.011,
+            "Ergonomics": 3,
+			"DurabilityBurnModificator": 0.93,
             "ExaminedByDefault": true
         },
         "locales": {
@@ -644,6 +657,7 @@
                 "path": "WeaponStaccatoXC/xc_trigger.bundle",
                 "rcid": ""
             },
+			"Weight":0.016,
             "ExaminedByDefault": true
         },
         "locales": {
@@ -679,8 +693,9 @@
                 "path": "WeaponStaccatoXC/xc_trigger_lightweight.bundle",
                 "rcid": ""
             },
-            "ExaminedByDefault": true,
-            "Ergonomics": 3.5
+			"DurabilityBurnModificator": 0.95,
+            "Ergonomics": 3.5,
+            "ExaminedByDefault": true
         },
         "locales": {
             "en": {
@@ -715,6 +730,8 @@
                 "path": "WeaponStaccatoXC/xc_trigger_stainless.bundle",
                 "rcid": ""
             },
+			"DurabilityBurnModificator": 0.98,
+            "Ergonomics": 3,
             "ExaminedByDefault": true
         },
         "locales": {
@@ -750,6 +767,8 @@
                 "path": "WeaponStaccatoXC/xc_trigger_comp.bundle",
                 "rcid": ""
             },
+			"DurabilityBurnModificator": 0.96,
+			"Weight":0.013,
             "ExaminedByDefault": true,
             "Ergonomics": 4
         },
@@ -786,6 +805,9 @@
                 "path": "WeaponStaccatoXC/xc_magazine.bundle",
                 "rcid": ""
             },
+			"CheckTimeModifier": -10,
+			"LoadUnloadModifier": -15,
+			"Weight":0.098,
             "ExaminedByDefault": true,
             "Ergonomics": -1
         },
@@ -822,8 +844,11 @@
                 "path": "WeaponStaccatoXC/xc_magazine_ext.bundle",
                 "rcid": ""
             },
+			"CheckTimeModifier": -20,
+			"LoadUnloadModifier": -5,
+			"Weight":0.108,
             "ExaminedByDefault": true,
-            "Ergonomics": -2
+            "Ergonomics": -3
         },
         "locales": {
             "en": {
@@ -859,6 +884,7 @@
                 "path": "WeaponStaccatoXC/xc_opticplate.bundle",
                 "rcid": ""
             },
+			"Weight":0.024,
             "Slots": [
                 {
                     "_id": "6846038978488485f93e2661",
@@ -926,7 +952,8 @@
             "Prefab": {
                 "path": "WeaponStaccatoXC/xc_rs.bundle",
                 "rcid": ""
-            }
+            },
+			"Weight":0.024
         },
         "locales": {
             "en": {
@@ -971,6 +998,7 @@
                 "path": "WeaponStaccatoXC/xc_fs.bundle",
                 "rcid": ""
             },
+			"Weight":0.004,
             "ExaminedByDefault": true
         },
         "locales": {
@@ -1006,8 +1034,8 @@
                 "path": "WeaponStaccatoXC/xc_magwell.bundle",
                 "rcid": ""
             },
-            "Ergonomics": 5,
-            "Weight": 0.1,
+			"Weight":0.030,
+            "Ergonomics": 7,
             "ExaminedByDefault": true
         },
         "locales": {

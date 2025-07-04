@@ -7,9 +7,9 @@
 			"Ergonomics": 83,
 			"RecoilForceBack": 218,
 			"RecoilForceUp": 248,
-			"RecoilCamera": 0.007,
-			"RecolDispersion": 9,
 			"Weight":0.398,
+			"RecoilReturnPathDampingHandRotation": 0.41,
+			"RecoilReturnSpeedHandRotation": 7,
             "Prefab": {
                 "path": "WeaponUCP/weapon_ucp_container.bundle",
                 "rcid": ""
