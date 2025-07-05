@@ -167,7 +167,167 @@
     "woods": [],
     "shoreline": [],
     "tarkovstreets": [],
-    "rezervbase": [],
+    "rezervbase": [
+        {
+            "locationId": "(-123.5331, -14.4554, 32.4927)",
+            "probability": 0.35,
+            "template": {
+                "Id": "WOS_ReserveCommandRoom_spawn",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": -123.5331,
+                    "y": -14.4554,
+                    "z": 32.4927
+                },
+                "Rotation": {
+                    "x": 6.9711,
+                    "y": 2.5323,
+                    "z": 350.6557
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "686987a2cf8a696d6405326e",
+                "Items": [
+                    {
+                        "_id": "686987a2cf8a696d6405326f",
+                        "_tpl": "676c3cac01023283e5f6a562",
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "FireMode": {
+                                "FireMode": "single"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "68698799cf8a696d6405325b",
+                        "_tpl": "676c3d67d69e478b3d69cd21",
+                        "slotId": "mod_pistol_grip",
+                        "parentId": "686987a2cf8a696d6405326f"
+                    },
+                    {
+                        "_id": "68698799cf8a696d6405325c",
+                        "_tpl": "5d1340cad7ad1a0b0b249869",
+                        "slotId": "mod_magazine",
+                        "parentId": "686987a2cf8a696d6405326f"
+                    },
+                    {
+                        "_id": "68698799cf8a696d6405325d",
+                        "_tpl": "676b5124f0892bbed71bc377",
+                        "slotId": "mod_reciever",
+                        "parentId": "686987a2cf8a696d6405326f"
+                    },
+                    {
+                        "_id": "68698799cf8a696d6405325e",
+                        "_tpl": "676b4fbf3cb5dd69a908ccd0",
+                        "slotId": "mod_stock",
+                        "parentId": "686987a2cf8a696d6405326f"
+                    },
+                    {
+                        "_id": "68698799cf8a696d6405325f",
+                        "_tpl": "676c3d73e56673a0ed44ec14",
+                        "slotId": "mod_charge",
+                        "parentId": "686987a2cf8a696d6405326f"
+                    },
+                    {
+                        "_id": "68698799cf8a696d64053260",
+                        "_tpl": "54527a984bdc2d4e668b4567",
+                        "slotId": "cartridges",
+                        "location": 0,
+                        "upd": {
+                            "StackObjectsCount": 30
+                        },
+                        "parentId": "68698799cf8a696d6405325c"
+                    },
+                    {
+                        "_id": "68698799cf8a696d64053261",
+                        "_tpl": "5c0a2cec0db834001b7ce47d",
+                        "slotId": "mod_scope",
+                        "upd": {
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "68698799cf8a696d6405325d"
+                    },
+                    {
+                        "_id": "68698799cf8a696d64053262",
+                        "_tpl": "63d3ce0446bd475bcb50f55f",
+                        "slotId": "mod_barrel",
+                        "parentId": "68698799cf8a696d6405325d"
+                    },
+                    {
+                        "_id": "68698799cf8a696d64053263",
+                        "_tpl": "676c3d1dcf722dad840e520b",
+                        "slotId": "mod_handguard",
+                        "parentId": "68698799cf8a696d6405325d"
+                    },
+                    {
+                        "_id": "68698799cf8a696d64053264",
+                        "_tpl": "676c3d6c1c64d6eacd7b8c16",
+                        "slotId": "mod_stock_000",
+                        "parentId": "68698799cf8a696d6405325e"
+                    },
+                    {
+                        "_id": "68698799cf8a696d64053265",
+                        "_tpl": "676c3d512d4ab6764b8d793c",
+                        "slotId": "mod_muzzle",
+                        "parentId": "68698799cf8a696d64053262"
+                    },
+                    {
+                        "_id": "68698799cf8a696d64053266",
+                        "_tpl": "63d3ce281fe77d0f2801859e",
+                        "slotId": "mod_gas_block",
+                        "parentId": "68698799cf8a696d64053262"
+                    },
+                    {
+                        "_id": "68698799cf8a696d64053267",
+                        "_tpl": "623c2f652febb22c2777d8d7",
+                        "slotId": "mod_mount_001",
+                        "parentId": "68698799cf8a696d64053263"
+                    },
+                    {
+                        "_id": "68698799cf8a696d64053268",
+                        "_tpl": "619386379fb0c665d5490dbe",
+                        "slotId": "mod_foregrip",
+                        "parentId": "68698799cf8a696d64053263"
+                    },
+                    {
+                        "_id": "68698799cf8a696d64053269",
+                        "_tpl": "626becf9582c3e319310b837",
+                        "slotId": "mod_tactical",
+                        "upd": {
+                            "Light": {
+                                "IsActive": false,
+                                "SelectedMode": 0
+                            }
+                        },
+                        "parentId": "68698799cf8a696d64053267"
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "686987a2cf8a696d6405326f"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ],
     "laboratory": [],
     "bigmap": []
 }
