@@ -407,6 +407,193 @@
           "traderId": "5935c25fb3acc3127c3d8cd9",
           "type": "AssortmentUnlock",
           "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6868d653f1c69c759d86b6ce",
+          "index": 2,
+          "items": [
+            {
+              "_id": "6868d3bc61f6e05a1003ca59",
+              "_tpl": "682d4820e48f3c573ec332b5",
+              "upd": {
+                "SpawnedInSession": true,
+                "Repairable": {
+                  "MaxDurability": 100,
+                  "Durability": 100
+                },
+                "Foldable": {
+                  "Folded": false
+                },
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "UnlimitedCount": false,
+                "StackObjectsCount": 1,
+                "BuyRestrictionMax": 1
+              },
+              "parentId": "hideout",
+              "slotId": "hideout"
+            },
+            {
+              "_id": "6868d3b961f6e05a1003ca53",
+              "_tpl": "6671ec6e0bebf6ee2d5abf61",
+              "slotId": "mod_pistol_grip",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6868d3bc61f6e05a1003ca59"
+            },
+            {
+              "_id": "6868d3b961f6e05a1003ca54",
+              "_tpl": "682b861888721c164979159f",
+              "slotId": "mod_magazine",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6868d3bc61f6e05a1003ca59"
+            },
+            {
+              "_id": "6868d3b961f6e05a1003ca55",
+              "_tpl": "6671ecb42225b07c8afc4ce3",
+              "slotId": "mod_stock",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6868d3bc61f6e05a1003ca59"
+            },
+            {
+              "_id": "6868d3b961f6e05a1003ca56",
+              "_tpl": "682d49d1a02a06db42af2642",
+              "slotId": "mod_handguard",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6868d3bc61f6e05a1003ca59"
+            },
+            {
+              "_id": "6868d3b961f6e05a1003ca57",
+              "_tpl": "6671ed5805ef46250c47e46a",
+              "slotId": "mod_muzzle",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6868d3bc61f6e05a1003ca59"
+            },
+            {
+              "_id": "6868d3b961f6e05a1003ca58",
+              "_tpl": "682aaf066682ec0bfe5000e8",
+              "slotId": "mod_bipod",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6868d3b961f6e05a1003ca56"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "6868d3bc61f6e05a1003ca59",
+          "traderId": "5935c25fb3acc3127c3d8cd9",
+          "type": "AssortmentUnlock",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "6868d6bc8e969291a0b597bb",
+          "index": 3,
+          "items": [
+            {
+              "_id": "6868ceef6b3c6d6f1c03cd69",
+              "_tpl": "682d3dd16900cb35564c8825",
+              "upd": {
+                "SpawnedInSession": true,
+                "Repairable": {
+                  "MaxDurability": 100,
+                  "Durability": 100
+                },
+                "Foldable": {
+                  "Folded": false
+                },
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "UnlimitedCount": true,
+                "StackObjectsCount": 999999,
+                "BuyRestrictionMax": 0
+              },
+              "parentId": "hideout",
+              "slotId": "hideout"
+            },
+            {
+              "_id": "6868cedf6b3c6d6f1c03cd59",
+              "_tpl": "6671ec6e0bebf6ee2d5abf61",
+              "slotId": "mod_pistol_grip",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6868ceef6b3c6d6f1c03cd69"
+            },
+            {
+              "_id": "6868cedf6b3c6d6f1c03cd5a",
+              "_tpl": "682be7bf16812803987c3715",
+              "slotId": "mod_scope",
+              "upd": {
+                "Sight": {
+                  "ScopesCurrentCalibPointIndexes": [
+                    0,
+                    0
+                  ],
+                  "ScopesSelectedModes": [
+                    0,
+                    0
+                  ],
+                  "SelectedScope": 0,
+                  "ScopeZoomValue": 0
+                }
+              },
+              "parentId": "6868ceef6b3c6d6f1c03cd69"
+            },
+            {
+              "_id": "6868cedf6b3c6d6f1c03cd5b",
+              "_tpl": "6828b1226ef8b54f3f63a678",
+              "slotId": "mod_magazine",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6868ceef6b3c6d6f1c03cd69"
+            },
+            {
+              "_id": "6868cedf6b3c6d6f1c03cd5c",
+              "_tpl": "682babc3560778885a2d946a",
+              "slotId": "mod_stock",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6868ceef6b3c6d6f1c03cd69"
+            },
+            {
+              "_id": "6868cedf6b3c6d6f1c03cd5d",
+              "_tpl": "682d4045079d711a1462af2e",
+              "slotId": "mod_handguard",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6868ceef6b3c6d6f1c03cd69"
+            },
+            {
+              "_id": "6868cedf6b3c6d6f1c03cd5e",
+              "_tpl": "682b9953603e1510278c750b",
+              "slotId": "mod_muzzle",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6868ceef6b3c6d6f1c03cd69"
+            }
+          ],
+          "loyaltyLevel": 3,
+          "target": "6868ceef6b3c6d6f1c03cd69",
+          "traderId": "5935c25fb3acc3127c3d8cd9",
+          "type": "AssortmentUnlock",
+          "unknown": false
         }
       ]
     }
