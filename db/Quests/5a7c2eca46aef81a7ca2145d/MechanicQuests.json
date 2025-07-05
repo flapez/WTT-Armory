@@ -41,7 +41,8 @@
                 "dynamicLocale": false,
                 "id": "6859fe904a4bde662e28572f",
                 "status": [
-                  "Survived"
+                  "Survived",
+                  "Runner"
                 ]
               },
               {
@@ -125,9 +126,7 @@
                 "status": [
                   "Killed",
                   "Left",
-                  "MissingInAction",
-                  "Survived",
-                  "Runner"
+                  "MissingInAction"                 
                 ]
               },
               {
