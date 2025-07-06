@@ -3854,6 +3854,26 @@
                 "parentId": "6851d31cc6830eae54a2e2b2"
             },
             {
+                "_id": "686a79c2eae8121d638938af",
+                "_tpl": "67f4474195c2cf6ca66af881",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true
+                },
+                "#new object": true
+            },
+            {
+                "_id": "686a79d0efab92375778ab73",
+                "_tpl": "67f4474195c2cf6ca66af881",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true
+                },
+                "#new object": true
+            },
+            {
                 "_id": "6851d72c7e1eeb53da90aee0",
                 "_tpl": "66ba268d7f9d8cfb6d0fbf77",
                 "parentId": "hideout",
@@ -4455,6 +4475,30 @@
             }
         ],
         "barter_scheme": {
+            "686a79c2eae8121d638938af": [
+                [
+                    {
+                        "count": 17498,
+                        "_tpl": "5449016a4bdc2d6f028b456f"
+                    }
+                ]
+            ],
+            "686a79d0efab92375778ab73": [
+                [
+                    {
+                        "count": 2,
+                        "_tpl": "67f4468ed11366239967ae80"
+                    },
+                    {
+                        "count": 1,
+                        "_tpl": "57347c1124597737fb1379e3"
+                    },
+                    {
+                        "count": 1,
+                        "_tpl": "5734795124597738002c6176"
+                    }
+                ]
+            ],
             "683644c7b6781d782cef23dc": [
                 [
                     {
@@ -4989,7 +5033,9 @@
             "ea66a2b14c164bccaee2b70a": 1,
             "e6c7c3c993c742348df8014b": 3,
             "3da4ce75ec5a4ffabbde0000": 3,
-            "35427e4ffd5745f6bdf88ec6": 3
+            "35427e4ffd5745f6bdf88ec6": 3,
+            "686a79c2eae8121d638938af": 3,
+            "686a79d0efab92375778ab73": 2
         }
     },
     "PRAPOR": {
