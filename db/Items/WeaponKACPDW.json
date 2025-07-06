@@ -146,8 +146,8 @@
         "modSlot": [],
         "ModdableItemWhitelist": [],
         "ModdableItemBlacklist": [],
-        "fleaPriceRoubles": 3000,
-        "handbookPriceRoubles": 3000,
+        "fleaPriceRoubles": 110000,
+        "handbookPriceRoubles": 62000,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
@@ -287,7 +287,6 @@
                 "path": "WeaponKACPDW/kacpdw_barrel.bundle",
                 "rcid": ""
             },
-            "BackgroundColor": "Black",
             "MagazineWithBelt": false,
             "CheckOverride": 0,
             "Slots": [
@@ -330,8 +329,8 @@
         ],
         "ModdableItemWhitelist": [],
         "ModdableItemBlacklist": [],
-        "fleaPriceRoubles": 3000,
-        "handbookPriceRoubles": 3000,
+        "fleaPriceRoubles": 23000,
+        "handbookPriceRoubles": 18000,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
@@ -349,7 +348,6 @@
                 "path": "WeaponKACPDW/kacpdw_magazine.bundle",
                 "rcid": ""
             },
-            "BackgroundColor": "Black",
             "Cartridges": [
                 {
                     "_id": "kacpdw_magazinepatrons",
@@ -401,8 +399,8 @@
         ],
         "ModdableItemWhitelist": [],
         "ModdableItemBlacklist": [],
-        "fleaPriceRoubles": 3000,
-        "handbookPriceRoubles": 3000,
+        "fleaPriceRoubles": 3790,
+        "handbookPriceRoubles": 3200,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
@@ -420,7 +418,6 @@
                 "path": "WeaponKACPDW/kacpdw_stock.bundle",
                 "rcid": ""
             },
-            "BackgroundColor": "Black",
             "Weight": 0.915,
             "Width": 2,
             "Height": 1,
@@ -442,8 +439,8 @@
         ],
         "ModdableItemWhitelist": [],
         "ModdableItemBlacklist": [],
-        "fleaPriceRoubles": 18890,
-        "handbookPriceRoubles": 13440,
+        "fleaPriceRoubles": 12999,
+        "handbookPriceRoubles": 8440,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
@@ -461,7 +458,6 @@
                 "path": "WeaponKACPDW/kacpdw_muzzlebrake.bundle",
                 "rcid": ""
             },
-            "BackgroundColor": "Black",
             "muzzleModType": "brake",
             "Weight": 0.063,
             "Width": 1,
@@ -487,8 +483,8 @@
         ],
         "ModdableItemWhitelist": [],
         "ModdableItemBlacklist": [],
-        "fleaPriceRoubles": 18890,
-        "handbookPriceRoubles": 13440,
+        "fleaPriceRoubles": 10890,
+        "handbookPriceRoubles": 6440,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
@@ -505,7 +501,6 @@
                 "path": "WeaponKACPDW/kacpdw_receiver.bundle",
                 "rcid": ""
             },
-            "BackgroundColor": "Black",
             "ExtraSizeLeft": 1,
             "ExaminedByDefault": true,
             "Slots": [
@@ -799,8 +794,8 @@
         ],
         "ModdableItemWhitelist": [],
         "ModdableItemBlacklist": [],
-        "fleaPriceRoubles": 18890,
-        "handbookPriceRoubles": 13440,
+        "fleaPriceRoubles": 19090,
+        "handbookPriceRoubles": 12440,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
@@ -817,7 +812,6 @@
                 "path": "WeaponKACPDW/kacpdw_charginghandle.bundle",
                 "rcid": ""
             },
-            "BackgroundColor": "Black",
             "ExaminedByDefault": true
         },
         "locales": {
@@ -835,8 +829,8 @@
         ],
         "ModdableItemWhitelist": [],
         "ModdableItemBlacklist": [],
-        "fleaPriceRoubles": 18890,
-        "handbookPriceRoubles": 13440,
+        "fleaPriceRoubles": 4890,
+        "handbookPriceRoubles": 2694,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
@@ -853,7 +847,6 @@
                 "path": "WeaponKACPDW/kacpdw_ambicharginghandle.bundle",
                 "rcid": ""
             },
-            "BackgroundColor": "Black",
             "ExaminedByDefault": true
         },
         "locales": {
@@ -871,8 +864,8 @@
         ],
         "ModdableItemWhitelist": [],
         "ModdableItemBlacklist": [],
-        "fleaPriceRoubles": 18890,
-        "handbookPriceRoubles": 13440,
+        "fleaPriceRoubles": 8890,
+        "handbookPriceRoubles": 5340,
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
