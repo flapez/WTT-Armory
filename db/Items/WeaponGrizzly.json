@@ -4,7 +4,7 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "Weight": 0.48,
+      "Weight": 0.58,
       "CameraSnap": 3,
       "HeatFactorByShot": 3.26,
       "HeatFactorGun": 1,
@@ -329,7 +329,7 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "Weight": 0.48,
+      "Weight": 0.58,
       "CameraSnap": 3,
       "HeatFactorByShot": 3.26,
       "HeatFactorGun": 1,
@@ -337,6 +337,7 @@
       "RecoilDampingHandRotation": 0.85,
       "RecoilReturnSpeedHandRotation": 2.5,
       "RepairCost": 65,
+      "Ergonomics": 61,
       "Prefab": {
         "path": "WeaponGrizzly/weapon_grizzly_gold_container.bundle",
         "rcid": ""
@@ -653,7 +654,7 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "Weight": 0.48,
+      "Weight": 0.58,
       "CameraSnap": 3,
       "HeatFactorByShot": 3.26,
       "HeatFactorGun": 1,
@@ -661,6 +662,7 @@
       "RecoilDampingHandRotation": 0.85,
       "RecoilReturnSpeedHandRotation": 2.5,
       "RepairCost": 65,
+      "Ergonomics": 61,
       "Prefab": {
         "path": "WeaponGrizzly/weapon_grizzly_stainless_container.bundle",
         "rcid": ""
