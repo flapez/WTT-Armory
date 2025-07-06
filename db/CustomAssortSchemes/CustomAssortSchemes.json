@@ -393,8 +393,7 @@
                     "BuyRestrictionMax": 0
                 },
                 "parentId": "hideout",
-                "slotId": "hideout",
-                "#new object": true
+                "slotId": "hideout"
             },
             {
                 "_id": "6869f6fde02d6d99345986cd",
@@ -405,8 +404,7 @@
                     "BuyRestrictionMax": 0
                 },
                 "parentId": "hideout",
-                "slotId": "hideout",
-                "#new object": true
+                "slotId": "hideout"
             },
             {
                 "_id": "f339ac896b3b4dee8c3eac81",
@@ -415,8 +413,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "6ef41309bbf443cd91e53553",
@@ -425,8 +422,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "b56da439b6c345abba3c80b1",
@@ -435,8 +431,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "fde23e29e3284304a1b40308",
@@ -445,8 +440,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "dac6ed1efd934554bff303f1",
@@ -455,8 +449,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "149d5a50fd5d4a1195e505dd",
@@ -465,8 +458,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "d15547cd8d704af49d18a6e6",
@@ -475,8 +467,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "1121b3ad2c5e4792973fae17",
@@ -485,8 +476,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "41ad00fd6b124a20a6650d08",
@@ -495,8 +485,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "4c8ca7ff4a9c4e1b85a71f57",
@@ -505,8 +494,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "3e70449509334b17b91c8b39",
@@ -515,8 +503,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "c967387c962a43ee852ef005",
@@ -525,8 +512,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "705bc54b6f6e43738143e990",
@@ -535,8 +521,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "6e9c452b593d4902b9d471d0",
@@ -545,8 +530,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "f59901f03ae3463681da613c",
@@ -555,8 +539,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             }
         ],
         "barter_scheme": {
@@ -1984,8 +1967,7 @@
                     "BuyRestrictionMax": 0
                 },
                 "parentId": "hideout",
-                "slotId": "hideout",
-                "#new object": true
+                "slotId": "hideout"
             },
             {
                 "_id": "6869f80f4091a3c58dbf8e8d",
@@ -1996,8 +1978,7 @@
                     "BuyRestrictionMax": 0
                 },
                 "parentId": "hideout",
-                "slotId": "hideout",
-                "#new object": true
+                "slotId": "hideout"
             },
             {
                 "_id": "6869f8e68083d7bcc195fcf8",
@@ -2008,8 +1989,7 @@
                     "BuyRestrictionMax": 0
                 },
                 "parentId": "hideout",
-                "slotId": "hideout",
-                "#new object": true
+                "slotId": "hideout"
             },
             {
                 "_id": "6869fa040d9395b25f8c4866",
@@ -2020,8 +2000,7 @@
                     "BuyRestrictionMax": 0
                 },
                 "parentId": "hideout",
-                "slotId": "hideout",
-                "#new object": true
+                "slotId": "hideout"
             },
             {
                 "_id": "6869fbf69b12fb0256acaf15",
@@ -2032,8 +2011,7 @@
                     "BuyRestrictionMax": 0
                 },
                 "parentId": "hideout",
-                "slotId": "hideout",
-                "#new object": true
+                "slotId": "hideout"
             },
             {
                 "_id": "686a0daa4641bbfb7e9b25cb",
@@ -2044,8 +2022,7 @@
                     "BuyRestrictionMax": 0
                 },
                 "parentId": "hideout",
-                "slotId": "hideout",
-                "#new object": true
+                "slotId": "hideout"
             },
             {
                 "_id": "686a135e4215fc05a8040117",
@@ -2099,8 +2076,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "ed549f8634a14d498a36954e",
@@ -2109,8 +2085,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "d06c482012ee46cda73e394c",
@@ -2119,8 +2094,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "d708c27495c94c2783206d66",
@@ -2129,8 +2103,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "b75bd86518af45c28afc0eb2",
@@ -2139,8 +2112,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "3e7fa3e3f7f245f8b76aeb2b",
@@ -2149,8 +2121,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "43bf8ad3b13442cf8917d703",
@@ -2159,8 +2130,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "58a73ae087064996a52f03c2",
@@ -2169,8 +2139,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "ed2df5003bd44a6fb553e046",
@@ -2179,8 +2148,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "98c7e6298e3e43918c22f09f",
@@ -2189,8 +2157,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "8afb1beb54794209a01a75b8",
@@ -2199,8 +2166,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "c87c3b8607944a77bb4297d5",
@@ -2209,8 +2175,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "3ffb4663be2c48f8bb3acc69",
@@ -2219,8 +2184,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "173e9de3aebc412986517a33",
@@ -2229,8 +2193,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "329b589858a145869cf07bf9",
@@ -2239,8 +2202,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "b79970696e404a3fa9bd1cf3",
@@ -2249,8 +2211,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "fa3e3cf0ec164c17b72dd6e5",
@@ -2259,8 +2220,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "64af42428c754b71afd7d874",
@@ -2269,8 +2229,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "c08a1afb411946fabd199d96",
@@ -2279,8 +2238,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "743913d2b1814d0194053f81",
@@ -2289,8 +2247,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "85d9a1b1dc1b4651b4d962b5",
@@ -2299,8 +2256,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "10b6bd87d95649eeb3b7b801",
@@ -2309,8 +2265,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "9e4efa4a83c34f4badf53f5e",
@@ -2319,8 +2274,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "6478a66df67e41c59bef24ca",
@@ -2329,8 +2283,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "071aa0f6a5134fa1ac82f7b9",
@@ -2339,8 +2292,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "32d1436c971248a4bea078e6",
@@ -2349,8 +2301,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "9b74e5767532482eb0bd33c1",
@@ -2359,8 +2310,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "f0151230400642b3a0cd4a02",
@@ -2369,8 +2319,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "a903e55d221f4760b4c7ea77",
@@ -2379,8 +2328,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "6b306e9456024719af31d290",
@@ -2389,8 +2337,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "5c6b5093d88548328362b0eb",
@@ -2399,8 +2346,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "fc4d97ffb9e043c2b60fbd38",
@@ -2409,8 +2355,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "eeebc5d7c4e149dc80265d42",
@@ -2419,8 +2364,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "ea5defae118f4ddbb6b558f8",
@@ -2429,8 +2373,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "940783fb0a684daebcc6f210",
@@ -2439,8 +2382,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "176d049f7a254c77a6859f0c",
@@ -2449,8 +2391,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             }
         ],
         "barter_scheme": {
@@ -3860,8 +3801,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "686a79d0efab92375778ab73",
@@ -3870,8 +3810,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "6851d72c7e1eeb53da90aee0",
@@ -3880,8 +3819,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "6851d7b1f768d97f3231d863",
@@ -3890,8 +3828,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "6851d7bee9750e6edcf3b221",
@@ -3909,8 +3846,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "6851d7ca063f63333eb5ac45",
@@ -3928,8 +3864,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "6851d7e065aa39e7f40cad6a",
@@ -3974,8 +3909,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "6851d80c4ff0c455c3edb48f",
@@ -4013,8 +3947,7 @@
                     "BuyRestrictionMax": 0
                 },
                 "parentId": "hideout",
-                "slotId": "hideout",
-                "#new object": true
+                "slotId": "hideout"
             },
             {
                 "_id": "686a135e4215fc05a8040114",
@@ -4069,8 +4002,7 @@
                 "upd": {
                     "UnlimitedCount": true,
                     "BuyRestrictionMax": 0
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "686a2d5c25d0722c2003db0a",
@@ -4250,8 +4182,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "50b657dbff1d4225b008ae5b",
@@ -4260,8 +4191,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "d0e403adada84cbbb36988e7",
@@ -4270,8 +4200,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "98a037238086489e89d316ad",
@@ -4280,8 +4209,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "f6f63af424b3482d82240232",
@@ -4290,8 +4218,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "c471878b36a7459fa526424e",
@@ -4300,8 +4227,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "403da377cc6c47fbbba8699e",
@@ -4310,8 +4236,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "4b04bf17327e4784b2b7a397",
@@ -4320,8 +4245,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "0e9b68cc7b3844b8bcf724bf",
@@ -4330,8 +4254,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "35a48eeda0754b42a3907b29",
@@ -4340,8 +4263,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "41f4065265c1413ab1f4be6f",
@@ -4350,8 +4272,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "86f61d05bce14528b13c389b",
@@ -4360,8 +4281,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "5cf76e4649e14ce0bce9e64d",
@@ -4370,8 +4290,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "f006ef3b19b241eb9d34b97b",
@@ -4380,8 +4299,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "181a912e5aa64a8285d0dc77",
@@ -4390,8 +4308,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "f0f2e374e90647a38355b9f5",
@@ -4400,8 +4317,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "f935cbbc8bfb4fa7b8be4014",
@@ -4410,8 +4326,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "df70376b591e438fa26824fe",
@@ -4420,8 +4335,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "57ba2f3fd4d843e493521a49",
@@ -4430,8 +4344,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "c4393c2af93346dbb4600c45",
@@ -4440,8 +4353,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "e6c7c3c993c742348df8014b",
@@ -4450,8 +4362,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "3da4ce75ec5a4ffabbde0000",
@@ -4460,8 +4371,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "35427e4ffd5745f6bdf88ec6",
@@ -4470,8 +4380,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             }
         ],
         "barter_scheme": {
@@ -5279,8 +5188,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "6851bb7dfa35b66a85f5f3db",
@@ -5582,8 +5490,7 @@
                 "upd": {
                     "UnlimitedCount": true,
                     "BuyRestrictionMax": 0
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "fbf608ff61114662886c192a",
@@ -5592,8 +5499,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "0a29980132c347379ce94f41",
@@ -5602,8 +5508,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "432579c740bd4576b5fc53db",
@@ -5612,8 +5517,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "baea0c398fc2442cae8f66ce",
@@ -5622,8 +5526,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "0dd737e0e6054abea55ab984",
@@ -5632,8 +5535,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "95c35a4f830c406280a70934",
@@ -5642,8 +5544,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "7247976551ff4f588b18f017",
@@ -5652,8 +5553,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "7a8875a8935c4718acc5d9ad",
@@ -5662,8 +5562,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             }
         ],
         "barter_scheme": {
@@ -6267,8 +6166,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "686a2f1ef1de5107693af965",
@@ -6277,8 +6175,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "d46ee8ff533d437da1316266",
@@ -6287,8 +6184,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "3369b5187e544c1fb39ee54e",
@@ -6297,8 +6193,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "0dad9181b0864494acc286ec",
@@ -6307,8 +6202,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "dd2f42bf4e814850b1856f94",
@@ -6317,8 +6211,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "f12b8254cee246988e9a1374",
@@ -6327,8 +6220,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "8a90db6814b345b1af8bba53",
@@ -6337,8 +6229,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "40639abd32c349699b5e0a63",
@@ -6347,8 +6238,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "7f67372306114a13b5e27269",
@@ -6357,8 +6247,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "b39f4cf320534dbe9672e141",
@@ -6367,8 +6256,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "2ea14a7cd9524bb688a68606",
@@ -6377,8 +6265,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "9dd58d9d150a433a94bea986",
@@ -6387,8 +6274,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "819772a27c3944e29ad150b8",
@@ -6397,8 +6283,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             },
             {
                 "_id": "a52a65288b35496cb3f7026f",
@@ -6407,8 +6292,7 @@
                 "slotId": "hideout",
                 "upd": {
                     "UnlimitedCount": true
-                },
-                "#new object": true
+                }
             }
         ],
         "barter_scheme": {
