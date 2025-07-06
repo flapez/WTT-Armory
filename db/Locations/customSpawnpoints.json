@@ -164,7 +164,152 @@
     ],
     "sandbox": [],
     "interchange": [],
-    "woods": [],
+    "woods": [
+        {
+            "locationId": "(287.4357, 23.67, -514.90)",
+            "probability": 0.35,
+            "template": {
+                "Id": "KACPDW_USECCAMP_spawn",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "x": 287.4357,
+                    "y": 23.67,
+                    "z": -514.90
+                },
+                "Rotation": {
+                    "x": 359.9866,
+                    "y": 114.3244,
+                    "z": 270.0106
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "686a1bdd901303096804d73b",
+                "Items": [
+                    {
+                        "_id": "686a1bdd901303096804d73c",
+                        "_tpl": "6761b213607f9a6f79017c7e",
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "Foldable": {
+                                "Folded": false
+                            },
+                            "FireMode": {
+                                "FireMode": "single"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "686a1bd8901303096804d726",
+                        "_tpl": "6761b213607f9a6f79017c84",
+                        "slotId": "mod_charge",
+                        "parentId": "686a1bdd901303096804d73c"
+                    },
+                    {
+                        "_id": "686a1bd8901303096804d727",
+                        "_tpl": "6761b213607f9a6f79017c81",
+                        "slotId": "mod_stock",
+                        "parentId": "686a1bdd901303096804d73c"
+                    },
+                    {
+                        "_id": "686a1bd8901303096804d728",
+                        "_tpl": "6761b213607f9a6f79017c80",
+                        "slotId": "mod_magazine",
+                        "parentId": "686a1bdd901303096804d73c"
+                    },
+                    {
+                        "_id": "686a1bd8901303096804d729",
+                        "_tpl": "6761b213607f9a6f79017c83",
+                        "slotId": "mod_reciever",
+                        "parentId": "686a1bdd901303096804d73c"
+                    },
+                    {
+                        "_id": "686a1bd8901303096804d72a",
+                        "_tpl": "55802f5d4bdc2dac148b458f",
+                        "slotId": "mod_pistol_grip",
+                        "parentId": "686a1bdd901303096804d73c"
+                    },
+                    {
+                        "_id": "686a1bd8901303096804d72b",
+                        "_tpl": "619636be6db0f2477964e710",
+                        "slotId": "cartridges",
+                        "location": 0,
+                        "upd": {
+                            "StackObjectsCount": 30
+                        },
+                        "parentId": "686a1bd8901303096804d728"
+                    },
+                    {
+                        "_id": "686a1bd8901303096804d72c",
+                        "_tpl": "5c1780312e221602b66cc189",
+                        "slotId": "mod_sight_rear",
+                        "upd": {
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "686a1bd8901303096804d729"
+                    },
+                    {
+                        "_id": "686a1bd8901303096804d72d",
+                        "_tpl": "5c17804b2e2216152006c02f",
+                        "slotId": "mod_sight_front",
+                        "upd": {
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "686a1bd8901303096804d729"
+                    },
+                    {
+                        "_id": "686a1bd8901303096804d72e",
+                        "_tpl": "5c87ca002e221600114cb150",
+                        "slotId": "mod_foregrip",
+                        "parentId": "686a1bd8901303096804d729"
+                    },
+                    {
+                        "_id": "686a1bd8901303096804d72f",
+                        "_tpl": "6761b213607f9a6f79017c7f",
+                        "slotId": "mod_barrel",
+                        "parentId": "686a1bd8901303096804d729"
+                    },
+                    {
+                        "_id": "686a1bd8901303096804d730",
+                        "_tpl": "6761b213607f9a6f79017c82",
+                        "slotId": "mod_muzzle",
+                        "parentId": "686a1bd8901303096804d72f"
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "686a1bdd901303096804d73c"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ],
     "shoreline": [],
     "tarkovstreets": [],
     "rezervbase": [
