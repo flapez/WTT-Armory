@@ -860,28 +860,6 @@
                 "slotId": "mod_sight_front"
             },
             {
-                "_id": "6851bc8427133ba0a4d7ad26",
-                "_tpl": "68433b836de7d8ce99c642c6",
-                "parentId": "hideout",
-                "slotId": "hideout",
-                "upd": {
-                    "UnlimitedCount": true,
-                    "StackObjectsCount": 999999,
-                    "BuyRestrictionMax": 0
-                }
-            },
-            {
-                "_id": "6851bd4f829d6a21d49701b1",
-                "_tpl": "68452ea1e41a7fbeb0b2ff4e",
-                "parentId": "hideout",
-                "slotId": "hideout",
-                "upd": {
-                    "UnlimitedCount": true,
-                    "StackObjectsCount": 9999999,
-                    "BuyRestrictionMax": 0
-                }
-            },
-            {
                 "_id": "6860348cde97bd620403c988",
                 "_tpl": "665fe0e865683281eb8e7ed6",
                 "parentId": "hideout",
@@ -1746,6 +1724,17 @@
                 },
                 "parentId": "hideout",
                 "slotId": "hideout"
+            },
+            {
+                "_id": "686a0daa4641bbfb7e9b25cb",
+                "_tpl": "6761b213607f9a6f79017d59",
+                "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 999999,
+                    "BuyRestrictionMax": 0
+                },
+                "parentId": "hideout",
+                "slotId": "hideout"    
             }
         ],
         "barter_scheme": {
@@ -1813,14 +1802,6 @@
                 [
                     {
                         "count": 3150,
-                        "_tpl": "5449016a4bdc2d6f028b456f"
-                    }
-                ]
-            ],
-            "6851bd4f829d6a21d49701b1": [
-                [
-                    {
-                        "count": 3200,
                         "_tpl": "5449016a4bdc2d6f028b456f"
                     }
                 ]
@@ -1940,6 +1921,14 @@
                         "_tpl": "5449016a4bdc2d6f028b456f"
                     }
                 ]
+            ],
+            "686a0daa4641bbfb7e9b25cb": [
+                [
+                    {
+                        "count": 7660,
+                        "_tpl": "5449016a4bdc2d6f028b456f"    
+                    }
+                ]
             ]
         },
         "loyal_level_items": {
@@ -1951,7 +1940,6 @@
             "684e4117cb85469dfc76dd4d": 1,
             "6850d93879b6552e17df49e6": 2,
             "6851bc8427133ba0a4d7ad26": 1,
-            "6851bd4f829d6a21d49701b1": 2,
             "6860348cde97bd620403c988": 1,
             "68603ce7920cd4717003b698": 2,
             "686478b489c918402403dd38": 1,
@@ -1960,11 +1948,12 @@
             "68680c9d5f7b2d2f6403d129": 3,
             "68680da65f7b2d2f640409b2": 3,
             "686987a2cf8a696d6405326a": 3,
-            "6869f24f3bd3d0fcafb679f4": 4,
+            "6869f24f3bd3d0fcafb679f4": 3,
             "6869f80f4091a3c58dbf8e8d": 4,
-            "6869f8e68083d7bcc195fcf8": 2,
+            "6869f8e68083d7bcc195fcf8": 1,
             "6869fa040d9395b25f8c4866": 2,
-            "6869fbf69b12fb0256acaf15": 1
+            "6869fbf69b12fb0256acaf15": 1,
+            "686a0daa4641bbfb7e9b25cb": 1
         }
     },
     "SKIER": {
