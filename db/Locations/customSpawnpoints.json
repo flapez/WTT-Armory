@@ -314,7 +314,7 @@
     "tarkovstreets": [
         {
             "locationId": "(77.7212, 3.6, 296.214)",
-            "probability": 1,
+            "probability": 0.35,
             "template": {
                 "Id": "AEK_Streets_spawn",
                 "IsContainer": false,
@@ -428,7 +428,7 @@
         },
         {
             "locationId": "(-38.115, 5.873, -44.2083)",
-            "probability": 1,
+            "probability": 0.5,
             "template": {
                 "Id": "Auto5_Streets_spawn",
                 "IsContainer": false,
