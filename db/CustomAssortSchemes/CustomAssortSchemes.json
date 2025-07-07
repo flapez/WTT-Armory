@@ -4473,6 +4473,33 @@
                 }
             },
             {
+                "_id": "686b4c3af8e1eefd7778d7fb",
+                "_tpl": "66d0c1319aba7b6bff460a37",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true
+                }
+            },
+            {
+                "_id": "686b4c576393d1dcf5b8e5ed",
+                "_tpl": "682e8c4bc098b59f14dde097",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true
+                }
+            },
+            {
+                "_id": "686b4c5bc1f450dd066a2461",
+                "_tpl": "6861847dfd5210a3e64677a3",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true
+                }
+            },
+            {
                 "_id": "6851d7d59aadcf905b6c0ca7",
                 "_tpl": "66ba264700cd37059ee31f36",
                 "parentId": "hideout",
@@ -5382,6 +5409,30 @@
                     }
                 ]
             ],
+            "686b4c3af8e1eefd7778d7fb": [
+                [
+                    {
+                        "count": 330,
+                        "_tpl": "5449016a4bdc2d6f028b456f"
+                    }
+                ]
+            ],
+            "686b4c576393d1dcf5b8e5ed": [
+                [
+                    {
+                        "count": 298,
+                        "_tpl": "5449016a4bdc2d6f028b456f"
+                    }
+                ]
+            ],
+            "686b4c5bc1f450dd066a2461": [
+                [
+                    {
+                        "count": 215,
+                        "_tpl": "5449016a4bdc2d6f028b456f"
+                    }
+                ]
+            ],
             "d0e403adada84cbbb36988e7": [
                 [
                     {
@@ -5712,7 +5763,10 @@
             "686afa165cd65d6035ff8187": 1,
             "686b0a9f4fc34a4f90043b06": 2,
             "686b0a9f4fc34a4f90043b00": 3,
-            "686b461092360ea190c790a5": 2
+            "686b461092360ea190c790a5": 2,
+            "686b4c5bc1f450dd066a2461": 2,
+            "686b4c576393d1dcf5b8e5ed": 2,
+            "686b4c3af8e1eefd7778d7fb": 3
         }
     },
     "PRAPOR": {
