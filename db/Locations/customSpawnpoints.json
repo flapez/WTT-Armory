@@ -311,7 +311,203 @@
         }
     ],
     "shoreline": [],
-    "tarkovstreets": [],
+    "tarkovstreets": [
+        {
+            "locationId": "(77.7212, 3.6, 296.214)",
+            "probability": 1,
+            "template": {
+                "Id": "AEK_Streets_spawn",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": 77.7212,
+                    "y": 3.6,
+                    "z": 296.214
+                },
+                "Rotation": {
+                    "x": 358.3138,
+                    "y": 275.7525,
+                    "z": 89.9508
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "686b2fd7f0a807467c03d97d",
+                "Items": [
+                    {
+                        "_id": "686b2fd7f0a807467c03d97e",
+                        "_tpl": "0cb4a36dd2e587b46e813dbe",
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "Foldable": {
+                                "Folded": false
+                            },
+                            "FireMode": {
+                                "FireMode": "single"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "686b2fc4f0a807467c03d962",
+                        "_tpl": "5ac72e475acfc400180ae6fe",
+                        "slotId": "mod_sight_rear",
+                        "upd": {
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "686b2fd7f0a807467c03d97e"
+                    },
+                    {
+                        "_id": "686b2fc4f0a807467c03d963",
+                        "_tpl": "c9dc0b769bd36d06524b9bde",
+                        "slotId": "mod_stock",
+                        "parentId": "686b2fd7f0a807467c03d97e"
+                    },
+                    {
+                        "_id": "686b2fc4f0a807467c03d964",
+                        "_tpl": "68609a328595f9559a666233",
+                        "slotId": "mod_pistol_grip",
+                        "parentId": "686b2fd7f0a807467c03d97e"
+                    },
+                    {
+                        "_id": "686b2fc4f0a807467c03d965",
+                        "_tpl": "68609dc9fd6af45456e7d11c",
+                        "slotId": "mod_handguard",
+                        "parentId": "686b2fd7f0a807467c03d97e"
+                    },
+                    {
+                        "_id": "686b2fc4f0a807467c03d966",
+                        "_tpl": "5cbdaf89ae9215000e5b9c94",
+                        "slotId": "mod_magazine",
+                        "parentId": "686b2fd7f0a807467c03d97e"
+                    },
+                    {
+                        "_id": "686b2fc4f0a807467c03d967",
+                        "_tpl": "56dff2ced2720bb4668b4567",
+                        "slotId": "patron_in_weapon",
+                        "parentId": "686b2fd7f0a807467c03d97e"
+                    },
+                    {
+                        "_id": "686b2fc4f0a807467c03d968",
+                        "_tpl": "5fef472e70dc85c1e6fb9e23",
+                        "slotId": "mod_muzzle",
+                        "parentId": "686b2fc4f0a807467c03d965"
+                    },
+                    {
+                        "_id": "686b2fc4f0a807467c03d969",
+                        "_tpl": "56dff2ced2720bb4668b4567",
+                        "slotId": "cartridges",
+                        "location": 0,
+                        "upd": {
+                            "StackObjectsCount": 29
+                        },
+                        "parentId": "686b2fc4f0a807467c03d966"
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "686b2fd7f0a807467c03d97e"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
+        {
+            "locationId": "(-38.115, 5.873, -44.2083)",
+            "probability": 1,
+            "template": {
+                "Id": "Auto5_Streets_spawn",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "x": -38.115,
+                    "y": 5.873,
+                    "z": -44.2083
+                },
+                "Rotation": {
+                    "x": 0.0717,
+                    "y": 10.3752,
+                    "z": 275.6246
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "686b2fd7f0a807467c03d980",
+                "Items": [
+                    {
+                        "_id": "686b2fd7f0a807467c03d981",
+                        "_tpl": "669fca7f9ed4916116c76d5e",
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "FireMode": {
+                                "FireMode": "semiauto"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "686b2fd1f0a807467c03d96b",
+                        "_tpl": "669fcc072ce7ed70082a6272",
+                        "slotId": "mod_barrel",
+                        "parentId": "686b2fd7f0a807467c03d981"
+                    },
+                    {
+                        "_id": "686b2fd1f0a807467c03d96c",
+                        "_tpl": "669fcb6ed34f850baaa66446",
+                        "slotId": "mod_magazine",
+                        "parentId": "686b2fd7f0a807467c03d981"
+                    },
+                    {
+                        "_id": "686b2fd1f0a807467c03d96d",
+                        "_tpl": "669fcbc7d1b799623b40679a",
+                        "slotId": "mod_stock",
+                        "parentId": "686b2fd7f0a807467c03d981"
+                    },
+                    {
+                        "_id": "686b2fd1f0a807467c03d96e",
+                        "_tpl": "5d6e6911a4b9361bd5780d52",
+                        "slotId": "patron_in_weapon",
+                        "parentId": "686b2fd7f0a807467c03d981"
+                    },
+                    {
+                        "_id": "686b2fd1f0a807467c03d96f",
+                        "_tpl": "5d6e6911a4b9361bd5780d52",
+                        "slotId": "cartridges",
+                        "location": 0,
+                        "upd": {
+                            "StackObjectsCount": 3
+                        },
+                        "parentId": "686b2fd1f0a807467c03d96c"
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "686b2fd7f0a807467c03d981"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ],
     "rezervbase": [
         {
             "locationId": "(-123.5331, -14.4554, 32.4927)",
