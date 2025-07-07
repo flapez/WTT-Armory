@@ -8,6 +8,15 @@
         "path": "Weapon92fs/weapon_92fs_container.bundle",
         "rcid": ""
       },
+      "Weight": 0.446,
+      "DoubleActionAccuracyPenalty": 1.6,
+
+      "Ergonomics": 69,
+      "RecoilForceBack": 285,
+      "RecoilForceUp": 411,
+      "RecolDispersion": 7.5,
+      "Durability": 100,
+      "DurabilityBurnRatio": 1.25,
       "ExaminedByDefault": true,
       "defAmmo": "58864a4f2459770fcc257101",
       "defMagType": "6868d3e47515a679f2e06288",
@@ -75,7 +84,7 @@
     },
     "locales": {
       "en": {
-        "name": "Beretta 92FS 9x19mm pistol",
+        "name": "Beretta 92FS 9x19 pistol",
         "shortName": "92FS",
         "description": "The Beretta 92FS (military designation of M9), was the official service pistol adopted by the United States Armed Forces in 1985. The 92FS won a competition in the 1980s to replace the M1911A1 as the primary sidearm of the U.S. military, beating many other contenders and only narrowly defeating the SIG Sauer P226 for cost reasons. The weapon operates as a short recoi, semi-automatic, single-action/double-action pistol that uses a 15-round staggered box magazine."
       }
@@ -167,6 +176,12 @@
         "path": "Weapon92fs/92fs_threadedbarrel.bundle",
         "rcid": ""
       },
+      "Recoil": -4.5,
+      "Velocity": -2.2,
+      "CenterOfImpact": 0.30,
+      "CoolFactor": 1.10,
+      "DeviationCurve": 2.29,
+      "DeviationMax": 12,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -202,13 +217,18 @@
         "path": "Weapon92fs/92fs_barrel.bundle",
         "rcid": ""
       },
-      "CenterOfImpact": 0.33,
+      "CenterOfImpact": 0.32,
+      "Recoil": -3.9,
+      "Velocity": -1.8,
+      "CoolFactor": 1.15,
+      "DeviationCurve": 2.15,
+      "DeviationMax": 9.5,
       "ExaminedByDefault": true,
       "Slots": []
     },
     "locales": {
       "en": {
-        "name": "Beretta 92FS 9x19mm barrel",
+        "name": "Beretta 92FS 9x19 barrel",
         "shortName": "92FS",
         "description": "Standard barrel for the Beretta 92FS 9x19mm pistol."
       }
@@ -239,12 +259,13 @@
         "path": "Weapon92fs/92fs_slide.bundle",
         "rcid": ""
       },
+      "Weight": 0.485,
       "Slots": [],
       "ExaminedByDefault": true
     },
     "locales": {
       "en": {
-        "name": "Beretta 92FS 9x19mm pistol slide",
+        "name": "Beretta 92FS pistol slide",
         "shortName": "92FS Slide",
         "description": "Standard pistol slide for the Beretta 92FS 9x19mm pistol."
       }
@@ -275,6 +296,8 @@
         "path": "Weapon92fs/92fs_magazine.bundle",
         "rcid": ""
       },
+      "LoadUnloadModifier": -15,
+      "CheckTimeModifier": -15,
       "Weight": 0.08,
       "ExaminedByDefault": true,
       "Cartridges": [
@@ -306,8 +329,8 @@
     },
     "locales": {
       "en": {
-        "name": "Beretta 92FS 15-round 9x19mm magazine",
-        "shortName": "92FS Magazine",
+        "name": "Beretta 92FS 9x19 15-round magazine",
+        "shortName": "92FS",
         "description": "A 15-round 9x19mm magazine for the Beretta 92FS pistol."
       }
     },
