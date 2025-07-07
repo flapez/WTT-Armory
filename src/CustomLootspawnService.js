@@ -49,11 +49,44 @@ class CustomLootspawnService {
                 // Concatenate the existing spawnpoints with the new ones
                 location.looseLoot.spawnpointsForced = location.looseLoot.spawnpointsForced.concat(customSpawnpointsForced[locationId]);
             }
-            // REGULAR LOOSELOOT SPAWNPOINTS
-            if (customSpawnpoints[locationId]) {
-                // Concatenate the existing spawnpoints with the new ones
-                location.looseLoot.spawnpoints = location.looseLoot.spawnpoints.concat(customSpawnpoints[locationId]);
+        }
+        // Process regular spawnpoints
+        this.processSpawnpoints(locations, customSpawnpoints);
+    }
+    processSpawnpoints(locations, customMap) {
+        for (const locationId in customMap) {
+            const location = locations[locationId];
+            if (!location || !location.looseLoot)
+                continue;
+            const customSpawns = customMap[locationId];
+            const existingSpawns = location.looseLoot.spawnpoints;
+            for (const customSpawn of customSpawns) {
+                const existingIndex = existingSpawns.findIndex(sp => sp.locationId === customSpawn.locationId);
+                if (existingIndex === -1) {
+                    // Spawnpoint doesn't exist - add it
+                    existingSpawns.push(customSpawn);
+                }
+                else {
+                    // Spawnpoint exists - merge items and distributions
+                    const existingSpawn = existingSpawns[existingIndex];
+                    // Merge template items
+                    if (customSpawn.template?.Items) {
+                        existingSpawn.template.Items = [
+                            ...existingSpawn.template.Items,
+                            ...customSpawn.template.Items
+                        ];
+                    }
+                    // Merge item distributions
+                    if (customSpawn.itemDistribution) {
+                        existingSpawn.itemDistribution = [
+                            ...existingSpawn.itemDistribution,
+                            ...customSpawn.itemDistribution
+                        ];
+                    }
+                }
             }
+            // Update the spawnpoints array in the location
+            location.looseLoot.spawnpoints = existingSpawns;
         }
     }
 }

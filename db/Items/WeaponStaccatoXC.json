@@ -508,6 +508,7 @@
                 "path": "WeaponStaccatoXC/xc_hammer.bundle",
                 "rcid": ""
             },
+			"Ergonomics": 1,
 			"Weight":0.018,
             "ExaminedByDefault": true
         },
@@ -657,6 +658,7 @@
                 "path": "WeaponStaccatoXC/xc_trigger.bundle",
                 "rcid": ""
             },
+			"Ergonomics": 1,
 			"Weight":0.016,
             "ExaminedByDefault": true
         },

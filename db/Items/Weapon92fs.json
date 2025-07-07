@@ -10,7 +10,6 @@
       },
       "Weight": 0.446,
       "DoubleActionAccuracyPenalty": 1.6,
-
       "Ergonomics": 69,
       "RecoilForceBack": 285,
       "RecoilForceUp": 411,
@@ -182,7 +181,32 @@
       "CoolFactor": 1.10,
       "DeviationCurve": 2.29,
       "DeviationMax": 12,
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+      "Slots": [
+        {
+          "_id": "686b49bfe395fc12b5518b38",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "6868d414e67828905d765b10",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5cadc390ae921500126a77f1",
+                  "5c7e8fab2e22165df16b889b",
+                  "5a33a8ebc4a282000c5a950d",
+                  "5c6165902e22160010261b28",
+                  "5a32a064c4a28200741e22de",
+                  "666102ef2d367ec85ddd2030"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
     },
     "locales": {
       "en": {
@@ -223,6 +247,8 @@
       "CoolFactor": 1.15,
       "DeviationCurve": 2.15,
       "DeviationMax": 9.5,
+      "Ergonomics": -5,
+      "Weight": 0.190,
       "ExaminedByDefault": true,
       "Slots": []
     },
@@ -260,6 +286,7 @@
         "rcid": ""
       },
       "Weight": 0.485,
+      "SightingRange": 200,
       "Slots": [],
       "ExaminedByDefault": true
     },

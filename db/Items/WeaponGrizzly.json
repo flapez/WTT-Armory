@@ -4,7 +4,7 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "Weight": 0.58,
+      "Weight": 0.432,
       "CameraSnap": 3,
       "HeatFactorByShot": 3.26,
       "HeatFactorGun": 1,
@@ -31,6 +31,7 @@
             "filters": [
               {
                 "Filter": [
+				  "677c9c0cb4a2eed292d7cada",
                   "677c9c1b5841775a87375607",
                   "677c9c38e92069ca8c68b6e1",
                   "677c9c3105cb23362086eee2"
@@ -329,7 +330,7 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "Weight": 0.58,
+      "Weight": 0.432,
       "CameraSnap": 3,
       "HeatFactorByShot": 3.26,
       "HeatFactorGun": 1,
@@ -356,6 +357,7 @@
             "filters": [
               {
                 "Filter": [
+				  "677c9c0cb4a2eed292d7cada",
                   "677c9c1b5841775a87375607",
                   "677c9c38e92069ca8c68b6e1",
                   "677c9c3105cb23362086eee2"
@@ -654,7 +656,7 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "Weight": 0.58,
+      "Weight": 0.432,
       "CameraSnap": 3,
       "HeatFactorByShot": 3.26,
       "HeatFactorGun": 1,
@@ -681,6 +683,7 @@
             "filters": [
               {
                 "Filter": [
+				  "677c9c0cb4a2eed292d7cada",
                   "677c9c1b5841775a87375607",
                   "677c9c38e92069ca8c68b6e1",
                   "677c9c3105cb23362086eee2"
@@ -983,8 +986,8 @@
         "path": "WeaponGrizzly/grizzly_barrel_blk.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true,
-     "Weight": 0.14
+      "Weight": 0.115,
+      "ExaminedByDefault": true
     },
     "locales": {
       "en": {
@@ -1019,11 +1022,15 @@
         "path": "WeaponGrizzly/grizzly_barrel_ext.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true,
-      "Recoil": -3.5,
-      "Ergonomics": -3.5,
+      "CoolFactor": 1.13,
+      "DurabilityBurnModificator": 0.9,
+      "HeatFactor": 1.07,
+      "Recoil": -5.5,
+      "Ergonomics": -4,
       "CenterOfImpact": 0.29,
-      "Velocity": -0.95
+      "Velocity": -0.95,
+      "Weight": 0.135,
+      "ExaminedByDefault": true
     },
     "locales": {
       "en": {
@@ -1058,8 +1065,8 @@
         "path": "WeaponGrizzly/grizzly_barrel_stainless.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true,
-      "Weight": 0.14
+      "Weight": 0.115,
+      "ExaminedByDefault": true
     },
     "locales": {
       "en": {
@@ -1094,10 +1101,14 @@
         "path": "WeaponGrizzly/grizzly_barrel_threaded.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true,
-      "Recoil": -3.2,
-      "Ergonomics": -3.5,
+      "CoolFactor": 1.14,
+      "DurabilityBurnModificator": 1.0,
+      "HeatFactor": 1.08,
+      "Recoil": -4,
+      "Ergonomics": -4,
       "Velocity": -1.00,
+      "Weight": 0.127,
+      "ExaminedByDefault": true,
       "Slots": [
         {
           "_name": "mod_muzzle",
@@ -1152,7 +1163,7 @@
         "path": "WeaponGrizzly/grizzly_receiver_blk.bundle",
         "rcid": ""
       },
-      "Weight": 0.48,
+      "Weight": 0.485,
       "Slots": [
         {
           "_id": "677c9c6c005391d098a2931a",
@@ -1248,7 +1259,7 @@
         "path": "WeaponGrizzly/grizzly_receiver_stainless.bundle",
         "rcid": ""
       },
-      "Weight": 0.48,
+      "Weight": 0.485,
       "Slots": [
         {
           "_id": "677c9fd040bdaacb0e63beb3",
@@ -1344,7 +1355,7 @@
         "path": "WeaponGrizzly/grizzly_receiver_gold.bundle",
         "rcid": ""
       },
-      "Weight": 0.48,
+      "Weight": 0.485,
       "Slots": [
         {
           "_id": "677ca0037552e3e22d722b0c",
@@ -1440,6 +1451,7 @@
         "path": "WeaponGrizzly/grizzly_frontsight_green.bundle",
         "rcid": ""
       },
+      "Weight": 0.006,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1475,6 +1487,7 @@
         "path": "WeaponGrizzly/grizzly_frontsight_red.bundle",
         "rcid": ""
       },
+      "Weight": 0.006,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1510,6 +1523,7 @@
         "path": "WeaponGrizzly/grizzly_frontsight_white.bundle",
         "rcid": ""
       },
+      "Weight": 0.006,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1657,6 +1671,7 @@
         "path": "WeaponGrizzly/grizzly_rearsight_green.bundle",
         "rcid": ""
       },
+      "Weight": 0.009,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1691,6 +1706,7 @@
         "path": "WeaponGrizzly/grizzly_rearsight_white.bundle",
         "rcid": ""
       },
+      "Weight": 0.009,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1725,6 +1741,7 @@
         "path": "WeaponGrizzly/grizzly_rearsight_red.bundle",
         "rcid": ""
       },
+      "Weight": 0.009,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1759,6 +1776,7 @@
         "path": "WeaponGrizzly/grizzly_catch.bundle",
         "rcid": ""
       },
+      "Weight": 0.011,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1794,6 +1812,7 @@
         "path": "WeaponGrizzly/grizzly_hammer.bundle",
         "rcid": ""
       },
+      "Weight": 0.019,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1829,6 +1848,7 @@
         "path": "WeaponGrizzly/grizzly_trigger.bundle",
         "rcid": ""
       },
+      "Weight": 0.014,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1904,6 +1924,7 @@
         "path": "WeaponGrizzly/grizzly_grips_blk.bundle",
         "rcid": ""
       },
+	  "Weight": 0.280,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1939,6 +1960,7 @@
         "path": "WeaponGrizzly/grizzly_grips_rosewood.bundle",
         "rcid": ""
       },
+	  "Weight": 0.280,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1974,6 +1996,7 @@
         "path": "WeaponGrizzly/grizzly_grips_oak.bundle",
         "rcid": ""
       },
+	  "Weight": 0.280,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -2009,6 +2032,7 @@
         "path": "WeaponGrizzly/grizzly_grips_gold.bundle",
         "rcid": ""
       },
+	  "Weight": 0.280,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -2052,7 +2076,11 @@
         "Accuracy": 1,
         "Recoil": -11.5,
         "HeatFactor": 0.99,
-        "Loudness": 1
+        "Loudness": 1,
+		"ConflictingItems": [
+			"677c9c3105cb23362086eee2",
+			"677c9c1b5841775a87375607"
+		]
     },
     "locales": {
         "en": {
@@ -2087,7 +2115,7 @@
       "path": "WeaponGrizzly/grizzly_rail.bundle",
       "rcid": ""
     },
-    "Weight": 0.045,
+    "Weight": 0.03,
     "Ergonomics": -1,
     "Slots": [
       {
