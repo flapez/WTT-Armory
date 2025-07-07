@@ -166,12 +166,12 @@
     "parentId": "555ef6e44bdc2de9068b457e",
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
-      "Weight": 0.192,
-      "Ergonomics": -3,
       "Prefab": {
         "path": "WeaponCZ75/cz75_barrel_threaded.bundle",
         "rcid": ""
       },
+      "Weight": 0.11,
+      "Ergonomics": -5,
       "CenterOfImpact": 0.3,
       "ExaminedByDefault": true,
       "Slots": [
@@ -188,10 +188,7 @@
                   "5a33a8ebc4a282000c5a950d",
                   "5c6165902e22160010261b28",
                   "5a32a064c4a28200741e22de",
-                  "669db41e614d389b89adaabc",
-                  "669db46b3c05ca4e14a5f9a9",
-                  "666102ef2d367ec85ddd2030",
-                  "669db5b0e37e14932d8a4bbe"
+                  "666102ef2d367ec85ddd2030"
                 ]
               }
             ]
@@ -217,8 +214,8 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 12368,
-    "handbookPriceRoubles": 2159,
+    "fleaPriceRoubles": 11368,
+    "handbookPriceRoubles": 3989,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -231,12 +228,13 @@
     "parentId": "555ef6e44bdc2de9068b457e",
     "handbookParentId": "5b5f75c686f774094242f19f",
     "overrideProperties": {
-      "Weight": 0.186,
       "Prefab": {
         "path": "WeaponCZ75/cz75_barrel.bundle",
         "rcid": ""
       },
+      "Weight": 0.092,
       "CenterOfImpact": 0.33,
+      "Ergonomics": -5,
       "ExaminedByDefault": true,
       "Slots": []
     },
@@ -255,8 +253,8 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 4216,
-    "handbookPriceRoubles": 1799,
+    "fleaPriceRoubles": 5916,
+    "handbookPriceRoubles": 2099,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -294,7 +292,7 @@
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 14069,
-    "handbookPriceRoubles": 4978,
+    "handbookPriceRoubles": 6978,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -313,7 +311,7 @@
       },
       "Ergonomics": -2,
       "MalfunctionChance": 0.03,
-      "Weight": 0.084,
+      "Weight": 0.11,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -332,7 +330,7 @@
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 5215,
-    "handbookPriceRoubles": 1269,
+    "handbookPriceRoubles": 1569,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -370,7 +368,7 @@
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 14069,
-    "handbookPriceRoubles": 4978,
+    "handbookPriceRoubles": 6978,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,

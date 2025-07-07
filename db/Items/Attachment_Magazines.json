@@ -1034,9 +1034,9 @@
     },
     "locales": {
       "en": {
-        "name": "AKM 7.62x39 20-round tanker magazine",
+        "name": "AK 7.62x39 Hungarian \"Tanker\" 20-round magazine",
         "shortName": "Tanker",
-        "description": "A compact 20-round magazine for the AKM platform designed to be used by tankers."
+        "description": "A 20-round steel magazine for the AK-47/AKM series of rifles, manufactured for Hungarian Tank crews. This mag has been hastily modified to cut a viewing port into the side of the magazine."
       }
     },
     "clearClonedProps": false,

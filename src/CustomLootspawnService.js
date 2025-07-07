@@ -35,7 +35,7 @@ var __importStar = (this && this.__importStar) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CustomLootspawnService = void 0;
 const customSpawnpointsForced = __importStar(require("../db/Locations/customSpawnpointsForced.json"));
-//import * as customSpawnpoints from "../../db/Locations/customSpawnpoints.json"
+const customSpawnpoints = __importStar(require("../db/Locations/customSpawnpoints.json"));
 class CustomLootspawnService {
     instanceManager;
     preSptLoad(instanceManager) {
@@ -50,13 +50,10 @@ class CustomLootspawnService {
                 location.looseLoot.spawnpointsForced = location.looseLoot.spawnpointsForced.concat(customSpawnpointsForced[locationId]);
             }
             // REGULAR LOOSELOOT SPAWNPOINTS
-            /*
-            if (customSpawnpoints[locationId])
-            {
+            if (customSpawnpoints[locationId]) {
                 // Concatenate the existing spawnpoints with the new ones
-                location.looseLoot.spawnpoints[locationId] = location.looseLoot.spawnpoints[locationId].concat(customSpawnpoints[locationId]);
+                location.looseLoot.spawnpoints = location.looseLoot.spawnpoints.concat(customSpawnpoints[locationId]);
             }
-            */
         }
     }
 }

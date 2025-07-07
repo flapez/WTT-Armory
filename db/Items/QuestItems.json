@@ -68,7 +68,7 @@
     "StaticLootContainers": []
   },
     "685618fbcc160182de00bfc4": {
-        "itemTplToClone": "66b37ea4c5d72b0277488439",
+        "itemTplToClone": "59faff1d86f7746c51718c9c",
         "parentId": "57864a3d24597754843f8721",
         "handbookParentId": "5b47574386f77428ca22b2f1",
         "overrideProperties": {
@@ -105,6 +105,8 @@
         "addtoTraders": false,
         "addtoBots": false,
         "addtoStaticLootContainers": false,
+        "canSellOnRagfair": false,
+        "isUnsaleable": true,
         "Probability": 250,
         "traders": {},
         "StaticLootContainers": []  

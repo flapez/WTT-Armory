@@ -349,7 +349,7 @@
 		"overrideProperties": {
 			"ExaminedByDefault": true,
 			"Prefab": {
-				"path": "Attachment_Scopes/susat_new.bundle",
+				"path": "Attachment_Scopes/susat_new_scope.bundle",
 				"rcid": ""
 			},
 			"Weight": 0.495,
