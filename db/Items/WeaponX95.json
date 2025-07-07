@@ -8,7 +8,7 @@
       "Width": 4,
       "Height": 1,
       "Weight": 2.9,
-      "Ergonomics": 58,
+      "Ergonomics": 64,
       "RecoilForceBack": 238,
       "RecoilForceUp": 69,
       "RecoilCamera": 0.045,
@@ -688,7 +688,7 @@
       "ExaminedByDefault": true,
       "Width": 1,
       "Height": 1,
-      "Ergonomics": 2,
+      "Ergonomics": 1,
       "Recoil": -5
     },
     "locales": {
@@ -724,7 +724,7 @@
       "Width": 4,
       "Height": 1,
       "Weight": 2.9,
-      "Ergonomics": 58,
+      "Ergonomics": 64,
       "RecoilForceBack": 238,
       "RecoilForceUp": 69,
       "RecoilCamera": 0.045,
@@ -1286,7 +1286,7 @@
       "Width": 4,
       "Height": 1,
       "Weight": 2.9,
-      "Ergonomics": 58,
+      "Ergonomics": 64,
       "RecoilForceBack": 238,
       "RecoilForceUp": 69,
       "RecoilCamera": 0.045,
@@ -1848,7 +1848,8 @@
         "path": "WeaponX95/x95_rail_l_blk.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+      "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -1883,7 +1884,8 @@
         "path": "WeaponX95/x95_rail_r_blk.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+           "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -1918,7 +1920,8 @@
         "path": "WeaponX95/x95_rail_bottom_blk.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+           "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -1953,7 +1956,8 @@
         "path": "WeaponX95/x95_rail_l_fde.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+           "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -1988,7 +1992,8 @@
         "path": "WeaponX95/x95_rail_r_fde.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+           "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -2023,7 +2028,8 @@
         "path": "WeaponX95/x95_rail_bottom_fde.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+           "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -2058,7 +2064,8 @@
         "path": "WeaponX95/x95_rail_l_od.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+           "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -2093,7 +2100,8 @@
         "path": "WeaponX95/x95_rail_r_od.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+           "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -2128,7 +2136,8 @@
         "path": "WeaponX95/x95_rail_bottom_od.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+           "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -2163,7 +2172,7 @@
       "Width": 4,
       "Height": 1,
       "Weight": 2.9,
-      "Ergonomics": 58,
+      "Ergonomics": 64,
       "RecoilForceBack": 238,
       "RecoilForceUp": 69,
       "RecoilCamera": 0.045,
@@ -2723,6 +2732,7 @@
           "path": "WeaponX95/x95_magazine_9mm_45.bundle",
           "rcid": ""
       },
+      "Ergonomics": -3,
       "Cartridges": [
           {
               "_id": "67f447538112fb3647210ed3",
