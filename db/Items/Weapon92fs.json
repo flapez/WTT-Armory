@@ -8,6 +8,11 @@
         "path": "Weapon92fs/weapon_92fs_container.bundle",
         "rcid": ""
       },
+	  "Ergonomics": 75,
+	  "RecoilForceBack": 284,
+	  "RecoilForceUp": 408,
+      "RecoilReturnSpeedHandRotation": 6,
+      "Weight":0.321,
       "ExaminedByDefault": true,
       "defAmmo": "58864a4f2459770fcc257101",
       "defMagType": "6868d3e47515a679f2e06288",
@@ -227,6 +232,8 @@
         "path": "Weapon92fs/92fs_barrel.bundle",
         "rcid": ""
       },
+	  "Ergonomics": -5,
+      "Weight":0.190,
       "CenterOfImpact": 0.33,
       "ExaminedByDefault": true,
       "Slots": []
@@ -264,6 +271,8 @@
         "path": "Weapon92fs/92fs_slide.bundle",
         "rcid": ""
       },
+      "Weight":0.205,
+	  "SightingRange": 200,
       "Slots": [],
       "ExaminedByDefault": true
     },
@@ -300,7 +309,7 @@
         "path": "Weapon92fs/92fs_magazine.bundle",
         "rcid": ""
       },
-      "Weight": 0.08,
+      "Weight": 0.076,
       "ExaminedByDefault": true,
       "Cartridges": [
         {
