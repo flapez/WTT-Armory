@@ -1022,12 +1022,15 @@
         "path": "WeaponGrizzly/grizzly_barrel_ext.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true,
-      "Recoil": -3.5,
-      "Ergonomics": -3.5,
+      "CoolFactor": 1.13,
+      "DurabilityBurnModificator": 0.9,
+      "HeatFactor": 1.07,
+      "Recoil": -5.5,
+      "Ergonomics": -4,
       "CenterOfImpact": 0.29,
       "Velocity": -0.95,
-      "Weight": 0.135
+      "Weight": 0.135,
+      "ExaminedByDefault": true
     },
     "locales": {
       "en": {
@@ -1098,11 +1101,14 @@
         "path": "WeaponGrizzly/grizzly_barrel_threaded.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true,
-      "Recoil": -3.2,
-      "Ergonomics": -3.5,
+      "CoolFactor": 1.14,
+      "DurabilityBurnModificator": 1.0,
+      "HeatFactor": 1.08,
+      "Recoil": -4,
+      "Ergonomics": -4,
       "Velocity": -1.00,
       "Weight": 0.127,
+      "ExaminedByDefault": true,
       "Slots": [
         {
           "_name": "mod_muzzle",
@@ -2070,7 +2076,11 @@
         "Accuracy": 1,
         "Recoil": -11.5,
         "HeatFactor": 0.99,
-        "Loudness": 1
+        "Loudness": 1,
+		"ConflictingItems": [
+			"677c9c3105cb23362086eee2",
+			"677c9c1b5841775a87375607"
+		]
     },
     "locales": {
         "en": {
