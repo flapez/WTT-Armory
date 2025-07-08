@@ -209,8 +209,8 @@
 		"modSlot": [],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 200000,
-		"handbookPriceRoubles": 110000,
+		"fleaPriceRoubles": 49000,
+		"handbookPriceRoubles": 15500,
 		"addtoTraders": false,
 		"traderId": "SKIER",
 		"traderItems": [
@@ -393,8 +393,8 @@
 		"modSlot": ["mod_sight_rear"],
 		"ModdableItemWhitelist": [],
 		"ModdableItemBlacklist": [],
-		"fleaPriceRoubles": 8900,
-		"handbookPriceRoubles": 4200,
+		"fleaPriceRoubles": 2000,
+		"handbookPriceRoubles": 823,
 		"addtoTraders": false,
 		"traderId": "58330581ace78e27b8b10cee",
 		"traderItems": [
