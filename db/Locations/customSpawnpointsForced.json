@@ -75,5 +75,82 @@
         }
     ],
     "laboratory": [],
-    "bigmap": []
+    "bigmap": [
+        {
+            "locationId": "(17.86, 0.27, 0.81)",
+            "probability": 1,
+            "template": {
+                "Id": "M249_questitem_spawn",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": 17.86,
+                    "y": 0.27,
+                    "z": 0.81
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": true,
+                "GroupPositions": [
+                    {
+                        "Name": "groupPoint[0]",
+                        "Weight": 1,
+                        "Position": {
+                            "x": 17.86,
+                            "y": 0.27,
+                            "z": 0.81
+                        },
+                        "Rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    {
+                        "Name": "groupPoint[1]",
+                        "Weight": 1,
+                        "Position": {
+                            "x": 503.43,
+                            "y": -0.15,
+                            "z": -9.84
+                        },
+                        "Rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    {
+                        "Name": "groupPoint[2]",
+                        "Weight": 1,
+                        "Position": {
+                            "x": 567.58,
+                            "y": -0.12,
+                            "z": -22.86
+                        },
+                        "Rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                ],
+                "IsAlwaysSpawn": false,
+                "Root": "686c2849c89eb04c16cecd9a",
+                "Items": [
+                    {
+                        "_id": "686c2849c89eb04c16cecd9a",
+                        "_tpl": "686c1f53c57631545685f81c",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            }
+        }
+    ]
 }

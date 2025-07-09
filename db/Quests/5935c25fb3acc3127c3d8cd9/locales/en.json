@@ -27,5 +27,15 @@
   "686051774a290eb6f216471f description": "The UN tracked down a shipment of weapons that was delivered to Customs. We aren't sure what the weapons are, but I want you to go and track them down and mark the shipment for me!",
   "686051774a290eb6f216471f startedMessageText": "Get your ass out there and find that shipment!",
   "686051774a290eb6f216471f successMessageText": "Great work on finding that shipment. Turns out that the weapons were absolute garbage!! You can keep two for yourself and I guess I will just sell the rest. Thanks again I suppose.",
-  "6860529aac68575f65f0578e": "Place a MS2000 Marker on the boxes in the basement of Fortress near the extraction point."
+  "6860529aac68575f65f0578e": "Place a MS2000 Marker on the boxes in the basement of Fortress near the extraction point.",
+
+
+
+ "686c25d281071c45d2f8aa44 name": "Lost Paper Trail",
+  "686c25d281071c45d2f8aa44 description": "This is urgent! I recently procured a weapon shipment, but while my team was delivering it their convoy was ambushed and some of the weapons were stolen. The manifest for the shipment must have been dropped during the ambush and I need it so I know how many of my guns are missing exactly. Go find it for me! Check the Tigr LAV's over at Customs, you will likely find what you need there. ",
+  "686c25d281071c45d2f8aa44 startedMessageText": "Please get that manifest back to me ASAP.",
+  "686c25d281071c45d2f8aa44 successMessageText": "Incredible! Thank you so much for recovering this!!",
+  "686c26481432fe3c84301de9": "Find the shipping manifest that is near the Tigr LAVs at Customs",
+  "686c2686f6768a866c3c978c": "Survive and Extract",
+  "686c26dc34ec5f932401b002": "Hand in the shipping manifest to Peacekeeper"
 }
