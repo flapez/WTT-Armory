@@ -31,11 +31,21 @@
 
 
 
- "686c25d281071c45d2f8aa44 name": "Lost Paper Trail",
+  "686c25d281071c45d2f8aa44 name": "Lost Paper Trail",
   "686c25d281071c45d2f8aa44 description": "This is urgent! I recently procured a weapon shipment of the M249 SAW, but while my team was delivering it their convoy was ambushed and some of the weapons were stolen. The manifest for the shipment must have been dropped during the ambush and I need it so I know how many of my guns are missing exactly. Go find it for me! Check the Tigr LAV's over at Customs, you will likely find what you need there. ",
   "686c25d281071c45d2f8aa44 startedMessageText": "Please get that manifest back to me ASAP.",
   "686c25d281071c45d2f8aa44 successMessageText": "Incredible! Thank you so much for recovering this!!",
   "686c26481432fe3c84301de9": "Find the shipping manifest that is near the Tigr LAVs at Customs",
   "686c2686f6768a866c3c978c": "Survive and Extract",
-  "686c26dc34ec5f932401b002": "Hand in the shipping manifest to Peacekeeper"
+  "686c26dc34ec5f932401b002": "Hand in the shipping manifest to Peacekeeper",
+
+
+
+  "686dd4f871840e292fbd1a14 name": "Culling The Herd",
+  "686dd4f871840e292fbd1a14 description": "Those fucking bastards! I believe I know who attacked my convoy that was carrying my shipment of the M249 SAW! One of my guys told me it looked like those fucking Goons. I need you to go back to Customs and take care of them for me while I figure out why the fuck they stole my guns...I bet those bastards have them stashed somewhere.",
+  "686dd4f871840e292fbd1a14 startedMessageText": "Kill them now!",
+  "686dd4f871840e292fbd1a14 successMessageText": "Good fucking work. I'll be honest, I didn't think you would pull this off. Take this reward for helping me out, I already lost a few of these so what is one more right?",
+  "686dd679e708598c4f583fbc": "Kill Knight",
+  "686dd69b23f623311e2ff405": "Kill Big Pipe",
+  "686dd6a84e4785c0ae87f1fb": "Kill Bird Eye" 
 }
