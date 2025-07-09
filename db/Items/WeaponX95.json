@@ -7,11 +7,11 @@
       "ExaminedByDefault": true,
       "Width": 4,
       "Height": 1,
-      "Weight": 2.9,
-      "Ergonomics": 64,
-      "RecoilForceBack": 238,
-      "RecoilForceUp": 69,
-      "RecoilCamera": 0.045,
+      "Weight": 3.21,
+      "Ergonomics": 72,
+      "RecoilCamera": 0.038,
+      "RecoilForceBack": 241,
+      "RecoilForceUp": 73,
       "RecoilDispersion": 9,
       "isChamberLoad": false,
       "bFirerate": 800,
@@ -574,7 +574,7 @@
       "Slots": [],
       "ExaminedByDefault": true,
       "Ergonomics": 0,
-      "Weight": 0.005
+      "Weight": 0.01
     },
     "locales": {
       "en": {
@@ -612,7 +612,7 @@
       "Slots": [],
       "ExaminedByDefault": true,
       "Ergonomics": 0,
-      "Weight": 0.005
+      "Weight": 0.01
     },
     "locales": {
       "en": {
@@ -650,7 +650,7 @@
       "ExaminedByDefault": true,
       "Width": 1,
       "Height": 1,
-      "Ergonomics": 5.5
+      "Ergonomics": 6
     },
     "locales": {
       "en": {
@@ -688,7 +688,7 @@
       "ExaminedByDefault": true,
       "Width": 1,
       "Height": 1,
-      "Ergonomics": 1,
+      "Ergonomics": -2,
       "Recoil": -5
     },
     "locales": {
@@ -723,11 +723,11 @@
       "ExaminedByDefault": true,
       "Width": 4,
       "Height": 1,
-      "Weight": 2.9,
-      "Ergonomics": 64,
-      "RecoilForceBack": 238,
-      "RecoilForceUp": 69,
-      "RecoilCamera": 0.045,
+      "Weight": 3.21,
+      "Ergonomics": 72,
+      "RecoilCamera": 0.038,
+      "RecoilForceBack": 241,
+      "RecoilForceUp": 73,
       "RecoilDispersion": 9,
       "isChamberLoad": false,
       "bFirerate": 800,
@@ -1285,11 +1285,11 @@
       "ExaminedByDefault": true,
       "Width": 4,
       "Height": 1,
-      "Weight": 2.9,
-      "Ergonomics": 64,
-      "RecoilForceBack": 238,
-      "RecoilForceUp": 69,
-      "RecoilCamera": 0.045,
+      "Weight": 3.21,
+      "Ergonomics": 72,
+      "RecoilCamera": 0.038,
+      "RecoilForceBack": 241,
+      "RecoilForceUp": 73,
       "RecoilDispersion": 9,
       "isChamberLoad": false,
       "bFirerate": 800,
@@ -1849,6 +1849,7 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
+      "Weight": 0.04,
       "Ergonomics": 1
     },
     "locales": {
@@ -1885,7 +1886,8 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-           "Ergonomics": 1
+      "Weight": 0.04,
+      "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -1921,7 +1923,8 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-           "Ergonomics": 1
+      "Weight": 0.02,
+      "Ergonomics": 2
     },
     "locales": {
       "en": {
@@ -1957,7 +1960,8 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-           "Ergonomics": 1
+      "Weight": 0.04,
+      "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -1993,7 +1997,8 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-           "Ergonomics": 1
+      "Weight": 0.04,
+      "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -2029,7 +2034,8 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-           "Ergonomics": 1
+      "Weight": 0.02,
+      "Ergonomics": 2
     },
     "locales": {
       "en": {
@@ -2065,7 +2071,8 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-           "Ergonomics": 1
+      "Weight": 0.04,
+      "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -2101,7 +2108,8 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-           "Ergonomics": 1
+      "Weight": 0.04,
+      "Ergonomics": 1
     },
     "locales": {
       "en": {
@@ -2137,7 +2145,8 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-           "Ergonomics": 1
+      "Weight": 0.02,
+      "Ergonomics": 2
     },
     "locales": {
       "en": {
@@ -2164,7 +2173,7 @@
     "StaticLootContainers": []
   },
   "67f425638b8cbfdc0cd1b5f2": {
-    "itemTplToClone": "60339954d62c9b14ed777c06",
+    "itemTplToClone": "5c488a752e221602b412af63",
     "parentId": "5447b5f14bdc2d61278b4567",
     "handbookParentId": "5b5f78fc86f77409407a7f90",
     "overrideProperties": {
@@ -2172,13 +2181,43 @@
       "Width": 4,
       "Height": 1,
       "Weight": 2.9,
-      "Ergonomics": 64,
-      "RecoilForceBack": 238,
-      "RecoilForceUp": 69,
-      "RecoilCamera": 0.045,
-      "RecoilDispersion": 9,
+      "Ergonomics": 77,
+      "RecoilCamera": 0.03,
+      "RecoilDispersion": 7,
+      "RecoilForceBack": 153,
+      "RecoilForceUp": 43,
+	  "RecoilReturnPathDampingHandRotation": 0.45,
+      "RecoilReturnSpeedHandRotation": 3.2,
       "isChamberLoad": false,
       "bFirerate": 850,
+      "Chambers": [
+        {
+          "_id": "6848e400a1b2c3d4e5001122",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "60339954d62c9b14ed777c06",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5efb0da7a29a85116f6ea05f",
+                  "5c3df7d588a4501f290594e5",
+                  "58864a4f2459770fcc257101",
+                  "56d59d3ad2720bdb418b4577",
+                  "5c925fa22e221601da359b7b",
+                  "5a3c16fe86f77452b62de32a",
+                  "5efb0e16aeb21837e749c7ff",
+                  "5c0d56a986f774449d5de529",
+                  "64b7bbb74b75259c590fa897"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "ammoCaliber": "Caliber9x19PARA",
       "weapFireType": [
         "single",
       "fullauto"],
