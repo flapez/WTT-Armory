@@ -670,5 +670,154 @@
         }
     ],
     "laboratory": [],
-    "bigmap": []
+    "bigmap": [
+        {
+            "locationId": "(186.398, 6.24, 181.7658)",
+            "probability": 0.15,
+            "template": {
+                "Id": "Loot 19 (9) [91a2dedf-7a53-435d-a573-600fcef0b7ab]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "x": 186.398,
+                    "y": 6.24,
+                    "z": 181.7658
+                },
+                "Rotation": {
+                    "x": 305.751,
+                    "y": 108.2827,
+                    "z": -0.0002
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "686dcca89acc9590540563a8",
+                "Items": [
+                    {
+                        "_id": "686dcca89acc9590540563a9",
+                        "_tpl": "66e718dc498d978477e0ba75",
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "FireMode": {
+                                "FireMode": "fullauto"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "686dcca39acc95905405639b",
+                        "_tpl": "66e71a7ffe3fc79ff68b582b",
+                        "slotId": "mod_magazine",
+                        "parentId": "686dcca89acc9590540563a9"
+                    },
+                    {
+                        "_id": "686dcca39acc95905405639c",
+                        "_tpl": "684741ff7650c89e76c13e2c",
+                        "slotId": "mod_bipod",
+                        "parentId": "686dcca89acc9590540563a9"
+                    },
+                    {
+                        "_id": "686dcca39acc95905405639d",
+                        "_tpl": "66e71afecdde3cfc1146a53c",
+                        "slotId": "mod_stock",
+                        "parentId": "686dcca89acc9590540563a9"
+                    },
+                    {
+                        "_id": "686dcca39acc95905405639e",
+                        "_tpl": "66e71adf394bded29410a37e",
+                        "slotId": "mod_barrel_000",
+                        "parentId": "686dcca89acc9590540563a9"
+                    },
+                    {
+                        "_id": "686dcca39acc95905405639f",
+                        "_tpl": "66e71d858f16f30037d06807",
+                        "slotId": "mod_handguard",
+                        "parentId": "686dcca89acc9590540563a9"
+                    },
+                    {
+                        "_id": "686dcca39acc9590540563a0",
+                        "_tpl": "54527a984bdc2d4e668b4567",
+                        "slotId": "cartridges",
+                        "location": 0,
+                        "upd": {
+                            "StackObjectsCount": 60
+                        },
+                        "parentId": "686dcca39acc95905405639b"
+                    },
+                    {
+                        "_id": "686dcca39acc9590540563a1",
+                        "_tpl": "54527a984bdc2d4e668b4567",
+                        "slotId": "cartridges",
+                        "location": 1,
+                        "upd": {
+                            "StackObjectsCount": 60
+                        },
+                        "parentId": "686dcca39acc95905405639b"
+                    },
+                    {
+                        "_id": "686dcca39acc9590540563a2",
+                        "_tpl": "54527a984bdc2d4e668b4567",
+                        "slotId": "cartridges",
+                        "location": 2,
+                        "upd": {
+                            "StackObjectsCount": 60
+                        },
+                        "parentId": "686dcca39acc95905405639b"
+                    },
+                    {
+                        "_id": "686dcca39acc9590540563a3",
+                        "_tpl": "54527a984bdc2d4e668b4567",
+                        "slotId": "cartridges",
+                        "location": 3,
+                        "upd": {
+                            "StackObjectsCount": 19
+                        },
+                        "parentId": "686dcca39acc95905405639b"
+                    },
+                    {
+                        "_id": "686dcca39acc9590540563a4",
+                        "_tpl": "54527a984bdc2d4e668b4567",
+                        "slotId": "cartridges",
+                        "location": 4,
+                        "parentId": "686dcca39acc95905405639b"
+                    },
+                    {
+                        "_id": "686dcca39acc9590540563a5",
+                        "_tpl": "66e71ab0796060d309b7b244",
+                        "slotId": "mod_sight_front",
+                        "upd": {
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "686dcca39acc95905405639e"
+                    },
+                    {
+                        "_id": "686dcca39acc9590540563a6",
+                        "_tpl": "66e71acd9318284a609c3792",
+                        "slotId": "mod_muzzle",
+                        "parentId": "686dcca39acc95905405639e"
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "686dcca89acc9590540563a9"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ]
 }
