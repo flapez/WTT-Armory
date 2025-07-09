@@ -8,14 +8,15 @@
         "path": "Weapon92fs/weapon_92fs_container.bundle",
         "rcid": ""
       },
-      "Weight": 0.446,
-      "DoubleActionAccuracyPenalty": 1.6,
-      "Ergonomics": 69,
-      "RecoilForceBack": 285,
-      "RecoilForceUp": 411,
-      "RecolDispersion": 7.5,
       "Durability": 100,
       "DurabilityBurnRatio": 1.25,
+      "Ergonomics": 69,
+      "RecoilDampingHandRotation": 0.81,
+      "RecolDispersion": 8.5,
+      "RecoilForceBack": 289,
+      "RecoilForceUp": 418,
+      "RecoilReturnPathDampingHandRotation": 0.46,
+      "Weight": 0.331,
       "ExaminedByDefault": true,
       "defAmmo": "58864a4f2459770fcc257101",
       "defMagType": "6868d3e47515a679f2e06288",
@@ -175,12 +176,12 @@
         "path": "Weapon92fs/92fs_threadedbarrel.bundle",
         "rcid": ""
       },
-      "Recoil": -4.5,
-      "Velocity": -2.2,
       "CenterOfImpact": 0.30,
-      "CoolFactor": 1.10,
+      "CoolFactor": 1.14,
       "DeviationCurve": 2.29,
       "DeviationMax": 12,
+      "Recoil": -3,
+      "Velocity": -2.4,
       "ExaminedByDefault": true,
       "Slots": [
         {
@@ -242,12 +243,12 @@
         "rcid": ""
       },
       "CenterOfImpact": 0.32,
-      "Recoil": -3.9,
-      "Velocity": -1.8,
-      "CoolFactor": 1.15,
+      "CoolFactor": 1.11,
       "DeviationCurve": 2.15,
       "DeviationMax": 9.5,
       "Ergonomics": -5,
+      "Recoil": -2,
+      "Velocity": -3.2,
       "Weight": 0.190,
       "ExaminedByDefault": true,
       "Slots": []
@@ -285,7 +286,7 @@
         "path": "Weapon92fs/92fs_slide.bundle",
         "rcid": ""
       },
-      "Weight": 0.485,
+      "Weight": 0.200,
       "SightingRange": 200,
       "Slots": [],
       "ExaminedByDefault": true

@@ -2185,7 +2185,7 @@
       "RecoilCamera": 0.03,
       "RecoilDispersion": 7,
       "RecoilForceBack": 147,
-      "RecoilForceUp": 38,
+      "RecoilForceUp": 41,
 	  "RecoilReturnPathDampingHandRotation": 0.45,
       "RecoilReturnSpeedHandRotation": 3.2,
       "isChamberLoad": false,

@@ -4,12 +4,15 @@
         "parentId": "5447b5cf4bdc2d65278b4567",
         "handbookParentId": "5b5f792486f77447ed5636b3",
         "overrideProperties": {
-			"Ergonomics": 83,
+			"Ergonomics": 82,
 			"RecoilForceBack": 218,
 			"RecoilForceUp": 248,
 			"Weight":0.398,
-			"RecoilReturnPathDampingHandRotation": 0.41,
+			"RecoilDampingHandRotation": 0.82,
+			"RecolDispersion": 9,
+			"RecoilReturnPathDampingHandRotation": 0.38,
 			"RecoilReturnSpeedHandRotation": 7,
+			"Velocity": 8.45,
             "Prefab": {
                 "path": "WeaponUCP/weapon_ucp_container.bundle",
                 "rcid": ""
@@ -274,6 +277,7 @@
         "handbookParentId": "5b5f75c686f774094242f19f",
         "overrideProperties": {
 			"Weight":0.166,
+			"Velocity": 0,
             "Prefab": {
                 "path": "WeaponUCP/ucp_barrel.bundle",
                 "rcid": ""
@@ -312,6 +316,7 @@
         "overrideProperties": {
 			"Weight":0.174,
 			"Ergonomics": 1,
+			"Velocity": 0.5,
             "Prefab": {
                 "path": "WeaponUCP/ucp_barrel_threaded.bundle",
                 "rcid": ""
@@ -443,7 +448,7 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "Ergonomics": 7,
+            "Ergonomics": 5,
             "Weight": 0.055
         },
         "locales": {
@@ -483,8 +488,8 @@
             "muzzleModType": "conpensator",
             "Weight": 0.16,
             "DurabilityBurnModificator": 0.96,
-            "Ergonomics": -3,
-            "Accuracy": 1,
+            "Ergonomics": -2,
+            "Accuracy": 3,
             "Recoil": -11,
             "ConflictingItems": ["6843749dcc3ddb0f04d2455c"],
             "Slots": [
@@ -549,10 +554,12 @@
                 "path": "WeaponUCP/ucp_suppressor.bundle",
                 "rcid": ""
             },
-            "HeatFactor": 1.15,
-            "Ergonomics": -16.5,
-            "Recoil": -7.5,
-            "Weight": 0.165,
+			"DurabilityBurnModificator": 1.59,
+            "HeatFactor": 1.12,
+            "Ergonomics": -17,
+            "Recoil": -7,
+            "Weight": 0.18,
+			"Velocity": 0.7,
             "ExaminedByDefault": true
         },
         "locales": {

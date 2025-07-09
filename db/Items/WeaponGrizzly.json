@@ -10,9 +10,10 @@
       "HeatFactorGun": 1,
       "RecoilCamera": 0.041,
       "RecoilDampingHandRotation": 0.9,
-      "RecoilReturnSpeedHandRotation": 4,
+      "RecoilReturnSpeedHandRotation": 2.3,
       "RepairCost": 65,
       "Ergonomics": 61,
+      "RecoilAngle": 90,
 	  "RecoilForceBack": 350,
 	  "RecoilForceUp": 479,
       "Prefab": {
@@ -337,10 +338,11 @@
       "HeatFactorByShot": 3.26,
       "HeatFactorGun": 1,
       "RecoilCamera": 0.041,
-      "RecoilDampingHandRotation": 0.85,
-      "RecoilReturnSpeedHandRotation": 2.5,
+      "RecoilDampingHandRotation": 0.9,
+      "RecoilReturnSpeedHandRotation": 2.3,
       "RepairCost": 65,
       "Ergonomics": 61,
+      "RecoilAngle": 90,
 	  "RecoilForceBack": 350,
 	  "RecoilForceUp": 479,
       "Prefab": {
@@ -665,10 +667,11 @@
       "HeatFactorByShot": 3.26,
       "HeatFactorGun": 1,
       "RecoilCamera": 0.041,
-      "RecoilDampingHandRotation": 0.85,
-      "RecoilReturnSpeedHandRotation": 2.5,
+      "RecoilDampingHandRotation": 0.9,
+      "RecoilReturnSpeedHandRotation": 2.3,
       "RepairCost": 65,
       "Ergonomics": 61,
+      "RecoilAngle": 90,
 	  "RecoilForceBack": 350,
 	  "RecoilForceUp": 479,
       "Prefab": {
@@ -993,6 +996,7 @@
         "rcid": ""
       },
       "Weight": 0.115,
+      "Velocity": -1.3,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1034,7 +1038,7 @@
       "Recoil": -5.5,
       "Ergonomics": -4,
       "CenterOfImpact": 0.29,
-      "Velocity": -0.95,
+      "Velocity": 1.7,
       "Weight": 0.135,
       "ExaminedByDefault": true
     },
@@ -1072,6 +1076,7 @@
         "rcid": ""
       },
       "Weight": 0.115,
+      "Velocity": -1.3,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1112,8 +1117,8 @@
       "HeatFactor": 1.08,
       "Recoil": -4,
       "Ergonomics": -4,
-      "Velocity": -1.00,
       "Weight": 0.127,
+      "Velocity": 0,
       "ExaminedByDefault": true,
       "Slots": [
         {
@@ -1893,10 +1898,10 @@
       "HeatFactor": 1.12,
       "Ergonomics": -22,
       "Recoil": -9,
-      "Weight": 0.33,
+      "Weight": 0.5,
       "Loudness": -25,
       "DurabilityBurnModificator": 1.75,
-      "Velocity": 0.70,
+      "Velocity": 0.8,
       "ExaminedByDefault": true
     },
     "locales": {

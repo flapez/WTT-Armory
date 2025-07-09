@@ -6,13 +6,14 @@
     "overrideProperties": {
       "Ergonomics": 66,
       "HeatFactorGun": 1.04,
-      "RecoilCategoryMultiplierHandRotation": 0.1,
-      "RecoilReturnPathOffsetHandRotation": 0.01,
-      "RecoilForceBack": 292,
+      "RecoilCamera": 0.011,
+      "RecoilCategoryMultiplierHandRotation": 0.13,
+      "RecolDispersion": 9,
+      "RecoilForceBack": 272,
       "RecoilForceUp": 401,
-      "RecoilDampingHandRotation": 0.8,
-      "RecoildReturnSpeedHandRotation": 4,
-      "RecoilCamera": 0.015,
+      "RecoilDampingHandRotation": 0.75,
+      "RecoilReturnPathDampingHandRotation": 0.44,
+      "RecoildReturnSpeedHandRotation": 3.5,
       "bFirerate": 25,
       "Weight": 0.420,
       "isChamberLoad": false,
@@ -199,6 +200,7 @@
         "rcid": ""
       },
       "Weight": 0.125,
+      "Velocity": -2.31,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -217,7 +219,7 @@
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 2000,
-		"handbookPriceRoubles": 1550,
+	"handbookPriceRoubles": 1550,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -235,6 +237,7 @@
         "rcid": ""
       },
       "Weight": 0.390,
+      "SightingRange": 200,
       "Slots": [],
       "ExaminedByDefault": true
     },

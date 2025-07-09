@@ -345,8 +345,8 @@
                 "path": "WeaponStaccatoXC/xc_longbarrel.bundle",
                 "rcid": ""
             },
-            "Recoil": -5,
             "Ergonomics": -4,
+            "Recoil": -5,
 			"Weight":0.100,
             "ExaminedByDefault": true
         },
@@ -446,6 +446,7 @@
             },
             "Ergonomics": 2,
             "Recoil": -4,
+			"SightingRange": 200,
 			"Weight":0.474,
             "ConflictingItems": [
                 "68452da6051e580c48ede835"
@@ -886,6 +887,7 @@
                 "path": "WeaponStaccatoXC/xc_opticplate.bundle",
                 "rcid": ""
             },
+			"SightingRange": 200,
 			"Weight":0.024,
             "Slots": [
                 {
@@ -955,6 +957,7 @@
                 "path": "WeaponStaccatoXC/xc_rs.bundle",
                 "rcid": ""
             },
+			"SightingRange": 200,
 			"Weight":0.024
         },
         "locales": {
