@@ -818,5 +818,278 @@
     "successMessageText": "686051774a290eb6f216471f successMessageText",
     "traderId": "5935c25fb3acc3127c3d8cd9",
     "type": "Discover"
+  },
+  "686c25d281071c45d2f8aa44": {
+    "QuestName": "Lost Paper Trail",
+    "_id": "686c25d281071c45d2f8aa44",
+    "acceptPlayerMessage": "686c25d281071c45d2f8aa44 acceptPlayerMessage",
+    "acceptanceAndFinishingSource": "eft",
+    "arenaLocations": [],
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "686c25d281071c45d2f8aa44 changeQuestMessageText",
+    "completePlayerMessage": "686c25d281071c45d2f8aa44 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "FindItem",
+          "countInRaid": false,
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "686c26481432fe3c84301de9",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "686c1f53c57631545685f81c"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "686c2686f6768a866c3c978c",
+                "status": [
+                  "Survived",
+                  "Runner"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "686c26c6879eb50c43913b1d",
+                "target": [
+                  "bigmap"
+                ]
+              }
+            ],
+            "id": "686c26ce342a7a7cc6d4cd8b"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "686c26d2392f65d4890af76f",
+          "index": 1,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "686c26d6f35ca2bb0cfebe1f",
+              "target": "686c26481432fe3c84301de9"
+            }
+          ]
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "686c26dc34ec5f932401b002",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "686c1f53c57631545685f81c"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "686c26e3dc063977c7af9ef5",
+              "target": "686c26481432fe3c84301de9"
+            }
+          ]
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "686c26e75b559c8dd4f2a928",
+          "index": 0,
+          "parentId": "",
+          "value": 15,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "686c26eb53540f7a61dd0ddb",
+                "status": [
+                  "Killed",
+                  "Left",
+                  "MissingInAction"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "686c26eefa0144faf817d846",
+                "target": [
+                  "bigmap"
+                ]
+              }
+            ],
+            "id": "686c26f5e2cfde5fb6e6033d"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "686c26f8c7cd1cf53f08c15a",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "686c25d281071c45d2f8aa44 declinePlayerMessage",
+    "description": "686c25d281071c45d2f8aa44 description",
+    "failMessageText": "686c25d281071c45d2f8aa44 failMessageText",
+    "gameModes": [],
+    "image": "/files/quest/icon/57e4f1852459772a15635633.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "56f40101d2720b2a4d8b45d6",
+    "name": "686c25d281071c45d2f8aa44 name",
+    "note": "686c25d281071c45d2f8aa44 note",
+    "progressSource": "eft",
+    "rankingModes": [],
+    "restartable": true,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "availableInGameEditions": [],
+          "id": "686c27100734833272c52c02",
+          "index": 0,
+          "type": "Experience",
+          "value": "5000",
+          "unknown": false
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "686dab6c4bdd1e5f470fb5b2",
+          "index": 0,
+          "items": [
+            {
+              "_id": "686dab778f8913b54a8011b9",
+              "_tpl": "6570264d1419851aef03e736",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "686dabdcf68dd25de4bdc71d",
+              "_tpl": "54527a984bdc2d4e668b4567",
+              "parentId": "686dab778f8913b54a8011b9",
+              "slotId": "cartridges",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 100
+              }
+            },
+            {
+              "_id": "686dab83ba9e2212ff6b4690",
+              "_tpl": "6570264d1419851aef03e736",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "686dabd97c8974ef9c54406b",
+              "_tpl": "54527a984bdc2d4e668b4567",
+              "parentId": "686dab83ba9e2212ff6b4690",
+              "slotId": "cartridges",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 100
+              }
+            },
+            {
+              "_id": "686dab8b7089e04f0060b72b",
+              "_tpl": "6570264d1419851aef03e736",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "686dabd6a3aaf8e30fd0c4cc",
+              "_tpl": "54527a984bdc2d4e668b4567",
+              "parentId": "686dab8b7089e04f0060b72b",
+              "slotId": "cartridges",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 100
+              }
+            },
+            {
+              "_id": "686daba66b901aa278522ca7",
+              "_tpl": "6570264d1419851aef03e736",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "686dabb07403065c1d25778b",
+              "_tpl": "54527a984bdc2d4e668b4567",
+              "parentId": "686daba66b901aa278522ca7",
+              "slotId": "cartridges",
+              "upd": {
+                "SpawnedInSession": true,
+                "StackObjectsCount": 100
+              }
+            }
+          ],
+          "target": "686daba66b901aa278522ca7",
+          "type": "Item",
+          "unknown": false,
+          "value": 4
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "686c25d281071c45d2f8aa44 startedMessageText",
+    "status": 0,
+    "successMessageText": "686c25d281071c45d2f8aa44 successMessageText",
+    "traderId": "5935c25fb3acc3127c3d8cd9",
+    "type": "Pickup"
   }
 }
