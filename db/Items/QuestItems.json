@@ -79,6 +79,7 @@
       "ExaminedByDefault": true,
       "BackgroundColor": "violet",
       "ItemSound": "generic",
+      "QuestItem": true,
       "DiscardingBlock": false,
       "DiscardLimit": 0,
       "Width": 3,
