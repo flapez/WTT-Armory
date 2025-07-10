@@ -310,7 +310,128 @@
             ]
         }
     ],
-    "shoreline": [],
+    "shoreline": [
+        {
+            "locationId": "(-500.82, -24.61, 245.75)",
+            "probability": 0.30,
+            "template": {
+                "Id": "AK5C_ShorelineTruck_spawn",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "x": -500.82,
+                    "y": -24.61,
+                    "z": 245.75
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "686edc333e45a8317404d977",
+                "Items": [
+                    {
+                        "_id": "686edc333e45a8317404d978",
+                        "_tpl": "6671ebcdd32bd95eb398e920",
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "Foldable": {
+                                "Folded": false
+                            },
+                            "FireMode": {
+                                "FireMode": "fullauto"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "686edc303e45a8317404d96b",
+                        "_tpl": "6671ec6e0bebf6ee2d5abf61",
+                        "slotId": "mod_pistol_grip",
+                        "parentId": "686edc333e45a8317404d978"
+                    },
+                    {
+                        "_id": "686edc303e45a8317404d96c",
+                        "_tpl": "6828b1226ef8b54f3f63a678",
+                        "slotId": "mod_magazine",
+                        "parentId": "686edc333e45a8317404d978"
+                    },
+                    {
+                        "_id": "686edc303e45a8317404d96d",
+                        "_tpl": "6671ecb42225b07c8afc4ce3",
+                        "slotId": "mod_stock",
+                        "parentId": "686edc333e45a8317404d978"
+                    },
+                    {
+                        "_id": "686edc303e45a8317404d96e",
+                        "_tpl": "6671ece3365d10b3362eb40f",
+                        "slotId": "mod_handguard",
+                        "parentId": "686edc333e45a8317404d978"
+                    },
+                    {
+                        "_id": "686edc303e45a8317404d96f",
+                        "_tpl": "6671ed5805ef46250c47e46a",
+                        "slotId": "mod_muzzle",
+                        "parentId": "686edc333e45a8317404d978"
+                    },
+                    {
+                        "_id": "686edc303e45a8317404d970",
+                        "_tpl": "54527a984bdc2d4e668b4567",
+                        "slotId": "patron_in_weapon",
+                        "parentId": "686edc333e45a8317404d978"
+                    },
+                    {
+                        "_id": "686edc303e45a8317404d971",
+                        "_tpl": "54527a984bdc2d4e668b4567",
+                        "slotId": "cartridges",
+                        "location": 0,
+                        "upd": {
+                            "StackObjectsCount": 30
+                        },
+                        "parentId": "686edc303e45a8317404d96c"
+                    },
+                    {
+                        "_id": "686edc303e45a8317404d972",
+                        "_tpl": "682b9dd126018d7470776a59",
+                        "slotId": "mod_foregrip",
+                        "parentId": "686edc303e45a8317404d96e"
+                    },
+                    {
+                        "_id": "686edc303e45a8317404d973",
+                        "_tpl": "682b9cb8150b5a86eeaed3fa",
+                        "slotId": "mod_tactical_001",
+                        "parentId": "686edc303e45a8317404d96e"
+                    },
+                    {
+                        "_id": "686edc303e45a8317404d974",
+                        "_tpl": "682b9d50a05fef25589376d4",
+                        "slotId": "mod_tactical_002",
+                        "parentId": "686edc303e45a8317404d96e"
+                    },
+                    {
+                        "_id": "686edc303e45a8317404d975",
+                        "_tpl": "682b9cb8150b5a86eeaed3fa",
+                        "slotId": "mod_tactical_003",
+                        "parentId": "686edc303e45a8317404d96e"
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "686edc333e45a8317404d978"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ],
     "tarkovstreets": [
         {
             "locationId": "(77.7212, 3.6, 296.214)",
