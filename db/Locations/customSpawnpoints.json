@@ -1,7 +1,249 @@
 {
     "factory4_day": [],
     "sandbox": [],
-    "interchange": [],
+    "interchange": [
+        {
+            "locationId": "(-23.0315, 27.8448, -32.4267)",
+            "probability": 1,
+            "template": {
+                "Id": "gun_rpd_default (1) [9a01b834-3f39-442b-aff2-5f0a4b1757a9]",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "x": -23.0315,
+                    "y": 27.8448,
+                    "z": -32.4267
+                },
+                "Rotation": {
+                    "x": 1.3449,
+                    "y": 357.7802,
+                    "z": 90.0461
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "6870695d9a2a6922e00668b3",
+                "Items": [
+                    {
+                        "_id": "6870695d9a2a6922e00668b4",
+                        "_tpl": "677ca334da2787e0538c882d",
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "FireMode": {
+                                "FireMode": "single"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "6870695a9a2a6922e00668a4",
+                        "_tpl": "677c9c0cb4a2eed292d7cada",
+                        "slotId": "mod_barrel",
+                        "parentId": "6870695d9a2a6922e00668b4"
+                    },
+                    {
+                        "_id": "6870695a9a2a6922e00668a5",
+                        "_tpl": "67868f356f3797e70074d898",
+                        "slotId": "mod_pistol_grip",
+                        "parentId": "6870695d9a2a6922e00668b4"
+                    },
+                    {
+                        "_id": "6870695a9a2a6922e00668a6",
+                        "_tpl": "677c9fd38e377bba81c0760f",
+                        "slotId": "mod_reciever",
+                        "parentId": "6870695d9a2a6922e00668b4"
+                    },
+                    {
+                        "_id": "6870695a9a2a6922e00668a7",
+                        "_tpl": "677c9e00a9432b8c3a019a15",
+                        "slotId": "mod_magazine",
+                        "parentId": "6870695d9a2a6922e00668b4"
+                    },
+                    {
+                        "_id": "6870695a9a2a6922e00668a8",
+                        "_tpl": "677c9eccdfcac18ddc7c6b5b",
+                        "slotId": "mod_trigger",
+                        "parentId": "6870695d9a2a6922e00668b4"
+                    },
+                    {
+                        "_id": "6870695a9a2a6922e00668a9",
+                        "_tpl": "677c9e9d8949d89b64a3baa5",
+                        "slotId": "mod_hammer",
+                        "parentId": "6870695d9a2a6922e00668b4"
+                    },
+                    {
+                        "_id": "6870695a9a2a6922e00668aa",
+                        "_tpl": "677c9e6dc4018154af5b0599",
+                        "slotId": "mod_catch",
+                        "parentId": "6870695d9a2a6922e00668b4"
+                    },
+                    {
+                        "_id": "6870695a9a2a6922e00668ab",
+                        "_tpl": "668fe62ac62660a5d8071446",
+                        "slotId": "patron_in_weapon",
+                        "parentId": "6870695d9a2a6922e00668b4"
+                    },
+                    {
+                        "_id": "6870695a9a2a6922e00668ac",
+                        "_tpl": "677c9d4ee9edb9191668af01",
+                        "slotId": "mod_sight_front",
+                        "upd": {
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "6870695a9a2a6922e00668a6"
+                    },
+                    {
+                        "_id": "6870695a9a2a6922e00668ad",
+                        "_tpl": "677c9e554dde113597355fad",
+                        "slotId": "mod_sight_rear",
+                        "upd": {
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "6870695a9a2a6922e00668a6"
+                    },
+                    {
+                        "_id": "6870695a9a2a6922e00668ae",
+                        "_tpl": "668fe62ac62660a5d8071446",
+                        "slotId": "cartridges",
+                        "location": 0,
+                        "upd": {
+                            "StackObjectsCount": 5
+                        },
+                        "parentId": "6870695a9a2a6922e00668a7"
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "6870695d9a2a6922e00668b4"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
+        {
+            "locationId": "(-15.48, 27.88, -35.12)",
+            "probability": 1,
+            "template": {
+                "Id": "gun_rpd_default (1) [9a01b834-3f39-442b-aff2-5f0a4b1757a9]",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": -15.48,
+                    "y": 27.88,
+                    "z": -35.12
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "6870695d9a2a6922e00668b0",
+                "Items": [
+                    {
+                        "_id": "6870695d9a2a6922e00668b1",
+                        "_tpl": "68433b58a8f9a618b11082d4",
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "FireMode": {
+                                "FireMode": "single"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "6870694e9a2a6922e006689d",
+                        "_tpl": "68433b836de7d8ce99c642c6",
+                        "slotId": "mod_magazine",
+                        "parentId": "6870695d9a2a6922e00668b1"
+                    },
+                    {
+                        "_id": "6870694e9a2a6922e006689e",
+                        "_tpl": "6843749a0fba658861377651",
+                        "slotId": "mod_barrel",
+                        "parentId": "6870695d9a2a6922e00668b1"
+                    },
+                    {
+                        "_id": "6870694e9a2a6922e006689f",
+                        "_tpl": "684374b008d0b9c0aa535a62",
+                        "slotId": "mod_sight_rear",
+                        "upd": {
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "6870695d9a2a6922e00668b1"
+                    },
+                    {
+                        "_id": "6870694e9a2a6922e00668a0",
+                        "_tpl": "5ba2678ad4351e44f824b344",
+                        "slotId": "patron_in_weapon",
+                        "parentId": "6870695d9a2a6922e00668b1"
+                    },
+                    {
+                        "_id": "6870694e9a2a6922e00668a1",
+                        "_tpl": "5ba2678ad4351e44f824b344",
+                        "slotId": "cartridges",
+                        "location": 0,
+                        "upd": {
+                            "StackObjectsCount": 8
+                        },
+                        "parentId": "6870694e9a2a6922e006689d"
+                    },
+                    {
+                        "_id": "6870694e9a2a6922e00668a2",
+                        "_tpl": "5ba2678ad4351e44f824b344",
+                        "slotId": "cartridges",
+                        "location": 1,
+                        "parentId": "6870694e9a2a6922e006689d"
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "6870695d9a2a6922e00668b1"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ],
     "lighthouse": [
         {
             "locationId": "(-48.1588, 7.1486, -523.416)",
