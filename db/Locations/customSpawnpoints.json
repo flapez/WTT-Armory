@@ -2,6 +2,181 @@
     "factory4_day": [],
     "sandbox": [],
     "interchange": [],
+    "lighthouse": [
+        {
+            "locationId": "(-48.1588, 7.1486, -523.416)",
+            "probability": 0.35,
+            "template": {
+                "Id": "msr_build_spawn",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": -48.1588,
+                    "y": 7.1486,
+                    "z": -523.416
+                },
+                "Rotation": {
+                    "x": 0.3979,
+                    "y": 137.1781,
+                    "z": 268.9923
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "68706a3c5fc31e2c9004e6b0",
+                "Items": [
+                    {
+                        "_id": "68706a3c5fc31e2c9004e6b1",
+                        "_tpl": "684e32eaec9f5eb3cacc7ca7",
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "FireMode": {
+                                "FireMode": "single"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e347",
+                        "_tpl": "571659bb2459771fb2755a12",
+                        "slotId": "mod_pistol_grip",
+                        "parentId": "68706a3c5fc31e2c9004e6b1"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e348",
+                        "_tpl": "5c18b9192e2216398b5a8104",
+                        "slotId": "mod_sight_rear",
+                        "upd": {
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "68706a3c5fc31e2c9004e6b1"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e349",
+                        "_tpl": "5c18b90d2e2216152142466b",
+                        "slotId": "mod_sight_front",
+                        "upd": {
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "68706a3c5fc31e2c9004e6b1"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e34a",
+                        "_tpl": "684e3e64b3bb65a5ffdfd7ea",
+                        "slotId": "mod_magazine",
+                        "parentId": "68706a3c5fc31e2c9004e6b1"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e34b",
+                        "_tpl": "684e427881b3bec74bf97c28",
+                        "slotId": "mod_stock",
+                        "parentId": "68706a3c5fc31e2c9004e6b1"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e34c",
+                        "_tpl": "5c0102b20db834001d23eebc",
+                        "slotId": "mod_tactical_000",
+                        "parentId": "68706a3c5fc31e2c9004e6b1"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e34d",
+                        "_tpl": "5c0102aa0db834001b734ba1",
+                        "slotId": "mod_tactical_001",
+                        "parentId": "68706a3c5fc31e2c9004e6b1"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e34e",
+                        "_tpl": "5c0102aa0db834001b734ba1",
+                        "slotId": "mod_tactical_002",
+                        "parentId": "68706a3c5fc31e2c9004e6b1"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e34f",
+                        "_tpl": "671126b049e181972e0681fa",
+                        "slotId": "mod_tactical_003",
+                        "parentId": "68706a3c5fc31e2c9004e6b1"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e350",
+                        "_tpl": "684e467450949bbffc1088ea",
+                        "slotId": "mod_barrel",
+                        "parentId": "68706a3c5fc31e2c9004e6b1"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e351",
+                        "_tpl": "6567e751a715f85433025998",
+                        "slotId": "mod_scope",
+                        "parentId": "68706a3c5fc31e2c9004e6b1"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e352",
+                        "_tpl": "655dccfdbdcc6b5df71382b6",
+                        "slotId": "mod_foregrip",
+                        "parentId": "687067a15fc31e2c9003e34c"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e353",
+                        "_tpl": "5888961624597754281f93f3",
+                        "slotId": "mod_bipod",
+                        "parentId": "687067a15fc31e2c9003e34f"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e354",
+                        "_tpl": "684e48ed749c4553645ba56c",
+                        "slotId": "mod_muzzle",
+                        "parentId": "687067a15fc31e2c9003e350"
+                    },
+                    {
+                        "_id": "687067a15fc31e2c9003e355",
+                        "_tpl": "57c5ac0824597754771e88a9",
+                        "slotId": "mod_scope",
+                        "upd": {
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "687067a15fc31e2c9003e351"
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "68706a3c5fc31e2c9004e6b1"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ],
     "woods": [
         {
             "locationId": "(287.4357, 23.67, -514.90)",
