@@ -1,6 +1,159 @@
 {
     "factory4_day": [],
-    "sandbox": [],
+    "sandbox": [
+    {
+		"locationId": "(5.5586 24.1394 334.8061)",
+		"probability": 0.35,
+		"template": {
+			"Id": "92fsplacementsandbox_spawn",
+			"IsContainer": false,
+			"useGravity": false,
+			"randomRotation": false,
+            "Position": {
+                "x": 5.5586,
+                "y": 24.1394,
+                "z": 334.8061
+            },
+            "Rotation": {
+                "x": 0.1385,
+                "y": 236.2011,
+                "z": 270.4598
+            },
+			"IsGroupPosition": false,
+			"GroupPositions": [],
+			"IsAlwaysSpawn": false,
+			"Root": "687140a70e25ac504403e8ae",
+			"Items": [
+				{
+					"_id": "687140a70e25ac504403e8af",
+					"_tpl": "6868d249cdee524f8c0ba45f",
+					"upd": {
+						"Repairable": {
+							"MaxDurability": 100,
+							"Durability": 100
+						},
+						"FireMode": {
+							"FireMode": "single"
+						}
+					}
+				},
+				{
+					"_id": "6871409c0e25ac504403e89b",
+					"_tpl": "6868d4f7ee6d5f8907d2e355",
+					"slotId": "mod_barrel",
+					"parentId": "687140a70e25ac504403e8af"
+				},
+				{
+					"_id": "6871409c0e25ac504403e89c",
+					"_tpl": "6868d55c5a39fb04c76e5bd0",
+					"slotId": "mod_reciever",
+					"parentId": "687140a70e25ac504403e8af"
+				},
+				{
+					"_id": "6871409c0e25ac504403e89d",
+					"_tpl": "6868d3e47515a679f2e06288",
+					"slotId": "mod_magazine",
+					"parentId": "687140a70e25ac504403e8af"
+				},
+				{
+					"_id": "6871409c0e25ac504403e89e",
+					"_tpl": "64b7bbb74b75259c590fa897",
+					"slotId": "cartridges",
+					"location": 0,
+					"upd": {
+						"StackObjectsCount": 15
+					},
+					"parentId": "6871409c0e25ac504403e89d"
+				}
+			]
+		},
+		"itemDistribution": [
+			{
+				"composedKey": {
+					"key": "687140a70e25ac504403e8af"
+				},
+				"relativeProbability": 1
+			}
+		]
+	}
+    ],
+    "sandbox_high": [
+        {
+            "locationId": "(5.5586 24.1394 334.8061)",
+            "probability": 0.35,
+            "template": {
+                "Id": "92fsplacementsandboxhigh_spawn",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": 5.5586,
+                    "y": 24.1394,
+                    "z": 334.8061
+                },
+                "Rotation": {
+                    "x": 0.1385,
+                    "y": 236.2011,
+                    "z": 270.4598
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "687140a70e25ac504403e8ae",
+                "Items": [
+                    {
+                        "_id": "687140a70e25ac504403e8af",
+                        "_tpl": "6868d249cdee524f8c0ba45f",
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "FireMode": {
+                                "FireMode": "single"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "6871409c0e25ac504403e89b",
+                        "_tpl": "6868d4f7ee6d5f8907d2e355",
+                        "slotId": "mod_barrel",
+                        "parentId": "687140a70e25ac504403e8af"
+                    },
+                    {
+                        "_id": "6871409c0e25ac504403e89c",
+                        "_tpl": "6868d55c5a39fb04c76e5bd0",
+                        "slotId": "mod_reciever",
+                        "parentId": "687140a70e25ac504403e8af"
+                    },
+                    {
+                        "_id": "6871409c0e25ac504403e89d",
+                        "_tpl": "6868d3e47515a679f2e06288",
+                        "slotId": "mod_magazine",
+                        "parentId": "687140a70e25ac504403e8af"
+                    },
+                    {
+                        "_id": "6871409c0e25ac504403e89e",
+                        "_tpl": "64b7bbb74b75259c590fa897",
+                        "slotId": "cartridges",
+                        "location": 0,
+                        "upd": {
+                            "StackObjectsCount": 15
+                        },
+                        "parentId": "6871409c0e25ac504403e89d"
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "687140a70e25ac504403e8af"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        }
+    ],
     "interchange": [
         {
             "locationId": "(-23.0315, 27.8448, -32.4267)",
@@ -245,6 +398,132 @@
         }
     ],
     "lighthouse": [
+        {
+            "locationId": "(-117.9205, 40.7702, 89.1485)",
+            "probability": 0.2,
+            "template": {
+                "Id": "carmelplacement_spawn",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": -117.9205,
+                    "y": 40.7702,
+                    "z": 89.1485
+                },
+                "Rotation": {
+                    "x": 358.4931,
+                    "y": 127.0341,
+                    "z": 84.4077
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "687140a70e25ac504403e8b1",
+                "Items": [
+                    {
+                        "_id": "687140a70e25ac504403e8b2",
+                        "_tpl": "66ba249b102a9dd6040a6e7e",
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "Foldable": {
+                                "Folded": false
+                            },
+                            "FireMode": {
+                                "FireMode": "single"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "687140a20e25ac504403e8a0",
+                        "_tpl": "66ba253030ea88abba95c7ed",
+                        "slotId": "mod_pistol_grip",
+                        "parentId": "687140a70e25ac504403e8b2"
+                    },
+                    {
+                        "_id": "687140a20e25ac504403e8a1",
+                        "_tpl": "570fd6c2d2720bc6458b457f",
+                        "slotId": "mod_scope",
+                        "upd": {
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "687140a70e25ac504403e8b2"
+                    },
+                    {
+                        "_id": "687140a20e25ac504403e8a2",
+                        "_tpl": "66ba264700cd37059ee31f36",
+                        "slotId": "mod_barrel",
+                        "parentId": "687140a70e25ac504403e8b2"
+                    },
+                    {
+                        "_id": "687140a20e25ac504403e8a3",
+                        "_tpl": "5aaa5dfee5b5b000140293d3",
+                        "slotId": "mod_magazine",
+                        "parentId": "687140a70e25ac504403e8b2"
+                    },
+                    {
+                        "_id": "687140a20e25ac504403e8a4",
+                        "_tpl": "66ba268d7f9d8cfb6d0fbf77",
+                        "slotId": "mod_stock",
+                        "parentId": "687140a70e25ac504403e8b2"
+                    },
+                    {
+                        "_id": "687140a20e25ac504403e8a5",
+                        "_tpl": "66ba262124e3cd6bbf4715a8",
+                        "slotId": "mod_tactical_001",
+                        "parentId": "687140a70e25ac504403e8b2"
+                    },
+                    {
+                        "_id": "687140a20e25ac504403e8a6",
+                        "_tpl": "66ba25ed9195d94a8f131b2d",
+                        "slotId": "mod_tactical_002",
+                        "parentId": "687140a70e25ac504403e8b2"
+                    },
+                    {
+                        "_id": "687140a20e25ac504403e8a7",
+                        "_tpl": "66ba25d71a26d54d7504d785",
+                        "slotId": "mod_tactical_003",
+                        "parentId": "687140a70e25ac504403e8b2"
+                    },
+                    {
+                        "_id": "687140a20e25ac504403e8a8",
+                        "_tpl": "66ba2659b5b76e8fa30000c0",
+                        "slotId": "mod_muzzle",
+                        "parentId": "687140a20e25ac504403e8a2"
+                    },
+                    {
+                        "_id": "687140a20e25ac504403e8a9",
+                        "_tpl": "60194943740c5d77f6705eea",
+                        "slotId": "cartridges",
+                        "location": 0,
+                        "upd": {
+                            "StackObjectsCount": 30
+                        },
+                        "parentId": "687140a20e25ac504403e8a3"
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "687140a70e25ac504403e8b2"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
         {
             "locationId": "(-48.1588, 7.1486, -523.416)",
             "probability": 0.35,
