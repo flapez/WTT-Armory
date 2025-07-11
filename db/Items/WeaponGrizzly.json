@@ -133,11 +133,16 @@
             "filters": [
               {
                 "Filter": [
+                  "684602c4cb2dfb57366dbea3",
+                  "684606542ae9fafc455c4360",
+                  "68460695d918c58b53030c31",
+                  "6846069e5a768dfe9bf56af1",
+                  "5e81c550763d9f754677befd",
                   "5f3e76d86cda304dcc634054",
                   "5ef35f46382a846010715a96",
                   "5ef35d2ac64c5d0dfc0571b0",
                   "5ef35bc243cb350a955a7ccd",
-                  "5e81c550763d9f754677befd",
+                  "665fe6a117ff1ba8218d680c",
                   "677c9e9d8949d89b64a3baa5"
                 ],
                 "Shift": 0
@@ -462,11 +467,16 @@
             "filters": [
               {
                 "Filter": [
+                  "684602c4cb2dfb57366dbea3",
+                  "684606542ae9fafc455c4360",
+                  "68460695d918c58b53030c31",
+                  "6846069e5a768dfe9bf56af1",
+                  "5e81c550763d9f754677befd",
                   "5f3e76d86cda304dcc634054",
                   "5ef35f46382a846010715a96",
                   "5ef35d2ac64c5d0dfc0571b0",
                   "5ef35bc243cb350a955a7ccd",
-                  "5e81c550763d9f754677befd",
+                  "665fe6a117ff1ba8218d680c",
                   "677c9e9d8949d89b64a3baa5"
                 ],
                 "Shift": 0
@@ -791,11 +801,16 @@
             "filters": [
               {
                 "Filter": [
+                  "684602c4cb2dfb57366dbea3",
+                  "684606542ae9fafc455c4360",
+                  "68460695d918c58b53030c31",
+                  "6846069e5a768dfe9bf56af1",
+                  "5e81c550763d9f754677befd",
                   "5f3e76d86cda304dcc634054",
                   "5ef35f46382a846010715a96",
                   "5ef35d2ac64c5d0dfc0571b0",
                   "5ef35bc243cb350a955a7ccd",
-                  "5e81c550763d9f754677befd",
+                  "665fe6a117ff1ba8218d680c",
                   "677c9e9d8949d89b64a3baa5"
                 ],
                 "Shift": 0
@@ -995,6 +1010,7 @@
         "path": "WeaponGrizzly/grizzly_barrel_blk.bundle",
         "rcid": ""
       },
+      "CenterOfImpact": 0.25,
       "Weight": 0.115,
       "Velocity": -1.3,
       "ExaminedByDefault": true
@@ -1035,9 +1051,9 @@
       "CoolFactor": 1.13,
       "DurabilityBurnModificator": 0.9,
       "HeatFactor": 1.07,
-      "Recoil": -5.5,
+      "Recoil": -6,
       "Ergonomics": -4,
-      "CenterOfImpact": 0.29,
+      "CenterOfImpact": 0.22,
       "Velocity": 1.7,
       "Weight": 0.135,
       "ExaminedByDefault": true
@@ -1075,6 +1091,7 @@
         "path": "WeaponGrizzly/grizzly_barrel_stainless.bundle",
         "rcid": ""
       },
+      "CenterOfImpact": 0.25,
       "Weight": 0.115,
       "Velocity": -1.3,
       "ExaminedByDefault": true
@@ -1112,6 +1129,7 @@
         "path": "WeaponGrizzly/grizzly_barrel_threaded.bundle",
         "rcid": ""
       },
+      "CenterOfImpact": 0.24,
       "CoolFactor": 1.14,
       "DurabilityBurnModificator": 1.0,
       "HeatFactor": 1.08,
@@ -2147,7 +2165,6 @@
                 "5a5f1ce64f39f90b401987bc",
                 "560d657b4bdc2da74d8b4572",
                 "5b3a337e5acfc4704b4a19a0",
-                "5a7b4900e899ef197b331a2a",
                 "6272370ee4013c5d7e31f418",
                 "6272379924e29f06af4d5ecb"
               ],
