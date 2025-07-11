@@ -4,7 +4,7 @@
     "interchange": [
         {
             "locationId": "(-23.0315, 27.8448, -32.4267)",
-            "probability": 1,
+            "probability": 0.25,
             "template": {
                 "Id": "gun_rpd_default (1) [9a01b834-3f39-442b-aff2-5f0a4b1757a9]",
                 "IsContainer": false,
@@ -145,7 +145,7 @@
         },
         {
             "locationId": "(-15.48, 27.88, -35.12)",
-            "probability": 1,
+            "probability": 0.25,
             "template": {
                 "Id": "gun_rpd_default (1) [9a01b834-3f39-442b-aff2-5f0a4b1757a9]",
                 "IsContainer": false,
