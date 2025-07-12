@@ -47,5 +47,13 @@
   "686dd4f871840e292fbd1a14 successMessageText": "Good fucking work. I'll be honest, I didn't think you would pull this off. Take this reward for helping me out, I already lost a few of these so what is one more right?",
   "686dd679e708598c4f583fbc": "Kill Knight",
   "686dd69b23f623311e2ff405": "Kill Big Pipe",
-  "686dd6a84e4785c0ae87f1fb": "Kill Bird Eye" 
+  "686dd6a84e4785c0ae87f1fb": "Kill Bird Eye",
+  
+  
+
+  "6870170d18b94df2e8700ba0 name": "Boxed and Loaded",
+  "6870170d18b94df2e8700ba0 description": "We aren't done just yet... When you were playing assassin, I had a guy going sneak around Customs trying to locate my stolen guns. He ended up finding them stashed in some crates that are some storage shelves in the fucking corner. Bastards better not have fucked up my guns!",
+  "6870170d18b94df2e8700ba0 startedMessageText": "Please go mark those crates so I can recover what belongs to me...",
+  "6870170d18b94df2e8700ba0 successMessageText": "Thank you again for your help with all of this. Take this as a reward. Looks like the Goons were trying to build something fancy with this gun.",
+  "687018c3dc52ab57b5e38363": "Place a marker on the boxes of stolen M249 SAWs on Customs"
 }
