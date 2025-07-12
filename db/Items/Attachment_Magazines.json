@@ -280,7 +280,8 @@
                   "5e023e53d4353e3302577c4c",
                   "5efb0c1bd79ff02a1f5e68d9",
                   "5e023e6e34d52a55c3304f71",
-                  "5e023e88277cce2b522ff2b1"
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
                 ]
               }
             ]
@@ -436,21 +437,21 @@
       "MagazineWithBelt": false,
       "CheckOverride": 0,
       "ExtraSizeDown": 1,
-      "Weight": 0.725,
+      "Weight": 1.02,
       "Width": 2,
       "Height": 2,
       "CheckTimeModifier": 20,
       "ConflictingItems": [
         "622f039199f4ea1a4d6c9a17"
       ],
-      "LoadUnloadModifier": 25,
-      "MalfunctionChance": 0.25,
-      "Ergonomics": -24
+      "LoadUnloadModifier": 45,
+      "MalfunctionChance": 0.45,
+      "Ergonomics": -22.5
     },
     "locales": {
       "en": {
-        "name": "HK MG36 5.56x45 100-Round Drum Magazine",
-        "shortName": "MG26",
+        "name": "HK MG36 5.56x45 100-round drum magazine",
+        "shortName": "MG36",
         "description": "A 100-round 5.56x45 c-mag style drum magazine designed for the HK MG36."
       }
     },
@@ -462,8 +463,8 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 70000,
-    "handbookPriceRoubles": 27500,
+    "fleaPriceRoubles": 95000,
+    "handbookPriceRoubles": 46500,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -486,7 +487,7 @@
           "_name": "cartridges",
           "_id": "66875e9b9668f202efaa200c",
           "_parent": "5b7bef9c5acfc43d102852ec",
-          "_max_count": 65,
+          "_max_count": 60,
           "_props": {
             "filters": [
               {
@@ -497,7 +498,8 @@
                   "5e023e53d4353e3302577c4c",
                   "5efb0c1bd79ff02a1f5e68d9",
                   "5e023e6e34d52a55c3304f71",
-                  "5e023e88277cce2b522ff2b1"
+                  "5e023e88277cce2b522ff2b1",
+                  "6768c25aa7b238f14a08d3f6"
                 ]
               }
             ]
@@ -505,12 +507,12 @@
           "_proto": "5748538b2459770af276a261"
         }
       ],
-      "Weight": 0.79,
+      "Weight": 0.83,
       "Width": 2,
-      "CheckTimeModifier": 22,
+      "CheckTimeModifier": 25,
       "LoadUnloadModifier": 20,
       "MalfunctionChance": 0.28,
-      "Ergonomics": -26
+      "Ergonomics": -24.5
     },
     "locales": {
       "en": {
@@ -527,8 +529,8 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 90000,
-    "handbookPriceRoubles": 28000,
+    "fleaPriceRoubles": 94000,
+    "handbookPriceRoubles": 32500,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -577,12 +579,12 @@
       "MagazineWithBelt": false,
       "CheckOverride": 0,
       "ExtraSizeDown": 2,
-      "Weight": 0.78,
+      "Weight": 0.88,
       "Width": 2,
       "Height": 2,
       "CheckTimeModifier": 20,
       "LoadUnloadModifier": 22,
-      "MalfunctionChance": 0.26,
+      "MalfunctionChance": 0.32,
       "Ergonomics": -26.5,
       "VisibleAmmoRangesString": "1-3"
     },

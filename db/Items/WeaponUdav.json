@@ -221,6 +221,7 @@
         "rcid": ""
       },
       "CenterOfImpact": 0.3,
+      "Velocity": 0.5,
       "ExaminedByDefault": true,
       "Slots": [
         {
@@ -277,6 +278,7 @@
         "rcid": ""
       },
       "CenterOfImpact": 0.33,
+      "Velocity": 0,
       "ExaminedByDefault": true,
       "Slots": []
     },

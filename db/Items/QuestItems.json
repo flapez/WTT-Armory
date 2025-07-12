@@ -79,6 +79,7 @@
       "ExaminedByDefault": true,
       "BackgroundColor": "violet",
       "ItemSound": "generic",
+      "QuestItem": true,
       "DiscardingBlock": false,
       "DiscardLimit": 0,
       "Width": 3,
@@ -135,6 +136,51 @@
         "name": "Shipping Manifest",
         "shortName": "Shipping Manifest",
         "description": "A shipping manifest containing information about a weapon shipment ordered by Peacekeeper."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 18890,
+    "handbookPriceRoubles": 13440,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "canSellOnRagfair": false,
+    "isUnsaleable": true,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68716c83eb31cf77ff9f9fd8": {
+    "itemTplToClone": "59faff1d86f7746c51718c9c",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b47574386f77428ca22b2f1",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Items_Quests/quest_aekprototype.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "BackgroundColor": "violet",
+      "ItemSound": "generic",
+      "QuestItem": true,
+      "DiscardingBlock": false,
+      "DiscardLimit": 0,
+      "Width": 5,
+      "Height": 2,
+      "Weight": 11.50
+    },
+    "locales": {
+      "en": {
+        "name": "AEK-971 Prototype",
+        "shortName": "AEK-971 Prototype",
+        "description": "A weapons case containing an experimental AEK-971 5.45x39 assault rifle."
       }
     },
     "clearClonedProps": false,

@@ -4,11 +4,14 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "RecoilForceBack": 230,
-      "Ergonomics": 86,
       "BaseMalfunctionChance": 0.14,
-      "RecoilForceUp": 285,
-      "RecoilDampingHandRotation": 0.62,
+      "Ergonomics": 86,
+      "RecoilDampingHandRotation": 0.81,
+      "RecoilForceBack": 273,
+      "RecoilForceUp": 388,
+      "RecoilReturnPathDampingHandRotation": 0.33,
+      "RecoilReturnSpeedHandRotation": 6.5,
+      "RecolDispersion": 9,
       "Prefab": {
         "path": "WeaponProdigy/weapon_prodigy_container.bundle",
         "rcid": ""
@@ -111,10 +114,7 @@
             "filters": [
               {
                 "Filter": [
-                  "665fe64b7b6c44d885b755a8",
-                  "5ef32e4d1c1fd62aea6a150d",
-                  "5e81c6a2ac2bb513793cdc7f",
-                  "5f3e772a670e2a7b01739a52"
+                  "665fe64b7b6c44d885b755a8"
                 ],
                 "Shift": 0
               }
@@ -132,12 +132,17 @@
             "filters": [
               {
                 "Filter": [
+                  "684602c4cb2dfb57366dbea3",
+                  "684606542ae9fafc455c4360",
+                  "68460695d918c58b53030c31",
+                  "6846069e5a768dfe9bf56af1",
+                  "5e81c550763d9f754677befd",
                   "5f3e76d86cda304dcc634054",
                   "5ef35f46382a846010715a96",
                   "5ef35d2ac64c5d0dfc0571b0",
                   "5ef35bc243cb350a955a7ccd",
-                  "5e81c550763d9f754677befd",
-                  "665fe6a117ff1ba8218d680c"
+                  "665fe6a117ff1ba8218d680c",
+                  "677c9e9d8949d89b64a3baa5"
                 ],
                 "Shift": 0
               }
@@ -181,7 +186,6 @@
                   "5a7b483fe899ef0016170d15",
                   "5a5f1ce64f39f90b401987bc",
                   "560d657b4bdc2da74d8b4572",
-                  "5a7b4900e899ef197b331a2a",
                   "6272370ee4013c5d7e31f418",
                   "6272379924e29f06af4d5ecb"
                 ],
@@ -336,11 +340,14 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "RecoilForceBack": 230,
-      "Ergonomics": 86,
       "BaseMalfunctionChance": 0.14,
-      "RecoilForceUp": 285,
-      "RecoilDampingHandRotation": 0.62,
+      "Ergonomics": 86,
+      "RecoilDampingHandRotation": 0.81,
+      "RecoilForceBack": 273,
+      "RecoilForceUp": 388,
+      "RecoilReturnPathDampingHandRotation": 0.33,
+      "RecoilReturnSpeedHandRotation": 6.5,
+      "RecolDispersion": 9,
       "Prefab": {
         "path": "WeaponProdigy/weapon_prodigy_fde_container.bundle",
         "rcid": ""
@@ -443,10 +450,7 @@
             "filters": [
               {
                 "Filter": [
-                  "665fe64b7b6c44d885b755a8",
-                  "5ef32e4d1c1fd62aea6a150d",
-                  "5e81c6a2ac2bb513793cdc7f",
-                  "5f3e772a670e2a7b01739a52"
+                  "665fe64b7b6c44d885b755a8"
                 ],
                 "Shift": 0
               }
@@ -464,12 +468,17 @@
             "filters": [
               {
                 "Filter": [
+                  "684602c4cb2dfb57366dbea3",
+                  "684606542ae9fafc455c4360",
+                  "68460695d918c58b53030c31",
+                  "6846069e5a768dfe9bf56af1",
+                  "5e81c550763d9f754677befd",
                   "5f3e76d86cda304dcc634054",
                   "5ef35f46382a846010715a96",
                   "5ef35d2ac64c5d0dfc0571b0",
                   "5ef35bc243cb350a955a7ccd",
-                  "5e81c550763d9f754677befd",
-                  "665fe6a117ff1ba8218d680c"
+                  "665fe6a117ff1ba8218d680c",
+                  "677c9e9d8949d89b64a3baa5"
                 ],
                 "Shift": 0
               }
@@ -513,7 +522,6 @@
                   "5a7b483fe899ef0016170d15",
                   "5a5f1ce64f39f90b401987bc",
                   "560d657b4bdc2da74d8b4572",
-                  "5a7b4900e899ef197b331a2a",
                   "6272370ee4013c5d7e31f418",
                   "6272379924e29f06af4d5ecb"
                 ],
@@ -672,9 +680,14 @@
         "path": "WeaponProdigy/prodigy_barrel_chrome.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true,
+      "DurabilityBurnModificator": 1,
+      "CoolFactor": 1.03,
+      "Ergonomics": -3,
+      "HeatFactor": 1,
       "Recoil": -4,
-      "Ergonomics": -2.5
+      "Velocity": 2.3,
+      "Weight": 0.1,
+      "ExaminedByDefault": true
     },
     "locales": {
       "en": {
@@ -709,9 +722,14 @@
         "path": "WeaponProdigy/prodigy_barrel_blk.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true,
+      "DurabilityBurnModificator": 1,
+      "CoolFactor": 1.03,
+      "Ergonomics": -3,
+      "HeatFactor": 1,
       "Recoil": -4,
-      "Ergonomics": -2.5
+      "Velocity": 2.3,
+      "Weight": 0.1,
+      "ExaminedByDefault": true
     },
     "locales": {
       "en": {
@@ -746,9 +764,15 @@
         "path": "WeaponProdigy/prodigy_barrel_threaded.bundle",
         "rcid": ""
       },
+      "DurabilityBurnModificator": 1,
+      "CoolFactor": 1.04,
+      "Ergonomics": -2,
+      "HeatFactor": 1,
+      "Recoil": -4.5,
+      "Velocity": 2.5,
+      "Weight": 0.111,
+      "CenterOfImpact": 0.295,
       "ExaminedByDefault": true,
-      "Recoil": -4,
-      "Ergonomics": -3,
       "Slots": [
         {
           "_name": "mod_muzzle",
@@ -759,13 +783,13 @@
               {
                 "Shift": 0,
                 "Filter": [
-                  "5a6b585a8dc32e5a9c28b4f1",
-                  "5a6b592c8dc32e00094b97bf",
-                  "5a6b59a08dc32e000b452fb7",
+                  "5a70366c8dc32e001207fb06",
+                  "5a7ad1fb51dfba0013379715",
                   "5c7e8fab2e22165df16b889b",
                   "5a33a8ebc4a282000c5a950d",
                   "5c6165902e22160010261b28",
-                  "5a32a064c4a28200741e22de"
+                  "5a32a064c4a28200741e22de",
+                  "666102ef2d367ec85ddd2030"
                 ]
               }
             ]
@@ -809,7 +833,8 @@
         "path": "WeaponProdigy/prodigy_slide.bundle",
         "rcid": ""
       },
-      "Ergonomics": 3.5,
+      "Ergonomics": 4,
+      "Weight": 0.271,
       "Slots": [
         {
           "_id": "665fe6f12ef1b437a815a529",
@@ -888,7 +913,8 @@
         "path": "WeaponProdigy/prodigy_slide_fde.bundle",
         "rcid": ""
       },
-      "Ergonomics": 3.5,
+      "Ergonomics": 4,
+      "Weight": 0.271,
       "Slots": [
         {
           "_id": "675cea0ddf407e3a706b121d",
@@ -1107,6 +1133,7 @@
         "path": "WeaponProdigy/prodigy_catch.bundle",
         "rcid": ""
       },
+      "Ergonomics": 1,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1142,6 +1169,7 @@
         "path": "WeaponProdigy/prodigy_hammer.bundle",
         "rcid": ""
       },
+      "Ergonomics": 1,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1177,6 +1205,7 @@
         "path": "WeaponProdigy/prodigy_trigger.bundle",
         "rcid": ""
       },
+      "Ergonomics": 1,
       "ExaminedByDefault": true
     },
     "locales": {

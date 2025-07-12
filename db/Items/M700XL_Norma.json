@@ -4,7 +4,7 @@
 		"parentId": "SNIPER_RIFLE",
 		"handbookParentId": "WEAPONS_BOLTACTION",
 		"overrideProperties": {
-			"ExaminedByDefault": false,
+			"ExaminedByDefault": true,
 			"Prefab": {
 				"path": "Weapons/weapon_m700la.bundle",
 				"rcid": ""
@@ -159,7 +159,10 @@
 									"2e681ada9836f6e030080191",
 									"e1543def58291668bac8e2c8",
 									"b2d57758abe9bb9345c58e4a",
-									"67ea8b32e0d7701fc6bfc5bf"
+									"67ea8b32e0d7701fc6bfc5bf",
+									"03f6c86c56945862820e1006",
+									"2322ee962f6c77a1284abc1e",
+									"5ae3d18efa17cbd51e898ced"
 								]
 							}
 						]

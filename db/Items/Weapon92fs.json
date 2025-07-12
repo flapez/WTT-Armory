@@ -180,8 +180,6 @@
       "CoolFactor": 1.14,
       "DeviationCurve": 2.29,
       "DeviationMax": 12,
-      "Recoil": -3,
-      "Velocity": -2.4,
       "ExaminedByDefault": true,
       "Slots": [
         {
@@ -243,7 +241,7 @@
         "rcid": ""
       },
       "CenterOfImpact": 0.32,
-      "CoolFactor": 1.11,
+      "CoolFactor": 1.12,
       "DeviationCurve": 2.15,
       "DeviationMax": 9.5,
       "Ergonomics": -5,
