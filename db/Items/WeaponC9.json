@@ -6,7 +6,10 @@
     "overrideProperties": {
       "Ergonomics": 66,
       "HeatFactorGun": 1.04,
+      "HeatFactorByShot": 2.55,
       "RecoilCamera": 0.011,
+      "DurabilityBurnRatio": 1.358,
+      "BaseMalfunctionChance": 0.4241,
       "RecoilCategoryMultiplierHandRotation": 0.13,
       "RecolDispersion": 9,
       "RecoilForceBack": 272,
@@ -15,6 +18,7 @@
       "RecoilReturnPathDampingHandRotation": 0.44,
       "RecoildReturnSpeedHandRotation": 3.5,
       "bFirerate": 25,
+      "SingleFireRate": 400,
       "Weight": 0.420,
       "isChamberLoad": false,
       "ManualBoltCatch": true,
