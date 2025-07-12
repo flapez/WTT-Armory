@@ -1,0 +1,77 @@
+[
+  {
+    "ZoneId": "deadbody_1",
+    "ZoneName": "deadbody_1",
+    "ZoneLocation": "Woods",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "91.79008",
+      "Y": "17.17556",
+      "Z": "-844.8032",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "1.5",
+      "Y": "3.25",
+      "Z": "1.75",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "deadbody_2",
+    "ZoneName": "deadbody_2",
+    "ZoneLocation": "Woods",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-175.1912",
+      "Y": "13.03412",
+      "Z": "-691.7134",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.5094169",
+      "Z": "0",
+      "W": "0.8605198"
+    },
+    "Scale": {
+      "X": "1.75",
+      "Y": "1.5",
+      "Z": "1.25",
+      "W": "0"
+    }
+  },
+  {
+    "ZoneId": "deadbody_3",
+    "ZoneName": "deadbody_3",
+    "ZoneLocation": "Woods",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "80.21728",
+      "Y": "22.04786",
+      "Z": "-411.6331",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "0",
+      "Z": "0",
+      "W": "1"
+    },
+    "Scale": {
+      "X": "1.75",
+      "Y": "1.75",
+      "Z": "1.25",
+      "W": "0"
+    }
+  }
+]

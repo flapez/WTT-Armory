@@ -2,7 +2,7 @@
 import * as path from "node:path";
 import * as fs from "node:fs";
 import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
-import type { QuestZone } from "./references/configConsts";
+import type { QuestZone } from "../references/configConsts";
 import { ConfigTypes } from "@spt/models/enums/ConfigTypes";
 import type { IQuestConfig } from "@spt/models/spt/config/IQuestConfig";
 import type { WTTInstanceManager } from "./WTTInstanceManager";

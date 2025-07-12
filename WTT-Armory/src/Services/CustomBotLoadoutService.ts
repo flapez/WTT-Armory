@@ -14,7 +14,7 @@ export class CustomBotLoadoutService {
         const debug = this.instanceManager.debug;
         if (debug) console.log("[CustomBotLoadoutService] Starting custom bot loadout processing");
 
-        const customLoadoutsDir = path.join(__dirname, "../db/CustomBotLoadouts/");
+        const customLoadoutsDir = path.join(this.instanceManager.dbPath, "CustomBotLoadouts");
         if (!fs.existsSync(customLoadoutsDir)) {
             if (debug) console.log("[CustomBotLoadoutService] Custom loadouts directory not found. Skipping.");
             return;

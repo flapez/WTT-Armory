@@ -11,7 +11,7 @@ class WTTInstanceManager {
     debug;
     // Useful Paths
     profilePath = node_path_1.default.join(process.cwd(), "\\user\\profiles");
-    dbPath = node_path_1.default.join(__dirname, "../db");
+    dbPath = node_path_1.default.join(__dirname, "..", "..", "db");
     // Instances
     container;
     PreSptModLoader;

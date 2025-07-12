@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/naming-convention */
 import type { WTTInstanceManager } from "./WTTInstanceManager";
-import * as customSpawnpointsForced from "../db/Locations/customSpawnpointsForced.json";
-import * as customSpawnpoints from "../db/Locations/customSpawnpoints.json"
+import * as customSpawnpointsForced from "../../db/CustomLootspawnService/customSpawnpointsForced.json";
+import * as customSpawnpoints from "../../db/CustomLootspawnService/customSpawnpoints.json"
 import { ILocations } from "@spt/models/spt/server/ILocations";
 
 export class CustomLootspawnService 

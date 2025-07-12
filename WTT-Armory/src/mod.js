@@ -7,12 +7,12 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const node_fs_1 = __importDefault(require("node:fs"));
 const node_path_1 = __importDefault(require("node:path"));
 const LogTextColor_1 = require("C:/snapshot/project/obj/models/spt/logging/LogTextColor");
-const WTTInstanceManager_1 = require("./WTTInstanceManager");
-const CustomItemService_1 = require("./CustomItemService");
-const CustomAssortSchemeService_1 = require("./CustomAssortSchemeService");
-const QuestAPI_1 = require("./QuestAPI");
-const CustomLootspawnService_1 = require("./CustomLootspawnService");
-const CustomBotLoadoutService_1 = require("./CustomBotLoadoutService");
+const WTTInstanceManager_1 = require("./Services/WTTInstanceManager");
+const CustomItemService_1 = require("./Services/CustomItemService");
+const CustomAssortSchemeService_1 = require("./Services/CustomAssortSchemeService");
+const QuestAPI_1 = require("./Services/QuestAPI");
+const CustomLootspawnService_1 = require("./Services/CustomLootspawnService");
+const CustomBotLoadoutService_1 = require("./Services/CustomBotLoadoutService");
 const WTTBot_1 = require("./ChatBot/WTTBot");
 const ConfigTypes_1 = require("C:/snapshot/project/obj/models/enums/ConfigTypes");
 class WTTArmory {
@@ -69,10 +69,6 @@ class WTTArmory {
         const myChatBotId = myChatBot.getChatBot()._id;
         const myChatBotNickname = myChatBot.getChatBot().Info.Nickname;
         container.resolve("DialogueController").registerChatBot(myChatBot);
-        const locales = this.instanceManager.database.locales.global;
-        for (const locale of Object.keys(locales)) {
-            locales[locale][`${myChatBotId} Nickname`] = myChatBotNickname;
-        }
         const coreConfig = container.resolve("ConfigServer").getConfig(ConfigTypes_1.ConfigTypes.CORE);
         const myChatBotInfo = myChatBot.getChatBot();
         coreConfig.features.chatbotFeatures.ids[myChatBotInfo.Info.Nickname] = myChatBotInfo._id;
@@ -82,7 +78,39 @@ class WTTArmory {
         this.questAPI.postDBLoad();
         this.customLootspawnService.postDBLoad();
         this.customBotLoadoutService.postDBLoad();
+        this.handleLocales();
         this.instanceManager.colorLog(`[${this.modName}] Database: Loading complete.`, LogTextColor_1.LogTextColor.GREEN);
+    }
+    handleLocales() {
+        const locales = this.instanceManager.database.locales.global;
+        const WTTLocalesDir = node_path_1.default.join(__dirname, "..", "db", "locales");
+        // Load all custom locale JSONs into memory
+        const WTTLocales = {};
+        const WTTlocaleFiles = node_fs_1.default.readdirSync(WTTLocalesDir);
+        for (const file of WTTlocaleFiles) {
+            if (!file.endsWith(".json"))
+                continue;
+            const localeCode = node_path_1.default.basename(file, ".json");
+            const filePath = node_path_1.default.join(WTTLocalesDir, file);
+            try {
+                const data = JSON.parse(node_fs_1.default.readFileSync(filePath, "utf-8"));
+                WTTLocales[localeCode] = data;
+            }
+            catch (err) {
+                console.warn(`Failed to parse ${file}:`, err);
+            }
+        }
+        // English fallback
+        const fallback = WTTLocales["en"] ?? {};
+        for (const locale of Object.keys(locales)) {
+            const customLocale = WTTLocales[locale] ?? fallback;
+            for (const [key, value] of Object.entries(customLocale)) {
+                // Only add if the key doesn't already exist
+                if (!(key in locales[locale])) {
+                    locales[locale][key] = value;
+                }
+            }
+        }
     }
     getVersionFromJson() {
         const packageJsonPath = node_path_1.default.join(__dirname, "../package.json");

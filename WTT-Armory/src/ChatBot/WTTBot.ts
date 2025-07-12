@@ -10,7 +10,7 @@ import { MessageType } from "@spt/models/enums/MessageType";
 import { HashUtil } from "@spt/utils/HashUtil";
 import { ItemHelper } from "@spt/helpers/ItemHelper";
 import { IItem } from "@spt/models/eft/common/tables/IItem";
-import { WTTInstanceManager } from "../WTTInstanceManager";
+import { WTTInstanceManager } from "../Services/WTTInstanceManager";
 import { IDialogue } from "@spt/models/eft/profile/ISptProfile";
 import { DialogueHelper } from "@spt/helpers/DialogueHelper";
 

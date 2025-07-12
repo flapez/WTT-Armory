@@ -34,8 +34,8 @@ var __importStar = (this && this.__importStar) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CustomLootspawnService = void 0;
-const customSpawnpointsForced = __importStar(require("../db/Locations/customSpawnpointsForced.json"));
-const customSpawnpoints = __importStar(require("../db/Locations/customSpawnpoints.json"));
+const customSpawnpointsForced = __importStar(require("../../db/CustomLootspawnService/customSpawnpointsForced.json"));
+const customSpawnpoints = __importStar(require("../../db/CustomLootspawnService/customSpawnpoints.json"));
 class CustomLootspawnService {
     instanceManager;
     preSptLoad(instanceManager) {

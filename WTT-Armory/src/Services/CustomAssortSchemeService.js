@@ -4,8 +4,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CustomAssortSchemeService = void 0;
-const CustomAssortSchemes_json_1 = __importDefault(require("../db/CustomAssortSchemes/CustomAssortSchemes.json"));
-const configConsts_1 = require("./references/configConsts");
+const CustomAssortSchemes_json_1 = __importDefault(require("../../db/CustomAssortSchemes/CustomAssortSchemes.json"));
+const configConsts_1 = require("../references/configConsts");
 class CustomAssortSchemeService {
     instanceManager;
     preSptLoad(instanceManager) {

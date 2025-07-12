@@ -6,12 +6,12 @@ import type { DependencyContainer } from "tsyringe";
 import type { IPostDBLoadMod } from "@spt/models/external/IPostDBLoadMod";
 import type { IPreSptLoadMod } from "@spt/models/external/IPreSptLoadMod";
 import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
-import { WTTInstanceManager } from "./WTTInstanceManager";
-import { CustomItemService } from "./CustomItemService";
-import { CustomAssortSchemeService } from "./CustomAssortSchemeService";
-import { QuestAPI } from "./QuestAPI";
-import { CustomLootspawnService } from "./CustomLootspawnService";
-import { CustomBotLoadoutService } from "./CustomBotLoadoutService";
+import { WTTInstanceManager } from "./Services/WTTInstanceManager";
+import { CustomItemService } from "./Services/CustomItemService";
+import { CustomAssortSchemeService } from "./Services/CustomAssortSchemeService";
+import { QuestAPI } from "./Services/QuestAPI";
+import { CustomLootspawnService } from "./Services/CustomLootspawnService";
+import { CustomBotLoadoutService } from "./Services/CustomBotLoadoutService";
 import { WTTBot } from "./ChatBot/WTTBot";
 import { DialogueController } from "@spt/controllers/DialogueController";
 import { ConfigServer } from "@spt/servers/ConfigServer";
@@ -93,13 +93,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
         const myChatBotNickname = myChatBot.getChatBot().Info.Nickname;
         container.resolve<DialogueController>("DialogueController").registerChatBot(myChatBot);
 
-        const locales = this.instanceManager.database.locales.global;
 
-        for (const locale of Object.keys(locales))
-        {
-            locales[locale][`${myChatBotId} Nickname`] = myChatBotNickname;
-        }
-        
         const coreConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<ICoreConfig>(ConfigTypes.CORE);
         const myChatBotInfo = myChatBot.getChatBot();
         coreConfig.features.chatbotFeatures.ids[myChatBotInfo.Info.Nickname] = myChatBotInfo._id;
@@ -111,10 +105,51 @@ implements IPreSptLoadMod, IPostDBLoadMod
         this.customLootspawnService.postDBLoad();
         this.customBotLoadoutService.postDBLoad();
     
+        this.handleLocales();
+        
         this.instanceManager.colorLog(
             `[${this.modName}] Database: Loading complete.`,
             LogTextColor.GREEN
         );
+    }
+
+    private handleLocales(): void 
+    {
+
+        const locales = this.instanceManager.database.locales.global;
+        const WTTLocalesDir = path.join(__dirname, "..", "db", "locales");
+        
+        // Load all custom locale JSONs into memory
+        const WTTLocales: Record<string, Record<string, string>> = {};
+        const WTTlocaleFiles = fs.readdirSync(WTTLocalesDir);
+        
+        for (const file of WTTlocaleFiles) {
+            if (!file.endsWith(".json")) continue;
+        
+            const localeCode = path.basename(file, ".json");
+            const filePath = path.join(WTTLocalesDir, file);
+        
+            try {
+                const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+                WTTLocales[localeCode] = data;
+            } catch (err) {
+                console.warn(`Failed to parse ${file}:`, err);
+            }
+        }
+        
+        // English fallback
+        const fallback = WTTLocales["en"] ?? {};
+        
+        for (const locale of Object.keys(locales)) {
+            const customLocale = WTTLocales[locale] ?? fallback;
+        
+            for (const [key, value] of Object.entries(customLocale)) {
+                // Only add if the key doesn't already exist
+                if (!(key in locales[locale])) {
+                    locales[locale][key] = value;
+                }
+            }
+        }
     }
     
 

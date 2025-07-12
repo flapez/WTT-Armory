@@ -29,7 +29,7 @@ export class WTTInstanceManager
     public debug: boolean;
     // Useful Paths
     public profilePath: string = path.join(process.cwd(), "\\user\\profiles");
-    public dbPath: string = path.join(__dirname, "../db");
+    public dbPath: string = path.join(__dirname, "..","..", "db");
 
     // Instances
     public container: DependencyContainer;
