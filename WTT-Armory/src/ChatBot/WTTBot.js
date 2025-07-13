@@ -99,8 +99,15 @@ let WTTBot = class WTTBot {
                 _tpl: "6570259bc5d7d4cb4d07857f"
             }
         ];
-        const message = "System notice: WTT Armory installation confirmed. A 'Welcome Gift' has been issued for your consideration. Enjoy!";
-        // Create message details with SYSTEM_MESSAGE type
+        const message = `
+        [SYSTEM NOTICE]
+            WTT Armory Installation: DETECTED
+            Initializing Welcome Protocol...
+        -> Status: ACTIVE
+            Dispensing Complimentary Item...
+        -> Status: COMPLETE
+            User Input: NOT REQUIRED
+        `;
         const details = {
             recipientId: sessionId,
             sender: MessageType_1.MessageType.MESSAGE_WITH_ITEMS,
@@ -110,13 +117,10 @@ let WTTBot = class WTTBot {
             items: items,
             itemsMaxStorageLifetimeSeconds: 172800
         };
-        const playerProfile = instanceManager.saveServer.getProfile(sessionId);
         const dialogsInProfile = this.dialogueHelper.getDialogsForProfile(sessionId);
         const senderId = this.getChatBot()._id;
-        // Does dialog exist
         let senderDialog = dialogsInProfile[senderId];
         if (!senderDialog) {
-            // Create if doesn't
             dialogsInProfile[senderId] = {
                 _id: senderId,
                 type: MessageType_1.MessageType.USER_MESSAGE,
@@ -129,7 +133,6 @@ let WTTBot = class WTTBot {
             senderDialog = dialogsInProfile[senderId];
         }
         this.mailSendService.sendMessageToPlayer(details);
-        //this.mailSendService.sendUserMessageToPlayer(sessionId, this.getChatBot(), "System notice: WTT Armory installation confirmed. A 'Welcome Gift' has been issued for your consideration. Enjoy!", items);
     }
     handleMessage(sessionId, request) {
         const responses = [

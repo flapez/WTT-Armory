@@ -6,7 +6,6 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const node_fs_1 = __importDefault(require("node:fs"));
 const node_path_1 = __importDefault(require("node:path"));
-const LogTextColor_1 = require("C:/snapshot/project/obj/models/spt/logging/LogTextColor");
 const WTTInstanceManager_1 = require("./Services/WTTInstanceManager");
 const CustomItemService_1 = require("./Services/CustomItemService");
 const CustomAssortSchemeService_1 = require("./Services/CustomAssortSchemeService");
@@ -36,10 +35,10 @@ class WTTArmory {
         this.questAPI.preSptLoad(this.instanceManager);
         this.customLootspawnService.preSptLoad(this.instanceManager);
         this.customBotLoadoutService.preSptLoad(this.instanceManager);
-        // Register and resolve WTTBot early
+        // Chatbot
         container.register("WTTBot", WTTBot_1.WTTBot);
         const wttBot = container.resolve("WTTBot");
-        // Hook up to friend route to send welcome gift
+        // Hook up to friend/list route to send welcome gift
         this.instanceManager.staticRouter.registerStaticRouter("WTTBotWelcomeGiftPeeking", [
             {
                 url: "/client/friend/list",
@@ -65,21 +64,21 @@ class WTTArmory {
     // Anything that needs done on postDBLoad, place here.
     postDBLoad(container) {
         this.instanceManager.postDBLoad(container);
+        // Chatbot
         const myChatBot = container.resolve("WTTBot");
-        const myChatBotId = myChatBot.getChatBot()._id;
-        const myChatBotNickname = myChatBot.getChatBot().Info.Nickname;
         container.resolve("DialogueController").registerChatBot(myChatBot);
         const coreConfig = container.resolve("ConfigServer").getConfig(ConfigTypes_1.ConfigTypes.CORE);
         const myChatBotInfo = myChatBot.getChatBot();
         coreConfig.features.chatbotFeatures.ids[myChatBotInfo.Info.Nickname] = myChatBotInfo._id;
         coreConfig.features.chatbotFeatures.enabledBots[myChatBotInfo._id] = true;
+        // Services
         this.customItemService.postDBLoad();
         this.customAssortSchemeService.postDBLoad();
         this.questAPI.postDBLoad();
         this.customLootspawnService.postDBLoad();
         this.customBotLoadoutService.postDBLoad();
+        // Locales
         this.handleLocales();
-        this.instanceManager.colorLog(`[${this.modName}] Database: Loading complete.`, LogTextColor_1.LogTextColor.GREEN);
     }
     handleLocales() {
         const locales = this.instanceManager.database.locales.global;

@@ -97,9 +97,18 @@ export class WTTBot implements IDialogueChatBot
         ]
     
 
-        const message = "System notice: WTT Armory installation confirmed. A 'Welcome Gift' has been issued for your consideration. Enjoy!";
+        const message = 
+        `
+        [SYSTEM NOTICE]
+        -> Status: ACTIVE
+            WTT Armory Installation: DETECTED
+            Initializing Welcome Protocol...
+        -> Status: DEPLOYING...
+            Dispensing Complimentary Item...
+        -> Status: COMPLETE
+            User Input: NOT REQUIRED`;
 
-        // Create message details with SYSTEM_MESSAGE type
+
         const details: ISendMessageDetails = {
             recipientId: sessionId,
             sender: MessageType.MESSAGE_WITH_ITEMS,
@@ -109,15 +118,11 @@ export class WTTBot implements IDialogueChatBot
             items: items,
             itemsMaxStorageLifetimeSeconds: 172800
         };
-        const playerProfile = instanceManager.saveServer.getProfile(sessionId);
-
 
         const dialogsInProfile = this.dialogueHelper.getDialogsForProfile(sessionId);
         const senderId = this.getChatBot()._id;
-        // Does dialog exist
         let senderDialog = dialogsInProfile[senderId];
         if (!senderDialog) {
-            // Create if doesn't
             dialogsInProfile[senderId] = {
                 _id: senderId,
                 type: MessageType.USER_MESSAGE,
@@ -134,7 +139,6 @@ export class WTTBot implements IDialogueChatBot
 
         this.mailSendService.sendMessageToPlayer(details);
 
-        //this.mailSendService.sendUserMessageToPlayer(sessionId, this.getChatBot(), "System notice: WTT Armory installation confirmed. A 'Welcome Gift' has been issued for your consideration. Enjoy!", items);
     }
 
     public handleMessage(sessionId: string, request: ISendMessageRequest): string

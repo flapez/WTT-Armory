@@ -46,11 +46,11 @@ implements IPreSptLoadMod, IPostDBLoadMod
         this.customLootspawnService.preSptLoad(this.instanceManager);
         this.customBotLoadoutService.preSptLoad(this.instanceManager);
     
-        // Register and resolve WTTBot early
+        // Chatbot
         container.register<WTTBot>("WTTBot", WTTBot);
         const wttBot = container.resolve<WTTBot>("WTTBot");
     
-        // Hook up to friend route to send welcome gift
+        // Hook up to friend/list route to send welcome gift
         this.instanceManager.staticRouter.registerStaticRouter(
             "WTTBotWelcomeGiftPeeking",
             [
@@ -88,29 +88,26 @@ implements IPreSptLoadMod, IPostDBLoadMod
     {
         this.instanceManager.postDBLoad(container);
     
+        // Chatbot
         const myChatBot = container.resolve<WTTBot>("WTTBot");
-        const myChatBotId = myChatBot.getChatBot()._id;
-        const myChatBotNickname = myChatBot.getChatBot().Info.Nickname;
         container.resolve<DialogueController>("DialogueController").registerChatBot(myChatBot);
-
-
         const coreConfig = container.resolve<ConfigServer>("ConfigServer").getConfig<ICoreConfig>(ConfigTypes.CORE);
         const myChatBotInfo = myChatBot.getChatBot();
         coreConfig.features.chatbotFeatures.ids[myChatBotInfo.Info.Nickname] = myChatBotInfo._id;
         coreConfig.features.chatbotFeatures.enabledBots[myChatBotInfo._id] = true;
     
+
+        // Services
         this.customItemService.postDBLoad();
         this.customAssortSchemeService.postDBLoad();
         this.questAPI.postDBLoad();
         this.customLootspawnService.postDBLoad();
         this.customBotLoadoutService.postDBLoad();
     
+
+        // Locales
         this.handleLocales();
         
-        this.instanceManager.colorLog(
-            `[${this.modName}] Database: Loading complete.`,
-            LogTextColor.GREEN
-        );
     }
 
     private handleLocales(): void 

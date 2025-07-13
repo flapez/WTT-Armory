@@ -53,7 +53,7 @@ export class CustomBotLoadoutService {
         }
 
         if (this.instanceManager.debug || loadedCount > 0) {
-            console.log(`[CustomBotLoadoutService] Loaded ${loadedCount} custom bot loadouts`);
+            if (debug) console.log(`[CustomBotLoadoutService] Loaded ${loadedCount} custom bot loadouts`);
         }
     }
 
