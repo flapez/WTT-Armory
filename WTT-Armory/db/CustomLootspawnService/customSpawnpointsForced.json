@@ -72,6 +72,39 @@
                     }
                 ]
             }
+        },
+        {
+            "locationId": "(-165.31 2.9295 30.5324)",
+            "probability": 1,
+            "template": {
+                "Id": "aekprototype_questitem_spawn",
+                "IsContainer": false,
+                "useGravity": true,
+                "randomRotation": false,
+                "Position": {
+                    "x": -165.31,
+                    "y": 2.9295,
+                    "z": 30.5324
+                },
+                "Rotation": {
+                    "x": 0.0712,
+                    "y": 293.3887,
+                    "z": 0.2559
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "6872ff6143a966427a6bbd85",
+                "Items": [
+                    {
+                        "_id": "6872ff6143a966427a6bbd85",
+                        "_tpl": "68716c83eb31cf77ff9f9fd8",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            }
         }
     ],
     "laboratory": [],

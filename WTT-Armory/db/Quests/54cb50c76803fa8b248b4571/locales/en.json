@@ -1,10 +1,8 @@
 {
-    "67440413f4f628d8f8195a1d name": "A Weapon to Die For",
-    "67440413f4f628d8f8195a1d description": "Hey soldier, so I've come in possession of some really rare rifles, the special forces type. I will be outfitting my guys with these rifles of course, but if you can do me a small favor you may be able to get your hands on a few for the right amount of roubles. How's that sound? I'll see you when you get back.",
-    "67440413f4f628d8f8195a1d successMessageText": "Wow, amazing that you made it back. Here you go, as promised.",
-    "67440413f4f628d8f8195a1d completePlayerMessage": "Wow, amazing that you made it back. Here you go, as promised.",
-    "67440413388afc449ba6ed6c": "Kill Tagilla while using Assault rifles",
-    "b94ecf63fbbfbcbed3a0fb34": "Kill Killa while using Assault rifles",
-    "674402e89737d3e29b3bcedb": "Hand over 300 rounds of 5.45x39 7N40",
-    "674402e981b32bf5fd65a049": "Hand over 10 5.45x39 6L31 60-Round magazines"
+    "687314e1ee500b06711955a2 name": "Wolves At The Gate",
+    "687314e1ee500b06711955a2 description": "When the blockade started and majority of the reserve base personnel abandoned the area, Glukhar and his gang broke into the weapons testing area of the base and stole what they could. Most of the stolen property has been used or destroyed over time. However, my sources say that whatever remnants of what they found is going to be moved from that area soon, as Glukhar and his men are looking to expand their territory.",
+    "687314e1ee500b06711955a2 startedMessageText": "I need you to go the  3rd floor Armory located in the Black Pawn building and look for what rightfully belongs to the government. Find whatever it is they have left, and bring it back to me. My garrison will be reward for our efforts, which means you will get your own pay day.",
+    "687314e1ee500b06711955a2 successMessageText": "Great find, glad we got that out of there before it was moved.",
+    "687314ce095483c45f5992ca": "Find the AEK-971 Prototype",
+    "687314d212a9720f134fdc1f": "Handover the AEK-971 Prototype to Prapor"
   }
