@@ -101,13 +101,13 @@ let WTTBot = class WTTBot {
         ];
         const message = `
         [SYSTEM NOTICE]
+        -> Status: ACTIVE
             WTT Armory Installation: DETECTED
             Initializing Welcome Protocol...
-        -> Status: ACTIVE
+        -> Status: DEPLOYING...
             Dispensing Complimentary Item...
         -> Status: COMPLETE
-            User Input: NOT REQUIRED
-        `;
+            User Input: NOT REQUIRED`;
         const details = {
             recipientId: sessionId,
             sender: MessageType_1.MessageType.MESSAGE_WITH_ITEMS,
