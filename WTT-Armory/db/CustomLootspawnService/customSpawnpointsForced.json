@@ -638,7 +638,7 @@
     "bigmap": [
         {
             "locationId": "(17.86, 0.27, 0.81)",
-            "probability": 1,
+            "probability": 0.3398992212551535,
             "template": {
                 "Id": "M249_questitem_spawn",
                 "IsContainer": false,
@@ -707,7 +707,159 @@
                         "_tpl": "686c1f53c57631545685f81c",
                         "upd": {
                             "StackObjectsCount": 1
+                        } 
+                    }
+                ]
+            }
+        },
+        {   
+            "locationId": "(503.43, -0.15, -9.84)",
+            "probability": 0.3300503893724233,
+            "template": {
+                "Id": "M249_questitem_spawn",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": 17.86,
+                    "y": 0.27,
+                    "z": 0.81
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": true,
+                "GroupPositions": [
+                    {
+                        "Name": "groupPoint[0]",
+                        "Weight": 1,
+                        "Position": {
+                            "x": 17.86,
+                            "y": 0.27,
+                            "z": 0.81
+                        },
+                        "Rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
                         }
+                    },
+                    {
+                        "Name": "groupPoint[1]",
+                        "Weight": 1,
+                        "Position": {
+                            "x": 503.43,
+                            "y": -0.15,
+                            "z": -9.84
+                        },
+                        "Rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    {
+                        "Name": "groupPoint[2]",
+                        "Weight": 1,
+                        "Position": {
+                            "x": 567.58,
+                            "y": -0.12,
+                            "z": -22.86
+                        },
+                        "Rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                ],
+                "IsAlwaysSpawn": false,
+                "Root": "6873fc2063a77fba17a0c425",
+                "Items": [
+                    {
+                        "_id": "6873fc2063a77fba17a0c425",
+                        "_tpl": "686c1f53c57631545685f81c",
+                        "upd": {
+                            "StackObjectsCount": 1
+                             
+                        }
+                    }
+                ]
+            }
+        },
+        {    
+             "locationId": "(567.58, -0.12, -22.86)",
+            "probability": 0.3300503893724233,
+            "template": {
+                "Id": "M249_questitem_spawn",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": 17.86,
+                    "y": 0.27,
+                    "z": 0.81
+                },
+                "Rotation": {
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                },
+                "IsGroupPosition": true,
+                "GroupPositions": [
+                    {
+                        "Name": "groupPoint[0]",
+                        "Weight": 1,
+                        "Position": {
+                            "x": 17.86,
+                            "y": 0.27,
+                            "z": 0.81
+                        },
+                        "Rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    {
+                        "Name": "groupPoint[1]",
+                        "Weight": 1,
+                        "Position": {
+                            "x": 503.43,
+                            "y": -0.15,
+                            "z": -9.84
+                        },
+                        "Rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    },
+                    {
+                        "Name": "groupPoint[2]",
+                        "Weight": 1,
+                        "Position": {
+                            "x": 567.58,
+                            "y": -0.12,
+                            "z": -22.86
+                        },
+                        "Rotation": {
+                            "x": 0,
+                            "y": 0,
+                            "z": 0
+                        }
+                    }
+                ],
+                "IsAlwaysSpawn": false,
+                "Root": "6873fc40f08f0ada9de68689",
+                "Items": [
+                    {
+                        "_id": "6873fc40f08f0ada9de68689",
+                        "_tpl": "686c1f53c57631545685f81c",
+                        "upd": {
+                            "StackObjectsCount": 1            }
                     }
                 ]
             }
