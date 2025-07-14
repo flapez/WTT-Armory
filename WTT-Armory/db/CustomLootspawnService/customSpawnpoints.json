@@ -3,7 +3,7 @@
     "sandbox": [
         {
             "locationId": "(5.5586 24.1394 334.8061)",
-            "probability": 0.35,
+            "probability": 0.25,
             "template": {
                 "Id": "92fsplacementsandbox_spawn",
                 "IsContainer": false,
@@ -80,7 +80,7 @@
     "sandbox_high": [
         {
             "locationId": "(5.5586 24.1394 334.8061)",
-            "probability": 0.35,
+            "probability": 0.25,
             "template": {
                 "Id": "92fsplacementsandboxhigh_spawn",
                 "IsContainer": false,
@@ -722,7 +722,7 @@
         },
         {
             "locationId": "(-48.1588, 7.1486, -523.416)",
-            "probability": 0.35,
+            "probability": 0.20,
             "template": {
                 "Id": "msr_build_spawn",
                 "IsContainer": false,
@@ -1062,7 +1062,7 @@
         },
         {
             "locationId": "(287.4357, 23.67, -514.90)",
-            "probability": 0.35,
+            "probability": 0.20,
             "template": {
                 "Id": "KACPDW_USECCAMP_spawn",
                 "IsContainer": false,
@@ -1208,7 +1208,7 @@
     "shoreline": [
         {
             "locationId": "(-500.82, -24.61, 245.75)",
-            "probability": 0.30,
+            "probability": 0.20,
             "template": {
                 "Id": "AK5C_ShorelineTruck_spawn",
                 "IsContainer": false,
@@ -1330,7 +1330,7 @@
     "tarkovstreets": [
         {
             "locationId": "(77.7212, 3.6, 296.214)",
-            "probability": 0.35,
+            "probability": 0.20,
             "template": {
                 "Id": "AEK_Streets_spawn",
                 "IsContainer": false,
@@ -1444,7 +1444,7 @@
         },
         {
             "locationId": "(-38.115, 5.873, -44.2083)",
-            "probability": 0.5,
+            "probability": 0.35,
             "template": {
                 "Id": "Auto5_Streets_spawn",
                 "IsContainer": false,
@@ -1527,7 +1527,7 @@
     "rezervbase": [
         {
             "locationId": "(-94.8353, -14.4853, 44.1436)",
-            "probability": 0.25,
+            "probability": 0.20,
             "template": {
                 "Id": "WOS_ReserveCommandRoom_spawn",
                 "IsContainer": false,
@@ -1688,7 +1688,7 @@
     "laboratory": [
         {
             "locationId": "(-162.5408, 4.8098, -343.9367)",
-            "probability": 0.35,
+            "probability": 0.25,
             "template": {
                 "Id": "prodigy_spawn",
                 "IsContainer": false,
@@ -1817,7 +1817,7 @@
         },
         {
             "locationId": "(-91.3605, 0.0783, -443.21)",
-            "probability": 0.35,
+            "probability": 0.20,
             "template": {
                 "Id": "xm8_spawn",
                 "IsContainer": false,
@@ -1919,7 +1919,7 @@
         },
         {
             "locationId": "(-181.1809, 0.3768, -314.7916)",
-            "probability": 0.35,
+            "probability": 0.20,
             "template": {
                 "Id": "417_spawn",
                 "IsContainer": false,
