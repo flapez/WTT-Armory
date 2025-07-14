@@ -43,6 +43,30 @@
             ]
         },
         {
+            "key": "Items_Quests/quest_immortal_poster.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Items_Quests/quest_immortal_movie.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "Items_Quests/quest_immortal_console.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "Mods/Barrels/m700la_barrel_18.bundle",
             "dependencyKeys": [
                 "m700_meshes.bundle",

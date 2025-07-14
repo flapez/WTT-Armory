@@ -201,5 +201,160 @@
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
+  },
+  "687306abe00a4125a64a80a8": {
+    "itemTplToClone": "6575a6ca8778e96ded05a802",
+    "parentId": "57864a66245977548f04a81f",
+    "handbookParentId": "5b47574386f77428ca22b2f4",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Items_Quests/quest_immortal_movie.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "BackgroundColor": "violet",
+      "ItemSound": "generic",
+      "QuestItem": true,
+      "DiscardingBlock": false,
+      "DiscardLimit": 0,
+      "Width": 1,
+      "Height": 1,
+      "Weight": 0.1
+    },
+    "locales": {
+      "en": {
+        "name": "Harmy's Star Wars Despecialized Edition",
+        "shortName": "Star Wars",
+        "description": "A fan-created film preservation of the original 1977 release of Star Wars."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 1,
+    "handbookPriceRoubles": 1,
+    "addtoTraders": false,
+    "traderId": "SKIER",
+    "traderItems": [],
+    "barterScheme": [],
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "canSellOnRagfair": false,
+    "isUnsaleable": true,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "687308686fa170bea044d21d": {
+    "itemTplToClone": "6575a6ca8778e96ded05a802",
+    "parentId": "57864a66245977548f04a81f",
+    "handbookParentId": "5b47574386f77428ca22b2f4",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Items_Quests/quest_immortal_console.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "BackgroundColor": "violet",
+      "ItemSound": "generic",
+      "QuestItem": true,
+      "DiscardingBlock": false,
+      "DiscardLimit": 0,
+      "Width": 2,
+      "Height": 2,
+      "Weight": 2.5
+    },
+    "locales": {
+      "en": {
+        "name": "Playstation 2 console with Game",
+        "shortName": "PS2",
+        "description": "A well maintained vintage Playstation 2 console, with memory cards and Metal Gear Solid 2."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 1,
+    "handbookPriceRoubles": 1,
+    "addtoTraders": false,
+    "traderId": "SKIER",
+    "traderItems": [],
+    "barterScheme": [
+      {
+        "count": 1,
+        "_tpl": "ROUBLES"
+      }
+    ],
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "canSellOnRagfair": false,
+    "isUnsaleable": true,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "687464af51ed3be7e4f6f525": {
+    "itemTplToClone": "675a04fdb8913ff13e0496bb",
+    "parentId": "6759673c76e93d8eb20b2080",
+    "handbookParentId": "5b47574386f77428ca22b2f4",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Items_Quests/quest_immortal_poster.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "BackgroundColor": "violet",
+      "ItemSound": "generic",
+      "QuestItem": false,
+      "DiscardingBlock": false,
+      "DiscardLimit": 0,
+      "Width": 1,
+      "Height": 1,
+      "Weight": 0.1,
+      "Unlootable": true
+    },
+    "locales": {
+      "en": {
+        "name": "Tim Burton's Batman Movie Poster",
+        "shortName": "Batman",
+        "description": "A novelty movie poster for the 1989 Batman film directed by Tim Burton."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 1,
+    "handbookPriceRoubles": 1,
+    "addtoTraders": false,
+    "traderId": "SKIER",
+    "traderItems": [],
+    "barterScheme": [
+      {
+        "count": 1,
+        "_tpl": "ROUBLES"
+      }
+    ],
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "canSellOnRagfair": false,
+    "isUnsaleable": true,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
   }
 }
