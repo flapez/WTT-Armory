@@ -2996,7 +2996,7 @@
             ]
         },
         {
-            "key": "WeaponKACPDW/kapdw_magazine_banded.bundle",
+            "key": "WeaponKACPDW/kacpdw_magazine_banded.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
