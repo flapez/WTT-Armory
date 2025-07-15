@@ -2996,6 +2996,14 @@
             ]
         },
         {
+            "key": "WeaponKACPDW/kapdw_magazine_banded.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponKACPDW/kacpdw_muzzlebrake.bundle",
             "dependencyKeys": [
                 "shaders",

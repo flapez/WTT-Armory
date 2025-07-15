@@ -62,7 +62,8 @@
                         "filters": [
                             {
                                 "Filter": [
-                                    "6761b213607f9a6f79017c80"
+                                    "6761b213607f9a6f79017c80",
+                                    "6876b80b37f01b91d94b927c"
                                 ]
                             }
                         ]
@@ -348,6 +349,76 @@
             "ExaminedByDefault": true,
             "Prefab": {
                 "path": "WeaponKACPDW/kacpdw_magazine.bundle",
+                "rcid": ""
+            },
+            "Cartridges": [
+                {
+                    "_id": "kacpdw_magazinepatrons",
+                    "_max_count": 30,
+                    "_name": "cartridges",
+                    "_parent": "6761b213607f9a6f79017c80",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5fbe3ffdf8b6a877a729ea82",
+                                    "5fd20ff893a8961fc660a954",
+                                    "619636be6db0f2477964e710",
+                                    "6196364158ef8c428c287d9f",
+                                    "6196365d58ef8c428c287da1",
+                                    "64b8725c4b75259c590fa899"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ],
+            "magAnimationIndex": 0,
+            "ItemSound": "mag_plastic",
+            "MagazineWithBelt": false,
+            "CheckOverride": 0,
+            "ExtraSizeDown": 1,
+            "Weight": 0.1,
+            "Width": 1,
+            "Height": 2,
+            "CheckTimeModifier": 0,
+            "LoadUnloadModifier": 0,
+            "MalfunctionChance": 0.08,
+            "Ergonomics": -1
+        },
+        "locales": {
+            "en": {
+                "name": "KAC PDW .300 blackout 30-round magazine",
+                "shortName": "KAC PDW",
+                "description": "A polymer magazine that holds 30 rounds of .300 BLK for the KAC PDW."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_magazine"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 3790,
+        "handbookPriceRoubles": 3200,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
+    },
+    "6876b80b37f01b91d94b927c": {
+        "itemTplToClone": "5aaa5dfee5b5b000140293d3",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "WeaponKACPDW/kacpdw_magazine_banded.bundle",
                 "rcid": ""
             },
             "Cartridges": [
