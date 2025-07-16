@@ -16,6 +16,7 @@
 			"RecoilCamera": 0.025,
 			"RecoilForceBack": 180,
             "RecoilForceUp": 65,
+			"CenterOfImpact": 0.068,
 			"CompactHandling": false,
 			"weapFireType": ["single"],
 			"defMagType": "55d4887d4bdc2d962f8b4570",
