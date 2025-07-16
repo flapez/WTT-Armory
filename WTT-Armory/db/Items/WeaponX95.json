@@ -14,6 +14,7 @@
       "RecoilForceUp": 77,
       "RecoilDispersion": 9,
       "isChamberLoad": false,
+      "CenterOfImpact": 0.042,
       "bFirerate": 800,
       "Prefab": {
         "path": "WeaponX95/weapon_x95_blk_container.bundle",
@@ -51,7 +52,6 @@
                   "682b88530f05e7746693f920",
                   "682b90a1bb914d953d95c7fd",
                   "682b90d74ce95cc49a6e369b"
-
                 ]
               }
             ]
@@ -745,6 +745,7 @@
       "RecoilForceBack": 248,
       "RecoilForceUp": 77,
       "RecoilDispersion": 9,
+      "CenterOfImpact": 0.042,
       "isChamberLoad": false,
       "bFirerate": 800,
       "Prefab": {
@@ -1305,6 +1306,7 @@
       "RecoilForceBack": 248,
       "RecoilForceUp": 77,
       "RecoilDispersion": 9,
+      "CenterOfImpact": 0.042,
       "isChamberLoad": false,
       "bFirerate": 800,
       "Prefab": {
@@ -1691,7 +1693,7 @@
               {
                 "Shift": 0,
                 "Filter": [
-                 "66a47eecd5592cc7768ac044"
+                  "66a47eecd5592cc7768ac044"
                 ]
               }
             ]
@@ -2194,11 +2196,12 @@
       "Height": 1,
       "Weight": 2.9,
       "Ergonomics": 76,
+      "CenterOfImpact": 0.125,
       "RecoilCamera": 0.03,
       "RecoilDispersion": 7,
       "RecoilForceBack": 147,
       "RecoilForceUp": 41,
-	  "RecoilReturnPathDampingHandRotation": 0.45,
+      "RecoilReturnPathDampingHandRotation": 0.45,
       "RecoilReturnSpeedHandRotation": 3.2,
       "isChamberLoad": false,
       "bFirerate": 850,
@@ -2232,7 +2235,8 @@
       "ammoCaliber": "Caliber9x19PARA",
       "weapFireType": [
         "single",
-      "fullauto"],
+        "fullauto"
+      ],
       "Prefab": {
         "path": "WeaponX95/weapon_x95_9mm_container.bundle",
         "rcid": ""
@@ -2737,28 +2741,28 @@
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
     "overrideProperties": {
-		"Ergonomics": -1,
-		"Weight": 0.158,
-        "ExaminedByDefault": true,
-        "Prefab": {
-            "path": "WeaponX95/x95_magazine_9mm.bundle",
-            "rcid": ""
-        },
-        "magAnimationIndex": 0,
-        "ItemSound": "mag_plastic"
+      "Ergonomics": -1,
+      "Weight": 0.158,
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponX95/x95_magazine_9mm.bundle",
+        "rcid": ""
+      },
+      "magAnimationIndex": 0,
+      "ItemSound": "mag_plastic"
     },
     "locales": {
-        "en": {
-            "name": "IWI Tavor X95 9x19mm 32-round magazine",
-            "shortName": "X95-32",
-            "description": "Standard issue 32-round 9x19mm stick magazine for the IWI Tavor X95 9x19mm assault rifle."
-        }
+      "en": {
+        "name": "IWI Tavor X95 9x19mm 32-round magazine",
+        "shortName": "X95-32",
+        "description": "Standard issue 32-round 9x19mm stick magazine for the IWI Tavor X95 9x19mm assault rifle."
+      }
     },
     "clearClonedProps": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [
-        "mod_magazine"
+      "mod_magazine"
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
@@ -2770,70 +2774,70 @@
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
-},
-"67f4474195c2cf6ca66af881": {
-  "itemTplToClone": "66992725ae08c5c29e0c4f9a",
-  "parentId": "5448bc234bdc2d3c308b4569",
-  "handbookParentId": "5b5f754a86f774094242f19b",
-  "overrideProperties": {
+  },
+  "67f4474195c2cf6ca66af881": {
+    "itemTplToClone": "66992725ae08c5c29e0c4f9a",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
       "ExaminedByDefault": true,
       "magAnimationIndex": 0,
       "ItemSound": "mag_plastic",
       "Prefab": {
-          "path": "WeaponX95/x95_magazine_9mm_45.bundle",
-          "rcid": ""
+        "path": "WeaponX95/x95_magazine_9mm_45.bundle",
+        "rcid": ""
       },
       "Ergonomics": -3,
-	  "Weight": 0.176,
+      "Weight": 0.176,
       "Cartridges": [
-          {
-              "_id": "67f447538112fb3647210ed3",
-              "_max_count": 45,
-              "_name": "cartridges",
-              "_parent": "67f4474195c2cf6ca66af881",
-              "_props": {
-                  "filters": [
-                      {
-                          "Filter": [
-                              "5efb0da7a29a85116f6ea05f",
-                              "5c3df7d588a4501f290594e5",
-                              "58864a4f2459770fcc257101",
-                              "56d59d3ad2720bdb418b4577",
-                              "5c925fa22e221601da359b7b",
-                              "5a3c16fe86f77452b62de32a",
-                              "5efb0e16aeb21837e749c7ff",
-                              "5c0d56a986f774449d5de529",
-                              "64b7bbb74b75259c590fa897"
-                          ]
-                      }
-                  ]
-              },
-              "_proto": "5748538b2459770af276a261"
-          }
+        {
+          "_id": "67f447538112fb3647210ed3",
+          "_max_count": 45,
+          "_name": "cartridges",
+          "_parent": "67f4474195c2cf6ca66af881",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5efb0da7a29a85116f6ea05f",
+                  "5c3df7d588a4501f290594e5",
+                  "58864a4f2459770fcc257101",
+                  "56d59d3ad2720bdb418b4577",
+                  "5c925fa22e221601da359b7b",
+                  "5a3c16fe86f77452b62de32a",
+                  "5efb0e16aeb21837e749c7ff",
+                  "5c0d56a986f774449d5de529",
+                  "64b7bbb74b75259c590fa897"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
       ]
-  },
-  "locales": {
+    },
+    "locales": {
       "en": {
         "name": "IWI Tavor X95 9x19 45-round magazine",
         "shortName": "X95-45",
         "description": "A 45-round 9x19mm extended magazine for the IWI Tavor X95 9x19mm assault rifle."
       }
-  },
-  "clearClonedProps": false,
-  "addtoInventorySlots": [],
-  "addtoModSlots": false,
-  "modSlot": [
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
       "mod_magazine"
-  ],
-  "ModdableItemWhitelist": [],
-  "ModdableItemBlacklist": [],
-  "fleaPriceRoubles": 4980,
-  "handbookPriceRoubles": 3150,
-  "addtoTraders": false,
-  "addtoBots": false,
-  "addtoStaticLootContainers": false,
-  "Probability": 250,
-  "traders": {},
-  "StaticLootContainers": []
-}
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 4980,
+    "handbookPriceRoubles": 3150,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  }
 }
