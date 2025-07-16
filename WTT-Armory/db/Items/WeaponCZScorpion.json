@@ -260,9 +260,9 @@
     },
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3",
-        "shortName": "CZ SCORPION EVO3",
-        "description": "The Scorpion Evo 3 is a blowback operated carbine manufactured by \u010cesk\u00e1 zbrojovka Uhersk\u00fd Brod, evolved from a Slovak prototype submachine gun developed by Laugo. The A1 variant features a standard left-side non-reciprocating charging handle, although it is ambidextrous and can be switched from side-to-side."
+        "name": "CZ Scorpion EVO 3 9x19 submachine gun",
+        "shortName": "Scorpion EVO 3",
+        "description": "The Scorpion EVO 3 is a blowback operated carbine manufactured by \u010cesk\u00e1 zbrojovka Uhersk\u00fd Brod, evolved from a Slovak prototype submachine gun developed by Laugo. The A1 variant features a standard left-side non-reciprocating charging handle, although it is ambidextrous and can be switched from side-to-side."
       }
     },
     "clearClonedProps": false,
@@ -344,7 +344,7 @@
             "slotId": "mod_charge"
           }
         ],
-        "_name": "CZ Scorpion Evo 3",
+        "_name": "CZ Scorpion EVO 3",
         "_parent": "662f0bb16468fbe75a4cb847",
         "_type": "Preset"
       }
@@ -388,13 +388,14 @@
         "path": "WeaponCZScorpion/czscorpiongrey_container.bundle",
         "rcid": ""
       },
-      "Ergonomics": 69
+      "Ergonomics": 69,
+      "DurabilityBurnModificator": 0.75
     },
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 Tron Edition",
-        "shortName": "CZ SCORPION EVO3 TRON",
-        "description": "The Scorpion Evo 3 is a blowback operated carbine manufactured by \u010cesk\u00e1 zbrojovka Uhersk\u00fd Brod, evolved from a Slovak prototype submachine gun developed by Laugo. The A1 variant features a standard left-side non-reciprocating charging handle, although it is ambidextrous and can be switched from side-to-side. This special edition is dedicated to Tron for helping me in my weapon modding learning curve."
+        "name": "CZ Scorpion EVO 3 9x19 submachine gun (Tron's Custom)",
+        "shortName": "Scorpion EVO 3",
+        "description": "The Scorpion EVO 3 is a blowback operated carbine manufactured by \u010cesk\u00e1 zbrojovka Uhersk\u00fd Brod, evolved from a Slovak prototype submachine gun developed by Laugo. The A1 variant features a standard left-side non-reciprocating charging handle, although it is ambidextrous and can be switched from side-to-side. This version is a masterfully upgraded version by acclaimed legend of the Norvinsk Zone, Tron."
       }
     },
     "clearClonedProps": false,
@@ -447,9 +448,9 @@
     },
     "locales": {
       "en": {
-        "name": "HB Industries Scorpion Evo 3 9x19 20-round magazine",
+        "name": "HB Industries Scorpion EVO 3 9x19 20-round magazine",
         "shortName": "EVO3",
-        "description": "A standard 20-round 9x19 magazine for the CZ Scorpion Evo 3 SMG, manufactured by HB Industries."
+        "description": "A standard 20-round 9x19 magazine for the CZ Scorpion EVO 3 SMG, manufactured by HB Industries."
       }
     },
     "clearClonedProps": false,
@@ -483,7 +484,7 @@
     },
     "locales": {
       "en": {
-        "name": "HB Industries Scorpion Evo 3 9x19 30-round magazine",
+        "name": "HB Industries Scorpion EVO 3 9x19 30-round magazine",
         "shortName": "EVO3",
         "description": "A standard 30-round 9x19 magazine for the CZ Scorpion Evo3 SMG, manufactured by HB Industries."
       }
@@ -535,9 +536,9 @@
     },
     "locales": {
       "en": {
-        "name": "F5 MFG Scorpion Evo 3 9x19 50-round Drum Magazine",
+        "name": "F5 MFG Scorpion EVO 3 9x19 50-round drum magazine",
         "shortName": "EVO3",
-        "description": "A 50-round 9x19 drum magazine for the CZ Scorpion Evo 3 SMG, designed by F5 Manufacturing."
+        "description": "A 50-round 9x19 drum magazine for the CZ Scorpion EVO 3 SMG, designed by F5 Manufacturing."
       }
     },
     "clearClonedProps": false,
@@ -605,8 +606,8 @@
     },
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 9x19mm Carbine Barrel",
-        "shortName": "EVO3",
+        "name": "CZ Scorpion EVO 3 9x19mm carbine-length barrel",
+        "shortName": "EVO3 carbine",
         "description": "An carbine-length barrel for CZ Scorpion-series weapons chambered in 9x19mm ammunition."
       }
     },
@@ -692,8 +693,8 @@
     },
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 9x19mm Extended Barrel",
-        "shortName": "EVO3",
+        "name": "CZ Scorpion EVO 3 9x19mm extended barrel",
+        "shortName": "EVO3 ext.",
         "description": "An extended barrel for CZ Scorpion-series weapons chambered in 9x19mm ammunition."
       }
     },
@@ -783,8 +784,8 @@
 
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 9x19mm Standard Barrel",
-        "shortName": "EVO3",
+        "name": "CZ Scorpion EVO 3 9x19mm barrel",
+        "shortName": "EVO3 std.",
         "description": "A standard-issue barrel for CZ Scorpion-series weapons chambered in 9x19mm ammunition."
       }
     },
@@ -873,8 +874,8 @@
     },
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 9x19mm Micro Barrel",
-        "shortName": "EVO3",
+        "name": "CZ Scorpion EVO 3 9x19mm micro-length Barrel",
+        "shortName": "EVO3 micro",
         "description": "A micro barrel for CZ Scorpion-series weapons chambered in 9x19mm ammunition."
       }
     },
@@ -1055,9 +1056,9 @@
     },
     "locales": {
       "en": {
-        "name": "HB Industries M-LOK 11.5\" Handguard",
-        "shortName": "HBI EVO3",
-        "description": "The HB Industries M-LOK 11.5 inch handguard rail adapter allows you to install additional M-LOK attachments on the CZ Scorpion Evo 3 weapon series."
+        "name": "HB Industries M-LOK 11.5 inch handguard",
+        "shortName": "EVO3 11.5\"",
+        "description": "The HB Industries M-LOK 11.5 inch handguard rail adapter allows you to install additional M-LOK attachments on the CZ Scorpion EVO 3 weapon series."
       }
     },
 
@@ -1224,9 +1225,9 @@
     
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 Carbine-Length Handguard",
-        "shortName": "EVO3 Carbine",
-        "description": "A carbine-length handguard for the CZ Scorpion Evo 3-series weapons."
+        "name": "CZ Scorpion EVO 3 carbine-length Handguard",
+        "shortName": "EVO3 carbine",
+        "description": "A carbine-length handguard for the CZ Scorpion EVO 3-series weapons."
       }
     },
     "clearClonedProps": false,
@@ -1367,9 +1368,9 @@
     },
     "locales": {
       "en": {
-        "name": "HB Industries M-LOK 4.25\" Micro Handguard",
-        "shortName": "HBI EVO3",
-        "description": "The HB Industries M-LOK 4.25 inch micro handguard rail adapter allows you to install additional M-LOK attachments on the CZ Scorpion Evo 3 weapon series."
+        "name": "HB Industries M-LOK 4.25 inch micro handguard",
+        "shortName": "EVO3 4.25\"",
+        "description": "The HB Industries M-LOK 4.25 inch micro handguard rail adapter allows you to install additional M-LOK attachments on the CZ Scorpion EVO 3 weapon series."
       }
     },
     "clearClonedProps": false,
@@ -1546,9 +1547,9 @@
     },
     "locales": {
       "en": {
-        "name": "HB Industries M-LOK 6.84\" Handguard",
-        "shortName": "HBI EVO3",
-        "description": "The HB Industries M-LOK 6.84 inch handguard rail adapter allows you to install additional M-LOK attachments on the CZ Scorpion Evo 3 weapon series."
+        "name": "HB Industries M-LOK 6.84 inch handguard",
+        "shortName": "EVO3 6.84\"",
+        "description": "The HB Industries M-LOK 6.84 inch handguard rail adapter allows you to install additional M-LOK attachments on the CZ Scorpion EVO 3 weapon series."
       }
     },
     "clearClonedProps": false,
@@ -1765,9 +1766,9 @@
     },
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 Standard-Issue Handguard",
+        "name": "CZ Scorpion EVO 3 Standard-Issue Handguard",
         "shortName": "EVO3 HG",
-        "description": "A standard-issue handguard for the CZ Scorpion Evo 3-series weapons."
+        "description": "A standard-issue handguard for the CZ Scorpion EVO 3-series weapons."
       }
     },
     "clearClonedProps": false,
@@ -1854,7 +1855,7 @@
     },
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 Buffer Tube Stock Adapter",
+        "name": "CZ Scorpion EVO 3 Buffer Tube Stock Adapter",
         "shortName": "EVO3 Adpt",
         "description": "A stock adapter, designed for the CZ Scorpion EVO3-series weapons to mount buffer-tube style stocks."
       }
@@ -1910,9 +1911,9 @@
     },
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 MCX-Style Skeleton Foldable Stock ",
+        "name": "CZ Scorpion EVO 3 MCX-Style Skeleton Foldable Stock ",
         "shortName": "EVO3 MCX",
-        "description": "A foldable skeletized stock designed for the CZ Scorpion Evo 3-series weapons."
+        "description": "A foldable skeletized stock designed for the CZ Scorpion EVO 3-series weapons."
       }
     },
     "clearClonedProps": false,
@@ -1966,9 +1967,9 @@
     },
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 Standard Folding Stock",
-        "shortName": "EVO3 Fold",
-        "description": "A mixed polymer/metal foldable stock which comes standard with the CZ Scorpion Evo 3-series weapons."
+        "name": "CZ Scorpion EVO 3 Folding Stock",
+        "shortName": "EVO3 std.",
+        "description": "A mixed polymer/metal foldable stock which comes standard with the CZ Scorpion EVO 3-series weapons."
       }
     },
     "clearClonedProps": false,
@@ -2023,8 +2024,8 @@
     "locales": {
       "en": {
         "name": "Yeti Wurks Switchback Pistol Grip",
-        "shortName": "YW PG",
-        "description": "A polymer pistol grip designed for the CZ Scorpion Evo 3-series weapons, manufactured by Yeti Wurks."
+        "shortName": "Yeti PG",
+        "description": "A polymer pistol grip designed for the CZ Scorpion EVO 3-series weapons, manufactured by Yeti Wurks."
       }
     },
     "clearClonedProps": false,
@@ -2078,9 +2079,9 @@
     },
     "locales": {
       "en": {
-        "name": "Magpul CZ Scorpion Evo 3 Pistol Grip",
+        "name": "Magpul CZ Scorpion EVO 3 Pistol Grip",
         "shortName": "MAGPUL PG",
-        "description": "A polymer pistol grip designed for the CZ Scorpion Evo 3-series weapons, manufactured by Magpul."
+        "description": "A polymer pistol grip designed for the CZ Scorpion EVO 3-series weapons, manufactured by Magpul."
       }
     },
     "clearClonedProps": false,
@@ -2134,7 +2135,7 @@
     },
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 Standard-Issue Pistol Grip",
+        "name": "CZ Scorpion EVO 3 Standard-Issue Pistol Grip",
         "shortName": "EVO3 PG",
         "description": "A polymer pistol grip which comes standard-issued with the CZ Scorpion EVO 3-series weapons."
       }
@@ -2188,7 +2189,7 @@
     },
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 Charging Handle",
+        "name": "CZ Scorpion EVO 3 Charging Handle",
         "shortName": "EVO3 CH",
         "description": "A standard-issue charging handle for CZ Scorpion EVO 3 and compatible systems. Manufactured by \u010cesk\u00e1 zbrojovka Uhersk\u00fd Brod."
       }
@@ -2245,9 +2246,9 @@
     },
     "locales": {
       "en": {
-        "name": "Innovative Arms IASC9-K Suppressor",
+        "name": "Innovative Arms IASC9-K 9x19 sound suppressor",
         "shortName": "IASC9-K",
-        "description": "A sound suppressor for the CZ Scorpion Evo 3, designed by Innovative Arms."
+        "description": "A sound suppressor for the CZ Scorpion EVO 3, designed by Innovative Arms."
       }
     },
     "clearClonedProps": false,
@@ -2303,9 +2304,9 @@
     },
     "locales": {
       "en": {
-        "name": "Innovative Arms IASC9-K Integral Suppressor",
+        "name": "Innovative Arms IASC9-K 9x19 integral sound suppressor",
         "shortName": "IASC9",
-        "description": "An integral sound suppressor for the CZ Scorpion Evo 3, designed by Innovative Arms to fit inside most Scorpion M-LOK handguards."
+        "description": "An integral sound suppressor for the CZ Scorpion EVO 3, designed by Innovative Arms to fit inside most Scorpion M-LOK handguards."
       }
     },
     "clearClonedProps": false,
@@ -2358,9 +2359,9 @@
     },
     "locales": {
       "en": {
-        "name": "CZScorpion Evo 3 Standard-Issue Flashhider",
+        "name": "CZScorpion EVO 3 standard flash hider",
         "shortName": "EVO3 FH",
-        "description": "A standard-issue flashhider, designed for the CZ Scorpion Evo 3."
+        "description": "A standard-issue flashhider, designed for the CZ Scorpion EVO 3."
       }
     },
     "clearClonedProps": false,
@@ -2412,9 +2413,9 @@
     },
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 Picatinny Rear Sight",
+        "name": "CZ Scorpion EVO 3 Rear Sight",
         "shortName": "EVO3 RS",
-        "description": "A standard-issue picatinny rear iron sight, designed for the CZ Scorpion Evo 3."
+        "description": "A standard-issue picatinny rear iron sight, designed for the CZ Scorpion EVO 3."
       }
     },
     "clearClonedProps": false,
@@ -2468,9 +2469,9 @@
     },
     "locales": {
       "en": {
-        "name": "CZ Scorpion Evo 3 Picatinny Front Sight",
+        "name": "CZ Scorpion EVO 3 Front Sight",
         "shortName": "EVO3 FS",
-        "description": "A standard-issue picatinny front iron sight, designed for the CZ Scorpion Evo 3."
+        "description": "A standard-issue picatinny front iron sight, designed for the CZ Scorpion EVO 3."
       }
     },
     "clearClonedProps": false,
