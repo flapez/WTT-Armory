@@ -89,26 +89,67 @@
           ]
         },
         {
-          "conditionType": "HandoverItem",
+          "conditionType": "LeaveItemAtLocation",
           "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "687314d212a9720f134fdc1f",
-          "index": 2,
+          "id": "6876ee0d07b00d42e102c09e",
+          "index": 1,
           "isEncoded": false,
           "maxDurability": 100,
           "minDurability": 0,
           "onlyFoundInRaid": false,
           "parentId": "",
+          "plantTime": 10,
           "target": [
             "68716c83eb31cf77ff9f9fd8"
           ],
           "value": 1,
+          "visibilityConditions": [],
+          "zoneId": "AEK_PlaceItem_UsecCamp"
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "6876ee2fa227f3cb913e587e",
+                "status": [
+                  "Survived",
+                  "Runner"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "6876ee2b1b4757960f8bcacb",
+                "target": [
+                  "bigmap"
+                  
+                ]
+              }
+            ],
+            "id": "6876ee1c53d3e0ad04a0b446"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6876ee191ff3fb6115656aff",
+          "index": 2,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
           "visibilityConditions": [
             {
               "conditionType": "CompleteCondition",
-              "id": "6873dd068d10f96cf86e17c4",
-              "target": "687314ce095483c45f5992ca"
+              "id": "6876ee1641edc3451db0e18b",
+              "target": "6876ee0d07b00d42e102c09e"
             }
           ]
         }
