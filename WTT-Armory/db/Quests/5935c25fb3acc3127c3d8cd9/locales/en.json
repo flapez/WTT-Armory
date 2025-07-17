@@ -55,5 +55,25 @@
   "6870170d18b94df2e8700ba0 description": "We aren't done just yet... When you were playing assassin, I had a guy going sneak around Customs trying to locate my stolen guns. He ended up finding them stashed in some crates that are some storage shelves in the fucking corner. Bastards better not have fucked up my guns!",
   "6870170d18b94df2e8700ba0 startedMessageText": "Please go mark those crates so I can recover what belongs to me...",
   "6870170d18b94df2e8700ba0 successMessageText": "Thank you again for your help with all of this. Take this as a reward. Looks like the Goons were trying to build something fancy with this gun.",
-  "687018c3dc52ab57b5e38363": "Place a marker on the boxes of stolen M249 SAWs on Customs"
+  "687018c3dc52ab57b5e38363": "Place a marker on the boxes of stolen M249 SAWs on Customs",
+
+
+
+  "6877096d5299037a1c4b7b2f name": "Weapons Trial: Scavs",
+  "6877096d5299037a1c4b7b2f description": "Will do this later",
+  "6877096d5299037a1c4b7b2f startedMessageText": "This too",
+  "6877096d5299037a1c4b7b2f successMessageText": "And this",
+  "68770a9b8cc4478bd88d86ca": "Kill 5 Scavs on Reserve",
+  "68782def57bd3034268c3345": "Kill 5 Scavs on Ground Zero",
+  
+  
+
+  "68784cf8dbe00560604d51e1 name": "Weapons Trial: PMCs",
+  "68784cf8dbe00560604d51e1 description": "Will do this later",
+  "68784cf8dbe00560604d51e1 startedMessageText": "This too",
+  "68784cf8dbe00560604d51e1 successMessageText": "And this",
+  "68784e212b1bbf5869da98b4": "Kill 10 PMCs on Interchange",
+  "68784de02c61f26ddb77ba10": "Kill 10 PMCs on Woods",
+  "68784e80440f9c9295379b61": "Kill 10 PMCS on Factory",
+  "68784e5bb547b5aef5a5be26": "Kill 10 PMCS on Shoreline"
 }
