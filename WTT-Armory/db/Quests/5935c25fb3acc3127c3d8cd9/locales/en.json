@@ -63,8 +63,8 @@
   "6877096d5299037a1c4b7b2f description": "Will do this later",
   "6877096d5299037a1c4b7b2f startedMessageText": "This too",
   "6877096d5299037a1c4b7b2f successMessageText": "And this",
-  "68770a9b8cc4478bd88d86ca": "Kill 5 Scavs on Reserve",
-  "68782def57bd3034268c3345": "Kill 5 Scavs on Ground Zero",
+  "68770a9b8cc4478bd88d86ca": "Kill 5 Scavs on Reserve using the Ak5CC",
+  "68782def57bd3034268c3345": "Kill 5 Scavs on Ground Zero using the Ak5C",
   
   
 
@@ -72,8 +72,16 @@
   "68784cf8dbe00560604d51e1 description": "Will do this later",
   "68784cf8dbe00560604d51e1 startedMessageText": "This too",
   "68784cf8dbe00560604d51e1 successMessageText": "And this",
-  "68784e212b1bbf5869da98b4": "Kill 10 PMCs on Interchange",
-  "68784de02c61f26ddb77ba10": "Kill 10 PMCs on Woods",
-  "68784e80440f9c9295379b61": "Kill 10 PMCS on Factory",
-  "68784e5bb547b5aef5a5be26": "Kill 10 PMCS on Shoreline"
+  "68784e212b1bbf5869da98b4": "Kill 5 PMCs on Interchange using the Ak5C",
+  "68784de02c61f26ddb77ba10": "Kill 5 PMCs on Woods using the Ak5C",
+  "68784e80440f9c9295379b61": "Kill 5 PMCS on Factory using the Ak5C",
+  "68784e5bb547b5aef5a5be26": "Kill 5 PMCS on Shoreline using the Ak5C",
+
+
+
+  "6879a0da60f8d8a90e632755 name": "Weapons Trial: Finale",
+  "6879a0da60f8d8a90e632755 description": "Will do this later",
+  "6879a0da60f8d8a90e632755 startedMessageText": "This too",
+  "6879a0da60f8d8a90e632755 successMessageText": "And this",
+  "6879a222a8d2ec1d371514d0": "Kill 20 PMCs between the hours of 21:00 and 6:00 using the Ak5C and the Ak5D (Excluding Factory)"
 }
