@@ -1,6 +1,6 @@
 {
   "6833b8bc6f8ce71072c4e703 name": "False Flag",
-  "6833b8bc6f8ce71072c4e703 description": "Contractor, we have a humanitarian crisis brewing. Hostile factions are targeting UN aid convoys in Woods - but the media needs proof. Plant 5 UNTAR tags near some faction hotspots, put them on a few executed bodies. When the world sees the BEAR and USEC are decimating the blue helmets, donations to our 'operations' will triple. Saving lives through proper optics.",
+  "6833b8bc6f8ce71072c4e703 description": "Contractor, we have a humanitarian crisis brewing. Hostile factions are targeting UN aid convoys in Woods - but the media needs proof. Plant 3 UNTAR tags near some faction hotspots, put them on a few executed bodies. When the world sees the BEAR and USEC are decimating the blue helmets, donations to our 'operations' will triple. Saving lives through proper optics.",
   "6833b8bc6f8ce71072c4e703 startedMessageText": "Plant the tags, stage the bodies, vanish. If they trace this back or you get caught, you're a rogue actor.",
   "6833b8bc6f8ce71072c4e703 successMessageText": "Reuters just ran a story condeming PMC factions for their brutal atrocities. Geneva is screaming for sanctions. Our funding is secured... For now.",
   "6833b8bc6f8ce71072c4e703 failMessageText": "You compromised the operation. UNTAR is breathing down my neck. If you can't handle the work, don't take the job.",
@@ -63,8 +63,8 @@
   "6877096d5299037a1c4b7b2f description": "Will do this later",
   "6877096d5299037a1c4b7b2f startedMessageText": "This too",
   "6877096d5299037a1c4b7b2f successMessageText": "And this",
-  "68770a9b8cc4478bd88d86ca": "Kill 5 Scavs on Reserve",
-  "68782def57bd3034268c3345": "Kill 5 Scavs on Ground Zero",
+  "68770a9b8cc4478bd88d86ca": "Kill 5 Scavs on Reserve using the Ak5CC",
+  "68782def57bd3034268c3345": "Kill 5 Scavs on Ground Zero using the Ak5C",
   
   
 
@@ -72,8 +72,16 @@
   "68784cf8dbe00560604d51e1 description": "Will do this later",
   "68784cf8dbe00560604d51e1 startedMessageText": "This too",
   "68784cf8dbe00560604d51e1 successMessageText": "And this",
-  "68784e212b1bbf5869da98b4": "Kill 10 PMCs on Interchange",
-  "68784de02c61f26ddb77ba10": "Kill 10 PMCs on Woods",
-  "68784e80440f9c9295379b61": "Kill 10 PMCS on Factory",
-  "68784e5bb547b5aef5a5be26": "Kill 10 PMCS on Shoreline"
+  "68784e212b1bbf5869da98b4": "Kill 5 PMCs on Interchange using the Ak5C",
+  "68784de02c61f26ddb77ba10": "Kill 5 PMCs on Woods using the Ak5C",
+  "68784e80440f9c9295379b61": "Kill 5 PMCS on Factory using the Ak5C",
+  "68784e5bb547b5aef5a5be26": "Kill 5 PMCS on Shoreline using the Ak5C",
+
+
+
+  "6879a0da60f8d8a90e632755 name": "Weapons Trial: Finale",
+  "6879a0da60f8d8a90e632755 description": "Will do this later",
+  "6879a0da60f8d8a90e632755 startedMessageText": "This too",
+  "6879a0da60f8d8a90e632755 successMessageText": "And this",
+  "6879a222a8d2ec1d371514d0": "Kill 20 PMCs between the hours of 21:00 and 6:00 using the Ak5C and the Ak5D (Excluding Factory)"
 }
