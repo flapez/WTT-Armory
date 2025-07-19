@@ -8,5 +8,13 @@
   "686fb59d8b0538a76b923998": "Find the bootleg DVD at the Health Resort",
   "687309c0742d221499ecb69e": "Find the game console at the Health Resort",
   "68730b8f645d8547cbf06740": "Place the bootlegged DVD at the mini theater on Interchange",
-  "68730c98c6a9aafc1a8c2078": "Place the game console at the mini theater on Interchange"
+  "68730c98c6a9aafc1a8c2078": "Place the game console at the mini theater on Interchange",
+
+
+
+  "686051774a290eb6f216471f name": "Arms Recovery",
+  "686051774a290eb6f216471f description": "I tracked down tracked down a shipment of NATO weapons that was delivered to Customs. We aren't sure what the weapons are, but I want you to go and track them down and mark the shipment for me!",
+  "686051774a290eb6f216471f startedMessageText": "Get your ass out there and find that shipment!",
+  "686051774a290eb6f216471f successMessageText": "Great work on finding that shipment. Turns out that the weapons were absolute garbage!! You can keep two for yourself and I guess I will just sell the rest. Thanks again I suppose.",
+  "6860529aac68575f65f0578e": "Place a MS2000 Marker on the boxes in the basement of Fortress near the extraction point."
 }
