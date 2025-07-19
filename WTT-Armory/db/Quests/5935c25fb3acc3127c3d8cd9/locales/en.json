@@ -55,18 +55,18 @@
 
 
   "6877096d5299037a1c4b7b2f name": "Weapons Trial: Scavs",
-  "6877096d5299037a1c4b7b2f description": "Will do this later",
-  "6877096d5299037a1c4b7b2f startedMessageText": "This too",
-  "6877096d5299037a1c4b7b2f successMessageText": "And this",
+  "6877096d5299037a1c4b7b2f description": "Here is the scoop - I got some weapons in, but I need someone to do a little bit of testing for me to see if they are worth it. You are the best man for the job, so take this gun and go kill some Scavs for me. This should be pretty easy for you. I will give you some cash also for doing so. Good luck!",
+  "6877096d5299037a1c4b7b2f startedMessageText": "Thanks for doing this soldier. These guns better be worth it!",
+  "6877096d5299037a1c4b7b2f successMessageText": "Perfect! They look like they will do just fine out in the field! I will get more ordered and I will see what else I can get ordered for you to try.",
   "68770a9b8cc4478bd88d86ca": "Kill 5 Scavs on Reserve using the Ak5CC",
   "68782def57bd3034268c3345": "Kill 5 Scavs on Ground Zero using the Ak5C",
   
   
 
   "68784cf8dbe00560604d51e1 name": "Weapons Trial: PMCs",
-  "68784cf8dbe00560604d51e1 description": "Will do this later",
-  "68784cf8dbe00560604d51e1 startedMessageText": "This too",
-  "68784cf8dbe00560604d51e1 successMessageText": "And this",
+  "68784cf8dbe00560604d51e1 description": "Hello again. It looks like I can get more variants of the gun I had you test. I am gonna ask again if you can run a few test for me again, but this time I want the test to be bit harder. Go kill PMC's in certain areas of Tarkov.",
+  "68784cf8dbe00560604d51e1 startedMessageText": "As always, thanks again for being my test subject.",
+  "68784cf8dbe00560604d51e1 successMessageText": "Awesome work! Here is a little extra for your help.",
   "68784e212b1bbf5869da98b4": "Kill 5 PMCs on Interchange using the Ak5C",
   "68784de02c61f26ddb77ba10": "Kill 5 PMCs on Woods using the Ak5C",
   "68784e80440f9c9295379b61": "Kill 5 PMCS on Factory using the Ak5C",
@@ -75,8 +75,8 @@
 
 
   "6879a0da60f8d8a90e632755 name": "Weapons Trial: Finale",
-  "6879a0da60f8d8a90e632755 description": "Will do this later",
-  "6879a0da60f8d8a90e632755 startedMessageText": "This too",
-  "6879a0da60f8d8a90e632755 successMessageText": "And this",
+  "6879a0da60f8d8a90e632755 description": "Alright soldier I have one more task for you. I got the other shipments of those weapons you tested for purchase. The last thing I am going to ask is you to kill more PMCs, but this time at night. If this goes well I can get one more variant of the weapon and this one looks badass.",
+  "6879a0da60f8d8a90e632755 startedMessageText": "I am counting on you soldier. Do this and I will reward you well.",
+  "6879a0da60f8d8a90e632755 successMessageText": "Hell yeah! Take these rewards and I will get a shipment of this weapon soon!",
   "6879a222a8d2ec1d371514d0": "Kill 20 PMCs between the hours of 21:00 and 6:00 using the Ak5C and the Ak5D (Excluding Factory)"
 }
