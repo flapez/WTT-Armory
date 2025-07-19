@@ -4,13 +4,14 @@
         "parentId": "5447b5cf4bdc2d65278b4567",
         "handbookParentId": "5b5f792486f77447ed5636b3",
         "overrideProperties": {
-			"Ergonomics": 82,
-			"RecoilForceBack": 218,
-			"RecoilForceUp": 248,
+			"Ergonomics": 79,
+			"RecoilCamera": 0.007,
+			"RecoilForceBack": 228,
+			"RecoilForceUp": 259,
 			"Weight":0.398,
-			"RecoilDampingHandRotation": 0.82,
-			"RecolDispersion": 9,
-			"RecoilReturnPathDampingHandRotation": 0.38,
+			"RecoilDampingHandRotation": 0.79,
+			"RecolDispersion": 7,
+			"RecoilReturnPathDampingHandRotation": 0.41,
 			"RecoilReturnSpeedHandRotation": 7,
 			"Velocity": 8.45,
             "Prefab": {
@@ -239,8 +240,9 @@
         "parentId": "5448bc234bdc2d3c308b4569",
         "handbookParentId": "5b5f754a86f774094242f19b",
         "overrideProperties": {
+            "Ergonomics": 1,
+			"MalfunctionChance": 0.02,
 			"Weight":0.092,
-            "ergonomics": 1,
             "Prefab": {
                 "path": "WeaponUCP/ucp_magazine.bundle",
                 "rcid": ""
@@ -276,8 +278,11 @@
         "parentId": "555ef6e44bdc2de9068b457e",
         "handbookParentId": "5b5f75c686f774094242f19f",
         "overrideProperties": {
-			"Weight":0.166,
+			"CenterOfImpact":0.276,
+			"CoolFactor": 1.16,
+			"HeatFactor": 1.09,
 			"Velocity": 0,
+			"Weight":0.166,
             "Prefab": {
                 "path": "WeaponUCP/ucp_barrel.bundle",
                 "rcid": ""
@@ -314,9 +319,12 @@
         "parentId": "555ef6e44bdc2de9068b457e",
         "handbookParentId": "5b5f75c686f774094242f19f",
         "overrideProperties": {
-			"Weight":0.174,
+			"CenterOfImpact":0.274,
+			"CoolFactor": 1.16,
 			"Ergonomics": 1,
+			"HeatFactor": 1.09,
 			"Velocity": 0.5,
+			"Weight":0.174,
             "Prefab": {
                 "path": "WeaponUCP/ucp_barrel_threaded.bundle",
                 "rcid": ""
@@ -448,7 +456,6 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "Ergonomics": 5,
             "Weight": 0.055
         },
         "locales": {
@@ -530,7 +537,7 @@
         },
         "clearClonedProps": false,
         "addtoInventorySlots": [],
-        "addtoModSlots": true,
+        "addtoModSlots": false,
         "modSlot": [
             "mod_muzzle"
         ],

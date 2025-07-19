@@ -4,21 +4,23 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
+      "CameraSnap": 2.2,
       "Ergonomics": 66,
       "HeatFactorGun": 1.04,
       "HeatFactorByShot": 2.55,
       "RecoilCamera": 0.011,
       "DurabilityBurnRatio": 1.858,
-      "BaseMalfunctionChance": 0.4241,
+      "BaseMalfunctionChance": 0.420,
       "RecoilCategoryMultiplierHandRotation": 0.13,
-      "RecolDispersion": 9,
+      "RecolDispersion": 10,
       "RecoilForceBack": 272,
       "RecoilForceUp": 401,
-      "RecoilDampingHandRotation": 0.75,
-      "RecoilReturnPathDampingHandRotation": 0.44,
+      "RecoilDampingHandRotation": 0.76,
+      "RecoilReturnPathDampingHandRotation": 0.45,
       "RecoildReturnSpeedHandRotation": 3.5,
       "bFirerate": 25,
       "SingleFireRate": 400,
+      "Velocity": -11,
       "Weight": 0.420,
       "isChamberLoad": false,
       "ManualBoltCatch": true,
@@ -203,8 +205,11 @@
         "path": "WeaponC9/c9_barrel.bundle",
         "rcid": ""
       },
-      "Weight": 0.125,
+      "CenterOfImpact":0.379,
+      "CoolFactor": 1.31,
+      "HeatFactor": 1.25,
       "Velocity": -2.31,
+      "Weight": 0.125,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -241,7 +246,7 @@
         "rcid": ""
       },
       "Weight": 0.390,
-      "SightingRange": 200,
+      "SightingRange": 100,
       "Slots": [],
       "ExaminedByDefault": true
     },
@@ -274,6 +279,7 @@
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
     "overrideProperties": {
+      "MalfunctionChance": 0.055,
       "Prefab": {
         "path": "WeaponC9/c9_magazine.bundle",
         "rcid": ""

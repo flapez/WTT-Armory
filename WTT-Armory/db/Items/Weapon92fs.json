@@ -16,6 +16,7 @@
       "RecoilForceBack": 289,
       "RecoilForceUp": 418,
       "RecoilReturnPathDampingHandRotation": 0.46,
+      "Velocity": 11,
       "Weight": 0.331,
       "ExaminedByDefault": true,
       "defAmmo": "58864a4f2459770fcc257101",
@@ -176,7 +177,7 @@
         "path": "Weapon92fs/92fs_threadedbarrel.bundle",
         "rcid": ""
       },
-      "CenterOfImpact": 0.30,
+      "CenterOfImpact": 0.296,
       "CoolFactor": 1.14,
       "DeviationCurve": 2.29,
       "DeviationMax": 12,
@@ -240,7 +241,7 @@
         "path": "Weapon92fs/92fs_barrel.bundle",
         "rcid": ""
       },
-      "CenterOfImpact": 0.32,
+      "CenterOfImpact": 0.299,
       "CoolFactor": 1.12,
       "DeviationCurve": 2.15,
       "DeviationMax": 9.5,
@@ -322,8 +323,9 @@
         "path": "Weapon92fs/92fs_magazine.bundle",
         "rcid": ""
       },
-      "LoadUnloadModifier": -15,
       "CheckTimeModifier": -15,
+      "LoadUnloadModifier": -15,
+      "MalfunctionChance": 0.02,
       "Weight": 0.08,
       "ExaminedByDefault": true,
       "Cartridges": [

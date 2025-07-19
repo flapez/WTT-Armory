@@ -5,10 +5,11 @@
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
       "Ergonomics": 84,
-      "RecoilForceBack": 317,
+      "RecoilForceBack": 319,
       "RecoilForceUp": 434,
-      "RecoilDampingHandRotation": 0.76,
-      "RecoilCamera": 0.008,
+      "RecoilReturnPathDampingHandRotation": 0.4,
+      "RecoilCamera": 0.009,
+      "Velocity": 2,
       "Prefab": {
         "path": "WeaponUdav/weapon_udav_container.bundle",
         "rcid": ""
@@ -124,7 +125,7 @@
       "en": {
         "name": "SR-2 Udav 9x21mm pistol",
         "shortName": "Udav",
-        "description": "The SR-2 Udav pistol is a Russian 9x21mm short-recoil-operated semi-automatic pistol.  It uses a traditional Browning-type action with a tilting barrel that locks into the ejection opening in the slide."
+        "description": "The SR-2 Udav (Удав - “Boa”, GRAU Index - 6P72) is a Russian 9×21mm short-recoil-operated semi-automatic pistol. It was released by Central Scientific - Research Institute of Precision Machine Engineering (TsNIITochMash) in 2019 as a replacement for the Makarov PM for the Russian military and passed military trials the month following its release date. The design has many improvements over the Makarov including a polymer frame with better texturing for more comfort, ambidextrous controls, a dedicated accessory rail built into the frame, and removable sights to offer more flexibility than its predecessor."
       }
     },
     "clearClonedProps": false,
@@ -220,7 +221,8 @@
         "path": "WeaponUdav/udav_barrel_threaded.bundle",
         "rcid": ""
       },
-      "CenterOfImpact": 0.3,
+      "Ergonomics": -2,
+      "CenterOfImpact": 0.244,
       "Velocity": 0.5,
       "ExaminedByDefault": true,
       "Slots": [
@@ -277,7 +279,7 @@
         "path": "WeaponUdav/udav_barrel.bundle",
         "rcid": ""
       },
-      "CenterOfImpact": 0.33,
+      "CenterOfImpact": 0.245,
       "Velocity": 0,
       "ExaminedByDefault": true,
       "Slots": []
@@ -315,7 +317,7 @@
         "path": "WeaponUdav/udav_mag.bundle",
         "rcid": ""
       },
-      "MalfunctionChance": 0.03,
+      "MalfunctionChance": 0.035,
       "Weight": 0.08,
       "ExaminedByDefault": true
     },
@@ -323,7 +325,7 @@
       "en": {
         "name": "SR-2 Udav 18-Round 9x21mm magazine",
         "shortName": "Udav",
-        "description": "An 18-round 9x21mm magazine for the SR-2 Udav pistol."
+        "description": "Standard 18-round 9x21mm magazine for the SR-2 Udav pistol. Features a side observation slot."
       }
     },
     "clearClonedProps": false,

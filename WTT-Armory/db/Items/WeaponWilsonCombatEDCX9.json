@@ -4,9 +4,13 @@
         "parentId": "5447b5cf4bdc2d65278b4567",
         "handbookParentId": "5b5f792486f77447ed5636b3",
         "overrideProperties": {
-            "RecoilForceBack": 240,
-            "RecoilForceUp": 295,
-            "RecoilDampingHandRotation": 0.81,
+			"CameraSnap": 5.5,
+            "RecoilForceBack": 260,
+            "RecoilForceUp": 300,
+            "RecolDispersion": 7.5,
+            "RecoilDampingHandRotation": 0.78,
+            "RecoilReturnPathDampingHandRotation": 0.37,
+			"bFirerate": 35,
             "Prefab": {
                 "path": "WeaponWilsonCombatEDCX9/weapon_wilson_edcx9_container.bundle",
                 "rcid": ""
@@ -101,10 +105,17 @@
                         "filters": [
                             {
                                 "Filter": [
-                                    "5f3e76d86cda304dcc634054",
-                                    "5ef35f46382a846010715a96",
-                                    "5ef35d2ac64c5d0dfc0571b0",
-                                    "5ef35bc243cb350a955a7ccd"
+                                "684602c4cb2dfb57366dbea3",
+                                "684606542ae9fafc455c4360",
+                                "68460695d918c58b53030c31",
+                                "6846069e5a768dfe9bf56af1",
+                                "5e81c550763d9f754677befd",
+                                "5f3e76d86cda304dcc634054",
+                                "5ef35f46382a846010715a96",
+                                "5ef35d2ac64c5d0dfc0571b0",
+                                "5ef35bc243cb350a955a7ccd",
+                                "665fe6a117ff1ba8218d680c",
+                                "677c9e9d8949d89b64a3baa5"
                                 ],
                                 "Shift": 0
                             }
@@ -130,8 +141,6 @@
                                     "5a7b483fe899ef0016170d15",
                                     "5a5f1ce64f39f90b401987bc",
                                     "560d657b4bdc2da74d8b4572",
-                                    "5a7b4900e899ef197b331a2a",
-                                    "5b3a08b25acfc4001754880c",
                                     "6272370ee4013c5d7e31f418",
                                     "6272379924e29f06af4d5ecb"
                                 ],
@@ -266,8 +275,9 @@
                 "path": "WeaponWilsonCombatEDCX9/wilson_barrel.bundle",
                 "rcid": ""
             },
-            "Weight": 0.08,
+			"CenterOfImpact":0.264,
             "Recoil": -4,
+            "Weight": 0.08,
             "ExaminedByDefault": true
         },
         "locales": {
@@ -303,9 +313,11 @@
                 "path": "WeaponWilsonCombatEDCX9/wilson_longslide_barrel.bundle",
                 "rcid": ""
             },
-            "Weight": 0.1,
-            "Recoil": -6,
+			"CenterOfImpact":0.261,
             "Ergonomics": -1,
+            "Recoil": -6,
+			"Velocity": 0,
+            "Weight": 0.1,
             "ExaminedByDefault": true,
             "ConflictingItems": [
                 "6761b213607f9a6f79017d55",
@@ -341,9 +353,10 @@
         "parentId": "55818a304bdc2db5418b457d",
         "handbookParentId": "5b5f764186f77447ec5d7714",
         "overrideProperties": {
-            "Weight": 0.35,
-            "Recoil": -2,
             "Ergonomics": 5,
+            "Recoil": -2,
+			"SightingRange": 200,
+            "Weight": 0.35,
             "Prefab": {
                 "path": "WeaponWilsonCombatEDCX9/wilson_slide.bundle",
                 "rcid": ""
@@ -566,6 +579,7 @@
                 "path": "WeaponWilsonCombatEDCX9/wilson_magazine.bundle",
                 "rcid": ""
             },
+			"MalfunctionChance": 0.02,
             "ExaminedByDefault": true
         },
         "locales": {
@@ -777,6 +791,7 @@
                 "path": "WeaponWilsonCombatEDCX9/wilson_magazine_ext.bundle",
                 "rcid": ""
             },
+			"MalfunctionChance": 0.025,
             "Ergonomics": -4,
             "ExaminedByDefault": true,
             "Cartridges": [

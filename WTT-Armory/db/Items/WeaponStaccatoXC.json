@@ -9,13 +9,18 @@
                 "rcid": ""
             },
             "Ergonomics": 83,
+			"CameraSnap": 6,
             "BaseMalfunctionChance": 0.15,
-            "RecoilForceUp": 389,
-            "RecoilForceBack": 273,
+            "RecoilCamera": 0.014,
+            "RecoilForceUp": 355,
+            "RecoilForceBack": 279,
 			"Weight":0.454,
-            "RecoilDampingHandRotation": 0.62,
+            "RecoilDampingHandRotation": 0.77,
+            "RecolDispersion": 7,
             "RecoilReturnPathDampingHandRotation": 0.33,
             "ExaminedByDefault": true,
+            "Velocity": 19,
+			"bFirerate": 40,
             "defMagType": "68452ea1e41a7fbeb0b2ff4e",
             "defAmmo": "58864a4f2459770fcc257101",
             "Slots": [
@@ -290,10 +295,12 @@
                 "path": "WeaponStaccatoXC/xc_barrel.bundle",
                 "rcid": ""
             },
+			"CenterOfImpact":0.221,
+            "Ergonomics": -2,
+            "Recoil": -7,
+			"Velocity": 0,
 			"Weight":0.106,
             "ExaminedByDefault": true,
-            "Recoil": -7,
-            "Ergonomics": -2,
             "Slots": [
                 {
                     "_id": "68452dc9511f2d982e63804d",
@@ -348,8 +355,10 @@
                 "path": "WeaponStaccatoXC/xc_longbarrel.bundle",
                 "rcid": ""
             },
+			"CenterOfImpact":0.215,
             "Ergonomics": -4,
             "Recoil": -5,
+			"Velocity": 2,
 			"Weight":0.100,
             "ExaminedByDefault": true
         },
@@ -811,10 +820,11 @@
                 "rcid": ""
             },
 			"CheckTimeModifier": -10,
+            "Ergonomics": -1,
 			"LoadUnloadModifier": -15,
+			"MalfunctionChance": 0.015,
 			"Weight":0.098,
-            "ExaminedByDefault": true,
-            "Ergonomics": -1
+            "ExaminedByDefault": true
         },
         "locales": {
             "en": {
@@ -850,10 +860,11 @@
                 "rcid": ""
             },
 			"CheckTimeModifier": -20,
+            "Ergonomics": -3,
 			"LoadUnloadModifier": -5,
+			"MalfunctionChance": 0.021,
 			"Weight":0.108,
-            "ExaminedByDefault": true,
-            "Ergonomics": -3
+            "ExaminedByDefault": true
         },
         "locales": {
             "en": {

@@ -4,12 +4,15 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
+      "CameraSnap": 4.5,
       "Ergonomics": 83,
       "RecoilForceBack": 276,
-      "RecoilForceUp": 410,
-      "RecoilDampingHandRotation": 0.79,
-      "RecolDispersion": 9,
+      "RecoilForceUp": 420,
+      "RecoilDampingHandRotation": 0.81,
+      "RecolDispersion": 7.5,
+      "RecoilReturnPathDampingHandRotation": 0.32,
       "RecoilCamera": 0.008,
+      "Velocity": 15,
       "Weight": 0.320,
       "Prefab": {
         "path": "WeaponCZ75/weapon_cz75b_container.bundle",
@@ -171,9 +174,9 @@
         "path": "WeaponCZ75/cz75_barrel_threaded.bundle",
         "rcid": ""
       },
-      "Weight": 0.11,
+      "CenterOfImpact": 0.319,
       "Ergonomics": -5,
-      "CenterOfImpact": 0.3,
+      "Weight": 0.11,
       "ExaminedByDefault": true,
       "Slots": [
         {
@@ -185,11 +188,14 @@
               {
                 "Shift": 0,
                 "Filter": [
+                  "5a7ad1fb51dfba0013379715",
+                  "5c6beec32e221601da3578f2",
                   "5c7e8fab2e22165df16b889b",
                   "5a33a8ebc4a282000c5a950d",
                   "5c6165902e22160010261b28",
                   "5a32a064c4a28200741e22de",
-                  "666102ef2d367ec85ddd2030"
+                  "666102ef2d367ec85ddd2030",
+                  "59bffc1f86f77435b128b872"
                 ]
               }
             ]
@@ -234,7 +240,7 @@
         "rcid": ""
       },
       "Weight": 0.092,
-      "CenterOfImpact": 0.33,
+      "CenterOfImpact": 0.321,
       "Ergonomics": -5,
       "ExaminedByDefault": true,
       "Slots": []
@@ -269,7 +275,7 @@
     "handbookParentId": "5b5f764186f77447ec5d7714",
     "overrideProperties": {
       "Weight": 0.390,
-      "SightingRange": 200,
+      "SightingRange": 100,
       "Prefab": {
         "path": "WeaponCZ75/cz75b_slide.bundle",
         "rcid": ""
@@ -312,7 +318,7 @@
         "rcid": ""
       },
       "Ergonomics": -2,
-      "MalfunctionChance": 0.03,
+      "MalfunctionChance": 0.02,
       "Weight": 0.11,
       "ExaminedByDefault": true
     },
@@ -346,7 +352,7 @@
     "handbookParentId": "5b5f764186f77447ec5d7714",
     "overrideProperties": {
       "Weight": 0.390,
-      "SightingRange": 200,
+      "SightingRange": 100,
       "Prefab": {
         "path": "WeaponCZ75/cz75b_omega_slide.bundle",
         "rcid": ""
@@ -384,12 +390,14 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
+      "CameraSnap": 4.5,
       "Ergonomics": 79,
       "RecoilForceBack": 266,
-      "RecoilForceUp": 402,
+      "RecoilForceUp": 412,
       "RecoilDampingHandRotation": 0.79,
-      "RecolDispersion": 9,
+      "RecolDispersion": 7,
       "RecoilCamera": 0.008,
+      "Velocity": 15,
       "Weight": 0.344,
       "Prefab": {
         "path": "WeaponCZ75/weapon_cz75b_omega_container.bundle",

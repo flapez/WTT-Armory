@@ -5,13 +5,15 @@
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
       "BaseMalfunctionChance": 0.14,
+      "CameraSnap": 5.5,
       "Ergonomics": 86,
-      "RecoilDampingHandRotation": 0.81,
-      "RecoilForceBack": 273,
-      "RecoilForceUp": 388,
-      "RecoilReturnPathDampingHandRotation": 0.33,
-      "RecoilReturnSpeedHandRotation": 6.5,
-      "RecolDispersion": 9,
+      "RecoilDampingHandRotation": 0.83,
+      "RecoilForceBack": 279,
+      "RecoilForceUp": 368,
+      "RecoilReturnPathDampingHandRotation": 0.385,
+      "RecoilReturnSpeedHandRotation": 7,
+      "RecolDispersion": 10,
+      "Velocity": 8,
       "Prefab": {
         "path": "WeaponProdigy/weapon_prodigy_container.bundle",
         "rcid": ""
@@ -184,8 +186,6 @@
                   "5b07dd285acfc4001754240d",
                   "56def37dd2720bec348b456a",
                   "5a7b483fe899ef0016170d15",
-                  "5a5f1ce64f39f90b401987bc",
-                  "560d657b4bdc2da74d8b4572",
                   "6272370ee4013c5d7e31f418",
                   "6272379924e29f06af4d5ecb"
                 ],
@@ -341,13 +341,15 @@
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
       "BaseMalfunctionChance": 0.14,
+      "CameraSnap": 5.5,
       "Ergonomics": 86,
-      "RecoilDampingHandRotation": 0.81,
-      "RecoilForceBack": 273,
-      "RecoilForceUp": 388,
-      "RecoilReturnPathDampingHandRotation": 0.33,
-      "RecoilReturnSpeedHandRotation": 6.5,
-      "RecolDispersion": 9,
+      "RecoilDampingHandRotation": 0.83,
+      "RecoilForceBack": 279,
+      "RecoilForceUp": 368,
+      "RecoilReturnPathDampingHandRotation": 0.385,
+      "RecoilReturnSpeedHandRotation": 7,
+      "RecolDispersion": 10,
+      "Velocity": 8,
       "Prefab": {
         "path": "WeaponProdigy/weapon_prodigy_fde_container.bundle",
         "rcid": ""
@@ -520,8 +522,6 @@
                   "5b07dd285acfc4001754240d",
                   "56def37dd2720bec348b456a",
                   "5a7b483fe899ef0016170d15",
-                  "5a5f1ce64f39f90b401987bc",
-                  "560d657b4bdc2da74d8b4572",
                   "6272370ee4013c5d7e31f418",
                   "6272379924e29f06af4d5ecb"
                 ],
@@ -785,11 +785,13 @@
                 "Filter": [
                   "5a70366c8dc32e001207fb06",
                   "5a7ad1fb51dfba0013379715",
+                  "5c6beec32e221601da3578f2",
                   "5c7e8fab2e22165df16b889b",
                   "5a33a8ebc4a282000c5a950d",
                   "5c6165902e22160010261b28",
                   "5a32a064c4a28200741e22de",
-                  "666102ef2d367ec85ddd2030"
+                  "666102ef2d367ec85ddd2030",
+                  "59bffc1f86f77435b128b872"
                 ]
               }
             ]
@@ -1063,8 +1065,9 @@
         "path": "WeaponProdigy/prodigy_magazine.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true,
-      "Ergonomics": -3
+      "Ergonomics": -3,
+      "MalfunctionChance": 0.03,
+      "ExaminedByDefault": true
     },
     "locales": {
       "en": {

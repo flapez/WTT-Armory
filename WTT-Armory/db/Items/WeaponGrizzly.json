@@ -4,18 +4,21 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "Weight": 0.432,
-      "CameraSnap": 3,
-      "HeatFactorByShot": 3.26,
+      "bFirerate": 25,
+      "CameraSnap": 1.2,
+      "Ergonomics": 67,
+      "HeatFactorByShot": 2.92,
       "HeatFactorGun": 1,
-      "RecoilCamera": 0.041,
-      "RecoilDampingHandRotation": 0.9,
-      "RecoilReturnSpeedHandRotation": 2.3,
-      "RepairCost": 65,
-      "Ergonomics": 61,
       "RecoilAngle": 90,
-	  "RecoilForceBack": 350,
-	  "RecoilForceUp": 479,
+      "RecoilCamera": 0.048,
+      "RepairCost": 65,
+      "RecoilDampingHandRotation": 0.84,
+      "RecoilReturnPathDampingHandRotation": 0.47,
+      "RecolDispersion": 9,
+	  "RecoilForceBack": 333,
+	  "RecoilForceUp": 474,
+      "RecoilReturnSpeedHandRotation": 2.1,
+      "Weight": 0.432,
       "Prefab": {
         "path": "WeaponGrizzly/weapon_grizzly_blk_container.bundle",
         "rcid": ""
@@ -338,18 +341,21 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "Weight": 0.432,
-      "CameraSnap": 3,
-      "HeatFactorByShot": 3.26,
+      "bFirerate": 25,
+      "CameraSnap": 1.2,
+      "Ergonomics": 67,
+      "HeatFactorByShot": 2.92,
       "HeatFactorGun": 1,
-      "RecoilCamera": 0.041,
-      "RecoilDampingHandRotation": 0.9,
-      "RecoilReturnSpeedHandRotation": 2.3,
-      "RepairCost": 65,
-      "Ergonomics": 61,
       "RecoilAngle": 90,
-	  "RecoilForceBack": 350,
-	  "RecoilForceUp": 479,
+      "RecoilCamera": 0.048,
+      "RepairCost": 65,
+      "RecoilDampingHandRotation": 0.84,
+      "RecoilReturnPathDampingHandRotation": 0.47,
+      "RecolDispersion": 9,
+	  "RecoilForceBack": 333,
+	  "RecoilForceUp": 474,
+      "RecoilReturnSpeedHandRotation": 2.1,
+      "Weight": 0.432,
       "Prefab": {
         "path": "WeaponGrizzly/weapon_grizzly_gold_container.bundle",
         "rcid": ""
@@ -672,18 +678,21 @@
     "parentId": "5447b5cf4bdc2d65278b4567",
     "handbookParentId": "5b5f792486f77447ed5636b3",
     "overrideProperties": {
-      "Weight": 0.432,
-      "CameraSnap": 3,
-      "HeatFactorByShot": 3.26,
+      "bFirerate": 25,
+      "CameraSnap": 1.2,
+      "Ergonomics": 67,
+      "HeatFactorByShot": 2.92,
       "HeatFactorGun": 1,
-      "RecoilCamera": 0.041,
-      "RecoilDampingHandRotation": 0.9,
-      "RecoilReturnSpeedHandRotation": 2.3,
-      "RepairCost": 65,
-      "Ergonomics": 61,
       "RecoilAngle": 90,
-	  "RecoilForceBack": 350,
-	  "RecoilForceUp": 479,
+      "RecoilCamera": 0.048,
+      "RepairCost": 65,
+      "RecoilDampingHandRotation": 0.84,
+      "RecoilReturnPathDampingHandRotation": 0.47,
+      "RecolDispersion": 9,
+	  "RecoilForceBack": 333,
+	  "RecoilForceUp": 474,
+      "RecoilReturnSpeedHandRotation": 2.1,
+      "Weight": 0.432,
       "Prefab": {
         "path": "WeaponGrizzly/weapon_grizzly_stainless_container.bundle",
         "rcid": ""
@@ -1010,7 +1019,7 @@
         "path": "WeaponGrizzly/grizzly_barrel_blk.bundle",
         "rcid": ""
       },
-      "CenterOfImpact": 0.25,
+      "CenterOfImpact": 0.275,
       "Weight": 0.115,
       "Velocity": -1.3,
       "ExaminedByDefault": true
@@ -1048,12 +1057,12 @@
         "path": "WeaponGrizzly/grizzly_barrel_ext.bundle",
         "rcid": ""
       },
+      "CenterOfImpact": 0.259,
       "CoolFactor": 1.13,
       "DurabilityBurnModificator": 0.9,
+      "Ergonomics": -4,
       "HeatFactor": 1.07,
       "Recoil": -6,
-      "Ergonomics": -4,
-      "CenterOfImpact": 0.22,
       "Velocity": 1.7,
       "Weight": 0.135,
       "ExaminedByDefault": true
@@ -1091,9 +1100,9 @@
         "path": "WeaponGrizzly/grizzly_barrel_stainless.bundle",
         "rcid": ""
       },
-      "CenterOfImpact": 0.25,
-      "Weight": 0.115,
+      "CenterOfImpact": 0.274,
       "Velocity": -1.3,
+      "Weight": 0.115,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1129,14 +1138,14 @@
         "path": "WeaponGrizzly/grizzly_barrel_threaded.bundle",
         "rcid": ""
       },
-      "CenterOfImpact": 0.24,
+      "CenterOfImpact": 0.27,
       "CoolFactor": 1.14,
       "DurabilityBurnModificator": 1.0,
+      "Ergonomics": -4,
       "HeatFactor": 1.08,
       "Recoil": -4,
-      "Ergonomics": -4,
-      "Weight": 0.127,
       "Velocity": 0,
+      "Weight": 0.127,
       "ExaminedByDefault": true,
       "Slots": [
         {
@@ -1148,7 +1157,8 @@
               {
                 "Shift": 0,
                 "Filter": [
-                  "677ca04bc5fcd4555728b18c"
+                  "677ca04bc5fcd4555728b18c",
+				  "59bffc1f86f77435b128b872"
                 ]
               }
             ]
@@ -1584,6 +1594,7 @@
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
     "overrideProperties": {
+      "MalfunctionChance": 0.05,
       "Prefab": {
         "path": "WeaponGrizzly/grizzly_magazine_blk.bundle",
         "rcid": ""
@@ -1640,6 +1651,7 @@
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
     "overrideProperties": {
+      "MalfunctionChance": 0.05,
       "Prefab": {
         "path": "WeaponGrizzly/grizzly_magazine_stainless.bundle",
         "rcid": ""
@@ -1914,7 +1926,7 @@
         "rcid": ""
       },
       "HeatFactor": 1.12,
-      "Ergonomics": -22,
+      "Ergonomics": -20,
       "Recoil": -9,
       "Weight": 0.5,
       "Loudness": -25,
@@ -2120,7 +2132,7 @@
     },
     "clearClonedProps": false,
     "addtoInventorySlots": [],
-    "addtoModSlots": true,
+    "addtoModSlots": false,
     "modSlot": [
         "mod_muzzle"
     ],
@@ -2145,7 +2157,7 @@
       "rcid": ""
     },
     "Weight": 0.03,
-    "Ergonomics": -1,
+    "Ergonomics": -2,
     "Slots": [
       {
         "_id": "677ca54f8d68dcff84a4028a",
