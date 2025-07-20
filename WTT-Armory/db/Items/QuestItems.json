@@ -356,5 +356,42 @@
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
+  },
+    "6879e7fa4c184bd0590dbab6": {
+    "itemTplToClone": "591092ef86f7747bb8703422",
+    "parentId": "5448ecbe4bdc2d60728b4568",
+    "handbookParentId": "5b619f1a86f77450a702a6f3",
+    "overrideProperties": {
+      "QuestItem": true,
+      "Height": 1,
+      "Width": 2,
+      "Prefab": {
+        "path": "Items_Quests/quest_canus_lupis_note.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Note to Jaeger",
+        "shortName": "Note",
+        "description": "-CSS AK Charging handle\n -6L23 Camo Mag\n -NPZ PK1 Obzor optic\n -Skeleton folding stock\n -AR type pistol grip adapter\n -F1 skeletongrip with yellow shoelace\n Cash on delivery. "
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 225,
+    "handbookPriceRoubles": 170,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
   }
 }

@@ -44,7 +44,41 @@
             ]
         }
     ],
-    "woods": [],
+    "woods": [
+                {
+            "locationId": "(-213.1111 -0.7602 201.5058)",
+            "probability": 0.1678882272102611,
+            "template": {
+                "Id": "item_canus_lupis_note [8e7f3a2b-4c1d-4e6a-b8f9-2d0e5c7a9b1c]",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": -213.1111,
+                    "y": -0.7602,
+                    "z": 201.5058
+                },
+                "Rotation": {
+                    "x": 285.0922,
+                    "y": 0.7745,
+                    "z": 356.6151
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": true,
+                "Root": "687b3f8d854405e9569ca301",
+                "Items": [
+                    {
+                        "_id": "687b3f7eea826c5817b4d387",
+                        "_tpl": "6879e7fa4c184bd0590dbab6",
+                        "upd": {
+                            "StackObjectsCount": 1
+                        }
+                    }
+                ]
+            }
+        }
+    ],
     "shoreline": [
                 {
             "locationId": "(-300.3071 2.8527 -76.5703)",
