@@ -65,7 +65,7 @@
                 },
                 "IsGroupPosition": false,
                 "GroupPositions": [],
-                "IsAlwaysSpawn": true,
+                "IsAlwaysSpawn": false,
                 "Root": "687b3f8d854405e9569ca301",
                 "Items": [
                     {
