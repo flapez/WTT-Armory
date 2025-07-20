@@ -175,7 +175,7 @@
                 },
                 "parentId": "685632ddabcc4d4ec803bc1c"
             },
-            {               
+            {
                 "_id": "6865ea969f4c1f761003d66c",
                 "_tpl": "66b17d6cbb296d01b4684944",
                 "upd": {
@@ -5294,9 +5294,9 @@
                     "FireMode": {
                         "FireMode": "single"
                     },
-                    "UnlimitedCount": false,
-                    "StackObjectsCount": 1,
-                    "BuyRestrictionMax": 1
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 999999,
+                    "BuyRestrictionMax": 0
                 },
                 "parentId": "hideout",
                 "slotId": "hideout"
@@ -5323,6 +5323,12 @@
                 "_id": "6873369b88be92ad980447c7",
                 "_tpl": "676b5367fe34b0539b0f96f5",
                 "slotId": "mod_charge",
+                "parentId": "6873369b88be92ad980447c3"
+            },
+            {
+                "_id": "687c3987516f881da003cd89",
+                "_tpl": "5c6d450c2e221600114c997d",
+                "slotId": "mod_magazine",
                 "parentId": "6873369b88be92ad980447c3"
             },
             {
@@ -5409,7 +5415,7 @@
                 "upd": {
                     "SpawnedInSession": true
                 },
-                "parentId": "68604d630f8b882c4803c86c"    
+                "parentId": "68604d630f8b882c4803c86c"
             }
         ],
         "barter_scheme": {
@@ -5425,7 +5431,7 @@
                 [
                     {
                         "_tpl": "5449016a4bdc2d6f028b456f",
-                        "count": 1
+                        "count": 20550
                     }
                 ]
             ],
@@ -5974,14 +5980,14 @@
                     {
                         "count": 2250,
                         "_tpl": "5449016a4bdc2d6f028b456f"
-                     }
+                    }
                 ]
             ],
             "68604d630f8b882c4803c86c": [
                 [
                     {
                         "count": 45000,
-                        "_tpl": "5449016a4bdc2d6f028b456f"    
+                        "_tpl": "5449016a4bdc2d6f028b456f"
                     }
                 ]
             ]
