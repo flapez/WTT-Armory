@@ -170,8 +170,8 @@ implements IPreSptLoadMod, IPostDBLoadMod
     private displayCreditBanner(): void 
     {
         this.instanceManager.colorLog
-        (`[${this.modName}] A Compendium of Weapon Mods made by the WTT Team & friends`, "green");
-    }
+        (`[${this.modName}] Forged by the creators of WTT & allies — arm yourself accordingly.`, "green");
+    }   
 }
 
 module.exports = { mod: new WTTArmory() };
