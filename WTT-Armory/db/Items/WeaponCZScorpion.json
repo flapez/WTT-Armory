@@ -1,2510 +1,1312 @@
 {
-  "67a01e79a2b82626b73d10dc": {
-    "itemTplToClone": "5926bb2186f7744b1c6c6e60",
-    "parentId": "5447b5e04bdc2d62278b4567",
-    "handbookParentId": "5b5f796a86f774093f2ed3c0",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czscorpion_container.bundle",
-        "rcid": ""
-      },
-      "Width": 1,
-      "Height": 1,
-      "Weight": 1.6,
-      "Foldable": true,
-      "FoldedSlot": "mod_stock",
-      "Ergonomics": 65,
-      "ManualBoltCatch": false,
-      "Slots": [
-        {
-          "_name": "mod_magazine",
-          "_id": "6184055050224f204c1da543",
-          "_parent": "6184055050224f204c1da540",
-          "_props": {
-            "filters": [
-              {
-                "AnimationIndex": -1,
-                "Filter": [
-                  "66350caf3d749fb3864cbe70",
-                  "66350c70a4856b0aad525b34",
-                  "66350ccddf98df8725fb5c8f"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": true,
-          "_proto": "55d30c394bdc2dae468b4577"
+    "687afda52dc9fd6c0e14c602": {
+        "itemTplToClone": "5fc3f2d5900b1d5091531e57",
+        "parentId": "5447b5e04bdc2d62278b4567",
+        "handbookParentId": "5b5f796a86f774093f2ed3c0",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "WeaponCZScorpion/weapon_cz_scorpion_container.bundle",
+                "rcid": ""
+            },
+            "Width": 1,
+            "Height": 1,
+            "Slots": [
+                {
+                    "_id": "687afe246367a6ce81936801",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_magazine",
+                    "_parent": "687afda52dc9fd6c0e14c602",
+                    "_props": {
+                        "filters": [
+                            {
+                                "AnimationIndex": -1,
+                                "Filter": [
+                                    "6761b213607f9a6f79017cdb",
+                                    "687c41fb7d3612ea41c3a822",
+                                    "687c430e91f5db8685fbbae6"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c394bdc2dae468b4577",
+                    "_required": false
+                },
+                {
+                    "_id": "687b02ab00d4421045c7306c",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_handguard",
+                    "_parent": "687afda52dc9fd6c0e14c602",
+                    "_props": {
+                        "filters": [
+                            {
+                                "AnimationIndex": -1,
+                                "Filter": [
+                                    "687b02e550e15d9a28c5681e",
+                                    "687fb46ac2f7551f2ce2e4b1"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c394bdc2dae468b4577",
+                    "_required": true
+                },
+                {
+                    "_id": "687afe278bd6031904683b05",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_stock",
+                    "_parent": "687afda52dc9fd6c0e14c602",
+                    "_props": {
+                        "filters": [
+                            {
+                                "AnimationIndex": -1,
+                                "Filter": [
+                                    "687aff780a062c4f04628738",
+                                    "687b12fbb0bffe0925ad34b2",
+                                    "687c44030594b2dc3318bfca",
+                                    "687c449bb184bc8da37d45d2"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c394bdc2dae468b4577",
+                    "_required": false
+                },
+                {
+                    "_id": "687afe2abfc17b4976e23d72",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_barrel",
+                    "_parent": "687afda52dc9fd6c0e14c602",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "687afeb41db9f3580324752a",
+                                    "687fb6c8734e9a8e27d6b054"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": true
+                },
+                {
+                    "_id": "687afe2dd5d81bc9e66d383b",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_pistol_grip",
+                    "_parent": "687afda52dc9fd6c0e14c602",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "687b001103b1d64f98f261e7",
+                                    "687c43775884a8f022f3ce2e",
+                                    "687c437b2c398db525b8d0e8"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": true
+                },
+                {
+                    "_id": "687afe404ce7ab43c62e6ba1",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_scope",
+                    "_parent": "687afda52dc9fd6c0e14c602",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "570fd721d2720bc5458b4596"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "687afe51e1ba66f52ace1db9",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_rear",
+                    "_parent": "687afda52dc9fd6c0e14c602",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5bc09a18d4351e003562b68e",
+                                    "687fb5224b7bf5a5702898ee"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "687b006bba1525d124198dec",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_charge",
+                    "_parent": "687afda52dc9fd6c0e14c602",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "687b00468b4fafd5ebb3a763"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": true
+                }
+            ],
+            "defMagType": "6761b213607f9a6f79017cdb"
         },
-        {
-          "_name": "mod_scope",
-          "_id": "6165adcdd3a39d50044c1211",
-          "_parent": "6165adcdd3a39d50044c120f",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "57ac965c24597706be5f975c",
-                  "57aca93d2459771f2c7e26db",
-                  "544a3f024bdc2d1d388b4568",
-                  "544a3a774bdc2d3a388b4567",
-                  "5d2dc3e548f035404a1a4798",
-                  "57adff4f24597737f373b6e6",
-                  "5c0517910db83400232ffee5",
-                  "591c4efa86f7741030027726",
-                  "570fd79bd2720bc7458b4583",
-                  "570fd6c2d2720bc6458b457f",
-                  "558022b54bdc2dac148b458d",
-                  "5c07dd120db834001c39092d",
-                  "5c0a2cec0db834001b7ce47d",
-                  "58491f3324597764bc48fa02",
-                  "584924ec24597768f12ae244",
-                  "5b30b0dc5acfc400153b7124",
-                  "6165ac8c290d254f5e6b2f6c",
-                  "60a23797a37c940de7062d02",
-                  "5d2da1e948f035477b1ce2ba",
-                  "5c0505e00db834001b735073",
-                  "609a63b6e2ff132951242d09",
-                  "584984812459776a704a82a6",
-                  "59f9d81586f7744c7506ee62",
-                  "570fd721d2720bc5458b4596",
-                  "57ae0171245977343c27bfcf",
-                  "5dfe6104585a0c3e995c7b82",
-                  "544a3d0a4bdc2d1b388b4567",
-                  "5d1b5e94d7ad1a2b865a96b0",
-                  "609bab8b455afd752b2e6138",
-                  "58d39d3d86f77445bb794ae7",
-                  "616554fe50224f204c1da2aa",
-                  "5c7d55f52e221644f31bff6a",
-                  "616584766ef05c2ce828ef57",
-                  "5b3b6dc75acfc47a8773fb1e",
-                  "615d8d878004cc50514c3233",
-                  "5b2389515acfc4771e1be0c0",
-                  "577d128124597739d65d0e56",
-                  "618b9643526131765025ab35",
-                  "618bab21526131765025ab3f",
-                  "5c86592b2e2216000e69e77c",
-                  "5a37ca54c4a282000d72296a",
-                  "5d0a29fed7ad1a002769ad08",
-                  "5c064c400db834001d23f468",
-                  "58d2664f86f7747fec5834f6",
-                  "57c69dd424597774c03b7bbc",
-                  "5b3b99265acfc4704b4a1afb",
-                  "5aa66a9be5b5b0214e506e89",
-                  "5aa66c72e5b5b00016327c93",
-                  "5c1cdd302e221602b3137250",
-                  "61714b2467085e45ef140b2c",
-                  "6171407e50224f204c1da3c5",
-                  "61713cc4d8e3106d9806c109",
-                  "5b31163c5acfc400153b71cb",
-                  "5a33b652c4a28232996e407c",
-                  "5a33b2c9c4a282000c5a9511",
-                  "59db7eed86f77461f8380365",
-                  "5a1ead28fcdbcb001912fa9f",
-                  "5dff77c759400025ea5150cf",
-                  "626bb8532c923541184624b4",
-                  "62811f461d5df4475f46a332",
-                  "63fc449f5bd61c6cf3784a88",
-                  "6477772ea8a38bb2050ed4db",
-                  "6478641c19d732620e045e17",
-                  "64785e7c19d732620e045e15",
-                  "65392f611406374f82152ba5",
-                  "653931da5db71d30ab1d6296",
-                  "655f13e0a246670fb0373245",
-                  "6567e751a715f85433025998",
-                  "6761759e7ee06333f108bf86",
-                  "67641a851b2899700609901a",
-                  "03f6c86c56945862820e1006",
-                  "2322ee962f6c77a1284abc1e",
-                  "5ae3d18efa17cbd51e898ced"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
+        "locales": {
+            "en": {
+                "name": "CZ Scorpion Evo 3 S1 9x19 submachine gun",
+                "shortName": "Evo 3",
+                "description": ""
+            }
         },
-        {
-          "_name": "mod_handguard",
-          "_id": "59bfe68886f7746004266205",
-          "_parent": "59bfe68886f7746004266202",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "67a01e79a2b82626b73d10e2",
-                  "67a01e79a2b82626b73d10e3",
-                  "67a01e79a2b82626b73d10e1",
-                  "67a01e79a2b82626b73d10e4",
-                  "67b148c1fabc11364b7fc2cf"
-                ]
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        },
-        {
-          "_name": "mod_charge",
-          "_id": "5926bb2186f7744b1c6c6e65",
-          "_parent": "5926bb2186f7744b1c6c6e60",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "67a01e79a2b82626b73d10eb"
-                ]
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        },
-        {
-          "_name": "mod_barrel",
-          "_id": "618405198004cc50514c3597",
-          "_parent": "618405198004cc50514c3594",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "67a01e79a2b82626b73d10e0",
-                  "67a01e79a2b82626b73d10df",
-                  "67a01e79a2b82626b73d10de",
-                  "67b14a93fac49728468093d4"
-                ]
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        },
-        {
-          "_name": "mod_stock",
-          "_id": "6184055050224f204c1da545",
-          "_parent": "6184055050224f204c1da540",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "67a01e79a2b82626b73d10e5",
-                  "67a01e79a2b82626b73d10e7",
-                  "67a01e79a2b82626b73d10e6"
-                ]
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        },
-        {
-          "_name": "mod_sight_rear",
-          "_id": "6165adcdd3a39d50044c1214",
-          "_parent": "6165adcdd3a39d50044c120f",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "61817865d3a39d50044c13a4",
-                  "5bb20e49d4351e3bac1212de",
-                  "5ba26b17d4351e00367f9bdd",
-                  "5dfa3d7ac41b2312ea33362a",
-                  "5c1780312e221602b66cc189",
-                  "5fb6564947ce63734e3fa1da",
-                  "5bc09a18d4351e003562b68e",
-                  "5c18b9192e2216398b5a8104",
-                  "5fc0fa957283c4046c58147e",
-                  "5894a81786f77427140b8347",
-                  "55d5f46a4bdc2d1b198b4567",
-                  "5ae30bad5acfc400185c2dc4",
-                  "67a01e79a2b82626b73d10ef"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "_name": "mod_pistolgrip",
-          "_id": "5bb2475ed4351e00853264e5",
-          "_parent": "5bb2475ed4351e00853264e3",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "67a01e79a2b82626b73d10e8",
-                  "67a01e79a2b82626b73d10e9",
-                  "67a01e79a2b82626b73d10ea"
-                ]
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        }
-      ],
-      "bFirerate": 1100,
-      "ReloadMode": "ExternalMagazine"
-    },
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 9x19 submachine gun",
-        "shortName": "Scorpion EVO 3",
-        "description": "The Scorpion EVO 3 is a blowback operated carbine manufactured by \u010cesk\u00e1 zbrojovka Uhersk\u00fd Brod, evolved from a Slovak prototype submachine gun developed by Laugo. The A1 variant features a standard left-side non-reciprocating charging handle, although it is ambidextrous and can be switched from side-to-side."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "FoldedSlot": "mod_stock",
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 91345,
-    "handbookPriceRoubles": 75456,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "addweaponpreset": true,
-    "weaponpresets": [
-      {
-        "_changeWeaponName": false,
-        "_encyclopedia": "67a01e79a2b82626b73d10dc",
-        "_id": "czscorpion_def_preset",
-        "_items": [
-          {
-            "_id": "662f0bb16468fbe75a4cb847",
-            "_tpl": "67a01e79a2b82626b73d10dc"
-          },
-          {
-            "_id": "662f0bd9cbc3d4b8fd53dc18",
-            "_tpl": "66350c70a4856b0aad525b34",
-            "parentId": "662f0bb16468fbe75a4cb847",
-            "slotId": "mod_magazine"
-          },
-          {
-            "_id": "662f0c3935d870bb4378cd9e",
-            "_tpl": "67a01e79a2b82626b73d10e4",
-            "parentId": "662f0bb16468fbe75a4cb847",
-            "slotId": "mod_handguard"
-          },
-          {
-            "_id": "662f0c417fafd665f3789669",
-            "_tpl": "67a01e79a2b82626b73d10df",
-            "parentId": "662f0bb16468fbe75a4cb847",
-            "slotId": "mod_barrel"
-          },
-          {
-            "_id": "662f0c47708cf442b729e407",
-            "_tpl": "67a01e79a2b82626b73d10e7",
-            "parentId": "662f0bb16468fbe75a4cb847",
-            "slotId": "mod_stock"
-          },
-          {
-            "_id": "662f0c503af82b8ad3640209",
-            "_tpl": "67a01e79a2b82626b73d10ef",
-            "parentId": "662f0bb16468fbe75a4cb847",
-            "slotId": "mod_sight_rear"
-          },
-          {
-            "_id": "662f0c5507462448a4c94fa1",
-            "_tpl": "67a01e79a2b82626b73d10f0",
-            "parentId": "662f0c3935d870bb4378cd9e",
-            "slotId": "mod_sight_front"
-          },
-          {
-            "_id": "662f0c5b3aca2066cae92be3",
-            "_tpl": "67a01e79a2b82626b73d10ee",
-            "parentId": "662f0c417fafd665f3789669",
-            "slotId": "mod_muzzle"
-          },
-          {
-            "_id": "662f1e1aad4bd12e6a37f11a",
-            "_tpl": "67a01e79a2b82626b73d10ea",
-            "parentId": "662f0bb16468fbe75a4cb847",
-            "slotId": "mod_pistolgrip"
-          },
-          {
-            "_id": "662f1e8da85fd6aa93d0312d",
-            "_tpl": "67a01e79a2b82626b73d10eb",
-            "parentId": "662f0bb16468fbe75a4cb847",
-            "slotId": "mod_charge"
-          }
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 39500,
+        "handbookPriceRoubles": 18950,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "StaticLootContainers": [
+            {
+                "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+                "Probability": 250
+            },
+            {
+                "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+                "Probability": 150
+            }
         ],
-        "_name": "CZ Scorpion EVO 3",
-        "_parent": "662f0bb16468fbe75a4cb847",
-        "_type": "Preset"
-      }
-    ],
-    "masteries": true,
-    "masterySections": [
-      {
-        "Name": "Scorpion",
-        "Templates": [
-          "67a01e79a2b82626b73d10dc"
+        "masteries": true,
+        "masterySections": [
+            {
+                "Name": "CZ Scorpion Evo",
+                "Templates": [
+                    "687afda52dc9fd6c0e14c602"
+                ]
+            }
         ],
-        "Level2": 300,
-        "Level3": 450
-      }
-    ],
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f56": {
-          "barterSettings": {
-            "loyalLevel": 3,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
+        "addweaponpreset": true,
+        "weaponpresets": [
             {
-              "count": 550,
-              "_tpl": "MONEY_EUR"
+                "_changeWeaponName": false,
+                "_encyclopedia": "687afda52dc9fd6c0e14c602",
+                "_id": "687fb727be0c3088675f3f87",
+                "_items": [
+                    {
+                        "_id": "687fb72b56e477f5df02a32c",
+                        "_tpl": "687afda52dc9fd6c0e14c602",
+                        "upd": {
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "FireMode": {
+                                "FireMode": "single"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "687fb74c0c71c1d5ea939a25",
+                        "_tpl": "687c41fb7d3612ea41c3a822",
+                        "parentId": "687fb72b56e477f5df02a32c",
+                        "slotId": "mod_magazine"
+                    },
+                    {
+                        "_id": "687fb7499d49e673fecae38a",
+                        "_tpl": "687fb6c8734e9a8e27d6b054",
+                        "parentId": "687fb72b56e477f5df02a32c",
+                        "slotId": "mod_barrel"
+                    },
+                    {
+                        "_id": "687fb7dc30384f0ad37ff689",
+                        "_tpl": "687aff780a062c4f04628738",
+                        "parentId": "687fb72b56e477f5df02a32c",
+                        "slotId": "mod_stock"
+                    },
+                    {
+                        "_id": "687fb7947e1e2d4e6782d432",
+                        "_tpl": "687b00468b4fafd5ebb3a763",
+                        "parentId": "687fb72b56e477f5df02a32c",
+                        "slotId": "mod_charge"
+                    },
+                    {
+                        "_id": "687fb7b5d0f17c8b4fa2c87c",
+                        "_tpl": "687fb49322e3cb02683967bf",
+                        "parentId": "687fb7499d49e673fecae38a",
+                        "slotId": "mod_muzzle"
+                    },
+                    {
+                        "_id": "687fb7a416ccdd7d54a45488",
+                        "_tpl": "687b001103b1d64f98f261e7",
+                        "parentId": "687fb72b56e477f5df02a32c",
+                        "slotId": "mod_pistol_grip"
+                    },
+                    {
+                        "_id": "687fb7fc84bdf79544e6ee44",
+                        "_tpl": "687fb676e4996d45517fe236",
+                        "parentId": "687fb761be500058f0525695",
+                        "slotId": "mod_tactical_004"
+                    },
+                    {
+                        "_id": "687fb761be500058f0525695",
+                        "_tpl": "687fb46ac2f7551f2ce2e4b1",
+                        "parentId": "687fb72b56e477f5df02a32c",
+                        "slotId": "mod_handguard"
+                    },
+                    {
+                        "_id": "687fb77888f3f6b71601abc4",
+                        "_tpl": "687fb5224b7bf5a5702898ee",
+                        "parentId": "687fb72b56e477f5df02a32c",
+                        "slotId": "mod_sight_rear"
+                    },
+                    {
+                        "_id": "687fb77e661700a659e80d27",
+                        "_tpl": "687fb51f2756d21d3145a094",
+                        "parentId": "687fb761be500058f0525695",
+                        "slotId": "mod_sight_front"
+                    }
+                ],
+                "_name": "CzScorpionStandard",
+                "_parent": "687fb72b56e477f5df02a32c",
+                "_type": "Preset"
             }
-          ]
-        }
-      }
+        ],
+        "traders": {}
     },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10dd": {
-    "itemTplToClone": "67a01e79a2b82626b73d10dc",
-    "parentId": "5447b5e04bdc2d62278b4567",
-    "handbookParentId": "5b5f796a86f774093f2ed3c0",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czscorpiongrey_container.bundle",
-        "rcid": ""
-      },
-      "Ergonomics": 69,
-      "DurabilityBurnModificator": 0.75
-    },
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 9x19 submachine gun (Tron's Custom)",
-        "shortName": "Scorpion EVO 3",
-        "description": "The Scorpion EVO 3 is a blowback operated carbine manufactured by \u010cesk\u00e1 zbrojovka Uhersk\u00fd Brod, evolved from a Slovak prototype submachine gun developed by Laugo. The A1 variant features a standard left-side non-reciprocating charging handle, although it is ambidextrous and can be switched from side-to-side. This version is a masterfully upgraded version by acclaimed legend of the Norvinsk Zone, Tron."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "FoldedSlot": "mod_stock",
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 95648,
-    "handbookPriceRoubles": 78422,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "addweaponpreset": true,
-    "weaponpresets": [],
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f57": {
-          "barterSettings": {
-            "loyalLevel": 4,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 618,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "66350c70a4856b0aad525b34": {
-    "itemTplToClone": "5d2f213448f0355009199284",
-    "parentId": "5448bc234bdc2d3c308b4569",
-    "handbookParentId": "MOD_MAGAZINE",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czmag20.bundle",
-        "rcid": ""
-      },
-      "Width": 1,
-      "Height": 1,
-      "Weight": "0.10",
-      "magAnimationIndex": 2
-    },
-    "locales": {
-      "en": {
-        "name": "HB Industries Scorpion EVO 3 9x19 20-round magazine",
-        "shortName": "EVO3",
-        "description": "A standard 20-round 9x19 magazine for the CZ Scorpion EVO 3 SMG, manufactured by HB Industries."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 4293,
-    "handbookPriceRoubles": 3745,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {},
-    "StaticLootContainers": []
-  },
-  "66350caf3d749fb3864cbe70": {
-    "itemTplToClone": "5926c3b286f774640d189b6b",
-    "parentId": "5448bc234bdc2d3c308b4569",
-    "handbookParentId": "MOD_MAGAZINE",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czmag30.bundle",
-        "rcid": ""
-      },
-      "Width": 1,
-      "Height": 2,
-      "Weight": "0.12",
-      "magAnimationIndex": 0
-    },
-    "locales": {
-      "en": {
-        "name": "HB Industries Scorpion EVO 3 9x19 30-round magazine",
-        "shortName": "EVO3",
-        "description": "A standard 30-round 9x19 magazine for the CZ Scorpion Evo3 SMG, manufactured by HB Industries."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 5674,
-    "handbookPriceRoubles": 4235,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f58": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 35,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "66350ccddf98df8725fb5c8f": {
-    "itemTplToClone": "5a351711c4a282000b1521a4",
-    "parentId": "5448bc234bdc2d3c308b4569",
-    "handbookParentId": "MOD_MAGAZINE",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czmag50.bundle",
-        "rcid": ""
-      },
-      "Width": 1,
-      "Height": 2,
-      "Weight": "0.64",
-      "magAnimationIndex": 1
-    },
-    "locales": {
-      "en": {
-        "name": "F5 MFG Scorpion EVO 3 9x19 50-round drum magazine",
-        "shortName": "EVO3",
-        "description": "A 50-round 9x19 drum magazine for the CZ Scorpion EVO 3 SMG, designed by F5 Manufacturing."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 42685,
-    "handbookPriceRoubles": 34652,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {},
-    "StaticLootContainers": []
-  },
-  "67b14a93fac49728468093d4": {
-    "itemTplToClone": "5c5db5c62e22160012542255",
-    "parentId": "555ef6e44bdc2de9068b457e",
-    "handbookParentId": "MOD_BARREL",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czbarrelcarbine.bundle",
-        "rcid": ""
-      },
-      "Width": 4,
-      "ExtraSizeLeft": 3,
-      "Accuracy": 0,
-      "Recoil": -8,
-      "Loudness": 0,
-      "EffectiveDistance": 0,
-      "Ergonomics": -18,
-      "Velocity": 6,
-      "DurabilityBurnModificator": 1.12,
-      "HeatFactor": 0.94,
-      "CoolFactor": 0.98,
-      "Slots": [
-        {
-          "_name": "mod_muzzle",
-          "_id": "5c5db5c62e22160012542257",
-          "_parent": "5c5db5c62e22160012542255",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5cf6935bd7f00c06585fb791",
-                  "5b3a16655acfc40016387a2a",
-                  "58949dea86f77409483e16a8",
-                  "59bffc1f86f77435b128b872",
-                  "5c7e8fab2e22165df16b889b",
-                  "5a9fb739a2750c003215717f",
-                  "5c6165902e22160010261b28",
-                  "67a01e79a2b82626b73d10ee"
-                ]
-              }
+    "687afeb41db9f3580324752a": {
+        "itemTplToClone": "603373004e02ce1eaa358814",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_barrel_12.bundle",
+                "rcid": ""
+            },
+            "ExaminedByDefault": true,
+            "ExtraSizeLeft": 2,
+            "Slots": [
+                {
+                    "_id": "687afef53595c822bec6ebc5",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "687afeb41db9f3580324752a",
+                    "_props": {
+                        "filters": [
+                            {
+                                "AnimationIndex": -1,
+                                "Filter": [
+                                    "687b03bc8b8590063f73f01c",
+                                    "687fb49322e3cb02683967bf",
+                                    "59bffc1f86f77435b128b872"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c394bdc2dae468b4577",
+                    "_required": false
+                }
             ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 9x19mm carbine-length barrel",
-        "shortName": "EVO3 carbine",
-        "description": "An carbine-length barrel for CZ Scorpion-series weapons chambered in 9x19mm ammunition."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 10854,
-    "handbookPriceRoubles": 9364,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67b1599284b700e0999768b6": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 71,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10de": {
-    "itemTplToClone": "5c5db5c62e22160012542255",
-    "parentId": "555ef6e44bdc2de9068b457e",
-    "handbookParentId": "MOD_BARREL",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czbarrellong.bundle",
-        "rcid": ""
-      },
-      "Width": 3,
-      "ExtraSizeLeft": 2,
-      "Accuracy": 0,
-      "Recoil": -7,
-      "Loudness": 0,
-      "EffectiveDistance": 0,
-      "Ergonomics": -14,
-      "Velocity": 4,
-      "DurabilityBurnModificator": 1.1,
-      "HeatFactor": 0.94,
-      "CoolFactor": 0.98,
-      "Slots": [
-        {
-          "_name": "mod_muzzle",
-          "_id": "5c5db5c62e22160012542257",
-          "_parent": "5c5db5c62e22160012542255",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5cf6935bd7f00c06585fb791",
-                  "5b3a16655acfc40016387a2a",
-                  "58949dea86f77409483e16a8",
-                  "59bffc1f86f77435b128b872",
-                  "5c7e8fab2e22165df16b889b",
-                  "5a9fb739a2750c003215717f",
-                  "5c6165902e22160010261b28",
-                  "67a01e79a2b82626b73d10ec",
-                  "67a01e79a2b82626b73d10ee"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 9x19mm extended barrel",
-        "shortName": "EVO3 ext.",
-        "description": "An extended barrel for CZ Scorpion-series weapons chambered in 9x19mm ammunition."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 8904,
-    "handbookPriceRoubles": 7861,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f59": {
-          "barterSettings": {
-            "loyalLevel": 3,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 56,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10df": {
-    "itemTplToClone": "5c5db5c62e22160012542255",
-    "parentId": "555ef6e44bdc2de9068b457e",
-    "handbookParentId": "MOD_BARREL",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czbarrelmed.bundle",
-        "rcid": ""
-      },
-      "Width": 2,
-      "ExtraSizeLeft": 1,
-      "Accuracy": 0,
-      "Recoil": -4,
-      "Loudness": 0,
-      "EffectiveDistance": 0,
-      "Ergonomics": -9,
-      "Velocity": 0,
-      "DurabilityBurnModificator": 1.05,
-      "HeatFactor": 0.97,
-      "CoolFactor": 1.03,
-      "Slots": [
-        {
-          "_name": "mod_muzzle",
-          "_id": "5c5db5c62e22160012542257",
-          "_parent": "5c5db5c62e22160012542255",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5cf6935bd7f00c06585fb791",
-                  "5b3a16655acfc40016387a2a",
-                  "58949dea86f77409483e16a8",
-                  "59bffc1f86f77435b128b872",
-                  "5c7e8fab2e22165df16b889b",
-                  "5a9fb739a2750c003215717f",
-                  "5c6165902e22160010261b28",
-                  "67a01e79a2b82626b73d10ec",
-                  "67a01e79a2b82626b73d10ee"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        }
-      ],
-      "ConflictingItems": [
-        "67b148c1fabc11364b7fc2cf"
-      ]
-    },
-
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 9x19mm barrel",
-        "shortName": "EVO3 std.",
-        "description": "A standard-issue barrel for CZ Scorpion-series weapons chambered in 9x19mm ammunition."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 7453,
-    "handbookPriceRoubles": 6301,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f5a": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 47,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10e0": {
-    "itemTplToClone": "5c5db5c62e22160012542255",
-    "parentId": "555ef6e44bdc2de9068b457e",
-    "handbookParentId": "MOD_BARREL",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czbarrelshort.bundle",
-        "rcid": ""
-      },
-      "Width": 2,
-      "ExtraSizeLeft": 1,
-      "Accuracy": 0,
-      "Recoil": -1,
-      "Loudness": 0,
-      "EffectiveDistance": 0,
-      "Ergonomics": -3,
-      "Velocity": -10,
-      "DurabilityBurnModificator": 0.85,
-      "HeatFactor": 1.04,
-      "CoolFactor": 1.07,
-      "Slots": [
-        {
-          "_name": "mod_muzzle",
-          "_id": "5c5db5c62e22160012542257",
-          "_parent": "5c5db5c62e22160012542255",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5cf6935bd7f00c06585fb791",
-                  "5b3a16655acfc40016387a2a",
-                  "58949dea86f77409483e16a8",
-                  "59bffc1f86f77435b128b872",
-                  "5c7e8fab2e22165df16b889b",
-                  "5a9fb739a2750c003215717f",
-                  "5c6165902e22160010261b28",
-                  "67a01e79a2b82626b73d10ed",
-                  "67a01e79a2b82626b73d10ee"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        }
-      ],
-      "ConflictingItems": [
-        "67b148c1fabc11364b7fc2cf"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 9x19mm micro-length Barrel",
-        "shortName": "EVO3 micro",
-        "description": "A micro barrel for CZ Scorpion-series weapons chambered in 9x19mm ammunition."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 5742,
-    "handbookPriceRoubles": 4730,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f5b": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 35,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10e1": {
-    "itemTplToClone": "58a5c12e86f7745d585a2b9e",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "MOD_HANDGUARD",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czhandguardlong.bundle",
-        "rcid": ""
-      },
-      "Width": 2,
-      "Height": 1,
-      "Weight": "0.202",
-      "Recoil": -2,
-      "Ergonomics": 7,
-      "HeatFactor": 0.99,
-      "CoolFactor": 1.01,
-      "Slots": [
-        {
-          "_name": "mod_foregrip",
-          "_id": "61966814ed0429009f544bb3",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "57cffb66245977632f391a99",
-                  "57cffcd624597763133760c5",
-                  "57cffcdd24597763f5110006",
-                  "57cffce524597763b31685d8",
-                  "5b7be4895acfc400170e2dd5",
-                  "651a8bf3a8520e48047bf708",
-                  "651a8e529829226ceb67c319"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
         },
-        {
-          "_name": "mod_mount_000",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        },
-        {
-          "_name": "mod_mount_001",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        },
-        {
-          "_name": "mod_mount_002",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        },
-        {
-          "_name": "mod_mount_003",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        },
-        {
-          "_name": "mod_sight_front",
-          "_id": "618426d96c780c1e710c9ba4",
-          "_parent": "618426d96c780c1e710c9b9f",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5ba26b01d4351e0085325a51",
-                  "5dfa3d950dee1b22f862eae0",
-                  "5c17804b2e2216152006c02f",
-                  "5fb6567747ce63734e3fa1dc",
-                  "5bc09a30d4351e00367fb7c8",
-                  "5c18b90d2e2216152142466b",
-                  "5fc0fa362770a0045c59c677",
-                  "5894a73486f77426d259076c",
-                  "67a01e79a2b82626b73d10f0"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        }
-      ],
-      "ConflictingItems": [
-        "67a01e79a2b82626b73d10ed"
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "HB Industries M-LOK 11.5 inch handguard",
-        "shortName": "EVO3 11.5\"",
-        "description": "The HB Industries M-LOK 11.5 inch handguard rail adapter allows you to install additional M-LOK attachments on the CZ Scorpion EVO 3 weapon series."
-      }
-    },
-
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 13833,
-    "handbookPriceRoubles": 10550,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f5c": {
-          "barterSettings": {
-            "loyalLevel": 3,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 87,
-              "_tpl": "MONEY_EUR"
+        "locales": {
+            "en": {
+                "name": "CZ Scorpion Evo 3 S1 carbine length 12 inch barrel",
+                "shortName": "Evo 3 12\"",
+                "description": "Carbine length 16 inch barrel for the CZ Scorpion Evo 3 S1 9x19 submachine gun."
             }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67b148c1fabc11364b7fc2cf": {
-    "itemTplToClone": "58a5c12e86f7745d585a2b9e",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "MOD_HANDGUARD",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czhandguardcarbine.bundle",
-        "rcid": ""
-      },
-      "Width": 3,
-      "Height": 1,
-      "Weight": "0.354",
-      "Recoil": -4,
-      "Ergonomics": 3,
-      "HeatFactor": 0.99,
-      "CoolFactor": 1.01,
-      "Slots": [
-        {
-          "_name": "mod_foregrip",
-          "_id": "61966814ed0429009f544bb3",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "57cffb66245977632f391a99",
-                  "57cffcd624597763133760c5",
-                  "57cffcdd24597763f5110006",
-                  "57cffce524597763b31685d8",
-                  "5b7be4895acfc400170e2dd5",
-                  "651a8bf3a8520e48047bf708",
-                  "651a8e529829226ceb67c319"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
         },
-        {
-          "_name": "mod_mount_000",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ]
-              }
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_barrel"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 15290,
+        "handbookPriceRoubles": 7140,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
+    },
+    "687fb6c8734e9a8e27d6b054": {
+        "itemTplToClone": "603373004e02ce1eaa358814",
+        "parentId": "555ef6e44bdc2de9068b457e",
+        "handbookParentId": "5b5f75c686f774094242f19f",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_barrel_8.bundle",
+                "rcid": ""
+            },
+            "ExaminedByDefault": true,
+            "ExtraSizeLeft": 1,
+            "Slots": [
+                {
+                    "_id": "687afef53595c822bec6ebc5",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_muzzle",
+                    "_parent": "687afeb41db9f3580324752a",
+                    "_props": {
+                        "filters": [
+                            {
+                                "AnimationIndex": -1,
+                                "Filter": [
+                                    "687b03bc8b8590063f73f01c",
+                                    "687fb49322e3cb02683967bf",
+                                    "59bffc1f86f77435b128b872"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c394bdc2dae468b4577",
+                    "_required": false
+                }
             ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
         },
-        {
-          "_name": "mod_mount_001",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
+        "locales": {
+            "en": {
+                "name": "CZ Scorpion Evo 3 S1 carbine length 8 inch barrel",
+                "shortName": "Evo 3 8\"",
+                "description": "Standard 8 inch barrel for the CZ Scorpion Evo 3 S1 9x19 submachine gun."
+            }
         },
-        {
-          "_name": "mod_tactical",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_barrel"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 15290,
+        "handbookPriceRoubles": 7140,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
+    },
+    "6761b213607f9a6f79017cdb": {
+        "itemTplToClone": "5a351711c4a282000b1521a4",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_magazine_drum.bundle",
+                "rcid": ""
+            }
         },
-        {
-          "_name": "mod_sight_front",
-          "_id": "618426d96c780c1e710c9ba4",
-          "_parent": "618426d96c780c1e710c9b9f",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5ba26b01d4351e0085325a51",
-                  "5dfa3d950dee1b22f862eae0",
-                  "5c17804b2e2216152006c02f",
-                  "5fb6567747ce63734e3fa1dc",
-                  "5bc09a30d4351e00367fb7c8",
-                  "5c18b90d2e2216152142466b",
-                  "5fc0fa362770a0045c59c677",
-                  "5894a73486f77426d259076c",
-                  "67a01e79a2b82626b73d10f0"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        }
-      ],
-      "ConflictingItems": [
-        "67a01e79a2b82626b73d10df",
-        "67a01e79a2b82626b73d10e0",
-        "67a01e79a2b82626b73d10ec",
-        "67a01e79a2b82626b73d10ed"
-      ]
-    },
-    
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 carbine-length Handguard",
-        "shortName": "EVO3 carbine",
-        "description": "A carbine-length handguard for the CZ Scorpion EVO 3-series weapons."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 21854,
-    "handbookPriceRoubles": 18965,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67b1598cf11ba1093e72ea69": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 107,
-              "_tpl": "MONEY_EUR"
+        "locales": {
+            "en": {
+                "name": "Evo drum",
+                "shortName": "Evo 50",
+                "description": ""
             }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10e2": {
-    "itemTplToClone": "58a5c12e86f7745d585a2b9e",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "MOD_HANDGUARD",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czhandguardmicro.bundle",
-        "rcid": ""
-      },
-      "Width": 1,
-      "Height": 1,
-      "Weight": "0.06",
-      "Ergonomics": 14,
-      "Recoil": 0,
-      "HeatFactor": 0.98,
-      "CoolFactor": 1.03,
-      "Slots": [
-        {
-          "_name": "mod_foregrip",
-          "_id": "61966814ed0429009f544bb3",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "57cffb66245977632f391a99",
-                  "57cffcd624597763133760c5",
-                  "57cffcdd24597763f5110006",
-                  "57cffce524597763b31685d8",
-                  "5b7be4895acfc400170e2dd5",
-                  "651a8bf3a8520e48047bf708",
-                  "651a8e529829226ceb67c319"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
         },
-        {
-          "_name": "mod_mount_000",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ]
-              }
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_magazine"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 6600,
+        "handbookPriceRoubles": 1290,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
+    },
+    "687c41fb7d3612ea41c3a822": {
+        "itemTplToClone": "5926c3b286f774640d189b6b",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_magazine_magpul35.bundle",
+                "rcid": ""
+            },
+            "Cartridges": [
+                {
+                    "_id": "687c43013e4f69c4b0c0ce3d",
+                    "_max_count": 35,
+                    "_name": "cartridges",
+                    "_parent": "687c41fb7d3612ea41c3a822",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5efb0da7a29a85116f6ea05f",
+                                    "5c3df7d588a4501f290594e5",
+                                    "58864a4f2459770fcc257101",
+                                    "56d59d3ad2720bdb418b4577",
+                                    "5c925fa22e221601da359b7b",
+                                    "5a3c16fe86f77452b62de32a",
+                                    "5efb0e16aeb21837e749c7ff",
+                                    "5c0d56a986f774449d5de529",
+                                    "64b7bbb74b75259c590fa897"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
             ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
         },
-        {
-          "_name": "mod_mount_003",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
+        "locales": {
+            "en": {
+                "name": "Evo 35",
+                "shortName": "Evo 35",
+                "description": ""
+            }
         },
-        {
-          "_name": "mod_sight_front",
-          "_id": "618426d96c780c1e710c9ba4",
-          "_parent": "618426d96c780c1e710c9b9f",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5ba26b01d4351e0085325a51",
-                  "5dfa3d950dee1b22f862eae0",
-                  "5c17804b2e2216152006c02f",
-                  "5fb6567747ce63734e3fa1dc",
-                  "5bc09a30d4351e00367fb7c8",
-                  "5c18b90d2e2216152142466b",
-                  "5fc0fa362770a0045c59c677",
-                  "5894a73486f77426d259076c",
-                  "67a01e79a2b82626b73d10f0"
-                ]
-              }
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_magazine"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 6600,
+        "handbookPriceRoubles": 1290,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
+    },
+    "687c430e91f5db8685fbbae6": {
+        "itemTplToClone": "5926c3b286f774640d189b6b",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_magazine_magpul35_tape.bundle",
+                "rcid": ""
+            },
+            "Cartridges": [
+                {
+                    "_id": "687c432ed6a51c8df19e4833",
+                    "_max_count": 35,
+                    "_name": "cartridges",
+                    "_parent": "687c430e91f5db8685fbbae6",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5efb0da7a29a85116f6ea05f",
+                                    "5c3df7d588a4501f290594e5",
+                                    "58864a4f2459770fcc257101",
+                                    "56d59d3ad2720bdb418b4577",
+                                    "5c925fa22e221601da359b7b",
+                                    "5a3c16fe86f77452b62de32a",
+                                    "5efb0e16aeb21837e749c7ff",
+                                    "5c0d56a986f774449d5de529",
+                                    "64b7bbb74b75259c590fa897"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
             ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "HB Industries M-LOK 4.25 inch micro handguard",
-        "shortName": "EVO3 4.25\"",
-        "description": "The HB Industries M-LOK 4.25 inch micro handguard rail adapter allows you to install additional M-LOK attachments on the CZ Scorpion EVO 3 weapon series."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 8423,
-    "handbookPriceRoubles": 7654,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f5d": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 53,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10e3": {
-    "itemTplToClone": "58a5c12e86f7745d585a2b9e",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "MOD_HANDGUARD",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czhandguardslanted.bundle",
-        "rcid": ""
-      },
-      "Width": 2,
-      "Height": 1,
-      "Weight": "0.175",
-      "Recoil": -1,
-      "Ergonomics": 8,
-      "HeatFactor": 0.98,
-      "CoolFactor": 1.03,
-      "Slots": [
-        {
-          "_name": "mod_foregrip",
-          "_id": "61966814ed0429009f544bb3",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "57cffb66245977632f391a99",
-                  "57cffcd624597763133760c5",
-                  "57cffcdd24597763f5110006",
-                  "57cffce524597763b31685d8",
-                  "5b7be4895acfc400170e2dd5",
-                  "651a8bf3a8520e48047bf708",
-                  "651a8e529829226ceb67c319"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
         },
-        {
-          "_name": "mod_mount_000",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
+        "locales": {
+            "en": {
+                "name": "Evo 35",
+                "shortName": "Evo 35",
+                "description": ""
+            }
         },
-        {
-          "_name": "mod_mount_001",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_magazine"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 6600,
+        "handbookPriceRoubles": 1290,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
+    },
+    "687aff780a062c4f04628738": {
+        "itemTplToClone": "5fb6558ad6f0b2136f2d7eb7",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_standard.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.63,
+            "Ergonomics": 6.5,
+            "Recoil": -19,
+            "IsAnimated": true,
+            "UniqueAnimationModID": 0,
+            "AnimationVariantsNumber": 0
         },
-        {
-          "_name": "mod_mount_002",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
+        "locales": {
+            "en": {
+                "name": "CZ Evo stock",
+                "shortName": "Evo",
+                "description": ""
+            }
         },
-        {
-          "_name": "mod_mount_003",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5b7be47f5acfc400170e2dd2"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_stock"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 18950,
+        "handbookPriceRoubles": 9700,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
+    },
+    "687c449bb184bc8da37d45d2": {
+        "itemTplToClone": "5fb6558ad6f0b2136f2d7eb7",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_zhukov.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.63,
+            "Ergonomics": 6.5,
+            "Recoil": -19,
+            "IsAnimated": true,
+            "UniqueAnimationModID": 0,
+            "AnimationVariantsNumber": 0
         },
-        {
-          "_name": "mod_sight_front",
-          "_id": "618426d96c780c1e710c9ba4",
-          "_parent": "618426d96c780c1e710c9b9f",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5ba26b01d4351e0085325a51",
-                  "5dfa3d950dee1b22f862eae0",
-                  "5c17804b2e2216152006c02f",
-                  "5fb6567747ce63734e3fa1dc",
-                  "5bc09a30d4351e00367fb7c8",
-                  "5c18b90d2e2216152142466b",
-                  "5fc0fa362770a0045c59c677",
-                  "5894a73486f77426d259076c",
-                  "67a01e79a2b82626b73d10f0"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "HB Industries M-LOK 6.84 inch handguard",
-        "shortName": "EVO3 6.84\"",
-        "description": "The HB Industries M-LOK 6.84 inch handguard rail adapter allows you to install additional M-LOK attachments on the CZ Scorpion EVO 3 weapon series."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 10348,
-    "handbookPriceRoubles": 8632,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "PEACEKEEPER": {
-        "67a01f7bddf37bb90d9f8f5e": {
-          "barterSettings": {
-            "loyalLevel": 3,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 65,
-              "_tpl": "MONEY_EUR"
+        "locales": {
+            "en": {
+                "name": "CZ Evo zhukov stock",
+                "shortName": "Evo",
+                "description": ""
             }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10e4": {
-    "itemTplToClone": "58a5c12e86f7745d585a2b9e",
-    "parentId": "55818b224bdc2dde698b456f",
-    "handbookParentId": "MOD_HANDGUARD",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czhandguardstock.bundle",
-        "rcid": ""
-      },
-      "ConflictingItems": [
-        "67a01e79a2b82626b73d10ed",
-        "67a01e79a2b82626b73d10ec"
-      ],
-      "Width": 2,
-      "Height": 1,
-      "Weight": "0.173",
-      "Ergonomics": 12,
-      "HeatFactor": 1.07,
-      "CoolFactor": 1,
-      "Slots": [
-        {
-          "_name": "mod_foregrip",
-          "_id": "61966814ed0429009f544bb3",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5c7fc87d2e221644f31c0298",
-                  "5cda9bcfd7f00c0c0b53e900",
-                  "59f8a37386f7747af3328f06",
-                  "5a7dbfc1159bd40016548fde",
-                  "619386379fb0c665d5490dbe",
-                  "5c87ca002e221600114cb150",
-                  "588226d124597767ad33f787",
-                  "588226dd24597767ad33f789",
-                  "588226e62459776e3e094af7",
-                  "588226ef24597767af46e39c",
-                  "59fc48e086f77463b1118392",
-                  "5fce0cf655375d18a253eff0",
-                  "64806bdd26c80811d408d37a",
-                  "64807a29e5ffe165600abc97",
-                  "5cf4fb76d7f00c065703d3ac",
-                  "65169d5b30425317755f8e25",
-                  "648067db042be0705c0b3009",
-                  "5b057b4f5acfc4771e1bd3e9",
-                  "655df24fdf80b12750626d0a",
-                  "5c791e872e2216001219c40a",
-                  "655dccfdbdcc6b5df71382b6",
-                  "661e52e29c8b4dadef008577",
-                  "661e53149c8b4dadef008579",
-                  "558032614bdc2de7118b4585",
-                  "58c157be86f77403c74b2bb6",
-                  "58c157c886f774032749fb06",
-                  "661e52415be02310ed07a07a",
-                  "661e52b5b099f32c28003586",
-                  "5f6340d3ca442212f4047eb2",
-                  "591af28e86f77414a27a9e1d",
-                  "5c1cd46f2e22164bef5cfedb",
-                  "5c1bc4812e22164bef5cfde7",
-                  "5c1bc5612e221602b5429350",
-                  "5c1bc5af2e221602b412949b",
-                  "5c1bc5fb2e221602b1779b32",
-                  "5c1bc7432e221602b412949d",
-                  "5c1bc7752e221602b1779b34",
-                  "668070f11aff0d6b0cd7fb13",
-                  "682d014f0f0eb62eb4269012",
-                  "66ea3770d7c670434b6ed74f"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
         },
-        {
-          "_name": "mod_tactical_000",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5a800961159bd4315e3a1657",
-                  "57fd23e32459772d0805bcf1",
-                  "544909bb4bdc2d6f028b4577",
-                  "5c06595c0db834001a66af6c",
-                  "5cc9c20cd7f00c001336c65d",
-                  "5d2369418abbc306c62e0c80",
-                  "5b07dd285acfc4001754240d",
-                  "56def37dd2720bec348b456a",
-                  "5a7b483fe899ef0016170d15",
-                  "61605d88ffa6e502ac5e7eeb",
-                  "5a5f1ce64f39f90b401987bc",
-                  "560d657b4bdc2da74d8b4572",
-                  "5b3a337e5acfc4704b4a19a0",
-                  "5c5952732e2216398b5abda2",
-                  "57d17e212459775a1179a0f5",
-                  "6267c6396b642f77f56f5c1c",
-                  "6272370ee4013c5d7e31f418",
-                  "6272379924e29f06af4d5ecb",
-                  "626becf9582c3e319310b837",
-                  "644a3df63b0b6f03e101e065",
-                  "646f6322f43d0c5d62063715"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_stock"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 18950,
+        "handbookPriceRoubles": 9700,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
+    },
+    "687b12fbb0bffe0925ad34b2": {
+        "itemTplToClone": "5fb6558ad6f0b2136f2d7eb7",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_slider.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.63,
+            "Ergonomics": 6.5,
+            "Recoil": -19,
+            "IsAnimated": true,
+            "UniqueAnimationModID": 1,
+            "AnimationVariantsNumber": 1,
+            "Retractable": true
         },
-        {
-          "_name": "mod_tactical_001",
-          "_id": "6196683558ef8c428c287e1f",
-          "_parent": "619666f4af1f5202c57a952d",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5a800961159bd4315e3a1657",
-                  "57fd23e32459772d0805bcf1",
-                  "544909bb4bdc2d6f028b4577",
-                  "5c06595c0db834001a66af6c",
-                  "5cc9c20cd7f00c001336c65d",
-                  "5d2369418abbc306c62e0c80",
-                  "5b07dd285acfc4001754240d",
-                  "56def37dd2720bec348b456a",
-                  "5a7b483fe899ef0016170d15",
-                  "61605d88ffa6e502ac5e7eeb",
-                  "5a5f1ce64f39f90b401987bc",
-                  "560d657b4bdc2da74d8b4572",
-                  "5b3a337e5acfc4704b4a19a0",
-                  "5c5952732e2216398b5abda2",
-                  "57d17e212459775a1179a0f5",
-                  "6267c6396b642f77f56f5c1c",
-                  "6272370ee4013c5d7e31f418",
-                  "6272379924e29f06af4d5ecb",
-                  "626becf9582c3e319310b837",
-                  "644a3df63b0b6f03e101e065",
-                  "646f6322f43d0c5d62063715"
-                ]
-              }
-            ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
+        "locales": {
+            "en": {
+                "name": "CZ Evo Manticore",
+                "shortName": "Manticore",
+                "description": ""
+            }
         },
-        {
-          "_name": "mod_sight_front",
-          "_id": "618426d96c780c1e710c9ba4",
-          "_parent": "618426d96c780c1e710c9b9f",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "5ba26b01d4351e0085325a51",
-                  "5dfa3d950dee1b22f862eae0",
-                  "5c17804b2e2216152006c02f",
-                  "5fb6567747ce63734e3fa1dc",
-                  "5bc09a30d4351e00367fb7c8",
-                  "5c18b90d2e2216152142466b",
-                  "5fc0fa362770a0045c59c677",
-                  "5894a73486f77426d259076c",
-                  "67a01e79a2b82626b73d10f0"
-                ]
-              }
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_stock"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 18950,
+        "handbookPriceRoubles": 9700,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
+    },
+    "687c44030594b2dc3318bfca": {
+        "itemTplToClone": "5fb6558ad6f0b2136f2d7eb7",
+        "parentId": "55818a594bdc2db9688b456a",
+        "handbookParentId": "5b5f757486f774093e6cb507",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_slidertac.bundle",
+                "rcid": ""
+            },
+            "Weight": 0.63,
+            "Ergonomics": 6.5,
+            "Recoil": -19,
+            "IsAnimated": true,
+            "UniqueAnimationModID": 1,
+            "AnimationVariantsNumber": 1,
+            "Retractable": true
+        },
+        "locales": {
+            "en": {
+                "name": "CZ Evo Manticore",
+                "shortName": "Manticore",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_stock"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 18950,
+        "handbookPriceRoubles": 9700,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
+    },
+    "687b03bc8b8590063f73f01c": {
+        "itemTplToClone": "5c07c5ed0db834001b73571c",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": {
+            "Weight": 0.395,
+            "Accuracy": 1,
+            "Ergonomics": -3.5,
+            "Recoil": -5.5,
+            "ExtraSizeLeft": 1,
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_muzzle_carbine.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "carbine muzzle brake",
+                "shortName": "evo",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 13250,
+        "handbookPriceRoubles": 6850,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtostaticlootcontainer": false,
+        "StaticLootContainers": [],
+        "traders": {}
+    },
+    "687fb49322e3cb02683967bf": {
+        "itemTplToClone": "5c07c5ed0db834001b73571c",
+        "parentId": "550aa4bf4bdc2dd6348b456b",
+        "handbookParentId": "5b5f724c86f774093f2ecf15",
+        "overrideProperties": {
+            "Weight": 0.395,
+            "Accuracy": 1,
+            "Ergonomics": -3.5,
+            "Recoil": -5.5,
+            "ExtraSizeLeft": 1,
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_muzzle.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "evo muzzle brake",
+                "shortName": "evo",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 13250,
+        "handbookPriceRoubles": 6850,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtostaticlootcontainer": false,
+        "StaticLootContainers": [],
+        "traders": {}
+    },
+    "687b001103b1d64f98f261e7": {
+        "itemTplToClone": "5649ad3f4bdc2df8348b4585",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+            "Weight": 0.395,
+            "Accuracy": 1,
+            "Ergonomics": -3.5,
+            "Recoil": -5.5,
+            "ExtraSizeLeft": 1,
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_pistolgrip.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "cz scorpion pistol grip",
+                "shortName": "evo",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 13250,
+        "handbookPriceRoubles": 6850,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtostaticlootcontainer": false,
+        "StaticLootContainers": [],
+        "traders": {}
+    },
+    "687c43775884a8f022f3ce2e": {
+        "itemTplToClone": "5649ad3f4bdc2df8348b4585",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+            "Weight": 0.395,
+            "Accuracy": 1,
+            "Ergonomics": -3.5,
+            "Recoil": -5.5,
+            "ExtraSizeLeft": 1,
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_pistolgrip_yetiwurks.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "cz scorpion pistol yeti grip",
+                "shortName": "evo",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 13250,
+        "handbookPriceRoubles": 6850,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtostaticlootcontainer": false,
+        "StaticLootContainers": [],
+        "traders": {}
+    },
+    "687c437b2c398db525b8d0e8": {
+        "itemTplToClone": "5649ad3f4bdc2df8348b4585",
+        "parentId": "55818a684bdc2ddd698b456d",
+        "handbookParentId": "5b5f761f86f774094242f1a1",
+        "overrideProperties": {
+            "Weight": 0.395,
+            "Accuracy": 1,
+            "Ergonomics": -3.5,
+            "Recoil": -5.5,
+            "ExtraSizeLeft": 1,
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_pistolgrip_magpul.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "cz scorpion magpul pistol grip",
+                "shortName": "evo",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 13250,
+        "handbookPriceRoubles": 6850,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtostaticlootcontainer": false,
+        "StaticLootContainers": [],
+        "traders": {}
+    },
+    "687b00468b4fafd5ebb3a763": {
+        "itemTplToClone": "5926c32286f774616e42de99",
+        "parentId": "55818a6f4bdc2db9688b456b",
+        "handbookParentId": "5b5f751486f77447ec5d770c",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_charge.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "cz scorpion charging handle",
+                "shortName": "evo",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 13250,
+        "handbookPriceRoubles": 6850,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtostaticlootcontainer": false,
+        "StaticLootContainers": [],
+        "traders": {}
+    },
+    "687b02e550e15d9a28c5681e": {
+        "itemTplToClone": "67069d66af4890b09f0006ec",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_handguard_carbine.bundle",
+                "rcid": ""
+            }
+        },
+        "locales": {
+            "en": {
+                "name": "cz scorpion carbine handguard",
+                "shortName": "evo",
+                "description": ""
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 13250,
+        "handbookPriceRoubles": 6850,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtostaticlootcontainer": false,
+        "StaticLootContainers": [],
+        "traders": {}
+    },
+    "687fb46ac2f7551f2ce2e4b1": {
+        "itemTplToClone": "67069d66af4890b09f0006ec",
+        "parentId": "55818a104bdc2db9688b4569",
+        "handbookParentId": "5b5f75e486f77447ec5d7712",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_handguard.bundle",
+                "rcid": ""
+            },
+            "Slots": [
+                {
+                    "_id": "687fb6041c584b9f96a7cd71",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_foregrip",
+                    "_parent": "687fb46ac2f7551f2ce2e4b1",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5c7fc87d2e221644f31c0298",
+                                    "5cda9bcfd7f00c0c0b53e900",
+                                    "59f8a37386f7747af3328f06",
+                                    "5a7dbfc1159bd40016548fde",
+                                    "619386379fb0c665d5490dbe",
+                                    "5c87ca002e221600114cb150",
+                                    "588226d124597767ad33f787",
+                                    "588226dd24597767ad33f789",
+                                    "588226e62459776e3e094af7",
+                                    "588226ef24597767af46e39c",
+                                    "59fc48e086f77463b1118392",
+                                    "5fce0cf655375d18a253eff0",
+                                    "5cf4fb76d7f00c065703d3ac",
+                                    "5b057b4f5acfc4771e1bd3e9",
+                                    "5c791e872e2216001219c40a",
+                                    "558032614bdc2de7118b4585",
+                                    "58c157be86f77403c74b2bb6",
+                                    "58c157c886f774032749fb06",
+                                    "5f6340d3ca442212f4047eb2",
+                                    "591af28e86f77414a27a9e1d",
+                                    "5c1cd46f2e22164bef5cfedb",
+                                    "5c1bc4812e22164bef5cfde7",
+                                    "5c1bc5612e221602b5429350",
+                                    "5c1bc5af2e221602b412949b",
+                                    "5c1bc5fb2e221602b1779b32",
+                                    "5c1bc7432e221602b412949d",
+                                    "5c1bc7752e221602b1779b34",
+                                    "64807a29e5ffe165600abc97",
+                                    "64806bdd26c80811d408d37a",
+                                    "648067db042be0705c0b3009",
+                                    "65169d5b30425317755f8e25",
+                                    "655df24fdf80b12750626d0a",
+                                    "655dccfdbdcc6b5df71382b6",
+                                    "661e52e29c8b4dadef008577",
+                                    "661e53149c8b4dadef008579",
+                                    "661e52415be02310ed07a07a",
+                                    "661e52b5b099f32c28003586"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "687fb600508509b7edbac33e",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_sight_front",
+                    "_parent": "687fb46ac2f7551f2ce2e4b1",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5ba26b01d4351e0085325a51",
+                                    "5dfa3d950dee1b22f862eae0",
+                                    "5c17804b2e2216152006c02f",
+                                    "5fb6567747ce63734e3fa1dc",
+                                    "5bc09a30d4351e00367fb7c8",
+                                    "5c18b90d2e2216152142466b",
+                                    "5fc0fa362770a0045c59c677",
+                                    "5894a73486f77426d259076c",
+                                    "55d4af3a4bdc2d972f8b456f",
+                                    "687fb51f2756d21d3145a094"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "687fb5fd62338ed46d18450c",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_001",
+                    "_parent": "687fb46ac2f7551f2ce2e4b1",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a800961159bd4315e3a1657",
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5c06595c0db834001a66af6c",
+                                    "5cc9c20cd7f00c001336c65d",
+                                    "5d2369418abbc306c62e0c80",
+                                    "5b07dd285acfc4001754240d",
+                                    "56def37dd2720bec348b456a",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5a5f1ce64f39f90b401987bc",
+                                    "560d657b4bdc2da74d8b4572",
+                                    "5b3a337e5acfc4704b4a19a0",
+                                    "5c5952732e2216398b5abda2",
+                                    "57d17e212459775a1179a0f5",
+                                    "6267c6396b642f77f56f5c1c",
+                                    "6272370ee4013c5d7e31f418",
+                                    "6272379924e29f06af4d5ecb",
+                                    "626becf9582c3e319310b837",
+                                    "644a3df63b0b6f03e101e065",
+                                    "646f6322f43d0c5d62063715"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "687fb5fb8b920c41ea11e443",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_002",
+                    "_parent": "687fb46ac2f7551f2ce2e4b1",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5a800961159bd4315e3a1657",
+                                    "57fd23e32459772d0805bcf1",
+                                    "544909bb4bdc2d6f028b4577",
+                                    "5c06595c0db834001a66af6c",
+                                    "5cc9c20cd7f00c001336c65d",
+                                    "5d2369418abbc306c62e0c80",
+                                    "5b07dd285acfc4001754240d",
+                                    "56def37dd2720bec348b456a",
+                                    "5a7b483fe899ef0016170d15",
+                                    "61605d88ffa6e502ac5e7eeb",
+                                    "5a5f1ce64f39f90b401987bc",
+                                    "560d657b4bdc2da74d8b4572",
+                                    "5b3a337e5acfc4704b4a19a0",
+                                    "5c5952732e2216398b5abda2",
+                                    "57d17e212459775a1179a0f5",
+                                    "6267c6396b642f77f56f5c1c",
+                                    "6272370ee4013c5d7e31f418",
+                                    "6272379924e29f06af4d5ecb",
+                                    "626becf9582c3e319310b837",
+                                    "644a3df63b0b6f03e101e065",
+                                    "646f6322f43d0c5d62063715"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                },
+                {
+                    "_id": "687fb5f88209fa28440ea32a",
+                    "_mergeSlotWithChildren": false,
+                    "_name": "mod_tactical_004",
+                    "_parent": "687fb46ac2f7551f2ce2e4b1",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "687fb676e4996d45517fe236"
+                                ],
+                                "Shift": 0
+                            }
+                        ]
+                    },
+                    "_proto": "55d30c4c4bdc2db4468b457e",
+                    "_required": false
+                }
             ]
-          },
-          "_required": false,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 Standard-Issue Handguard",
-        "shortName": "EVO3 HG",
-        "description": "A standard-issue handguard for the CZ Scorpion EVO 3-series weapons."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 3657,
-    "handbookPriceRoubles": 2410,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f5f": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 23,
-              "_tpl": "MONEY_EUR"
+        },
+        "locales": {
+            "en": {
+                "name": "cz scorpion handstop",
+                "shortName": "evo",
+                "description": ""
             }
-          ]
-        }
-      }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_muzzle"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 13250,
+        "handbookPriceRoubles": 6850,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtostaticlootcontainer": false,
+        "StaticLootContainers": [],
+        "traders": {}
     },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10e5": {
-    "itemTplToClone": "61825d06d92c473c770215de",
-    "parentId": "55818a594bdc2db9688b456a",
-    "handbookParentId": "MOD_STOCK",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czstockbuffer.bundle",
-        "rcid": ""
-      },
-      "Width": 1,
-      "Height": 1,
-      "Weight": "0.17",
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "BlocksFolding": true,
-      "Slots": [
-        {
-          "_name": "mod_stock_000",
-          "_id": "5b1141fa5acfc4001a590a14",
-          "_parent": "5b099bf25acfc4001637e683",
-          "_props": {
-            "filters": [
-              {
-                "Shift": 0,
-                "Filter": [
-                  "57ade1442459771557167e15",
-                  "5a33ca0fc4a282000d72292f",
-                  "5649be884bdc2d79388b4577",
-                  "5d120a10d7ad1a4e1026ba85",
-                  "5b0800175acfc400153aebd4",
-                  "5bb20e58d4351e00320205d7",
-                  "5947e98b86f774778f1448bc",
-                  "5947eab886f77475961d96c5",
-                  "5ef1ba28c64c5d0dfc0571a5",
-                  "602e3f1254072b51b239f713",
-                  "5c793fb92e221644f31bfb64",
-                  "5c793fc42e221600114ca25d",
-                  "591aef7986f774139d495f03",
-                  "591af10186f774139d495f0e",
-                  "627254cc9c563e6e442c398f",
-                  "638de3603a1a4031d8260b8c"
-                ]
-              }
-            ]
-          },
-          "_required": true,
-          "_mergeSlotWithChildren": false,
-          "_proto": "55d30c4c4bdc2db4468b457e"
-        }
-      ]
-    },
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 Buffer Tube Stock Adapter",
-        "shortName": "EVO3 Adpt",
-        "description": "A stock adapter, designed for the CZ Scorpion EVO3-series weapons to mount buffer-tube style stocks."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 6745,
-    "handbookPriceRoubles": 550,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f60": {
-          "barterSettings": {
-            "loyalLevel": 3,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 44,
-              "_tpl": "MONEY_EUR"
+    "687fb5224b7bf5a5702898ee": {
+        "itemTplToClone": "5bc09a18d4351e003562b68e",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_irons_rs.bundle",
+                "rcid": ""
+            },
+            "ExaminedByDefault": true,
+            "Ergonomics": 0
+        },
+        "locales": {
+            "en": {
+                "name": "scorp rear sight",
+                "shortName": "scorp RS",
+                "description": "Removable folding rear sight Magpul MBUS Gen.3. Comes in black and flat dark earth."
             }
-          ]
-        }
-      }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_sight_rear"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 4500,
+        "handbookPriceRoubles": 1950,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
     },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10e6": {
-    "itemTplToClone": "5fc3e4ee7283c4046c5814af",
-    "parentId": "55818a594bdc2db9688b456a",
-    "handbookParentId": "MOD_STOCK",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czstockskeleton.bundle",
-        "rcid": ""
-      },
-      "Width": 2,
-      "Height": 1,
-      "Weight": "0.347",
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 1,
-      "Recoil": -8,
-      "Ergonomics": 15,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 MCX-Style Skeleton Foldable Stock ",
-        "shortName": "EVO3 MCX",
-        "description": "A foldable skeletized stock designed for the CZ Scorpion EVO 3-series weapons."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 8268,
-    "handbookPriceRoubles": 6744,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f61": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 52,
-              "_tpl": "MONEY_EUR"
+    "687fb51f2756d21d3145a094": {
+        "itemTplToClone": "5bc09a30d4351e00367fb7c8",
+        "parentId": "55818ac54bdc2d5b648b456e",
+        "handbookParentId": "5b5f746686f77447ec5d7708",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_irons_fs.bundle",
+                "rcid": ""
+            },
+            "ExaminedByDefault": true,
+            "Ergonomics": 0
+        },
+        "locales": {
+            "en": {
+                "name": "scorp front sight",
+                "shortName": "scorp FS",
+                "description": "Removable folding rear sight Magpul MBUS Gen.3. Comes in black and flat dark earth."
             }
-          ]
-        }
-      }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_sight_front"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 4500,
+        "handbookPriceRoubles": 1950,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
     },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10e7": {
-    "itemTplToClone": "5fc3e4ee7283c4046c5814af",
-    "parentId": "55818a594bdc2db9688b456a",
-    "handbookParentId": "MOD_STOCK",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czstockscorpion.bundle",
-        "rcid": ""
-      },
-      "Width": 2,
-      "Height": 1,
-      "Weight": "0.17",
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 1,
-      "Recoil": -14,
-      "Ergonomics": 9,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 Folding Stock",
-        "shortName": "EVO3 std.",
-        "description": "A mixed polymer/metal foldable stock which comes standard with the CZ Scorpion EVO 3-series weapons."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 14628,
-    "handbookPriceRoubles": 12213,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f62": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 92,
-              "_tpl": "MONEY_EUR"
+    "687fb676e4996d45517fe236": {
+        "itemTplToClone": "5c87ca002e221600114cb150",
+        "parentId": "55818af64bdc2d5b648b4570",
+        "handbookParentId": "5b5f71de86f774093f2ecf13",
+        "overrideProperties": {
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_handstoppic.bundle",
+                "rcid": ""
+            },
+            "Ergonomics": 6,
+            "Recoil": -2.5,
+            "Weight": 0.069,
+            "ExaminedByDefault": true
+        },
+        "locales": {
+            "en": {
+                "name": "scorp handstop",
+                "shortName": "cz scorp",
+                "description": "Tactical vertical foregrip that reduces felt recoil and improves overall ergonomics, manufactured by Reaper Tactical."
             }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10e8": {
-    "itemTplToClone": "5bb20e0ed4351e3bac1212dc",
-    "parentId": "55818a684bdc2ddd698b456d",
-    "handbookParentId": "MOD_PISTOLGRIP",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czpgrip1.bundle",
-        "rcid": ""
-      },
-      "Width": 1,
-      "Height": 1,
-      "Weight": "0.053",
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeDown": 1,
-      "Ergonomics": 8,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "Yeti Wurks Switchback Pistol Grip",
-        "shortName": "Yeti PG",
-        "description": "A polymer pistol grip designed for the CZ Scorpion EVO 3-series weapons, manufactured by Yeti Wurks."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 11745,
-    "handbookPriceRoubles": 9455,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f63": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 75,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10e9": {
-    "itemTplToClone": "5bb20e0ed4351e3bac1212dc",
-    "parentId": "55818a684bdc2ddd698b456d",
-    "handbookParentId": "MOD_PISTOLGRIP",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czpgrip2.bundle",
-        "rcid": ""
-      },
-      "Width": 1,
-      "Height": 1,
-      "Weight": "0.038",
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeDown": 1,
-      "Ergonomics": 10,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "Magpul CZ Scorpion EVO 3 Pistol Grip",
-        "shortName": "MAGPUL PG",
-        "description": "A polymer pistol grip designed for the CZ Scorpion EVO 3-series weapons, manufactured by Magpul."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 14151,
-    "handbookPriceRoubles": 11755,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "PEACEKEEPER": {
-        "67a01f7bddf37bb90d9f8f64": {
-          "barterSettings": {
-            "loyalLevel": 3,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 89,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10ea": {
-    "itemTplToClone": "5bb20e0ed4351e3bac1212dc",
-    "parentId": "55818a684bdc2ddd698b456d",
-    "handbookParentId": "MOD_PISTOLGRIP",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czpgrip3.bundle",
-        "rcid": ""
-      },
-      "Width": 1,
-      "Height": 1,
-      "Weight": "0.068",
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeDown": 1,
-      "Ergonomics": 6,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 Standard-Issue Pistol Grip",
-        "shortName": "EVO3 PG",
-        "description": "A polymer pistol grip which comes standard-issued with the CZ Scorpion EVO 3-series weapons."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 5433,
-    "handbookPriceRoubles": 3947,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "PEACEKEEPER": {
-        "67a01f7bddf37bb90d9f8f65": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 27,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10eb": {
-    "itemTplToClone": "5926c32286f774616e42de99",
-    "parentId": "55818a6f4bdc2db9688b456b",
-    "handbookParentId": "MOD_CHARGE",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czcharginghandle.bundle",
-        "rcid": ""
-      },
-      "Width": 1,
-      "Height": 1,
-      "Weight": "0.126",
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 Charging Handle",
-        "shortName": "EVO3 CH",
-        "description": "A standard-issue charging handle for CZ Scorpion EVO 3 and compatible systems. Manufactured by \u010cesk\u00e1 zbrojovka Uhersk\u00fd Brod."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 5632,
-    "handbookPriceRoubles": 550,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f66": {
-          "barterSettings": {
-            "loyalLevel": 1,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 37,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10ec": {
-    "itemTplToClone": "5a32a064c4a28200741e22de",
-    "parentId": "550aa4cd4bdc2dd8348b456c",
-    "handbookParentId": "MOD_MUZZLE",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czsuppressor.bundle",
-        "rcid": ""
-      },
-      "ConflictingItems": [
-        "67a01e79a2b82626b73d10e4"
-      ],
-      "Width": 2,
-      "Height": 1,
-      "Weight": "0.17",
-      "ExtraSizeLeft": 1,
-      "ExtraSizeRight": 0,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "Innovative Arms IASC9-K 9x19 sound suppressor",
-        "shortName": "IASC9-K",
-        "description": "A sound suppressor for the CZ Scorpion EVO 3, designed by Innovative Arms."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 52384,
-    "handbookPriceRoubles": 25318,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f67": {
-          "barterSettings": {
-            "loyalLevel": 3,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 48361,
-              "_tpl": "MONEY_RUB"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10ed": {
-    "itemTplToClone": "5a32a064c4a28200741e22de",
-    "parentId": "550aa4cd4bdc2dd8348b456c",
-    "handbookParentId": "MOD_MUZZLE",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czsuppressorshort.bundle",
-        "rcid": ""
-      },
-      "ConflictingItems": [
-        "67a01e79a2b82626b73d10e1",
-        "67a01e79a2b82626b73d10e4"
-      ],
-      "Width": 2,
-      "Height": 1,
-      "Weight": "0.17",
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "Innovative Arms IASC9-K 9x19 integral sound suppressor",
-        "shortName": "IASC9",
-        "description": "An integral sound suppressor for the CZ Scorpion EVO 3, designed by Innovative Arms to fit inside most Scorpion M-LOK handguards."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 47650,
-    "handbookPriceRoubles": 25318,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f68": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 44968,
-              "_tpl": "MONEY_RUB"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10ee": {
-    "itemTplToClone": "58949dea86f77409483e16a8",
-    "parentId": "550aa4bf4bdc2dd6348b456b",
-    "handbookParentId": "MOD_STOCK",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czcompstock.bundle",
-        "rcid": ""
-      },
-      "ConflictingItems": [],
-      "Width": 1,
-      "Height": 1,
-      "Weight": "0.063",
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "CZScorpion EVO 3 standard flash hider",
-        "shortName": "EVO3 FH",
-        "description": "A standard-issue flashhider, designed for the CZ Scorpion EVO 3."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 3657,
-    "handbookPriceRoubles": 2944,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "PEACEKEEPER": {
-        "67a01f7bddf37bb90d9f8f69": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 23,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10ef": {
-    "itemTplToClone": "5bc09a18d4351e003562b68e",
-    "parentId": "55818ac54bdc2d5b648b456e",
-    "handbookParentId": "MOD_SIGHT",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czsightr.bundle",
-        "rcid": ""
-      },
-      "Width": 1,
-      "Height": 1,
-      "Weight": 0.104,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 Rear Sight",
-        "shortName": "EVO3 RS",
-        "description": "A standard-issue picatinny rear iron sight, designed for the CZ Scorpion EVO 3."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": true,
-    "modSlot": [
-      "mod_sight_rear"
-    ],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 3339,
-    "handbookPriceRoubles": 2012,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f6a": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 21,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  },
-  "67a01e79a2b82626b73d10f0": {
-    "itemTplToClone": "5c18b90d2e2216152142466b",
-    "parentId": "55818ac54bdc2d5b648b456e",
-    "handbookParentId": "MOD_SIGHT",
-    "overrideProperties": {
-      "Prefab": {
-        "path": "WeaponCZScorpion/czsightf.bundle",
-        "rcid": ""
-      },
-      "Width": 1,
-      "Height": 1,
-      "Weight": 0.05,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "Slots": []
-    },
-    "locales": {
-      "en": {
-        "name": "CZ Scorpion EVO 3 Front Sight",
-        "shortName": "EVO3 FS",
-        "description": "A standard-issue picatinny front iron sight, designed for the CZ Scorpion EVO 3."
-      }
-    },
-    "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": true,
-    "modSlot": [
-      "mod_sight_front"
-    ],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 1908,
-    "handbookPriceRoubles": 980,
-    "addtoTraders": false,
-    "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "Probability": 250,
-    "traders": {
-      "SKIER": {
-        "67a01f7bddf37bb90d9f8f6b": {
-          "barterSettings": {
-            "loyalLevel": 2,
-            "unlimitedCount": true,
-            "stackObjectsCount": 99
-          },
-          "barters": [
-            {
-              "count": 12,
-              "_tpl": "MONEY_EUR"
-            }
-          ]
-        }
-      }
-    },
-    "StaticLootContainers": []
-  }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": true,
+        "modSlot": [
+            "mod_foregrip"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 22000,
+        "handbookPriceRoubles": 7100,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
+    }
 }
