@@ -1,7 +1,7 @@
 {
     "manifest": [
         {
-            "key": "bundles/WeaponCZScorpion/cz_acr.bundle",
+            "key": "WeaponCZScorpion/cz_acr.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -9,7 +9,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_buffer.bundle",
+            "key": "WeaponCZScorpion/cz_buffer.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_barrel_12.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_barrel_5.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -25,7 +25,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_barrel_14.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_barrel_8.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_barrel_5.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_barrel_12.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -41,7 +41,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_barrel_8.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_barrel_14.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -49,7 +49,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_charge.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_charge.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -57,7 +57,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_charge_delta_blk.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_charge_delta_blk.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -65,7 +65,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_charge_delta_red.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_charge_delta_red.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -73,7 +73,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_charge_prostock.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_charge_prostock.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -81,7 +81,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_handguard.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_handguard.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -89,7 +89,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_handguard_carbine.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_handguard_carbine.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -97,7 +97,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_handguard_midlength_tactical.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_handguard_midlength_tactical.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -105,7 +105,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_handguard_railedpdw.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_handguard_railedpdw.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -113,7 +113,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_handstoppic.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_handstoppic.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -121,7 +121,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_irons_fs.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_irons_fs.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -129,7 +129,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_irons_rs.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_irons_rs.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -137,7 +137,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_magazine_20.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_magazine_20.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -145,7 +145,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_magazine_30.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_magazine_30.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -153,7 +153,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_magazine_drum.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_magazine_drum.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -161,7 +161,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_magazine_magpul35.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_magazine_magpul35.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -169,7 +169,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_magazine_magpul35_tape.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_magazine_magpul35_tape.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -177,7 +177,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_muzzle.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_muzzle.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -185,7 +185,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_muzzle_carbine.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_muzzle_carbine.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -193,7 +193,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_pistolgrip.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_pistolgrip.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -201,7 +201,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_pistolgrip_magpul.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_pistolgrip_magpul.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -209,7 +209,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_scorpion_pistolgrip_yetiwurks.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_pistolgrip_yetiwurks.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -217,7 +217,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_slider.bundle",
+            "key": "WeaponCZScorpion/cz_buffer.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -225,7 +225,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_slidertac.bundle",
+            "key": "WeaponCZScorpion/cz_slider.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -233,7 +233,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_standard.bundle",
+            "key": "WeaponCZScorpion/cz_slidertac.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -241,7 +241,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_tactical.bundle",
+            "key": "WeaponCZScorpion/cz_standard.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -249,7 +249,7 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/cz_zhukov.bundle",
+            "key": "WeaponCZScorpion/cz_tactical.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -257,7 +257,15 @@
             ]
         },
         {
-            "key": "bundles/WeaponCZScorpion/weapon_cz_scorpion_container.bundle",
+            "key": "WeaponCZScorpion/cz_zhukov.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponCZScorpion/weapon_cz_scorpion_container.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
