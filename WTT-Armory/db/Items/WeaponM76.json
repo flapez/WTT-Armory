@@ -172,7 +172,6 @@
                   "5cf638cbd7f00c06595bc936",
                   "5a7c74b3e899ef0014332c29",
                   "591ee00d86f774592f7b841e",
-                  "5e569a2e56edd02abe09f280",
                   "5d0a29ead7ad1a0026013f27",
                   "618a75c9a3884f56c957ca1b",
                   "57acb6222459771ec34b5cb0",
@@ -477,6 +476,10 @@
         "path": "WeaponM76/m76rs.bundle",
         "rcid": ""
       },
+      "ConflictingItems": [
+        "63d114019e35b334d82302f7",
+		"5c61a40d2e2216001403158d"
+      ],
       "ExaminedByDefault": true,
       "Slots": []
     },
@@ -849,7 +852,12 @@
         "628a7b23b0f75035732dd565",
         "5bf3f59f0db834001a6fa060",
         "649ec2cec93611967b03495e",
-        "65f1b2a5c14a07890801fc70"
+        "65f1b2a5c14a07890801fc70",
+        "618a5d5852ecee1505530b2a",
+        "638db77630c4240f9e06f8b6",
+        "63d114019e35b334d82302f7",
+        "6544d4187c5457729210d277",
+        "65f1b1176dbd6c5ba2082eed"
       ],
       "Slots": [
         {
