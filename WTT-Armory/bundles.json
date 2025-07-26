@@ -17,6 +17,22 @@
             ]
         },
         {
+            "key": "WeaponCZScorpion/cz_scorpion_barrel_12.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponCZScorpion/cz_scorpion_barrel_14.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponCZScorpion/cz_scorpion_barrel_5.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -33,15 +49,7 @@
             ]
         },
         {
-            "key": "WeaponCZScorpion/cz_scorpion_barrel_12.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
-            "key": "WeaponCZScorpion/cz_scorpion_barrel_14.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_barrel_integral.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -81,6 +89,14 @@
             ]
         },
         {
+            "key": "WeaponCZScorpion/cz_scorpion_foregrip_magpul_handstop.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponCZScorpion/cz_scorpion_handguard.bundle",
             "dependencyKeys": [
                 "shaders",
@@ -90,6 +106,38 @@
         },
         {
             "key": "WeaponCZScorpion/cz_scorpion_handguard_carbine.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponCZScorpion/cz_scorpion_handguard_hb_angled.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponCZScorpion/cz_scorpion_handguard_hb_micro.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponCZScorpion/cz_scorpion_handguard_hb_midlength.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponCZScorpion/cz_scorpion_handguard_long.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -114,6 +162,14 @@
         },
         {
             "key": "WeaponCZScorpion/cz_scorpion_handstoppic.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponCZScorpion/cz_scorpion_ia_sc9.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
@@ -217,7 +273,7 @@
             ]
         },
         {
-            "key": "WeaponCZScorpion/cz_buffer.bundle",
+            "key": "WeaponCZScorpion/cz_scorpion_shroud.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
