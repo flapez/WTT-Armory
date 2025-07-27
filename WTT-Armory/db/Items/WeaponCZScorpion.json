@@ -27,7 +27,8 @@
                                     "6881c0fa3be04213015b7e34",
                                     "6761b213607f9a6f79017cdb",
                                     "687c41fb7d3612ea41c3a822",
-                                    "687c430e91f5db8685fbbae6"
+                                    "687c430e91f5db8685fbbae6",
+                                    "6886543e0db4a816ef78a062"
                                 ]
                             }
                         ]
@@ -268,7 +269,7 @@
                     "_required": true
                 }
             ],
-            "defMagType": "6881c0fa3be04213015b7e34"
+            "defMagType": "6886543e0db4a816ef78a062"
         },
         "locales": {
             "en": {
@@ -331,7 +332,7 @@
                     },
                     {
                         "_id": "687fb74c0c71c1d5ea939a25",
-                        "_tpl": "6881c0fa3be04213015b7e34",
+                        "_tpl": "6886543e0db4a816ef78a062",
                         "parentId": "687fb72b56e477f5df02a32c",
                         "slotId": "mod_magazine"
                     },
@@ -611,7 +612,7 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "ExtraSizeLeft": 2,
+            "ExtraSizeLeft": 3,
             "Slots": [
                 {
                     "_id": "6881bd713dc36d03d07c5c51",
@@ -706,9 +707,9 @@
         },
         "locales": {
             "en": {
-                "name": "CZ Scorpion EVO 3 A1 carbine length 8 inch barrel",
-                "shortName": "EVO 3 8\"",
-                "description": "Standard 8 inch barrel for the CZ Scorpion EVO 3 S1 9x19 submachine gun."
+                "name": "CZ Scorpion EVO 3 A1 carbine length 5 inch barrel",
+                "shortName": "EVO 3 5\"",
+                "description": "Ported 5 inch barrel designed to be used with an integral suppressor system for the CZ Scorpion EVO 3 S1 9x19 submachine gun."
             }
         },
         "clearClonedProps": false,
@@ -3433,5 +3434,68 @@
         "addtostaticlootcontainer": false,
         "StaticLootContainers": [],
         "traders": {}
+    },
+    "6886543e0db4a816ef78a062": {
+        "itemTplToClone": "5c5db6552e2216001026119d",
+        "parentId": "5448bc234bdc2d3c308b4569",
+        "handbookParentId": "5b5f754a86f774094242f19b",
+        "overrideProperties": {
+            "ExaminedByDefault": true,
+            "Prefab": {
+                "path": "WeaponCZScorpion/cz_scorpion_magazine_transparent.bundle",
+                "rcid": ""
+            },
+            "Cartridges": [
+                {
+                    "_id": "68865445eba4eb72d2a47d9b",
+                    "_max_count": 20,
+                    "_name": "cartridges",
+                    "_parent": "6886543e0db4a816ef78a062",
+                    "_props": {
+                        "filters": [
+                            {
+                                "Filter": [
+                                    "5efb0da7a29a85116f6ea05f",
+                                    "5c3df7d588a4501f290594e5",
+                                    "58864a4f2459770fcc257101",
+                                    "56d59d3ad2720bdb418b4577",
+                                    "5c925fa22e221601da359b7b",
+                                    "5a3c16fe86f77452b62de32a",
+                                    "5efb0e16aeb21837e749c7ff",
+                                    "5c0d56a986f774449d5de529",
+                                    "64b7bbb74b75259c590fa897"
+                                ]
+                            }
+                        ]
+                    },
+                    "_proto": "5748538b2459770af276a261"
+                }
+            ]
+        },
+        "locales": {
+            "en": {
+                "name": "CZ Scorpion EVO 3 A1 9x19 20-round polymer transparent magazine",
+                "shortName": "EVO 3 20",
+                "description": "Standard 20-round 9x19 transparent magazine for the CZ Scorpion EVO 3 A1."
+            }
+        },
+        "clearClonedProps": false,
+        "addtoInventorySlots": [],
+        "addtoModSlots": false,
+        "modSlot": [
+            "mod_magazine"
+        ],
+        "ModdableItemWhitelist": [],
+        "ModdableItemBlacklist": [],
+        "fleaPriceRoubles": 6190,
+        "handbookPriceRoubles": 3190,
+        "addtoTraders": false,
+        "addtoBots": false,
+        "addtoStaticLootContainers": false,
+        "Probability": 250,
+        "traders": {},
+        "StaticLootContainers": []
     }
 }
+
+

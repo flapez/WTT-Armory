@@ -9,6 +9,14 @@
             ]
         },
         {
+            "key": "WeaponCZScorpion/cz_scorpion_magazine_transparent.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponCZScorpion/cz_buffer.bundle",
             "dependencyKeys": [
                 "shaders",
