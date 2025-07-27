@@ -1,8 +1,8 @@
 {
     "687314e1ee500b06711955a2 name": "Wolves At The Gate",
-    "687314e1ee500b06711955a2 description": "When the blockade started and majority of the reserve base personnel abandoned the area, Glukhar and his gang broke into the weapons testing area of the base and stole what they could. Most of the stolen property has been used or destroyed over time. However, my sources say that whatever remnants of what they found is going to be moved from that area soon, as Glukhar and his men are looking to expand their territory.",
-    "687314e1ee500b06711955a2 startedMessageText": "I need you to go the  3rd floor Armory located in the Black Pawn building and look for what rightfully belongs to the government. Find whatever it is they have left, and bring it back to me. My garrison will be reward for our efforts, which means you will get your own pay day.",
-    "687314e1ee500b06711955a2 successMessageText": "Great find, glad we got that out of there before it was moved.",
+    "687314e1ee500b06711955a2 description": "Greetings comrade. When the blockade kicked off and most of the reserve base boys ditched the place Glukhar and his crew of scavengers busted into the weapons testing area. Grabbed whatever they could get their filthy hands on. Most of that gear is long gone used up or trashed. But word is the scraps they left behind are about to be moved. Glukhar’s planning to spread his rot further across our land.",
+    "687314e1ee500b06711955a2 startedMessageText": "I need you to hit the 3rd floor Armory in the Black Pawn building. Find whatever’s left of what those thieves took. That’s government property and it belongs back with us. Bring it to me and my garrison will make sure you get a fat payday for your trouble.",
+    "687314e1ee500b06711955a2 successMessageText": "Nice work warrior. You pulled those goods out before Glukhar’s dogs could move them. Our homeland owes you one. Here’s your cut. Now get lost.",
     "687314ce095483c45f5992ca": "Find the AEK-971 Prototype",
     "6876ee0d07b00d42e102c09e": "Stash the AEK-971 Prototype.",
     "6876ee191ff3fb6115656aff": "Survive and Extract"

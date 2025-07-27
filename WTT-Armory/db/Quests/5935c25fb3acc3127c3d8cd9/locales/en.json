@@ -1,8 +1,8 @@
 {
   "6833b8bc6f8ce71072c4e703 name": "False Flag",
-  "6833b8bc6f8ce71072c4e703 description": "Contractor, we have a humanitarian crisis brewing. Hostile factions are targeting UN aid convoys in Woods - but the media needs proof. Plant 3 UNTAR tags near some faction hotspots, put them on a few executed bodies. When the world sees the BEAR and USEC are decimating the blue helmets, donations to our 'operations' will triple. Saving lives through proper optics.",
-  "6833b8bc6f8ce71072c4e703 startedMessageText": "Plant the tags, stage the bodies, vanish. If they trace this back or you get caught, you're a rogue actor.",
-  "6833b8bc6f8ce71072c4e703 successMessageText": "Reuters just ran a story condeming PMC factions for their brutal atrocities. Geneva is screaming for sanctions. Our funding is secured... For now.",
+  "6833b8bc6f8ce71072c4e703 description": "Good afternoon mercenary. We’ve got a messy situation brewing. Those hostile factions out in Woods are hitting our UN aid convoys hard. The world needs to see it plain and clear. I want you to plant three UNTAR tags near their hotspots. Stick them on some executed bodies. Once the news catches wind that BEAR and USEC are butchering blue helmets donations to our operations will pour in. It’s about saving lives through the right kind of spotlight.",
+  "6833b8bc6f8ce71072c4e703 startedMessageText": "Get those tags planted and stage the bodies clean. Then disappear. If anyone traces this back or you get caught you’re just a lone wolf acting on your own.",
+  "6833b8bc6f8ce71072c4e703 successMessageText": "The press is eating it up. Stories about PMC atrocities are everywhere. Geneva’s screaming for blood and our funding’s locked in tight. Nice work mercenary. Here’s your pay.",
   "6833b8bc6f8ce71072c4e703 failMessageText": "You compromised the operation. UNTAR is breathing down my neck. If you can't handle the work, don't take the job.",
   "6833b8bc6f8ce71072c4e703 acceptPlayerMessage": "This isn’t deception - it’s documenting atrocities they’d commit anyway. Get to Woods.", 
   "6833b8bc6f8ce71072c4e703 declinePlayerMessage": "Not interested? Fine. When UNTAR finally gets pushed out, and the scavs are beating down the door to your hideout? Don't call me begging for help.",
@@ -27,9 +27,9 @@
 
 
   "686c25d281071c45d2f8aa44 name": "Belt Fed, Gone Missing",
-  "686c25d281071c45d2f8aa44 description": "This is urgent! I recently procured a weapon shipment of the M249 SAW, but while my team was delivering it, their convoy was ambushed and some of the weapons were stolen. The manifest for the shipment must have been dropped during the ambush and I need it so I know how many of my guns are missing exactly. Go find it for me! Check the Tigr LAV over at the main bridge on Customs, you will likely find what you need there. ",
-  "686c25d281071c45d2f8aa44 startedMessageText": "Please get that manifest back to me ASAP.",
-  "686c25d281071c45d2f8aa44 successMessageText": "Incredible! Thank you so much for recovering this!!",
+  "686c25d281071c45d2f8aa44 description": " Good afternoon mercenary. We’ve got a problem that needs fixing fast. I secured a shipment of M249 SAWs but my team got hit during delivery. Some of those weapons were snatched. Worse yet the manifest listing every gun got lost in the chaos. I need that paperwork to know exactly what’s missing. Head to the Tigr LAV by the main bridge on Customs. That’s your best bet to find it. Clear? ",
+  "686c25d281071c45d2f8aa44 startedMessageText": "Move quick and grab that manifest. I need it back here yesterday.",
+  "686c25d281071c45d2f8aa44 successMessageText": "Well done mercenary. You pulled through with that manifest. Now I can sort this mess out. Here’s your reward. Expect more work soon.",
   "686c26481432fe3c84301de9": "Find the shipping manifest that is near the Tigr LAV at Customs main bridge",
   "686c26d2392f65d4890af76f": "Survive and Extract",
   "686c26dc34ec5f932401b002": "Hand in the shipping manifest to Peacekeeper",
