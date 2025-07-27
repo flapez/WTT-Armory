@@ -23,7 +23,7 @@
       "Velocity": -11,
       "Weight": 0.420,
       "isChamberLoad": false,
-      "ManualBoltCatch": true,
+      "ManualBoltCatch": false,
       "Prefab": {
         "path": "WeaponC9/weapon_c9_container.bundle",
         "rcid": ""
