@@ -398,7 +398,7 @@
         },
         {
             "locationId": "(-15.774, 27.8208, -18.6495)",
-            "probability": 1,
+            "probability": 0.40,
             "template": {
                 "Id": "Scorpion_Kiba_Loot_spawn",
                 "IsContainer": false,
@@ -425,7 +425,7 @@
                         "upd": {
                             "Repairable": {
                                 "MaxDurability": 100,
-                                "Durability": 99.7496
+                                "Durability": 100
                             },
                             "Foldable": {
                                 "Folded": false
