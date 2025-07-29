@@ -11,6 +11,7 @@
             },
             "Width": 1,
             "Height": 1,
+            "Weight": 0.911,
             "BurstShotsCount": 3,
             "Slots": [
                 {
@@ -25,7 +26,7 @@
                                 "Filter": [
                                     "6881c0dd2f0aaea90068aa12",
                                     "6881c0fa3be04213015b7e34",
-                                    "6761b213607f9a6f79017cdb",
+                                    "6888e4dd5a5e2e5dd16409f9",
                                     "687c41fb7d3612ea41c3a822",
                                     "687c430e91f5db8685fbbae6",
                                     "6886543e0db4a816ef78a062"
@@ -408,7 +409,10 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "ExtraSizeLeft": 0,
+            "Ergonomics": -3,
+            "Recoil": -1,
+            "ExtraSizeLeft": 1,
+            "Weight": 0.24,
             "Width": 1,
             "Slots": [
                 {
@@ -440,7 +444,9 @@
             ],
             "ConflictingItems": [
                 "687fb46ac2f7551f2ce2e4b1",
-                "68827b0e8586d3f82920066a"
+                "68827b0e8586d3f82920066a",
+				"6881c17e9ece0d7057d4347a",
+				"687b02e550e15d9a28c5681e"
             ]
         },
         "locales": {
@@ -477,7 +483,10 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
+            "Ergonomics": -7,
+            "Recoil": -3,
             "ExtraSizeLeft": 1,
+            "Weight": 0.3,
             "Width": 2,
             "Slots": [
                 {
@@ -508,7 +517,8 @@
                 }
             ],
             "ConflictingItems": [
-                "68827b0e8586d3f82920066a"
+                "68827b0e8586d3f82920066a",
+				"6881c17e9ece0d7057d4347a"
             ]
         },
         "locales": {
@@ -544,8 +554,11 @@
                 "path": "WeaponCZScorpion/cz_scorpion_barrel_12.bundle",
                 "rcid": ""
             },
+            "Ergonomics": -13,
+            "Recoil": -5,
             "ExaminedByDefault": true,
             "ExtraSizeLeft": 2,
+            "Weight": 0.36,
             "Slots": [
                 {
                     "_id": "6881bcb83b32e2b45e03422c",
@@ -611,8 +624,11 @@
                 "path": "WeaponCZScorpion/cz_scorpion_barrel_14.bundle",
                 "rcid": ""
             },
+            "Ergonomics": -17,
+            "Recoil": -8,
             "ExaminedByDefault": true,
             "ExtraSizeLeft": 3,
+            "Weight": 0.42,
             "Slots": [
                 {
                     "_id": "6881bd713dc36d03d07c5c51",
@@ -675,8 +691,11 @@
                 "path": "WeaponCZScorpion/cz_scorpion_barrel_integral.bundle",
                 "rcid": ""
             },
+            "Ergonomics": -1,
+            "Recoil": -1,
             "ExaminedByDefault": true,
-            "ExtraSizeLeft": 0,
+            "ExtraSizeLeft": 1,
+            "Weight": 0.22,
             "Width": 1,
             "Slots": [
                 {
@@ -702,6 +721,7 @@
             "ConflictingItems": [
                 "687fb46ac2f7551f2ce2e4b1",
                 "68827b0e8586d3f82920066a",
+				"6881c17e9ece0d7057d4347a",
                 "687b02e550e15d9a28c5681e"
             ]
         },
@@ -729,7 +749,7 @@
         "traders": {},
         "StaticLootContainers": []
     },
-    "6761b213607f9a6f79017cdb": {
+    "6888e4dd5a5e2e5dd16409f9": {
         "itemTplToClone": "5a351711c4a282000b1521a4",
         "parentId": "5448bc234bdc2d3c308b4569",
         "handbookParentId": "5b5f754a86f774094242f19b",
@@ -1018,9 +1038,9 @@
                 "path": "WeaponCZScorpion/cz_acr.bundle",
                 "rcid": ""
             },
-            "Weight": 0.63,
-            "Ergonomics": 6.5,
-            "Recoil": -19,
+            "Weight": 0.56,
+            "Ergonomics": 2,
+            "Recoil": -25,
             "IsAnimated": true,
             "UniqueAnimationModID": 0,
             "AnimationVariantsNumber": 0
@@ -1059,8 +1079,8 @@
                 "path": "WeaponCZScorpion/cz_tactical.bundle",
                 "rcid": ""
             },
-            "Weight": 0.63,
-            "Ergonomics": 6.5,
+            "Weight": 0.47,
+            "Ergonomics": 13,
             "Recoil": -19,
             "IsAnimated": true,
             "UniqueAnimationModID": 0,
@@ -1100,6 +1120,9 @@
                 "path": "WeaponCZScorpion/cz_buffer.bundle",
                 "rcid": ""
             },
+            "Weight": 0.12,
+            "Ergonomics": -2,
+            "Recoil": -1,
             "Slots": [
                 {
                     "_id": "6881c5948c1f65b0e3140b29",
@@ -1147,9 +1170,6 @@
                     "_required": false
                 }
             ],
-            "Weight": 0.63,
-            "Ergonomics": 6.5,
-            "Recoil": -19,
             "IsAnimated": true,
             "UniqueAnimationModID": 0,
             "AnimationVariantsNumber": 0
@@ -1188,9 +1208,9 @@
                 "path": "WeaponCZScorpion/cz_standard.bundle",
                 "rcid": ""
             },
-            "Weight": 0.63,
-            "Ergonomics": 6.5,
-            "Recoil": -19,
+            "Weight": 0.45,
+            "Ergonomics": 11,
+            "Recoil": -17,
             "IsAnimated": true,
             "UniqueAnimationModID": 0,
             "AnimationVariantsNumber": 0
@@ -1229,9 +1249,9 @@
                 "path": "WeaponCZScorpion/cz_zhukov.bundle",
                 "rcid": ""
             },
-            "Weight": 0.63,
-            "Ergonomics": 6.5,
-            "Recoil": -19,
+            "Weight": 0.5,
+            "Ergonomics": 7,
+            "Recoil": -22,
             "IsAnimated": true,
             "UniqueAnimationModID": 0,
             "AnimationVariantsNumber": 0
@@ -1270,9 +1290,9 @@
                 "path": "WeaponCZScorpion/cz_slider.bundle",
                 "rcid": ""
             },
-            "Weight": 0.63,
-            "Ergonomics": 6.5,
-            "Recoil": -19,
+            "Weight": 0.26,
+            "Ergonomics": 17,
+            "Recoil": -18,
             "IsAnimated": true,
             "UniqueAnimationModID": 1,
             "AnimationVariantsNumber": 1,
@@ -1312,9 +1332,9 @@
                 "path": "WeaponCZScorpion/cz_slidertac.bundle",
                 "rcid": ""
             },
-            "Weight": 0.63,
-            "Ergonomics": 6.5,
-            "Recoil": -19,
+            "Weight": 0.28,
+            "Ergonomics": 16,
+            "Recoil": -20,
             "IsAnimated": true,
             "UniqueAnimationModID": 1,
             "AnimationVariantsNumber": 1,
@@ -1349,11 +1369,12 @@
         "parentId": "550aa4bf4bdc2dd6348b456b",
         "handbookParentId": "5b5f724c86f774093f2ecf15",
         "overrideProperties": {
-            "Weight": 0.395,
             "Accuracy": 1,
-            "Ergonomics": -3.5,
-            "Recoil": -5.5,
-            "ExtraSizeLeft": 1,
+            "DurabilityBurnModificator": 0.97,
+            "Ergonomics": -1,
+            "HeatFactor": 1,
+            "Recoil": -8,
+            "Weight": 0.067,
             "Prefab": {
                 "path": "WeaponCZScorpion/cz_scorpion_muzzle_carbine.bundle",
                 "rcid": ""
@@ -1387,11 +1408,11 @@
         "parentId": "550aa4bf4bdc2dd6348b456b",
         "handbookParentId": "5b5f724c86f774093f2ecf15",
         "overrideProperties": {
-            "Weight": 0.395,
             "Accuracy": 1,
-            "Ergonomics": -3.5,
-            "Recoil": -5.5,
-            "ExtraSizeLeft": 1,
+            "Ergonomics": -7,
+            "ExtraSizeLeft": 0,
+            "Recoil": -4,
+            "Weight": 0.27,
             "Prefab": {
                 "path": "WeaponCZScorpion/cz_scorpion_shroud.bundle",
                 "rcid": ""
@@ -1425,11 +1446,11 @@
         "parentId": "550aa4cd4bdc2dd8348b456c",
         "handbookParentId": "5b5f724c86f774093f2ecf15",
         "overrideProperties": {
-            "Weight": 0.395,
             "Accuracy": 1,
-            "Ergonomics": -3.5,
-            "Recoil": -5.5,
+            "Ergonomics": -13,
             "ExtraSizeLeft": 1,
+            "Recoil": -6.5,
+            "Weight": 0.35,
             "Prefab": {
                 "path": "WeaponCZScorpion/cz_scorpion_ia_sc9.bundle",
                 "rcid": ""
@@ -1463,11 +1484,11 @@
         "parentId": "550aa4bf4bdc2dd6348b456b",
         "handbookParentId": "5b5f724c86f774093f2ecf15",
         "overrideProperties": {
-            "Weight": 0.395,
-            "Accuracy": 1,
-            "Ergonomics": -3.5,
-            "Recoil": -5.5,
-            "ExtraSizeLeft": 1,
+            "DurabilityBurnModificator": 1,
+            "Ergonomics": -1,
+            "HeatFactor": 1,
+            "Recoil": -5,
+            "Weight": 0.058,
             "Prefab": {
                 "path": "WeaponCZScorpion/cz_scorpion_muzzle.bundle",
                 "rcid": ""
@@ -1501,11 +1522,8 @@
         "parentId": "55818a684bdc2ddd698b456d",
         "handbookParentId": "5b5f761f86f774094242f1a1",
         "overrideProperties": {
-            "Weight": 0.395,
-            "Accuracy": 1,
-            "Ergonomics": -3.5,
-            "Recoil": -5.5,
-            "ExtraSizeLeft": 1,
+            "Weight": 0.05,
+            "Ergonomics": 2,
             "Prefab": {
                 "path": "WeaponCZScorpion/cz_scorpion_pistolgrip.bundle",
                 "rcid": ""
@@ -1539,11 +1557,8 @@
         "parentId": "55818a684bdc2ddd698b456d",
         "handbookParentId": "5b5f761f86f774094242f1a1",
         "overrideProperties": {
-            "Weight": 0.395,
-            "Accuracy": 1,
-            "Ergonomics": -3.5,
-            "Recoil": -5.5,
-            "ExtraSizeLeft": 1,
+            "Weight": 0.06,
+            "Ergonomics": 4.5,
             "Prefab": {
                 "path": "WeaponCZScorpion/cz_scorpion_pistolgrip_yetiwurks.bundle",
                 "rcid": ""
@@ -1577,11 +1592,8 @@
         "parentId": "55818a684bdc2ddd698b456d",
         "handbookParentId": "5b5f761f86f774094242f1a1",
         "overrideProperties": {
-            "Weight": 0.395,
-            "Accuracy": 1,
-            "Ergonomics": -3.5,
-            "Recoil": -5.5,
-            "ExtraSizeLeft": 1,
+            "Weight": 0.06,
+            "Ergonomics": 3.5,
             "Prefab": {
                 "path": "WeaponCZScorpion/cz_scorpion_pistolgrip_magpul.bundle",
                 "rcid": ""
@@ -1618,7 +1630,10 @@
             "Prefab": {
                 "path": "WeaponCZScorpion/cz_scorpion_charge.bundle",
                 "rcid": ""
-            }
+            },
+            "Weight": 0.034,
+            "Ergonomics": 1,
+            "ExtraSizeLeft": 1
         },
         "locales": {
             "en": {
@@ -1651,7 +1666,10 @@
             "Prefab": {
                 "path": "WeaponCZScorpion/cz_scorpion_charge_delta_blk.bundle",
                 "rcid": ""
-            }
+            },
+            "Weight": 0.035,
+            "Ergonomics": 3.5,
+            "ExtraSizeLeft": 1
         },
         "locales": {
             "en": {
@@ -1684,7 +1702,10 @@
             "Prefab": {
                 "path": "WeaponCZScorpion/cz_scorpion_charge_delta_red.bundle",
                 "rcid": ""
-            }
+            },
+            "Weight": 0.035,
+            "Ergonomics": 3.5,
+            "ExtraSizeLeft": 1
         },
         "locales": {
             "en": {
@@ -1717,7 +1738,10 @@
             "Prefab": {
                 "path": "WeaponCZScorpion/cz_scorpion_charge_prostock.bundle",
                 "rcid": ""
-            }
+            },
+            "Weight": 0.0355,
+            "Ergonomics": 2,
+            "ExtraSizeLeft": 1
         },
         "locales": {
             "en": {
@@ -1751,7 +1775,9 @@
                 "path": "WeaponCZScorpion/cz_scorpion_handguard.bundle",
                 "rcid": ""
             },
-            "Width": 1,
+            "Ergonomics": 5,
+			"Recoil": 0,
+            "Weight": 0.31,
             "Slots": [
                 {
                     "_id": "687fb6041c584b9f96a7cd71",
@@ -1959,7 +1985,10 @@
                 "path": "WeaponCZScorpion/cz_scorpion_handguard_carbine.bundle",
                 "rcid": ""
             },
-            "ExtraSizeLeft": 1,
+            "Ergonomics": 7.5,
+			"Recoil": 0,
+            "ExtraSizeLeft": 2,
+            "Weight": 0.39,
             "Slots": [
                 {
                     "_id": "6881ebdc72dcf5f604e7aa39",
@@ -2135,7 +2164,10 @@
                 "path": "WeaponCZScorpion/cz_scorpion_handguard_midlength_tactical.bundle",
                 "rcid": ""
             },
-            "ExtraSizeLeft": 1,
+            "Ergonomics": 6,
+			"Recoil": -1,
+            "ExtraSizeLeft": 2,
+            "Weight": 0.43,
             "Slots": [
                 {
                     "_id": "6881e7fcbfaf979036dbd78e",
@@ -2393,7 +2425,11 @@
                 "path": "WeaponCZScorpion/cz_scorpion_handguard_railedpdw.bundle",
                 "rcid": ""
             },
+            "Ergonomics": 9,
+			"Recoil": 0,
             "Width": 1,
+            "ExtraSizeLeft": 1,
+            "Weight": 0.292,
             "ConflictingItems" : ["6884465f8615db2a21955aa1"],
             "Slots": [
                 {
@@ -2535,6 +2571,7 @@
                 "path": "WeaponCZScorpion/cz_scorpion_irons_rs.bundle",
                 "rcid": ""
             },
+            "Weight": 0.084,
             "ConflictingItems": [
                 "682be7bf16812803987c3715",
                 "5d1b5e94d7ad1a2b865a96b0",
@@ -2589,6 +2626,7 @@
                 "path": "WeaponCZScorpion/cz_scorpion_irons_fs.bundle",
                 "rcid": ""
             },
+            "Weight": 0.084,
             "ExaminedByDefault": true,
             "Ergonomics": 0
         },
@@ -2625,8 +2663,8 @@
                 "path": "WeaponCZScorpion/cz_scorpion_handstoppic.bundle",
                 "rcid": ""
             },
-            "Ergonomics": 6,
-            "Recoil": -2.5,
+            "Ergonomics": 2.5,
+            "Recoil": 0,
             "Weight": 0.069,
             "ExaminedByDefault": true,
             "ExtraSizeDown": 0
@@ -2640,7 +2678,7 @@
         },
         "clearClonedProps": false,
         "addtoInventorySlots": [],
-        "addtoModSlots": true,
+        "addtoModSlots": false,
         "modSlot": [
             "mod_foregrip"
         ],
@@ -2664,8 +2702,8 @@
                 "path": "WeaponCZScorpion/cz_scorpion_foregrip_magpul_handstop.bundle",
                 "rcid": ""
             },
-            "Ergonomics": 6,
-            "Recoil": -2.5,
+            "Ergonomics": 2.5,
+            "Recoil": 0,
             "Weight": 0.069,
             "ExaminedByDefault": true,
             "ExtraSizeDown": 0
@@ -2679,7 +2717,7 @@
         },
         "clearClonedProps": false,
         "addtoInventorySlots": [],
-        "addtoModSlots": true,
+        "addtoModSlots": false,
         "modSlot": [
             "mod_foregrip"
         ],
@@ -2703,8 +2741,11 @@
                 "path": "WeaponCZScorpion/cz_scorpion_handguard_long.bundle",
                 "rcid": ""
             },
+            "Ergonomics": 8,
+			"Recoil": -2.5,
             "Width": 3,
-            "ExtraSizeLeft": 2,
+            "ExtraSizeLeft": 3,
+            "Weight": 0.52,
             "Slots": [
                 {
                     "_id": "68827b3f27157c2f0c9ed0aa",
@@ -2963,8 +3004,11 @@
                 "path": "WeaponCZScorpion/cz_scorpion_handguard_hb_micro.bundle",
                 "rcid": ""
             },
+            "Ergonomics": 11,
+			"Recoil": 0,
             "Width": 1,
-            "ExtraSizeLeft": 0,
+            "ExtraSizeLeft": 1,
+            "Weight": 0.27,
             "Slots": [
                 {
                     "_id": "6884452f33c581c3280d4d90",
@@ -3004,10 +3048,7 @@
                         "filters": [
                             {
                                 "Filter": [
-                                    "5b7be47f5acfc400170e2dd2",
-                                    "6269220d70b6c02e665f2635",
-                                    "6269545d0e57f218e4548ca2",
-                                    "669a6a4a525be1d2d004b8eb"
+                                    "6269220d70b6c02e665f2635"
                                 ],
                                 "Shift": 0
                             }
@@ -3064,11 +3105,6 @@
                         "filters": [
                             {
                                 "Filter": [
-                                    "57cffb66245977632f391a99",
-                                    "57cffcd624597763133760c5",
-                                    "57cffcdd24597763f5110006",
-                                    "57cffce524597763b31685d8",
-                                    "5b7be4895acfc400170e2dd5",
                                     "651a8bf3a8520e48047bf708",
                                     "651a8e529829226ceb67c319",
                                     "665d5d9e338229cfd6078da1",
@@ -3115,8 +3151,10 @@
                 "path": "WeaponCZScorpion/cz_scorpion_handguard_hb_angled.bundle",
                 "rcid": ""
             },
-            "ExtraSizeLeft": 0,
-            "Width": 1,
+            "Ergonomics": 8,
+			"Recoil": 0,
+            "ExtraSizeLeft": 1,
+            "Weight": 0.298,
             "Slots": [
                 {
                     "_id": "68844571191d6a127dbabe78",
@@ -3267,8 +3305,10 @@
                 "path": "WeaponCZScorpion/cz_scorpion_handguard_hb_midlength.bundle",
                 "rcid": ""
             },
-            "Width": 2,
+            "Ergonomics": 7,
+			"Recoil": 0,
             "ExtraSizeLeft": 1,
+            "Weight": 0.3,
             "Slots": [
                 {
                     "_id": "688445be3b8a4e15998816d6",
