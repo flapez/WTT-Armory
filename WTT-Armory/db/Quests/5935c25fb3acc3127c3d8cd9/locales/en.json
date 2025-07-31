@@ -14,9 +14,9 @@
 
 
   "683645245a1c12488166b1a5 name": "Nordic Remnants",
-  "683645245a1c12488166b1a5 description": "It seems our Swedish friends misplaced a hard drive during their 'audit' of Tarkov’s relief efforts. Retrieve it from their abandoned armored vehicle in Streets. Its contents are of high value to us: tax havens, embargoed tech sales, shipping manifests. This info, in the right hands, could ‘inspire’ Stockholm to reallocate UN aid budgets to our operations. A shame if their arms deals with TerraGroup leaked…",
-  "683645245a1c12488166b1a5 startedMessageText": "The vehicle’s near Concordia. Expect some private militia along the way — eliminate discreetly. If that drive’s damaged, don't bother returning.",
-  "683645245a1c12488166b1a5 successMessageText": "Funny, Stockholm just pledged 10,000 antibiotic doses, and sent us some leftover munitions... after I *shared* a few file excerpts. How altruistic of them.",
+  "683645245a1c12488166b1a5 description": "Our Swedish pals seem to have lost a hard drive during their little \"audit\" of Tarkov’s relief operations. Go fetch it from their abandoned armored vehicle out in the Streets. That drive’s got some juicy details: tax havens, embargoed tech deals, shipping manifests... Get it to me and we could nudge Stockholm into redirecting some UN aid budgets our way. Wouldn’t it be a pity if their shady deals with TerraGroup got out?",
+  "683645245a1c12488166b1a5 startedMessageText": "The vehicle’s parked near Concordia. Watch out for private militia crawling around. Take them out quietly. If that drive’s busted you might as well not come back.",
+  "683645245a1c12488166b1a5 successMessageText": "Stockholm just coughed up 10000 antibiotic doses and tossed in some spare munitions after I dropped a few hints from the files. Such generous folks they are. Here’s your cut.",
   "683645245a1c12488166b1a5 acceptPlayerMessage": "Just be sure to get that drive back to me intact. If we play our cards right, this should be a decent payday.",
   "683645245a1c12488166b1a5 declinePlayerMessage": "Really? You're that scared of some action in the Streets? Didn't take you for a coward.",
   "683645245a1c12488166b1a5 completePlayerMessage": "Another successful op in the books. We make quite the convincing argument for the cause. Check my stores next time you're around - the Swedes sent us some new shiny metal toys to pay for our silence.",
@@ -47,9 +47,9 @@
   
 
   "6870170d18b94df2e8700ba0 name": "Boxed and Loaded",
-  "6870170d18b94df2e8700ba0 description": "We aren't done just yet... When you were playing assassin, I had a guy going sneak around Customs trying to locate my stolen guns. He ended up finding them stashed in some crates that are some storage shelves in the fucking corner. Bastards better not have fucked up my guns!",
-  "6870170d18b94df2e8700ba0 startedMessageText": "Please go mark those crates so I can recover what belongs to me...",
-  "6870170d18b94df2e8700ba0 successMessageText": "Thank you again for your help with all of this. Take this as a reward. Looks like the Goons were trying to build something fancy with this gun.",
+  "6870170d18b94df2e8700ba0 description": "Alright mercenary we got more work. While you were out playing shadow my guy was poking around Customs tracking down my stolen guns. Turns out those bastards stashed them in crates tucked away on some storage shelves in a damn corner. They better not have messed with my gear.",
+  "6870170d18b94df2e8700ba0 startedMessageText": "Head over and mark those crates so I can get my stuff back. Don’t let me down.",
+  "6870170d18b94df2e8700ba0 successMessageText": " Nice job getting those crates marked. Looks like the Goons were trying to cook up something slick with my guns. Here’s your reward, take it.",
   "687018c3dc52ab57b5e38363": "Place a marker on the boxes of stolen M249 SAWs on Customs",
 
 
