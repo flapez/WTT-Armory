@@ -576,9 +576,9 @@
     "parentId": "55818a594bdc2db9688b456a",
     "handbookParentId": "5b5f757486f774093e6cb507",
     "overrideProperties": {
-      "Weight": 0.52,
-      "Recoil": -21,
-      "Ergonomics": 4,
+      "Weight": 0.42,
+      "Recoil": -19,
+      "Ergonomics": 8,
       "Prefab": {
         "path": "WeaponMSR/msr_stock_ergo.bundle",
         "rcid": ""
@@ -615,9 +615,9 @@
     "parentId": "55818a594bdc2db9688b456a",
     "handbookParentId": "5b5f757486f774093e6cb507",
     "overrideProperties": {
-      "Weight": 0.52,
-      "Recoil": -21,
-      "Ergonomics": 4,
+      "Weight": 0.60,
+      "Recoil": -27,
+      "Ergonomics": 3,
       "Prefab": {
         "path": "WeaponMSR/msr_stock_heavy.bundle",
         "rcid": ""
