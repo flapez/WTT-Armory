@@ -314,6 +314,7 @@
       },
       "ExaminedByDefault": true,
       "BackgroundColor": "violet",
+      "CanSellOnRagfair": "false",
       "ItemSound": "generic",
       "QuestItem": false,
       "DiscardingBlock": false,
