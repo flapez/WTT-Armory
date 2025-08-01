@@ -15,6 +15,9 @@
             "HeatFactor": 0.993,
             "CoolFactor": 1,
             "DurabilityBurnModificator": 0.95,
+            "ConflictingItems": [
+                "56ea8d2fd2720b7c698b4570"
+            ],
             "Slots": [
                 {
                     "_id": "6769ba742b86d51d6aa850cd",
@@ -1029,6 +1032,9 @@
             "HeatFactor": 0.993,
             "CoolFactor": 1,
             "DurabilityBurnModificator": 0.95,
+            "ConflictingItems": [
+                "56ea8d2fd2720b7c698b4570"
+            ],
             "Slots": [
                 {
                     "_id": "676b4eb4916929c2f13d45f0",
@@ -2043,6 +2049,9 @@
             "HeatFactor": 0.993,
             "CoolFactor": 1,
             "DurabilityBurnModificator": 0.95,
+            "ConflictingItems": [
+                "56ea8d2fd2720b7c698b4570"
+            ],
             "Slots": [
                 {
                     "_id": "676c3ce7163ab0bc8f39f08a",
