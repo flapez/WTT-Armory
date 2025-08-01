@@ -1289,6 +1289,16 @@
 			"Velocity": -12.0,
 			"HeatFactor": 0.98,
 			"CoolFactor": 1.02,
+			"ConflictingItems": [
+				"66b177286a11a6564ecffae1",
+				"66b17725e2cf432d366c1a44",
+				"66b177205192a4b5bb89c7c0",
+				"66b177369857bd0e1bf7e38d",
+				"66b17733c11a4996fdb1eca2",
+				"66b177301451b4fa159a8553",
+				"66b1774114a15b9a0f09a69f",
+				"66b1773e819b5700a7987155"
+			],
 			"Slots": [
 				{
 					"_name": "mod_muzzle",
@@ -2303,7 +2313,7 @@
 		},
 		"locales": {
 			"en": {
-				"name": "HK XM8 carbine length handguard black",
+				"name": "HK XM8 carbine length handguard",
 				"shortName": "XM8 Carbine HG",
 				"description": "A carbine length handguard for the XM8 rifle."
 			}
