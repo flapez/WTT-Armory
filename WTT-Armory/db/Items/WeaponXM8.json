@@ -890,6 +890,11 @@
 			"DurabilityBurnModificator": 0.85,
 			"HeatFactor": 0.9,
 			"CoolFactor": 1.1,
+			"ConflictingItems": [
+				"66b1771c27bb1d655fb7fd16",
+				"66b1772c42936e0387a88fc9",
+				"66b1773ab2b587b20bd4430a"
+			],
 			"Slots": [
 				{
 					"_name": "mod_muzzle",
@@ -1023,11 +1028,16 @@
 			"Velocity": 1,
 			"HeatFactor": 0.93,
 			"CoolFactor": 1.08,
+			"ConflictingItems": [
+				"66b1771c27bb1d655fb7fd16",
+				"66b1772c42936e0387a88fc9",
+				"66b1773ab2b587b20bd4430a"
+			],
 			"Slots": [
 				{
 					"_name": "mod_muzzle",
 					"_id": "66b2974788339f9965a7d5c8",
-					"_parent": "622b3858034a3e17ad0b81f5",
+					"_parent": "66b177776541b7f127ca4af0",
 					"_props": {
 						"filters": [
 							{
@@ -1156,11 +1166,22 @@
 			"Velocity": -2,
 			"HeatFactor": 0.96,
 			"CoolFactor": 1.04,
+			"ConflictingItems": [
+				"66b177286a11a6564ecffae1",
+				"66b17725e2cf432d366c1a44",
+				"66b1771c27bb1d655fb7fd16",
+				"66b177369857bd0e1bf7e38d",
+				"66b17733c11a4996fdb1eca2",
+				"66b1772c42936e0387a88fc9",
+				"66b1774114a15b9a0f09a69f",
+				"66b17743edd0d64c03eeed3b",
+				"66b1773ab2b587b20bd4430a"
+			],
 			"Slots": [
 				{
 					"_name": "mod_muzzle",
 					"_id": "66b29751ff069c77d301d82e",
-					"_parent": "622b3858034a3e17ad0b81f5",
+					"_parent": "66b1777cf41a1c521a7a449a",
 					"_props": {
 						"filters": [
 							{
@@ -1212,7 +1233,7 @@
 				{
 					"_name": "mod_gas_block",
 					"_id": "66b29756d55c8a9631a853c3",
-					"_parent": "xm8barrelar",
+					"_parent": "66b1777cf41a1c521a7a449a",
 					"_props": {
 						"filters": [
 							{
@@ -1297,13 +1318,14 @@
 				"66b17733c11a4996fdb1eca2",
 				"66b177301451b4fa159a8553",
 				"66b1774114a15b9a0f09a69f",
+				"66b17743edd0d64c03eeed3b",
 				"66b1773e819b5700a7987155"
 			],
 			"Slots": [
 				{
 					"_name": "mod_muzzle",
 					"_id": "66b2975cdc34eddb60b24a10",
-					"_parent": "622b3858034a3e17ad0b81f5",
+					"_parent": "66b1778236301d80c2044219",
 					"_props": {
 						"filters": [
 							{
@@ -1355,7 +1377,7 @@
 				{
 					"_name": "mod_gas_block",
 					"_id": "66b29760906fa01c81066ac7",
-					"_parent": "xm8barrelar",
+					"_parent": "66b1778236301d80c2044219",
 					"_props": {
 						"filters": [
 							{
