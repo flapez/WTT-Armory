@@ -419,7 +419,8 @@
             },
             "ConflictingItems": [
                 "6357c98711fb55120211f7e1",
-                "5ae30e795acfc408fb139a0b"
+                "5ae30e795acfc408fb139a0b",
+                "56ea8d2fd2720b7c698b4570"
             ],
             "Slots": [
                 {
@@ -635,9 +636,6 @@
             "HeatFactor": 0.983,
             "CoolFactor": 1.013,
             "DurabilityBurnModificator": 0.95,
-            "ConflictingItems": [
-                "56ea8d2fd2720b7c698b4570"
-            ],
             "Slots": [
                 {
                     "_id": "6769bce191427dba76591b0b",
@@ -1436,7 +1434,8 @@
             },
             "ConflictingItems": [
                 "6357c98711fb55120211f7e1",
-                "5ae30e795acfc408fb139a0b"
+                "5ae30e795acfc408fb139a0b",
+                "56ea8d2fd2720b7c698b4570"
             ],
             "Slots": [
                 {
@@ -1652,9 +1651,6 @@
             "HeatFactor": 0.983,
             "CoolFactor": 1.013,
             "DurabilityBurnModificator": 0.95,
-            "ConflictingItems": [
-                "56ea8d2fd2720b7c698b4570"
-            ],
             "Slots": [
                 {
                     "_id": "676b5147ea8296ee8db3a28c",
@@ -2364,7 +2360,8 @@
             },
             "ConflictingItems": [
                 "6357c98711fb55120211f7e1",
-                "5ae30e795acfc408fb139a0b"
+                "5ae30e795acfc408fb139a0b",
+                "56ea8d2fd2720b7c698b4570"
             ],
             "Slots": [
                 {
