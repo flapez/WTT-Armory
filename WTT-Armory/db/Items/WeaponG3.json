@@ -592,9 +592,9 @@
     },
     "locales": {
       "en": {
-        "name": "HK11E 7.62x51 100-round Drum Magazine",
-        "shortName": "HK11E-100",
-        "description": "A standard 100-round 7.62x51 NATO drum magazine for the Heckler & Koch HK11E light machine gun."
+        "name": "HK11E 7.62x51 50-round Drum Magazine",
+        "shortName": "HK11E-50",
+        "description": "A standard 50-round 7.62x51 NATO drum magazine for the Heckler & Koch HK11E light machine gun."
       }
     },
     "clearClonedProps": false,
