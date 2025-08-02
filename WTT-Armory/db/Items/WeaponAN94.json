@@ -387,7 +387,6 @@
                   "5c7fc87d2e221644f31c0298",
                   "5cda9bcfd7f00c0c0b53e900",
                   "59f8a37386f7747af3328f06",
-                  "5a7dbfc1159bd40016548fde",
                   "619386379fb0c665d5490dbe",
                   "5c87ca002e221600114cb150",
                   "588226d124597767ad33f787",
@@ -600,8 +599,8 @@
     },
     "locales": {
       "en": {
-        "name": "Kirov's Custom AN-94 5.45x39 assault rifle",
-        "shortName": "AN-94-Kirov",
+        "name": "AN-94 5.45x39 \"Kirov's Custom\" assault rifle",
+        "shortName": "AN-94-K",
         "description": "A custom AN-94 5.45x39mm assault rifle that has been fitted with a railed handguard and a muzzle device to reduce recoil."
       }
     },

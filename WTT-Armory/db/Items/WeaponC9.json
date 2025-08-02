@@ -10,7 +10,7 @@
       "HeatFactorByShot": 2.55,
       "RecoilCamera": 0.011,
       "DurabilityBurnRatio": 1.858,
-      "BaseMalfunctionChance": 0.420,
+      "BaseMalfunctionChance": 0.3247,
       "RecoilCategoryMultiplierHandRotation": 0.13,
       "RecolDispersion": 10,
       "RecoilForceBack": 272,
