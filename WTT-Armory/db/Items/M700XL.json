@@ -304,7 +304,7 @@
 					  {
 						"_id": "7b186045190ebff774007900",
 						"_tpl": "5888961624597754281f93f3",
-						"parentId": "66a009ce54a941eee62d45b1",
+						"parentId": "53cc2000905fcc31ea4cadb7",
 						"slotId": "mod_bipod"
 					  },
 					  {
@@ -338,7 +338,7 @@
 						"slotId": "mod_muzzle"
 					  }
 				],
-				"_name": "Surgeon 1086",
+				"_name": "Surgeon 1581",
 				"_parent": "66a0158c9ffc1c49ba455c7a",
 				"_type": "Preset"
 			}
