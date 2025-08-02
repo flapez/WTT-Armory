@@ -173,7 +173,7 @@
             {
               "conditionType": "CompleteCondition",
               "id": "687c05fa32efaa21a5b61628",
-              "target": "618a5d5852ecee1505530b2a"
+              "target": "687b576a812a0cbb6a84bbcd"
             }
           ]
         },
@@ -265,7 +265,7 @@
           "id": "687b616d89a8b4e4c8bcf141",
           "index": 0,
           "parentId": "",
-          "value": 15,
+          "value": 34,
           "visibilityConditions": []
         }
       ],
@@ -308,12 +308,109 @@
           "items": [
             {
               "_id": "687b5c9bdf09391dc84e47ba",
-              "_tpl": "678fe4a4906c7bd23722c71f"
+              "_tpl": "678fe4a4906c7bd23722c71f",
+              "upd": {
+                "Repairable": {
+                  "MaxDurability": 100,
+                  "Durability": 100
+                },
+                "Foldable": {
+                  "Folded": false
+                },
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "UnlimitedCount": false,
+                "StackObjectsCount": 1,
+                "BuyRestrictionMax": 1
+              },
+              "parentId": "hideout",
+              "slotId": "hideout"
+            },
+            {
+              "_id": "687b5cbb4f0ad88042cb474d",
+              "_tpl": "678fe67f710e3e53145bc5e0",
+              "slotId": "mod_stock",
+              "parentId": "687b5c9bdf09391dc84e47ba"
+            },
+            {
+              "_id": "687b5cc333fd3f55fc38b070",
+              "_tpl": "55d480c04bdc2d1d4e8b456a",
+              "slotId": "mod_magazine",
+              "parentId": "687b5c9bdf09391dc84e47ba"
+            },
+            {
+              "_id": "687b5cccde84395d08e627bd",
+              "_tpl": "5649ade84bdc2d1b2b8b4587",
+              "slotId": "mod_pistol_grip",
+              "parentId": "687b5c9bdf09391dc84e47ba"
             }
           ],
-          "loyaltyLevel": 1,
+          "loyaltyLevel": 3,
           "target": "687b5c9bdf09391dc84e47ba",
-          "traderId": "5c0647fdd443bc2504c2d371",
+          "traderId": "5a7c2eca46aef81a7ca2145d",
+          "type": "AssortmentUnlock",
+          "unknown": true
+        },
+        {
+          "availableInGameEditions": [],
+          "id": "687b616da3a7c925f8fd1f81",
+          "index": 4,
+          "items": [
+            {},
+            {
+              "_id": "6864939c4f0378786803c322",
+              "_tpl": "678fe4a4906c7bd23722c71f",
+              "upd": {
+                "SpawnedInSession": true,
+                "Repairable": {
+                  "MaxDurability": 100,
+                  "Durability": 100
+                },
+                "Foldable": {
+                  "Folded": false
+                },
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "UnlimitedCount": true,
+                "StackObjectsCount": 999999,
+                "BuyRestrictionMax": 0
+              },
+              "parentId": "hideout",
+              "slotId": "hideout"
+            },
+            {
+              "_id": "6864939c4f0378786803c323",
+              "_tpl": "678fe67f710e3e53145bc5e0",
+              "slotId": "mod_stock",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6864939c4f0378786803c322"
+            },
+            {
+              "_id": "6864939c4f0378786803c324",
+              "_tpl": "55d480c04bdc2d1d4e8b456a",
+              "slotId": "mod_magazine",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6864939c4f0378786803c322"
+            },
+            {
+              "_id": "6864939c4f0378786803c325",
+              "_tpl": "5649ade84bdc2d1b2b8b4587",
+              "slotId": "mod_pistol_grip",
+              "upd": {
+                "SpawnedInSession": true
+              },
+              "parentId": "6864939c4f0378786803c322"
+            }
+          ],
+          "loyaltyLevel": 4,
+          "target": "6864939c4f0378786803c322",
+          "traderId": "54cb50c76803fa8b248b4571",
           "type": "AssortmentUnlock",
           "unknown": true
         },
@@ -321,7 +418,7 @@
           "availableInGameEditions": [],
           "findInRaid": true,
           "id": "687b616d5771fd21072592f2",
-          "index": 4,
+          "index": 5,
           "items": [
             {
               "_id": "687b616d91604e15621600e4",

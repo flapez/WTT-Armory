@@ -47,48 +47,6 @@
           "visibilityConditions": []
         },
         {
-          "completeInSeconds": 0,
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "conditionType": "ExitStatus",
-                "dynamicLocale": false,
-                "id": "6873dd1e48b5361ceb27c44e",
-                "status": [
-                  "Survived",
-                  "Runner"
-                ]
-              },
-              {
-                "conditionType": "Location",
-                "dynamicLocale": false,
-                "id": "6873dd1b35e5b1942f65d40a",
-                "target": [
-                  "RezervBase"
-                ]
-              }
-            ],
-            "id": "686c26ce342a7a7cc6d4cd8b"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "686c26d2392f65d4890af76f",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Completion",
-          "value": 1,
-          "visibilityConditions": [
-            {
-              "conditionType": "CompleteCondition",
-              "id": "6873dd149d248b4acb36062d",
-              "target": "687314ce095483c45f5992ca"
-            }
-          ]
-        },
-        {
           "conditionType": "LeaveItemAtLocation",
           "dogtagLevel": 0,
           "dynamicLocale": false,
@@ -107,51 +65,6 @@
           "value": 1,
           "visibilityConditions": [],
           "zoneId": "AEK_PlaceItem_UsecCamp"
-        },
-        {
-          "completeInSeconds": 0,
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "conditionType": "ExitStatus",
-                "dynamicLocale": false,
-                "id": "6876ee2fa227f3cb913e587e",
-                "status": [
-                  "Survived",
-                  "Runner"
-                ]
-              },
-              {
-                "conditionType": "Location",
-                "dynamicLocale": false,
-                "id": "6876ee2b1b4757960f8bcacb",
-                "target": [
-                  "Woods"
-                  
-                ]
-              }
-            ],
-            "id": "6876ee1c53d3e0ad04a0b446"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "6876ee191ff3fb6115656aff",
-          "index": 2,
-          "isNecessary": false,
-          "isResetOnConditionFailed": false,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Completion",
-          "value": 1,
-          "visibilityConditions": [
-            {
-              "conditionType": "CompleteCondition",
-              "id": "6876ee1641edc3451db0e18b",
-              "target": "6876ee0d07b00d42e102c09e"
-            }
-          ]
         }
       ],
       "AvailableForStart": [
@@ -167,7 +80,39 @@
           "visibilityConditions": []
         }
       ],
-      "Fail": []
+      "Fail": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "688d221d6471c1e640b9df29",
+                "status": [
+                  "Killed",
+                  "MissingInAction",
+                  "Left"
+                ]
+              }
+            ],
+            "id": "64b6a5a525251516d7685429"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "688d22211269174ef3f5fefa",
+          "index": 0,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ]
     },
     "rewards": {
       "Fail": [],
