@@ -5117,17 +5117,6 @@
                 }
             },
             {
-                "_id": "86f61d05bce14528b13c389b",
-                "_tpl": "67a01e79a2b82626b73d10df",
-                "parentId": "hideout",
-                "slotId": "hideout",
-                "upd": {
-                    "UnlimitedCount": true,
-                    "BuyRestrictionMax": 0,
-                    "StackObjectsCount": 999999
-                }
-            },
-            {
                 "_id": "5cf76e4649e14ce0bce9e64d",
                 "_tpl": "6661023c34cb7dd29de7f941",
                 "parentId": "hideout",
@@ -5139,30 +5128,8 @@
                 }
             },
             {
-                "_id": "f006ef3b19b241eb9d34b97b",
-                "_tpl": "67a01e79a2b82626b73d10eb",
-                "parentId": "hideout",
-                "slotId": "hideout",
-                "upd": {
-                    "UnlimitedCount": true,
-                    "BuyRestrictionMax": 0,
-                    "StackObjectsCount": 999999
-                }
-            },
-            {
                 "_id": "181a912e5aa64a8285d0dc77",
                 "_tpl": "67a01e64a2b82626b73d10da",
-                "parentId": "hideout",
-                "slotId": "hideout",
-                "upd": {
-                    "UnlimitedCount": true,
-                    "BuyRestrictionMax": 0,
-                    "StackObjectsCount": 999999
-                }
-            },
-            {
-                "_id": "f0f2e374e90647a38355b9f5",
-                "_tpl": "67a01e79a2b82626b73d10e7",
                 "parentId": "hideout",
                 "slotId": "hideout",
                 "upd": {
@@ -5194,30 +5161,8 @@
                 }
             },
             {
-                "_id": "57ba2f3fd4d843e493521a49",
-                "_tpl": "67a01e79a2b82626b73d10e4",
-                "parentId": "hideout",
-                "slotId": "hideout",
-                "upd": {
-                    "UnlimitedCount": true,
-                    "BuyRestrictionMax": 0,
-                    "StackObjectsCount": 999999
-                }
-            },
-            {
                 "_id": "c4393c2af93346dbb4600c45",
                 "_tpl": "679f24e723451339c041f28d",
-                "parentId": "hideout",
-                "slotId": "hideout",
-                "upd": {
-                    "UnlimitedCount": true,
-                    "BuyRestrictionMax": 0,
-                    "StackObjectsCount": 999999
-                }
-            },
-            {
-                "_id": "e6c7c3c993c742348df8014b",
-                "_tpl": "67a01e79a2b82626b73d10ef",
                 "parentId": "hideout",
                 "slotId": "hideout",
                 "upd": {
@@ -6014,14 +5959,6 @@
                     }
                 ]
             ],
-            "86f61d05bce14528b13c389b": [
-                [
-                    {
-                        "count": 5044,
-                        "_tpl": "5449016a4bdc2d6f028b456f"
-                    }
-                ]
-            ],
             "5cf76e4649e14ce0bce9e64d": [
                 [
                     {
@@ -6030,26 +5967,10 @@
                     }
                 ]
             ],
-            "f006ef3b19b241eb9d34b97b": [
-                [
-                    {
-                        "count": 4949,
-                        "_tpl": "5449016a4bdc2d6f028b456f"
-                    }
-                ]
-            ],
             "181a912e5aa64a8285d0dc77": [
                 [
                     {
                         "count": 4987,
-                        "_tpl": "5449016a4bdc2d6f028b456f"
-                    }
-                ]
-            ],
-            "f0f2e374e90647a38355b9f5": [
-                [
-                    {
-                        "count": 5004,
                         "_tpl": "5449016a4bdc2d6f028b456f"
                     }
                 ]
@@ -6070,14 +5991,6 @@
                     }
                 ]
             ],
-            "57ba2f3fd4d843e493521a49": [
-                [
-                    {
-                        "count": 4925,
-                        "_tpl": "5449016a4bdc2d6f028b456f"
-                    }
-                ]
-            ],
             "c4393c2af93346dbb4600c45": [
                 [
                     {
@@ -6090,14 +6003,6 @@
                 [
                     {
                         "count": 5076,
-                        "_tpl": "5449016a4bdc2d6f028b456f"
-                    }
-                ]
-            ],
-            "e6c7c3c993c742348df8014b": [
-                [
-                    {
-                        "count": 5098,
                         "_tpl": "5449016a4bdc2d6f028b456f"
                     }
                 ]
@@ -6233,17 +6138,12 @@
             "0e9b68cc7b3844b8bcf724bf": 4,
             "35a48eeda0754b42a3907b29": 4,
             "41f4065265c1413ab1f4be6f": 1,
-            "86f61d05bce14528b13c389b": 3,
             "5cf76e4649e14ce0bce9e64d": 1,
-            "f006ef3b19b241eb9d34b97b": 3,
             "181a912e5aa64a8285d0dc77": 3,
-            "f0f2e374e90647a38355b9f5": 3,
             "f935cbbc8bfb4fa7b8be4014": 4,
             "df70376b591e438fa26824fe": 3,
-            "57ba2f3fd4d843e493521a49": 3,
             "c4393c2af93346dbb4600c45": 1,
             "ea66a2b14c164bccaee2b70a": 1,
-            "e6c7c3c993c742348df8014b": 3,
             "3da4ce75ec5a4ffabbde0000": 3,
             "35427e4ffd5745f6bdf88ec6": 3,
             "686a79c2eae8121d638938af": 3,
@@ -6451,7 +6351,7 @@
             {
                 "_id": "6851beecaab185fe63cd78be",
                 "_tpl": "5c471ba12e221602b3137d76",
-                "parentId": "68509af4292e53f2ff03ac7a",
+                "parentId": "6851beccf937aa48255f6c62",
                 "slotId": "mod_sight_front",
                 "upd": {
                     "Sight": {
@@ -6479,24 +6379,6 @@
                             0
                         ],
                         "SelectedScope": 0
-                    }
-                }
-            },
-            {
-                "_id": "6851cc9aace967e94a10fa6a",
-                "_tpl": "6657bc8faeddd6b0a9b40224",
-                "parentId": "hideout",
-                "slotId": "hideout",
-                "upd": {
-                    "UnlimitedCount": true,
-                    "BuyRestrictionMax": 0,
-                    "StackObjectsCount": 999999,
-                    "Repairable": {
-                        "Durability": 100,
-                        "MaxDurability": 100
-                    },
-                    "FireMode": {
-                        "FireMode": "single"
                     }
                 }
             },
@@ -6945,14 +6827,6 @@
                     }
                 ]
             ],
-            "6851cc9aace967e94a10fa6a": [
-                [
-                    {
-                        "count": 19148,
-                        "_tpl": "5449016a4bdc2d6f028b456f"
-                    }
-                ]
-            ],
             "6851bb6fa692d6307b5c440d": [
                 [
                     {
@@ -7183,7 +7057,6 @@
             "6864939c4f0378786803c322": 4,
             "68509ad4f355ea5259e9af30": 3,
             "6851be96a10651b769d8dec4": 2,
-            "6851cc9aace967e94a10fa6a": 4,
             "6851bb6fa692d6307b5c440d": 3,
             "6851bb7dfa35b66a85f5f3db": 3,
             "6851bb839738bbf619b63f59": 3,

@@ -22,6 +22,7 @@
   "683645245a1c12488166b1a5 completePlayerMessage": "Another successful op in the books. We make quite the convincing argument for the cause. Check my stores next time you're around - the Swedes sent us some new shiny metal toys to pay for our silence.",
   "683645245a1c12488166b1a5 note": "Retrieve Swedish intel drive from armored vehicle (Streets)",
   "68363e9928ef789b2ccf31a1": "Get the hard drive from the APC near the helicopter crash site in Streets",
+  "688e490c1b91472219274c2b": "Hand in the hard drive to Peacekeeper",
 
   
 
@@ -58,7 +59,7 @@
   "6877096d5299037a1c4b7b2f description": "Here is the scoop - I got some weapons in, but I need someone to do a little bit of testing for me to see if they are worth it. You are the best man for the job, so take this gun and go kill some Scavs for me. This should be pretty easy for you. I will give you some cash also for doing so. Good luck!",
   "6877096d5299037a1c4b7b2f startedMessageText": "Thanks for doing this soldier. These guns better be worth it!",
   "6877096d5299037a1c4b7b2f successMessageText": "Perfect! They look like they will do just fine out in the field! I will get more ordered and I will see what else I can get ordered for you to try.",
-  "68770a9b8cc4478bd88d86ca": "Kill 5 Scavs on Reserve using the Ak5CC",
+  "68770a9b8cc4478bd88d86ca": "Kill 5 Scavs on Reserve using the Ak5C",
   "68782def57bd3034268c3345": "Kill 5 Scavs on Ground Zero using the Ak5C",
   
   

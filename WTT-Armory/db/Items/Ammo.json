@@ -175,7 +175,8 @@
       "RicochetChance": 0.38,
       "HeavyBleedingDelta": 0.12,
       "LightBleedingDelta": 0.30,
-      "MalfFeedChance": 0.024
+      "MalfFeedChance": 0.024,
+      "StackMaxSize": 30
     },
     "locales": {
       "en": {
@@ -229,7 +230,8 @@
       "RicochetChance": 0.48,
       "HeavyBleedingDelta": 0.18,
       "LightBleedingDelta": 0.20,
-      "MalfFeedChance": 0.024
+      "MalfFeedChance": 0.024,
+      "StackMaxSize": 30
     },
     "locales": {
       "en": {
@@ -283,7 +285,8 @@
       "RicochetChance": 0.12,
       "HeavyBleedingDelta": 0.38,
       "LightBleedingDelta": 0.48,
-      "MalfFeedChance": 0.036
+      "MalfFeedChance": 0.036,
+      "StackMaxSize": 30
     },
     "locales": {
       "en": {
@@ -328,7 +331,8 @@
 			"Damage": 146,
 			"InitialSpeed": 810,
 			"PenetrationPower": 39,
-			"Weight": 0.039
+			"Weight": 0.039,
+      "StackMaxSize": 30
 		},
 		"locales": {
 			"en": {
@@ -405,7 +409,8 @@
 			"Damage": 112,
 			"InitialSpeed": 827,
 			"PenetrationPower": 48,
-			"Weight": 0.039
+			"Weight": 0.039,
+      "StackMaxSize": 30
 		},
 		"locales": {
 			"en": {

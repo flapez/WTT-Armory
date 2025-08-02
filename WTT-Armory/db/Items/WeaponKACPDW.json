@@ -524,7 +524,7 @@
     "6761b213607f9a6f79017c82": {
         "itemTplToClone": "622f07cfae33bc505b2c4dd5",
         "parentId": "550aa4bf4bdc2dd6348b456b",
-        "handbookParentId": "5b5f724186f77447ed5636ad",
+        "handbookParentId": "550aa4bf4bdc2dd6348b456b",
         "overrideProperties": {
             "ExaminedByDefault": true,
             "Prefab": {

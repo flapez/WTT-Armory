@@ -1502,7 +1502,7 @@
   "67a01e64a2b82626b73d10c3": {
     "itemTplToClone": "5dfa3d2b0dee1b22f862eade",
     "parentId": "550aa4cd4bdc2dd8348b456c",
-    "handbookParentId": "MOD_MUZZLE",
+    "handbookParentId": "550aa4cd4bdc2dd8348b456c",
     "overrideProperties": {
       "Prefab": {
         "path": "WeaponG3/g3muzzlesd.bundle",
@@ -4172,7 +4172,7 @@
   "67a01e64a2b82626b73d10da": {
     "itemTplToClone": "5926d2be86f774134d668e4e",
     "parentId": "55818ac54bdc2d5b648b456e",
-    "handbookParentId": "MOD_SIGHT",
+    "handbookParentId": "5b5f746686f77447ec5d7708",
     "overrideProperties": {
       "Prefab": {
         "path": "WeaponG3/g3sightrear.bundle",
