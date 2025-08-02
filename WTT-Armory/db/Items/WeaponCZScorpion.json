@@ -3485,6 +3485,7 @@
                 "path": "WeaponCZScorpion/cz_scorpion_magazine_transparent.bundle",
                 "rcid": ""
             },
+            "magAnimationIndex": 0,
             "Cartridges": [
                 {
                     "_id": "68865445eba4eb72d2a47d9b",
