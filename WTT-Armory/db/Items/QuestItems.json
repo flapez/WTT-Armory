@@ -304,24 +304,20 @@
     "StaticLootContainers": []
   },
   "687464af51ed3be7e4f6f525": {
-    "itemTplToClone": "675a04fdb8913ff13e0496bb",
-    "parentId": "6759673c76e93d8eb20b2080",
-    "handbookParentId": "5b47574386f77428ca22b2f4",
+    "itemTplToClone": "59faff1d86f7746c51718c9c",
+    "parentId": "57864a3d24597754843f8721",
+    "handbookParentId": "5b619f1a86f77450a702a6f3",
     "overrideProperties": {
+			"ExaminedByDefault": false,
       "Prefab": {
         "path": "Items_Quests/quest_immortal_poster.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true,
-      "BackgroundColor": "violet",
-      "CanSellOnRagfair": "false",
-      "ItemSound": "generic",
-      "QuestItem": false,
-      "DiscardingBlock": false,
-      "DiscardLimit": 0,
-      "Width": 1,
-      "Height": 1,
-      "Weight": 0.1,
+      "DropSoundType": "None",
+      "Height": 2,
+      "Width": 2,
+      "ItemSound":"item_paper",
+      "IsUnbuyable": true,
       "Unlootable": true
     },
     "locales": {
@@ -332,31 +328,36 @@
       }
     },
     "clearClonedProps": false,
-    "addtoInventorySlots": [],
-    "addtoModSlots": false,
-    "modSlot": [
-      "mod_muzzle"
-    ],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
-    "fleaPriceRoubles": 1,
-    "handbookPriceRoubles": 1,
-    "addtoTraders": false,
-    "traderId": "SKIER",
-    "traderItems": [],
-    "barterScheme": [
-      {
-        "count": 1,
-        "_tpl": "ROUBLES"
-      }
-    ],
-    "addtoBots": false,
-    "addtoStaticLootContainers": false,
-    "canSellOnRagfair": false,
-    "isUnsaleable": true,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 1,
+		"handbookPriceRoubles": 1,
+		"addtoTraders": false,
+		"traderId": "PRAPOR",
+		"traderItems": [
+			{
+				"unlimitedCount": false,
+				"stackObjectsCount": 1
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 1,
+				"_tpl": "ROUBLES"
+			}
+		],
     "Probability": 250,
-    "traders": {},
-    "StaticLootContainers": []
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainers": [],
+		"masteries": false,
+		"masterySections": [],
+		"addweaponpreset": false,
+		"weaponpresets": []
   },
     "6879e7fa4c184bd0590dbab6": {
     "itemTplToClone": "591092ef86f7747bb8703422",
