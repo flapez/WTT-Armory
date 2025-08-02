@@ -241,7 +241,7 @@
           "target": "685624c8a98bfa9941a834aa",
           "type": "Item",
           "value": "1",
-          "unknown": false
+          "unknown": true
          },
         {
           "availableInGameEditions": [],
@@ -309,7 +309,8 @@
           "loyaltyLevel": 2,
           "target": "6850d93879b6552e17df49e6",
           "traderId": "5a7c2eca46aef81a7ca2145d",
-          "type": "AssortmentUnlock"  
+          "type": "AssortmentUnlock",
+          "unknown": true  
         }
       ]
     },
