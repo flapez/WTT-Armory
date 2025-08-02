@@ -709,7 +709,7 @@
                 "upd": {
                     "UnlimitedCount": true,
                     "StackObjectsCount": 999999,
-                    "BuyRestrictionMax": 0
+                    "BuyRestrictionMax": 200
                 }
             },
             {
@@ -720,7 +720,7 @@
                 "upd": {
                     "UnlimitedCount": true,
                     "StackObjectsCount": 999999,
-                    "BuyRestrictionMax": 0
+                    "BuyRestrictionMax": 100
                 }
             },
             {
@@ -731,7 +731,7 @@
                 "upd": {
                     "UnlimitedCount": true,
                     "StackObjectsCount": 999999,
-                    "BuyRestrictionMax": 0
+                    "BuyRestrictionMax": 30
                 }
             }
         ],

@@ -205,8 +205,34 @@
           ],
           "value": 1,
           "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "688e490c1b91472219274c2b",
+          "index": 1,
+          "isNecessary": false,
+          "isResetOnConditionFailed": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "683647bb7afb4f25023acf7a"
+          ],
+          "value": 1,
+          "visibilityConditions": [
+            {
+              "conditionType": "CompleteCondition",
+              "id": "688e490fc29b0ea5727aa875",
+              "target": "68363e9928ef789b2ccf31a1"
+            }
+          ]
         }
-      ],
+      ],         
       "AvailableForStart": [
         {
           "availableAfter": 0,
@@ -314,7 +340,8 @@
                 "id": "686c2686f6768a866c3c978c",
                 "status": [
                   "Survived",
-                  "Runner"
+                  "Runner",
+                  "Transit"
                 ]
               },
               {
@@ -766,7 +793,7 @@
           ],
           "target": "686dd70cba4cca6731422915",
           "type": "Item",
-          "unknown": false,
+          "unknown": true,
           "value": 1
         },
         {
@@ -873,7 +900,7 @@
           "target": "686ed04d25f4ac411c03eaee",
           "type": "Item",
           "value": "1",
-          "unknown": false
+          "unknown": true
         }
       ]
     },
@@ -919,7 +946,7 @@
           "id": "687018c7f2e18d2e893427ce",
           "index": 0,
           "parentId": "",
-          "value": 25,
+          "value": 35,
           "visibilityConditions": []
         },
         {
@@ -1094,7 +1121,7 @@
           "target": "686f23cefc37cf940c041600",
           "type": "Item",
           "value": "1",
-          "unknown": false
+          "unknown": true
         },
         {
           "availableInGameEditions": [],
@@ -1177,7 +1204,8 @@
           "loyaltyLevel": 4,
           "target": "686ad98804128221dc03fa18",
           "traderId": "5935c25fb3acc3127c3d8cd9",
-          "type": "AssortmentUnlock"
+          "type": "AssortmentUnlock",
+          "unknown": true
         }
       ]
     },
@@ -1316,7 +1344,7 @@
           "id": "687709f665ee0c97d42342ab",
           "index": 0,
           "parentId": "",
-          "value": 17,
+          "value": 23,
           "visibilityConditions": []
         },
         {
@@ -1796,7 +1824,7 @@
           "id": "68784ddc99334c7e2f156de3",
           "index": 0,
           "parentId": "",
-          "value": 17,
+          "value": 23,
           "visibilityConditions": []
         },
         {
@@ -2058,7 +2086,7 @@
           "id": "6879a38ae4ae506a940ec574",
           "index": 0,
           "parentId": "",
-          "value": 17,
+          "value": 23,
           "visibilityConditions": []
         },
         {
@@ -2209,7 +2237,7 @@
           "target": "6868d3bc61f6e05a1003ca59",
           "traderId": "5935c25fb3acc3127c3d8cd9",
           "type": "AssortmentUnlock",
-          "unknown": false
+          "unknown": true
         }
       ]
     },

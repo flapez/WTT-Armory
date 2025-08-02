@@ -76,7 +76,7 @@
           "id": "68731512c9a60aeeb10d704b",
           "index": 0,
           "parentId": "",
-          "value": 20,
+          "value": 35,
           "visibilityConditions": []
         }
       ],
@@ -212,6 +212,83 @@
           "target": "68649a2e71ec930b1003d433",
           "traderId": "54cb50c76803fa8b248b4571",
           "type": "AssortmentUnlock"
+        },
+        {
+          "availableInGameEditions": [],
+          "findInRaid": true,
+          "id": "688e518ddf5ab0756467dcb4",
+          "index": 1,
+          "items": [
+            {
+              "_id": "688e50d6e7443043e003e936",
+              "_tpl": "0cb4a36dd2e587b46e813dbe",
+              "upd": {
+                "Repairable": {
+                  "MaxDurability": 100,
+                  "Durability": 100
+                },
+                "Foldable": {
+                  "Folded": false
+                },
+                "FireMode": {
+                  "FireMode": "single"
+                },
+                "StackObjectsCount": 1
+              }
+            },
+            {
+              "_id": "688e50d1e7443043e003e930",
+              "_tpl": "5ac72e475acfc400180ae6fe",
+              "slotId": "mod_sight_rear",
+              "upd": {
+                "Sight": {
+                  "ScopesCurrentCalibPointIndexes": [
+                    0
+                  ],
+                  "ScopesSelectedModes": [
+                    0
+                  ],
+                  "SelectedScope": 0,
+                  "ScopeZoomValue": 0
+                }
+              },
+              "parentId": "688e50d6e7443043e003e936"
+            },
+            {
+              "_id": "688e50d1e7443043e003e931",
+              "_tpl": "c9dc0b769bd36d06524b9bde",
+              "slotId": "mod_stock",
+              "parentId": "688e50d6e7443043e003e936"
+            },
+            {
+              "_id": "688e50d1e7443043e003e932",
+              "_tpl": "68609a328595f9559a666233",
+              "slotId": "mod_pistol_grip",
+              "parentId": "688e50d6e7443043e003e936"
+            },
+            {
+              "_id": "688e50d1e7443043e003e933",
+              "_tpl": "68609dc9fd6af45456e7d11c",
+              "slotId": "mod_handguard",
+              "parentId": "688e50d6e7443043e003e936"
+            },
+            {
+              "_id": "688e50d1e7443043e003e934",
+              "_tpl": "5cbdaf89ae9215000e5b9c94",
+              "slotId": "mod_magazine",
+              "parentId": "688e50d6e7443043e003e936"
+            },
+            {
+              "_id": "688e50d1e7443043e003e935",
+              "_tpl": "5fef472e70dc85c1e6fb9e23",
+              "slotId": "mod_muzzle",
+              "parentId": "688e50d1e7443043e003e933"
+            }
+          ],
+          "target": "688e50d6e7443043e003e936",
+          "type": "Item",
+          "value": "1",
+          "unknown": true
         }
       ]
     }
