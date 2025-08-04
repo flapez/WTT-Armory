@@ -22,8 +22,7 @@ class WTTArmory
 implements IPreSptLoadMod, IPostDBLoadMod
 {
     private instanceManager: WTTInstanceManager = new WTTInstanceManager();
-    private version: string;
-    private modName = "WTTArmory";
+    private modName = "WTT-Armory";
     private customItemService: CustomItemService = new CustomItemService();
     private customAssortSchemeService: CustomAssortSchemeService = new CustomAssortSchemeService();
     private questAPI: QuestAPI = new QuestAPI();
@@ -37,7 +36,6 @@ implements IPreSptLoadMod, IPostDBLoadMod
         this.instanceManager.preSptLoad(container, this.modName);
         this.instanceManager.debug = this.debug;
     
-        this.getVersionFromJson();
         this.displayCreditBanner();
     
         this.customItemService.preSptLoad(this.instanceManager);
@@ -63,14 +61,14 @@ implements IPreSptLoadMod, IPostDBLoadMod
                         {
                             profile["WTT"] = {};
                             profile["WTT"]["HasReceivedWelcomeGift"] = false;
-                            wttBot.sendWelcomeGift(sessionId, this.instanceManager); // use the resolved bot here
+                            wttBot.sendWelcomeGift(sessionId, this.instanceManager);
                             profile["WTT"]["HasReceivedWelcomeGift"] = true;
                         }
                         else
                         {
                             if (!profile["WTT"]["HasReceivedWelcomeGift"])
                             {
-                                wttBot.sendWelcomeGift(sessionId, this.instanceManager); // use the resolved bot here
+                                wttBot.sendWelcomeGift(sessionId, this.instanceManager); 
                                 profile["WTT"]["HasReceivedWelcomeGift"] = true;
                             }
                         }
@@ -106,7 +104,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
     
 
         // Locales
-        this.handleLocales();
+        //this.handleLocales();
         
     }
 
@@ -116,7 +114,6 @@ implements IPreSptLoadMod, IPostDBLoadMod
         const locales = this.instanceManager.database.locales.global;
         const WTTLocalesDir = path.join(__dirname, "..", "db", "locales");
         
-        // Load all custom locale JSONs into memory
         const WTTLocales: Record<string, Record<string, string>> = {};
         const WTTlocaleFiles = fs.readdirSync(WTTLocalesDir);
         
@@ -134,38 +131,18 @@ implements IPreSptLoadMod, IPostDBLoadMod
             }
         }
         
-        // English fallback
         const fallback = WTTLocales["en"] ?? {};
         
         for (const locale of Object.keys(locales)) {
             const customLocale = WTTLocales[locale] ?? fallback;
         
             for (const [key, value] of Object.entries(customLocale)) {
-                // Only add if the key doesn't already exist
-                if (!(key in locales[locale])) {
-                    locales[locale][key] = value;
-                }
+                locales[locale][key] = value;
             }
         }
     }
     
 
-    private getVersionFromJson(): void 
-    {
-        const packageJsonPath = path.join(__dirname, "../package.json");
-
-        fs.readFile(packageJsonPath, "utf-8", (err, data) => 
-        {
-            if (err) 
-            {
-                console.error("Error reading file:", err);
-                return;
-            }
-
-            const jsonData = JSON.parse(data);
-            this.version = jsonData.version;
-        });
-    }
 
     private displayCreditBanner(): void 
     {
