@@ -65,7 +65,6 @@ class CustomItemService {
         else {
             this.instanceManager.logger.log(`[${this.instanceManager.modName}] Database: No custom items loaded.`, LogTextColor_1.LogTextColor.GREEN);
         }
-        // Post-item processing (e.g., bot inventories, quest modifications)
         for (const file of configFiles) {
             const filePath = node_path_1.default.join(configPath, file);
             try {
@@ -133,7 +132,7 @@ class CustomItemService {
         const locations = this.instanceManager.database.locations;
         for (const locationID in locations) {
             if (!Object.prototype.hasOwnProperty.call(locations, locationID)) {
-                continue; // Skip invalid locations
+                continue;
             }
             const location = locations[locationID];
             if (!location.staticLoot) {
@@ -291,7 +290,6 @@ class CustomItemService {
             const allowedSlots = Array.isArray(itemConfig.addtoInventorySlots)
                 ? itemConfig.addtoInventorySlots
                 : [itemConfig.addtoInventorySlots];
-            // Iterate over the slots and push the item into the filters per the config
             for (const slot of defaultInventorySlots) {
                 const slotName = configConsts_3.inventorySlots[slot._name];
                 const slotId = Object.keys(configConsts_3.inventorySlots).find((key) => configConsts_3.inventorySlots[key] === slot._name);
@@ -366,7 +364,6 @@ class CustomItemService {
                             _id: itemData._id,
                             _tpl: itemData._tpl
                         };
-                        // Add parentId and slotId only if they are present in itemData
                         if (itemData.parentId) {
                             item.parentId = itemData.parentId;
                         }
@@ -448,7 +445,6 @@ class CustomItemService {
         trader.assort.loyal_level_items[itemId] = itemConfig.loyallevelitems;
     }
     addtoHallofFame(itemConfig, itemId) {
-        // Define hall of fame items
         const hallMap = {
             level1: this.instanceManager.database.templates.items["63dbd45917fff4dee40fe16e"],
             level2: this.instanceManager.database.templates.items["65424185a57eea37ed6562e9"],
@@ -457,31 +453,24 @@ class CustomItemService {
         const addOption = itemConfig.addtoHallOfFame;
         if (!addOption)
             return; // Exit if falsy
-        // Normalize to array of filter types
         let filterTypes = [];
         if (addOption === true) {
-            // All filter types
             filterTypes = ['dogtag', 'smallTrophies', 'bigTrophies'];
         }
         else if (Array.isArray(addOption)) {
-            // Specific filter types
             filterTypes = addOption.filter(type => ['dogtag', 'smallTrophies', 'bigTrophies'].includes(type));
         }
         else if (typeof addOption === 'string') {
-            // Single filter type
             if (['dogtag', 'smallTrophies', 'bigTrophies'].includes(addOption)) {
                 filterTypes = [addOption];
             }
         }
-        // Exit early if no valid filter types
         if (filterTypes.length === 0)
             return;
-        // Process all halls
         for (const hall of Object.values(hallMap)) {
             if (!hall)
                 continue;
             for (const slot of hall._props.Slots) {
-                // Check if this filter matches any requested type
                 const isMatch = filterTypes.some(type => slot._name && slot._name.startsWith(type));
                 if (isMatch && slot._props.filters[0].Filter && !slot._props.filters[0].Filter.includes(itemId)) {
                     slot._props.filters[0].Filter.push(itemId);
@@ -518,15 +507,12 @@ class CustomItemService {
         if (this.instanceManager.debug) {
             console.log("Processing bot inventories for item:", itemId);
         }
-        // Iterate through bot types
         for (const botId in tables.bots.types) {
             const botType = botId;
             const botInventory = tables.bots.types[botId].inventory;
             botInventory.Ammo = botInventory.Ammo || {};
-            // Process items and equipment
             this.processInventoryType(botInventory.items, finalItemTplToClone, itemId, botType, "items");
             this.processInventoryType(botInventory.equipment, finalItemTplToClone, itemId, botType, "equipment");
-            // Process mods if applicable
             if (itemConfig.addtoModSlots && itemConfig.modSlot) {
                 this.processBotModSlots(finalItemTplToClone, itemId, botType, itemConfig.modSlot);
             }

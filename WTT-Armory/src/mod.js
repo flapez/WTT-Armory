@@ -16,8 +16,7 @@ const WTTBot_1 = require("./ChatBot/WTTBot");
 const ConfigTypes_1 = require("C:/snapshot/project/obj/models/enums/ConfigTypes");
 class WTTArmory {
     instanceManager = new WTTInstanceManager_1.WTTInstanceManager();
-    version;
-    modName = "WTTArmory";
+    modName = "WTT-Armory";
     customItemService = new CustomItemService_1.CustomItemService();
     customAssortSchemeService = new CustomAssortSchemeService_1.CustomAssortSchemeService();
     questAPI = new QuestAPI_1.QuestAPI();
@@ -28,7 +27,6 @@ class WTTArmory {
     preSptLoad(container) {
         this.instanceManager.preSptLoad(container, this.modName);
         this.instanceManager.debug = this.debug;
-        this.getVersionFromJson();
         this.displayCreditBanner();
         this.customItemService.preSptLoad(this.instanceManager);
         this.customAssortSchemeService.preSptLoad(this.instanceManager);
@@ -47,12 +45,12 @@ class WTTArmory {
                     if (profile["WTT"] == null) {
                         profile["WTT"] = {};
                         profile["WTT"]["HasReceivedWelcomeGift"] = false;
-                        wttBot.sendWelcomeGift(sessionId, this.instanceManager); // use the resolved bot here
+                        wttBot.sendWelcomeGift(sessionId, this.instanceManager);
                         profile["WTT"]["HasReceivedWelcomeGift"] = true;
                     }
                     else {
                         if (!profile["WTT"]["HasReceivedWelcomeGift"]) {
-                            wttBot.sendWelcomeGift(sessionId, this.instanceManager); // use the resolved bot here
+                            wttBot.sendWelcomeGift(sessionId, this.instanceManager);
                             profile["WTT"]["HasReceivedWelcomeGift"] = true;
                         }
                     }
@@ -78,12 +76,11 @@ class WTTArmory {
         this.customLootspawnService.postDBLoad();
         this.customBotLoadoutService.postDBLoad();
         // Locales
-        this.handleLocales();
+        //this.handleLocales();
     }
     handleLocales() {
         const locales = this.instanceManager.database.locales.global;
         const WTTLocalesDir = node_path_1.default.join(__dirname, "..", "db", "locales");
-        // Load all custom locale JSONs into memory
         const WTTLocales = {};
         const WTTlocaleFiles = node_fs_1.default.readdirSync(WTTLocalesDir);
         for (const file of WTTlocaleFiles) {
@@ -99,28 +96,13 @@ class WTTArmory {
                 console.warn(`Failed to parse ${file}:`, err);
             }
         }
-        // English fallback
         const fallback = WTTLocales["en"] ?? {};
         for (const locale of Object.keys(locales)) {
             const customLocale = WTTLocales[locale] ?? fallback;
             for (const [key, value] of Object.entries(customLocale)) {
-                // Only add if the key doesn't already exist
-                if (!(key in locales[locale])) {
-                    locales[locale][key] = value;
-                }
+                locales[locale][key] = value;
             }
         }
-    }
-    getVersionFromJson() {
-        const packageJsonPath = node_path_1.default.join(__dirname, "../package.json");
-        node_fs_1.default.readFile(packageJsonPath, "utf-8", (err, data) => {
-            if (err) {
-                console.error("Error reading file:", err);
-                return;
-            }
-            const jsonData = JSON.parse(data);
-            this.version = jsonData.version;
-        });
     }
     displayCreditBanner() {
         this.instanceManager.colorLog(`[${this.modName}] Forged by the creators of WTT & allies — arm yourself accordingly.`, "green");

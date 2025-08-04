@@ -23,12 +23,10 @@ export class CustomLootspawnService
             
             if (customSpawnpointsForced[locationId]) 
             {
-                // Concatenate the existing spawnpoints with the new ones
                 location.looseLoot.spawnpointsForced = location.looseLoot.spawnpointsForced.concat(customSpawnpointsForced[locationId]);
             }
         }
 
-        // Process regular spawnpoints
         this.processSpawnpoints(locations, customSpawnpoints);
     }
 
@@ -53,15 +51,12 @@ export class CustomLootspawnService
                 
                 if (existingIndex === -1) 
                 {
-                    // Spawnpoint doesn't exist - add it
                     existingSpawns.push(customSpawn);
                 } 
                 else 
                 {
-                    // Spawnpoint exists - merge items and distributions
                     const existingSpawn = existingSpawns[existingIndex];
                     
-                    // Merge template items
                     if (customSpawn.template?.Items) 
                     {
                         existingSpawn.template.Items = [
@@ -70,7 +65,6 @@ export class CustomLootspawnService
                         ];
                     }
                     
-                    // Merge item distributions
                     if (customSpawn.itemDistribution) 
                     {
                         existingSpawn.itemDistribution = [
@@ -81,7 +75,6 @@ export class CustomLootspawnService
                 }
             }
             
-            // Update the spawnpoints array in the location
             location.looseLoot.spawnpoints = existingSpawns;
         }
     }

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/naming-convention */
-import * as path from "node:path";
-import * as fs from "node:fs";
+import path from "node:path";
+import fs from "node:fs";
 import { LogTextColor } from "@spt/models/spt/logging/LogTextColor";
 import type { QuestZone } from "../references/configConsts";
 import { ConfigTypes } from "@spt/models/enums/ConfigTypes";
@@ -10,14 +10,7 @@ import type { WTTInstanceManager } from "./WTTInstanceManager";
 export class QuestAPI 
 {
     private instanceManager: WTTInstanceManager;
-    private dbPath: string;
-    /**
-     * Call inside traders preSptLoad method.
-     * 
-     * @param {ILogger} logger    Logger
-     * @param {string}  mod       mod name
-     * @return {void}             
-     */
+
     public preSptLoad(Instance: WTTInstanceManager): void
     {
         this.instanceManager = Instance;
@@ -44,12 +37,11 @@ export class QuestAPI
         
         const jsonQuestFiles = this.loadJsonFiles(path.join(traderBasePath));
         const jsonQuestAssortFiles = this.loadJsonFiles(path.join(traderBasePath, 'questAssort'));
-        const jsonLocaleFiles = this.loadJsonFiles(path.join(traderBasePath, 'locales'));
         const jsonImageFiles = this.loadImagePaths(path.join(traderBasePath, 'images'));
     
         this.importQuestData(jsonQuestFiles, traderId);
         this.importQuestAssortData(jsonQuestAssortFiles, traderId);
-        this.importLocaleData(jsonLocaleFiles, traderId);
+        this.importLocaleData(traderId);
         this.importImageData(jsonImageFiles, traderId);
     }
     
@@ -129,12 +121,6 @@ export class QuestAPI
     }
 
 
-    /**
-     * Import quest zones.
-     * 
-     * @param {QuestZone} questZones     Trader to load quests zones for.
-     * @return {void}                    Returns nothing
-     */
     public importQuestZones(questZones: QuestZone[], trader: string): void 
     {
         let zones = 0;
@@ -151,9 +137,7 @@ export class QuestAPI
         this.logDebug(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loaded ${zones} quest zones.`, LogTextColor.GREEN);
     }
 
-    /**
-     * Import Quest data from json files
-     */
+
     private importQuestData(jsonQuestFiles: any[], trader: string): void
     {
         if (Object.keys(jsonQuestFiles).length < 1)
@@ -163,7 +147,6 @@ export class QuestAPI
         }
         this.logDebug(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loading ${Object.keys(jsonQuestFiles).length} quest files.`, LogTextColor.GREEN);
         
-        // Import quest data to the database
         let questCount = 0;
         for (const file of jsonQuestFiles)
         {
@@ -185,7 +168,6 @@ export class QuestAPI
     
         let questAssortCount = 0;
         
-        // Ensure questassort exists
         if (!this.instanceManager.database.traders[trader].questassort) {
             this.instanceManager.database.traders[trader].questassort = {};
         }
@@ -194,7 +176,6 @@ export class QuestAPI
             for (const questAssortKey in questAssorts) {
                 const section = questAssorts[questAssortKey];
                 
-                // Initialize questassort sub-object if missing
                 if (!this.instanceManager.database.traders[trader].questassort[questAssortKey]) {
                     this.instanceManager.database.traders[trader].questassort[questAssortKey] = {};
                 }
@@ -211,9 +192,7 @@ export class QuestAPI
         this.logDebug(`[${this.instanceManager.modName}] QuestAPI: ${trader} Imported ${questAssortCount} quests into the database.`, LogTextColor.GREEN);
     }
 
-    /**
-     * Import Quest side data into the config server
-     */
+
     private importQuestSideConfig(): void 
     {
         const questConfig = this.instanceManager.configServer.getConfig<IQuestConfig>(ConfigTypes.QUEST)
@@ -233,34 +212,77 @@ export class QuestAPI
         }
     }
 
-    /**
-     * Import locale data into the database
-     */
-    private importLocaleData(jsonLocaleFiles: any[], trader: string): void
+
+    private importLocaleData(trader: string): void
     {
-        if (Object.keys(jsonLocaleFiles).length < 1)
+        const localesDir = path.join(this.instanceManager.dbPath, 'Quests', trader, 'locales');
+        
+        if (!fs.existsSync(localesDir) || !fs.lstatSync(localesDir).isDirectory())
         {
-            this.logDebug(`[${this.instanceManager.modName}] QuestAPI:  ${trader} No quest locale files.`, LogTextColor.RED); 
+            this.logDebug(`[${this.instanceManager.modName}] QuestAPI: ${trader} No quest locale directory found.`, LogTextColor.RED); 
             return;
         }
-        this.logDebug(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loading ${Object.keys(jsonLocaleFiles).length} locale files.`, LogTextColor.GREEN);
-
-        // Import quest locales to the database
-        let localeCount = 0;
-        for (const file of jsonLocaleFiles)
+    
+        const localeFiles = fs.readdirSync(localesDir).filter(file => file.endsWith('.json'));
+        
+        if (localeFiles.length === 0)
         {
-            for (const locale in file)
-            {
-                this.instanceManager.database.locales.global["en"][locale] = file[locale]
-                localeCount++;
-            }           
+            this.logDebug(`[${this.instanceManager.modName}] QuestAPI: ${trader} No locale files found.`, LogTextColor.RED); 
+            return;
         }
-        this.logDebug(`[${this.instanceManager.modName}] QuestAPI:  ${trader} Loaded ${localeCount} locales.`, LogTextColor.GREEN);
+    
+        this.logDebug(`[${this.instanceManager.modName}] QuestAPI: ${trader} Loading ${localeFiles.length} locale files.`, LogTextColor.GREEN);
+    
+        let localeCount = 0;
+        const customLocales: Record<string, Record<string, string>> = {};
+        let fallback: Record<string, string> = {};
+    
+        for (const file of localeFiles)
+        {
+            const localeCode = path.basename(file, ".json");
+            const filePath = path.join(localesDir, file);
+    
+            try 
+            {
+                const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+                customLocales[localeCode] = data;
+                
+                if (localeCode === "en") {
+                    fallback = data;
+                }
+            } 
+            catch (err) 
+            {
+                console.error(`Failed to parse ${filePath}:`, err);
+            }
+        }
+    
+        if (Object.keys(fallback).length === 0 && customLocales["en"]) {
+            fallback = customLocales["en"];
+        }
+    
+        const globalLocales = this.instanceManager.database.locales.global;
+        
+        for (const localeCode of Object.keys(globalLocales))
+        {
+            const localeData = globalLocales[localeCode];
+            const customData = customLocales[localeCode] || fallback;
+            
+            for (const [key, value] of Object.entries(customData))
+            {
+                if (!localeData[key]) {
+                    localeData[key] = value;
+                    localeCount++;
+                }
+                else if (this.instanceManager.debug) {
+                    this.logDebug(`Skipping duplicate key: ${key} for locale ${localeCode}`, LogTextColor.YELLOW);
+                }
+            }
+        }
+    
+        this.logDebug(`[${this.instanceManager.modName}] QuestAPI: ${trader} Added ${localeCount} locale entries.`, LogTextColor.GREEN);
     }
 
-    /**
-     * Set up routes for image data
-     */
     private importImageData(jsonImageFiles: any[], trader: string): void
     {
         let imageCount = 0;

@@ -96,7 +96,7 @@ let WTTBot = class WTTBot {
             },
             {
                 _id: this.hashUtil.generate(),
-                _tpl: "6570259bc5d7d4cb4d07857f"
+                _tpl: "657025a4bfc87b3a34093250"
             }
         ];
         const message = `

@@ -90,7 +90,6 @@ export class CustomItemService {
             );
         }
     
-        // Post-item processing (e.g., bot inventories, quest modifications)
         for (const file of configFiles) {
             const filePath = path.join(configPath, file);
     
@@ -180,7 +179,7 @@ export class CustomItemService {
     
         for (const locationID in locations) {
             if (!Object.prototype.hasOwnProperty.call(locations, locationID)) {
-                continue; // Skip invalid locations
+                continue; 
             }
     
             const location: ILocation = locations[locationID];
@@ -394,7 +393,6 @@ export class CustomItemService {
                 ? itemConfig.addtoInventorySlots
                 : [itemConfig.addtoInventorySlots];
 
-            // Iterate over the slots and push the item into the filters per the config
             for (const slot of defaultInventorySlots) {
                 const slotName = inventorySlots[slot._name];
                 const slotId = Object.keys(inventorySlots).find(
@@ -487,7 +485,6 @@ export class CustomItemService {
                             _tpl: itemData._tpl
                         };
             
-                        // Add parentId and slotId only if they are present in itemData
                         if (itemData.parentId) {
                             item.parentId = itemData.parentId;
                         }
@@ -589,7 +586,6 @@ export class CustomItemService {
     }
 
     private addtoHallofFame(itemConfig: ConfigItem[string], itemId: string) {
-        // Define hall of fame items
         const hallMap = {
             level1: this.instanceManager.database.templates.items["63dbd45917fff4dee40fe16e"],
             level2: this.instanceManager.database.templates.items["65424185a57eea37ed6562e9"],
@@ -599,33 +595,26 @@ export class CustomItemService {
         const addOption = itemConfig.addtoHallOfFame;
         if (!addOption) return;  // Exit if falsy
     
-        // Normalize to array of filter types
         let filterTypes: TrophyFilterType[] = [];
         
         if (addOption === true) {
-            // All filter types
             filterTypes = ['dogtag', 'smallTrophies', 'bigTrophies'];
         } else if (Array.isArray(addOption)) {
-            // Specific filter types
             filterTypes = addOption.filter(type => 
                 ['dogtag', 'smallTrophies', 'bigTrophies'].includes(type)
             );
         } else if (typeof addOption === 'string') {
-            // Single filter type
             if (['dogtag', 'smallTrophies', 'bigTrophies'].includes(addOption)) {
                 filterTypes = [addOption as TrophyFilterType];
             }
         }
     
-        // Exit early if no valid filter types
         if (filterTypes.length === 0) return;
     
-        // Process all halls
         for (const hall of Object.values(hallMap)) {
             if (!hall) continue;
     
             for (const slot of hall._props.Slots) {
-                // Check if this filter matches any requested type
                 const isMatch = filterTypes.some(type => 
                     slot._name && slot._name.startsWith(type)
                 );
@@ -674,18 +663,15 @@ export class CustomItemService {
             console.log("Processing bot inventories for item:", itemId);
         }
 
-        // Iterate through bot types
         for (const botId in tables.bots.types) {
             const botType = botId;
             const botInventory = tables.bots.types[botId].inventory;
 
             botInventory.Ammo = botInventory.Ammo || {};
 
-            // Process items and equipment
             this.processInventoryType(botInventory.items, finalItemTplToClone, itemId, botType, "items");
             this.processInventoryType(botInventory.equipment, finalItemTplToClone, itemId, botType, "equipment");
 
-            // Process mods if applicable
             if (itemConfig.addtoModSlots && itemConfig.modSlot) {
                 this.processBotModSlots(finalItemTplToClone, itemId, botType, itemConfig.modSlot);
             }
