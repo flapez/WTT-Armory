@@ -310,7 +310,7 @@
           "type": "Item",
           "value": "70000",
           "unknown": false
-         }
+        }
       ]
     }
   },
@@ -472,15 +472,16 @@
               "parentId": "hideout",
               "slotId": "hideout",
               "upd": {
-                "SpawnedInSession": true,
+                "UnlimitedCount": false,
+                "StackObjectsCount": 10,
+                "BuyRestrictionMax": 5,
                 "Repairable": {
                   "MaxDurability": 100,
                   "Durability": 100
                 },
                 "FireMode": {
                   "FireMode": "single"
-                },
-                "StackObjectsCount": 1
+                }
               }
             },
             {
@@ -521,7 +522,7 @@
               "parentId": "68604d630f8b882c4803c86c"
             }
           ],
-          "loyaltyLevel": 2,
+          "loyaltyLevel": 1,
           "target": "68604d630f8b882c4803c86c",
           "traderId": "58330581ace78e27b8b10cee",
           "type": "AssortmentUnlock",
@@ -536,4 +537,4 @@
     "traderId": "58330581ace78e27b8b10cee",
     "type": "Discover"
   }
-}  
+}
