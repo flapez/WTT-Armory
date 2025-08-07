@@ -1651,7 +1651,7 @@
           "oneSessionOnly": false,
           "parentId": "",
           "type": "Elimination",
-          "value": 10,
+          "value": 5,
           "visibilityConditions": []
         },
         {
