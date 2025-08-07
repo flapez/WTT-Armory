@@ -353,6 +353,7 @@
       "RecoilReturnPathDampingHandRotation": 0.47,
       "RecolDispersion": 9,
 	  "RecoilForceBack": 333,
+    "CanSellOnRagfair": false,
 	  "RecoilForceUp": 474,
       "RecoilReturnSpeedHandRotation": 2.1,
       "Weight": 0.432,

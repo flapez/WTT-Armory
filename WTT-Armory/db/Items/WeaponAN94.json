@@ -270,6 +270,7 @@
       "HeatfactorByShot": 1.37,
       "Weight": 3.052,
       "bFirerate": 600,
+      "CanSellOnRagfair": false,
       "Slots": [
         {
           "_name": "mod_stock",

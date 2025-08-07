@@ -294,6 +294,7 @@
       "RecoilForceBack": 288,
       "RecoilForceUp": 94,
       "HeatfactorByShot": 1.33,
+      "CanSellOnRagfair": false,
       "Slots": [
         {
           "_name": "mod_sight_rear",
