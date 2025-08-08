@@ -271,6 +271,7 @@
       "Weight": 3.052,
       "bFirerate": 600,
       "CanSellOnRagfair": false,
+      "ExaminedByDefault": false,
       "Slots": [
         {
           "_name": "mod_stock",

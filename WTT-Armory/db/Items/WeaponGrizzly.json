@@ -361,7 +361,7 @@
         "path": "WeaponGrizzly/weapon_grizzly_gold_container.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true,
+      "ExaminedByDefault": false,
       "defMagType": "677c9e00a9432b8c3a019a15",
       "defAmmo": "668fe62ac62660a5d8071446",
       "ammoCaliber": "Caliber127x33",

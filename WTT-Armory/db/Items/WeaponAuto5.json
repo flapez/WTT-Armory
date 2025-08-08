@@ -207,7 +207,7 @@
       "RecoilForceBack": 420,
       "RecoilForceUp": 305,
       "IronSightRange": 30,
-      "ExaminedByDefault": true,
+      "ExaminedByDefault": false,
       "CanSellOnRagfair": false,
       "Prefab": {
         "path": "WeaponAuto5/weapon_auto5_boss_container.bundle",
