@@ -167,6 +167,8 @@
         "masteries": true,
         "masterySections": [
             {
+                "Level2": 1600,
+				"Level3": 2000,
                 "Name": "M4",
                 "Templates": [
                     "6761b213607f9a6f79017c7e"

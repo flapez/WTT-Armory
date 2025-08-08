@@ -5,19 +5,19 @@
         "handbookParentId": "5b5f794b86f77409407a7f92",
         "overrideProperties": {
             "ExaminedByDefault": true,
-            "bFirerate": 30,                        
-            "Weight": 1.56,                        
-            "RecoilForceBack": 518,                 
-            "RecoilForceUp": 424,                 
+            "bFirerate": 30,
+            "Weight": 1.56,
+            "RecoilForceBack": 518,
+            "RecoilForceUp": 424,
             "RecolDispersion": 16,
-            "shotgunDispersion": 3,                  
-            "Ergonomics": 69,                       
-            "HeatFactorByShot": 7,                
-            "RecoilDampingHandRotation": 0.79,      
-            "RecoilStableAngleIncreaseStep": 2.3,   
-            "RecoilCamera": 0.08,                    
+            "shotgunDispersion": 3,
+            "Ergonomics": 69,
+            "HeatFactorByShot": 7,
+            "RecoilDampingHandRotation": 0.79,
+            "RecoilStableAngleIncreaseStep": 2.3,
+            "RecoilCamera": 0.08,
             "RepairCost": 88,
-            "BaseMalfunctionChance": 0.271975,          
+            "BaseMalfunctionChance": 0.271975,
             "DurabilityBurnRatio": 1.15,
             "CenterOfImpact": 1.5,
             "Prefab": {
@@ -99,6 +99,8 @@
         "masteries": true,
         "masterySections": [
             {
+                "Level2": 100,
+                "Level3": 200,
                 "Name": "M870",
                 "Templates": [
                     "6761b213607f9a6f79017d23"

@@ -107,6 +107,8 @@
         "masteries": true,
         "masterySections": [
             {
+                "Level2": 350,
+                "Level3": 500,
                 "Name": "Minebea PM-9",
                 "Templates": [
                     "6761b213607f9a6f79017cd8"

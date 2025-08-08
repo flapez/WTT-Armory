@@ -202,6 +202,8 @@
         "masteries": true,
         "masterySections": [
             {
+                "Level2": 75,
+                "Level3": 100,
                 "Name": "m1911",
                 "Templates": [
                     "6761b213607f9a6f79017d52"

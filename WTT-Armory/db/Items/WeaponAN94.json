@@ -204,6 +204,8 @@
     "masteries": true,
     "masterySections": [
       {
+        "Level2": 2000,
+        "Level3": 2200,
         "Name": "AK74",
         "Templates": [
           "678fe4a4906c7bd23722c71f"
@@ -630,6 +632,8 @@
     "masteries": true,
     "masterySections": [
       {
+        "Level2": 2000,
+        "Level3": 2200,
         "Name": "AK74",
         "Templates": [
           "679a6a534f3d279c99b135b9"
