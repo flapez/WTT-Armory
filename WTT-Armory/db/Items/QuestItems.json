@@ -313,6 +313,7 @@
         "path": "Items_Quests/quest_immortal_poster.bundle",
         "rcid": ""
       },
+      "QuestItem": true,
       "DropSoundType": "None",
       "Height": 2,
       "Width": 2,
