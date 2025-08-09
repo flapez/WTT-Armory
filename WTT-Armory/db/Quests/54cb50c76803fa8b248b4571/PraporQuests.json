@@ -21,7 +21,7 @@
     "changeQuestMessageText": "687314e1ee500b06711955a2 changeQuestMessageText",
     "name": "687314e1ee500b06711955a2 name",
     "note": "687314e1ee500b06711955a2 note",
-    "restartable": false,
+    "restartable": true,
     "canShowNotificationsInGame": true,
     "conditions": {
       "AvailableForFinish": [
