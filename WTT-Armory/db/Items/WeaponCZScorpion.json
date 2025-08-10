@@ -727,8 +727,8 @@
         },
         "locales": {
             "en": {
-                "name": "CZ Scorpion EVO 3 A1 carbine length 5 inch barrel",
-                "shortName": "EVO 3 5\"",
+                "name": "CZ Scorpion EVO 3 A1 5 inch integral barrel",
+                "shortName": "EVO 3 5\" Int",
                 "description": "Ported 5 inch barrel designed to be used with an integral suppressor system for the CZ Scorpion EVO 3 S1 9x19 submachine gun."
             }
         },
@@ -1382,7 +1382,7 @@
         },
         "locales": {
             "en": {
-                "name": "CZ Scorpion EVO 3 A1 Carbine compensator",
+                "name": "CZ Scorpion EVO 3 A1 carbine compensator",
                 "shortName": "Carbine",
                 "description": "Standard multi-port compensator for the CZ Scorpion EVO 3 carbine."
             }
