@@ -36,6 +36,10 @@
                     50
                 ]
             ],
+			"ModesCount": [
+				2
+			],
+			"IsAdjustableOptic": true,
             "Slots": [
                 {
                     "_id": "9c39ccbb60d45b9e44539830",
