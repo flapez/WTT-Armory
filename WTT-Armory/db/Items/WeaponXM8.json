@@ -873,7 +873,7 @@
 		]
 	},
 	"66b1777fef15631b8b5ca98a": {
-		"itemTplToClone": "622b3858034a3e17ad0b81f5",
+		"itemTplToClone": "622b38c56762c718e457e246",
 		"parentId": "555ef6e44bdc2de9068b457e",
 		"handbookParentId": "MOD_BARREL",
 		"overrideProperties": {
@@ -1294,7 +1294,7 @@
 		]
 	},
 	"66b1778236301d80c2044219": {
-		"itemTplToClone": "622b3858034a3e17ad0b81f5",
+		"itemTplToClone": "622b379bf9cfc87d675d2de5",
 		"parentId": "555ef6e44bdc2de9068b457e",
 		"handbookParentId": "MOD_BARREL",
 		"overrideProperties": {
