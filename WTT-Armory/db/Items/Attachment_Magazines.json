@@ -12,7 +12,10 @@
       "Weight": 0.29,
       "MalfunctionChance": 0.18,
       "Ergonomics": -8,
-      "LoadUnloadModifier": 12
+      "LoadUnloadModifier": 12,
+      "ConflictingItems": [
+        "622f02437762f55aaa68ac85"
+      ]
     },
     "locales": {
       "en": {
@@ -49,7 +52,10 @@
         "rcid": ""
       },
       "Weight": 0.12,
-      "CheckTimeModifier": -10
+      "CheckTimeModifier": -10,
+      "ConflictingItems": [
+        "622f02437762f55aaa68ac85"
+      ]
     },
     "locales": {
       "en": {
@@ -86,7 +92,10 @@
         "rcid": ""
       },
       "Weight": 0.12,
-      "CheckTimeModifier": -10
+      "CheckTimeModifier": -10,
+      "ConflictingItems": [
+        "622f02437762f55aaa68ac85"
+      ]
     },
     "locales": {
       "en": {
@@ -123,7 +132,10 @@
         "rcid": ""
       },
       "Weight": 0.12,
-      "CheckTimeModifier": -10
+      "CheckTimeModifier": -10,
+      "ConflictingItems": [
+        "622f02437762f55aaa68ac85"
+      ]
     },
     "locales": {
       "en": {
