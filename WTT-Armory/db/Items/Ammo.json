@@ -17,7 +17,7 @@
       "Damage": 76,
       "ammoAccr": -2,
       "ammoRec": 0,
-      "PenetrationPower": 37,
+      "PenetrationPower": 43,
       "PenetrationPowerDiviation": 0.19,
       "ArmorDamage": 39,
       "DurabilityBurnModificator": 1.32,
@@ -35,9 +35,7 @@
     "clearClonedProps": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
-    "modSlot": [
-      "mod_muzzle"
-    ],
+    "modSlot": [],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 225,
@@ -218,37 +216,35 @@
       "CanSellOnRagfair": false,
       "Caliber": "Caliber762x67B",
       "Weight": 0.027,
-      "InitialSpeed": 880,
-      "BallisticCoeficient": 0.481,
-      "BulletMassGram": 11.3,
+      "InitialSpeed": 895,
+      "BallisticCoeficient": 0.31,
+      "BulletMassGram": 14.2,
       "BulletDiameterMilimeters": 7.62,
-      "Damage": 58,
+      "Damage": 63,
       "ammoAccr": -3,
       "ammoRec": 9,
-      "PenetrationPower": 63,
-      "PenetrationPowerDiviation": 0.05,
+      "PenetrationPower": 67,
+      "PenetrationPowerDiviation": 1,
       "ArmorDamage": 47,
       "DurabilityBurnModificator": 1.82,
       "HeatFactor": 1.22,
-      "RicochetChance": 0.48,
+      "RicochetChance": 0.38,
       "HeavyBleedingDelta": 0.18,
       "LightBleedingDelta": 0.20,
-      "MalfFeedChance": 0.024,
+      "MalfFeedChance": 0.034,
       "StackMaxSize": 30
     },
     "locales": {
       "en": {
         "name": ".300 Winchester Magnum AP",
         "shortName": "AP",
-        "description": "A .300 Winchester Magnum (7.62x67B) AP cartridge with a 11.3 gram hardened tungsten carbine core in a brass case. This cartridge was designed to penetrate intermediate (and greater) ballistic armor all the way up to some lightly armored vehicles. Due to it's hardened core and hard jacket, this round is highly likely to bounce off of various surfaces."
+        "description": "A .300 Winchester Magnum (7.62x67B) AP cartridge with a 220-grain Sierra MatchKing bullet. This cartridge was designed to penetrate intermediate (and greater) ballistic armor all the way up to some lightly armored vehicles. Due to it's hardened core and hard jacket, this round is highly likely to bounce off of various surfaces."
       }
     },
     "clearClonedProps": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
-    "modSlot": [
-      "mod_muzzle"
-    ],
+    "modSlot": [],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 1154,
@@ -277,12 +273,12 @@
       "BallisticCoeficient": 0.527,
       "BulletMassGram": 10.9,
       "BulletDiameterMilimeters": 7.62,
-      "Damage": 78,
+      "Damage": 99,
       "ammoAccr": 3,
-      "ammoRec": 4,
+      "ammoRec": -4,
       "PenetrationPower": 34,
-      "PenetrationPowerDiviation": 0.01,
-      "ArmorDamage": 30,
+      "PenetrationPowerDiviation": 0.85,
+      "ArmorDamage": 35,
       "DurabilityBurnModificator": 1.52,
       "HeatFactor": 1.18,
       "RicochetChance": 0.12,
@@ -325,9 +321,9 @@
 				"path": "Mods/Bullets/338_norma_fmj.bundle",
 				"rcid": ""
 			},
-			"Caliber": "Caliber338Norma",
+			"Caliber": "Caliber86x63",
 			"ammoAccr": 6,
-			"BallisticCoeficient": 0.768,
+			"BallisticCoeficient": 0.828,
 			"BulletMassGram": 19.44,
 			"CanSellOnRagfair": false,
 			"casingMass": 69,
@@ -335,13 +331,16 @@
 			"InitialSpeed": 810,
 			"PenetrationPower": 39,
 			"Weight": 0.039,
-      "StackMaxSize": 30
+      "StackMaxSize": 30,
+      "RicochetChance": 0.12,
+      "HeavyBleedingDelta": 0.27,
+      "LightBleedingDelta": 0.46
 		},
 		"locales": {
 			"en": {
-				"name": ".338 Norma Magnum Norma 300gr MatchKing",
-				"shortName": "Matchking 300",
-				"description": "Sierra designed the Matchking bullet to be a record setting accurate projectile meant for a variety of uses from ELR matches to trophy hunts. This bullet performs amazingly at range and is the gold standard for long range precision rounds, this particular version matched with legendary Norma brass."
+				"name": ".338 Norma Magnum NMK BT",
+				"shortName": "NMK BT",
+				"description": "A .338 Norma Magnum (8.6x63mm) 300 grain Norma MatchKing Hollow Point Boat Tail round. The Sierra Matchking bullet was designed to be a record setting accurate projectile meant for a variety of uses from ELR matches to trophy hunts. This bullet performs amazingly at range and is the gold standard for long range precision rounds, this particular version matched with legendary Norma brass."
 			}
 		},
 		"clearClonedProps": false,
@@ -403,9 +402,9 @@
 				"path": "Mods/Bullets/338_norma_fmj.bundle",
 				"rcid": ""
 			},
-			"Caliber": "Caliber338Norma",
+			"Caliber": "Caliber86x63",
 			"ammoAccr": 3,
-			"BallisticCoeficient": 0.735,
+			"BallisticCoeficient": 0.805,
 			"BulletMassGram": 18.47,
 			"CanSellOnRagfair": false,
 			"casingMass": 69,
@@ -413,13 +412,16 @@
 			"InitialSpeed": 827,
 			"PenetrationPower": 48,
 			"Weight": 0.039,
-      "StackMaxSize": 30
+      "StackMaxSize": 30,
+      "RicochetChance": 0.09,
+      "HeavyBleedingDelta": 0.21,
+      "LightBleedingDelta": 0.39
 		},
 		"locales": {
 			"en": {
-				"name": ".338 Norma Magnum Sierra 250gr Matchking",
-				"shortName": "Matchking 250",
-				"description": "Sierra designed the Matchking to be a record setting accurate bullet meant for a variety of uses from ELR matches to trophy hunts. This bullet performs amazingly at range and is the gold standard for long range precision rounds."
+				"name": ".338 Norma Magnum SMK BT",
+				"shortName": "SMK BT",
+				"description": "A .338 Norma Magnum (8.6x63mm) 250 grain Sierra MatchKing Hollow Point Boat Tail round. The Sierra Matchking bullet was designed to be a record setting accurate projectile meant for a variety of uses from ELR matches to trophy hunts. This bullet performs amazingly at range and is the gold standard for long range precision rounds."
 			}
 		},
 		"clearClonedProps": false,
@@ -458,16 +460,7 @@
 			}
 		],
 		"masteries": false,
-		"masterySections": [
-			{
-				"Level2": 150,
-				"Level3": 200,
-				"Name": "AXMC",
-				"Templates": [
-					"deee28079e76d537f532021c"
-				]
-			}
-		],
+		"masterySections": [],
 		"addweaponpreset": false,
 		"weaponpresets": []
 	}
