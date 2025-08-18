@@ -909,7 +909,7 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "Ergonomics": "12"
+            "Ergonomics": 12
         },
         "locales": {
             "en": {
@@ -987,8 +987,8 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "Weight": "0.04",
-            "Ergonomics": "4"
+            "Weight": 0.04,
+            "Ergonomics": 4
         },
         "locales": {
             "en": {
@@ -1924,7 +1924,7 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "Ergonomics": "12"
+            "Ergonomics": 12
         },
         "locales": {
             "en": {
@@ -2002,8 +2002,8 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "Weight": "0.04",
-            "Ergonomics": "4"
+            "Weight": 0.04,
+            "Ergonomics": 4
         },
         "locales": {
             "en": {
@@ -2613,7 +2613,7 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "Ergonomics": "12"
+            "Ergonomics": 12
         },
         "locales": {
             "en": {
@@ -2691,8 +2691,8 @@
                 "rcid": ""
             },
             "ExaminedByDefault": true,
-            "Weight": "0.04",
-            "Ergonomics": "4"
+            "Weight": 0.04,
+            "Ergonomics": 4
         },
         "locales": {
             "en": {

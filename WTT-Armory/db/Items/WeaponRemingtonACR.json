@@ -2412,7 +2412,7 @@
         "rcid": ""
       },
       "Width": 1,
-      "Weight": "0.17",
+      "Weight": 0.17,
       "ExtraSizeLeft": 0,
       "ExtraSizeRight": 0,
       "Slots": [

@@ -1446,7 +1446,7 @@
 				"path": "WeaponXM8/xm8gasblock.bundle",
 				"rcid": ""
 			},
-			"Weight": "0.01"
+			"Weight": 0.01
 		},
 		"locales": {
 			"en": {
@@ -3139,7 +3139,7 @@
 				"rcid": ""
 			},
 			"Width": 2,
-			"Weight": "0.17",
+			"Weight": 0.17,
 			"ExtraSizeLeft": 0,
 			"ExtraSizeRight": 0,
 			"Slots": [
@@ -3317,7 +3317,7 @@
 				"rcid": ""
 			},
 			"Width": 2,
-			"Weight": "0.17",
+			"Weight": 0.17,
 			"ExtraSizeLeft": 0,
 			"ExtraSizeRight": 0,
 			"Slots": [
@@ -3460,7 +3460,7 @@
 				"rcid": ""
 			},
 			"Width": 1,
-			"Weight": "0.01",
+			"Weight": 0.01,
 			"ExtraSizeLeft": 0,
 			"ExtraSizeRight": 0,
 			"Slots": [
@@ -3589,7 +3589,7 @@
 				"rcid": ""
 			},
 			"Width": 1,
-			"Weight": "0.01",
+			"Weight": 0.01,
 			"ExtraSizeLeft": 0,
 			"ExtraSizeRight": 0,
 			"Slots": [
@@ -3718,7 +3718,7 @@
 				"rcid": ""
 			},
 			"Width": 1,
-			"Weight": "0.01",
+			"Weight": 0.01,
 			"ExtraSizeLeft": 0,
 			"ExtraSizeRight": 0,
 			"Slots": [
