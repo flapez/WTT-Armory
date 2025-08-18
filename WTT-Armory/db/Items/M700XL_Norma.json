@@ -9,7 +9,7 @@
 				"path": "Weapons/weapon_m700la.bundle",
 				"rcid": ""
 			},
-			"ammoCaliber": "Caliber338Norma",
+			"ammoCaliber": "Caliber86x63",
 			"bHearDist": 160,
 			"BaseMalfunctionChance": 0.1877,
 			"CanSellOnRagfair": false,
