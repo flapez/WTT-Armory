@@ -14,7 +14,7 @@
       "bFirerate": 850,
       "Width": 3,
       "Height": 2,
-      "Ergonomics": 39,
+      "Ergonomics": 49,
       "AimPlane": 0.16,
       "DeviationCurve": 1.35,
       "DeviationMax": 23,
@@ -26,8 +26,8 @@
       "RecoilDampingHandRotation": 0.85,
       "RecoilCamera": 0.054,
       "RecoilStableIndexShot": 5,
-      "RecoilForceBack": 355,
-      "RecoilForceUp": 70,
+      "RecoilForceBack": 363,
+      "RecoilForceUp": 98,
       "RecolDispersion": 9,
       "RecoilReturnPathDampingHandRotation": 0.48,
       "RecoilReturnPathOffsetHandRotation": 0.01,
@@ -785,6 +785,7 @@
       "Weight": 2.49,
       "Recoil": -3,
       "Ergonomics": -18,
+      "CenterOfImpact": 0.146,
       "Slots": [
         {
           "_id": "66e71aede3ceb382901cdca9",
@@ -895,6 +896,7 @@
       "Weight": 1.84,
       "Recoil": -1,
       "Ergonomics": -12,
+      "CenterOfImpact": 0.176,
       "Slots": [
         {
           "_id": "66e71b9a8c0ca150887d6932",
@@ -968,7 +970,7 @@
     },
     "locales": {
       "en": {
-        "name": "M249 PARA 5.56x45 barrel assembly",
+        "name": "M249 Paratrooper 5.56x45 barrel assembly",
         "shortName": "M249 PARA.",
         "description": "Shortened barrel assembly for the M249 5.56x45mm light machinegun optimized for airborne infantry and close quarters combat operations."
       }
