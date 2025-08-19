@@ -1188,7 +1188,7 @@
     "parentId": "55818a304bdc2db5418b457d",
     "handbookParentId": "5b5f764186f77447ec5d7714",
     "overrideProperties": {
-      "CanSellOnRagfair": false,
+      "CanSellOnRagfair": true,
       "Prefab": {
         "path": "WeaponDragunov/svdgreencamodustcover.bundle",
         "rcid": ""
@@ -1214,6 +1214,7 @@
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
     "handbookPriceRoubles": 8109,
+    "CanSellOnRagfair": 11204,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -1225,7 +1226,7 @@
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
     "overrideProperties": {
-      "CanSellOnRagfair": false,
+      "CanSellOnRagfair": true,
       "ExaminedByDefault": true,
       "Prefab": {
         "path": "WeaponDragunov/svd_cammomag.bundle",
@@ -1247,7 +1248,8 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
-    "handbookPriceRoubles": 24000,
+    "handbookPriceRoubles": 4352,
+    "fleaPriceRoubles": 9583,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
