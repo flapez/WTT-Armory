@@ -9,6 +9,30 @@
             ]
         },
         {
+            "key": "WeaponAXMC/mount_keyslot_small.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponAXMC/mount_keyslot_medium.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponAXMC/mount_keyslot_forend.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponAXMC/foregrip_axmc_bk.bundle",
             "dependencyKeys": [
                 "shaders",
