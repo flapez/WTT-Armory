@@ -13,6 +13,8 @@
       "defMagType": "68a387672d70af2b1e359602",
       "defAmmo": "684e2ded3b64f7187cf14fae",
       "ammoCaliber": "Caliber762x67B",
+      "RecoilForceBack": 821,
+      "RecoilForceUp": 334,
       "Chambers": [
         {
           "_id": "68a38393921a625a8590a830",
@@ -190,25 +192,25 @@
           },
           {
             "_id": "68a3995394313b71ad199bb5",
-            "_tpl": "628120c21d5df4475f46a337",
+            "_tpl": "68a73465322d08c3199b94ff",
             "parentId": "68a39950622c10ae1498fdd4",
             "slotId": "mod_mount_000"
           },
           {
             "_id": "68a3995932d86c51f0544b7c",
-            "_tpl": "628120d309427b40ab14e76d",
+            "_tpl": "68a73560e0b8a9d684145f83",
             "parentId": "68a39950622c10ae1498fdd4",
             "slotId": "mod_mount_001"
           },
           {
             "_id": "68a39956f5b83c06ec4649b3",
-            "_tpl": "628120d309427b40ab14e76d",
+            "_tpl": "68a73560e0b8a9d684145f83",
             "parentId": "68a39950622c10ae1498fdd4",
             "slotId": "mod_mount_002"
           },
           {
             "_id": "68a3995e1735c85771db94cf",
-            "_tpl": "628120dd308cb521f87a8fa1",
+            "_tpl": "68a73563a634aa2a969dc629",
             "parentId": "68a39950622c10ae1498fdd4",
             "slotId": "mod_mount_003"
           },
@@ -915,7 +917,92 @@
         "path": "WeaponAXMC/handguard_axmc_blk.bundle",
         "rcid": ""
       },
-      "ExaminedByDefault": true
+      "ExaminedByDefault": true,
+      "Slots": [
+        {
+          "_id": "68a735160e59071af9516987",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "68a39f96b225dcbbc8387d2c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "628120c21d5df4475f46a337",
+                  "68a73465322d08c3199b94ff"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "68a73511dff23f6f1003da27",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "68a39f96b225dcbbc8387d2c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "628120dd308cb521f87a8fa1",
+                  "628120d309427b40ab14e76d",
+                  "68a73560e0b8a9d684145f83",
+                  "68a73563a634aa2a969dc629"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "68a7350a06e9ee3e408c1ecc",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_002",
+          "_parent": "68a39f96b225dcbbc8387d2c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "628120dd308cb521f87a8fa1",
+                  "628120d309427b40ab14e76d",
+                  "68a73560e0b8a9d684145f83",
+                  "68a73563a634aa2a969dc629"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "68a73507f6a8cbb2da9556dc",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_003",
+          "_parent": "68a39f96b225dcbbc8387d2c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "628120dd308cb521f87a8fa1",
+                  "628120d309427b40ab14e76d",
+                  "671126a210d67adb5b08e925",
+                  "68a73560e0b8a9d684145f83",
+                  "68a73563a634aa2a969dc629"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
     },
     "locales": {
       "en": {
@@ -934,6 +1021,115 @@
     "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 42250,
     "handbookPriceRoubles": 16000,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68a73465322d08c3199b94ff": {
+    "itemTplToClone": "628120c21d5df4475f46a337",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponAXMC/mount_keyslot_forend.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "AI AXMC AT X Top Rail (Black)",
+        "shortName": "AXMC top-B",
+        "description": "A top handguard rail for installation on the KeySlot interface for the AXMC sniper rifle, manufactured by Accuracy International."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_mount_000"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 7890,
+    "handbookPriceRoubles": 1531,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68a73563a634aa2a969dc629": {
+    "itemTplToClone": "628120dd308cb521f87a8fa1",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponAXMC/mount_keyslot_medium.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "AI AXMC Adapter Kit medium length rail (Black)",
+        "shortName": "AXMC med-B",
+        "description": "A medium length rail for installation on the KeySlot interface on the AXMC sniper rifle, manufactured by Accuracy International."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_mount_001",
+      "mod_mount_002",
+      "mod_mount_003"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 5400,
+    "handbookPriceRoubles": 1900,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68a73560e0b8a9d684145f83": {
+    "itemTplToClone": "628120d309427b40ab14e76d",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponAXMC/mount_keyslot_small.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "AI AXMC Adapter Kit short length rail (Black)",
+        "shortName": "AXMC short-B",
+        "description": "A short rail for installation on the KeySlot interface on the AXMC sniper rifle, manufactured by Accuracy International."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_mount_001",
+      "mod_mount_002",
+      "mod_mount_003"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 5000,
+    "handbookPriceRoubles": 1750,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,

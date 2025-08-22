@@ -120,7 +120,45 @@
           "visibilityConditions": []
         }
       ],
-      "Fail": []
+        "Fail": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "68a7cf40052aa5c7d7f0a6f9",
+                "status": [
+                  "Killed",
+                  "Left",
+                  "MissingInAction"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "68a7cf42edaf4e96ceddc8a9",
+                "target": [
+                  "Woods"
+                ]
+              }
+            ],
+            "id": "68a7cf45982640e8a8c8b726"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68a7cf4750bf3f7ee8744bcf",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ]
     },
     "rewards": {
       "Fail": [],
