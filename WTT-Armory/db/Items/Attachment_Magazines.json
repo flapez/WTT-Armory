@@ -999,6 +999,7 @@
         "rcid": ""
       },
       "Weight": 0.3,
+      "CanSellOnRagfair": true,
       "MalfunctionChance": 0.299,
       "Ergonomics": -16,
       "VisibleAmmoRangesString": "1-3",
