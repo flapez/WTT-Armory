@@ -96,7 +96,7 @@
     },
     "locales": {
       "en": {
-        "name": "Accuracy International AXMC .300 Winchester Magnum bolt-action sniper rifle",
+        "name": "Accuracy International AXMC .300 WM bolt-action sniper rifle",
         "shortName": "AXMC .300WM",
         "description": "The AXMC is the latest in a long and distinguished line of combat proven sniper rifles designed and manufactured by the British company Accuracy International. Chambered in .338 Lapua Magnum, but can be quickly converted to .300 Winchester Magnum and .308 Winchester by changing the barrel, bolt, and magazine/insert."
       }
@@ -270,7 +270,7 @@
     "locales": {
       "en": {
         "name": "AI AXMC AX buttstock (Black)",
-        "shortName": "AXMC-B",
+        "shortName": "AXMC",
         "description": "The AX buttstock for the AXMC sniper rifle, manufactured by Accuracy International."
       }
     },
@@ -345,7 +345,7 @@
     "locales": {
       "en": {
         "name": "AI AXMC pistol grip (Black)",
-        "shortName": "AXMC PG-B",
+        "shortName": "AXMC PG",
         "description": "A pistol grip for the AXMC sniper rifle, manufactured by Accuracy International."
       }
     },
@@ -453,7 +453,7 @@
     "locales": {
       "en": {
         "name": "AI AXMC GTAC AR-type pistol grip adapter (Black)",
-        "shortName": "GTAC-B",
+        "shortName": "GTAC",
         "description": "An adapter that allows AR-type pistol grips installation on the AXMC sniper rifle."
       }
     },
@@ -546,9 +546,9 @@
     },
     "locales": {
       "en": {
-        "name": "AI AXMC .338 LM chassis (Black",
-        "shortName": "AXMC .338LM",
-        "description": "The factory fitted .338 Lapua Magnum chassis for the AXMC sniper rifle, manufactured by Accuracy International."
+        "name": "AI AXMC Multi-Caliber chassis (Black)",
+        "shortName": "AXMC",
+        "description": "The factory fitted Multi-Caliber chassis for the AXMC sniper rifle, manufactured by Accuracy International."
       }
     },
     "clearClonedProps": false,
@@ -721,8 +721,8 @@
     },
     "locales": {
       "en": {
-        "name": "AI AXMC upper receiver (.300WM)",
-        "shortName": "AXMC upper .300WM",
+        "name": "AI AXMC .300 WM upper receiver (.300WM)",
+        "shortName": "AXMC .300WM upper",
         "description": "An upper receiver for the AXMC sniper rifle manufactured by Accuracy International. Equipped with a mount for attaching additional devices."
       }
     },
@@ -813,8 +813,8 @@
     },
     "locales": {
       "en": {
-        "name": "AI AXMC .300WM 10-round magazine",
-        "shortName": "AXMC 300WM",
+        "name": "AI AXMC .300 WM 10-round magazine",
+        "shortName": "AXMC .300WM",
         "description": "A 10-round AXMC sniper rifle magazine by Accuracy International, for .300 Winchester Magnum cartridges."
       }
     },
@@ -885,7 +885,7 @@
     "locales": {
       "en": {
         "name": "AI AXMC padded handguard grip (Black)",
-        "shortName": "AXMC pad-B",
+        "shortName": "AXMC pad",
         "description": "A standard-issue padded grip for the AXMC sniper rifle, manufactured by Accuracy International"
       }
     },
@@ -920,7 +920,7 @@
     "locales": {
       "en": {
         "name": "AI AXMC AX KeySlot 16 inch handguard (Black)",
-        "shortName": "AX 16\"-B",
+        "shortName": "AX 16\"",
         "description": "The AX 16 inch handguard for the AXMC sniper rifle manufactured by Accuracy International equipped with a patented KeySlot interface for the installation of additional devices and accessories."
       }
     },

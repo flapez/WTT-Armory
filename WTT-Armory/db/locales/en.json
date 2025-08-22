@@ -1874,5 +1874,8 @@
   "687c05c4f0c26d721dfc76e5": "Handover the NPZ PK1 Obzor",
   "687c0668111c9ed31ee0b298": "Handover the CSS knurled charging handle",
   "687c08947e7e6875c8cb5b03": "Handover the AK Custom Guns AR type pistol grip adapter",
-  "687c09233b1e9653adb86cfc": "Handover the AR-15 F1 skeletonized style 2 PC pistol grip"
+  "687c09233b1e9653adb86cfc": "Handover the AR-15 F1 skeletonized style 2 PC pistol grip",
+  "6281204f308cb521f87a8f9b Name": "AI AXMC Multi-Caliber chassis",
+  "6281204f308cb521f87a8f9b Shortname": "AXMC",
+  "6281204f308cb521f87a8f9b Description": "The factory fitted Multi-Caliber chassis for the AXMC sniper rifle, manufactured by Accuracy International."
 }
