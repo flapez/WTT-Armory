@@ -12,6 +12,7 @@ import { CustomAssortSchemeService } from "./Services/CustomAssortSchemeService"
 import { QuestAPI } from "./Services/QuestAPI";
 import { CustomLootspawnService } from "./Services/CustomLootspawnService";
 import { CustomBotLoadoutService } from "./Services/CustomBotLoadoutService";
+import { ArmoryQuestHelper } from "./Services/ArmoryQuestHelper";
 import { WTTBot } from "./ChatBot/WTTBot";
 import { DialogueController } from "@spt/controllers/DialogueController";
 import { ConfigServer } from "@spt/servers/ConfigServer";
@@ -28,6 +29,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
     private questAPI: QuestAPI = new QuestAPI();
     private customLootspawnService: CustomLootspawnService = new CustomLootspawnService();
     private customBotLoadoutService: CustomBotLoadoutService = new CustomBotLoadoutService();
+    private armoryQuestHelper: ArmoryQuestHelper = new ArmoryQuestHelper();
     debug = false;
 
     // Anything that needs done on preSptLoad, place here.
@@ -43,6 +45,7 @@ implements IPreSptLoadMod, IPostDBLoadMod
         this.questAPI.preSptLoad(this.instanceManager);
         this.customLootspawnService.preSptLoad(this.instanceManager);
         this.customBotLoadoutService.preSptLoad(this.instanceManager);
+        this.armoryQuestHelper.preSptLoad(this.instanceManager);
     
         // Chatbot
         container.register<WTTBot>("WTTBot", WTTBot);
@@ -101,10 +104,11 @@ implements IPreSptLoadMod, IPostDBLoadMod
         this.questAPI.postDBLoad();
         this.customLootspawnService.postDBLoad();
         this.customBotLoadoutService.postDBLoad();
+        this.armoryQuestHelper.postDBLoad();
     
 
         // Locales
-        //this.handleLocales();
+        this.handleLocales();
         
     }
 

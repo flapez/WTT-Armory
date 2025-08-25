@@ -45,6 +45,7 @@ export interface ConfigItem
         loyallevelitems: number;
         addtoBots: boolean;
         addtoStaticLootContainers: boolean;
+        addCaliberToAllCloneLocations: boolean
         StaticLootContainers: string;
         Probability: number;
         masteries: boolean;

@@ -65,6 +65,11 @@ export class CustomItemService {
                         this.processTraders(itemConfig, itemId);
                         this.addtoHallofFame(itemConfig, itemId);
                         this.addtoSpecialSlots(itemConfig, itemId);
+
+                        if (itemConfig.addCaliberToAllCloneLocations && itemConfig.parentId == "5485a8684bdc2da71d8b4567")
+                        {
+                            this.addNewCaliberToItems(itemConfig, itemId);
+                        }
     
                         numItemsAdded++;
                     } catch (itemError) {
@@ -107,6 +112,43 @@ export class CustomItemService {
             }
         }
     }
+    private addNewCaliberToItems(itemConfig: ConfigItem[string], newItemId: string)
+    {
+    
+        const tables = this.instanceManager.database;
+    
+        for (const itemId in tables.templates.items)
+        {
+            const item = tables.templates.items[itemId];
+    
+            // Shared logic for updating filter arrays
+            const updateFilters = (filterContainers: any[]) => {
+                for (const container of filterContainers)
+                {
+                    const filters = container._props?.filters ?? [];
+                    for (const filterObj of filters)
+                    {
+                        const filterArr = filterObj.Filter;
+                        if (filterArr.includes(itemConfig.itemTplToClone) &&
+                            !filterArr.includes(newItemId))
+                        {
+                            filterArr.push(newItemId);
+                        }
+                    }
+                }
+            };
+    
+            if (item._props?.Cartridges)
+                updateFilters(item._props.Cartridges);
+    
+            if (item._props?.Slots)
+                updateFilters(item._props.Slots);
+    
+            if (item._props?.Chambers)
+                updateFilters(item._props.Chambers);
+        }
+    }
+    
     
     /**
    * Creates an example clone item with the provided item configuration and item ID.
