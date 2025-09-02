@@ -17,6 +17,14 @@
             ]
         },
         {
+            "key": "Weapon92fs/92fs_compensator.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponAXMC/mount_keyslot_medium.bundle",
             "dependencyKeys": [
                 "shaders",
