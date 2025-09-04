@@ -43,6 +43,24 @@
           "_required": true
         },
         {
+          "_id": "68b7466819649930a467a0c5",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "6868d249cdee524f8c0ba45f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68b7466b07fc88a7f1c6d520"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
           "_id": "6868d258aa83894d38954ab3",
           "_mergeSlotWithChildren": false,
           "_name": "mod_reciever",
@@ -353,5 +371,46 @@
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
-  }
+  },
+  "68b7466b07fc88a7f1c6d520": {
+    "itemTplToClone": "5ef61964ec7f42238c31e0c1",
+    "parentId": "550aa4bf4bdc2dd6348b456b",
+    "handbookParentId": "5b5f724c86f774093f2ecf15",
+    "overrideProperties": {
+        "Prefab": {
+            "path": "Weapon92fs/92fs_compensator.bundle",
+            "rcid": ""
+        },
+        "ConflictingItems": ["6868d414e67828905d765b10","5cadc1c6ae9215000f2775a4"],
+        "Weight": 0.145,
+        "Recoil": -11,
+        "Ergonomics": -2,
+        "HeatFactor": 0.99,
+        "Slots": [],
+        "ExaminedByDefault": true
+    },
+    "locales": {
+        "en": {
+            "name": "Beretta 92FS custom weighted compensator",
+            "shortName": "92fs Comp",
+            "description": "A custom weighted compensator for the Beretta 92FS pistol."
+        }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+        "mod_muzzle"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 12900,
+    "handbookPriceRoubles": 7280,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+}
 }
