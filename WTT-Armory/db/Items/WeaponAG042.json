@@ -10,9 +10,11 @@
             },
             "defMagType": "55d480c04bdc2d1d4e8b456a",
             "Width": 4,
-            "Weight": 2.75,
-            "Ergonomics": 61,
+            "Weight": 2.51,
+            "Ergonomics": 60,
             "Foldable": false,
+			"RecoilForceBack": 255,
+			"RecoilForceUp": 86,
             "CompactHandling": false,
             "Slots": [
                 {
@@ -55,7 +57,8 @@
                                 "AnimationIndex": -1,
                                 "Filter": [
                                     "68c63ee6dcb5f65309eb4fcc",
-                                    "593d493f86f7745e6b2ceb22"
+									"5c7954d52e221600106f4cc7",
+									"59bffc1f86f77435b128b872"
                                 ]
                             }
                         ]
@@ -206,7 +209,7 @@
         "StaticLootContainers": []
     },
     "68c63ee6dcb5f65309eb4fcc": {
-        "itemTplToClone": "59d64fc686f774171b243fe2",
+        "itemTplToClone": "5ac72e945acfc43f3b691116",
         "parentId": "550aa4bf4bdc2dd6348b456b",
         "handbookParentId": "5b5f724c86f774093f2ecf15",
         "overrideProperties": {
@@ -214,7 +217,11 @@
                 "path": "WeaponAG042/ag042_muzzle.bundle",
                 "rcid": ""
             },
+			"Ergonomics": 0,
             "ExaminedByDefault": true,
+			"Loudness": 0,
+			"Recoil": -5,
+			"Weight": 0.04,
             "Slots": []
         },
         "locales": {
@@ -228,11 +235,11 @@
         "addtoInventorySlots": [],
         "addtoModSlots": false,
         "modSlot": [
-            "mod_sight_rear"
+            "mod_muzzle"
         ],
         "ModdableItemWhitelist": [],
         "ModdableItemBlacklist": [],
-        "fleaPriceRoubles": 2100,
+        "fleaPriceRoubles": 1100,
         "handbookPriceRoubles": 650,
         "addtoTraders": false,
         "addtoBots": false,
