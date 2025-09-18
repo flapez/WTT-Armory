@@ -8,6 +8,9 @@
                 "path": "Attachment_VSSM/silencer_vssm_bastard.bundle",
                 "rcid": ""
             },
+            "ConflictingItems": [
+                "5a9fc7e6a2750c0032157184"
+            ],
             "ExtraSizeLeft": 1,
             "HeatFactor": 1.21,
             "Ergonomics": -2,
