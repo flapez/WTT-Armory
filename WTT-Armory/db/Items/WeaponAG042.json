@@ -16,6 +16,8 @@
 			"RecoilForceBack": 255,
 			"RecoilForceUp": 86,
             "CompactHandling": false,
+            "BaseMalfunctionChance": 0.1958,
+            "HeatFactorByShot": 1.664,
             "Slots": [
                 {
                     "_id": "68c23ba01aaacf9265330781",
@@ -89,7 +91,7 @@
         },
         "locales": {
             "en": {
-                "name": "AG-042 5.45x39 assault rifle",
+                "name": "Simonov AG-042 5.45x39 assault rifle",
                 "shortName": "AG-042",
                 "description": "The AG-042 was a Soviet compact fully automatic assault rifle chambered for the 5.45x39mm round, developed in 1974 by Sergei Simonov. The rifle was designed after the GRAU launched Project Modern. The Soviet contest for this design was eventually won out by Kalashnikov's AKS-74U."
             }
@@ -186,7 +188,7 @@
         },
         "locales": {
             "en": {
-                "name": "AG-042 rear sight",
+                "name": "Simonov AG-042 rear sight",
                 "shortName": "AG-042 RS",
                 "description": "Standard rear sight for the AG-042 5.45x39 rifle."
             }
@@ -226,7 +228,7 @@
         },
         "locales": {
             "en": {
-                "name": "AG-042 muzzle brake-compensator",
+                "name": "Simonov AG-042 muzzle brake-compensator",
                 "shortName": "AG-042",
                 "description": "Standard muzzle brake device for the AG-042 5.45x39 rifle."
             }
