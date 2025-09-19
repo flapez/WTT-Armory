@@ -981,7 +981,7 @@
     },
     "clearClonedProps": false,
     "addtoInventorySlots": [],
-    "addtoModSlots": false,
+    "addtoModSlots": true,
     "modSlot": [
       "mod_magazine"
     ],
