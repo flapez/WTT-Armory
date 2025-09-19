@@ -2260,8 +2260,8 @@
   },
   "67f425638b8cbfdc0cd1b5f2": {
     "itemTplToClone": "5c488a752e221602b412af63",
-    "parentId": "5447b5f14bdc2d61278b4567",
-    "handbookParentId": "5b5f78fc86f77409407a7f90",
+    "parentId": "5447b5e04bdc2d62278b4567",
+    "handbookParentId": "5b5f796a86f774093f2ed3c0",
     "overrideProperties": {
       "ExaminedByDefault": true,
       "Width": 4,
@@ -2703,7 +2703,7 @@
     },
     "locales": {
       "en": {
-        "name": "IWI Tavor X95 9x19mm assault rifle",
+        "name": "IWI Tavor X95 9x19 submachine gun",
         "shortName": "IWI X95 9mm",
         "description": "The IWI X95 (formerly known as the Micro-Tavor, MTAR or MTAR-21) is an Israeli bullpup assault rifle designed and produced by Israel Weapon Industries (IWI) as part of the Tavor rifle family, along with the Tavor TAR and the Tavor 7."
       }
