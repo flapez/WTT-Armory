@@ -260,8 +260,8 @@
             },
             "ExaminedByDefault": true,
 			"Loudness": 0,
-            "Ergonomics": 9,
-			"Recoil": -18,
+            "Ergonomics": 8,
+			"Recoil": -13,
 			"Weight": 0.21,
             "Slots": []
         },
