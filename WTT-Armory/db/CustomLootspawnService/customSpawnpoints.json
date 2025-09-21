@@ -2,6 +2,110 @@
     "factory4_day": [],
     "sandbox": [
         {
+            "locationId": "(82.8276, 14.3806, 181.004)",
+            "probability": 0.30,
+            "template": {
+                "Id": "ag43_spawn",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": 82.8276,
+                    "y": 14.3806,
+                    "z": 181.004
+                },
+                "Rotation": {
+                    "x": 2.8415,
+                    "y": 212.2408,
+                    "z": 91.2423
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "68cf6c56cb996a3530052b52",
+                "Items": [
+                    {
+                        "_id": "68cf6c56cb996a3530052b53",
+                        "_tpl": "68cf56067ff6ceab0c2fd49e",
+                        "upd": {
+                            "SpawnedInSession": true,
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "Foldable": {
+                                "Folded": true
+                            },
+                            "FireMode": {
+                                "FireMode": "single"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "68cf6c52cb996a3530052b4c",
+                        "_tpl": "564ca99c4bdc2d16268b4589",
+                        "slotId": "mod_magazine",
+                        "parentId": "68cf6c56cb996a3530052b53"
+                    },
+                    {
+                        "_id": "68cf6c52cb996a3530052b4d",
+                        "_tpl": "68c63ee6dcb5f65309eb4fcc",
+                        "slotId": "mod_muzzle",
+                        "upd": {
+                            "SpawnedInSession": true
+                        },
+                        "parentId": "68cf6c56cb996a3530052b53"
+                    },
+                    {
+                        "_id": "68cf6c52cb996a3530052b4e",
+                        "_tpl": "68c23b3d4a286357245eb641",
+                        "slotId": "mod_sight_rear",
+                        "upd": {
+                            "SpawnedInSession": true,
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "68cf6c56cb996a3530052b53"
+                    },
+                    {
+                        "_id": "68cf6c52cb996a3530052b4f",
+                        "_tpl": "68cf53ddb8f10c637706563c",
+                        "slotId": "mod_stock",
+                        "upd": {
+                            "SpawnedInSession": true
+                        },
+                        "parentId": "68cf6c56cb996a3530052b53"
+                    },
+                    {
+                        "_id": "68cf6c52cb996a3530052b50",
+                        "_tpl": "56dff216d2720bbd668b4568",
+                        "slotId": "cartridges",
+                        "location": 0,
+                        "upd": {
+                            "StackObjectsCount": 30
+                        },
+                        "parentId": "68cf6c52cb996a3530052b4c"
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "68cf6c56cb996a3530052b53"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
+        {
             "locationId": "(5.5586 24.1394 334.8061)",
             "probability": 0.25,
             "template": {
@@ -148,6 +252,110 @@
                 {
                     "composedKey": {
                         "key": "687140a70e25ac504403e8af"
+                    },
+                    "relativeProbability": 1
+                }
+            ]
+        },
+        {
+            "locationId": "(82.8276, 14.3806, 181.004)",
+            "probability": 0.30,
+            "template": {
+                "Id": "ag43_spawn",
+                "IsContainer": false,
+                "useGravity": false,
+                "randomRotation": false,
+                "Position": {
+                    "x": 82.8276,
+                    "y": 14.3806,
+                    "z": 181.004
+                },
+                "Rotation": {
+                    "x": 2.8415,
+                    "y": 212.2408,
+                    "z": 91.2423
+                },
+                "IsGroupPosition": false,
+                "GroupPositions": [],
+                "IsAlwaysSpawn": false,
+                "Root": "68cf6c56cb996a3530052b52",
+                "Items": [
+                    {
+                        "_id": "68cf6c56cb996a3530052b53",
+                        "_tpl": "68cf56067ff6ceab0c2fd49e",
+                        "upd": {
+                            "SpawnedInSession": true,
+                            "Repairable": {
+                                "MaxDurability": 100,
+                                "Durability": 100
+                            },
+                            "Foldable": {
+                                "Folded": true
+                            },
+                            "FireMode": {
+                                "FireMode": "single"
+                            }
+                        }
+                    },
+                    {
+                        "_id": "68cf6c52cb996a3530052b4c",
+                        "_tpl": "564ca99c4bdc2d16268b4589",
+                        "slotId": "mod_magazine",
+                        "parentId": "68cf6c56cb996a3530052b53"
+                    },
+                    {
+                        "_id": "68cf6c52cb996a3530052b4d",
+                        "_tpl": "68c63ee6dcb5f65309eb4fcc",
+                        "slotId": "mod_muzzle",
+                        "upd": {
+                            "SpawnedInSession": true
+                        },
+                        "parentId": "68cf6c56cb996a3530052b53"
+                    },
+                    {
+                        "_id": "68cf6c52cb996a3530052b4e",
+                        "_tpl": "68c23b3d4a286357245eb641",
+                        "slotId": "mod_sight_rear",
+                        "upd": {
+                            "SpawnedInSession": true,
+                            "Sight": {
+                                "ScopesCurrentCalibPointIndexes": [
+                                    0
+                                ],
+                                "ScopesSelectedModes": [
+                                    0
+                                ],
+                                "SelectedScope": 0,
+                                "ScopeZoomValue": 0
+                            }
+                        },
+                        "parentId": "68cf6c56cb996a3530052b53"
+                    },
+                    {
+                        "_id": "68cf6c52cb996a3530052b4f",
+                        "_tpl": "68cf53ddb8f10c637706563c",
+                        "slotId": "mod_stock",
+                        "upd": {
+                            "SpawnedInSession": true
+                        },
+                        "parentId": "68cf6c56cb996a3530052b53"
+                    },
+                    {
+                        "_id": "68cf6c52cb996a3530052b50",
+                        "_tpl": "56dff216d2720bbd668b4568",
+                        "slotId": "cartridges",
+                        "location": 0,
+                        "upd": {
+                            "StackObjectsCount": 30
+                        },
+                        "parentId": "68cf6c52cb996a3530052b4c"
+                    }
+                ]
+            },
+            "itemDistribution": [
+                {
+                    "composedKey": {
+                        "key": "68cf6c56cb996a3530052b53"
                     },
                     "relativeProbability": 1
                 }
