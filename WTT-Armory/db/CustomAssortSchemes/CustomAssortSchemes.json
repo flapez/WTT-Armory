@@ -7286,7 +7286,7 @@
                     },
                     "UnlimitedCount": true,
                     "StackObjectsCount": 999999,
-                    "BuyRestrictionMax": 0
+                    "BuyRestrictionMax": 8
                 },
                 "parentId": "hideout",
                 "slotId": "hideout"
@@ -7656,7 +7656,7 @@
             "68c6fdf31fbe49721003df45": [
                 [
                     {
-                        "count": 20000,
+                        "count": 23572,
                         "_tpl": "5449016a4bdc2d6f028b456f"
                     }
                 ]
