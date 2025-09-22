@@ -148,7 +148,8 @@
               {
                 "Filter": [
                   "66e888c270c3285b5d91fada",
-                  "66e888e39ace35080ccb02bd"
+                  "66e888e39ace35080ccb02bd",
+                  "66e888c270c3285b5d91fadb"
                 ],
                 "Shift": 0
               }
@@ -1063,5 +1064,53 @@
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
-  }
+  },
+  "66e888c270c3285b5d91fadb": {
+		"itemTplToClone": "5a01ad4786f77450561fda02",
+		"parentId": "55818a104bdc2db9688b4569",
+		"handbookParentId": "5b5f75e486f77447ec5d7712",
+		"overrideProperties": {
+			"Prefab": {
+				"path": "WeaponM76/m76gastube.bundle",
+				"rcid": ""
+			},
+			"ExaminedByDefault": true
+		},
+		"locales": {
+			"en": {
+				"name": "Zastava M76 Custom Gas Tube",
+				"shortName": "M76",
+				"description": "Custom gas tube for the Zastava M76 7.92x57mm marksman rifle."
+			}
+		},
+		"clearClonedProps": false,
+		"addtoInventorySlots": [],
+		"addtoModSlots": false,
+		"modSlot": [
+			"mod_handguard"
+		],
+		"ModdableItemWhitelist": [],
+		"ModdableItemBlacklist": [],
+		"fleaPriceRoubles": 6200,
+		"handbookPriceRoubles": 2550,
+		"addtoTraders": false,
+		"traderId": "58330581ace78e27b8b10cee",
+		"traderItems": [
+			{
+				"unlimitedCount": true,
+				"stackObjectsCount": 99
+			}
+		],
+		"barterScheme": [
+			{
+				"count": 5,
+				"_tpl": "ROUBLES"
+			}
+		],
+		"loyallevelitems": 1,
+		"addtoBots": false,
+		"addtostaticlootcontainer": false,
+		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
+		"Probability": 250
+	}
 }
