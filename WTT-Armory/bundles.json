@@ -55,6 +55,14 @@
             ]
         },
         {
+            "key": "WeaponAXMC/m76gastube.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponAGSeries/ag042_rs.bundle",
             "dependencyKeys": [
                 "shaders",
