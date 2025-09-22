@@ -55,7 +55,7 @@
             ]
         },
         {
-            "key": "WeaponAXMC/m76gastube.bundle",
+            "key": "WeaponM76/m76gastube.bundle",
             "dependencyKeys": [
                 "shaders",
                 "cubemaps",
