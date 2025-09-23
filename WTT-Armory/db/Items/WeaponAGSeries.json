@@ -18,6 +18,7 @@
             "CompactHandling": false,
             "BaseMalfunctionChance": 0.1958,
             "HeatFactorByShot": 1.664,
+			"Velocity": -16.8,
             "Slots": [
                 {
                     "_id": "68c23ba01aaacf9265330781",
@@ -200,9 +201,9 @@
         },
         "locales": {
             "en": {
-                "name": "Simonov AG-042 rear sight",
-                "shortName": "AG-042 RS",
-                "description": "Standard rear sight for the AG-042 5.45x39 rifle."
+                "name": "Simonov AG-042/043 rear sight",
+                "shortName": "042/043",
+                "description": "A standard ramp-type rear sight for the AG-042 and AG-043 assault rifles."
             }
         },
         "clearClonedProps": false,
@@ -240,9 +241,9 @@
         },
         "locales": {
             "en": {
-                "name": "Simonov AG-042 muzzle brake-compensator",
-                "shortName": "AG-042",
-                "description": "Standard muzzle brake device for the AG-042 5.45x39 rifle."
+                "name": "Simonov AG-042/043 muzzle brake-compensator",
+                "shortName": "042/043",
+                "description": "A standard muzzle brake device for the AG-042 and AG-043 assault rifles."
             }
         },
         "clearClonedProps": false,
@@ -273,9 +274,9 @@
             },
             "ExaminedByDefault": true,
 			"Loudness": 0,
-            "Ergonomics": 8,
-			"Recoil": -13,
-			"Weight": 0.21,
+            "Ergonomics": 2,
+			"Recoil": -14,
+			"Weight": 0.09,
             "Slots": []
         },
         "locales": {
@@ -313,13 +314,14 @@
             },
             "defMagType": "55d4837c4bdc2d1d4e8b456c",
             "Width": 3,
-            "Weight": 2.51,
-            "Ergonomics": 58,
-			"RecoilForceBack": 255,
-			"RecoilForceUp": 86,
+            "Weight": 2.18,
+            "Ergonomics": 64,
+			"RecoilForceBack": 324,
+			"RecoilForceUp": 112,
             "CompactHandling": false,
             "BaseMalfunctionChance": 0.1958,
             "HeatFactorByShot": 1.664,
+			"Velocity": -16.8,
             "Slots": [
                 {
                     "_id": "68cf561ac13b52d7d0450b74",
