@@ -15,7 +15,7 @@ export class ArmoryQuestHelper {
     private modifyQuests(): void {
         const quests = this.instanceManager.database.templates.quests;
 
-        // Define weapon IDs (keep as placeholders)
+        // Define weapon IDs
         const BROWNING_AUTO5 = "669fca7f9ed4916116c76d5e";
         const BROWNING_AUTO5_BOSS = "6840ebf5b8687ba34f8dfbca";
         const SERBU_SUPER_SHORTY = "6761b213607f9a6f79017d23";
@@ -46,10 +46,7 @@ export class ArmoryQuestHelper {
         const MK23 = "68b7f4060a4536984f82cf4b";
         const AG042 = "68c23b960f579b9b5fe021e7";
         const AG043 = "68cf56067ff6ceab0c2fd49e";
-
         const HK_XM8 = "66b1770c5f8b2271bb5887dc";
-        
-        
         const IWI_CARMEL = "66ba249b102a9dd6040a6e7e";
         const IWI_CARMEL_FDE = "66ba26a6925f9921573224c9";
         const IWI_TAVOR_X95 = "66a47e98c486ec9d1af3a4da";
@@ -65,7 +62,6 @@ export class ArmoryQuestHelper {
         const REMINGTON_MSR = "684e32eaec9f5eb3cacc7ca7";
         const M700_XL_ACTION = "deee28079e76d537f532021c";
         const M700_XL_ACTION_NORMA = "1bf618e47cce6d69bec01e9f";
-
         const AXMC_300_WINMAG = "68a3836826dffa87b5767c04";
 
 
