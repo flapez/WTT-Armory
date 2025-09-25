@@ -65,6 +65,14 @@
             ]
         },
         {
+            "key": "WeaponPMM12/pmm_grip_ergo_plum.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponPMM12/pmm_magazine.bundle",
             "dependencyKeys": [
                 "shaders",

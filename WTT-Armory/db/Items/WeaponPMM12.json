@@ -57,7 +57,8 @@
               {
                 "Filter": [
                   "68d416ce1bc7491da67d7880",
-                  "68d4991f2a947108d6e5d85a"
+                  "68d4991f2a947108d6e5d85a",
+                  "68d5bd9f06a3279b96fb0d3c"
                 ],
                 "Shift": 0
               }
@@ -474,6 +475,41 @@
     "traders": {},
     "StaticLootContainers": []
   },
+  "68d5bd9f06a3279b96fb0d3c": {
+    "itemTplToClone": "6374a7e7417239a7bf00f042",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_grip_ergo_plum.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "PMM-12 ergo grips (plum)",
+        "shortName": "PMM-12 Ergo-P",
+        "description": "Ergonomic pistol grips for the PMM-12 9x18mm pistol."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_pistol_grip"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 7200,
+    "handbookPriceRoubles": 4250,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
   "68d5b3d19fbee23bd61f9779": {
     "itemTplToClone": "5a33b2c9c4a282000c5a9511",
     "parentId": "55818b224bdc2dde698b456f",
@@ -537,3 +573,6 @@
     "StaticLootContainers": []
   }
 }
+
+
+
