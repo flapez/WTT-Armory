@@ -43,6 +43,9 @@ export class ArmoryQuestHelper {
         const AN94_KIROV = "679a6a534f3d279c99b135b9";
         const HK417 = "664a5b945636ce820472f225";
         const HK_G3 = "664274a4d2e5fe0439d545a6";
+        const MK23 = "68b7f4060a4536984f82cf4b";
+        const AG042 = "68c23b960f579b9b5fe021e7";
+        const AG043 = "68cf56067ff6ceab0c2fd49e";
 
         const HK_XM8 = "66b1770c5f8b2271bb5887dc";
         
@@ -66,7 +69,7 @@ export class ArmoryQuestHelper {
         const AXMC_300_WINMAG = "68a3836826dffa87b5767c04";
 
 
-        // ====================== PRAFOR QUESTS ======================
+        // ====================== PRAPOR QUESTS ======================
 
         // Punisher Part 4 (59ca264786f77445a80ed044)
         const punisher4 = quests["59ca264786f77445a80ed044"];
@@ -118,6 +121,7 @@ export class ArmoryQuestHelper {
                             if (!counterCond.weapon.includes(SR2_UDAV)) counterCond.weapon.push(SR2_UDAV);
                             if (!counterCond.weapon.includes(STACCATO_XC)) counterCond.weapon.push(STACCATO_XC);
                             if (!counterCond.weapon.includes(WILSON_COMBAT_EDC_X9)) counterCond.weapon.push(WILSON_COMBAT_EDC_X9);
+                            if (!counterCond.weapon.includes(MK23)) counterCond.weapon.push(MK23);
                         }
                     }
                 }
@@ -169,6 +173,8 @@ export class ArmoryQuestHelper {
                             if (!counterCond.weapon.includes(ZASTAVA_M76)) counterCond.weapon.push(ZASTAVA_M76);
                             if (!counterCond.weapon.includes(SVD_DRAGUNOV)) counterCond.weapon.push(SVD_DRAGUNOV);
                             if (!counterCond.weapon.includes(SVD_DRAGUNOV_GREEN)) counterCond.weapon.push(SVD_DRAGUNOV_GREEN);
+                            if (!counterCond.weapon.includes(AG042)) counterCond.weapon.push(AG042);
+                            if (!counterCond.weapon.includes(AG043)) counterCond.weapon.push(AG043);
                         }
                     }
                 }
@@ -196,6 +202,7 @@ export class ArmoryQuestHelper {
                             if (!counterCond.weapon.includes(SR2_UDAV)) counterCond.weapon.push(SR2_UDAV);
                             if (!counterCond.weapon.includes(STACCATO_XC)) counterCond.weapon.push(STACCATO_XC);
                             if (!counterCond.weapon.includes(WILSON_COMBAT_EDC_X9)) counterCond.weapon.push(WILSON_COMBAT_EDC_X9);
+                            if (!counterCond.weapon.includes(MK23)) counterCond.weapon.push(MK23);
                         }
                     }
                 }
