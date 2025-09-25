@@ -1,0 +1,459 @@
+{
+  "68d40fb07130ef271f60991f": {
+    "itemTplToClone": "5448bd6b4bdc2dfc2f8b4569",
+    "parentId": "5447b5cf4bdc2d65278b4567",
+    "handbookParentId": "5b5f792486f77447ed5636b3",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/weapon_pmm12_container.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "defMagType": "68d4106532390e96f5a8f664",
+      "Slots": [
+        {
+          "_id": "68d40ffa4fa35ba7828d0c19",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "68d40fb07130ef271f60991f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68d4192eb4411d527334f35f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "68d40ff6b9516cd803e3f460",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistolgrip",
+          "_parent": "68d40fb07130ef271f60991f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68d416ce1bc7491da67d7880",
+                  "68d4991f2a947108d6e5d85a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "68d40ff1bee4a55f1e8c1fba",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_reciever",
+          "_parent": "68d40fb07130ef271f60991f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68d411fe0fe5406a6566ce17"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "68d40fed02f2f77f486eee66",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "68d40fb07130ef271f60991f",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": 0,
+                "Filter": [
+                  "68d4106532390e96f5a8f664"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "PMM-12 9x18 pistol",
+        "shortName": "PMM-12",
+        "description": "The PMM was designed to eliminate the major drawbacks of the Makarov pistol as a sidearm for officers of Armed Forces and law enforcement agencies, such as the insufficient power of 9x18 mm cartridges and magazine capacity."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 8947,
+    "handbookPriceRoubles": 3558,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "Probability": 250
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 150
+      }
+    ],
+    "masteries": true,
+    "masterySections": [
+      {
+        "Level2": 75,
+        "Level3": 100,
+        "Name": "PM",
+        "Templates": [
+          "679f2453d1970258c1df3fce"
+        ]
+      }
+    ],
+    "addweaponpreset": true,
+    "weaponpresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "68d40fb07130ef271f60991f",
+        "_id": "68d4110ac552ce502d574650",
+        "_items": [
+          {
+            "_id": "68d4110c4390e141b7259a1b",
+            "_tpl": "68d40fb07130ef271f60991f",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              },
+              "FireMode": {
+                "FireMode": "single"
+              }
+            }
+          },
+          {
+            "_id": "68d411288a7f309f86dcc044",
+            "_tpl": "68d411fe0fe5406a6566ce17",
+            "parentId": "68d4110c4390e141b7259a1b",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "68d41125455b8cf3c80b3f11",
+            "_tpl": "68d416ce1bc7491da67d7880",
+            "parentId": "68d4110c4390e141b7259a1b",
+            "slotId": "mod_pistolgrip"
+          },
+          {
+            "_id": "68d4111eacb1b7014272fff3",
+            "_tpl": "68d4106532390e96f5a8f664",
+            "parentId": "68d4110c4390e141b7259a1b",
+            "slotId": "mod_magazine"
+          }
+        ],
+        "_name": "PMM12Standard",
+        "_parent": "68d4110c4390e141b7259a1b",
+        "_type": "Preset"
+      }
+    ],
+    "traders": {}
+  },
+  "68d4192eb4411d527334f35f": {
+    "itemTplToClone": "5c7e8fab2e22165df16b889b",
+    "parentId": "550aa4cd4bdc2dd8348b456c",
+    "handbookParentId": "5b5f731a86f774093e6cb4f9",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_suppressor.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Custom 9x18 sound suppressor",
+        "shortName": "9x18 Custom",
+        "description": "A custom made 9x18 direct-thread sound suppressor."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 35950,
+	"handbookPriceRoubles": 24973,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68d411fe0fe5406a6566ce17": {
+    "itemTplToClone": "6374a822e629013b9c0645c8",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_slide.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Slots": [
+        {
+          "_id": "68d593aff951b0313700aa00",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "68d411fe0fe5406a6566ce17",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68d593bf2809950ce8e620de"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "PMM-12 pistol slide",
+        "shortName": "PMM-12",
+        "description": "Standard pistol slide for the PMM-12 9x18mm pistol"
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_receiver"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 9805,
+    "handbookPriceRoubles": 5094,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68d593bf2809950ce8e620de": {
+    "itemTplToClone": "5a33b2c9c4a282000c5a9511",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_opticmount.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Slots": [
+        {
+          "_id": "68d5940160cd1e8aa14551fd",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "68d593bf2809950ce8e620de",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a32aa8bc4a2826c6e06d737",
+                  "58d268fc86f774111273f8c2",
+                  "616442e4faa1272e43152193",
+                  "577d141e24597739c5255e01"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "PMM-12 optic mount",
+        "shortName": "PMM-12 Mount",
+        "description": "Optic mount that attaches to the slide of a PMM-12 9x18mm pistol."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_receiver"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 6545,
+    "handbookPriceRoubles": 3994,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68d4106532390e96f5a8f664": {
+    "itemTplToClone": "5448c12b4bdc2d02308b456f",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_magazine.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Cartridges": [
+        {
+          "_id": "68d414e1a0431ab6d4a67ad8",
+          "_max_count": 12,
+          "_name": "cartridges",
+          "_parent": "68d4106532390e96f5a8f664",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "573718ba2459775a75491131",
+                  "573719df2459775a626ccbc2",
+                  "57371aab2459775a77142f22",
+                  "57371b192459775a9f58a5e0",
+                  "57371e4124597760ff7b25f1",
+                  "57371eb62459776125652ac1",
+                  "57371f8d24597761006c6a81",
+                  "5737201124597760fc4431f1",
+                  "5737207f24597760ff7b25f2",
+                  "57371f2b24597761224311f1",
+                  "573719762459775a626ccbc1",
+                  "573720e02459776143012541",
+                  "57372140245977611f70ee91",
+                  "5737218f245977612125ba51",
+                  "68d3f708c61fce2651e9e9ac"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "PMM-12 9x18 12-round magazine",
+        "shortName": "PMM-12",
+        "description": "Standard 12-round magazine for the PMM-12 9x18mm pistol."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 4270,
+    "handbookPriceRoubles": 1900,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68d416ce1bc7491da67d7880": {
+    "itemTplToClone": "6374a7e7417239a7bf00f042",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_grip.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "PMM-12 side grips",
+        "shortName": "PMM-12",
+        "description": "Standard pistol grips for the PMM-12 9x18mm pistol."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_pistol_grip"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 3200,
+    "handbookPriceRoubles": 1250,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68d4991f2a947108d6e5d85a": {
+    "itemTplToClone": "6374a7e7417239a7bf00f042",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_grip_ergo.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "PMM-12 ergo grips",
+        "shortName": "PMM-12 Ergo",
+        "description": "Ergonomic pistol grips for the PMM-12 9x18mm pistol."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_pistol_grip"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 7200,
+    "handbookPriceRoubles": 4250,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  }
+}
