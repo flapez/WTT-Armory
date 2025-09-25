@@ -17,6 +17,14 @@
             ]
         },
         {
+            "key": "WeaponPMM12/pmm_rail.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponHK417/417_hg_mlok.bundle",
             "dependencyKeys": [
                 "shaders",

@@ -30,6 +30,24 @@
           "_required": false
         },
         {
+          "_id": "68d5b45626a9860dcbf866ca",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "68d40fb07130ef271f60991f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68d5b3d19fbee23bd61f9779"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
           "_id": "68d40ff6b9516cd803e3f460",
           "_mergeSlotWithChildren": false,
           "_name": "mod_pistolgrip",
@@ -198,7 +216,7 @@
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 35950,
-	"handbookPriceRoubles": 24973,
+    "handbookPriceRoubles": 24973,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
@@ -449,6 +467,68 @@
     "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 7200,
     "handbookPriceRoubles": 4250,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68d5b3d19fbee23bd61f9779": {
+    "itemTplToClone": "5a33b2c9c4a282000c5a9511",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_rail.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Slots": [
+        {
+          "_id": "68d5b47bf3f5c824ce00cb48",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "68d5b3d19fbee23bd61f9779",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "PMM-12 tactical rail",
+        "shortName": "PMM-12 Tac",
+        "description": "A rail system that mounts to the trigger guard of the PMM-12 pistol that allows for the mounting of tactical devices."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_pistol_grip"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 6978,
+    "handbookPriceRoubles": 3150,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
