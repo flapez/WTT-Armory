@@ -1,7 +1,7 @@
 {
     "name": "WTT-Armory",
     "author": "WTT",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "license": "NCSA",
     "main": "src/mod.js",
     "sptVersion": "~3.11",
