@@ -77,7 +77,8 @@
               {
                 "Filter": [
                   "68d411fe0fe5406a6566ce17",
-                  "68d60cbe2fcd09bfc84bd29f"
+                  "68d60cbe2fcd09bfc84bd29f",
+                  "68d70444b480beeadf9b6ffa"
                 ],
                 "Shift": 0
               }
@@ -583,6 +584,7 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
+      "ConflictingItems": ["68d4192eb4411d527334f35f"],
       "Slots": [
         {
           "_id": "68d60d0108422ec8e1dfaca9",
@@ -621,6 +623,62 @@
     "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 11465,
     "handbookPriceRoubles": 7134,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68d70444b480beeadf9b6ffa": {
+    "itemTplToClone": "6374a822e629013b9c0645c8",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_slide_comp.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "ConflictingItems": ["68d4192eb4411d527334f35f"],
+      "Slots": [
+        {
+          "_id": "68d704491fbb2ab261ba137f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "68d70444b480beeadf9b6ffa",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68d593bf2809950ce8e620de"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "PMM-12 custom weighted pistol slide",
+        "shortName": "PMM-12 Wght",
+        "description": "Custom weighted pistol slide for the PMM-12 9x18mm pistol."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_receiver"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 12965,
+    "handbookPriceRoubles": 8434,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,

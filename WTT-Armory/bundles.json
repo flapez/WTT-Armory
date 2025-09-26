@@ -25,6 +25,14 @@
             ]
         },
         {
+            "key": "WeaponPMM12/pmm_slide_comp.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponPMM12/pmm_longslide.bundle",
             "dependencyKeys": [
                 "shaders",
