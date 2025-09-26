@@ -76,7 +76,8 @@
             "filters": [
               {
                 "Filter": [
-                  "68d411fe0fe5406a6566ce17"
+                  "68d411fe0fe5406a6566ce17",
+                  "68d60cbe2fcd09bfc84bd29f"
                 ],
                 "Shift": 0
               }
@@ -571,8 +572,60 @@
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
+  },
+  "68d60cbe2fcd09bfc84bd29f": {
+    "itemTplToClone": "6374a822e629013b9c0645c8",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_longslide.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Slots": [
+        {
+          "_id": "68d60d0108422ec8e1dfaca9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "68d60cbe2fcd09bfc84bd29f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68d593bf2809950ce8e620de"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "PMM-12 extended pistol slide",
+        "shortName": "PMM-12 Ext",
+        "description": "Extended pistol slide for the PMM-12 9x18mm pistol"
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_receiver"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 11465,
+    "handbookPriceRoubles": 7134,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
   }
 }
-
-
-
