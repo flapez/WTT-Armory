@@ -755,7 +755,18 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-      "ConflictingItems": ["628121434fa03b6b6c35dc6a"]
+      "ConflictingItems": [
+        "628121651d5df4475f46a33c",
+        "6281215b4fa03b6b6c35dc6c",
+        "6281214c1d5df4475f46a33a",
+        "5a6086ea4f39f99cd479502f",
+        "5a608bf24f39f98ffc77720e",
+        "58dd3ad986f77403051cba8f",
+        "5e023e53d4353e3302577c4c",
+        "5efb0c1bd79ff02a1f5e68d9",
+        "5e023e6e34d52a55c3304f71",
+        "5e023e88277cce2b522ff2b1"
+      ]
     },
     "locales": {
       "en": {
@@ -847,7 +858,9 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-      "conflictingItems": ["62811cd7308cb521f87a8f99"]
+      "conflictingItems": [
+        "62811cd7308cb521f87a8f99"
+      ]
     },
     "locales": {
       "en": {
