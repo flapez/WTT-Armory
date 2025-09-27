@@ -3492,6 +3492,17 @@
                     }
                 },
                 "parentId": "68bb89cab22b1e43d403e7f6"
+            },
+            {
+                "_id": "68d7656ca999a3fad6de226a",
+                "_tpl": "68d3f708c61fce2651e9e9ac",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 999999,
+                    "BuyRestrictionMax": 200
+                }
             }
         ],
         "barter_scheme": {
@@ -4110,6 +4121,14 @@
                         "_tpl": "5d0376a486f7747d8050965c"
                     }
                 ]
+            ],
+            "68d7656ca999a3fad6de226a": [
+                [
+                    {
+                        "count": 187,
+                        "_tpl": "5449016a4bdc2d6f028b456f"
+                    }
+                ]
             ]
         },
         "loyal_level_items": {
@@ -4184,7 +4203,8 @@
             "686b0a9f4fc34a4f90043b03": 3,
             "687b5c9bdf09391dc84e47ba": 3,
             "6885ae4fe655a8486005502f": 3,
-            "68bb8ac9b22b1e43d404138a": 2
+            "68bb8ac9b22b1e43d404138a": 2,
+            "68d7656ca999a3fad6de226a": 1
         }
     },
     "SKIER": {
@@ -7402,6 +7422,52 @@
                     "StackObjectsCount": 30
                 },
                 "parentId": "68cf6c52cb996a3530052b4c"
+            },
+            {
+                "_id": "68d764be0875417cf003f4a9",
+                "_tpl": "68d40fb07130ef271f60991f",
+                "upd": {
+                    "SpawnedInSession": true,
+                    "Repairable": {
+                        "MaxDurability": 100,
+                        "Durability": 100
+                    },
+                    "FireMode": {
+                        "FireMode": "single"
+                    },
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 999999,
+                    "BuyRestrictionMax": 0
+                },
+                "parentId": "hideout",
+                "slotId": "hideout"
+            },
+            {
+                "_id": "68d764ba0875417cf003f4a6",
+                "_tpl": "68d416ce1bc7491da67d7880",
+                "slotId": "mod_pistolgrip",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "68d764be0875417cf003f4a9"
+            },
+            {
+                "_id": "68d764ba0875417cf003f4a7",
+                "_tpl": "68d411fe0fe5406a6566ce17",
+                "slotId": "mod_reciever",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "68d764be0875417cf003f4a9"
+            },
+            {
+                "_id": "68d764ba0875417cf003f4a8",
+                "_tpl": "68d4106532390e96f5a8f664",
+                "slotId": "mod_magazine",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "68d764be0875417cf003f4a9"
             }
         ],
         "barter_scheme": {
@@ -7672,6 +7738,14 @@
                         "count": 2
                     }
                 ]
+            ],
+            "68d764be0875417cf003f4a9": [
+                [
+                    {
+                        "count": 12880,
+                        "_tpl": "5449016a4bdc2d6f028b456f"
+                    }
+                ]
             ]
         },
         "loyal_level_items": {
@@ -7706,7 +7780,8 @@
             "f76cdac4940e449e9b29b782": 1,
             "7a8875a8935c4718acc5d9ad": 3,
             "68c6fdf31fbe49721003df45": 1,
-            "68cf6c56cb996a3530052b51": 1
+            "68cf6c56cb996a3530052b51": 1,
+            "68d764be0875417cf003f4a9": 1
         }
     },
     "JAEGER": {
