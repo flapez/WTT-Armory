@@ -40,7 +40,8 @@
             "filters": [
               {
                 "Filter": [
-                  "68d5b3d19fbee23bd61f9779"
+                  "68d5b3d19fbee23bd61f9779",
+                  "68d739c05eadd47b0e4617a7"
                 ],
                 "Shift": 0
               }
@@ -751,6 +752,41 @@
     "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 16940,
     "handbookPriceRoubles": 10431,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68d739c05eadd47b0e4617a7": {
+    "itemTplToClone": "5cc9c20cd7f00c001336c65d",
+    "parentId": "55818b164bdc2ddc698b456c",
+    "handbookParentId": "5b5f73c486f77447ec5d7704",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_laser.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "PMM-12 laser aiming module",
+        "shortName": "PMM-L",
+        "description": "A tactical laser aiming module designed to fit around the trigger guard of the PMM-12 9x18 pistol."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 9941,
+    "handbookPriceRoubles": 5453,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,

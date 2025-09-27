@@ -33,6 +33,14 @@
             ]
         },
         {
+            "key": "WeaponPMM12/pmm_laser.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponPMM12/pmm_singleport.bundle",
             "dependencyKeys": [
                 "shaders",
