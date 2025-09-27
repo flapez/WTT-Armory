@@ -20,7 +20,9 @@
             "filters": [
               {
                 "Filter": [
-                  "68d4192eb4411d527334f35f"
+                  "68d4192eb4411d527334f35f",
+                  "68d72b647018b13256726238",
+                  "68d72bc442bb7ad7e98b3945"
                 ],
                 "Shift": 0
               }
@@ -679,6 +681,76 @@
     "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 12965,
     "handbookPriceRoubles": 8434,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68d72b647018b13256726238": {
+    "itemTplToClone": "5c6beec32e221601da3578f2",
+    "parentId": "550aa4bf4bdc2dd6348b456b",
+    "handbookParentId": "5b5f724c86f774093f2ecf15",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_singleport.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Custom 9x18 single port compensator",
+        "shortName": "PMM SP",
+        "description": "A custom made 9x18 single port compensator."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 12980,
+    "handbookPriceRoubles": 7400,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68d72bc442bb7ad7e98b3945": {
+    "itemTplToClone": "5c6beec32e221601da3578f2",
+    "parentId": "550aa4bf4bdc2dd6348b456b",
+    "handbookParentId": "5b5f724c86f774093f2ecf15",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_weightedcomp.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Custom 9x18 weighted compensator",
+        "shortName": "PMM WC",
+        "description": "A custom made 9x18 weighted compensator."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 16940,
+    "handbookPriceRoubles": 10431,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,

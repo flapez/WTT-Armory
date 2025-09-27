@@ -33,6 +33,22 @@
             ]
         },
         {
+            "key": "WeaponPMM12/pmm_singleport.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
+            "key": "WeaponPMM12/pmm_weightedcomp.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponPMM12/pmm_longslide.bundle",
             "dependencyKeys": [
                 "shaders",
