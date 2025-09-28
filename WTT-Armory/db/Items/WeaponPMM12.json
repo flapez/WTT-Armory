@@ -587,7 +587,7 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-      "ConflictingItems": ["68d4192eb4411d527334f35f"],
+      "ConflictingItems": ["68d4192eb4411d527334f35f","68d72bc442bb7ad7e98b3945", "68d72b647018b13256726238"],
       "Slots": [
         {
           "_id": "68d60d0108422ec8e1dfaca9",
@@ -643,7 +643,7 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
-      "ConflictingItems": ["68d4192eb4411d527334f35f"],
+      "ConflictingItems": ["68d4192eb4411d527334f35f","68d72bc442bb7ad7e98b3945", "68d72b647018b13256726238"],
       "Slots": [
         {
           "_id": "68d704491fbb2ab261ba137f",
