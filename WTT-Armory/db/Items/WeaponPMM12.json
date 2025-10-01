@@ -444,15 +444,15 @@
         "rcid": ""
       },
       "CheckTimeModifier": 0,
-      "LoadUnloadModifier": 0,
+      "LoadUnloadModifier": -10,
       "MalfunctionChance": 0.145,
-      "Weight": 0.06,
+      "Weight": 0.063,
       "Ergonomics": -2,
       "ExaminedByDefault": true,
       "Cartridges": [
         {
           "_id": "68dd6207a252eef60d137f4b",
-          "_max_count": 20,
+          "_max_count": 17,
           "_name": "cartridges",
           "_parent": "68dd61e02d8ca3d84120bb2a",
           "_props": {
@@ -484,9 +484,9 @@
     },
     "locales": {
       "en": {
-        "name": "PMM-12 9x18 20-round extended magazine",
+        "name": "PMM-12 9x18 17-round extended magazine",
         "shortName": "PMM-12",
-        "description": "Extended 20-round magazine for the PMM-12 9x18mm pistol."
+        "description": "Extended 17-round magazine for the PMM-12 9x18mm pistol."
       }
     },
     "clearClonedProps": false,
