@@ -8,6 +8,14 @@
         "path": "WeaponPMM12/weapon_pmm12_container.bundle",
         "rcid": ""
       },
+	  "BaseMalfunctionChance": 0.2833,
+	  "CenterOfImpact": 0.311,
+	  "Ergonomics": 78,
+	  "RecoilDampingHandRotation": 0.8,
+	  "RecoilForceBack": 258,
+	  "RecoilForceUp": 371,
+	  "Velocity": -4.1,
+	  "Weight": 0.353,
       "ExaminedByDefault": true,
       "defMagType": "68d4106532390e96f5a8f664",
       "Slots": [
@@ -204,6 +212,14 @@
         "path": "WeaponPMM12/pmm_suppressor.bundle",
         "rcid": ""
       },
+	  "Accuracy": 4,
+	  "DurabilityBurnModificator": 1.55,
+	  "Ergonomics": -13
+	  "HeatFactor": 1.14,
+	  "Loudness": -22,
+	  "Recoil": -6,
+	  "Velocity": 0.8,
+	  "Weight": 0.255,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -239,6 +255,8 @@
         "path": "WeaponPMM12/pmm_slide.bundle",
         "rcid": ""
       },
+      "SightingRange": 200,
+	  "Weight": 0.282,
       "ExaminedByDefault": true,
       "Slots": [
         {
@@ -294,6 +312,7 @@
         "path": "WeaponPMM12/pmm_opticmount.bundle",
         "rcid": ""
       },
+	  "Weight": 0.025,
       "ExaminedByDefault": true,
       "Slots": [
         {
@@ -352,6 +371,10 @@
         "path": "WeaponPMM12/pmm_magazine.bundle",
         "rcid": ""
       },
+	  "CheckTimeModifier": -5,
+	  "LoadUnloadModifier": -15,
+	  "MalfunctionChance": 0.13,
+	  "Weight": 0.055,
       "ExaminedByDefault": true,
       "Cartridges": [
         {
@@ -419,6 +442,8 @@
         "path": "WeaponPMM12/pmm_grip.bundle",
         "rcid": ""
       },
+	  "Ergonomics": 5,
+	  "Weight": 0.075,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -454,6 +479,8 @@
         "path": "WeaponPMM12/pmm_grip_ergo.bundle",
         "rcid": ""
       },
+	  "Ergonomics": 9,
+	  "Weight": 0.06,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -481,7 +508,7 @@
     "StaticLootContainers": []
   },
   "68d5bd9f06a3279b96fb0d3c": {
-    "itemTplToClone": "6374a7e7417239a7bf00f042",
+    "itemTplToClone": "68d4991f2a947108d6e5d85a",
     "parentId": "55818a684bdc2ddd698b456d",
     "handbookParentId": "5b5f761f86f774094242f1a1",
     "overrideProperties": {
@@ -524,6 +551,7 @@
         "path": "WeaponPMM12/pmm_rail.bundle",
         "rcid": ""
       },
+	  "Weight": 0.030,
       "ExaminedByDefault": true,
       "Slots": [
         {
@@ -586,6 +614,14 @@
         "path": "WeaponPMM12/pmm_longslide.bundle",
         "rcid": ""
       },
+	  "Accuracy": 3,
+	  "CoolFactor": 1.07,
+	  "DurabilityBurnModificator": 1.03,
+	  "Ergonomics": 3,
+	  "Recoil": -2,
+      "SightingRange": 200,
+	  "Velocity": 0.3,
+	  "Weight": 0.298,
       "ExaminedByDefault": true,
       "ConflictingItems": ["68d4192eb4411d527334f35f","68d72bc442bb7ad7e98b3945", "68d72b647018b13256726238"],
       "Slots": [
@@ -642,6 +678,12 @@
         "path": "WeaponPMM12/pmm_slide_comp.bundle",
         "rcid": ""
       },
+	  "CoolFactor": 0.98,
+	  "DurabilityBurnModificator": 0.93,
+	  "Ergonomics": -2,
+	  "Recoil": -7,
+      "SightingRange": 200,
+	  "Weight": 0.322,
       "ExaminedByDefault": true,
       "ConflictingItems": ["68d4192eb4411d527334f35f","68d72bc442bb7ad7e98b3945", "68d72b647018b13256726238"],
       "Slots": [
@@ -698,6 +740,11 @@
         "path": "WeaponPMM12/pmm_singleport.bundle",
         "rcid": ""
       },
+	  "Accuracy": -2,
+	  "DurabilityBurnModificator": 0.98,
+	  "Ergonomics": 0,
+	  "Recoil": -7,
+	  "Weight": 0.033,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -733,6 +780,12 @@
         "path": "WeaponPMM12/pmm_weightedcomp.bundle",
         "rcid": ""
       },
+	  "Accuracy": 0,
+	  "DurabilityBurnModificator": 0.97,
+	  "Ergonomics": -1,
+	  "Recoil": -10,
+	  "Velocity": 0.1,
+	  "Weight": 0.066,
       "ExaminedByDefault": true
     },
     "locales": {

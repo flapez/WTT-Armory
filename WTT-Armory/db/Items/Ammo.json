@@ -477,7 +477,19 @@
 			"Prefab": {
 				"path": "Ammo/ammo_9x18_ht.bundle",
 				"rcid": ""
-			}
+			},
+			"ammoAccr": 1,
+			"ammoRec": 2,
+			"BallisticCoeficient": 0.095,
+			"BulletMassGram": 7.5,
+			"CanSellOnRagfair": false,
+			"Damage": 63,
+			"InitialSpeed": 305,
+			"LightBleedingDelta": 0,
+			"MalfFeedChance": 0.03,
+			"PenetrationPower": 22,
+			"Weight": 0.010,
+			"RicochetChance": 0.11
 		},
 		"locales": {
 			"en": {
