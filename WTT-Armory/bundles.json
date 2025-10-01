@@ -121,6 +121,14 @@
             ]
         },
         {
+            "key": "WeaponPMM12/pmm_magazine_ext.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponPMM12/pmm_slide.bundle",
             "dependencyKeys": [
                 "shaders",

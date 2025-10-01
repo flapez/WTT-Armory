@@ -8,14 +8,14 @@
         "path": "WeaponPMM12/weapon_pmm12_container.bundle",
         "rcid": ""
       },
-	  "BaseMalfunctionChance": 0.2833,
-	  "CenterOfImpact": 0.311,
-	  "Ergonomics": 78,
-	  "RecoilDampingHandRotation": 0.8,
-	  "RecoilForceBack": 258,
-	  "RecoilForceUp": 371,
-	  "Velocity": -4.1,
-	  "Weight": 0.353,
+      "BaseMalfunctionChance": 0.2833,
+      "CenterOfImpact": 0.311,
+      "Ergonomics": 78,
+      "RecoilDampingHandRotation": 0.8,
+      "RecoilForceBack": 258,
+      "RecoilForceUp": 371,
+      "Velocity": -4.1,
+      "Weight": 0.353,
       "ExaminedByDefault": true,
       "defMagType": "68d4106532390e96f5a8f664",
       "Slots": [
@@ -108,7 +108,8 @@
               {
                 "AnimationIndex": 0,
                 "Filter": [
-                  "68d4106532390e96f5a8f664"
+                  "68d4106532390e96f5a8f664",
+                  "68dd61e02d8ca3d84120bb2a"
                 ]
               }
             ]
@@ -212,14 +213,14 @@
         "path": "WeaponPMM12/pmm_suppressor.bundle",
         "rcid": ""
       },
-	  "Accuracy": 4,
-	  "DurabilityBurnModificator": 1.55,
-	  "Ergonomics": -13
-	  "HeatFactor": 1.14,
-	  "Loudness": -22,
-	  "Recoil": -6,
-	  "Velocity": 0.8,
-	  "Weight": 0.255,
+      "Accuracy": 4,
+      "DurabilityBurnModificator": 1.55,
+      "Ergonomics": -13,
+      "HeatFactor": 1.14,
+      "Loudness": -22,
+      "Recoil": -6,
+      "Velocity": 0.8,
+      "Weight": 0.255,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -256,7 +257,7 @@
         "rcid": ""
       },
       "SightingRange": 200,
-	  "Weight": 0.282,
+      "Weight": 0.282,
       "ExaminedByDefault": true,
       "Slots": [
         {
@@ -312,7 +313,7 @@
         "path": "WeaponPMM12/pmm_opticmount.bundle",
         "rcid": ""
       },
-	  "Weight": 0.025,
+      "Weight": 0.025,
       "ExaminedByDefault": true,
       "Slots": [
         {
@@ -371,10 +372,10 @@
         "path": "WeaponPMM12/pmm_magazine.bundle",
         "rcid": ""
       },
-	  "CheckTimeModifier": -5,
-	  "LoadUnloadModifier": -15,
-	  "MalfunctionChance": 0.13,
-	  "Weight": 0.055,
+      "CheckTimeModifier": -5,
+      "LoadUnloadModifier": -15,
+      "MalfunctionChance": 0.13,
+      "Weight": 0.055,
       "ExaminedByDefault": true,
       "Cartridges": [
         {
@@ -433,6 +434,78 @@
     "traders": {},
     "StaticLootContainers": []
   },
+  "68dd61e02d8ca3d84120bb2a": {
+    "itemTplToClone": "5448c12b4bdc2d02308b456f",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPMM12/pmm_magazine_ext.bundle",
+        "rcid": ""
+      },
+      "CheckTimeModifier": 0,
+      "LoadUnloadModifier": 0,
+      "MalfunctionChance": 0.145,
+      "Weight": 0.06,
+      "Ergonomics": -2,
+      "ExaminedByDefault": true,
+      "Cartridges": [
+        {
+          "_id": "68dd6207a252eef60d137f4b",
+          "_max_count": 20,
+          "_name": "cartridges",
+          "_parent": "68dd61e02d8ca3d84120bb2a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "573718ba2459775a75491131",
+                  "573719df2459775a626ccbc2",
+                  "57371aab2459775a77142f22",
+                  "57371b192459775a9f58a5e0",
+                  "57371e4124597760ff7b25f1",
+                  "57371eb62459776125652ac1",
+                  "57371f8d24597761006c6a81",
+                  "5737201124597760fc4431f1",
+                  "5737207f24597760ff7b25f2",
+                  "57371f2b24597761224311f1",
+                  "573719762459775a626ccbc1",
+                  "573720e02459776143012541",
+                  "57372140245977611f70ee91",
+                  "5737218f245977612125ba51",
+                  "68d3f708c61fce2651e9e9ac"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "PMM-12 9x18 20-round extended magazine",
+        "shortName": "PMM-12",
+        "description": "Extended 20-round magazine for the PMM-12 9x18mm pistol."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 6571,
+    "handbookPriceRoubles": 3969,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
   "68d416ce1bc7491da67d7880": {
     "itemTplToClone": "6374a7e7417239a7bf00f042",
     "parentId": "55818a684bdc2ddd698b456d",
@@ -442,8 +515,8 @@
         "path": "WeaponPMM12/pmm_grip.bundle",
         "rcid": ""
       },
-	  "Ergonomics": 5,
-	  "Weight": 0.075,
+      "Ergonomics": 5,
+      "Weight": 0.075,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -479,8 +552,8 @@
         "path": "WeaponPMM12/pmm_grip_ergo.bundle",
         "rcid": ""
       },
-	  "Ergonomics": 9,
-	  "Weight": 0.06,
+      "Ergonomics": 9,
+      "Weight": 0.06,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -551,7 +624,7 @@
         "path": "WeaponPMM12/pmm_rail.bundle",
         "rcid": ""
       },
-	  "Weight": 0.030,
+      "Weight": 0.030,
       "ExaminedByDefault": true,
       "Slots": [
         {
@@ -614,16 +687,20 @@
         "path": "WeaponPMM12/pmm_longslide.bundle",
         "rcid": ""
       },
-	  "Accuracy": 3,
-	  "CoolFactor": 1.07,
-	  "DurabilityBurnModificator": 1.03,
-	  "Ergonomics": 3,
-	  "Recoil": -2,
+      "Accuracy": 3,
+      "CoolFactor": 1.07,
+      "DurabilityBurnModificator": 1.03,
+      "Ergonomics": 3,
+      "Recoil": -2,
       "SightingRange": 200,
-	  "Velocity": 0.3,
-	  "Weight": 0.298,
+      "Velocity": 0.3,
+      "Weight": 0.298,
       "ExaminedByDefault": true,
-      "ConflictingItems": ["68d4192eb4411d527334f35f","68d72bc442bb7ad7e98b3945", "68d72b647018b13256726238"],
+      "ConflictingItems": [
+        "68d4192eb4411d527334f35f",
+        "68d72bc442bb7ad7e98b3945",
+        "68d72b647018b13256726238"
+      ],
       "Slots": [
         {
           "_id": "68d60d0108422ec8e1dfaca9",
@@ -678,14 +755,18 @@
         "path": "WeaponPMM12/pmm_slide_comp.bundle",
         "rcid": ""
       },
-	  "CoolFactor": 0.98,
-	  "DurabilityBurnModificator": 0.93,
-	  "Ergonomics": -2,
-	  "Recoil": -7,
+      "CoolFactor": 0.98,
+      "DurabilityBurnModificator": 0.93,
+      "Ergonomics": -2,
+      "Recoil": -7,
       "SightingRange": 200,
-	  "Weight": 0.322,
+      "Weight": 0.322,
       "ExaminedByDefault": true,
-      "ConflictingItems": ["68d4192eb4411d527334f35f","68d72bc442bb7ad7e98b3945", "68d72b647018b13256726238"],
+      "ConflictingItems": [
+        "68d4192eb4411d527334f35f",
+        "68d72bc442bb7ad7e98b3945",
+        "68d72b647018b13256726238"
+      ],
       "Slots": [
         {
           "_id": "68d704491fbb2ab261ba137f",
@@ -740,11 +821,11 @@
         "path": "WeaponPMM12/pmm_singleport.bundle",
         "rcid": ""
       },
-	  "Accuracy": -2,
-	  "DurabilityBurnModificator": 0.98,
-	  "Ergonomics": 0,
-	  "Recoil": -7,
-	  "Weight": 0.033,
+      "Accuracy": -2,
+      "DurabilityBurnModificator": 0.98,
+      "Ergonomics": 0,
+      "Recoil": -7,
+      "Weight": 0.033,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -780,12 +861,12 @@
         "path": "WeaponPMM12/pmm_weightedcomp.bundle",
         "rcid": ""
       },
-	  "Accuracy": 0,
-	  "DurabilityBurnModificator": 0.97,
-	  "Ergonomics": -1,
-	  "Recoil": -10,
-	  "Velocity": 0.1,
-	  "Weight": 0.066,
+      "Accuracy": 0,
+      "DurabilityBurnModificator": 0.97,
+      "Ergonomics": -1,
+      "Recoil": -10,
+      "Velocity": 0.1,
+      "Weight": 0.066,
       "ExaminedByDefault": true
     },
     "locales": {
