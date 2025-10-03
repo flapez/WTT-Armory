@@ -663,7 +663,8 @@
       "CanSellOnRagfair": true,
       "Recoil": -24,
       "Ergonomics": 11,
-      "Weight": 0.25
+      "Weight": 0.25,
+      "ConflictingItems": ["5c0e2ff6d174af02a1659d4a"]
     },
     "locales": {
       "en": {
