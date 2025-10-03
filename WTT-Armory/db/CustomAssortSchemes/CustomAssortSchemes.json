@@ -3503,6 +3503,94 @@
                     "StackObjectsCount": 999999,
                     "BuyRestrictionMax": 200
                 }
+            },
+            {
+                "_id": "68df3e2f430b5b39a403e6df",
+                "_tpl": "68d40fb07130ef271f60991f",
+                "upd": {
+                    "SpawnedInSession": true,
+                    "Repairable": {
+                        "MaxDurability": 100,
+                        "Durability": 100
+                    },
+                    "FireMode": {
+                        "FireMode": "single"
+                    },
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 999999,
+                    "BuyRestrictionMax": 0
+                },
+                "parentId": "hideout",
+                "slotId": "hideout"
+            },
+            {
+                "_id": "68df3e29430b5b39a403e6d2",
+                "_tpl": "68d4192eb4411d527334f35f",
+                "slotId": "mod_muzzle",
+                "parentId": "68df3e2f430b5b39a403e6df"
+            },
+            {
+                "_id": "68df3e29430b5b39a403e6d3",
+                "_tpl": "68d739c05eadd47b0e4617a7",
+                "slotId": "mod_tactical",
+                "upd": {
+                    "Light": {
+                        "IsActive": true,
+                        "SelectedMode": 0
+                    }
+                },
+                "parentId": "68df3e2f430b5b39a403e6df"
+            },
+            {
+                "_id": "68df3e29430b5b39a403e6d4",
+                "_tpl": "68d416ce1bc7491da67d7880",
+                "slotId": "mod_pistolgrip",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "68df3e2f430b5b39a403e6df"
+            },
+            {
+                "_id": "68df3e29430b5b39a403e6d5",
+                "_tpl": "68d411fe0fe5406a6566ce17",
+                "slotId": "mod_reciever",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "68df3e2f430b5b39a403e6df"
+            },
+            {
+                "_id": "68df3e29430b5b39a403e6d6",
+                "_tpl": "68d4106532390e96f5a8f664",
+                "slotId": "mod_magazine",
+                "upd": {
+                    "SpawnedInSession": true
+                },
+                "parentId": "68df3e2f430b5b39a403e6df"
+            },
+            {
+                "_id": "68df3e29430b5b39a403e6d7",
+                "_tpl": "68d593bf2809950ce8e620de",
+                "slotId": "mod_mount",
+                "parentId": "68df3e29430b5b39a403e6d5"
+            },
+            {
+                "_id": "68df3e29430b5b39a403e6d8",
+                "_tpl": "58d268fc86f774111273f8c2",
+                "slotId": "mod_scope",
+                "upd": {
+                    "Sight": {
+                        "ScopesCurrentCalibPointIndexes": [
+                            0
+                        ],
+                        "ScopesSelectedModes": [
+                            0
+                        ],
+                        "SelectedScope": 0,
+                        "ScopeZoomValue": 0
+                    }
+                },
+                "parentId": "68df3e29430b5b39a403e6d7"
             }
         ],
         "barter_scheme": {
@@ -4129,6 +4217,18 @@
                         "_tpl": "5449016a4bdc2d6f028b456f"
                     }
                 ]
+            ],
+            "68df3e2f430b5b39a403e6df": [
+                [
+                    {
+                        "count": 2,
+                        "_tpl": "57347c1124597737fb1379e3"
+                    },
+                    {
+                        "count": 2,
+                        "_tpl": "5d63d33b86f7746ea9275524"
+                    }
+                ]
             ]
         },
         "loyal_level_items": {
@@ -4204,7 +4304,8 @@
             "687b5c9bdf09391dc84e47ba": 3,
             "6885ae4fe655a8486005502f": 3,
             "68bb8ac9b22b1e43d404138a": 2,
-            "68d7656ca999a3fad6de226a": 1
+            "68d7656ca999a3fad6de226a": 1,
+            "68df3e2f430b5b39a403e6df": 1
         }
     },
     "SKIER": {
