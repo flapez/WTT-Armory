@@ -1029,7 +1029,8 @@
       "Accuracy": 1,
       "DurabilityBurnModificator": 0.99,
       "Ergonomics": -1.5,
-      "Recoil": -7.5
+      "Recoil": -7.5,
+      "Slots": []
     },
     "locales": {
       "en": {

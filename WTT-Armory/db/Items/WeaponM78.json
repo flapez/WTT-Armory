@@ -1,0 +1,1093 @@
+{
+  "68e0002a0d6a4dab56810fbd": {
+    "itemTplToClone": "59d6088586f774275f37482f",
+    "parentId": "5447bed64bdc2d97278b4568",
+    "handbookParentId": "5b5f79a486f77409407a7f94",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponM78/weapon_m78_container.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "bFirerate": 700,
+      "Width": 5,
+      "defAmmo": "5e023e53d4353e3302577c4c",
+      "defMagType": "68e00cc25e5ce571985cdca8",
+      "Chambers": [
+        {
+          "_id": "68e01210e8a26638a748be9a",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "68e0002a0d6a4dab56810fbd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a6086ea4f39f99cd479502f",
+                  "5a608bf24f39f98ffc77720e",
+                  "58dd3ad986f77403051cba8f",
+                  "5e023e53d4353e3302577c4c",
+                  "5efb0c1bd79ff02a1f5e68d9",
+                  "5e023e6e34d52a55c3304f71",
+                  "5e023e88277cce2b522ff2b1"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Slots": [
+        {
+          "_id": "68e0003f9e5cf70fcbdd9d78",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistol_grip",
+          "_parent": "68e0002a0d6a4dab56810fbd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                 "68e00c2a03050b5a4665ac9a",
+                 "68e00c5d3b678411f10c8705"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "68e000422dc3e2eb06334c4f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "68e0002a0d6a4dab56810fbd",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                 "68e00cc25e5ce571985cdca8",
+                 "68e00d2b14eecfef9ea7f214"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "68e0003b1f4597e06807023c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "68e0002a0d6a4dab56810fbd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                 "68e00099973addbbabfac4c5",
+                 "68e000ef47a1ced5ac0aa625",
+                 "68e001dda53d86c80780200e",
+                 "68e001e3a86734a7aa8bea88"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "68e0003983acc064785d8a8d",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "68e0002a0d6a4dab56810fbd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                 "68e00215885abec1d3b2f360",
+                 "68e002780a54c33a2dc35208",
+                 "68e03bc3709d4e16c56555ce"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "68e00dc1ce6fc5d12d5cde36",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_bipod",
+          "_parent": "68e0002a0d6a4dab56810fbd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                 "68e00daaa838761ebcba47cb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "68e00035a3be6dfab467da6d",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "68e0002a0d6a4dab56810fbd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                "68e00ec3cddba35e72a8c0be"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "68e00e203d4fb2a2919889aa",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "68e0002a0d6a4dab56810fbd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                "68e00e6f68065099baaf5791"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Foldable": false
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 7.62x51 light machine gun",
+        "shortName": "M78",
+        "description": ""
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 63402,
+    "handbookPriceRoubles": 24303,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "StaticLootContainers": [
+      {
+        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "Probability": 250
+      },
+      {
+        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
+        "Probability": 150
+      }
+    ],
+    "masteries": true,
+    "masterySections": [
+      {
+        "Level2": 500,
+        "Level3": 600,
+        "Name": "AKM",
+        "Templates": [
+          "68e0002a0d6a4dab56810fbd"
+        ]
+      }
+    ],
+    "addweaponpreset": true,
+    "weaponpresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "68e0002a0d6a4dab56810fbd",
+        "_id": "68e00051e5e55682297a0109",
+        "_items": [
+          {
+            "_id": "68e00054f802ed9d5779d92b",
+            "_tpl": "68e0002a0d6a4dab56810fbd",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              },
+              "Foldable": {
+                "Folded": false
+              },
+              "FireMode": {
+                "FireMode": "single"
+              }
+            }
+          },
+          {
+            "_id": "68e000659bd1fca0f1a78ed7",
+            "_tpl": "68e00c2a03050b5a4665ac9a",
+            "parentId": "68e00054f802ed9d5779d92b",
+            "slotId": "mod_pistol_grip"
+          },
+          {
+            "_id": "68e0005fbbef4e8741021fc8",
+            "_tpl": "68e00cc25e5ce571985cdca8",
+            "parentId": "68e00054f802ed9d5779d92b",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "68e0006825111a30a22b47b4",
+            "_tpl": "68e00099973addbbabfac4c5",
+            "parentId": "68e00054f802ed9d5779d92b",
+            "slotId": "mod_stock"
+          },
+          {
+            "_id": "68e00e380890fa3a7f0828c9",
+            "_tpl": "68e00daaa838761ebcba47cb",
+            "parentId": "68e00054f802ed9d5779d92b",
+            "slotId": "mod_bipod"
+          },
+          {
+            "_id": "68e0005c2b2e494571f0a433",
+            "_tpl": "68e00215885abec1d3b2f360",
+            "parentId": "68e00054f802ed9d5779d92b",
+            "slotId": "mod_handguard"
+          }
+        ],
+        "_name": "M78Standard",
+        "_parent": "68e00054f802ed9d5779d92b",
+        "_type": "Preset"
+      }
+    ],
+    "traders": {}
+  },
+  "68e00099973addbbabfac4c5": {
+    "itemTplToClone": "59d6514b86f774171a068a08",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponM78/m78_stock_wood.bundle",
+        "rcid": ""
+      },
+      "Slots": [],
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 wooden stock",
+        "shortName": "M78 W",
+        "description": "Standard issue wooden rifle stock for the M78 7.62x51 light machine gun."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_stock"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 6313,
+    "handbookPriceRoubles": 3988,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68e000ef47a1ced5ac0aa625": {
+    "itemTplToClone": "59d6514b86f774171a068a08",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponM78/m78_stock_tube.bundle",
+        "rcid": ""
+      },
+      "Slots": [],
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 tubular stock",
+        "shortName": "M78 T",
+        "description": "Tubular minimalist metal stock for the M78 7.62x51 light machine gun."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_stock"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 7104,
+    "handbookPriceRoubles": 4989,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68e001dda53d86c80780200e": {
+    "itemTplToClone": "59d6514b86f774171a068a08",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponM78/m78_stock_thumbhole_polymer.bundle",
+        "rcid": ""
+      },
+      "Slots": [],
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 DMR polymer stock",
+        "shortName": "M78 DMR-P",
+        "description": "A marksman style polymer stock for the M78 7.62x51 light machine gun."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_stock"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 15014,
+    "handbookPriceRoubles": 8889,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68e001e3a86734a7aa8bea88": {
+    "itemTplToClone": "59d6514b86f774171a068a08",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponM78/m78_stock_thumbhole_wood.bundle",
+        "rcid": ""
+      },
+      "Slots": [],
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 DMR wooden stock",
+        "shortName": "M78 DMR-W",
+        "description": "A marksman style wooden stock for the M78 7.62x51 light machine gun."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_stock"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 13574,
+    "handbookPriceRoubles": 7089,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68e00215885abec1d3b2f360": {
+    "itemTplToClone": "59d64f2f86f77417193ef8b3",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponM78/m78_handguard_wood.bundle",
+        "rcid": ""
+      },
+      "Slots": [],
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 wooden handguard",
+        "shortName": "M78 W",
+        "description": "Standard wooden handguard for the M78 7.62x51 light machine gun."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 3471,
+    "handbookPriceRoubles": 2108,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68e002780a54c33a2dc35208": {
+    "itemTplToClone": "59d64f2f86f77417193ef8b3",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponM78/m78_handguard_polymer.bundle",
+        "rcid": ""
+      },
+      "Slots": [],
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 polymer handguard",
+        "shortName": "M78 P",
+        "description": "Polymer handguard for the M78 7.62x51 light machine gun."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 5411,
+    "handbookPriceRoubles": 3918,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68e03bc3709d4e16c56555ce": {
+    "itemTplToClone": "59d64f2f86f77417193ef8b3",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponM78/m78_handguard_railed.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "68e03c8210d246b45cfb1c56",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "68e03bc3709d4e16c56555ce",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c7fc87d2e221644f31c0298",
+                  "5cda9bcfd7f00c0c0b53e900",
+                  "59f8a37386f7747af3328f06",
+                  "619386379fb0c665d5490dbe",
+                  "5c87ca002e221600114cb150",
+                  "588226d124597767ad33f787",
+                  "588226dd24597767ad33f789",
+                  "588226e62459776e3e094af7",
+                  "588226ef24597767af46e39c",
+                  "59fc48e086f77463b1118392",
+                  "5fce0cf655375d18a253eff0",
+                  "64806bdd26c80811d408d37a",
+                  "64807a29e5ffe165600abc97",
+                  "5cf4fb76d7f00c065703d3ac",
+                  "65169d5b30425317755f8e25",
+                  "648067db042be0705c0b3009",
+                  "5b057b4f5acfc4771e1bd3e9",
+                  "655df24fdf80b12750626d0a",
+                  "5c791e872e2216001219c40a",
+                  "655dccfdbdcc6b5df71382b6",
+                  "661e52e29c8b4dadef008577",
+                  "661e53149c8b4dadef008579",
+                  "558032614bdc2de7118b4585",
+                  "58c157be86f77403c74b2bb6",
+                  "58c157c886f774032749fb06",
+                  "661e52415be02310ed07a07a",
+                  "661e52b5b099f32c28003586",
+                  "5f6340d3ca442212f4047eb2",
+                  "591af28e86f77414a27a9e1d",
+                  "5c1cd46f2e22164bef5cfedb",
+                  "5c1bc4812e22164bef5cfde7",
+                  "5c1bc5612e221602b5429350",
+                  "5c1bc5af2e221602b412949b",
+                  "5c1bc5fb2e221602b1779b32",
+                  "5c1bc7432e221602b412949d",
+                  "5c1bc7752e221602b1779b34",
+                  "668070f11aff0d6b0cd7fb13",
+                  "682d014f0f0eb62eb4269012",
+                  "66ea3770d7c670434b6ed74f",
+                  "682b9dd126018d7470776a59"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "68e03c8542a5687524fa48a8",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_000",
+          "_parent": "68e03bc3709d4e16c56555ce",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715",
+                  "682b9cb8150b5a86eeaed3fa"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "68e03c885e92904302ec800f",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_001",
+          "_parent": "68e03bc3709d4e16c56555ce",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715",
+                  "682b9d50a05fef25589376d4"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "68e03c8bbc70d8178b16e472",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_002",
+          "_parent": "68e03bc3709d4e16c56555ce",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715",
+                  "682b9cb8150b5a86eeaed3fa"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "68e03cec4387b056868affa1",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "68e03bc3709d4e16c56555ce",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "5649a2464bdc2d91118b45a8",
+                  "61714b2467085e45ef140b2c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "644a3df63b0b6f03e101e065",
+                  "64785e7c19d732620e045e15",
+                  "655f13e0a246670fb0373245"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "68e03d4d37c64435a193e5bf",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "68e03bc3709d4e16c56555ce",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "68e03d4aebb12b74a9ec3ae5",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "68e03bc3709d4e16c56555ce",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b17d4351e00367f9bdd",
+                  "5dfa3d7ac41b2312ea33362a",
+                  "5c1780312e221602b66cc189",
+                  "5fb6564947ce63734e3fa1da",
+                  "5bc09a18d4351e003562b68e",
+                  "5c18b9192e2216398b5a8104",
+                  "5fc0fa957283c4046c58147e",
+                  "5894a81786f77427140b8347"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 quad rail handguard",
+        "shortName": "M78 Quad",
+        "description": "Quad rail handguard system for the M78 7.62x51 light machine gun."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 17011,
+    "handbookPriceRoubles": 10918,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68e00c2a03050b5a4665ac9a": {
+    "itemTplToClone": "59e62cc886f77440d40b52a1",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponM78/m78_pistolgrip_polymer.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 polymer pistol grip",
+        "shortName": "M78 P",
+        "description": "Standard polymer pistol grip for the M78 7.62x51 light machine gun."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_pistol_grip"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 3243,
+    "handbookPriceRoubles": 1760,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68e00c5d3b678411f10c8705": {
+    "itemTplToClone": "59e62cc886f77440d40b52a1",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponM78/m78_pistolgrip_ribbed.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 ribbed pistol grip",
+        "shortName": "M78 R",
+        "description": "Ribbed polymer pistol grip for the M78 7.62x51 light machine gun."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_pistol_grip"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 6143,
+    "handbookPriceRoubles": 3263,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68e00cc25e5ce571985cdca8": {
+    "itemTplToClone": "618168dc8004cc50514c34fc",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponM78/m78_magazine_20.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 7.62x51 20-round magazine",
+        "shortName": "M78-20",
+        "description": "Standard issue 20-round magazine for the M78 7.62x51 light machine gun"
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 4863,
+    "handbookPriceRoubles": 3280,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68e00d2b14eecfef9ea7f214": {
+    "itemTplToClone": "5b7bef5d5acfc43bca7067a3",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponM78/m78_magazine_30.bundle",
+        "rcid": ""
+      },
+      "ExtraSizeDown": 2
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 7.62x51 30-round extended magazine",
+        "shortName": "M78-30",
+        "description": "A 30-round extended magazine for the M78 7.62x51 light machine gun"
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 9361,
+    "handbookPriceRoubles": 6280,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68e00daaa838761ebcba47cb": {
+    "itemTplToClone": "622b397c9a3d4327e41843b6",
+    "parentId": "55818afb4bdc2dde698b456d",
+    "handbookParentId": "5b5f71c186f77409407a7ec0",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponM78/bipod_m78.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 Bipod",
+        "shortName": "M78",
+        "description": "Standard issue bipod for the M78 7.62x51 light machinegun."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_bipod"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 8731,
+    "handbookPriceRoubles": 4950,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68e00e6f68065099baaf5791": {
+    "itemTplToClone": "57d17e212459775a1179a0f5",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponM78/m78_mount.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "68e00e8f6a40449db3fd7904",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "68e00e6f68065099baaf5791",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5b3a337e5acfc4704b4a19a0",
+                  "5c5952732e2216398b5abda2",
+                  "57d17e212459775a1179a0f5",
+                  "6267c6396b642f77f56f5c1c",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "626becf9582c3e319310b837",
+                  "644a3df63b0b6f03e101e065",
+                  "646f6322f43d0c5d62063715"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 tactical barrel mount",
+        "shortName": "M78 Mount",
+        "description": "A barrel mount for the M78 that allows for the mounting of tactical devices."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 9951,
+    "handbookPriceRoubles": 5782,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  },
+  "68e00ec3cddba35e72a8c0be": {
+    "itemTplToClone": "5c7955c22e221644f31bfd5e",
+    "parentId": "550aa4cd4bdc2dd8348b456c",
+    "handbookParentId": "5b5f731a86f774093e6cb4f9",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponM78/m78_suppressor.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Valmet M78 7.61x51 sound suppressor",
+        "shortName": "M78 S",
+        "description": "Proprietary sound suppressor for the M78 7.62x51 light machinegun."
+      }
+    },
+    "clearClonedProps": false,
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_bipod"
+    ],
+    "ModdableItemWhitelist": [],
+    "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 57031,
+    "handbookPriceRoubles": 39050,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "Probability": 250,
+    "traders": {},
+    "StaticLootContainers": []
+  }
+}
