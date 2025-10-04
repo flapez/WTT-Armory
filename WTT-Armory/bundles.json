@@ -33,6 +33,14 @@
             ]
         },
         {
+            "key": "WeaponM78/m78_mount_scope.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponM78/m78_stock_tube.bundle",
             "dependencyKeys": [
                 "shaders",
