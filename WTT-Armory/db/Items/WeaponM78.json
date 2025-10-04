@@ -13,6 +13,7 @@
       "Width": 5,
       "defAmmo": "5e023e53d4353e3302577c4c",
       "defMagType": "68e00cc25e5ce571985cdca8",
+      "ammoCaliber": "Caliber762x51",
       "Chambers": [
         {
           "_id": "68e01210e8a26638a748be9a",
@@ -965,6 +966,7 @@
       },
       "ConflictingItems": [
         "68e03bc3709d4e16c56555ce",
+        "68e00e6f68065099baaf5791",
         "68e00e6f68065099baaf5791"
       ]
     },
