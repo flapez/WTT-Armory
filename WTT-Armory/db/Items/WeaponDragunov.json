@@ -748,6 +748,7 @@
     ],
     "ModdableItemWhitelist": [],
     "ModdableItemBlacklist": [],
+    "fleaPriceRoubles": 24931,
     "handbookPriceRoubles": 17896,
     "addtoTraders": false,
     "addtoBots": false,
