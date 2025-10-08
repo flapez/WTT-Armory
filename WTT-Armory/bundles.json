@@ -303,14 +303,6 @@
             ]
         },
         {
-            "key": "WeaponHK417/417_hg_mlok_long.bundle",
-            "dependencyKeys": [
-                "shaders",
-                "cubemaps",
-                "assets/commonassets/physics/physicsmaterials.bundle"
-            ]
-        },
-        {
             "key": "WeaponAGSeries/weapon_ag42_container.bundle",
             "dependencyKeys": [
                 "shaders",
