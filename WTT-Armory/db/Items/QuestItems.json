@@ -84,7 +84,9 @@
       "DiscardLimit": 0,
       "Width": 3,
       "Height": 3,
-      "Weight": 6.804
+      "Weight": 6.804,
+      "CanSellOnRagfair": false,
+      "IsUnsaleable": true
     },
     "locales": {
       "en": {
@@ -106,8 +108,6 @@
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
-    "canSellOnRagfair": false,
-    "isUnsaleable": true,
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
@@ -129,7 +129,9 @@
       "DiscardLimit": 0,
       "Width": 1,
       "Height": 2,
-      "Weight": 0.3
+      "Weight": 0.3,
+      "CanSellOnRagfair": false,
+      "IsUnsaleable": true
     },
     "locales": {
       "en": {
@@ -151,8 +153,6 @@
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
-    "canSellOnRagfair": false,
-    "isUnsaleable": true,
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
@@ -174,7 +174,9 @@
       "DiscardLimit": 0,
       "Width": 5,
       "Height": 2,
-      "Weight": 11.50
+      "Weight": 11.50,
+      "CanSellOnRagfair": false,
+      "IsUnsaleable": true
     },
     "locales": {
       "en": {
@@ -196,8 +198,6 @@
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
-    "canSellOnRagfair": false,
-    "isUnsaleable": true,
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
@@ -219,7 +219,9 @@
       "DiscardLimit": 0,
       "Width": 1,
       "Height": 1,
-      "Weight": 0.1
+      "Weight": 0.1,
+      "CanSellOnRagfair": false,
+      "IsUnsaleable": true
     },
     "locales": {
       "en": {
@@ -244,8 +246,6 @@
     "barterScheme": [],
     "addtoBots": false,
     "addtoStaticLootContainers": false,
-    "canSellOnRagfair": false,
-    "isUnsaleable": true,
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
@@ -267,7 +267,9 @@
       "DiscardLimit": 0,
       "Width": 2,
       "Height": 2,
-      "Weight": 2.5
+      "Weight": 2.5,
+      "CanSellOnRagfair": false,
+      "IsUnsaleable": true
     },
     "locales": {
       "en": {
@@ -297,8 +299,6 @@
     ],
     "addtoBots": false,
     "addtoStaticLootContainers": false,
-    "canSellOnRagfair": false,
-    "isUnsaleable": true,
     "Probability": 250,
     "traders": {},
     "StaticLootContainers": []
