@@ -281,7 +281,7 @@
 		"masteries": true,
 		"masterySections": [
 			{
-				"name": "HK XM8",
+				"Name": "HK XM8",
 				"Templates": [
 					"66b1770c5f8b2271bb5887dc"
 				],
@@ -572,7 +572,7 @@
 		"masteries": true,
 		"masterySections": [
 			{
-				"name": "HK XM8",
+				"Name": "HK XM8",
 				"Templates": [
 					"66b177141a00c9af1fd50b2d"
 				],
@@ -863,7 +863,7 @@
 		"masteries": true,
 		"masterySections": [
 			{
-				"name": "HK XM8",
+				"Name": "HK XM8",
 				"Templates": [
 					"66b17d6cbb296d01b4684944"
 				],
