@@ -2415,6 +2415,7 @@
       "Weight": 0.17,
       "ExtraSizeLeft": 0,
       "ExtraSizeRight": 0,
+      "Foldable": false,
       "Slots": [
         {
           "_name": "mod_stock_000",
@@ -2467,7 +2468,6 @@
     "fleaPriceRoubles": 6745,
     "handbookPriceRoubles": 550,
     "addtoTraders": false,
-    "Foldable": false,
     "addtoBots": false,
     "addtostaticlootcontainer": false,
     "Probability": 250,
@@ -2551,7 +2551,8 @@
       "Ergonomics": 18,
       "Width": 2,
       "DurabilityBurnModificator": 1.02,
-      "Weight": 0.3
+      "Weight": 0.3,
+      "Foldable": false
     },
     "locales": {
       "en": {
@@ -2569,7 +2570,6 @@
     "fleaPriceRoubles": 9354,
     "handbookPriceRoubles": 6302,
     "addtoTraders": false,
-    "Foldable": false,
     "addtoBots": false,
     "addtostaticlootcontainer": false,
     "Probability": 250,
@@ -2604,7 +2604,8 @@
       "Recoil": -32,
       "Ergonomics": 1,
       "Width": 2,
-      "Weight": 0.5
+      "Weight": 0.5,
+      "Foldable": false
     },
     "locales": {
       "en": {
@@ -2622,7 +2623,6 @@
     "fleaPriceRoubles": 32124,
     "handbookPriceRoubles": 9410,
     "addtoTraders": false,
-    "Foldable": false,
     "addtoBots": false,
     "addtostaticlootcontainer": false,
     "Probability": 250,
@@ -2658,7 +2658,8 @@
       "Ergonomics": 11,
       "Width": 2,
       "Weight": 0.3,
-      "DurabilityBurnModificator": 0.91
+      "DurabilityBurnModificator": 0.91,
+      "Foldable": false
     },
     "locales": {
       "en": {
@@ -2676,7 +2677,6 @@
     "fleaPriceRoubles": 12381,
     "handbookPriceRoubles": 8666,
     "addtoTraders": false,
-    "Foldable": false,
     "addtoBots": false,
     "addtostaticlootcontainer": false,
     "Probability": 250,
@@ -2759,7 +2759,8 @@
       "Recoil": -28,
       "Ergonomics": 9,
       "Width": 2,
-      "Weight": 0.3
+      "Weight": 0.3,
+      "Foldable": false
     },
     "locales": {
       "en": {
@@ -2777,7 +2778,6 @@
     "fleaPriceRoubles": 16861,
     "handbookPriceRoubles": 9461,
     "addtoTraders": false,
-    "Foldable": "false",
     "addtoBots": false,
     "addtostaticlootcontainer": false,
     "Probability": 250,
@@ -2808,7 +2808,8 @@
       "Prefab": {
         "path": "WeaponACR/acrstockacrfde.bundle",
         "rcid": ""
-      }
+      },
+      "Foldable": false
     },
     "locales": {
       "en": {
@@ -2826,7 +2827,6 @@
     "fleaPriceRoubles": 16861,
     "handbookPriceRoubles": 9461,
     "addtoTraders": false,
-    "Foldable": "false",
     "addtoBots": false,
     "addtostaticlootcontainer": false,
     "Probability": 250,
