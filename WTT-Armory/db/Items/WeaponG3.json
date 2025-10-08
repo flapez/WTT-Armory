@@ -503,7 +503,7 @@
     "handbookPriceRoubles": 2412,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -555,7 +555,7 @@
     "handbookPriceRoubles": 11754,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -607,7 +607,7 @@
     "handbookPriceRoubles": 31224,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -726,7 +726,7 @@
     "handbookPriceRoubles": 17422,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -796,7 +796,7 @@
     "handbookPriceRoubles": 32568,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -1027,7 +1027,7 @@
     "handbookPriceRoubles": 12194,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -1141,7 +1141,7 @@
     "handbookPriceRoubles": 10322,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -1211,7 +1211,7 @@
     "handbookPriceRoubles": 4322,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -1495,7 +1495,7 @@
     },
 		"loyallevelitems": 4,
 		"addtoBots": false,
-		"addtostaticlootcontainer": true,
+		"addtostaticlootcontainer": false,
 		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
 		"Probability": 250
 	},
@@ -1549,7 +1549,7 @@
     "handbookPriceRoubles": 21024,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -1603,7 +1603,7 @@
     "handbookPriceRoubles": 3102,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -1652,7 +1652,7 @@
     "handbookPriceRoubles": 3102,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -1805,7 +1805,7 @@
     "handbookPriceRoubles": 15327,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "SKIER": {
@@ -1860,7 +1860,7 @@
     "handbookPriceRoubles": 4254,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -1913,7 +1913,7 @@
     "handbookPriceRoubles": 2160,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -2066,7 +2066,7 @@
     "handbookPriceRoubles": 3782,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -2251,7 +2251,7 @@
     "handbookPriceRoubles": 6215,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -2441,7 +2441,7 @@
     "handbookPriceRoubles": 7682,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -2587,7 +2587,7 @@
     "handbookPriceRoubles": 9654,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -2719,7 +2719,7 @@
     "handbookPriceRoubles": 8944,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -2913,7 +2913,7 @@
     "handbookPriceRoubles": 9654,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -3029,7 +3029,7 @@
     "handbookPriceRoubles": 15550,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -3084,7 +3084,7 @@
     "handbookPriceRoubles": 1550,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -3139,7 +3139,7 @@
     "handbookPriceRoubles": 1550,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -3194,7 +3194,7 @@
     "handbookPriceRoubles": 2654,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -3249,7 +3249,7 @@
     "handbookPriceRoubles": 8655,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -3304,7 +3304,7 @@
     "handbookPriceRoubles": 4652,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -3359,7 +3359,7 @@
     "handbookPriceRoubles": 9432,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -3631,7 +3631,7 @@
     "handbookPriceRoubles": 9432,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -3704,7 +3704,7 @@
     },
 		"loyallevelitems": 4,
 		"addtoBots": false,
-		"addtostaticlootcontainer": true,
+		"addtostaticlootcontainer": false,
 		"StaticLootContainer": "LOOTCONTAINER_WEAPON_BOX_4X4",
 		"Probability": 250
 	},
@@ -3743,7 +3743,7 @@
     "handbookPriceRoubles": 3564,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -3799,7 +3799,7 @@
     "handbookPriceRoubles": 3564,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -3855,7 +3855,7 @@
     "handbookPriceRoubles": 7345,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -4000,7 +4000,7 @@
     "handbookPriceRoubles": 6852,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {
@@ -4148,7 +4148,7 @@
     "handbookPriceRoubles": 4388,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "PEACEKEEPER": {
@@ -4205,7 +4205,7 @@
     "handbookPriceRoubles": 1765,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "traders": {
       "MECHANIC": {

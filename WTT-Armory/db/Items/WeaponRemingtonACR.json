@@ -310,7 +310,7 @@
     "handbookPriceRoubles": 75456,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "addweaponpreset": true,
     "weaponpresets": [
@@ -436,7 +436,7 @@
     "handbookPriceRoubles": 75456,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
+    "addtostaticlootcontainer": false,
     "Probability": 250,
     "addweaponpreset": true,
     "weaponpresets": [
