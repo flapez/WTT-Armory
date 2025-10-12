@@ -58,10 +58,33 @@
 				"66a545898022784400d6c836": 5843
 			},
 			"Holster": {
-				"67748ec2e6a045dc97e2f978": 1
+				"67748ec2e6a045dc97e2f978": 3483,
+				"68433b58a8f9a618b11082d4": 2623
 			}
 		},
 		"mods": {
+			"68433b58a8f9a618b11082d4": {
+				"mod_magazine": [
+					"68433b836de7d8ce99c642c6"
+				],
+				"mod_barrel": [
+					"6843749dcc3ddb0f04d2455c"
+				],
+				"mod_pistol_grip": [
+					"6843784a0370f6e229715c2b"
+				],
+				"mod_sight_rear": [
+					"684374b008d0b9c0aa535a62"
+				],
+				"mod_tactical": [
+					"56def37dd2720bec348b456a"
+				]
+			},
+			"6843749dcc3ddb0f04d2455c": {
+				"mod_muzzle": [
+					"684388df68faf2369eeba68f"
+				]
+			},
 			"66a545898022784400d6c836": {
 				"mod_magazine": [
 					"55d4887d4bdc2d962f8b4570"
@@ -462,6 +485,10 @@
 			}
 		},
 		"ammo": {
+			"Caliber46x30": {
+				"5ba2678ad4351e44f824b344": 150,
+				"5ba26835d4351e0035628ff5": 1
+			},
 			"Caliber545x39": {
 				"56dfef82d2720bbd668b4567": 3620,
 				"56dff026d2720bb8668b4567": 1950,
