@@ -10,16 +10,89 @@
 			"mod_stock": 100,
 			"mod_tactical_002": 70,
 			"mod_foregrip": 88,
-			"mod_muzzle": 100
+			"mod_muzzle": 100,
+			"mod_barrel": 100,
+			"mod_reciever": 100,
+			"mod_tactical": 66,
+			"mod_sight_rear": 100,
+			"mod_sight_front": 100,
+			"mod_hammer": 100,
+			"mod_trigger": 100
 		}
 	},
 	"inventory": {
 		"equipment": {
 			"SecondPrimaryWeapon": {
 				"682d460e951a926af552d764": 1
+			},
+			"Holster": {
+				"6868d249cdee524f8c0ba45f": 33535,
+				"68b7f4060a4536984f82cf4b": 22598
 			}
 		},
 		"mods": {
+			"68b7f4060a4536984f82cf4b": {
+				"mod_magazine": [
+					"68b9c6cbf83285d088054b3b"
+				],
+				"mod_tactical": [
+					"68b9cf84c826940d2b684dad"
+				],
+				"mod_pistol_grip": [
+					"68b9c609e3d2f5545ff25fec"
+				],
+				"mod_reciever": [
+					"68b7f985dd6565e47eb9ee44"
+				],
+				"mod_hammer": [
+					"68b7f9242936eb3c214e1dd9"
+				],
+				"mod_trigger": [
+					"68b7f8d25cc65007af7be8de"
+				],
+				"mod_barrel": [
+					"68b7f613687ce0b4e6f3e64c"
+				]
+			},
+			"68b7f985dd6565e47eb9ee44": {
+				"mod_sight_rear": [
+					"68b9ce4e6ac219f4b866616d"
+				],
+				"mod_sight_front": [
+					"68b7f7ac290421dd052d8def"
+				]
+			},
+			"68b9ce4e6ac219f4b866616d": {
+				"mod_scope": [
+					"5a33b2c9c4a282000c5a9511"
+				]
+			},
+			"5a33b2c9c4a282000c5a9511": {
+				"mod_scope": [
+					"5a32aa8bc4a2826c6e06d737"
+				]
+			},
+			"68b7f613687ce0b4e6f3e64c": {
+				"mod_muzzle": [
+					"68b9e668a786e0e3b54ba0b9"
+				]
+			},
+			"6868d249cdee524f8c0ba45f": {
+				"mod_barrel": [
+					"6868d414e67828905d765b10"
+				],
+				"mod_reciever": [
+					"6868d55c5a39fb04c76e5bd0"
+				],
+				"mod_magazine": [
+					"676176b762e0497044079f49"
+				]
+			},
+			"6868d414e67828905d765b10": {
+				"mod_muzzle": [
+					"5c7e8fab2e22165df16b889b"
+				]
+			},
 			"682d460e951a926af552d764": {
 				"mod_pistol_grip": [
 					"682b94a07dd1fd93a60d0054"
@@ -49,6 +122,13 @@
 				"60194943740c5d77f6705eea": 503,
 				"54527a984bdc2d4e668b4567": 3030,
 				"54527ac44bdc2d36668b4567": 1630
+			},
+			"Caliber9x19PARA": {
+				"64b7bbb74b75259c590fa897": 25,
+				"5c925fa22e221601da359b7b": 1
+			},
+			"Caliber1143x23ACP": {
+				"5efb0fc6aeb21837e749c801": 1
 			}
 		}
 	}

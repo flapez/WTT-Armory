@@ -12,19 +12,42 @@
 			"mod_muzzle": 100,
 			"mod_gas_block": 100,
 			"mod_handguard": 100,
-			"mod_foregrip": 50,
+			"mod_foregrip": 45,
 			"mod_stock": 100,
 			"mod_stock_000": 100,
-			"mod_charge": 100
+			"mod_charge": 100,
+			"mod_sight_front": 100,
+			"mod_sight_rear": 100,
+			"mod_tactical_000": 55
 		}
 	},
 	"inventory": {
 		"equipment": {
 			"FirstPrimaryWeapon": {
 				"676b4e2ff185a450a0b300b4": 5500
+			},
+			"Holster": {
+				"68677d09339b397ed3d37522": 4313
 			}
 		},
 		"mods": {
+			"68677d09339b397ed3d37522": {
+				"mod_barrel": [
+					"68677fe993c9c9a5cf82dc05"
+				],
+				"mod_magazine": [
+					"68677d6e0eeee2ef7f1f4576"
+				],
+				"mod_sight_front": [
+					"6867821cdea16277c803a584"
+				],
+				"mod_sight_rear": [
+					"68678220f740d20e8625095f"
+				],
+				"mod_tactical_000": [
+					"5b07dd285acfc4001754240d"
+				]
+			},
 			"676b4e2ff185a450a0b300b4": {
 				"mod_pistol_grip": [
 					"6761b213607f9a6f79017d46",
@@ -87,6 +110,11 @@
 			"Caliber556x45NATO": {
 				"59e6906286f7746c9f75e847": 1,
 				"5c0d5ae286f7741e46554302": 1
+			},
+			"Caliber9x21": {
+				"6576f4708ca9c4381d16cd9d": 11,
+				"5a26ac0ec4a28200741e1e18": 25,
+				"5a26abfac4a28232980eabff": 33
 			}
 		}
 	}

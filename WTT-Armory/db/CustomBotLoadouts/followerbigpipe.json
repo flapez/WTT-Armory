@@ -29,9 +29,28 @@
 			},
 			"SecondPrimaryWeapon": {
 				"66e718dc498d978477e0ba75": 1860
+			},
+			"Holster": {
+				"6868d249cdee524f8c0ba45f": 21684
 			}
 		},
 		"mods": {
+			"6868d249cdee524f8c0ba45f": {
+				"mod_barrel": [
+					"6868d414e67828905d765b10"
+				],
+				"mod_reciever": [
+					"6868d55c5a39fb04c76e5bd0"
+				],
+				"mod_magazine": [
+					"676176b762e0497044079f49"
+				]
+			},
+			"6868d414e67828905d765b10": {
+				"mod_muzzle": [
+					"5c7e8fab2e22165df16b889b"
+				]
+			},
 			"6761b213607f9a6f79017c7e": {
 				"mod_charge": [
 					"6761b213607f9a6f79017c84"
@@ -126,6 +145,10 @@
 			},
 			"Caliber556x45NATO": {
 				"54527a984bdc2d4e668b4567": 1
+			},
+			"Caliber9x19PARA": {
+				"56d59d3ad2720bdb418b4577": 6575,
+				"5c925fa22e221601da359b7b": 1
 			}
 		}
 	}

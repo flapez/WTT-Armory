@@ -9,7 +9,7 @@
 			"mod_scope": 72,
 			"mod_handguard": 100,
 			"mod_mount": 100,
-			"mod_tactical_003": 100,
+			"mod_tactical_003": 22,
 			"mod_barrel": 100,
 			"mod_muzzle": 100,
 			"mod_gas_block": 100
@@ -19,9 +19,28 @@
 		"equipment": {
 			"FirstPrimaryWeapon": {
 				"66b177141a00c9af1fd50b2d": 5500
+			},
+			"Holster": {
+				"6868d249cdee524f8c0ba45f": 3351
 			}
 		},
 		"mods": {
+			"6868d249cdee524f8c0ba45f": {
+				"mod_barrel": [
+					"6868d414e67828905d765b10"
+				],
+				"mod_reciever": [
+					"6868d55c5a39fb04c76e5bd0"
+				],
+				"mod_magazine": [
+					"676176b762e0497044079f49"
+				]
+			},
+			"6868d414e67828905d765b10": {
+				"mod_muzzle": [
+					"5c7e8fab2e22165df16b889b"
+				]
+			},
 			"66b177141a00c9af1fd50b2d": {
 				"mod_magazine": [
 					"62307b7b10d2321fa8741921"
@@ -65,8 +84,12 @@
 		},
 		"ammo": {
 			"Caliber556x45NATO": {
-				"54527ac44bdc2d36668b4567": 1,
+				"54527ac44bdc2d36668b4567": 3,
 				"60194943740c5d77f6705eea": 1
+			},
+			"Caliber9x19PARA": {
+				"64b7bbb74b75259c590fa897": 1221,
+				"5c925fa22e221601da359b7b": 1
 			}
 		}
 	}
