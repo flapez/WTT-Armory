@@ -528,9 +528,9 @@
     },
     "locales": {
       "en": {
-        "name": "Heritage Ordnance 7.62x51mm 65-Round FAL Retro Drum Magazine",
+        "name": "Heritage Ordnance 7.62x51mm 60-Round FAL Retro Drum Magazine",
         "shortName": "SA58",
-        "description": "A 65-round 7.62x51 retro-styled drum magazine designed for the FAL/SA-58 platform."
+        "description": "A 60-round 7.62x51 retro-styled drum magazine designed for the FAL/SA-58 platform."
       }
     },
     "clearClonedProps": false,
