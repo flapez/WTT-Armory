@@ -4,7 +4,7 @@
     "_id": "687314e1ee500b06711955a2",
     "traderId": "54cb50c76803fa8b248b4571",
     "type": "PickUp",
-    "location": "5704e5fad2720bc05b8b4567",
+    "location": "Any",
     "image": "/files/quest/icon/59c273da86f77459b8017e7b.png",
     "instantComplete": false,
     "isKey": false,
