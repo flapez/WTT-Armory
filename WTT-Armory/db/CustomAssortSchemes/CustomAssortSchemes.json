@@ -3505,6 +3505,17 @@
                 }
             },
             {
+                "_id": "68fe74d826fc800b6d3c88d4",
+                "_tpl": "68dd61e02d8ca3d84120bb2a",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 999999,
+                    "BuyRestrictionMax": 200
+                }
+            },
+            {
                 "_id": "68df3e2f430b5b39a403e6df",
                 "_tpl": "68d40fb07130ef271f60991f",
                 "upd": {
@@ -3724,6 +3735,14 @@
                 [
                     {
                         "count": 28507,
+                        "_tpl": "5449016a4bdc2d6f028b456f"
+                    }
+                ]
+            ],
+            "68fe74d826fc800b6d3c88d4": [
+                [
+                    {
+                        "count": 3397,
                         "_tpl": "5449016a4bdc2d6f028b456f"
                     }
                 ]
@@ -4384,7 +4403,8 @@
             "68bb8ac9b22b1e43d404138a": 2,
             "68d7656ca999a3fad6de226a": 1,
             "68df3e2f430b5b39a403e6df": 1,
-            "68e70642a9277a20180422c2": 2
+            "68e70642a9277a20180422c2": 2,
+            "68fe74d826fc800b6d3c88d4": 1
         }
     },
     "SKIER": {
@@ -7153,6 +7173,17 @@
                 }
             },
             {
+                "_id": "68fe746bc8fc1ddeec23fdb7",
+                "_tpl": "68d4106532390e96f5a8f664",
+                "parentId": "hideout",
+                "slotId": "hideout",
+                "upd": {
+                    "UnlimitedCount": true,
+                    "StackObjectsCount": 999999,
+                    "BuyRestrictionMax": 0
+                }
+            },
+            {
                 "_id": "6851d01894c0a0026ef8f55c",
                 "_tpl": "6657bdb47618210e20db4064",
                 "parentId": "hideout",
@@ -7907,6 +7938,14 @@
                     }
                 ]
             ],
+            "68fe746bc8fc1ddeec23fdb7": [
+                [
+                    {
+                        "count": 1892,
+                        "_tpl": "5449016a4bdc2d6f028b456f"
+                    }
+                ]
+            ],
             "68cf6c56cb996a3530052b51": [
                 [
                     {
@@ -7961,7 +8000,8 @@
             "7a8875a8935c4718acc5d9ad": 3,
             "68c6fdf31fbe49721003df45": 1,
             "68cf6c56cb996a3530052b51": 1,
-            "68d764be0875417cf003f4a9": 1
+            "68d764be0875417cf003f4a9": 1,
+            "68fe746bc8fc1ddeec23fdb7": 1
         }
     },
     "JAEGER": {

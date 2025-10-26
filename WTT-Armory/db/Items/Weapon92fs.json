@@ -105,7 +105,7 @@
       "en": {
         "name": "Beretta 92FS 9x19 pistol",
         "shortName": "92FS",
-        "description": "The Beretta 92FS (military designation of M9), was the official service pistol adopted by the United States Armed Forces in 1985. The 92FS won a competition in the 1980s to replace the M1911A1 as the primary sidearm of the U.S. military, beating many other contenders and only narrowly defeating the SIG Sauer P226 for cost reasons. The weapon operates as a short recoi, semi-automatic, single-action/double-action pistol that uses a 15-round staggered box magazine."
+        "description": "The Beretta 92FS (military designation of M9), was the official service pistol adopted by the United States Armed Forces in 1985. The 92FS won a competition in the 1980s to replace the M1911A1 as the primary sidearm of the U.S. military, beating many other contenders and only narrowly defeating the SIG Sauer P226 for cost reasons. The weapon operates as a short recoil, semi-automatic, single-action/double-action pistol that uses a 15-round staggered box magazine."
       }
     },
     "clearClonedProps": false,
