@@ -11,7 +11,7 @@
       },
       "defMagType": "68fd5afbf79eba961169cd92",
       "defAmmo": "68fd537f2965f74cf4a87894",
-      "ammoCaliber": "Caliber10.36x77",
+      "ammoCaliber": "Caliber1036x77",
       "CompactHandling": false,
       "Width": 3,
       "Height": 1,
@@ -264,8 +264,8 @@
     },
     "locales": {
       "en": {
-        "name": "CheyTac M200 Intervention 10.36x77 sniper rifle",
-        "shortName": "CheyTac M200",
+        "name": "CheyTac M200 Intervention .408 CT bolt-action sniper rifle",
+        "shortName": "M200",
         "description": "The CheyTac Intervention, also known as the CheyTac M200, is an American bolt-action sniper rifle manufactured by CheyTac USA, which can also be classified as an anti-materiel rifle. It is fed by a seven-round detachable single-stack magazine (an optional five-round magazine is also available). CheyTac Inc. states that the system is capable of delivering sub-MOA accuracy at ranges of up to 2,500 yd (2,286 m)."
       }
     },
@@ -389,7 +389,7 @@
       },
       "defMagType": "68fd5c3dd4f0cdc4cad9f19c",
       "defAmmo": "68fd537f2965f74cf4a87894",
-      "ammoCaliber": "Caliber10.36x77",
+      "ammoCaliber": "Caliber1036x77",
       "CompactHandling": false,
       "Width": 3,
       "Height": 1,
@@ -642,8 +642,8 @@
     },
     "locales": {
       "en": {
-        "name": "CheyTac M200 Intervention 10.36x77 sniper rifle (FDE)",
-        "shortName": "CheyTac M200 FDE",
+        "name": "CheyTac M200 Intervention .408 CT bolt-action sniper rifle (FDE)",
+        "shortName": "M200",
         "description": "The CheyTac Intervention, also known as the CheyTac M200, is an American bolt-action sniper rifle manufactured by CheyTac USA, which can also be classified as an anti-materiel rifle. It is fed by a seven-round detachable single-stack magazine (an optional five-round magazine is also available). CheyTac Inc. states that the system is capable of delivering sub-MOA accuracy at ranges of up to 2,500 yd (2,286 m)."
       }
     },
@@ -767,7 +767,7 @@
       },
       "defMagType": "68fd5afbf79eba961169cd92",
       "defAmmo": "68fd537f2965f74cf4a87894",
-      "ammoCaliber": "Caliber10.36x77",
+      "ammoCaliber": "Caliber1036x77",
       "CompactHandling": false,
       "Width": 3,
       "Height": 1,
@@ -1020,8 +1020,8 @@
     },
     "locales": {
       "en": {
-        "name": "CheyTac M200 Intervention 10.36x77 sniper rifle (Camo)",
-        "shortName": "CheyTac M200 C",
+        "name": "CheyTac M200 Intervention .408 CT bolt-action sniper rifle (Camo)",
+        "shortName": "M200",
         "description": "The CheyTac Intervention, also known as the CheyTac M200, is an American bolt-action sniper rifle manufactured by CheyTac USA, which can also be classified as an anti-materiel rifle. It is fed by a seven-round detachable single-stack magazine (an optional five-round magazine is also available). CheyTac Inc. states that the system is capable of delivering sub-MOA accuracy at ranges of up to 2,500 yd (2,286 m)."
       }
     },
@@ -1148,8 +1148,8 @@
     "locales": {
       "en": {
         "name": "CheyTac M200 Intervention collapsible stock",
-        "shortName": "M200 Collapsing",
-        "description": "Standard collapsing stock for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "shortName": "M200 clps.",
+        "description": "Standard collapsing stock for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -1184,8 +1184,8 @@
     "locales": {
       "en": {
         "name": "CheyTac M200 Intervention collapsible stock (FDE)",
-        "shortName": "M200 Collapsing",
-        "description": "Standard collapsing stock for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "shortName": "M200 clps.",
+        "description": "Standard collapsing stock for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -1221,7 +1221,7 @@
     "locales": {
       "en": {
         "name": "OmniTech Systems CheyTac M200 MKI skeletonized stock",
-        "shortName": "Skele MkI",
+        "shortName": "Mk.1 Skel.",
         "description": "Skeletonized fixed stock for the CheyTac M200 manufactured by OmniTech Systems."
       }
     },
@@ -1258,7 +1258,7 @@
     "locales": {
       "en": {
         "name": "OmniTech Systems CheyTac M200 MKII skeletonized stock",
-        "shortName": "Skele MkII",
+        "shortName": "Mk.2 Skel.",
         "description": "Skeletonized fixed stock for the CheyTac M200 manufactured by OmniTech Systems. Improved MkII variant."
       }
     },
@@ -1293,7 +1293,7 @@
     "locales": {
       "en": {
         "name": "AR-15 Colt A2 pistol grip (wrapped)",
-        "shortName": "A2 W",
+        "shortName": "A2 PG",
         "description": "The Colt A2 polymer pistol grip can be installed on any weapon compatible with AR-15 grips. Standard-issue for all AR-15-based weapons of US Army and USMC."
       }
     },
@@ -1349,9 +1349,9 @@
     },
     "locales": {
       "en": {
-        "name": "CheyTac M200 Intervention 10.36x77 7-round magazine",
-        "shortName": "M200-7",
-        "description": "Standard 7-round 10.36x77 magazine for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "name": "CheyTac M200 Intervention .408 CT 7-round magazine",
+        "shortName": "M200",
+        "description": "Standard 7-round .408 CT magazine for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -1406,9 +1406,9 @@
     },
     "locales": {
       "en": {
-        "name": "CheyTac M200 Intervention 10.36x77 7-round magazine (FDE)",
-        "shortName": "M200-7-FDE",
-        "description": "Standard 7-round 10.36x77 magazine for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "name": "CheyTac M200 Intervention .408 CT 7-round magazine (FDE)",
+        "shortName": "M200",
+        "description": "Standard 7-round .408 CT magazine for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -1463,9 +1463,9 @@
     },
     "locales": {
       "en": {
-        "name": "CheyTac M200 Intervention 10.36x77 5-round magazine",
-        "shortName": "M200-5",
-        "description": "Compact 5-round 10.36x77 magazine for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "name": "CheyTac M200 Intervention .408 CT 5-round magazine",
+        "shortName": "M200",
+        "description": "Compact 5-round .408 CT magazine for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -1523,9 +1523,9 @@
     },
     "locales": {
       "en": {
-        "name": "CheyTac M200 Intervention .408 CheyTac 29 inch barrel",
+        "name": "CheyTac M200 Intervention .408 CT 29 inch barrel",
         "shortName": "M200 29\"",
-        "description": "Standard 29 inch (736mm) .408 CheyTac barrel for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "description": "Standard 29 inch (736mm) .408 CT barrel for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -1583,9 +1583,9 @@
     },
     "locales": {
       "en": {
-        "name": "CheyTac M200 Intervention .408 CheyTac 29 inch barrel (FDE)",
-        "shortName": "M200 29\" FDE",
-        "description": "Standard 29 inch (736mm) .408 CheyTac barrel for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "name": "CheyTac M200 Intervention .408 CT 29 inch barrel (FDE)",
+        "shortName": "M200 29\"",
+        "description": "Standard 29 inch (736mm) .408 CT barrel for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -1643,9 +1643,9 @@
     },
     "locales": {
       "en": {
-        "name": "CheyTac M200 Intervention .408 CheyTac custom 20 inch barrel",
+        "name": "CheyTac M200 Intervention .408 CT custom 20 inch barrel",
         "shortName": "M200 20\"",
-        "description": "Custom 20 inch (508mm) .408 CheyTac barrel for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "description": "Custom 20 inch (508mm) .408 CT barrel for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -1703,9 +1703,9 @@
     },
     "locales": {
       "en": {
-        "name": "CheyTac M200 Intervention .408 CheyTac custom 20 inch barrel (Camo)",
-        "shortName": "M200 20\" C",
-        "description": "Custom 20 inch (508mm) .408 CheyTac barrel for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "name": "CheyTac M200 Intervention .408 CT custom 20 inch barrel (Camo)",
+        "shortName": "M200 20\"",
+        "description": "Custom 20 inch (508mm) .408 CT barrel for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -1740,9 +1740,9 @@
     },
     "locales": {
       "en": {
-        "name": "CheyTac M200 Intervention 10.36x77 muzzle brake",
+        "name": "CheyTac M200 Intervention .408 CT muzzle brake",
         "shortName": "Brake",
-        "description": "Standard muzzle brake for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "description": "Standard muzzle brake for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -1777,9 +1777,9 @@
     },
     "locales": {
       "en": {
-        "name": "CheyTac M200 Intervention 10.36x77 muzzle brake (FDE)",
-        "shortName": "Brake FDE",
-        "description": "Standard muzzle brake for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "name": "CheyTac M200 Intervention .408 CT muzzle brake (FDE)",
+        "shortName": "M200 MB",
+        "description": "Standard muzzle brake for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -1812,9 +1812,9 @@
     },
     "locales": {
       "en": {
-        "name": "Elite Iron Windtalker AMF .408 CheyTac sound suppressor",
-        "shortName": "AMF",
-        "description": "Rifle suppressor designed specifically for the .408 CheyTac bullet manufactured by Elite Iron."
+        "name": "Elite Iron Windtalker AMF .408 CT sound suppressor",
+        "shortName": "AMF .408",
+        "description": "Rifle suppressor designed specifically for the .408 CT bullet manufactured by Elite Iron."
       }
     },
     "clearClonedProps": false,
@@ -1847,9 +1847,9 @@
     },
     "locales": {
       "en": {
-        "name": "Elite Iron Windtalker AMF .408 CheyTac sound suppressor (FDE)",
-        "shortName": "AMF FDE",
-        "description": "Rifle suppressor designed specifically for the .408 CheyTac bullet manufactured by Elite Iron."
+        "name": "Elite Iron Windtalker AMF .408 CT sound suppressor (FDE)",
+        "shortName": "AMF .408",
+        "description": "Rifle suppressor designed specifically for the .408 CT bullet manufactured by Elite Iron."
       }
     },
     "clearClonedProps": false,
@@ -1882,9 +1882,9 @@
     },
     "locales": {
       "en": {
-        "name": "Elite Iron Windtalker AMF .408 CheyTac sound suppressor (Titanium)",
-        "shortName": "AMF TI",
-        "description": "Rifle suppressor designed specifically for the .408 CheyTac bullet manufactured by Elite Iron. Upgraded titanium model."
+        "name": "Elite Iron Windtalker AMF .408 CT sound suppressor (Titanium)",
+        "shortName": "AMF-Ti .408",
+        "description": "Rifle suppressor designed specifically for the .408 CT bullet manufactured by Elite Iron. Upgraded titanium model."
       }
     },
     "clearClonedProps": false,
@@ -1919,7 +1919,7 @@
       "en": {
         "name": "CheyTac M200 Invervention bipod",
         "shortName": "M200 Bipod",
-        "description": "Standard issue bipod for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "description": "Standard issue bipod for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -1953,8 +1953,8 @@
     "locales": {
       "en": {
         "name": "CheyTac M200 Invervention bipod (Camo)",
-        "shortName": "M200 Bipod C",
-        "description": "Standard issue bipod for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "shortName": "M200 Bipod",
+        "description": "Standard issue bipod for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -1988,8 +1988,8 @@
     "locales": {
       "en": {
         "name": "CheyTac M200 Invervention bipod (FDE)",
-        "shortName": "M200 Bipod FDE",
-        "description": "Standard issue bipod for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "shortName": "M200 Bipod",
+        "description": "Standard issue bipod for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -2069,7 +2069,7 @@
       "en": {
         "name": "CheyTac M200 Intervention tubular handguard",
         "shortName": "M200 HG",
-        "description": "Standard issue tubular handguard for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "description": "Standard issue tubular handguard for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -2148,8 +2148,8 @@
     "locales": {
       "en": {
         "name": "CheyTac M200 Intervention tubular handguard (FDE)",
-        "shortName": "M200 HG FDE",
-        "description": "Standard issue tubular handguard for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "shortName": "M200 HG",
+        "description": "Standard issue tubular handguard for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -2208,8 +2208,8 @@
     "locales": {
       "en": {
         "name": "OmniTech Systems CheyTac M200 Intervention tactical handguard",
-        "shortName": "M200 HG Tac",
-        "description": "Tactical aftermarket handguard for the CheyTac M200 Intervention 10.36x77 sniper rifle manufactured by OmniTech Systems."
+        "shortName": "M200 Tac.",
+        "description": "Tactical aftermarket handguard for the CheyTac M200 Intervention .408 CT sniper rifle manufactured by OmniTech Systems."
       }
     },
     "clearClonedProps": false,
@@ -2313,8 +2313,8 @@
     "locales": {
       "en": {
         "name": "CheyTac M200 Intervention custom handguard (Camo)",
-        "shortName": "M200 HG Custom",
-        "description": "A custom aftermarket handguard for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "shortName": "M200 Custom",
+        "description": "A custom aftermarket handguard for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -2348,8 +2348,8 @@
     "locales": {
       "en": {
         "name": "CheyTac M200 Intervention carry handle",
-        "shortName": "M200 Grip",
-        "description": "Standard carry handle system for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "shortName": "M200 CHandle",
+        "description": "Standard carry handle system for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -2383,8 +2383,8 @@
     "locales": {
       "en": {
         "name": "CheyTac M200 Intervention carry handle (FDE)",
-        "shortName": "M200 Grip FDE",
-        "description": "Standard carry handle system for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "shortName": "M200 CHandle",
+        "description": "Standard carry handle system for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -2418,8 +2418,8 @@
     "locales": {
       "en": {
         "name": "CheyTac M200 Intervention skeletonized carry handle",
-        "shortName": "M200 Grip Skele",
-        "description": "Skeletonized carry handle system for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "shortName": "M200 CHandle Skel.",
+        "description": "Skeletonized carry handle system for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -2453,8 +2453,8 @@
     "locales": {
       "en": {
         "name": "CheyTac M200 Intervention tactical carry handle",
-        "shortName": "M200 Grip Tac",
-        "description": "Tactical carry handle system for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "shortName": "M200 CHandle Tac.",
+        "description": "Tactical carry handle system for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
@@ -2488,8 +2488,8 @@
     "locales": {
       "en": {
         "name": "CheyTac M200 Intervention wrapped carry handle",
-        "shortName": "M200 Grip W",
-        "description": "A custom carry handle wrapped in paracord for the CheyTac M200 Intervention 10.36x77 sniper rifle."
+        "shortName": "M200 CHandle Wrap.",
+        "description": "A custom carry handle wrapped in paracord for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
     "clearClonedProps": false,
