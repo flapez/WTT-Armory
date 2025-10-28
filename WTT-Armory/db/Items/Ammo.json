@@ -529,7 +529,24 @@
 			"Prefab": {
 				"path": "Ammo/patron_1036x77_fmj.bundle",
 				"rcid": ""
-			}
+			},
+      "Weight": 0.027,
+      "InitialSpeed": 1010,
+      "BallisticCoeficient": 0.94,
+      "BulletMassGram": 19.8,
+      "BulletDiameterMilimeters": 10.36,
+      "Damage": 133,
+      "ammoAccr": -5,
+      "ammoRec": 3,
+      "PenetrationPower": 52,
+      "PenetrationPowerDiviation": 0.09,
+      "ArmorDamage": 81,
+      "DurabilityBurnModificator": 1.12,
+      "HeatFactor": 1.17,
+      "HeavyBleedingDelta": 0.12,
+      "LightBleedingDelta": 0.35,
+      "MalfFeedChance": 0.036,
+      "Caliber": "Caliber1036x77"
 		},
 		"locales": {
 			"en": {
@@ -569,11 +586,28 @@
 			"Prefab": {
 				"path": "Ammo/patron_1036x77_ap.bundle",
 				"rcid": ""
-			}
+			},
+      "Weight": 0.027,
+      "InitialSpeed": 994,
+      "BallisticCoeficient": 0.945,
+      "BulletMassGram": 20.1,
+      "BulletDiameterMilimeters": 10.36,
+      "Damage": 99,
+      "ammoAccr": -4,
+      "ammoRec": 10,
+      "PenetrationPower": 76,
+      "PenetrationPowerDiviation": 0.09,
+      "ArmorDamage": 54,
+      "DurabilityBurnModificator": 1.12,
+      "HeatFactor": 1.17,
+      "HeavyBleedingDelta": 0.08,
+      "LightBleedingDelta": 0.15,
+      "MalfFeedChance": 0.036,
+      "Caliber": "Caliber1036x77"
 		},
 		"locales": {
 			"en": {
-				"name": ".408 Cheyenne Tactical Armor Piercing",
+				"name": ".408 Cheyenne Tactical AP",
 				"shortName": "AP",
 				"description": ""
 			}
@@ -609,7 +643,24 @@
 			"Prefab": {
 				"path": "Ammo/patron_1036x77_match.bundle",
 				"rcid": ""
-			}
+			},
+      "Weight": 0.027,
+      "InitialSpeed": 1001,
+      "BallisticCoeficient": 0.933,
+      "BulletMassGram": 19.9,
+      "BulletDiameterMilimeters": 10.36,
+      "Damage": 114,
+      "ammoAccr": 1,
+      "ammoRec": 3,
+      "PenetrationPower": 49,
+      "PenetrationPowerDiviation": 0.152,
+      "ArmorDamage": 66,
+      "DurabilityBurnModificator": 1.12,
+      "HeatFactor": 1.17,
+      "HeavyBleedingDelta": 0.2,
+      "LightBleedingDelta": 0.44,
+      "MalfFeedChance": 0.036,
+      "Caliber": "Caliber1036x77"
 		},
 		"locales": {
 			"en": {
