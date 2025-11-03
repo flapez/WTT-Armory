@@ -587,6 +587,7 @@
 				"path": "Ammo/patron_1036x77_ap.bundle",
 				"rcid": ""
 			},
+      "CanSellOnRagfair": false,
       "Weight": 0.027,
       "InitialSpeed": 994,
       "BallisticCoeficient": 0.945,
