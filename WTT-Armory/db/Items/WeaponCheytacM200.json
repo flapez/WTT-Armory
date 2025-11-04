@@ -13,6 +13,7 @@
       "defAmmo": "68fd537f2965f74cf4a87894",
       "ammoCaliber": "Caliber1036x77",
       "CompactHandling": false,
+      "Weight": 5.517,
       "Width": 3,
       "Height": 1,
       "CanSellOnRagfair": true,
@@ -159,7 +160,8 @@
                 "Filter": [
                   "68fd73dd4b2e7a40cca969b4",
                   "68fd74c33e4a9ddcac041e36",
-                  "68fd7531f17e10355836323c"
+                  "68fd7531f17e10355836323c",
+				  "68fd75e399c0ae29b3d0d2ae"
                 ],
                 "Shift": 0
               }
@@ -391,6 +393,7 @@
       "defAmmo": "68fd537f2965f74cf4a87894",
       "ammoCaliber": "Caliber1036x77",
       "CompactHandling": false,
+      "Weight": 4.517,
       "Width": 3,
       "Height": 1,
       "CanSellOnRagfair": true,
@@ -537,7 +540,8 @@
                 "Filter": [
                   "68fd73dd4b2e7a40cca969b4",
                   "68fd74c33e4a9ddcac041e36",
-                  "68fd7531f17e10355836323c"
+                  "68fd7531f17e10355836323c",
+				  "68fd75e399c0ae29b3d0d2ae"
                 ],
                 "Shift": 0
               }
@@ -769,6 +773,7 @@
       "defAmmo": "68fd537f2965f74cf4a87894",
       "ammoCaliber": "Caliber1036x77",
       "CompactHandling": false,
+      "Weight": 4.517,
       "Width": 3,
       "Height": 1,
       "CanSellOnRagfair": true,
@@ -915,7 +920,8 @@
                 "Filter": [
                   "68fd73dd4b2e7a40cca969b4",
                   "68fd74c33e4a9ddcac041e36",
-                  "68fd7531f17e10355836323c"
+                  "68fd7531f17e10355836323c",
+				  "68fd75e399c0ae29b3d0d2ae"
                 ],
                 "Shift": 0
               }
@@ -1142,6 +1148,7 @@
         "path": "WeaponCheytacM200/m200_stock.bundle",
         "rcid": ""
       },
+      "Weight": 1.705,
       "Slots": [],
       "ExaminedByDefault": true
     },
@@ -1178,6 +1185,7 @@
         "path": "WeaponCheytacM200/m200_stock_fde.bundle",
         "rcid": ""
       },
+      "Weight": 1.705,
       "Slots": [],
       "ExaminedByDefault": true
     },
@@ -1214,6 +1222,7 @@
         "path": "WeaponCheytacM200/m200_stock_skeletonized_mk1.bundle",
         "rcid": ""
       },
+      "Weight": 1.412,
       "Slots": [],
       "BlocksFolding": true,
       "ExaminedByDefault": true
@@ -1251,6 +1260,7 @@
         "path": "WeaponCheytacM200/m200_stock_skeletonized_mk2.bundle",
         "rcid": ""
       },
+      "Weight": 1.242,
       "Slots": [],
       "BlocksFolding": true,
       "ExaminedByDefault": true
@@ -1288,6 +1298,7 @@
         "path": "WeaponCheytacM200/a2_grip_taped.bundle",
         "rcid": ""
       },
+	  "Ergonomics": 8,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1319,12 +1330,12 @@
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
     "overrideProperties": {
-      "Weight": 0.16,
       "ExaminedByDefault": true,
       "Prefab": {
         "path": "WeaponCheytacM200/m200_magazine_lrg.bundle",
         "rcid": ""
       },
+      "Weight": 0.706,
       "Height": 2,
       "Cartridges": [
         {
@@ -1376,12 +1387,12 @@
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
     "overrideProperties": {
-      "Weight": 0.16,
       "ExaminedByDefault": true,
       "Prefab": {
         "path": "WeaponCheytacM200/m200_magazine_lrg_fde.bundle",
         "rcid": ""
       },
+      "Weight": 0.706,
       "Height": 2,
       "Cartridges": [
         {
@@ -1433,12 +1444,12 @@
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
     "overrideProperties": {
-      "Weight": 0.16,
       "ExaminedByDefault": true,
       "Prefab": {
         "path": "WeaponCheytacM200/m200_magazine_sm.bundle",
         "rcid": ""
       },
+      "Weight": 0.393,
       "Height": 1,
       "Cartridges": [
         {
@@ -1494,8 +1505,10 @@
         "path": "WeaponCheytacM200/m200_barrel.bundle",
         "rcid": ""
       },
+      "Weight": 3.39,
       "ExaminedByDefault": true,
-      "ExtraSizeLeft": 2,
+      "ExtraSizeLeft": 3,
+	  "Width": 5,
       "Slots": [
         {
           "_id": "68fd5f8cf33cb8418d6356fe",
@@ -1554,8 +1567,10 @@
         "path": "WeaponCheytacM200/m200_barrel_fde.bundle",
         "rcid": ""
       },
+      "Weight": 3.39,
       "ExaminedByDefault": true,
-      "ExtraSizeLeft": 2,
+      "ExtraSizeLeft": 3,
+	  "Width": 5,
       "Slots": [
         {
           "_id": "68fd5fd863fa1ec16b0d48ad",
@@ -1614,8 +1629,9 @@
         "path": "WeaponCheytacM200/m200_barrel_short.bundle",
         "rcid": ""
       },
+      "Weight": 2.336,
       "ExaminedByDefault": true,
-      "ExtraSizeLeft": 1,
+      "ExtraSizeLeft": 2,
       "Slots": [
         {
           "_id": "68fd60700a5e53c51e2487d7",
@@ -1674,8 +1690,9 @@
         "path": "WeaponCheytacM200/m200_barrel_short_camo.bundle",
         "rcid": ""
       },
+      "Weight": 2.336,
       "ExaminedByDefault": true,
-      "ExtraSizeLeft": 1,
+      "ExtraSizeLeft": 2,
       "Slots": [
         {
           "_id": "68fd61445ae8221afd5fcd9c",
@@ -1735,6 +1752,7 @@
         "path": "WeaponCheytacM200/m200_muzzle.bundle",
         "rcid": ""
       },
+      "Weight": 0.42,
       "RaidModdable": true,
       "Slots": []
     },
@@ -1772,6 +1790,7 @@
         "path": "WeaponCheytacM200/m200_muzzle_fde.bundle",
         "rcid": ""
       },
+      "Weight": 0.42,
       "RaidModdable": true,
       "Slots": []
     },
@@ -1808,6 +1827,7 @@
         "path": "WeaponCheytacM200/m200_windtalker_suppressor.bundle",
         "rcid": ""
       },
+      "Weight": 2.0,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1835,15 +1855,14 @@
     "StaticLootContainers": []
   },
   "68fd63e8842f704b09062fd1": {
-    "itemTplToClone": "673f0a9370a3ddcf0d0ee0b8",
+    "itemTplToClone": "68fd62d343a142b14be0c3ec",
     "parentId": "550aa4cd4bdc2dd8348b456c",
     "handbookParentId": "5b5f731a86f774093e6cb4f9",
     "overrideProperties": {
       "Prefab": {
         "path": "WeaponCheytacM200/m200_windtalker_suppressor_fde.bundle",
         "rcid": ""
-      },
-      "ExaminedByDefault": true
+      }
     },
     "locales": {
       "en": {
@@ -1870,15 +1889,14 @@
     "StaticLootContainers": []
   },
   "68fd6401e11fcc19f3a8d365": {
-    "itemTplToClone": "673f0a9370a3ddcf0d0ee0b8",
+    "itemTplToClone": "68fd62d343a142b14be0c3ec",
     "parentId": "550aa4cd4bdc2dd8348b456c",
     "handbookParentId": "5b5f731a86f774093e6cb4f9",
     "overrideProperties": {
       "Prefab": {
         "path": "WeaponCheytacM200/m200_windtalker_suppressor_ti.bundle",
         "rcid": ""
-      },
-      "ExaminedByDefault": true
+      }
     },
     "locales": {
       "en": {
@@ -1913,7 +1931,8 @@
       "Prefab": {
         "path": "WeaponCheytacM200/m200_bipod.bundle",
         "rcid": ""
-      }
+      },
+      "Weight": 0.85
     },
     "locales": {
       "en": {
@@ -1940,7 +1959,7 @@
     "StaticLootContainers": []
   },
   "68fd72acc8fe574cbf6cb70a": {
-    "itemTplToClone": "622b397c9a3d4327e41843b6",
+    "itemTplToClone": "68fd727675ed7e422a8e89c2",
     "parentId": "55818afb4bdc2dde698b456d",
     "handbookParentId": "5b5f71c186f77409407a7ec0",
     "overrideProperties": {
@@ -1975,7 +1994,7 @@
     "StaticLootContainers": []
   },
   "68fd72a7dbb26b84c33b8a91": {
-    "itemTplToClone": "622b397c9a3d4327e41843b6",
+    "itemTplToClone": "68fd727675ed7e422a8e89c2",
     "parentId": "55818afb4bdc2dde698b456d",
     "handbookParentId": "5b5f71c186f77409407a7ec0",
     "overrideProperties": {
@@ -2018,6 +2037,7 @@
         "path": "WeaponCheytacM200/m200_handguard.bundle",
         "rcid": ""
       },
+      "Weight": 0.995,
       "Width": 2,
       "Slots": [
         {
@@ -2090,60 +2110,14 @@
     "StaticLootContainers": []
   },
   "68fd74c33e4a9ddcac041e36": {
-    "itemTplToClone": "5cf4e3f3d7f00c06595bc7f0",
+    "itemTplToClone": "68fd73dd4b2e7a40cca969b4",
     "parentId": "55818a104bdc2db9688b4569",
     "handbookParentId": "5b5f75e486f77447ec5d7712",
     "overrideProperties": {
       "Prefab": {
         "path": "WeaponCheytacM200/m200_handguard_fde.bundle",
         "rcid": ""
-      },
-      "Width": 2,
-      "Slots": [
-        {
-          "_id": "68fd74d7de6f83ca322013c4",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_foregrip",
-          "_parent": "68fd74c33e4a9ddcac041e36",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "68fd779336afbe413653f9a3",
-                  "68fd78cb3a0d215355758ca0",
-                  "68fd7987adf46ad6d9ee6c29",
-                  "68fd798ae98cfd549152a62a",
-                  "68fd79a09bd9b65b910edb4a"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "68fd74d42dd24131037c8422",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_bipod",
-          "_parent": "68fd74c33e4a9ddcac041e36",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "68fd727675ed7e422a8e89c2",
-                  "68fd72a7dbb26b84c33b8a91",
-                  "68fd72acc8fe574cbf6cb70a"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        }
-      ],
-      "ExaminedByDefault": true
+      }
     },
     "locales": {
       "en": {
@@ -2178,6 +2152,7 @@
         "path": "WeaponCheytacM200/m200_handguard_tactical.bundle",
         "rcid": ""
       },
+      "Weight": 1.176,
       "Width": 2,
       "Slots": [
         {
@@ -2238,6 +2213,7 @@
         "path": "WeaponCheytacM200/m200_handguard_boss.bundle",
         "rcid": ""
       },
+      "Weight": 0.905,
       "Width": 2,
       "Slots": [
         {
@@ -2343,6 +2319,7 @@
         "path": "WeaponCheytacM200/m200_grip.bundle",
         "rcid": ""
       },
+	  "Weight": 0.135,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -2378,6 +2355,7 @@
         "path": "WeaponCheytacM200/m200_grip_fde.bundle",
         "rcid": ""
       },
+	  "Weight": 0.135,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -2413,6 +2391,7 @@
         "path": "WeaponCheytacM200/m200_grip_skele.bundle",
         "rcid": ""
       },
+	  "Weight": 0.105,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -2448,6 +2427,7 @@
         "path": "WeaponCheytacM200/m200_grip_polymer.bundle",
         "rcid": ""
       },
+	  "Weight": 0.95,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -2483,6 +2463,7 @@
         "path": "WeaponCheytacM200/m200_grip_wrapped.bundle",
         "rcid": ""
       },
+	  "Weight": 0.125,
       "ExaminedByDefault": true
     },
     "locales": {
