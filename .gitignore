@@ -15,3 +15,10 @@ Virtual's Custom Quest Loader/database/assorts
 Virtual's Custom Quest Loader/database/quests
 Virtual's Custom Quest Loader/database/quests/README.txt
 config.json
+/Build
+WTT-Armory/bin/
+WTT-Armory/obj/
+WTT-Armory/Folder.DotSettings.user
+Build
+.idea/
+WTT-Armory.sln.DotSettings.user
