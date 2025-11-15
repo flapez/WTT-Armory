@@ -164,7 +164,7 @@
       "en": {
         "name": "Magpul Masada 5.56x45 assault rifle",
         "shortName": "Masada",
-        "description": ""
+        "description": "The Masada is a much rarer instance of the popular Remington ACR, which was designed as a next-generation modular rifle intended to blend the best features of several proven platforms. Built around a fully ambidextrous, user-configurable architecture, the rifle allows for quick caliber changes through barrel-swaps. Manufactured by Magpul."
       }
     },
     "addtoInventorySlots": [],
@@ -436,8 +436,8 @@
     "locales": {
       "en": {
         "name": "Magpul Masada 5.56x45 assault rifle (FDE)",
-        "shortName": "Masada FDE",
-        "description": ""
+        "shortName": "Masada",
+        "description": "The Masada is a much rarer instance of the popular Remington ACR, which was designed as a next-generation modular rifle intended to blend the best features of several proven platforms. Built around a fully ambidextrous, user-configurable architecture, the rifle allows for quick caliber changes through barrel-swaps. Manufactured by Magpul. Flat Dark Earth version."
       }
     },
     "addtoInventorySlots": [],
@@ -732,9 +732,9 @@
     },
     "locales": {
       "en": {
-        "name": "Custom Magpul Masada .300 assault rifle",
-        "shortName": "Masada 300",
-        "description": ""
+        "name": "Magpul Masada 5.56x45 assault rifle (Custom)",
+        "shortName": "Masada",
+        "description": "The Masada is a much rarer instance of the popular Remington ACR, which was designed as a next-generation modular rifle intended to blend the best features of several proven platforms. Built around a fully ambidextrous, user-configurable architecture, the rifle allows for quick caliber changes through barrel-swaps. Manufactured by Magpul. This version has been adapted to use the .300 Blackout Cartridge."
       }
     },
     "addtoInventorySlots": [],
@@ -1050,7 +1050,7 @@
     },
     "locales": {
       "en": {
-        "name": "Magpul Masada custom .300 10.5 inch barrel",
+        "name": "Magpul Masada .300 BLK 10.5 inch barrel",
         "shortName": "Masada .300 10.5\"",
         "description": "A custom 10.5 inch (266mm) barrel designed to fire .300BLK cartridges for the Magpul Masada rifle."
       }
@@ -1081,7 +1081,7 @@
     "locales": {
       "en": {
         "name": "SIG Sauer SRD762Ti 7.62x51 sound suppressor (Camo)",
-        "shortName": "SRD762 C",
+        "shortName": "SRD762",
         "description": "SRD762Ti is a Grade 5 titanium sound suppressor designed for use with .308/7.62/300BLK barrels, manufactured by SIG Sauer."
       }
     },
@@ -1233,7 +1233,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada polymer folding stock",
-        "shortName": "Masada Folding",
+        "shortName": "Masada Fold.",
         "description": "Standard polymer folding stock for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -1267,7 +1267,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada polymer folding stock (FDE)",
-        "shortName": "Masada Folding",
+        "shortName": "Masada Fold.",
         "description": "Standard polymer folding stock for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -2183,7 +2183,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada flip-up rear sight (FDE)",
-        "shortName": "Masada RS FDE",
+        "shortName": "Masada RS",
         "description": "Removable picatinny folding rear sight manufactured by Magpul."
       }
     },
@@ -2410,7 +2410,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada buffer tube adapter",
-        "shortName": "Masada Buffer",
+        "shortName": "Masada Adpt.",
         "description": "A buffer tube adapter for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -2532,7 +2532,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada M-LOK DMR handguard",
-        "shortName": "Masada DMR HG",
+        "shortName": "Masada DMR",
         "description": "DMR M-LOK polymer handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -2654,7 +2654,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada M-LOK DMR handguard (FDE)",
-        "shortName": "Masada DMR HG",
+        "shortName": "Masada DMR",
         "description": "DMR M-LOK polymer handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -2811,7 +2811,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada micro tri-rail handguard",
-        "shortName": "Masada Tri",
+        "shortName": "Masada Tri-Rail",
         "description": "Shortened tri-rail handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -2968,7 +2968,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada micro tri-rail handguard (FDE)",
-        "shortName": "Masada Tri",
+        "shortName": "Masada Micro Tri.",
         "description": "Shortened tri-rail handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -3146,7 +3146,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada extended hybrid handguard",
-        "shortName": "Masada Ext",
+        "shortName": "Masada Ext.",
         "description": "Extended hybrid handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -3324,7 +3324,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada extended hybrid handguard (FDE)",
-        "shortName": "Masada Ext",
+        "shortName": "Masada Ext.",
         "description": "Extended hybrid handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -3424,7 +3424,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada M-LOK minimalist handguard",
-        "shortName": "Masada Mini",
+        "shortName": "Masada Mini.",
         "description": "Minimalist M-LOK handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -3524,7 +3524,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada M-LOK minimalist handguard (FDE)",
-        "shortName": "Masada Mini",
+        "shortName": "Masada Mini.",
         "description": "Minimalist M-LOK handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -3696,7 +3696,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada extended KeyMod handguard",
-        "shortName": "Masada KeyExt",
+        "shortName": "Masada KeyMod",
         "description": "Extended KeyMod handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -3868,7 +3868,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada extended KeyMod handguard (FDE)",
-        "shortName": "Masada KeyExt",
+        "shortName": "Masada KeyMod",
         "description": "Extended KeyMod handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -4028,7 +4028,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada M-LOK mid-length handguard",
-        "shortName": "Masada MLOK Mid",
+        "shortName": "Masada Mid.",
         "description": "A mid-length M-LOK handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -4188,7 +4188,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada M-LOK mid-length handguard (FDE)",
-        "shortName": "Masada MLOK Mid",
+        "shortName": "Masada Mid",
         "description": "A mid-length M-LOK handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -4288,7 +4288,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada custom M-LOK micro handguard (Camo)",
-        "shortName": "Masada CM",
+        "shortName": "Masada Micro",
         "description": "A custom micro M-LOK handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -4409,7 +4409,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada custom M-LOK mid-length handguard (Camo)",
-        "shortName": "Masada C Mid",
+        "shortName": "Masada Mid",
         "description": "A custom mid-length M-LOK handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -4981,7 +4981,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada mid-length KeyMod handguard",
-        "shortName": "Masada KeyMid",
+        "shortName": "Masada KeyMod Mid.",
         "description": "Mid-length KeyMod handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -5083,7 +5083,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada mid-length KeyMod handguard (FDE)",
-        "shortName": "Masada KeyMid",
+        "shortName": "Masada KeyMod Mid.",
         "description": "Mid-length KeyMod handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -5371,7 +5371,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada angled RAHG handguard",
-        "shortName": "Masada RAHG A",
+        "shortName": "Masada RAHG-A",
         "description": "Angled RAHG handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
@@ -5467,7 +5467,7 @@
     "locales": {
       "en": {
         "name": "Magpul Masada angled RAHG handguard (FDE)",
-        "shortName": "Masada RAHG A",
+        "shortName": "Masada RAHG-A",
         "description": "Angled RAHG handguard for the Magpul Masada 5.56x45mm assault rifle."
       }
     },
