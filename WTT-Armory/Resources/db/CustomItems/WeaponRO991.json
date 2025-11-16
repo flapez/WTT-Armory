@@ -216,39 +216,132 @@
         "description": "The AEK-971 is a selective fire 5.45x39mm assault rifle that was developed at the Kovrov Mechanical Plant (KMZ) by chief designer Stanislav Ivanovich Koksharov in the late 1970s and 1980s."
       }
     },
-    "clearClonedProps": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 189000,
     "handbookPriceRoubles": 86000,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": false,
-    "StaticLootContainers": [
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
       {
-        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "Probability": 250
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
       },
       {
-        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
-        "Probability": 150
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 150
       }
     ],
     "masteries": true,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "690ebacfc047a9a9f1a98782",
+        "_id": "6919215e5a462a3d1d7c2dc3",
+        "_items": [
+          {
+            "_id": "6919215e1c14fa20508b0e34",
+            "_tpl": "690ebacfc047a9a9f1a98782",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              },
+              "FireMode": {
+                "FireMode": "single"
+              }
+            }
+          },
+          {
+			"_id": "690f7dc938757b3424056861",
+			"_tpl": "55d4b9964bdc2d1d4e8b456e",
+			"slotId": "mod_pistol_grip",
+			"parentId": "6919215e1c14fa20508b0e34"
+		},
+		{
+			"_id": "691921a4a836b58e61cf6116",
+			"_tpl": "690ec1e42825e346696d28ab",
+			"slotId": "mod_magazine",
+			"parentId": "6919215e1c14fa20508b0e34"
+		},
+		{
+			"_id": "6919219cd5abf7dc40e7c5c7",
+			"_tpl": "690ec46edbfedf019246b350",
+			"slotId": "mod_reciever",
+			"parentId": "6919215e1c14fa20508b0e34"
+		},
+		{
+			"_id": "6919219b1ca8fe375a605db5",
+			"_tpl": "5649be884bdc2d79388b4577",
+			"slotId": "mod_stock",
+			"parentId": "6919215e1c14fa20508b0e34"
+		},
+		{
+			"_id": "6919219a7f8d25c4ba7642fc",
+			"_tpl": "55d44fd14bdc2d962f8b456e",
+			"slotId": "mod_charge",
+			"parentId": "6919215e1c14fa20508b0e34"
+		},
+		{
+			"_id": "691921b0017f3ce845c88c4d",
+			"_tpl": "690ec4df1bfed0b4e6db5181",
+			"slotId": "mod_barrel",
+			"parentId": "6919219cd5abf7dc40e7c5c7"
+		},
+		{
+			"_id": "691921bc26d2f2a3e87812aa",
+			"_tpl": "55d459824bdc2d892f8b4573",
+			"slotId": "mod_handguard",
+			"parentId": "6919219cd5abf7dc40e7c5c7"
+		},
+		{
+			"_id": "690f7dc938757b3424056869",
+			"_tpl": "5dfa3d7ac41b2312ea33362a",
+			"slotId": "mod_sight_rear",
+			"parentId": "6919219cd5abf7dc40e7c5c7"
+		},
+		{
+			"_id": "691921ab8209f523377cadc9",
+			"_tpl": "55d4ae6c4bdc2d8b2f8b456e",
+			"slotId": "mod_stock_000",
+			"parentId": "6919219b1ca8fe375a605db5"
+		},
+		{
+			"_id": "691921b4d0dbd02b076da319",
+			"_tpl": "58949dea86f77409483e16a8",
+			"slotId": "mod_muzzle",
+			"parentId": "691921b0017f3ce845c88c4d"
+		},
+		{
+			"_id": "691921b3cf0e559065bf4bd8",
+			"_tpl": "5ae30e795acfc408fb139a0b",
+			"slotId": "mod_gas_block",
+			"parentId": "691921b0017f3ce845c88c4d"
+		},
+		{
+			"_id": "691921bf3f3a025495c59804",
+			"_tpl": "637f57b78d137b27f70c496a",
+			"slotId": "mod_handguard",
+			"parentId": "691921bc26d2f2a3e87812aa"
+		}
+        ],
+        "_name": "RO991 Stock Preset",
+        "_parent": "66ba2701de0fce0b0b6e07f3",
+        "_type": "Preset"
+      }
+    ],
+    "traders": {},
     "masterySections": [
       {
         "Level2": 2000,
         "Level3": 2200,
         "Name": "RO991",
-        "Templates": [ ]
+        "Templates": []
       }
-    ],
-    "addweaponpreset": true,
-    "weaponpresets": [],
-    "traders": {}
+    ]
   },
   "690ec1e42825e346696d28ab": {
     "itemTplToClone": "5aaa5dfee5b5b000140293d3",
@@ -295,32 +388,29 @@
         "description": "Standard 32-round magazine for 9x19 AR-pattern rifles."
       }
     },
-    "clearClonedProps": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 1054,
     "handbookPriceRoubles": 880,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": true,
-    "StaticLootContainers": [
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
       {
-        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "Probability": 250
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
       },
       {
-        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
-        "Probability": 150
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 150
       }
     ],
     "masteries": true,
-    "masterySections": [],
-    "addweaponpreset": true,
-    "weaponpresets": [],
-    "traders": {}
+    "addWeaponPreset": true,
+    "weaponPresets": [],
+    "traders": {},
+    "masterySections": []
   },
   "690ec46edbfedf019246b350": {
     "itemTplToClone": "55d355e64bdc2d962f8b4569",
@@ -522,32 +612,29 @@
         "description": "Standard upper receiver for the RO991 9x19 submachine gun. Manufactured by Colt."
       }
     },
-    "clearClonedProps": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 3052,
     "handbookPriceRoubles": 2222,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": false,
-    "StaticLootContainers": [
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
       {
-        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "Probability": 250
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
       },
       {
-        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
-        "Probability": 150
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 150
       }
     ],
     "masteries": true,
-    "masterySections": [],
-    "addweaponpreset": true,
-    "weaponpresets": [],
-    "traders": {}
+    "addWeaponPreset": true,
+    "weaponPresets": [],
+    "traders": {},
+    "masterySections": []
   },
   "690ec4df1bfed0b4e6db5181": {
     "itemTplToClone": "55d35ee94bdc2d61338b4568",
@@ -616,31 +703,28 @@
         "description": "A 10.3 inch (260mm) barrel for AR-15 platform weapons for 9x19 Parabellum ammo."
       }
     },
-    "clearClonedProps": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "ModdableItemWhitelist": [],
-    "ModdableItemBlacklist": [],
     "fleaPriceRoubles": 22857,
     "handbookPriceRoubles": 19118,
     "addtoTraders": false,
     "addtoBots": false,
-    "addtostaticlootcontainer": false,
-    "StaticLootContainers": [
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
       {
-        "ContainerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
-        "Probability": 250
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
       },
       {
-        "ContainerName": "LOOTCONTAINER_DEAD_SCAV",
-        "Probability": 150
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 150
       }
     ],
     "masteries": true,
-    "masterySections": [],
-    "addweaponpreset": true,
-    "weaponpresets": [],
-    "traders": {}
+    "addWeaponPreset": true,
+    "weaponPresets": [],
+    "traders": {},
+    "masterySections": []
   }
 }
