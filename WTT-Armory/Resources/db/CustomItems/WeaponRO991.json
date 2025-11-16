@@ -406,8 +406,8 @@
         "probability": 150
       }
     ],
-    "masteries": true,
-    "addWeaponPreset": true,
+    "masteries": false,
+    "addWeaponPreset": false,
     "weaponPresets": [],
     "traders": {},
     "masterySections": []
@@ -630,8 +630,8 @@
         "probability": 150
       }
     ],
-    "masteries": true,
-    "addWeaponPreset": true,
+    "masteries": false,
+    "addWeaponPreset": false,
     "weaponPresets": [],
     "traders": {},
     "masterySections": []
@@ -721,8 +721,8 @@
         "probability": 150
       }
     ],
-    "masteries": true,
-    "addWeaponPreset": true,
+    "masteries": false,
+    "addWeaponPreset": false,
     "weaponPresets": [],
     "traders": {},
     "masterySections": []
