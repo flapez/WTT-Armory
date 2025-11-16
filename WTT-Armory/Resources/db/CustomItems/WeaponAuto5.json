@@ -112,8 +112,8 @@
       }
     },
     "addtoInventorySlots": [
-      "55d729c64bdc2d89028b4570",
-      "55d729d14bdc2d86028b456e"
+      "FirstPrimaryWeapon",
+      "SecondPrimaryWeapon"
     ],
     "addtoModSlots": false,
     "modSlot": [
@@ -470,8 +470,8 @@
       }
     },
     "addtoInventorySlots": [
-      "55d729c64bdc2d89028b4570",
-      "55d729d14bdc2d86028b456e"
+      "FirstPrimaryWeapon",
+      "SecondPrimaryWeapon"
     ],
     "addtoModSlots": false,
     "modSlot": [
