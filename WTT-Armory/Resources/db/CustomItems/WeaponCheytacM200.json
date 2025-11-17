@@ -13,7 +13,7 @@
       "defAmmo": "68fd537f2965f74cf4a87894",
       "ammoCaliber": "Caliber1036x77",
       "CompactHandling": false,
-      "Weight": 5.517,
+      "Weight": 6.496,
       "Width": 3,
       "Height": 1,
       "CanSellOnRagfair": true,
@@ -50,32 +50,21 @@
                 "Filter": [
                   "55d4b9964bdc2d1d4e8b456e",
                   "571659bb2459771fb2755a12",
-                  "602e71bd53a60014f9705bfa",
                   "6113c3586c780c1e710c90bc",
                   "6113cc78d3a39d50044c065a",
                   "6113cce3d92c473c770200c7",
-                  "5cc9bcaed7f00c011c04e179",
                   "5bb20e18d4351e00320205d5",
-                  "5bb20e0ed4351e3bac1212dc",
-                  "6193dcd0f8ee7e52e4210a28",
-                  "5d025cc1d7ad1a53845279ef",
-                  "5c6d7b3d2e221600114c9b7d",
                   "57c55efc2459772d2c6271e7",
                   "57af48872459771f0b2ebf11",
                   "57c55f092459772d291a8463",
                   "57c55f112459772d28133310",
                   "57c55f172459772d27602381",
                   "5a339805c4a2826c6e06d73d",
-                  "55802f5d4bdc2dac148b458f",
-                  "5d15cf3bd7ad1a67e71518b2",
-                  "59db3a1d86f77429e05b4e92",
-                  "5fbcbd6c187fea44d52eda14",
                   "59db3acc86f7742a2c4ab912",
                   "59db3b0886f77429d72fb895",
                   "615d8faecabb9b7ad90f4d5d",
                   "5b07db875acfc40dc528a5f6",
                   "63f5feead259b42f0b4d6d0f",
-                  "652911675ae2ae97b80fdf3c",
                   "66ba253030ea88abba95c7ed",
                   "66ba25755bd539b9238365b0",
                   "68fd5abc5c7f36f8d8c208c3"
@@ -390,7 +379,7 @@
       "defAmmo": "68fd537f2965f74cf4a87894",
       "ammoCaliber": "Caliber1036x77",
       "CompactHandling": false,
-      "Weight": 4.517,
+      "Weight": 6.496,
       "Width": 3,
       "Height": 1,
       "CanSellOnRagfair": true,
@@ -427,32 +416,21 @@
                 "Filter": [
                   "55d4b9964bdc2d1d4e8b456e",
                   "571659bb2459771fb2755a12",
-                  "602e71bd53a60014f9705bfa",
                   "6113c3586c780c1e710c90bc",
                   "6113cc78d3a39d50044c065a",
                   "6113cce3d92c473c770200c7",
-                  "5cc9bcaed7f00c011c04e179",
                   "5bb20e18d4351e00320205d5",
-                  "5bb20e0ed4351e3bac1212dc",
-                  "6193dcd0f8ee7e52e4210a28",
-                  "5d025cc1d7ad1a53845279ef",
-                  "5c6d7b3d2e221600114c9b7d",
                   "57c55efc2459772d2c6271e7",
                   "57af48872459771f0b2ebf11",
                   "57c55f092459772d291a8463",
                   "57c55f112459772d28133310",
                   "57c55f172459772d27602381",
                   "5a339805c4a2826c6e06d73d",
-                  "55802f5d4bdc2dac148b458f",
-                  "5d15cf3bd7ad1a67e71518b2",
-                  "59db3a1d86f77429e05b4e92",
-                  "5fbcbd6c187fea44d52eda14",
                   "59db3acc86f7742a2c4ab912",
                   "59db3b0886f77429d72fb895",
                   "615d8faecabb9b7ad90f4d5d",
                   "5b07db875acfc40dc528a5f6",
                   "63f5feead259b42f0b4d6d0f",
-                  "652911675ae2ae97b80fdf3c",
                   "66ba253030ea88abba95c7ed",
                   "66ba25755bd539b9238365b0",
                   "68fd5abc5c7f36f8d8c208c3"
@@ -767,7 +745,7 @@
       "defAmmo": "68fd537f2965f74cf4a87894",
       "ammoCaliber": "Caliber1036x77",
       "CompactHandling": false,
-      "Weight": 4.517,
+      "Weight": 6.126,
       "Width": 3,
       "Height": 1,
       "CanSellOnRagfair": true,
@@ -804,32 +782,21 @@
                 "Filter": [
                   "55d4b9964bdc2d1d4e8b456e",
                   "571659bb2459771fb2755a12",
-                  "602e71bd53a60014f9705bfa",
                   "6113c3586c780c1e710c90bc",
                   "6113cc78d3a39d50044c065a",
                   "6113cce3d92c473c770200c7",
-                  "5cc9bcaed7f00c011c04e179",
                   "5bb20e18d4351e00320205d5",
-                  "5bb20e0ed4351e3bac1212dc",
-                  "6193dcd0f8ee7e52e4210a28",
-                  "5d025cc1d7ad1a53845279ef",
-                  "5c6d7b3d2e221600114c9b7d",
                   "57c55efc2459772d2c6271e7",
                   "57af48872459771f0b2ebf11",
                   "57c55f092459772d291a8463",
                   "57c55f112459772d28133310",
                   "57c55f172459772d27602381",
                   "5a339805c4a2826c6e06d73d",
-                  "55802f5d4bdc2dac148b458f",
-                  "5d15cf3bd7ad1a67e71518b2",
-                  "59db3a1d86f77429e05b4e92",
-                  "5fbcbd6c187fea44d52eda14",
                   "59db3acc86f7742a2c4ab912",
                   "59db3b0886f77429d72fb895",
                   "615d8faecabb9b7ad90f4d5d",
                   "5b07db875acfc40dc528a5f6",
                   "63f5feead259b42f0b4d6d0f",
-                  "652911675ae2ae97b80fdf3c",
                   "66ba253030ea88abba95c7ed",
                   "66ba25755bd539b9238365b0",
                   "68fd5abc5c7f36f8d8c208c3"
@@ -1139,7 +1106,9 @@
         "path": "WeaponCheytacM200/m200_stock.bundle",
         "rcid": ""
       },
-      "Weight": 1.705,
+      "Ergonomics": 7,
+	  "Recoil": -20,
+      "Weight": 0.754,
       "Slots": [],
       "ExaminedByDefault": true
     },
@@ -1172,7 +1141,9 @@
         "path": "WeaponCheytacM200/m200_stock_fde.bundle",
         "rcid": ""
       },
-      "Weight": 1.705,
+      "Ergonomics": 7,
+	  "Recoil": -20,
+      "Weight": 0.754,
       "Slots": [],
       "ExaminedByDefault": true
     },
@@ -1205,7 +1176,9 @@
         "path": "WeaponCheytacM200/m200_stock_skeletonized_mk1.bundle",
         "rcid": ""
       },
-      "Weight": 1.412,
+      "Ergonomics": 8,
+	  "Recoil": -22,
+      "Weight": 0.726,
       "Slots": [],
       "BlocksFolding": true,
       "ExaminedByDefault": true
@@ -1239,7 +1212,9 @@
         "path": "WeaponCheytacM200/m200_stock_skeletonized_mk2.bundle",
         "rcid": ""
       },
-      "Weight": 1.242,
+      "Ergonomics": 11,
+	  "Recoil": -19,
+      "Weight": 0.700,
       "Slots": [],
       "BlocksFolding": true,
       "ExaminedByDefault": true
@@ -1306,7 +1281,9 @@
         "path": "WeaponCheytacM200/m200_magazine_lrg.bundle",
         "rcid": ""
       },
-      "Weight": 0.706,
+      "Ergonomics": -3,
+	  "Recoil": -1,
+      "Weight": 0.424,
       "Height": 2,
       "Cartridges": [
         {
@@ -1359,7 +1336,9 @@
         "path": "WeaponCheytacM200/m200_magazine_lrg_fde.bundle",
         "rcid": ""
       },
-      "Weight": 0.706,
+      "Ergonomics": -3,
+	  "Recoil": -1,
+      "Weight": 0.424,
       "Height": 2,
       "Cartridges": [
         {
@@ -1412,7 +1391,8 @@
         "path": "WeaponCheytacM200/m200_magazine_sm.bundle",
         "rcid": ""
       },
-      "Weight": 0.393,
+      "Ergonomics": -1,
+      "Weight": 0.341,
       "Height": 1,
       "Cartridges": [
         {
@@ -1464,7 +1444,7 @@
         "path": "WeaponCheytacM200/m200_barrel.bundle",
         "rcid": ""
       },
-      "Weight": 3.39,
+      "Weight": 3.620,
       "ExaminedByDefault": true,
       "ExtraSizeLeft": 3,
       "Width": 5,
@@ -1522,7 +1502,7 @@
         "path": "WeaponCheytacM200/m200_barrel_fde.bundle",
         "rcid": ""
       },
-      "Weight": 3.39,
+      "Weight": 3.620,
       "ExaminedByDefault": true,
       "ExtraSizeLeft": 3,
       "Width": 5,
@@ -1580,7 +1560,7 @@
         "path": "WeaponCheytacM200/m200_barrel_short.bundle",
         "rcid": ""
       },
-      "Weight": 2.336,
+      "Weight": 2.496,
       "ExaminedByDefault": true,
       "ExtraSizeLeft": 2,
       "Slots": [
@@ -1695,14 +1675,14 @@
         "path": "WeaponCheytacM200/m200_muzzle.bundle",
         "rcid": ""
       },
-      "Weight": 0.42,
+      "Weight": 0.517,
       "RaidModdable": true,
       "Slots": []
     },
     "locales": {
       "en": {
         "name": "CheyTac M200 Intervention .408 CT muzzle brake",
-        "shortName": "Brake",
+        "shortName": "M200 MB",
         "description": "Standard muzzle brake for the CheyTac M200 Intervention .408 CT sniper rifle."
       }
     },
@@ -1729,7 +1709,7 @@
         "path": "WeaponCheytacM200/m200_muzzle_fde.bundle",
         "rcid": ""
       },
-      "Weight": 0.42,
+      "Weight": 0.517,
       "RaidModdable": true,
       "Slots": []
     },
@@ -1855,7 +1835,9 @@
         "path": "WeaponCheytacM200/m200_bipod.bundle",
         "rcid": ""
       },
-      "Weight": 0.85
+      "Ergonomics": -5,
+	  "Recoil": -4,
+      "Weight": 0.93
     },
     "locales": {
       "en": {
@@ -1948,7 +1930,7 @@
         "path": "WeaponCheytacM200/m200_handguard.bundle",
         "rcid": ""
       },
-      "Weight": 0.995,
+      "Weight": 1.175,
       "Width": 2,
       "Slots": [
         {
@@ -2055,7 +2037,7 @@
         "path": "WeaponCheytacM200/m200_handguard_tactical.bundle",
         "rcid": ""
       },
-      "Weight": 1.176,
+      "Weight": 1.043,
       "Width": 2,
       "Slots": [
         {
@@ -2112,7 +2094,7 @@
         "path": "WeaponCheytacM200/m200_handguard_boss.bundle",
         "rcid": ""
       },
-      "Weight": 0.905,
+      "Weight": 0.928,
       "Width": 2,
       "Slots": [
         {
@@ -2214,7 +2196,9 @@
         "path": "WeaponCheytacM200/m200_grip.bundle",
         "rcid": ""
       },
-      "Weight": 0.135,
+      "Ergonomics": 3,
+	  "Recoil": -2,
+      "Weight": 0.121,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -2246,7 +2230,9 @@
         "path": "WeaponCheytacM200/m200_grip_fde.bundle",
         "rcid": ""
       },
-      "Weight": 0.135,
+      "Ergonomics": 3,
+	  "Recoil": -2,
+      "Weight": 0.121,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -2278,7 +2264,9 @@
         "path": "WeaponCheytacM200/m200_grip_skele.bundle",
         "rcid": ""
       },
-      "Weight": 0.105,
+      "Ergonomics": 7,
+	  "Recoil": -1,
+      "Weight": 0.117,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -2310,7 +2298,9 @@
         "path": "WeaponCheytacM200/m200_grip_polymer.bundle",
         "rcid": ""
       },
-      "Weight": 0.95,
+      "Ergonomics": 5.5,
+	  "Recoil": -1,
+      "Weight": 0.113,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -2342,7 +2332,9 @@
         "path": "WeaponCheytacM200/m200_grip_wrapped.bundle",
         "rcid": ""
       },
-      "Weight": 0.125,
+      "Ergonomics": 4,
+	  "Recoil": -2,
+      "Weight": 0.123,
       "ExaminedByDefault": true
     },
     "locales": {
