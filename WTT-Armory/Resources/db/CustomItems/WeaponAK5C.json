@@ -925,13 +925,14 @@
         "path": "WeaponAK5C/ak5c_magazine.bundle",
         "rcid": ""
       },
-      "Weight": 0.13,
+      "Weight": 0.133,
+      "CheckTimeModifier": -20,
       "MalfunctionChance": 0.023,
       "Ergonomics": -2
     },
     "locales": {
       "en": {
-        "name": "Ak5C 5.56x45 PMAG 30-round magazine",
+        "name": "Ak5C 5.56x45 Automatkarbin STANAG 30-round magazine",
         "shortName": "Ak5C",
         "description": "Standard issue 30-round polymer magazine that is proprietary to the Ak5C rifle platform."
       }

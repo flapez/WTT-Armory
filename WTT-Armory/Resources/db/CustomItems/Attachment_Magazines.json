@@ -9,17 +9,18 @@
         "path": "Attachment_Magazines/ar15_40roundstanag.bundle",
         "rcid": ""
       },
-      "Weight": 0.29,
-      "MalfunctionChance": 0.18,
-      "Ergonomics": -8,
-      "LoadUnloadModifier": 12,
+      "CheckTimeModifier": 13,
+      "Weight": 0.22,
+      "MalfunctionChance": 0.19,
+      "Ergonomics": -7,
+      "LoadUnloadModifier": 14,
       "ConflictingItems": [
         "622f02437762f55aaa68ac85"
       ]
     },
     "locales": {
       "en": {
-        "name": "5.56x45 Global Ordnance 40-round magazine",
+        "name": "AR-15 5.56x45 Global Ordnance STANAG 40-round magazine",
         "shortName": "MAG-40",
         "description": "A 5.56x45 40-round magazine manufactured by Global Ordnance for AR-15 platform rifles."
       }
@@ -47,16 +48,16 @@
         "path": "Attachment_Magazines/ar15_mag_taped.bundle",
         "rcid": ""
       },
-      "Weight": 0.12,
-      "CheckTimeModifier": -10,
+      "Weight": 0.119,
+      "LoadUnloadModifier": -12,
       "ConflictingItems": [
         "622f02437762f55aaa68ac85"
       ]
     },
     "locales": {
       "en": {
-        "name": "5.56x45 Colt AR-15 STANAG 30-round magazine (taped)",
-        "shortName": "STANAG-T",
+        "name": "AR-15 5.56x45 Colt STANAG 30-round magazine (taped)",
+        "shortName": "Taped",
         "description": "A 5.56x45 Colt AR-15 STANAG 30-round magazine with a makeshift mag assit made from duct tape."
       }
     },
@@ -83,16 +84,16 @@
         "path": "Attachment_Magazines/ar15_mag_looped.bundle",
         "rcid": ""
       },
-      "Weight": 0.12,
-      "CheckTimeModifier": -10,
+      "Weight": 0.119,
+      "LoadUnloadModifier": -12,
       "ConflictingItems": [
         "622f02437762f55aaa68ac85"
       ]
     },
     "locales": {
       "en": {
-        "name": "5.56x45 Colt AR-15 STANAG 30-round magazine (taped)",
-        "shortName": "STANAG-T",
+        "name": "AR-15 5.56x45 Colt STANAG 30-round magazine (taped)",
+        "shortName": "Taped",
         "description": "A 5.56x45 Colt AR-15 STANAG 30-round magazine with a makeshift mag assit made from duct tape."
       }
     },
@@ -119,16 +120,17 @@
         "path": "Attachment_Magazines/ar15_mag_ak5c_boss.bundle",
         "rcid": ""
       },
-      "Weight": 0.12,
-      "CheckTimeModifier": -10,
+      "Weight": 0.119,
+	  "MalfunctionChance": 0.09,
+      "LoadUnloadModifier": -12,
       "ConflictingItems": [
         "622f02437762f55aaa68ac85"
       ]
     },
     "locales": {
       "en": {
-        "name": "5.56x45 Colt AR-15 STANAG 30-round magazine (camo taped)",
-        "shortName": "STANAG-CT",
+        "name": "AR-15 5.56x45 Colt STANAG 30-round magazine (camo taped)",
+        "shortName": "Camo taped",
         "description": "A 5.56x45 Colt AR-15 STANAG 30-round magazine with a makeshift mag assit made from duct tape and a custom painted camo scheme."
       }
     },
