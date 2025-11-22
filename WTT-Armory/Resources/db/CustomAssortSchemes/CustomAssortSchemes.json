@@ -176,69 +176,6 @@
                 "parentId": "685632ddabcc4d4ec803bc1c"
             },
             {
-                "_id": "6865ea969f4c1f761003d66c",
-                "_tpl": "66b17d6cbb296d01b4684944",
-                "upd": {
-                    "Repairable": {
-                        "MaxDurability": 100,
-                        "Durability": 100
-                    },
-                    "Foldable": {
-                        "Folded": false
-                    },
-                    "FireMode": {
-                        "FireMode": "single"
-                    },
-                    "UnlimitedCount": true,
-                    "StackObjectsCount": 999999,
-                    "BuyRestrictionMax": 0
-                },
-                "parentId": "hideout",
-                "slotId": "hideout"
-            },
-            {
-                "_id": "6865ea969f4c1f761003d66d",
-                "_tpl": "62307b7b10d2321fa8741921",
-                "slotId": "mod_magazine",
-                "parentId": "6865ea969f4c1f761003d66c"
-            },
-            {
-                "_id": "6865ea969f4c1f761003d66e",
-                "_tpl": "66b1775a2395f96a493eacbd",
-                "slotId": "mod_stock_001",
-                "parentId": "6865ea969f4c1f761003d66c"
-            },
-            {
-                "_id": "6865ea969f4c1f761003d66f",
-                "_tpl": "66b177865018c420f94de0c4",
-                "slotId": "mod_scope",
-                "parentId": "6865ea969f4c1f761003d66c"
-            },
-            {
-                "_id": "6865ea969f4c1f761003d670",
-                "_tpl": "66b1774114a15b9a0f09a69f",
-                "slotId": "mod_handguard",
-                "parentId": "6865ea969f4c1f761003d66c"
-            },
-            {
-                "_id": "6865ea969f4c1f761003d671",
-                "_tpl": "66b177776541b7f127ca4af0",
-                "slotId": "mod_barrel",
-                "parentId": "6865ea969f4c1f761003d66c"
-            },
-            {
-                "_id": "6865ea969f4c1f761003d672",
-                "_tpl": "622f07cfae33bc505b2c4dd5",
-                "slotId": "mod_muzzle",
-                "parentId": "6865ea969f4c1f761003d671"
-            },
-            {
-                "_id": "6865ea969f4c1f761003d673",
-                "_tpl": "66b17796cd01eed07d2c3f5a",
-                "slotId": "mod_gas_block",
-                "parentId": "6865ea969f4c1f761003d671"
-            },
-            {
                 "_id": "6868ceef6b3c6d6f1c03cd69",
                 "_tpl": "682d3dd16900cb35564c8825",
                 "upd": {
@@ -1218,14 +1155,6 @@
                     }
                 ]
             ],
-            "6865ea969f4c1f761003d66c": [
-                [
-                    {
-                        "count": 855,
-                        "_tpl": "5696686a4bdc2da3298b456a"
-                    }
-                ]
-            ],
             "6868ceef6b3c6d6f1c03cd69": [
                 [
                     {
@@ -1541,7 +1470,6 @@
         },
         "loyal_level_items": {
             "685632ddabcc4d4ec803bc18": 3,
-            "6865ea969f4c1f761003d66c": 3,
             "6868ceef6b3c6d6f1c03cd69": 3,
             "6868d3bc61f6e05a1003ca59": 3,
             "6869f60196ecc99f59d70e4e": 3,
