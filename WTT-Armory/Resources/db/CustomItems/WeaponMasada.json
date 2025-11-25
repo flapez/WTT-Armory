@@ -14,9 +14,11 @@
       ],
 	  "Ergonomics": 52,
       "Height": 1,
-	  "RecoilDampingHandRotation": 0.85,
-	  "RecoilForceBack": 347,
-	  "RecoilForceUp": 128,
+	  "RecoilForceBack": 361,
+	  "RecoilForceUp": 136,
+	  "RecolDispersion": 9,
+	  "RecoilDampingHandRotation": 0.82,
+	  "RecoilReturnPathDampingHandRotation": 0.46,
 	  "Weight": 0.822,
       "Width": 1,
       "bFirerate": 800,
@@ -416,6 +418,14 @@
       "ConflictingItems": [
         "5a7dbfc1159bd40016548fde"
       ],
+	  "Ergonomics": 54,
+      "Height": 1,
+	  "RecoilForceBack": 374,
+	  "RecoilForceUp": 142,
+	  "RecolDispersion": 10,
+	  "RecoilDampingHandRotation": 0.86,
+	  "RecoilReturnPathDampingHandRotation": 0.49,
+	  "Weight": 0.832,
       "Width": 1,
       "Height": 1,
       "bFirerate": 850,
@@ -715,7 +725,8 @@
 	  "CenterOfImpact": 0.049,
       "ExtraSizeLeft": 3,
 	  "Weight": 0.54,
-	  "Recoil": -3,
+	  "Ergonomics": -10,
+	  "Recoil": -5,
       "Slots": [
         {
           "_id": "69100825f9db5d8e612f3f18",
@@ -805,7 +816,8 @@
 	  "CenterOfImpact": 0.063,
       "ExtraSizeLeft": 2,
 	  "Weight": 0.44,
-	  "Recoil": -1,
+	  "Ergonomics": -3,
+	  "Recoil": -2,
       "ConflictingItems": [
         "6913ff570c18ac678e2c7e7f",
         "691410a4991a22c2782fe0a6",
@@ -907,6 +919,7 @@
 	  "CenterOfImpact": 0.06,
       "ExtraSizeLeft": 2,
 	  "Weight": 0.444,
+	  "Ergonomics": -3,
 	  "Recoil": -2,
       "ConflictingItems": [
         "6913ff570c18ac678e2c7e7f",
@@ -1003,7 +1016,8 @@
 	  "Weight": 0.81,
 	  "Width": 4,
       "ExtraSizeLeft": 4,
-	  "Recoil": -6,
+	  "Ergonomics": -15,
+	  "Recoil": -10,
       "Slots": [
         {
           "_id": "6910e345ea1a4b09f8feb0c3",
@@ -1124,8 +1138,8 @@
         "path": "WeaponMasada/magpul_masada_stock.bundle",
         "rcid": ""
       },
-	  "Ergonomics": 17,
-	  "Recoil": -21,
+	  "Ergonomics": 15,
+	  "Recoil": -18,
 	  "Weight": 0.511,
       "IsAnimated": true,
       "UniqueAnimationModID": 0,
@@ -1192,8 +1206,8 @@
         "path": "WeaponMasada/magpul_masada_slider.bundle",
         "rcid": ""
       },
-	  "Ergonomics": 22,
-	  "Recoil": -19,
+	  "Ergonomics": 23,
+	  "Recoil": -16,
 	  "Weight": 0.557,
       "IsAnimated": true,
       "UniqueAnimationModID": 1,
@@ -1292,10 +1306,10 @@
         "rcid": ""
       },
 	  "CoolFactor": 1.031,
-	  "Ergonomics": 7,
+	  "Ergonomics": 6,
 	  "HeatFactor": 1.07,
 	  "RaidModdable": false,
-	  "Recoil": -1,
+	  "Recoil": -3,
 	  "Weight": 0.31,
       "Slots": [
         {
@@ -1817,7 +1831,7 @@
       }
     },
     "addtoInventorySlots": [],
-    "addtoModSlots": true,
+    "addtoModSlots": false,
     "modSlot": [
       "mod_sight_rear"
     ],
@@ -1847,7 +1861,7 @@
       }
     },
     "addtoInventorySlots": [],
-    "addtoModSlots": true,
+    "addtoModSlots": false,
     "modSlot": [
       "mod_sight_rear"
     ],
@@ -1902,8 +1916,8 @@
         "rcid": ""
       },
 	  "DurabilityBurnModificator": 1,
-	  "Ergonomics": 11,
-	  "Recoil": -23,
+	  "Ergonomics": 12,
+	  "Recoil": -20.5,
 	  "Weight": 0.534,
       "ExaminedByDefault": true,
       "Slots": []
@@ -1968,8 +1982,8 @@
         "rcid": ""
       },
 	  "DurabilityBurnModificator": 1,
-	  "Ergonomics": 8,
-	  "Recoil": -26,
+	  "Ergonomics": 3.5,
+	  "Recoil": -24.5,
 	  "Weight": 0.877,
       "ExaminedByDefault": true,
       "Slots": []
@@ -2104,10 +2118,10 @@
         "rcid": ""
       },
 	  "CoolFactor": 1.033,
-	  "Ergonomics": 9,
+	  "Ergonomics": 7,
 	  "HeatFactor": 1.075,
 	  "RaidModdable": false,
-	  "Recoil": -3,
+	  "Recoil": -6,
 	  "Weight": 0.51,
 	  "ExtraSizeLeft": 2,
 	  "Width": 3,
@@ -2267,7 +2281,7 @@
 	  "Ergonomics": 5,
 	  "HeatFactor": 1.03,
 	  "RaidModdable": false,
-	  "Recoil": -4,
+	  "Recoil": -4.5,
 	  "Weight": 0.4,
       "Slots": [
         {
@@ -2460,7 +2474,7 @@
 	  "Ergonomics": 11,
 	  "HeatFactor": 0.89,
 	  "RaidModdable": false,
-	  "Recoil": -2,
+	  "Recoil": -3,
 	  "Weight": 0.71,
 	  "ExtraSizeLeft": 2,
 	  "Width": 3,
@@ -2673,10 +2687,10 @@
         "rcid": ""
       },
 	  "CoolFactor": 1.035,
-	  "Ergonomics": 12,
+	  "Ergonomics": 13.5,
 	  "HeatFactor": 1.02,
 	  "RaidModdable": false,
-	  "Recoil": 0,
+	  "Recoil": -1,
 	  "Weight": 0.322,
       "Slots": [
         {
@@ -2809,10 +2823,10 @@
         "rcid": ""
       },
 	  "CoolFactor": 1.031,
-	  "Ergonomics": 9,
+	  "Ergonomics": 4,
 	  "HeatFactor": 0.905,
 	  "RaidModdable": false,
-	  "Recoil": -4,
+	  "Recoil": -6.5,
 	  "Weight": 0.663,
 	  "ExtraSizeLeft": 2,
 	  "Width": 3,
@@ -3011,10 +3025,10 @@
         "rcid": ""
       },
 	  "CoolFactor": 1.034,
-	  "Ergonomics": 9,
+	  "Ergonomics": 10,
 	  "HeatFactor": 0.909,
 	  "RaidModdable": false,
-	  "Recoil": -3,
+	  "Recoil": -3.5,
 	  "Weight": 0.611,
 	  "ExtraSizeLeft": 2,
 	  "Width": 3,
@@ -3209,10 +3223,10 @@
         "rcid": ""
       },
 	  "CoolFactor": 1.05,
-	  "Ergonomics": 8,
+	  "Ergonomics": 11,
 	  "HeatFactor": 0.98,
 	  "RaidModdable": false,
-	  "Recoil": -1,
+	  "Recoil": -2,
 	  "Weight": 0.332,
       "Slots": [
         {
@@ -3224,7 +3238,7 @@
               {
                 "Shift": 0,
                 "Filter": [
-                  "5b7be4895acfc400170e2dd5",
+                  "5c0102b20db834001d23eebc",
                   "57cffb66245977632f391a99",
                   "57cffcd624597763133760c5",
                   "57cffcdd24597763f5110006",
@@ -3315,10 +3329,10 @@
         "rcid": ""
       },
 	  "CoolFactor": 1.04,
-	  "Ergonomics": 8,
+	  "Ergonomics": 7.5,
 	  "HeatFactor": 0.93,
 	  "RaidModdable": false,
-	  "Recoil": -3,
+	  "Recoil": -4,
 	  "Weight": 0.431,
 	  "ExtraSizeLeft": 2,
 	  "Width": 3,
@@ -3400,7 +3414,6 @@
               {
                 "Shift": 0,
                 "Filter": [
-                  "5b7be47f5acfc400170e2dd2",
                   "6269220d70b6c02e665f2635",
                   "6269545d0e57f218e4548ca2",
                   "669a6a4a525be1d2d004b8eb"
@@ -3444,10 +3457,10 @@
         "rcid": ""
       },
 	  "CoolFactor": 0.975,
-	  "Ergonomics": 5,
+	  "Ergonomics": 3,
 	  "HeatFactor": 0.925,
 	  "RaidModdable": false,
-	  "Recoil": -8,
+	  "Recoil": -8.5,
 	  "Weight": 0.682,
 	  "ExtraSizeLeft": 2,
 	  "Width": 3,
@@ -3717,10 +3730,10 @@
         "rcid": ""
       },
 	  "CoolFactor": 1.03,
-	  "Ergonomics": 9,
+	  "Ergonomics": 12,
 	  "HeatFactor": 1.02,
 	  "RaidModdable": false,
-	  "Recoil": -1,
+	  "Recoil": -1.5,
 	  "Weight": 0.298,
       "Slots": [
         {
@@ -3851,10 +3864,10 @@
         "rcid": ""
       },
 	  "CoolFactor": 0.98,
-	  "Ergonomics": 8,
+	  "Ergonomics": 9,
 	  "HeatFactor": 0.97,
 	  "RaidModdable": false,
-	  "Recoil": -2,
+	  "Recoil": -2.5,
 	  "Weight": 0.343,
       "Slots": [
         {
@@ -3866,7 +3879,15 @@
               {
                 "Shift": 0,
                 "Filter": [
-                  "5c0102b20db834001d23eebc"
+                  "5c0102b20db834001d23eebc",
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "651a8e529829226ceb67c319",
+                  "651a8bf3a8520e48047bf708",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a"
                 ]
               }
             ]
@@ -3973,10 +3994,10 @@
         "rcid": ""
       },
 	  "CoolFactor": 0.98,
-	  "Ergonomics": 7,
+	  "Ergonomics": 10,
 	  "HeatFactor": 0.97,
 	  "RaidModdable": false,
-	  "Recoil": -2,
+	  "Recoil": -3,
 	  "Weight": 0.355,
       "Slots": [
         {
