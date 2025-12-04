@@ -34,7 +34,6 @@ public class WTTArmory(
     WTTBot wttBot,
     ArmoryQuestHelper armoryQuestHelper) : IOnLoad
 {
-
     public async Task OnLoad()
     {
         

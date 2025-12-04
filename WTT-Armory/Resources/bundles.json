@@ -1,6 +1,14 @@
 {
     "manifest": [
         {
+            "key": "StaticSpawns/bodies.bundle",
+            "dependencyKeys": [
+                "shaders",
+                "cubemaps",
+                "assets/commonassets/physics/physicsmaterials.bundle"
+            ]
+        },
+        {
             "key": "WeaponAXMC/barrel_axmc_686mm_86x70_blk.bundle",
             "dependencyKeys": [
                 "shaders",

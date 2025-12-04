@@ -16,12 +16,11 @@
     <PackageReference Include="SPTarkov.Common" Version="4.0.3" />
     <PackageReference Include="SPTarkov.DI" Version="4.0.3" />
     <PackageReference Include="SPTarkov.Server.Core" Version="4.0.3" />
+    <PackageReference Include="WTT-ServerCommonLib" Version="2.0.6" />
   </ItemGroup>
 
   <ItemGroup>
-    <Reference Include="WTT-ServerCommonLib">
-      <HintPath>..\..\WTT-CommonLib\Build\SPT\user\mods\WTT-ServerCommonLib\WTT-ServerCommonLib.dll</HintPath>
-    </Reference>
+    <Folder Include="Resources\db\CustomStaticSpawns\StaticBundles\" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
