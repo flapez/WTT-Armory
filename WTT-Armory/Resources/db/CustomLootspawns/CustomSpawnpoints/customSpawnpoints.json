@@ -2271,7 +2271,7 @@
                 "Items": [
                     {
                         "_id": "6870563efe018e59ec04f2f8",
-                        "_tpl": "66b17d6cbb296d01b4684944",
+                        "_tpl": "6920b28eabc4f9d229cb7e49",
                         "upd": {
                             "Repairable": {
                                 "MaxDurability": 100,
@@ -2293,25 +2293,25 @@
                     },
                     {
                         "_id": "6870562ffe018e59ec04f2e2",
-                        "_tpl": "66b1775a2395f96a493eacbd",
-                        "slotId": "mod_stock_001",
+                        "_tpl": "6920ae3f880e33bc2a7f3696",
+                        "slotId": "mod_stock",
                         "parentId": "6870563efe018e59ec04f2f8"
                     },
                     {
                         "_id": "6870562ffe018e59ec04f2e3",
-                        "_tpl": "66b177865018c420f94de0c4",
+                        "_tpl": "6920b0749d500a4b9cc54d97",
                         "slotId": "mod_scope",
                         "parentId": "6870563efe018e59ec04f2f8"
                     },
                     {
                         "_id": "6870562ffe018e59ec04f2e4",
-                        "_tpl": "66b1774114a15b9a0f09a69f",
+                        "_tpl": "6920a93320601fc76c8de492",
                         "slotId": "mod_handguard",
                         "parentId": "6870563efe018e59ec04f2f8"
                     },
                     {
                         "_id": "6870562ffe018e59ec04f2e5",
-                        "_tpl": "66b177776541b7f127ca4af0",
+                        "_tpl": "6920a5935f7acaf6252fb6df",
                         "slotId": "mod_barrel",
                         "parentId": "6870563efe018e59ec04f2f8"
                     },
@@ -2329,12 +2329,6 @@
                         "_id": "6870562ffe018e59ec04f2e7",
                         "_tpl": "622f07cfae33bc505b2c4dd5",
                         "slotId": "mod_muzzle",
-                        "parentId": "6870562ffe018e59ec04f2e5"
-                    },
-                    {
-                        "_id": "6870562ffe018e59ec04f2e8",
-                        "_tpl": "66b17796cd01eed07d2c3f5a",
-                        "slotId": "mod_gas_block",
                         "parentId": "6870562ffe018e59ec04f2e5"
                     }
                 ]

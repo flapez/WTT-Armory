@@ -1,0 +1,601 @@
+{
+  "6924c2f800ff4b8d9d689a5c": {
+    "itemTplToClone": "5bfea6e90db834001b7347f3",
+    "parentId": "5447b6254bdc2dc3278b4568",
+    "handbookParentId": "5b5f798886f77447ed5636b5",
+    "overrideProperties": {
+      "Weight": 1.57,
+      "Width": 5,
+      "Height": 1,
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponHenryBBS/weapon_henry_bbs_container.bundle",
+        "rcid": ""
+      },
+      "defAmmo": "62330b3ed4dc74626d570b95",
+      "defMagType": "6924c3911b0f259ee27a95f1",
+      "AllowFeed": true,
+      "AllowJam": false,
+      "AllowMisfire": true,
+      "AllowOverheat": true,
+      "AllowSlide": true,
+      "BoltAction": true,
+      "bFirerate": 450,
+      "CenterOfImpact": 0.011,
+      "CoolFactorGun": 4.608,
+      "CoolFactorGunMods": 1,
+      "DeviationCurve": 1,
+      "DeviationMax": 33,
+      "DoubleActionAccuracyPenalty": 1.5,
+      "Durability": 100,
+      "DurabilityBurnRatio": 1.15,
+      "Ergonomics": 34,
+      "Foldable": false,
+      "HeatFactorByShot": 6.55,
+      "HeatFactorGun": 1,
+      "HipAccuracyRestorationDelay": 0.2,
+      "HipAccuracyRestorationSpeed": 7,
+      "HipInnaccuracyGain": 0.16,
+      "IronSightRange": 100,
+      "MaxDurability": 100,
+      "MaxRepairDegradation": 0.04,
+      "MaxRepairKitDegradation": 0.035,
+      "MountCameraSnapMultiplier": 3,
+      "MountHorizontalRecoilMultiplier": 0.6,
+      "MountReturnSpeedHandMultiplier": 1,
+      "MountVerticalRecoilMultiplier": 0.85,
+      "MountingHorizontalOutOfBreathMultiplier": 0.4,
+      "MountingVerticalOutOfBreathMultiplier": 0.8,
+      "MustBoltBeOpennedForExternalReload": false,
+      "MustBoltBeOpennedForInternalReload": false,
+      "NoFiremodeOnBoltcatch": false,
+      "OperatingResource": 2600,
+      "PostRecoilHorizontalRangeHandRotation": {
+        "x": -0.7,
+        "y": 0.7,
+        "z": 0
+      },
+      "PostRecoilVerticalRangeHandRotation": {
+        "x": -1.3,
+        "y": 0,
+        "z": 0
+      },
+      "ProgressRecoilAngleOnStable": {
+        "x": 0,
+        "y": 30,
+        "z": 0
+      },
+      "RecoilAngle": 90,
+      "RecoilCamera": 0.07,
+      "RecoilCategoryMultiplierHandRotation": 0.19,
+      "RecoilCenter": {
+        "x": 0,
+        "y": -0.47,
+        "z": 0.02
+      },
+      "RecoilDampingHandRotation": 0.85,
+      "RecoilForceBack": 376,
+      "RecoilForceUp": 182,
+      "RecoilPosZMult": 1,
+      "RecoilReturnPathDampingHandRotation": 0.41,
+      "RecoilReturnPathOffsetHandRotation": 0.01,
+      "RecoilReturnSpeedHandRotation": 2.1,
+      "RecoilStableAngleIncreaseStep": 2.5,
+      "RecoilStableIndexShot": 3,
+      "RecolDispersion": 10,
+      "ReloadMode": "InternalMagazine",
+      "RepairComplexity": 1,
+      "ResetAfterShot": false,
+      "Retractable": false,
+      "RotationCenter": {
+        "x": 0,
+        "y": -0.1,
+        "z": -0.04
+      },
+      "RotationCenterNoStock": {
+        "x": 0,
+        "y": -0.3,
+        "z": -0.02
+      },
+      "ShotsGroupSettings": [
+        {
+          "EndShotIndex": 99,
+          "ShotRecoilPositionStrength": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ShotRecoilRadianRange": {
+            "x": -20,
+            "y": 20,
+            "z": 0
+          },
+          "ShotRecoilRotationStrength": {
+            "x": 0,
+            "y": 2,
+            "z": 0
+          },
+          "StartShotIndex": 4
+        }
+      ],
+      "SightingRange": 100,
+      "SingleFireRate": 700,
+      "SizeReduceRight": 0,
+      "TacticalReloadFixation": 0.95,
+      "TacticalReloadStiffnes": {
+        "x": 0.95,
+        "y": 0.33,
+        "z": 0.95
+      },
+      "UseAltMountBone": false,
+      "Velocity": 3.81,
+      "WeaponRecoilSettings": {
+        "Enable": true,
+        "Values": [
+          {
+            "Enable": true,
+            "Target": "HandsRotation",
+            "Process": {
+              "ComponentType": "Y",
+              "CurveTimeMultiply": 1.3,
+              "CurveValueMultiply": 2.5,
+              "CurveAimingValueMultiply": 1.5,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 0.1,
+                    "value": 2,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 0.3,
+                    "value": -0.75,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 0,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Enable": true,
+            "Target": "HandsPosition",
+            "Process": {
+              "ComponentType": "Y",
+              "CurveTimeMultiply": 3,
+              "CurveValueMultiply": 0.007,
+              "CurveAimingValueMultiply": 0,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 0.1,
+                    "value": 2,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 0.3,
+                    "value": -0.75,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 0,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "Enable": true,
+            "Target": "CameraRotation",
+            "Process": {
+              "ComponentType": "Z",
+              "CurveTimeMultiply": 1,
+              "CurveValueMultiply": 0.4,
+              "CurveAimingValueMultiply": 0.28,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "time": 0,
+                    "value": 0,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 0.1,
+                    "value": 2,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 0.3,
+                    "value": -0.75,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  },
+                  {
+                    "time": 1,
+                    "value": 0,
+                    "inTangent": 0,
+                    "outTangent": 0
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "chamberAmmoCount": 1,
+      "ammoCaliber": "Caliber9x33R",
+      "isBoltCatch": false,
+      "isChamberLoad": true,
+      "isFastReload": true,
+      "shotgunDispersion": 0,
+      "Chambers": [
+        {
+          "_id": "6924d30d4d123a40a3fa51d1",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "6924c2f800ff4b8d9d689a5c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "62330b3ed4dc74626d570b95",
+                  "62330bfadc5883093563729b",
+                  "62330c18744e5e31df12f516",
+                  "62330c40bdd19b369e1e53d1"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Slots": [
+        {
+          "_id": "6924c302db95e333bfb53c4c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "6924c2f800ff4b8d9d689a5c",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": 0,
+                "Filter": [
+                  "6924c3911b0f259ee27a95f1"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": true
+        },
+        {
+          "_id": "6924c2ffb87f0116b880bf3b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "6924c2f800ff4b8d9d689a5c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6924c38650310c56c1aec96e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "692663afee808890323d66a6",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "6924c2f800ff4b8d9d689a5c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "692662f440a8e88017858d23"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Henry Big Boy Steel .357 lever-action rifle",
+        "shortName": "Henry BBS",
+        "description": "Lever-action rifle chambered for .357 Magnum, manufactured by Henry Repeating Arms. The rifle features a steel receiver with a blued finish, walnut stock and forearm, 10 round internal tube magazine, and a 16.5\" barrel with adjustable semi-buckhorn sights."
+      }
+    },
+    "addtoInventorySlots": [
+      "55d729c64bdc2d89028b4570",
+      "55d729d14bdc2d86028b456e"
+    ],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "fleaPriceRoubles": 32770,
+    "handbookPriceRoubles": 15531,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 150
+      }
+    ],
+    "masteries": true,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6924c2f800ff4b8d9d689a5c",
+        "_id": "6924f1d8d1c65e9b9da7e1b8",
+        "_items": [
+          {
+            "_id": "6924f1d0ad5d93d371436efb",
+            "_tpl": "6924c2f800ff4b8d9d689a5c",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              },
+              "FireMode": {
+                "FireMode": "semiauto"
+              }
+            }
+          },
+          {
+            "_id": "6924f1d50f657091b92d2b08",
+            "_tpl": "6924c3911b0f259ee27a95f1",
+            "parentId": "6924f1d0ad5d93d371436efb",
+            "slotId": "mod_magazine"
+          }
+        ],
+        "_name": "HenryBBSStandard",
+        "_parent": "6924f1d0ad5d93d371436efb",
+        "_type": "Preset"
+      }
+    ],
+    "traders": {},
+    "masterySections": [
+      {
+        "Level2": 250,
+        "Level3": 500,
+        "Name": "Henry Big Boy Steel",
+        "Templates": [
+          "6924c2f800ff4b8d9d689a5c"
+        ]
+      }
+    ]
+  },
+  "6924c38650310c56c1aec96e": {
+    "itemTplToClone": "626a8ae89e664a2e2a75f409",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponHenryBBS/henry_stockpart.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.15,
+      "Width": 1,
+      "Height": 1,
+      "Ergonomics": 5
+    },
+    "locales": {
+      "en": {
+        "name": "Henry Big Boy Steel leather buttstock ammo holder",
+        "shortName": "Henry BBS",
+        "description": "A leather ammo holder that fits onto the Henry Big Boy Steel wooden stock."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 9621,
+    "handbookPriceRoubles": 6073,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "6924c3911b0f259ee27a95f1": {
+    "itemTplToClone": "5bfeaa0f0db834001b734927",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponHenryBBS/henry_bbs_magazine.bundle",
+        "rcid": ""
+      },
+      "Height": 1,
+      "Width": 2,
+      "ItemSound": "mag_plastic",
+      "MagazineWithBelt": false,
+      "CheckOverride": 0,
+      "CheckTimeModifier": 0,
+      "LoadUnloadModifier": 0,
+      "MalfunctionChance": 0.08,
+      "Ergonomics": 0,
+      "Cartridges": [
+        {
+          "_id": "6924d31e2b632e080d8f96b2",
+          "_max_count": 10,
+          "_name": "cartridges",
+          "_parent": "6924c3911b0f259ee27a95f1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "62330b3ed4dc74626d570b95",
+                  "62330bfadc5883093563729b",
+                  "62330c18744e5e31df12f516",
+                  "62330c40bdd19b369e1e53d1"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Henry Big Boy Steel .357 10-round internal tube magazine",
+        "shortName": "Henry BBS",
+        "description": "Standard .357 10-round internal tube magazine for the Henry Big Boy Steel .357 magnum lever-action rifle."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "fleaPriceRoubles": 4355,
+    "handbookPriceRoubles": 2701,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "692662f440a8e88017858d23": {
+    "itemTplToClone": "55d48a634bdc2d8b2f8b456a",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponHenryBBS/henry_bbs_rail.bundle",
+        "rcid": ""
+      },
+      "Height": 1,
+      "Width": 1,
+      "Slots": [
+        {
+          "_id": "69266348ac314f7ab2f31d03",
+          "_name": "mod_scope",
+          "_parent": "6926634b1178eb0fecb01479",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "61714b2467085e45ef140b2c",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "626bb8532c923541184624b4",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Henry Big Boy Steel rail mount",
+        "shortName": "Henry BBS",
+        "description": "Picatinny rail mount for mounting small optics on the Henry Big Boy Steel .357 magnum lever-action rifle."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "fleaPriceRoubles": 3890,
+    "handbookPriceRoubles": 1872,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  }
+}
