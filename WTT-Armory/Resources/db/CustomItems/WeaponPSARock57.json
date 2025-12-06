@@ -1,0 +1,762 @@
+{
+  "68bf41bbb786f6e9315a5cab": {
+    "itemTplToClone": "5d3eb3b0a4b93615055e84d2",
+    "parentId": "5447b5cf4bdc2d65278b4567",
+    "handbookParentId": "5b5f792486f77447ed5636b3",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPSARock57/weapon_rock57_container.bundle",
+        "rcid": ""
+      },
+      "defMagType": "68bf4357e9feedf30b88015b",
+      "Slots": [
+        {
+          "_id": "68bf41ee94fe2b64ab8fe564",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "68bf41bbb786f6e9315a5cab",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "68bf4357e9feedf30b88015b",
+                  "68bf43cc203f27f48fee9bc7"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "68bf41f66e04c4ed20ec07ef",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "68bf41bbb786f6e9315a5cab",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "5cc9c20cd7f00c001336c65d",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "5a7b4900e899ef197b331a2a",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "68bf41ea6c81f623a278d95b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_reciever",
+          "_parent": "68bf41bbb786f6e9315a5cab",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "68bf473184358e175b34bbd5",
+                  "68bf480bd16b24dea69469c7",
+                  "68bf4827920c30deef7b96b3"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": true
+        },
+        {
+          "_id": "68bf41df1ea369bf40e0efb9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "68bf41bbb786f6e9315a5cab",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "68bf4443bddcae2d902b41cc"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": true
+        }
+      ],
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "PSA 5.7 Rock 5.7x28 pistol",
+        "shortName": "5.7 Rock",
+        "description": "The Palmetto State Armory 5.7 Rock is a polymer-framed pistol that incorporates game-changing ergonomics and controllability. Engineered from high-quality 416 stainless steel, advanced thermopolymers and available in both Full Size and Compact models, this pistol will perform in any condition with impeccable reliability and outstanding accuracy."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 37900,
+    "handbookPriceRoubles": 12950,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 150
+      }
+    ],
+    "masteries": true,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "68bf41bbb786f6e9315a5cab",
+        "_id": "68bf42976865db965881c656",
+        "_items": [
+          {
+            "_id": "68bf429a4ead0699a3db7e11",
+            "_tpl": "68bf41bbb786f6e9315a5cab",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              },
+              "FireMode": {
+                "FireMode": "single"
+              }
+            }
+          },
+          {
+            "_id": "68bf42ce9346ba18cd5fcdcd",
+            "_tpl": "68bf4357e9feedf30b88015b",
+            "parentId": "68bf429a4ead0699a3db7e11",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "68bf42ca8ae28e1249a66fdd",
+            "_tpl": "68bf4443bddcae2d902b41cc",
+            "parentId": "68bf429a4ead0699a3db7e11",
+            "slotId": "mod_barrel"
+          },
+          {
+            "_id": "68bf42c70dd1a4c6ef0471fd",
+            "_tpl": "68bf458d6ef1526e6e02bd9e",
+            "parentId": "68bf42ca8ae28e1249a66fdd",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "68bf42c059915864fa5a5fed",
+            "_tpl": "68bf473184358e175b34bbd5",
+            "parentId": "68bf429a4ead0699a3db7e11",
+            "slotId": "mod_reciever"
+          },
+          {
+            "_id": "68bf42d16685c7e68fd57c79",
+            "_tpl": "68bf450e899a7ddb21e01d0f",
+            "parentId": "68bf42c059915864fa5a5fed",
+            "slotId": "mod_sight_rear"
+          },
+          {
+            "_id": "68bf42c5922bef2de9585950",
+            "_tpl": "68bf453529c58e5188c0bcbe",
+            "parentId": "68bf42c059915864fa5a5fed",
+            "slotId": "mod_sight_front"
+          },
+          {
+            "_id": "68bf4724f43cefe64c7e28c2",
+            "_tpl": "68bf471013cd0729f735bdb3",
+            "parentId": "68bf42c059915864fa5a5fed",
+            "slotId": "mod_scope"
+          }
+        ],
+        "_name": "PSARock57Standard",
+        "_parent": "68bf429a4ead0699a3db7e11",
+        "_type": "Preset"
+      }
+    ],
+    "traders": {},
+    "masterySections": [
+      {
+        "Level2": 125,
+        "Level3": 225,
+        "Name": "57",
+        "Templates": [
+          "68bf41bbb786f6e9315a5cab"
+        ]
+      }
+    ]
+  },
+  "68bf4357e9feedf30b88015b": {
+    "itemTplToClone": "5d3eb5eca4b9363b1f22f8e4",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPSARock57/rock57_magazine.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Cartridges": [
+        {
+          "_id": "68bf438320eef82e1e9a95ac",
+          "_max_count": 24,
+          "_name": "cartridges",
+          "_parent": "68bf4357e9feedf30b88015b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5cc80f53e4a949000e1ea4f8",
+                  "5cc86832d7f00c000d3a6e6c",
+                  "5cc86840d7f00c002412c56c",
+                  "5cc80f67e4a949035e43bbba",
+                  "5cc80f38e4a949001152b560",
+                  "5cc80f8fe4a949033b0224a2",
+                  "5cc80f79e4a949033c7343b2"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "PSA 5.7 Rock 5.7x28 23-round magazine",
+        "shortName": "Rock",
+        "description": "A 23-round 5.7x28 magazine for the PSA 5.7 Rock pistol."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "fleaPriceRoubles": 32100,
+    "handbookPriceRoubles": 3990,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "68bf43cc203f27f48fee9bc7": {
+    "itemTplToClone": "5d3eb5eca4b9363b1f22f8e4",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPSARock57/rock57_magazine_ext.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Ergonomics": -2,
+      "Weight": 0.095,
+      "Cartridges": [
+        {
+          "_id": "68bf4415c5ef0cf44ad2df6f",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "68bf43cc203f27f48fee9bc7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5cc80f53e4a949000e1ea4f8",
+                  "5cc86832d7f00c000d3a6e6c",
+                  "5cc86840d7f00c002412c56c",
+                  "5cc80f67e4a949035e43bbba",
+                  "5cc80f38e4a949001152b560",
+                  "5cc80f8fe4a949033b0224a2",
+                  "5cc80f79e4a949033c7343b2"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "PSA 5.7 Rock 5.7x28 \"Base Pad +7\" 30-round magazine",
+        "shortName": "Rock EA",
+        "description": "A standard 23-round 5.7x28 PSA Rock magazine that comes with an attached +7-round base pad, produced by Excess Arms. This brings the total magazine capacity to 30 rounds."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "fleaPriceRoubles": 36100,
+    "handbookPriceRoubles": 5990,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "68bf4443bddcae2d902b41cc": {
+    "itemTplToClone": "5d3eb59ea4b9361c284bb4b2",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPSARock57/rock57_barrel.bundle",
+        "rcid": ""
+      },
+      "Slots": [
+        {
+          "_id": "68bf4447723b27c3ea48976c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "68bf4443bddcae2d902b41cc",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "68bf458d6ef1526e6e02bd9e",
+                  "68bf486151b56d9652d15b69",
+                  "5d3ef698a4b9361182109872",
+                  "5b3a16655acfc40016387a2a",
+                  "5c7e5f112e221600106f4ede",
+                  "5c0fafb6d174af02a96260ba",
+                  "612e0cfc8004cc50514c2d9e",
+                  "5cf6937cd7f00c056c53fb39",
+                  "544a38634bdc2d58388b4568",
+                  "5cff9e5ed7ad1a09407397d4",
+                  "5c48a2a42e221602b66d1e07",
+                  "5f6372e2865db925d54f3869",
+                  "615d8e2f1cb55961fa0fd9a4",
+                  "56ea8180d2720bf2698b456a",
+                  "5d02676dd7ad1a049e54f6dc",
+                  "56ea6fafd2720b844b8b4593",
+                  "5943ee5a86f77413872d25ec",
+                  "609269c3b0e443224b421cc1",
+                  "5c7fb51d2e2216001219ce11",
+                  "5ea172e498dacb342978818e",
+                  "5c6d710d2e22165df16b81e7",
+                  "612e0e55a112697a4b3a66e7",
+                  "5d440625a4b9361eec4ae6c5",
+                  "5cc9b815d7f00c000e2579d6",
+                  "5a7c147ce899ef00150bd8b8",
+                  "5c7954d52e221600106f4cc7",
+                  "59bffc1f86f77435b128b872",
+                  "5a9fbb84a2750c00137fa685",
+                  "626667e87379c44d557b7550",
+                  "62669bccdb9ebb4daa44cd14",
+                  "626a74340be03179a165e30c",
+                  "6386120cd6baa055ad1e201c",
+                  "63ac5c9658d0485fc039f0b8",
+                  "6405ff6bd4578826ec3e377a",
+                  "64943b74e9998d641b0412ed",
+                  "6621455e3aceea9e2b0b01e7",
+                  "664301213dd83ddae20dda18"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        }
+      ],
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "PSA 5.7 Rock 5.7x28 5.2 inch threaded barrel",
+        "shortName": "Rock thr.",
+        "description": "Threaded 5.2 inch 5.27x28 pistol barrel for the PSA 5.7 Rock pistol."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 6890,
+    "handbookPriceRoubles": 4340,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "68bf450e899a7ddb21e01d0f": {
+    "itemTplToClone": "6194f2912d2c397d6600348d",
+    "parentId": "55818ac54bdc2d5b648b456e",
+    "handbookParentId": "5b5f746686f77447ec5d7708",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPSARock57/rock57_rs.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "PSA 5.7 Rock rear sight",
+        "shortName": "Rock RS",
+        "description": "Standard rear pistol sight for the PSA 5.7 Rock 5.7x28 pistol."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_sight_rear"
+    ],
+    "fleaPriceRoubles": 2180,
+    "handbookPriceRoubles": 690,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "68bf453529c58e5188c0bcbe": {
+    "itemTplToClone": "6194f35c18a3974e5e7421e6",
+    "parentId": "55818ac54bdc2d5b648b456e",
+    "handbookParentId": "5b5f746686f77447ec5d7708",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPSARock57/rock57_fs.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "PSA 5.7 Rock front sight",
+        "shortName": "Rock FS",
+        "description": "Standard front pistol sight for the PSA 5.7 Rock 5.7x28 pistol."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_sight_rear"
+    ],
+    "fleaPriceRoubles": 1890,
+    "handbookPriceRoubles": 690,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "68bf458d6ef1526e6e02bd9e": {
+    "itemTplToClone": "6194f1f918a3974e5e7421e4",
+    "parentId": "550aa4dd4bdc2dc9348b4569",
+    "handbookParentId": "5b5f72f786f77447ec5d7702",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPSARock57/rock57_tp.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "PSA 5.7 Rock thread protector",
+        "shortName": "Rock thr.",
+        "description": "Thread protector for the PSA 5.7 Rock 5.7x28 threaded barrel."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_sight_rear"
+    ],
+    "fleaPriceRoubles": 2650,
+    "handbookPriceRoubles": 970,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "68bf4653cb23058364f3fd40": {
+    "itemTplToClone": "5a33b2c9c4a282000c5a9511",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPSARock57/rock57_rms.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Weight": 0.006,
+      "Ergonomics": 0
+    },
+    "locales": {
+      "en": {
+        "name": "PSA 5.7 Rock RMR mount",
+        "shortName": "Rock RMR",
+        "description": "A Trijicon RMR footprint MRDS mounting plate for the PSA 5.7 Rock pistol."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_sight_rear"
+    ],
+    "fleaPriceRoubles": 3750,
+    "handbookPriceRoubles": 1270,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "68bf471013cd0729f735bdb3": {
+    "itemTplToClone": "5a33b2c9c4a282000c5a9511",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPSARock57/rock57_plate.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Weight": 0.006,
+      "Ergonomics": 0
+    },
+    "locales": {
+      "en": {
+        "name": "PSA 5.7 Rock sight mount cap",
+        "shortName": "Rock cap",
+        "description": "A protective steel cap covering the mount for reflex sights on the PSA 5.7 Rock 5.7x28 pistol."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_sight_rear"
+    ],
+    "fleaPriceRoubles": 750,
+    "handbookPriceRoubles": 170,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "68bf473184358e175b34bbd5": {
+    "itemTplToClone": "6193d382ed0429009f543e65",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPSARock57/rock57_slide.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Slots": [
+        {
+          "_id": "68bf474d8a3ef3b92bc26b62",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "68bf473184358e175b34bbd5",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "5a7d9122159bd4001438dbf4",
+                  "5a6f5d528dc32e00094b97d9",
+                  "5a7d912f159bd400165484f3",
+                  "5a71e0fb8dc32e00094b97f2",
+                  "630765cb962d0247b029dc45",
+                  "68bf450e899a7ddb21e01d0f",
+                  "60229948cacb6b0506369e27",
+                  "602293f023506e50807090cb"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "68bf47588203ecd6661579ab",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "68bf473184358e175b34bbd5",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "68bf453529c58e5188c0bcbe",
+                  "5a7d90eb159bd400165484f1",
+                  "5a6f58f68dc32e000a311390",
+                  "5a7d9104159bd400134c8c21",
+                  "5a71e0048dc32e000c52ecc8",
+                  "630765777d50ff5e8a1ea718",
+                  "60228a76d62c9b14ed777a66",
+                  "60228a850ddce744014caf69"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "68bf4771b2a2c2c56d8ec42c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "68bf473184358e175b34bbd5",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "68bf4653cb23058364f3fd40",
+                  "68bf471013cd0729f735bdb3"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "PSA 5.7 Rock RK1 pistol slide",
+        "shortName": "Rock",
+        "description": "RK1 optics ready pistol slide for the PSA 5.7 Rock pistol."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_sight_rear"
+    ],
+    "fleaPriceRoubles": 8500,
+    "handbookPriceRoubles": 4190,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "68bf4827920c30deef7b96b3": {
+    "itemTplToClone": "68bf473184358e175b34bbd5",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPSARock57/rock57_slide_green.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "PSA 5.7 Rock RK1 pistol slide (Olive Drab)",
+        "shortName": "Rock",
+        "description": "RK1 optics ready pistol slide for the PSA 5.7 Rock pistol."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_sight_rear"
+    ],
+    "fleaPriceRoubles": 8500,
+    "handbookPriceRoubles": 4190,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "68bf480bd16b24dea69469c7": {
+    "itemTplToClone": "68bf473184358e175b34bbd5",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPSARock57/rock57_slide_fde.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "PSA 5.7 Rock RK1 pistol slide (FDE)",
+        "shortName": "Rock",
+        "description": "RK1 optics ready pistol slide for the PSA 5.7 Rock pistol."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_sight_rear"
+    ],
+    "fleaPriceRoubles": 8500,
+    "handbookPriceRoubles": 4190,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "68bf486151b56d9652d15b69": {
+    "itemTplToClone": "5d3ef698a4b9361182109872",
+    "parentId": "550aa4cd4bdc2dd8348b456c",
+    "handbookParentId": "5b5f731a86f774093e6cb4f9",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponPSARock57/suppressor_57_custom.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -20,
+      "Recoil": -12,
+      "Velocity": 1.2,
+      "Weight": 0.31,
+      "ExaminedByDefault": true
+    },
+    "locales": {
+      "en": {
+        "name": "Custom 5.7x28 direct thread sound suppressor",
+        "shortName": "57 Custom ",
+        "description": "A custom made 5.7x28 direct thread sound suppressor that is compatible with 1/2x28mm threads."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": true,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 35800,
+    "handbookPriceRoubles": 34999,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  }
+}
