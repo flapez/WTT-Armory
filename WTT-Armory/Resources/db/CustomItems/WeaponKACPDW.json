@@ -293,7 +293,7 @@
       "CheckOverride": 0,
       "Slots": [
         {
-          "_id": "kacpdw_barrelmuzzleslot",
+          "_id": "69374647f532cc66aa978f4a",
           "_mergeSlotWithChildren": false,
           "_name": "mod_muzzle",
           "_parent": "6761b213607f9a6f79017c7f",
@@ -348,7 +348,7 @@
       },
       "Cartridges": [
         {
-          "_id": "kacpdw_magazinepatrons",
+          "_id": "6937464d294cad13c82d7139",
           "_max_count": 30,
           "_name": "cartridges",
           "_parent": "6761b213607f9a6f79017c80",
@@ -414,10 +414,10 @@
       },
       "Cartridges": [
         {
-          "_id": "kacpdw_magazinepatrons",
+          "_id": "6937465123981e45e8dcdb9f",
           "_max_count": 30,
           "_name": "cartridges",
-          "_parent": "6761b213607f9a6f79017c80",
+          "_parent": "6876b80b37f01b91d94b927c",
           "_props": {
             "filters": [
               {
@@ -557,10 +557,10 @@
       "ExaminedByDefault": true,
       "Slots": [
         {
-          "_id": "kacpdwrsslot",
+          "_id": "6937465a9dc6b1fb69e1ddca",
           "_mergeSlotWithChildren": false,
           "_name": "mod_sight_rear",
-          "_parent": "6761b213607f9a6f79017c7e",
+          "_parent": "6761b213607f9a6f79017c83",
           "_props": {
             "filters": [
               {
@@ -586,10 +586,10 @@
           "_required": false
         },
         {
-          "_id": "kacpdwfsslot",
+          "_id": "6937465d68bdf9a4e8165aef",
           "_mergeSlotWithChildren": false,
           "_name": "mod_sight_front",
-          "_parent": "6761b213607f9a6f79017c7e",
+          "_parent": "6761b213607f9a6f79017c83",
           "_props": {
             "filters": [
               {
@@ -613,10 +613,10 @@
           "_required": false
         },
         {
-          "_id": "kacpdwscopeslot",
+          "_id": "6937466135bf84026df25971",
           "_mergeSlotWithChildren": false,
           "_name": "mod_scope",
-          "_parent": "6761b213607f9a6f79017c7e",
+          "_parent": "6761b213607f9a6f79017c83",
           "_props": {
             "filters": [
               {
@@ -702,10 +702,10 @@
           "_required": false
         },
         {
-          "_id": "55f57a5d4bdc2d972b8b4571",
+          "_id": "6937467eda6d69ddeed2c0e6",
           "_mergeSlotWithChildren": false,
           "_name": "mod_mount_000",
-          "_parent": "55d459824bdc2d892f8b4573",
+          "_parent": "6761b213607f9a6f79017c83",
           "_props": {
             "filters": [
               {
@@ -735,10 +735,10 @@
           "_required": false
         },
         {
-          "_id": "637f57b78d137b27f70c496d",
+          "_id": "69374675c47573a7986a2d96",
           "_mergeSlotWithChildren": false,
           "_name": "mod_foregrip",
-          "_parent": "637f57b78d137b27f70c496a",
+          "_parent": "6761b213607f9a6f79017c83",
           "_props": {
             "filters": [
               {
@@ -791,10 +791,10 @@
           "_required": false
         },
         {
-          "_id": "55f57a5d4bdc2d972b8b4571",
+          "_id": "693746725bdaa387d3da759f",
           "_mergeSlotWithChildren": false,
           "_name": "mod_mount_001",
-          "_parent": "55d459824bdc2d892f8b4573",
+          "_parent": "6761b213607f9a6f79017c83",
           "_props": {
             "filters": [
               {
@@ -824,10 +824,10 @@
           "_required": false
         },
         {
-          "_id": "55d35d0c4bdc2d892f8b456c",
+          "_id": "693746645c6beaa46c2297f4",
           "_mergeSlotWithChildren": false,
           "_name": "mod_barrel",
-          "_parent": "55d355e64bdc2d962f8b4569",
+          "_parent": "6761b213607f9a6f79017c83",
           "_props": {
             "filters": [
               {
