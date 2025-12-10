@@ -681,5 +681,205 @@
     "addWeaponPreset": false,
     "weaponPresets": [],
     "masterySections": []
+  },
+  "69389a69a516eeec6b6a5b72": {
+    "itemTplToClone": "5ede4739e0350d05467f73e8",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/patron_25x59_he.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Weight": 0.027,
+      "InitialSpeed": 760,
+      "BallisticCoeficient": 0.543,
+      "BulletMassGram": 12.8,
+      "BulletDiameterMilimeters": 7.92,
+      "Damage": 88,
+      "ammoAccr": 1,
+      "ammoRec": 0,
+      "PenetrationPower": 43,
+      "PenetrationPowerDiviation": 0.19,
+      "ArmorDamage": 81,
+      "DurabilityBurnModificator": 1.32,
+      "HeatFactor": 1.37,
+      "HeavyBleedingDelta": 0.1,
+      "LightBleedingDelta": 0.1,
+      "MalfFeedChance": 0.036,
+      "Caliber": "Caliber25x59",
+      "StackMaxRandom": 20,
+      "StackMaxSize": 20,
+      "StackMinRandom": 10,
+      "StackObjectsCount": 1
+    },
+    "locales": {
+      "en": {
+        "name": "25x59mm XM1103",
+        "shortName": "XM1103",
+        "description": "A 25x59mm XM1103 High Explosive (HE) grenade round."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 11204,
+    "handbookPriceRoubles": 8420,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "6938bc0b6e96bcf17932873e": {
+    "itemTplToClone": "5ede4739e0350d05467f73e8",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/patron_25x59_airburst.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Weight": 0.027,
+      "InitialSpeed": 760,
+      "BallisticCoeficient": 0.543,
+      "BulletMassGram": 12.8,
+      "BulletDiameterMilimeters": 7.92,
+      "Damage": 88,
+      "ammoAccr": 1,
+      "ammoRec": 0,
+      "PenetrationPower": 43,
+      "PenetrationPowerDiviation": 0.19,
+      "ArmorDamage": 81,
+      "DurabilityBurnModificator": 1.32,
+      "HeatFactor": 1.37,
+      "HeavyBleedingDelta": 0.1,
+      "LightBleedingDelta": 0.1,
+      "MalfFeedChance": 0.036,
+      "Caliber": "Caliber25x59",
+      "StackMaxRandom": 20,
+      "StackMaxSize": 20,
+      "StackMinRandom": 10,
+      "StackObjectsCount": 1
+    },
+    "locales": {
+      "en": {
+        "name": "25x59mm XM1019",
+        "shortName": "XM1019",
+        "description": "A 25x59mm XM1019 High Explosive (HE) grenade round with a timed fuse intended for use by airbursting before impact."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 11204,
+    "handbookPriceRoubles": 8420,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "6938bca4c4ab39c99232873f": {
+    "itemTplToClone": "5ede4739e0350d05467f73e8",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/patron_25x59_apincen.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Weight": 0.027,
+      "InitialSpeed": 760,
+      "BallisticCoeficient": 0.543,
+      "BulletMassGram": 12.8,
+      "BulletDiameterMilimeters": 7.92,
+      "Damage": 88,
+      "ammoAccr": 1,
+      "ammoRec": 0,
+      "PenetrationPower": 43,
+      "PenetrationPowerDiviation": 0.19,
+      "ArmorDamage": 81,
+      "DurabilityBurnModificator": 1.32,
+      "HeatFactor": 1.37,
+      "HeavyBleedingDelta": 0.1,
+      "LightBleedingDelta": 0.1,
+      "MalfFeedChance": 0.036,
+      "Caliber": "Caliber25x59",
+      "StackMaxRandom": 20,
+      "StackMaxSize": 20,
+      "StackMinRandom": 10,
+      "StackObjectsCount": 1
+    },
+    "locales": {
+      "en": {
+        "name": "25x59mm XM1099 API",
+        "shortName": "XM1099",
+        "description": "A 25x59mm XM1099 Armor Piercing Incendiary (API) grenade round intended to pierce heavy armor and burn anything past the armor."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 11204,
+    "handbookPriceRoubles": 8420,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "6938bcbdd8c13e10cd328740": {
+    "itemTplToClone": "5ede4739e0350d05467f73e8",
+    "parentId": "5485a8684bdc2da71d8b4567",
+    "handbookParentId": "5b47574386f77428ca22b33b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "Ammo/patron_25x59_ap.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Weight": 0.027,
+      "InitialSpeed": 760,
+      "BallisticCoeficient": 0.543,
+      "BulletMassGram": 12.8,
+      "BulletDiameterMilimeters": 7.92,
+      "Damage": 88,
+      "ammoAccr": 1,
+      "ammoRec": 0,
+      "PenetrationPower": 43,
+      "PenetrationPowerDiviation": 0.19,
+      "ArmorDamage": 81,
+      "DurabilityBurnModificator": 1.32,
+      "HeatFactor": 1.37,
+      "HeavyBleedingDelta": 0.1,
+      "LightBleedingDelta": 0.1,
+      "MalfFeedChance": 0.036,
+      "Caliber": "Caliber25x59",
+      "StackMaxRandom": 20,
+      "StackMaxSize": 20,
+      "StackMinRandom": 10,
+      "StackObjectsCount": 1
+    },
+    "locales": {
+      "en": {
+        "name": "25x59mm XM1049 AP",
+        "shortName": "XM1049",
+        "description": "A 25x59mm XM1049 Armor Piercing (AP) grenade round intended to pierce heavy armor."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 11204,
+    "handbookPriceRoubles": 8420,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
   }
 }
