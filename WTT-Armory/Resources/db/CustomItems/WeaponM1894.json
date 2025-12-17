@@ -1,0 +1,1310 @@
+{
+  "69417a3f787395b8cc0ab13e": {
+    "itemTplToClone": "5bfea6e90db834001b7347f3",
+    "parentId": "5447b6254bdc2dc3278b4568",
+    "handbookParentId": "5b5f798886f77447ed5636b5",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponM1894DarkTracker/marlin1894_container.bundle",
+        "rcid": ""
+      },
+        "Slots": [
+            {
+                "_name": "mod_barrel",
+                "_id": "560d19c44bdc2de22e8b457a",
+                "_parent": "54491c4f4bdc2db1078b4568",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "694162205fffc8182d00526a"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": true,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_magazine",
+                "_id": "560d1bc94bdc2de22e8b457b",
+                "_parent": "54491c4f4bdc2db1078b4568",
+                "_props": {
+                "filters": [
+                    {
+                    "AnimationIndex": 0,
+                    "Filter": [
+                        "694162205fffc8182d005268"
+                    ]
+                    }
+                ]
+                },
+                "_required": true,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c394bdc2dae468b4577"
+            },
+            {
+                "_name": "mod_stock",
+                "_id": "560d1d074bdc2d26448b4574",
+                "_parent": "54491c4f4bdc2db1078b4568",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "694162205fffc8182d00526c"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": true,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_mount",
+                "_id": "560d1e974bdc2d20478b457b",
+                "_parent": "54491c4f4bdc2db1078b4568",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "694162205fffc8182d005266"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_hammer",
+                "_id": "5e820703ac2bb513793cdd0d",
+                "_parent": "5e81c3cbac2bb513793cdc75",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "694162205fffc8182d005264"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": true,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            }
+        ],
+        "defAmmo": "6941ef6424ad69dcab0d9a64",
+        "defMagType": "6925eae6b1f1b81dcf03db6c",
+        "ammoCaliber": "Caliber11x33R",
+        "Chambers": [
+          {
+            "_name": "patron_in_weapon",
+            "_id": "669fa409933e898cce0c216c",
+            "_parent": "69417a3f787395b8cc0ab13e",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "6941ef6424ad69dcab0d9a64",
+                    "6941ef6424ad69dcab0d9a6d",
+                    "694316154eb853dd5707e76a",
+                    "694316154eb853dd5707e76c",
+                    "694316154eb853dd5707e76e"
+                  ]
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d4af244bdc2d962f8b4571"
+          }
+        ],
+        "ExtraSizeDown": 0,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "Weight": 0.81,
+        "Width": 1,
+        "AimPlane": 0.32,
+        "AimSensitivity": 0.65,
+        "AllowFeed": true,
+        "AllowJam": false,
+        "AllowMisfire": true,
+        "AllowOverheat": true,
+        "AllowSlide": true,
+        "BaseMalfunctionChance": 0.2277,
+        "BoltAction": true,
+        "BurstShotsCount": 3,
+        "CameraSnap": 3.5,
+        "CoolFactorGun": 4.608,
+        "CoolFactorGunMods": 1,
+        "DeviationCurve": 1,
+        "DeviationMax": 33,
+        "DoubleActionAccuracyPenalty": 1.5,
+        "Durability": 100,
+        "DurabilityBurnRatio": 1.15,
+        "Ergonomics": 34,
+        "HeatFactorByShot": 6.55,
+        "HeatFactorGun": 1,
+        "HipAccuracyRestorationDelay": 0.2,
+        "HipAccuracyRestorationSpeed": 7,
+        "HipInnaccuracyGain": 0.16,
+        "IronSightRange": 100,
+        "MountCameraSnapMultiplier": 3,
+        "MountHorizontalRecoilMultiplier": 0.6,
+        "MountReturnSpeedHandMultiplier": 1,
+        "MountVerticalRecoilMultiplier": 0.85,
+        "MountingHorizontalOutOfBreathMultiplier": 0.4,
+        "RecoilAngle": 90,
+        "RecoilCamera": 0.07,
+        "RecoilCategoryMultiplierHandRotation": 0.19,
+        "RecoilDampingHandRotation": 0.85,
+        "RecoilForceBack": 398,
+        "RecoilForceUp": 192,
+        "RecoilPosZMult": 1,
+        "RecoilReturnPathDampingHandRotation": 0.41,
+        "RecoilReturnPathOffsetHandRotation": 0.01,
+        "RecoilReturnSpeedHandRotation": 2.1,
+        "RecoilStableAngleIncreaseStep": 2.5,
+        "RecoilStableIndexShot": 3,
+        "RecolDispersion": 10,
+        "ReloadMode": "InternalMagazine",
+        "RepairComplexity": 1,
+        "SightingRange": 100,
+        "SingleFireRate": 700,
+        "Velocity": 3.81,
+        "bEffDist": 1000,
+        "bFirerate": 100,
+        "bHearDist": 100,
+        "MustBoltBeOpennedForExternalReload": false,
+        "MustBoltBeOpennedForInternalReload": false
+    },
+    "locales": {
+      "en": {
+        "name": "Marlin Dark Tracker .44 Magnum rifle",
+        "shortName": "M1894",
+        "description": "Dark Series rifles are packed with features to provide consumers with more function and versatility. And, for the first time, the mid-sized finger lever has a unique flare on the bottom for more comfortable cycling."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 76843,
+    "handbookPriceRoubles": 71932,
+    "addtoTraders": true,
+    "masteries": true,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+          {
+            "_id": "694316154eb853dd5707e770",
+            "_type": "Preset",
+            "_changeWeaponName": false,
+            "_name": "Wren Base",
+            "_parent": "694316154eb853dd5707e771",
+            "_items": [
+              {
+                "_id": "694316154eb853dd5707e771",
+                "_tpl": "69417a3f787395b8cc0ab13e",
+                "upd": {
+                  "Repairable": {
+                    "Durability": 100,
+                    "MaxDurability": 100
+                  },
+                  "FireMode": {
+                    "FireMode": "single"
+                  }
+                }
+              },
+              {
+                "_id": "694331331ea336be6d05023d",
+                "_tpl": "694162205fffc8182d00526a",
+                "parentId": "694316154eb853dd5707e771",
+                "slotId": "mod_barrel"
+              },
+              {
+                "_id": "694331331ea336be6d05023e",
+                "_tpl": "694162205fffc8182d005268",
+                "parentId": "694316154eb853dd5707e771",
+                "slotId": "mod_magazine"
+              },
+              {
+                "_id": "694331331ea336be6d05023f",
+                "_tpl": "694162205fffc8182d00526c",
+                "parentId": "694316154eb853dd5707e771",
+                "slotId": "mod_stock"
+              },
+              {
+                "_id": "694331331ea336be6d050240",
+                "_tpl": "694162205fffc8182d005266",
+                "parentId": "694316154eb853dd5707e771",
+                "slotId": "mod_mount"
+              },
+              {
+                "_id": "694331331ea336be6d050241",
+                "_tpl": "69417a3f787395b8cc0ab136",
+                "parentId": "694331331ea336be6d05023d",
+                "slotId": "mod_handguard"
+              },
+              {
+                "_id": "694331331ea336be6d050242",
+                "_tpl": "694162205fffc8182d005264",
+                "parentId": "694316154eb853dd5707e771",
+                "slotId": "mod_hammer"
+              },
+              {
+                "_id": "694331331ea336be6d050243",
+                "_tpl": "69417a3f787395b8cc0ab138",
+                "parentId": "694331331ea336be6d050240",
+                "slotId": "mod_sight_rear"
+              },
+              {
+                "_id": "694331331ea336be6d050244",
+                "_tpl": "69417a3f787395b8cc0ab13a",
+                "parentId": "694331331ea336be6d050241",
+                "slotId": "mod_sight_front"
+              },
+              {
+                "_id": "69432f44340ff283444cf1c8",
+                "_tpl": "5a34fd2bc4a282329a73b4c5",
+                "parentId": "694331331ea336be6d05023d",
+                "slotId": "mod_muzzle"
+              }
+            ],
+            "_encyclopedia": "69417a3f787395b8cc0ab13e"
+          }
+    ],
+    "traders": {
+      "JAEGER": {
+        "69417a3f787395b8cc0ab13f": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 89421,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": [],
+    "masterySections": [
+      {
+        "Name": "Wren Metal Works Marlin .357",
+        "Templates": [
+          "6925eae6b1f1b81dcf03db66"
+        ]
+      }
+    ]
+  },
+  "694162205fffc8182d00526c": {
+    "itemTplToClone": "5a78813bc5856700186c4abe",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponM1894DarkTracker/1894_stock.bundle",
+        "rcid": ""
+      },
+        "Weight": 0.595,
+        "Width": 2,
+        "Recoil": -18,
+        "Ergonomics": 6,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 2,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "ExtraSizeDown": 0,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "M1894 Point Precision aluminum stock",
+        "shortName": "RPP alu",
+        "description": "An aluminum stock for M1894 rifles. Manufactured by Ranger Point Precision."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_stock"
+    ],
+    "fleaPriceRoubles": 14981,
+    "handbookPriceRoubles": 11022,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 23
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "JAEGER": {
+        "694162205fffc8182d00526d": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 352,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "694162205fffc8182d00526a": {
+    "itemTplToClone": "5bfebc320db8340019668d79",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponM1894DarkTracker/1894_barrel.bundle",
+        "rcid": ""
+      },
+        "ExtraSizeDown": 0,
+        "ExtraSizeLeft": 2,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "Weight": 0.920,
+        "Width": 2,
+        "Recoil": -27,
+        "Ergonomics": -6,
+        "Slots": [
+            {
+              "_name": "mod_muzzle",
+              "_id": "5c6d16a32e2216001219b4ca",
+              "_parent": "5c6d10e82e221601da357b07",
+              "_props": {
+                "filters": [
+                  {
+                    "Filter": [
+                        "612e0d3767085e45ef14057f",
+                        "5b7d693d5acfc43bca706a3d",
+                        "5a34fd2bc4a282329a73b4c5",
+                        "6065c6e7132d4d12c81fd8e1",
+                        "5d1f819086f7744b355c219b",
+                        "5dcbe965e4ed22586443a79d",
+                        "5d026791d7ad1a04a067ea63",
+                        "5dfa3cd1b33c0951220c079b",
+                        "6130c43c67085e45ef1405a1",
+                        "5cdd7685d7f00c000f260ed2",
+                        "5c878e9d2e2216000f201903",
+                        "5d02677ad7ad1a04a15c0f95",
+                        "5bbdb8bdd4351e4502011460",
+                        "5cdd7693d7f00c0010373aa5",
+                        "607ffb988900dc2d9a55b6e4",
+                        "615d8eb350224f204c1da1cf",
+                        "612e0e3c290d254f5e6b291d",
+                        "5d443f8fa4b93678dd4a01aa",
+                        "5c7954d52e221600106f4cc7",
+                        "5fbc22ccf24b94483f726483",
+                        "59bffc1f86f77435b128b872",
+                        "5cf78496d7f00c065703d6ca",
+                        "5d270ca28abbc31ee25ee821",
+                        "5d270b3c8abbc3105335cfb8",
+                        "5fbe7618d6fa9c00c571bb6c",
+                        "628a66b41d5e41750e314f34",
+                        "618178aa1cb55961fa0fdc80",
+                        "6642f63667f5cb56a00662eb"
+                    ],
+                    "Shift": 0
+                  }
+                ]
+              },
+              "_required": false,
+              "_mergeSlotWithChildren": false,
+              "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+              "_name": "mod_handguard",
+              "_id": "5c6d16a32e2216001219b4ca",
+              "_parent": "5c6d10e82e221601da357b07",
+              "_props": {
+                "filters": [
+                  {
+                    "Filter": [
+                        "69417a3f787395b8cc0ab136"
+                    ],
+                    "Shift": 0
+                  }
+                ]
+              },
+              "_required": true,
+              "_mergeSlotWithChildren": false,
+              "_proto": "55d30c4c4bdc2db4468b457e"
+            }
+        ]
+    },
+    "locales": {
+      "en": {
+        "name": "Marlin 1894 .44 Magnum 16 inch Barrel",
+        "shortName": "M1894 16",
+        "description": "16 inch(406mm) Barrel for the Marlin 1894 .44 Magnum lever action rifle "
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 49283,
+    "handbookPriceRoubles": 45276,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 98
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 98
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 98
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 98
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 98
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 98
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PRAPOR": {
+        "694162205fffc8182d00526b": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 57621,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "694162205fffc8182d005268": {
+    "itemTplToClone": "5882163e24597758206fee8c",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponM1894DarkTracker/1894_mag.bundle",
+        "rcid": ""
+      },
+      "Cartridges": [
+        {
+          "_name": "cartridges",
+          "_id": "57487c4f2459771f6f1cac31",
+          "_parent": "55d484b44bdc2d1d4e8b456d",
+          "_max_count": 5,
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                    "6941ef6424ad69dcab0d9a64",
+                    "6941ef6424ad69dcab0d9a6d",
+                    "694316154eb853dd5707e76a",
+                    "694316154eb853dd5707e76c",
+                    "694316154eb853dd5707e76e"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+        "ExtraSizeDown": 0,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "Width": 2
+    },
+    "locales": {
+      "en": {
+        "name": "Marlin 1894 .44 Magnum 5 round Magazine",
+        "shortName": "M1894 5",
+        "description": "A 5-round magazine for the Marlin 1894 .44 Magnum lever action rifle"
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "fleaPriceRoubles": 3423,
+    "handbookPriceRoubles": 2342,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 23
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "JAEGER": {
+        "694162205fffc8182d005269": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 5822,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "694162205fffc8182d005266": {
+    "itemTplToClone": "5bfebc530db834001d23eb65",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponM1894DarkTracker/1894_mount.bundle",
+        "rcid": ""
+      },
+        "Slots": [
+            {
+              "_name": "mod_scope",
+              "_id": "5bfebc530db834001d23eb67",
+              "_parent": "5bfebc530db834001d23eb65",
+              "_props": {
+                "filters": [
+                  {
+                    "Filter": [
+                      "57ac965c24597706be5f975c",
+                      "57aca93d2459771f2c7e26db",
+                      "544a3f024bdc2d1d388b4568",
+                      "544a3a774bdc2d3a388b4567",
+                      "5d2dc3e548f035404a1a4798",
+                      "57adff4f24597737f373b6e6",
+                      "5c0517910db83400232ffee5",
+                      "591c4efa86f7741030027726",
+                      "570fd79bd2720bc7458b4583",
+                      "570fd6c2d2720bc6458b457f",
+                      "558022b54bdc2dac148b458d",
+                      "5c07dd120db834001c39092d",
+                      "5c0a2cec0db834001b7ce47d",
+                      "58491f3324597764bc48fa02",
+                      "584924ec24597768f12ae244",
+                      "5b30b0dc5acfc400153b7124",
+                      "6165ac8c290d254f5e6b2f6c",
+                      "60a23797a37c940de7062d02",
+                      "5d2da1e948f035477b1ce2ba",
+                      "5c0505e00db834001b735073",
+                      "609a63b6e2ff132951242d09",
+                      "584984812459776a704a82a6",
+                      "59f9d81586f7744c7506ee62",
+                      "570fd721d2720bc5458b4596",
+                      "57ae0171245977343c27bfcf",
+                      "5dfe6104585a0c3e995c7b82",
+                      "544a3d0a4bdc2d1b388b4567",
+                      "5d1b5e94d7ad1a2b865a96b0",
+                      "609bab8b455afd752b2e6138",
+                      "58d39d3d86f77445bb794ae7",
+                      "616554fe50224f204c1da2aa",
+                      "5c7d55f52e221644f31bff6a",
+                      "616584766ef05c2ce828ef57",
+                      "5b3b6dc75acfc47a8773fb1e",
+                      "615d8d878004cc50514c3233",
+                      "5b2389515acfc4771e1be0c0",
+                      "577d128124597739d65d0e56",
+                      "618b9643526131765025ab35",
+                      "618bab21526131765025ab3f",
+                      "5c86592b2e2216000e69e77c",
+                      "5a37ca54c4a282000d72296a",
+                      "5d0a29fed7ad1a002769ad08",
+                      "5c064c400db834001d23f468",
+                      "58d2664f86f7747fec5834f6",
+                      "57c69dd424597774c03b7bbc",
+                      "5b3b99265acfc4704b4a1afb",
+                      "5aa66a9be5b5b0214e506e89",
+                      "5aa66c72e5b5b00016327c93",
+                      "5c1cdd302e221602b3137250",
+                      "61714b2467085e45ef140b2c",
+                      "6171407e50224f204c1da3c5",
+                      "61713cc4d8e3106d9806c109",
+                      "5b31163c5acfc400153b71cb",
+                      "5a33b652c4a28232996e407c",
+                      "5a33b2c9c4a282000c5a9511",
+                      "59db7eed86f77461f8380365",
+                      "5a1ead28fcdbcb001912fa9f",
+                      "5dff77c759400025ea5150cf",
+                      "626bb8532c923541184624b4",
+                      "62811f461d5df4475f46a332",
+                      "63fc449f5bd61c6cf3784a88",
+                      "6477772ea8a38bb2050ed4db",
+                      "6478641c19d732620e045e17",
+                      "64785e7c19d732620e045e15",
+                      "65392f611406374f82152ba5",
+                      "653931da5db71d30ab1d6296",
+                      "655f13e0a246670fb0373245",
+                      "67641a851b2899700609901a",
+                      "6761759e7ee06333f108bf86"
+                    ],
+                    "Shift": 0
+                  }
+                ]
+              },
+              "_required": false,
+              "_mergeSlotWithChildren": false,
+              "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+              "_name": "mod_sight_rear",
+              "_id": "5bfebc530db834001d23eb67",
+              "_parent": "5bfebc530db834001d23eb65",
+              "_props": {
+                "filters": [
+                  {
+                    "Filter": [
+                      "69417a3f787395b8cc0ab138"
+                    ],
+                    "Shift": 0
+                  }
+                ]
+              },
+              "_required": false,
+              "_mergeSlotWithChildren": false,
+              "_proto": "55d30c4c4bdc2db4468b457e"
+            }
+        ]
+    },
+    "locales": {
+      "en": {
+        "name": "Marlin 1894 Rail Mount",
+        "shortName": "M1894 Mount",
+        "description": "Marlin 1894 upper optic mount"
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_handguard"
+    ],
+    "addtoTraders": true,
+    "fleaPriceRoubles": 21873,
+    "handbookPriceRoubles": 18346,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 7
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 6
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 5
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 1
+      }
+    ],
+    "traders": {
+      "JAEGER": {
+        "694162205fffc8182d005267": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 2
+          },
+          "barters": [
+            {
+              "count": 27832,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "694162205fffc8182d005264": {
+    "itemTplToClone": "5e81c550763d9f754677befd",
+    "parentId": "5a74651486f7744e73386dd1",
+    "handbookParentId": "5b5f74cc86f77447ec5d770a",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponM1894DarkTracker/1894_hammer.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "Marlin 1894 Hammer",
+        "shortName": "M1894 H",
+        "description": "Hammer for the Marlin 1894 rifle"
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_Hammer"
+    ],
+    "fleaPriceRoubles": 763,
+    "handbookPriceRoubles": 432,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 23
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "JAEGER": {
+        "694162205fffc8182d005265": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 945,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "69417a3f787395b8cc0ab136": {
+    "itemTplToClone": "5ea16ada09aa976f2e7a51be",
+    "parentId": "55818a104bdc2db9688b4569",
+    "handbookParentId": "5b5f75e486f77447ec5d7712",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponM1894DarkTracker/1894_handguard.bundle",
+        "rcid": ""
+      },
+        "Slots": [
+          {
+            "_name": "mod_mount_000",
+            "_id": "5ea16acdfadf1d18c87b0786",
+            "_parent": "5ea16acdfadf1d18c87b0784",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "5b7be47f5acfc400170e2dd2",
+                    "6269220d70b6c02e665f2635",
+                    "6269545d0e57f218e4548ca2",
+                    "669a6a4a525be1d2d004b8eb"
+                  ],
+                  "Shift": 0
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_mount_001",
+            "_id": "5ea16acdfadf1d18c87b0787",
+            "_parent": "5ea16acdfadf1d18c87b0784",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "5b7be47f5acfc400170e2dd2",
+                    "6269220d70b6c02e665f2635",
+                    "6269545d0e57f218e4548ca2",
+                    "669a6a4a525be1d2d004b8eb"
+                  ],
+                  "Shift": 0
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_tactical_000",
+            "_id": "5ea16acdfadf1d18c87b0788",
+            "_parent": "5ea16acdfadf1d18c87b0784",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "57fd23e32459772d0805bcf1",
+                    "544909bb4bdc2d6f028b4577",
+                    "5d10b49bd7ad1a1a560708b0",
+                    "5c06595c0db834001a66af6c",
+                    "5a7b483fe899ef0016170d15",
+                    "61605d88ffa6e502ac5e7eeb",
+                    "5c5952732e2216398b5abda2",
+                    "644a3df63b0b6f03e101e065"
+                  ],
+                  "Shift": 0
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_scope",
+            "_id": "5ea16acdfadf1d18c87b0789",
+            "_parent": "5ea16acdfadf1d18c87b0784",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "5649a2464bdc2d91118b45a8"
+                  ],
+                  "Shift": 0
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_foregrip",
+            "_id": "5ea16acdfadf1d18c87b078a",
+            "_parent": "5ea16acdfadf1d18c87b0784",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "57cffb66245977632f391a99",
+                    "57cffcd624597763133760c5",
+                    "57cffcdd24597763f5110006",
+                    "57cffce524597763b31685d8",
+                    "5b7be4895acfc400170e2dd5",
+                    "651a8bf3a8520e48047bf708",
+                    "651a8e529829226ceb67c319",
+                    "665d5d9e338229cfd6078da1",
+                    "665edce564fb556f940ab32a"
+                  ],
+                  "Shift": 0
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
+            "_name": "mod_sight_front",
+            "_id": "5ea16acdfadf1d18c87b078b",
+            "_parent": "5ea16acdfadf1d18c87b0784",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "69417a3f787395b8cc0ab13a"
+                  ],
+                  "Shift": 0
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          }
+        ],
+        "ExtraSizeDown": 0,
+        "ExtraSizeLeft": 0,
+        "ExtraSizeRight": 0,
+        "ExtraSizeUp": 0,
+        "Height": 1,
+        "Width": 2,      
+        "CanSellOnRagfair": false,
+        "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "Marlin 1894 Handguard",
+        "shortName": "M1894 H",
+        "description": "Anodized aluminum handguard features M-LOK® attachment slots for mounting of accessories."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_Hammer"
+    ],
+    "fleaPriceRoubles": 763,
+    "handbookPriceRoubles": 432,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 23
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "JAEGER": {
+        "69417a3f787395b8cc0ab137": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 945,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "69417a3f787395b8cc0ab138": {
+    "itemTplToClone": "5e81c550763d9f754677befd",
+    "parentId": "5a74651486f7744e73386dd1",
+    "handbookParentId": "5b5f74cc86f77447ec5d770a",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponM1894DarkTracker/1894_rear.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "Marlin 1894 rear sight",
+        "shortName": "M1894 RS",
+        "description": "Rear sight for the Marlin 1894 rifle"
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_Hammer"
+    ],
+    "fleaPriceRoubles": 763,
+    "handbookPriceRoubles": 432,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 23
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "JAEGER": {
+        "69417a3f787395b8cc0ab139": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 945,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  },
+  "69417a3f787395b8cc0ab13a": {
+    "itemTplToClone": "5e81c550763d9f754677befd",
+    "parentId": "5a74651486f7744e73386dd1",
+    "handbookParentId": "5b5f74cc86f77447ec5d770a",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponM1894DarkTracker/1894_front.bundle",
+        "rcid": ""
+      },
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false
+    },
+    "locales": {
+      "en": {
+        "name": "Marlin 1894 front sight",
+        "shortName": "M1894 FS",
+        "description": "Front sight for the Marlin 1894 rifle"
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_Hammer"
+    ],
+    "fleaPriceRoubles": 763,
+    "handbookPriceRoubles": 432,
+    "addtoTraders": true,
+    "addtoBots": false,
+    "addtoStaticLootContainers": true,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_AIRDROP_WEAPON_CRATE",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X2",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_5X5",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_6X3",
+        "probability": 23
+      },
+      {
+        "containerName": "LOOTCONTAINER_WOODEN_CRATE",
+        "probability": 23
+      }
+    ],
+    "masteries": false,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "JAEGER": {
+        "69417a3f787395b8cc0ab13b": {
+          "barterSettings": {
+            "loyalLevel": 2,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 945,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "masterySections": [
+      {
+        "Name": "M4",
+        "Templates": [
+          "4b81488c78c8a8ac7d37f9b9"
+        ]
+      }
+    ]
+  }
+}
