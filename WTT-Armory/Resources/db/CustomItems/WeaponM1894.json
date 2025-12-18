@@ -197,9 +197,9 @@
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 76843,
-    "handbookPriceRoubles": 71932,
-    "addtoTraders": true,
+    "fleaPriceRoubles": 45252,
+    "handbookPriceRoubles": 34624,
+    "addtoTraders": false,
     "masteries": true,
     "addWeaponPreset": true,
     "weaponPresets": [
@@ -291,7 +291,7 @@
           },
           "barters": [
             {
-              "count": 89421,
+              "count": 54532,
               "_tpl": "MONEY_ROUBLES"
             }
           ]
@@ -386,7 +386,7 @@
           },
           "barters": [
             {
-              "count": 352,
+              "count": 18326,
               "_tpl": "MONEY_ROUBLES"
             }
           ]
@@ -499,8 +499,8 @@
     "modSlot": [
       "mod_barrel"
     ],
-    "fleaPriceRoubles": 49283,
-    "handbookPriceRoubles": 45276,
+    "fleaPriceRoubles": 19278,
+    "handbookPriceRoubles": 14325,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -543,7 +543,7 @@
           },
           "barters": [
             {
-              "count": 57621,
+              "count": 23412,
               "_tpl": "MONEY_ROUBLES"
             }
           ]
@@ -791,8 +791,8 @@
       "mod_handguard"
     ],
     "addtoTraders": true,
-    "fleaPriceRoubles": 21873,
-    "handbookPriceRoubles": 18346,
+    "fleaPriceRoubles": 7632,
+    "handbookPriceRoubles": 4231,
     "addtoStaticLootContainers": true,
     "staticLootContainers": [
       {
@@ -822,7 +822,7 @@
           },
           "barters": [
             {
-              "count": 27832,
+              "count": 9826,
               "_tpl": "MONEY_ROUBLES"
             }
           ]
@@ -1077,8 +1077,8 @@
     "modSlot": [
       "mod_Hammer"
     ],
-    "fleaPriceRoubles": 763,
-    "handbookPriceRoubles": 432,
+    "fleaPriceRoubles": 8362,
+    "handbookPriceRoubles": 6532,
     "addtoTraders": true,
     "addtoBots": false,
     "addtoStaticLootContainers": true,
@@ -1121,7 +1121,7 @@
           },
           "barters": [
             {
-              "count": 945,
+              "count": 12832,
               "_tpl": "MONEY_ROUBLES"
             }
           ]
