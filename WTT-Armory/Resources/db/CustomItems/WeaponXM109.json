@@ -1,0 +1,802 @@
+{
+  "6945dc69fe52c2415de357f7": {
+    "itemTplToClone": "67d0576f29f580ebc10efd08",
+    "parentId": "5447b6194bdc2d67278b4567",
+    "handbookParentId": "5b5f791486f774093f2ed3be",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponXM109/weapon_xm109_container.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Width": 5,
+      "Height": 1,
+      "defAmmo": "69389a69a516eeec6b6a5b72",
+      "defMagType": "6945e2a4ab7c6d358c6e41fb",
+      "CanSellOnRagfair": true,
+      "ammoCaliber": "Caliber25x59",
+      "Chambers": [
+        {
+          "_id": "6945e41edb18beb614b46920",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "6945dc69fe52c2415de357f7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69389a69a516eeec6b6a5b72",
+                 "6938bc0b6e96bcf17932873e",
+                 "6938bca4c4ab39c99232873f",
+                 "6938bcbdd8c13e10cd328740"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Slots": [
+        {
+          "_id": "6945dc4b4b45de1ad3d985a0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "6945dc69fe52c2415de357f7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5bb20e49d4351e3bac1212de",
+                  "5ba26b17d4351e00367f9bdd",
+                  "5dfa3d7ac41b2312ea33362a",
+                  "5c1780312e221602b66cc189",
+                  "5fb6564947ce63734e3fa1da",
+                  "5bc09a18d4351e003562b68e",
+                  "5c18b9192e2216398b5a8104",
+                  "5fc0fa957283c4046c58147e",
+                  "5894a81786f77427140b8347",
+                  "55d5f46a4bdc2d1b198b4567",
+                  "5ae30bad5acfc400185c2dc4",
+                  "66ba297b859e57cf91e38a5d",
+                  "66ba29d44744d98a4df0073b"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6945dc4dc77a0ef1bb115576",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock_000",
+          "_parent": "6945dc69fe52c2415de357f7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                 "693b4dc16e9c45ea3d88c4aa"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6948609cc5e4c21f8f72604b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "6945dc69fe52c2415de357f7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be4895acfc400170e2dd5",
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "651a8e529829226ceb67c319",
+                  "651a8bf3a8520e48047bf708",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6945dc506af4e528c4a2bad6",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical_001",
+          "_parent": "6945dc69fe52c2415de357f7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6945dec48fb00469cf6e589b"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6945dc53489b1a1566861e5a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "6945dc69fe52c2415de357f7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5d10b49bd7ad1a1a560708b0",
+                  "5c06595c0db834001a66af6c",
+                  "5a7b483fe899ef0016170d15",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6945dc574cc26b86b7ed32a4",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "6945dc69fe52c2415de357f7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c",
+                  "55d4af3a4bdc2d972f8b456f",
+                  "66ba2a6be18ed84221edd72d",
+                  "66ba2a7583204e25695233c0"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6945dc5b71f6b73ac5d18824",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "6945dc69fe52c2415de357f7",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+              "6945e2a4ab7c6d358c6e41fb"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "6945dc5e7325ce3ec5528b66",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "6945dc69fe52c2415de357f7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                 "69475894dcb467228bcd3fb0",
+                 "69475859861a5fc94441d17b"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "6945dc615260f8a619a6f0b0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistol_grip",
+          "_parent": "6945dc69fe52c2415de357f7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "55d4b9964bdc2d1d4e8b456e",
+                  "571659bb2459771fb2755a12",
+                  "602e71bd53a60014f9705bfa",
+                  "6113c3586c780c1e710c90bc",
+                  "6113cc78d3a39d50044c065a",
+                  "6113cce3d92c473c770200c7",
+                  "5cc9bcaed7f00c011c04e179",
+                  "5bb20e18d4351e00320205d5",
+                  "5bb20e0ed4351e3bac1212dc",
+                  "6193dcd0f8ee7e52e4210a28",
+                  "5d025cc1d7ad1a53845279ef",
+                  "5c6d7b3d2e221600114c9b7d",
+                  "57c55efc2459772d2c6271e7",
+                  "57af48872459771f0b2ebf11",
+                  "57c55f092459772d291a8463",
+                  "57c55f112459772d28133310",
+                  "57c55f172459772d27602381",
+                  "5a339805c4a2826c6e06d73d",
+                  "55802f5d4bdc2dac148b458f",
+                  "5d15cf3bd7ad1a67e71518b2",
+                  "59db3a1d86f77429e05b4e92",
+                  "5fbcbd6c187fea44d52eda14",
+                  "59db3acc86f7742a2c4ab912",
+                  "59db3b0886f77429d72fb895",
+                  "615d8faecabb9b7ad90f4d5d",
+                  "63f5feead259b42f0b4d6d0f",
+                  "652911675ae2ae97b80fdf3c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "6945dc894aad7418738dcf5a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_bipod",
+          "_parent": "6945dc69fe52c2415de357f7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                "671126b049e181972e0681fa"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6945dc64539dece78dbb9aa9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "6945dc69fe52c2415de357f7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "544a3d0a4bdc2d1b388b4567",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "5b2389515acfc4771e1be0c0",
+                  "577d128124597739d65d0e56",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "5c86592b2e2216000e69e77c",
+                  "5a37ca54c4a282000d72296a",
+                  "5d0a29fed7ad1a002769ad08",
+                  "5c064c400db834001d23f468",
+                  "58d2664f86f7747fec5834f6",
+                  "57c69dd424597774c03b7bbc",
+                  "5b3b99265acfc4704b4a1afb",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "5dff77c759400025ea5150cf",
+                  "626bb8532c923541184624b4",
+                  "62811f461d5df4475f46a332",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245",
+                  "6567e751a715f85433025998",
+                  "6761759e7ee06333f108bf86",
+                  "67641a851b2899700609901a",
+                  "03f6c86c56945862820e1006",
+                  "2322ee962f6c77a1284abc1e",
+                  "5ae3d18efa17cbd51e898ced"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Foldable": false
+    },
+    "locales": {
+      "en": {
+        "name": "Barrett XM109 25x59 anti-material payload rifle",
+        "shortName": "XM109",
+        "description": "The Barrett XM109, originally known as the Objective Sniper Weapon (OSW) and now called the Anti-Materiel Payload Rifle (AMPR), is a prototype semi-automatic grenade launcher. It is chambered for 25 x 59 mm grenade rounds and was developed by Barrett Firearms Manufacturing. It was designed in accordance with a requirement set out in 1994, and is capable of defeating light armor and equipment out to 2 km (1.2 miles)."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 269703,
+    "handbookPriceRoubles": 159990,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "staticLootContainers": [
+      {
+        "containerName": "LOOTCONTAINER_WEAPON_BOX_4X4",
+        "probability": 250
+      },
+      {
+        "containerName": "LOOTCONTAINER_DEAD_SCAV",
+        "probability": 150
+      }
+    ],
+    "masteries": true,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+      {
+        "_changeWeaponName": false,
+        "_encyclopedia": "6945dc69fe52c2415de357f7",
+        "_id": "6945dc8eeb37ab20a5dede57",
+        "_items": [
+          {
+            "_id": "6945dc916093cdc98d5e67a6",
+            "_tpl": "6945dc69fe52c2415de357f7",
+            "upd": {
+              "Repairable": {
+                "MaxDurability": 100,
+                "Durability": 100
+              },
+              "FireMode": {
+                "FireMode": "single"
+              }
+            }
+          },
+          {
+            "_id": "6945dcb1cecbb6b92c579284",
+            "_tpl": "6945e2a4ab7c6d358c6e41fb",
+            "parentId": "6945dc916093cdc98d5e67a6",
+            "slotId": "mod_magazine"
+          },
+          {
+            "_id": "6945dcb4d1f7518dc477f90e",
+            "_tpl": "694755c06cb8cad0abfba87f",
+            "parentId": "6945dcb8d415d9b79bea3b87",
+            "slotId": "mod_muzzle"
+          },
+          {
+            "_id": "6945dcb8d415d9b79bea3b87",
+            "_tpl": "69475894dcb467228bcd3fb0",
+            "parentId": "6945dc916093cdc98d5e67a6",
+            "slotId": "mod_barrel"
+          },
+          {
+            "_id": "6945dca5da5f69a6fef0f2ba",
+            "_tpl": "55d4b9964bdc2d1d4e8b456e",
+            "parentId": "6945dc916093cdc98d5e67a6",
+            "slotId": "mod_pistol_grip"
+          }
+        ],
+        "_name": "XM109 Standard",
+        "_parent": "6945dc916093cdc98d5e67a6",
+        "_type": "Preset"
+      }
+    ],
+    "traders": {},
+    "masterySections": [
+      {
+        "Level2": 100,
+        "Level3": 200,
+        "Name": "M107A1",
+        "Templates": [
+          "6945dc69fe52c2415de357f7"
+        ]
+      }
+    ]
+  },
+  "6945dec48fb00469cf6e589b": {
+    "itemTplToClone": "626a8ae89e664a2e2a75f409",
+    "parentId": "55818a594bdc2db9688b456a",
+    "handbookParentId": "5b5f757486f774093e6cb507",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponXM109/xm109_cheekrest.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "ConflictingItems": ["693b4dc16e9c45ea3d88c4aa"]
+    },
+    "locales": {
+      "en": {
+        "name": "Barrett XM109 cheek rest",
+        "shortName": "XM109 CR",
+        "description": "A tactical cheek-rest for the Barrett XM109 25x59 anti-material payload rifle rifle."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_sight_front"
+    ],
+    "fleaPriceRoubles": 13931,
+    "handbookPriceRoubles": 9031,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "6945e2a4ab7c6d358c6e41fb": {
+    "itemTplToClone": "67d418d0ffb910d21f04720e",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponXM109/xm109_mag.bundle",
+        "rcid": ""
+      },
+      "Ergonomics": -3,
+      "Weight": 2.11,
+      "magAnimationIndex": 0,
+      "Height": 1,
+      "Width": 1,
+      "Cartridges": [
+        {
+          "_id": "6945e2a0abce16438a8dd06d",
+          "_max_count": 5,
+          "_name": "cartridges",
+          "_parent": "6945e2a4ab7c6d358c6e41fb",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                 "69389a69a516eeec6b6a5b72",
+                 "6938bc0b6e96bcf17932873e",
+                 "6938bca4c4ab39c99232873f",
+                 "6938bcbdd8c13e10cd328740"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Barrett XM109 25x59 5-round magazine",
+        "shortName": "XM109 5",
+        "description": "A 5-round magazine designed for the Barrett XM109 25x59 anti-material payload rifle"
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_magazine"
+    ],
+    "fleaPriceRoubles": 6863,
+    "handbookPriceRoubles": 5280,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "69464ff61b0557c6882268ba": {
+    "itemTplToClone": "5c7955c22e221644f31bfd5e",
+    "parentId": "550aa4cd4bdc2dd8348b456c",
+    "handbookParentId": "5b5f731a86f774093e6cb4f9",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponXM109/xm109_suppressor.bundle",
+        "rcid": ""
+      },
+      "Loudness": -22,
+      "Recoil": -7,
+      "Ergonomics": -26,
+      "Weight": 0.667
+    },
+    "locales": {
+      "en": {
+        "name": "Barrett XM109 25x59 sound suppressor",
+        "shortName": "XM109 S",
+        "description": "Proprietary suppressor designed specifically for the Barrett XM109 25x59 anti-material payload rifle."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 77031,
+    "handbookPriceRoubles": 62051,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "694755c06cb8cad0abfba87f": {
+    "itemTplToClone": "67d41883f378a36c4706eeb7",
+    "parentId": "550aa4bf4bdc2dd6348b456b",
+    "handbookParentId": "5b5f724c86f774093f2ecf15",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponXM109/xm109_muzzle.bundle",
+        "rcid": ""
+      },
+      "muzzleModType": "brake",
+      "Weight": 0.063,
+      "Width": 1,
+      "Height": 1,
+      "Loudness": 0,
+      "Velocity": 1,
+      "DurabilityBurnModificator": 0.98,
+      "Ergonomics": -1,
+      "Recoil": -7,
+      "Slots": [
+        {
+          "_id": "694755bc918bf72474bd5bb1",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "694755c06cb8cad0abfba87f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "69464ff61b0557c6882268ba"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Barrett XM109 QDL muzzle brake",
+        "shortName": "XM QDL",
+        "description": "Standard muzzle brake for the XM109 anti-material payload rifle."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 12890,
+    "handbookPriceRoubles": 8443,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "694756c1c61e561e10ddc6f0": {
+    "itemTplToClone": "67d41883f378a36c4706eeb7",
+    "parentId": "550aa4bf4bdc2dd6348b456b",
+    "handbookParentId": "5b5f724c86f774093f2ecf15",
+    "overrideProperties": {
+      "ExaminedByDefault": true,
+      "Prefab": {
+        "path": "WeaponXM109/xm109_brake.bundle",
+        "rcid": ""
+      },
+      "muzzleModType": "brake",
+      "Weight": 0.063,
+      "Width": 1,
+      "Height": 1,
+      "Loudness": 0,
+      "Velocity": 1,
+      "DurabilityBurnModificator": 0.98,
+      "Ergonomics": -1,
+      "Recoil": -7,
+      "Slots": []
+    },
+    "locales": {
+      "en": {
+        "name": "Barrett XM109 dual-port muzzle brake",
+        "shortName": "XM109 Dual",
+        "description": "A custom dual-port muzzle brake for the XM109 anti-material payload rifle."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_muzzle"
+    ],
+    "fleaPriceRoubles": 13990,
+    "handbookPriceRoubles": 8499,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "69475859861a5fc94441d17b": {
+    "itemTplToClone": "67d4178bffb910d21f04720a",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponXM109/xm109_barrel_long.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Ergonomics": -7,
+      "Recoil": -3,
+      "ExtraSizeLeft": 2,
+      "Weight": 0.3,
+      "Width": 4,
+      "Slots": [
+        {
+          "_id": "6947585ee8f1c9dac40e7520",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "69475859861a5fc94441d17b",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "694755c06cb8cad0abfba87f",
+                  "694756c1c61e561e10ddc6f0"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Barrett XM109 25 inch fluted barrel ",
+        "shortName": "XM109 25\"",
+        "description": "Extended 25 inch fluted barrel for the Barrett XM109 anti-material payload rifle."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 15099,
+    "handbookPriceRoubles": 10949,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  },
+  "69475894dcb467228bcd3fb0": {
+    "itemTplToClone": "67d4178bffb910d21f04720a",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponXM109/xm109_barrel_short.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "Ergonomics": -7,
+      "Recoil": -3,
+      "ExtraSizeLeft": 1,
+      "Weight": 0.3,
+      "Width": 3,
+      "Slots": [
+        {
+          "_id": "6947589b6df99b9a90456310",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "69475894dcb467228bcd3fb0",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "694755c06cb8cad0abfba87f",
+                  "694756c1c61e561e10ddc6f0"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        }
+      ]
+    },
+    "locales": {
+      "en": {
+        "name": "Barrett XM109 17 inch fluted barrel",
+        "shortName": "XM109 17\"",
+        "description": "Standard 17 inch fluted barrel for the Barrett XM109 anti-material payload rifle."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [
+      "mod_barrel"
+    ],
+    "fleaPriceRoubles": 14099,
+    "handbookPriceRoubles": 7940,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
+  }
+}
