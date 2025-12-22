@@ -566,7 +566,7 @@
           "_name": "cartridges",
           "_id": "57487c4f2459771f6f1cac31",
           "_parent": "55d484b44bdc2d1d4e8b456d",
-          "_max_count": 5,
+          "_max_count": 8,
           "_props": {
             "filters": [
               {
@@ -592,9 +592,9 @@
     },
     "locales": {
       "en": {
-        "name": "Marlin 1894 .44 Magnum 5 round Magazine",
-        "shortName": "M1894 5",
-        "description": "A 5-round magazine for the Marlin 1894 .44 Magnum lever action rifle"
+        "name": "Marlin 1894 .44 Magnum 8 round Magazine",
+        "shortName": "M1894",
+        "description": "A 8-round magazine for the Marlin 1894 .44 Magnum lever action rifle"
       }
     },
     "addtoInventorySlots": [],

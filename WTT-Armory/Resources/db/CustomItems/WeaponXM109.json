@@ -508,8 +508,8 @@
       "Ergonomics": -3,
       "Weight": 2.11,
       "magAnimationIndex": 0,
-      "Height": 1,
-      "Width": 1,
+      "Height": 2,
+      "Width": 2,
       "Cartridges": [
         {
           "_id": "6945e2a0abce16438a8dd06d",
@@ -565,6 +565,8 @@
       "Loudness": -22,
       "Recoil": -7,
       "Ergonomics": -26,
+	  "ExtraSizeLeft": 2,
+	  "Width": 3,
       "Weight": 0.667
     },
     "locales": {
