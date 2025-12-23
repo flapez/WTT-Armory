@@ -434,6 +434,7 @@
       "Height": 2,
       "Width": 2,
       "CanSellOnRagfair": true,
+	  "ConflictingItems": ["67d0576f29f580ebc10efd08"],
       "Cartridges": [
         {
           "_id": "69374537d10217bbd8719cf1",
@@ -719,12 +720,8 @@
       },
 	  "CenterOfImpact": 0.012,
       "ExaminedByDefault": true,
-<<<<<<< Updated upstream
       "CanSellOnRagfair": true,
-      "Ergonomics": -3,
-=======
       "Ergonomics": -2,
->>>>>>> Stashed changes
       "Recoil": -1,
       "ExtraSizeLeft": 1,
       "Weight": 4.94,
@@ -782,13 +779,9 @@
       },
 	  "Ergonomics": 0.5,
       "Weight": 0.17,
-<<<<<<< Updated upstream
-      "ExaminedByDefault": true,
-      "CanSellOnRagfair": true
-=======
+      "CanSellOnRagfair": true,
 	  "SightingRange": 1500,
       "ExaminedByDefault": true
->>>>>>> Stashed changes
     },
     "locales": {
       "en": {
@@ -821,11 +814,8 @@
       },
 	  "Ergonomics": 0.5,
       "Weight": 0.09,
-<<<<<<< Updated upstream
       "CanSellOnRagfair": true,
-=======
 	  "SightingRange": 100,
->>>>>>> Stashed changes
       "ExaminedByDefault": true
     },
     "locales": {

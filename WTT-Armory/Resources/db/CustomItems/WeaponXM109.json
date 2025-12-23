@@ -604,7 +604,7 @@
         "rcid": ""
       },
       "muzzleModType": "brake",
-      "Weight": 0.65,
+      "Weight": 0.74,
       "Width": 1,
       "Height": 1,
       "Loudness": 0,
@@ -663,12 +663,8 @@
         "rcid": ""
       },
       "muzzleModType": "brake",
-<<<<<<< Updated upstream
       "CanSellOnRagfair": true,
-      "Weight": 0.063,
-=======
-      "Weight": 0.85,
->>>>>>> Stashed changes
+      "Weight": 0.67,
       "Width": 1,
       "Height": 1,
       "Loudness": 0,
