@@ -13,6 +13,10 @@
       "Height": 1,
 	  "Weight": 4.91,
 	  "Ergonomics": 26,
+	  "Velocity": -27.8,
+      "RecoilForceBack": 1115,
+      "RecoilForceUp": 610,
+	  "bEffDist": 1500,
       "defAmmo": "67d41936f378a36c4706eeb9",
       "defMagType": "67d418d0ffb910d21f04720e",
       "CanSellOnRagfair": true,
@@ -654,13 +658,14 @@
         "path": "WeaponM107/m107_barrel.bundle",
         "rcid": ""
       },
+	  "CenterOfImpact": 0.011,
       "ExaminedByDefault": true,
       "CanSellOnRagfair": true,
       "Ergonomics": -7,
       "Recoil": -5,
       "ExtraSizeLeft": 2,
       "Weight": 6.25,
-      "Width": 4,
+      "Width": 5,
       "Slots": [
         {
           "_id": "6937478cfc17946c1a048106",
@@ -712,13 +717,18 @@
         "path": "WeaponM107/m107_barrel_short.bundle",
         "rcid": ""
       },
+	  "CenterOfImpact": 0.012,
       "ExaminedByDefault": true,
+<<<<<<< Updated upstream
       "CanSellOnRagfair": true,
       "Ergonomics": -3,
+=======
+      "Ergonomics": -2,
+>>>>>>> Stashed changes
       "Recoil": -1,
       "ExtraSizeLeft": 1,
       "Weight": 4.94,
-      "Width": 3,
+      "Width": 4,
       "Slots": [
         {
           "_id": "693b4f210a6fbdb6ff217135",
@@ -772,8 +782,13 @@
       },
 	  "Ergonomics": 0.5,
       "Weight": 0.17,
+<<<<<<< Updated upstream
       "ExaminedByDefault": true,
       "CanSellOnRagfair": true
+=======
+	  "SightingRange": 1500,
+      "ExaminedByDefault": true
+>>>>>>> Stashed changes
     },
     "locales": {
       "en": {
@@ -806,7 +821,11 @@
       },
 	  "Ergonomics": 0.5,
       "Weight": 0.09,
+<<<<<<< Updated upstream
       "CanSellOnRagfair": true,
+=======
+	  "SightingRange": 100,
+>>>>>>> Stashed changes
       "ExaminedByDefault": true
     },
     "locales": {
