@@ -6724,19 +6724,10 @@
       ]
     },
     {
-      "key": "Ammo/patron_25x59_textures.bundle",
-      "dependencyKeys": [
-        "shaders",
-        "cubemaps",
-        "assets/commonassets/physics/physicsmaterials.bundle"
-      ]
-    },
-    {
       "key": "Ammo/patron_25x59_he.bundle",
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "Ammo/patron_25x59_textures.bundle",
         "assets/commonassets/physics/physicsmaterials.bundle"
       ]
     },
@@ -6745,7 +6736,6 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "Ammo/patron_25x59_textures.bundle",
         "assets/commonassets/physics/physicsmaterials.bundle"
       ]
     },
@@ -6754,7 +6744,14 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "Ammo/patron_25x59_textures.bundle",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Ammo/patron_25x59_apers.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle"
       ]
     },
@@ -6763,7 +6760,6 @@
       "dependencyKeys": [
         "shaders",
         "cubemaps",
-        "Ammo/patron_25x59_textures.bundle",
         "assets/commonassets/physics/physicsmaterials.bundle"
       ]
     }
