@@ -565,6 +565,8 @@
       "Loudness": -22,
       "Recoil": -7,
       "Ergonomics": -26,
+	  "ExtraSizeLeft": 2,
+	  "Width": 3,
       "Weight": 0.667
     },
     "locales": {

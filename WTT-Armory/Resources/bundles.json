@@ -6762,6 +6762,46 @@
         "cubemaps",
         "assets/commonassets/physics/physicsmaterials.bundle"
       ]
+    },
+    {
+      "key": "Ammo/patron_11x33r_fmj.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Ammo/patron_11x33r_jhp.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Ammo/patron_11x33r_pen.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Ammo/patron_11x33r_rt.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
+      "key": "Ammo/patron_11x33r_sp.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
     }
   ]
 }
