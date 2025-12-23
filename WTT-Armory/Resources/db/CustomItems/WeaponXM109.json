@@ -473,6 +473,7 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
       "ConflictingItems": ["693b4dc16e9c45ea3d88c4aa"]
     },
     "locales": {
@@ -501,6 +502,7 @@
     "handbookParentId": "5b5f754a86f774094242f19b",
     "overrideProperties": {
       "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
       "Prefab": {
         "path": "WeaponXM109/xm109_mag.bundle",
         "rcid": ""
@@ -558,6 +560,7 @@
     "handbookParentId": "5b5f731a86f774093e6cb4f9",
     "overrideProperties": {
       "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
       "Prefab": {
         "path": "WeaponXM109/xm109_suppressor.bundle",
         "rcid": ""
@@ -593,6 +596,7 @@
     "handbookParentId": "5b5f724c86f774093f2ecf15",
     "overrideProperties": {
       "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
       "Prefab": {
         "path": "WeaponXM109/xm109_muzzle.bundle",
         "rcid": ""
@@ -657,6 +661,7 @@
         "rcid": ""
       },
       "muzzleModType": "brake",
+      "CanSellOnRagfair": true,
       "Weight": 0.063,
       "Width": 1,
       "Height": 1,
@@ -697,6 +702,7 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
       "Ergonomics": -7,
       "Recoil": -3,
       "ExtraSizeLeft": 2,
@@ -754,6 +760,7 @@
         "rcid": ""
       },
       "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
       "Ergonomics": -7,
       "Recoil": -3,
       "ExtraSizeLeft": 1,
