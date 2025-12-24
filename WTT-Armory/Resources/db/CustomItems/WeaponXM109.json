@@ -11,7 +11,12 @@
       "ExaminedByDefault": true,
       "Width": 6,
       "Height": 1,
-	  "Weight": 7.2,
+	  "Weight": 8.733,
+	  "Ergonomics": 15,
+	  "Velocity": -27.8,
+	  "bFirerate": 20,
+      "RecoilForceBack": 650,
+      "RecoilForceUp": 357,
       "defAmmo": "69389a69a516eeec6b6a5b72",
       "defMagType": "6945e2a4ab7c6d358c6e41fb",
       "CanSellOnRagfair": true,
@@ -232,31 +237,20 @@
                 "Filter": [
                   "55d4b9964bdc2d1d4e8b456e",
                   "571659bb2459771fb2755a12",
-                  "602e71bd53a60014f9705bfa",
                   "6113c3586c780c1e710c90bc",
                   "6113cc78d3a39d50044c065a",
                   "6113cce3d92c473c770200c7",
-                  "5cc9bcaed7f00c011c04e179",
                   "5bb20e18d4351e00320205d5",
-                  "5bb20e0ed4351e3bac1212dc",
-                  "6193dcd0f8ee7e52e4210a28",
-                  "5d025cc1d7ad1a53845279ef",
-                  "5c6d7b3d2e221600114c9b7d",
                   "57c55efc2459772d2c6271e7",
                   "57af48872459771f0b2ebf11",
                   "57c55f092459772d291a8463",
                   "57c55f112459772d28133310",
                   "57c55f172459772d27602381",
                   "5a339805c4a2826c6e06d73d",
-                  "55802f5d4bdc2dac148b458f",
-                  "5d15cf3bd7ad1a67e71518b2",
-                  "59db3a1d86f77429e05b4e92",
-                  "5fbcbd6c187fea44d52eda14",
-                  "59db3acc86f7742a2c4ab912",
-                  "59db3b0886f77429d72fb895",
                   "615d8faecabb9b7ad90f4d5d",
+                  "5b07db875acfc40dc528a5f6",
                   "63f5feead259b42f0b4d6d0f",
-                  "652911675ae2ae97b80fdf3c"
+                  "68fd5abc5c7f36f8d8c208c3"
                 ],
                 "Shift": 0
               }
@@ -474,6 +468,7 @@
         "rcid": ""
       },
 	  "Width": 2,
+	  "Ergonomics": 4,
       "ExaminedByDefault": true,
       "CanSellOnRagfair": true,
       "ConflictingItems": ["693b4dc16e9c45ea3d88c4aa"]
@@ -569,10 +564,10 @@
       },
       "Loudness": -22,
       "Recoil": -7,
-      "Ergonomics": -26,
+      "Ergonomics": -25,
 	  "ExtraSizeLeft": 2,
 	  "Width": 3,
-      "Weight": 2.3
+      "Weight": 2.223
     },
     "locales": {
       "en": {
@@ -610,8 +605,8 @@
       "Loudness": 0,
       "Velocity": 1,
       "DurabilityBurnModificator": 0.98,
-      "Ergonomics": -1,
-      "Recoil": -7,
+      "Ergonomics": -2,
+      "Recoil": -4,
       "Slots": [
         {
           "_id": "694755bc918bf72474bd5bb1",
@@ -670,8 +665,8 @@
       "Loudness": 0,
       "Velocity": 1,
       "DurabilityBurnModificator": 0.98,
-      "Ergonomics": -1,
-      "Recoil": -7,
+      "Ergonomics": -4,
+      "Recoil": -9,
       "Slots": []
     },
     "locales": {
@@ -706,9 +701,9 @@
       "ExaminedByDefault": true,
       "CanSellOnRagfair": true,
       "Ergonomics": -7,
-      "Recoil": -3,
+      "Recoil": -6,
       "ExtraSizeLeft": 2,
-      "Weight": 3.9,
+      "Weight": 5.05,
       "Width": 5,
       "Slots": [
         {
@@ -763,10 +758,10 @@
       },
       "ExaminedByDefault": true,
       "CanSellOnRagfair": true,
-      "Ergonomics": -7,
-      "Recoil": -3,
+      "Ergonomics": -3,
+      "Recoil": -2,
       "ExtraSizeLeft": 0,
-      "Weight": 3.1,
+      "Weight": 3.93,
       "Width": 3,
       "Slots": [
         {

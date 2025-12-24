@@ -12,10 +12,10 @@
       "Width": 5,
       "Height": 1,
 	  "Weight": 4.91,
-	  "Ergonomics": 26,
+	  "Ergonomics": 23,
 	  "Velocity": -27.8,
-      "RecoilForceBack": 1115,
-      "RecoilForceUp": 610,
+      "RecoilForceBack": 1100,
+      "RecoilForceUp": 615,
 	  "bEffDist": 1500,
       "defAmmo": "67d41936f378a36c4706eeb9",
       "defMagType": "67d418d0ffb910d21f04720e",
@@ -168,31 +168,20 @@
                 "Filter": [
                   "55d4b9964bdc2d1d4e8b456e",
                   "571659bb2459771fb2755a12",
-                  "602e71bd53a60014f9705bfa",
                   "6113c3586c780c1e710c90bc",
                   "6113cc78d3a39d50044c065a",
                   "6113cce3d92c473c770200c7",
-                  "5cc9bcaed7f00c011c04e179",
                   "5bb20e18d4351e00320205d5",
-                  "5bb20e0ed4351e3bac1212dc",
-                  "6193dcd0f8ee7e52e4210a28",
-                  "5d025cc1d7ad1a53845279ef",
-                  "5c6d7b3d2e221600114c9b7d",
                   "57c55efc2459772d2c6271e7",
                   "57af48872459771f0b2ebf11",
                   "57c55f092459772d291a8463",
                   "57c55f112459772d28133310",
                   "57c55f172459772d27602381",
                   "5a339805c4a2826c6e06d73d",
-                  "55802f5d4bdc2dac148b458f",
-                  "5d15cf3bd7ad1a67e71518b2",
-                  "59db3a1d86f77429e05b4e92",
-                  "5fbcbd6c187fea44d52eda14",
-                  "59db3acc86f7742a2c4ab912",
-                  "59db3b0886f77429d72fb895",
                   "615d8faecabb9b7ad90f4d5d",
+                  "5b07db875acfc40dc528a5f6",
                   "63f5feead259b42f0b4d6d0f",
-                  "652911675ae2ae97b80fdf3c"
+                  "68fd5abc5c7f36f8d8c208c3"
                 ],
                 "Shift": 0
               }
@@ -524,7 +513,7 @@
         "rcid": ""
       },
       "Loudness": -18,
-      "Recoil": -7,
+      "Recoil": -10,
       "Ergonomics": -24,
 	  "ExtraSizeLeft": 2,
 	  "Width": 3,
@@ -567,7 +556,7 @@
       "Velocity": 1,
       "DurabilityBurnModificator": 0.98,
       "Ergonomics": -2,
-      "Recoil": -9,
+      "Recoil": -8,
       "Slots": [
         {
           "_id": "693746d3b9c3803cc304101a",
@@ -627,7 +616,7 @@
       "Velocity": 1,
       "DurabilityBurnModificator": 0.98,
       "Ergonomics": -3,
-      "Recoil": -14,
+      "Recoil": -13,
       "Slots": []
     },
     "locales": {
@@ -848,8 +837,8 @@
         "rcid": ""
       },
       "Weight": 0.17,
-	  "Recoil": -8,
-	  "Ergonomics": 3,
+	  "Recoil": -6,
+	  "Ergonomics": 2,
     "CanSellOnRagfair": true,
       "ExaminedByDefault": true
     },
@@ -884,8 +873,8 @@
       },
       "Weight": 0.53,
 	  "Width": 2,
-	  "Recoil": -14,
-	  "Ergonomics": 2,
+	  "Recoil": -11,
+	  "Ergonomics": 5,
     "CanSellOnRagfair": true,
       "ExaminedByDefault": true,
       "ConflictingItems": ["693b4dc302ec6ac27fb92e3d"]
@@ -921,7 +910,7 @@
       },
       "CanSellOnRagfair": true,
       "Weight": 0.12,
-	  "Ergonomics": 4,
+	  "Ergonomics": 5,
 	  "Width": 2,
       "ExaminedByDefault": true
     },
