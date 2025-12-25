@@ -25,7 +25,8 @@
 	"inventory": {
 		"equipment": {
 			"FirstPrimaryWeapon": {
-				"6761b213607f9a6f79017c7e": 4850
+				"6761b213607f9a6f79017c7e": 4850,
+				"69161a1d649768162e8219ef": 4850
 			},
 			"SecondPrimaryWeapon": {
 				"66e718dc498d978477e0ba75": 1860
@@ -35,6 +36,39 @@
 			}
 		},
 		"mods": {
+			"69161a1d649768162e8219ef": {
+				"mod_barrel": [
+					"6916120d4852f062fe869d9d"
+				],
+				"mod_reciever": [
+					"69101cf471c52daba356641c"
+				],
+				"mod_magazine": [
+					"55802d5f4bdc2dac148b458e"
+				],
+				"mod_sight_rear": [
+					"691226c24afdbfd9b59f5092"
+				],
+				"mod_sight_front": [
+					"6912276c0545f6fef92580ca"
+				],
+				"mod_handguard": [
+					"691610a32a16d7557fc9bf3d"
+				],
+				"mod_stock": [
+					"691359e9856292352c4c96e5"
+				]
+			},
+			"6916120d4852f062fe869d9d": {
+				"mod_muzzle": [
+					"691612be65f7a3e248c8be2a"
+				]
+			},
+			"69101cf471c52daba356641c": {
+				"mod_scope": [
+					"5d2da1e948f035477b1ce2ba"
+				]
+			},
 			"6868d249cdee524f8c0ba45f": {
 				"mod_barrel": [
 					"6868d414e67828905d765b10"

@@ -54,10 +54,8 @@
 			"FirstPrimaryWeapon": {
 				"6671ebcdd32bd95eb398e920": 5682,
 				"687afda52dc9fd6c0e14c602": 500,
-				"664274afd9fe3879695d90e9": 103,
 				"66e718dc498d978477e0ba75": 125,
-				"664a5b945636ce820472f225": 3945,
-				"664274a4d2e5fe0439d545a6": 2000
+				"664a5b945636ce820472f225": 3945
 			},
 			"Holster": {
 				"6868d249cdee524f8c0ba45f": 70360,
@@ -67,41 +65,6 @@
 			}
 		},
 		"mods": {
-			"664274a4d2e5fe0439d545a6": {
-				"mod_magazine": [
-					"67b54d6e6d677b7884e7b369"
-				],
-				"mod_scope": [
-					"67a01e64a2b82626b73d10d8"
-				],
-				"mod_barrel": [
-					"67a01e64a2b82626b73d10c2"
-				],
-				"mod_stock": [
-					"67a01e64a2b82626b73d10d1"
-				],
-				"mod_sight_rear": [
-					"67a01e64a2b82626b73d10da"
-				],
-				"mod_pistolgrip": [
-					"67a01e64a2b82626b73d10d5"
-				]
-			},
-			"67a01e64a2b82626b73d10d8": {
-				"mod_scope": [
-					"5d2da1e948f035477b1ce2ba"
-				]
-			},
-			"67a01e64a2b82626b73d10c2": {
-				"mod_muzzle": [
-					"67a01e64a2b82626b73d10c3"
-				]
-			},
-			"67a01e64a2b82626b73d10c3": {
-				"mod_mount": [
-					"59c63b4486f7747afb151c1c"
-				]
-			},
 			"59c63b4486f7747afb151c1c": {
 				"mod_tactical_000": [
 					"5a800961159bd4315e3a1657",
@@ -409,56 +372,6 @@
 				],
 				"mod_muzzle": [
 					"544a38634bdc2d58388b4568"
-				]
-			},
-			"664274afd9fe3879695d90e9": {
-				"mod_magazine": [
-					"6642749650f358f59ab6b622"
-				],
-				"mod_scope": [
-					"67a01e64a2b82626b73d10d9"
-				],
-				"mod_barrel": [
-					"67a01e64a2b82626b73d10bf"
-				],
-				"mod_stock": [
-					"67a01e64a2b82626b73d10ce"
-				],
-				"mod_pistolgrip": [
-					"67a01e64a2b82626b73d10d6"
-				]
-			},
-			"67a01e64a2b82626b73d10d9": {
-				"mod_scope": [
-					"626bb8532c923541184624b4",
-					"57ac965c24597706be5f975c",
-					"544a3f024bdc2d1d388b4568",
-					"544a3a774bdc2d3a388b4567",
-					"5d2dc3e548f035404a1a4798",
-					"57adff4f24597737f373b6e6",
-					"591c4efa86f7741030027726",
-					"570fd79bd2720bc7458b4583",
-					"570fd6c2d2720bc6458b457f",
-					"558022b54bdc2dac148b458d",
-					"58491f3324597764bc48fa02",
-					"584924ec24597768f12ae244",
-					"5b30b0dc5acfc400153b7124",
-					"6165ac8c290d254f5e6b2f6c",
-					"60a23797a37c940de7062d02",
-					"5d2da1e948f035477b1ce2ba",
-					"5c0505e00db834001b735073",
-					"609a63b6e2ff132951242d09",
-					"584984812459776a704a82a6",
-					"59f9d81586f7744c7506ee62",
-					"570fd721d2720bc5458b4596"
-				]
-			},
-			"67a01e64a2b82626b73d10bf": {
-				"mod_handguard": [
-					"67a01e64a2b82626b73d10cc"
-				],
-				"mod_muzzle": [
-					"5b7d693d5acfc43bca706a3d"
 				]
 			},
 			"67a01e64a2b82626b73d10cc": {

@@ -1,0 +1,591 @@
+{
+  "692f77045371aadbbb0ada2e": {
+    "itemTplToClone": "5d3eb3b0a4b93615055e84d2",
+    "parentId": "5447b5cf4bdc2d65278b4567",
+    "handbookParentId": "5b5f792486f77447ed5636b3",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponRuger57/weapon_ruger57_container.bundle",
+        "rcid": ""
+      },
+        "Slots": [
+            {
+                "_name": "mod_barrel",
+                "_id": "5d3eb3b0a4b93615055e84d4",
+                "_parent": "5d3eb3b0a4b93615055e84d2",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "692f77045371aadbbb0ada32"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": true,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_reciever",
+                "_id": "5d3eb3b0a4b93615055e84d6",
+                "_parent": "5d3eb3b0a4b93615055e84d2",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "692f77045371aadbbb0ada30"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": true,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            },
+            {
+                "_name": "mod_magazine",
+                "_id": "5d3eb3b0a4b93615055e84d7",
+                "_parent": "5d3eb3b0a4b93615055e84d2",
+                "_props": {
+                "filters": [
+                    {
+                    "AnimationIndex": -1,
+                    "Filter": [
+                        "692f72085371aadbbb0ada24"
+                    ]
+                    }
+                ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c394bdc2dae468b4577"
+            },
+            {
+                "_name": "mod_tactical",
+                "_id": "5d3eb3b0a4b93615055e84d8",
+                "_parent": "5d3eb3b0a4b93615055e84d2",
+                "_props": {
+                "filters": [
+                    {
+                    "Filter": [
+                        "5a800961159bd4315e3a1657",
+                        "5cc9c20cd7f00c001336c65d",
+                        "5d2369418abbc306c62e0c80",
+                        "5b07dd285acfc4001754240d",
+                        "56def37dd2720bec348b456a",
+                        "5a7b483fe899ef0016170d15",
+                        "5a5f1ce64f39f90b401987bc",
+                        "560d657b4bdc2da74d8b4572",
+                        "5a7b4900e899ef197b331a2a",
+                        "6272370ee4013c5d7e31f418",
+                        "6272379924e29f06af4d5ecb"
+                    ],
+                    "Shift": 0
+                    }
+                ]
+                },
+                "_required": false,
+                "_mergeSlotWithChildren": false,
+                "_proto": "55d30c4c4bdc2db4468b457e"
+            }
+        ]
+    },
+    "locales": {
+      "en": {
+        "name": "Ruger 57 5.7x28 pistol",
+        "shortName": "Ruger 57",
+        "description": "The Ruger-5.7 is a semi-automatic pistol introduced in December 2019 by Sturm, Ruger & Co. It is the first traditionally-styled semi-automatic pistol to be chambered for the 5.7×28mm cartridge since the introduction of the Excel Arms MP-57 in 2012. Safety features include: 1911-style ambidextrous manual safety; an integrated trigger safety; light-weight firing pin; neutrally balanced sear with significant engagement and strong spring tension; and hammer catch to help prevent the hammer from contacting the firing pin unless the trigger is pulled."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 16251,
+    "handbookPriceRoubles": 9283,
+    "addtoTraders": false,
+    "masteries": true,
+    "addWeaponPreset": true,
+    "weaponPresets": [
+          {
+            "_id": "693f511c7eeebc8d1c23ae97",
+            "_type": "Preset",
+            "_changeWeaponName": false,
+            "_name": "ruger base",
+            "_parent": "693f511c7eeebc8d1c23ae98",
+            "_items": [
+              {
+                "_id": "693f511c7eeebc8d1c23ae98",
+                "_tpl": "692f77045371aadbbb0ada2e",
+                "upd": {
+                  "Repairable": {
+                    "Durability": 100,
+                    "MaxDurability": 100
+                  },
+                  "FireMode": {
+                    "FireMode": "single"
+                  }
+                }
+              },
+              {
+                "_id": "693f5078d666524cc4bc465f",
+                "_tpl": "692f77045371aadbbb0ada32",
+                "parentId": "693f511c7eeebc8d1c23ae98",
+                "slotId": "mod_barrel"
+              },
+              {
+                "_id": "693f5078d666524cc4bc4660",
+                "_tpl": "692f77045371aadbbb0ada30",
+                "parentId": "693f511c7eeebc8d1c23ae98",
+                "slotId": "mod_reciever"
+              },
+              {
+                "_id": "693f5078d666524cc4bc4661",
+                "_tpl": "692f72085371aadbbb0ada24",
+                "parentId": "693f511c7eeebc8d1c23ae98",
+                "slotId": "mod_magazine"
+              },
+              {
+                "_id": "693f5078d666524cc4bc4662",
+                "_tpl": "692f704e5371aadbbb0ada20",
+                "parentId": "693f5078d666524cc4bc4660",
+                "slotId": "mod_sight_rear",
+                "upd": {
+                  "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                      0
+                    ],
+                    "ScopesSelectedModes": [
+                      0
+                    ],
+                    "SelectedScope": 0,
+                    "ScopeZoomValue": 0
+                  }
+                }
+              },
+              {
+                "_id": "693f5078d666524cc4bc4663",
+                "_tpl": "692f704e5371aadbbb0ada22",
+                "parentId": "693f5078d666524cc4bc4660",
+                "slotId": "mod_sight_front",
+                "upd": {
+                  "Sight": {
+                    "ScopesCurrentCalibPointIndexes": [
+                      0
+                    ],
+                    "ScopesSelectedModes": [
+                      0
+                    ],
+                    "SelectedScope": 0,
+                    "ScopeZoomValue": 0
+                  }
+                }
+              }
+            ],
+            "_encyclopedia": "692f77045371aadbbb0ada2e"
+          }
+    ],
+    "traders": {
+      "PRAPOR": {
+        "692f77045371aadbbb0ada2f": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 32452,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": [],
+    "masterySections": [
+      {
+        "Name": "AK74",
+        "Templates": [
+          "678fe4a4906c7bd23722c71f"
+        ]
+      }
+    ]
+  },
+  "692f77045371aadbbb0ada30": {
+    "itemTplToClone": "5d3eb44aa4b93650d64e4979",
+    "parentId": "55818a304bdc2db5418b457d",
+    "handbookParentId": "5b5f764186f77447ec5d7714",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponRuger57/ruger57_slide.bundle",
+        "rcid": ""
+      },
+        "Slots": [
+        {
+            "_name": "mod_sight_rear",
+            "_id": "5d3eb44aa4b93650d64e497b",
+            "_parent": "5d3eb44aa4b93650d64e4979",
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                    "692f704e5371aadbbb0ada20"
+                ],
+                "Shift": 0
+                }
+            ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+            "_name": "mod_sight_front",
+            "_id": "5d3eb44aa4b93650d64e497c",
+            "_parent": "5d3eb44aa4b93650d64e4979",
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                    "692f704e5371aadbbb0ada22"
+                ],
+                "Shift": 0
+                }
+            ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+            "_name": "mod_mount",
+            "_id": "5d3eb44aa4b93650d64e497c",
+            "_parent": "5d3eb44aa4b93650d64e4979",
+            "_props": {
+            "filters": [
+                {
+                "Filter": [
+                    "692f93612d8e1a750403fce0"
+                ],
+                "Shift": 0
+                }
+            ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+        ]
+    },
+    "locales": {
+      "en": {
+        "name": "Ruger 57 Slide",
+        "shortName": "5-7",
+        "description": "Through hardened, billet steel slide with lightening cuts is drilled and tapped for easy mounting of optics with separately available optic adapter plate."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 6421,
+    "handbookPriceRoubles": 4245,
+    "addtoTraders": true,
+    "masteries": true,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PRAPOR": {
+        "692f77045371aadbbb0ada31": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 8941,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": [],
+    "masterySections": [
+      {
+        "Name": "AK74",
+        "Templates": [
+          "678fe4a4906c7bd23722c71f"
+        ]
+      }
+    ]
+  },
+  "692f77045371aadbbb0ada32": {
+    "itemTplToClone": "5d3eb59ea4b9361c284bb4b2",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponRuger57/ruger57_barrel.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Ruger 57 5.7x28 125mm threaded barrel",
+        "shortName": "5-7 TH",
+        "description": "The alloy steel barrel for the Ruger 57, it features a black nitride treatment for wear resistance."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 4521,
+    "handbookPriceRoubles": 3245,
+    "addtoTraders": true,
+    "masteries": true,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PRAPOR": {
+        "692f77045371aadbbb0ada33": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 5963,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": [],
+    "masterySections": [
+      {
+        "Name": "AK74",
+        "Templates": [
+          "678fe4a4906c7bd23722c71f"
+        ]
+      }
+    ]
+  },
+  "692f704e5371aadbbb0ada20": {
+    "itemTplToClone": "5d3eb4aba4b93650d64e497d",
+    "parentId": "55818ac54bdc2d5b648b456e",
+    "handbookParentId": "5b5f746686f77447ec5d7708",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponRuger57/ruger57_rear.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Ruger 57 Rear Sight",
+        "shortName": "5-7 RS",
+        "description": "Windage and elevation adjustable, serrated rear sight and rapid acquisition fiber optic front sight for fast, accurate shooting."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 532,
+    "handbookPriceRoubles": 342,
+    "addtoTraders": true,
+    "masteries": true,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PRAPOR": {
+        "692f704e5371aadbbb0ada21": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 902,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": [],
+    "masterySections": [
+      {
+        "Name": "AK74",
+        "Templates": [
+          "678fe4a4906c7bd23722c71f"
+        ]
+      }
+    ]
+  },
+  "692f704e5371aadbbb0ada22": {
+    "itemTplToClone": "5d3eb536a4b9363b1f22f8e2",
+    "parentId": "55818ac54bdc2d5b648b456e",
+    "handbookParentId": "5b5f746686f77447ec5d7708",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponRuger57/ruger57_front.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Ruger 57 Front Sight",
+        "shortName": "5-7 FS",
+        "description": "rapid acquisition fiber optic front sight for fast, accurate shooting."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 563,
+    "handbookPriceRoubles": 342,
+    "addtoTraders": true,
+    "masteries": true,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PRAPOR": {
+        "692f704e5371aadbbb0ada23": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 902,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": [],
+    "masterySections": [
+      {
+        "Name": "AK74",
+        "Templates": [
+          "678fe4a4906c7bd23722c71f"
+        ]
+      }
+    ]
+  },
+  "692f72085371aadbbb0ada24": {
+    "itemTplToClone": "5d3eb5eca4b9363b1f22f8e4",
+    "parentId": "5448bc234bdc2d3c308b4569",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponRuger57/ruger57_mag.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Ruger 57 Magazine",
+        "shortName": "5-7",
+        "description": "Steel magazine for the Ruger 57, it provides double stack capacity without unnecessary bulk."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 3234,
+    "handbookPriceRoubles": 2342,
+    "addtoTraders": true,
+    "masteries": true,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PRAPOR": {
+        "692f72085371aadbbb0ada25": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 4321,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": [],
+    "masterySections": [
+      {
+        "Name": "AK74",
+        "Templates": [
+          "678fe4a4906c7bd23722c71f"
+        ]
+      }
+    ]
+  },
+  "692f93612d8e1a750403fce0": {
+    "itemTplToClone": "5d7b6bafa4b93652786f4c76",
+    "parentId": "55818b224bdc2dde698b456f",
+    "handbookParentId": "5b5f755f86f77447ec5d770e",
+    "overrideProperties": {
+      "Prefab": {
+        "path": "WeaponRuger57/ruger57_mount.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Swampfox Kingslayer RMR Mount",
+        "shortName": "SK RMR",
+        "description": "The Swampfox Kingslayer is a budget-friendly, compact red dot sight known for its RMR footprint, making it great for direct slide mounting on pistols, while also coming with a standard low-profile Picatinny rail mount for rifles and shotguns, especially popular for turkey hunting, offering fast target acquisition with its bright dot or circle dot reticle."
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 2213,
+    "handbookPriceRoubles": 1532,
+    "addtoTraders": true,
+    "masteries": true,
+    "addWeaponPreset": false,
+    "weaponPresets": [],
+    "traders": {
+      "PRAPOR": {
+        "692f93612d8e1a750403fce1": {
+          "barterSettings": {
+            "loyalLevel": 3,
+            "unlimitedCount": true,
+            "stackObjectsCount": 99
+          },
+          "barters": [
+            {
+              "count": 3234,
+              "_tpl": "MONEY_ROUBLES"
+            }
+          ]
+        }
+      }
+    },
+    "staticLootContainers": [],
+    "masterySections": [
+      {
+        "Name": "AK74",
+        "Templates": [
+          "678fe4a4906c7bd23722c71f"
+        ]
+      }
+    ]
+  }
+}

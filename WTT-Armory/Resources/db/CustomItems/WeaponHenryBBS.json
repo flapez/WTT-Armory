@@ -21,7 +21,7 @@
       "AllowSlide": true,
       "BoltAction": true,
       "bFirerate": 450,
-      "CenterOfImpact": 0.011,
+      "CenterOfImpact": 0.029,
       "CoolFactorGun": 4.608,
       "CoolFactorGunMods": 1,
       "DeviationCurve": 1,
@@ -66,7 +66,7 @@
         "z": 0
       },
       "RecoilAngle": 90,
-      "RecoilCamera": 0.07,
+      "RecoilCamera": 0.06,
       "RecoilCategoryMultiplierHandRotation": 0.19,
       "RecoilCenter": {
         "x": 0,
@@ -74,8 +74,8 @@
         "z": 0.02
       },
       "RecoilDampingHandRotation": 0.85,
-      "RecoilForceBack": 376,
-      "RecoilForceUp": 182,
+      "RecoilForceBack": 157,
+      "RecoilForceUp": 88,
       "RecoilPosZMult": 1,
       "RecoilReturnPathDampingHandRotation": 0.41,
       "RecoilReturnPathOffsetHandRotation": 0.01,
@@ -442,7 +442,7 @@
     "staticLootContainers": []
   },
   "6924c3911b0f259ee27a95f1": {
-    "itemTplToClone": "5bfeaa0f0db834001b734927",
+    "itemTplToClone": "5882163e24597758206fee8c",
     "parentId": "5448bc234bdc2d3c308b4569",
     "handbookParentId": "5b5f754a86f774094242f19b",
     "overrideProperties": {
@@ -453,6 +453,7 @@
       },
       "Height": 1,
       "Width": 2,
+	  "ExtraSizeLeft": 0,
       "ItemSound": "mag_plastic",
       "MagazineWithBelt": false,
       "CheckOverride": 0,

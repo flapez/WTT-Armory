@@ -38,7 +38,8 @@
 		"equipment": {
 			"FirstPrimaryWeapon": {
 				"deee28079e76d537f532021c": 2430,
-				"1bf618e47cce6d69bec01e9f": 2430
+				"1bf618e47cce6d69bec01e9f": 2430,
+				"68fd7d14ff5a09197b5ab82a": 2430
 			},
 			"SecondPrimaryWeapon": {
 				"682d460e951a926af552d764": 1
@@ -49,6 +50,34 @@
 			}
 		},
 		"mods": {
+			"68fd7d14ff5a09197b5ab82a": {
+				"mod_magazine": [
+					"68fd5afbf79eba961169cd92"
+				],
+				"mod_scope": [
+					"5b3b99265acfc4704b4a1afb"
+				],
+				"mod_barrel": [
+					"68fd609fd746b88631211f6a"
+				],
+				"mod_pistol_grip": [
+					"68fd5abc5c7f36f8d8c208c3"
+				],
+				"mod_stock": [
+					"68fd56409c78353ecc08f32c"
+				],
+				"mod_foregrip": [
+					"68fd79a09bd9b65b910edb4a"
+				],
+				"mod_handguard": [
+					"68fd75e399c0ae29b3d0d2ae"
+				]
+			},
+			"68fd609fd746b88631211f6a": {
+				"mod_muzzle": [
+					"68fd61c1fe2ac956b9c5ef92"
+				]
+			},
 			"1bf618e47cce6d69bec01e9f": {
 				"mod_magazine": [
 					"f1b1a0db4986e718711a8e80"
@@ -219,6 +248,9 @@
 			},
 			"Caliber1143x23ACP": {
 				"5efb0fc6aeb21837e749c801": 1
+			},
+			"Caliber1036x77": {
+				"68fd537f2965f74cf4a87894": 1
 			}
 		}
 	}

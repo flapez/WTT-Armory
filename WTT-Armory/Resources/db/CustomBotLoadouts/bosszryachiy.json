@@ -29,10 +29,28 @@
         "equipment": {
             "FirstPrimaryWeapon": {
                 "684e32eaec9f5eb3cacc7ca7": 1,
-                "68a3836826dffa87b5767c04": 1
+                "68a3836826dffa87b5767c04": 1,
+                "6945dc69fe52c2415de357f7": 1
             }
         },
         "mods": {
+            "": {
+                "mod_pistol_grip": [
+                    "55d4b9964bdc2d1d4e8b456e"
+                ],
+                "mod_magazine": [
+                    "6945e2a4ab7c6d358c6e41fb"
+                ],
+                "mod_muzzle": [
+                    "694755c06cb8cad0abfba87f"
+                ],
+                "mod_barrel": [
+                    "69475894dcb467228bcd3fb0"
+                ],
+                "mod_scope": [
+                    "5aa66c72e5b5b00016327c93"
+                ]
+            },
             "684e32eaec9f5eb3cacc7ca7": {
                 "mod_pistol_grip": [
                     "571659bb2459771fb2755a12"
@@ -151,6 +169,12 @@
             "Caliber762x67B": {
                 "684e2ded3b64f7187cf14fae": 15,
                 "684e2de88bb7e9f52bfab35c": 1
+            },
+            "Caliber25x59": {
+                "69389a69a516eeec6b6a5b72": 1,
+                "6938bc0b6e96bcf17932873e": 1,
+                "6938bca4c4ab39c99232873f": 1,
+                "6938bcbdd8c13e10cd328740": 1
             }
         }
     }

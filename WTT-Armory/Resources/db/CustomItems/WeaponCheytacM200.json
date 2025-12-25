@@ -13,7 +13,7 @@
       "defAmmo": "68fd537f2965f74cf4a87894",
       "ammoCaliber": "Caliber1036x77",
       "CompactHandling": false,
-      "Weight": 6.496,
+      "Weight": 5.517,
       "Width": 3,
       "Height": 1,
       "CanSellOnRagfair": true,
@@ -494,7 +494,7 @@
         "path": "WeaponCheytacM200/weapon_cheytacm200_boss_container.bundle",
         "rcid": ""
       },
-      "Weight": 6.126
+      "Weight": 5.217
     },
     "locales": {
       "en": {
@@ -619,7 +619,7 @@
       },
       "Ergonomics": 5,
 	  "Recoil": -19,
-      "Weight": 0.754,
+      "Weight": 1.705,
       "Slots": [],
       "ExaminedByDefault": true
     },
@@ -684,7 +684,7 @@
       },
       "Ergonomics": 4,
 	  "Recoil": -24,
-      "Weight": 0.726,
+      "Weight": 1.412,
       "Slots": [],
       "BlocksFolding": true,
       "ExaminedByDefault": true
@@ -720,7 +720,7 @@
       },
       "Ergonomics": 9,
 	  "Recoil": -16,
-      "Weight": 0.700,
+      "Weight": 1.242,
       "Slots": [],
       "BlocksFolding": true,
       "ExaminedByDefault": true
@@ -790,7 +790,7 @@
       },
       "Ergonomics": -3,
 	  "Recoil": -1,
-      "Weight": 0.424,
+      "Weight": 0.636,
       "Height": 2,
       "Cartridges": [
         {
@@ -875,7 +875,7 @@
         "rcid": ""
       },
       "Ergonomics": -1,
-      "Weight": 0.341,
+      "Weight": 0.383,
       "Height": 1,
       "Cartridges": [
         {
@@ -930,7 +930,7 @@
 	  "CenterOfImpact": 0.0125,
 	  "Ergonomics": -21,
 	  "Recoil": -11,
-      "Weight": 3.620,
+      "Weight": 3.39,
       "ExaminedByDefault": true,
       "ExtraSizeLeft": 3,
       "Width": 5,
@@ -1022,7 +1022,7 @@
 	  "CenterOfImpact": 0.0159,
 	  "Ergonomics": -15,
 	  "Recoil": -5,
-      "Weight": 2.496,
+      "Weight": 2.336,
       "ExaminedByDefault": true,
       "ExtraSizeLeft": 2,
 	  "Velocity": -2,
@@ -1111,7 +1111,7 @@
         "path": "WeaponCheytacM200/m200_muzzle.bundle",
         "rcid": ""
       },
-      "Weight": 0.517,
+      "Weight": 0.52,
       "RaidModdable": true,
       "Slots": []
     },
@@ -1270,7 +1270,7 @@
       },
       "Ergonomics": -5,
 	  "Recoil": -3,
-      "Weight": 0.93
+      "Weight": 0.87
     },
     "locales": {
       "en": {
@@ -1365,7 +1365,7 @@
       },
 	  "Ergonomics": 7,
 	  "Recoil": -3.5,
-      "Weight": 1.175,
+      "Weight": 0.995,
       "Width": 2,
       "Slots": [
         {
@@ -1474,7 +1474,7 @@
       },
 	  "Ergonomics": 12,
 	  "Recoil": -3,
-      "Weight": 1.043,
+      "Weight": 1.116,
       "Width": 2,
       "Slots": [
         {
@@ -1636,7 +1636,7 @@
         "rcid": ""
       },
       "Ergonomics": 3,
-      "Weight": 0.121,
+	  "Weight": 0.135,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1699,7 +1699,7 @@
         "rcid": ""
       },
       "Ergonomics": 5,
-      "Weight": 0.117,
+	  "Weight": 0.105,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1732,7 +1732,7 @@
         "rcid": ""
       },
       "Ergonomics": 4,
-      "Weight": 0.113,
+	  "Weight": 0.95,
       "ExaminedByDefault": true
     },
     "locales": {
@@ -1765,7 +1765,7 @@
         "rcid": ""
       },
       "Ergonomics": 4,
-      "Weight": 0.123,
+	  "Weight": 0.125,
       "ExaminedByDefault": true
     },
     "locales": {
