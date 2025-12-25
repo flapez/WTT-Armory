@@ -1,13 +1,11 @@
 ﻿using System.Reflection;
 using SPTarkov.DI.Annotations;
-using SPTarkov.Server.Core.Controllers;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Models.Spt.Config;
 using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Servers;
 using WTTArmory.Chatbot;
 using WTTArmory.Helpers;
-using Path = System.IO.Path;
 using Range = SemanticVersioning.Range;
 
 namespace WTTArmory;
@@ -36,7 +34,6 @@ public class WTTArmory(
 {
     public async Task OnLoad()
     {
-        
         Assembly assembly = Assembly.GetExecutingAssembly();
         
         await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
