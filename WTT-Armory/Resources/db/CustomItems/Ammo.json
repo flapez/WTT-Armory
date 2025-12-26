@@ -705,6 +705,7 @@
       "ammoRec": 0,
       "PenetrationPower": 1,
       "PenetrationPowerDiviation": 0.01,
+	  "HasGrenaderComponent": true,
       "ArmorDamage": 74,
       "HeatFactor": 1.37,
       "MalfFeedChance": 0.036,
@@ -765,6 +766,7 @@
       "ArmorDamage": 98,
       "HeatFactor": 1.37,
       "MalfFeedChance": 0.036,
+	  "HasGrenaderComponent": true,
 	  "MinExplosionDistance": 1,
 	  "MaxExplosionDistance": 10,
 	  "ExplosionStrength": 40,
@@ -836,6 +838,7 @@
       "StackMinRandom": 10,
       "StackObjectsCount": 1,
 	  "casingName": "25x59",
+	  "HasGrenaderComponent": true,
       "casingSounds": "127rifle"
     },
     "locales": {
@@ -882,6 +885,7 @@
 	  "MinExplosionDistance": 0.5,
 	  "MaxExplosionDistance": 1.5,
 	  "ExplosionStrength": 10,
+	  "HasGrenaderComponent": true,
       "ExplosionType": "smallgrenade_expl",
 	  "FuzeArmTimeSec": 0.1,
 	  "FragmentType": "63b35f281745dd52341e5da7",
