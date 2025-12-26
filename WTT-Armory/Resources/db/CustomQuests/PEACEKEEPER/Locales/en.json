@@ -79,5 +79,11 @@
   "6879a0da60f8d8a90e632755 description": "Alright, Merc. I have one more task for you. I got the other shipments of those weapons you tested for purchase. The last thing I am going to ask is you to kill more PMCs, but this time at night. If this goes well I can get one more variant of the weapon and this one looks badass.",
   "6879a0da60f8d8a90e632755 startedMessageText": "I am counting on you. Do this and I will reward you well.",
   "6879a0da60f8d8a90e632755 successMessageText": "Hell yeah! Here, take this for payment - I will get a shipment of these weapons ready to distribute soon!",
-  "6879a222a8d2ec1d371514d0": "Eliminate 20 PMCs between the hours of 21:00 and 6:00 using the Ak5C or Ak5D assault rifles (Excluding Factory)"
+  "6879a222a8d2ec1d371514d0": "Eliminate 20 PMCs between the hours of 21:00 and 6:00 using the Ak5C or Ak5D assault rifles (Excluding Factory)",
+
+  "694dc176d149fc1d52000003 name": "UNcoordinated",
+  "694dc176d149fc1d52000003 description": "Hey merc, we've got an issue. As usual it's money, but don't worry I'm not asking you for more at the moment. You can fill our coffers as needed another way. You see as of right now my... management doesn't see things here as particularly noteworthy or dangerous. I'd like to put a bug in their ear with evidence to prove that we need some heavier firepower to protect us in the region. I'm thinking some standard shells for the BTR I've seen wandering around the area should disappear from the reserve base arsenal and reappear at the place where the BTR stops a couple hundred meters north of the sawmill. You might find some around their motorpool, they have to unload the guns to work on them after all. As always, you'll find your pockets full after the fact. See to it.",
+  "694dc2e7d149fc1d52000004": "Obtain the Crate of OFZ Shells on Reserve",
+  "694dc41bd149fc1d52000006": "Stash the Crate of OFZ Shells on Woods",
+  "694dc176d149fc1d52000003 successMessageText": "Thank fuck, you've done us a huge favor. So here's a huge gun. You'll have to get the ammo though."
 }

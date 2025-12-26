@@ -2755,6 +2755,14 @@
       ]
     },
     {
+      "key": "Items_Quests/quest_ofz_crate.bundle",
+      "dependencyKeys": [
+        "shaders",
+        "cubemaps",
+        "assets/commonassets/physics/physicsmaterials.bundle"
+      ]
+    },
+    {
       "key": "Mods/Barrels/m700la_barrel_18.bundle",
       "dependencyKeys": [
         "m700_meshes.bundle",

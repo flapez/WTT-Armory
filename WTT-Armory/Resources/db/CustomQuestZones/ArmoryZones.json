@@ -173,5 +173,30 @@
       "Z": "2.25",
       "W": "0"
     }
+  },
+  {
+    "ZoneId": "uncoordinated_placement",
+    "ZoneName": "uncoordinated_placement",
+    "ZoneLocation": "Woods",
+    "ZoneType": "placeitem",
+    "FlareType": "",
+    "Position": {
+      "X": "-89.04757",
+      "Y": "27.83061",
+      "Z": "-374.4907",
+      "W": "0"
+    },
+    "Rotation": {
+      "X": "0",
+      "Y": "-0.3069414",
+      "Z": "0",
+      "W": "0.9517285"
+    },
+    "Scale": {
+      "X": "2.5",
+      "Y": "2",
+      "Z": "2",
+      "W": "0"
+    }
   }
 ]

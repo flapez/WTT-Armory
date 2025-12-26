@@ -335,5 +335,37 @@
     "addtoStaticLootContainers": false,
     "traders": {},
     "staticLootContainers": []
+  },
+  "694da5f84825e8c609000001": {
+    "itemTplToClone": "5d0379a886f77420407aa271",
+    "parentId": "590c745b86f7743cc433c5f2",
+    "handbookParentId": "5b47574386f77428ca22b2f4",
+    "overrideProperties": {
+      "QuestItem": true,
+      "Height": 2,
+      "Width": 3,
+      "Weight": 8,
+      "Prefab": {
+        "path": "Items_Quests/quest_ofz_crate.bundle",
+        "rcid": ""
+      }
+    },
+    "locales": {
+      "en": {
+        "name": "Crate of OFZ 30x165mm shells",
+        "shortName": "OFZ",
+        "description": "A crate of OFZ shells. Don't drop it!"
+      }
+    },
+    "addtoInventorySlots": [],
+    "addtoModSlots": false,
+    "modSlot": [],
+    "fleaPriceRoubles": 1,
+    "handbookPriceRoubles": 500000,
+    "addtoTraders": false,
+    "addtoBots": false,
+    "addtoStaticLootContainers": false,
+    "traders": {},
+    "staticLootContainers": []
   }
 }
