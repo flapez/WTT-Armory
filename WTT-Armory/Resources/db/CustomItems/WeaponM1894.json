@@ -1038,6 +1038,24 @@
             "_proto": "55d30c4c4bdc2db4468b457e"
           },
           {
+            "_name": "mod_mount",
+            "_id": "5ea16acdfadf1d18c87b078a",
+            "_parent": "5ea16acdfadf1d18c87b0784",
+            "_props": {
+              "filters": [
+                {
+                  "Filter": [
+                    "5888961624597754281f93f3"
+                  ],
+                  "Shift": 0
+                }
+              ]
+            },
+            "_required": false,
+            "_mergeSlotWithChildren": false,
+            "_proto": "55d30c4c4bdc2db4468b457e"
+          },
+          {
             "_name": "mod_sight_front",
             "_id": "5ea16acdfadf1d18c87b078b",
             "_parent": "5ea16acdfadf1d18c87b0784",
