@@ -140,9 +140,9 @@
     },
     "locales": {
       "en": {
-        "name": "JW4 TTI Pit Viper",
+        "name": "Taran Tactical JW4 Pit Viper 9x19 pistol",
         "shortName": "Pit Viper",
-        "description": "test"
+        "description": "A High-performance 9x19 sidearm built for speed and precision with a compensated barrel, crisp trigger, and enhanced sights for rapid target acquisition. Designed to deliver fast follow-up shots and controllable recoil in close-to-mid-range engagements. Manufactured by Taran Tactical Innovations."
       }
     },
     "addtoInventorySlots": [],
@@ -254,9 +254,9 @@
     },
     "locales": {
       "en": {
-        "name": "JW4 TTI Pit Viper 9x19mm barrel",
+        "name": "TTI Pit Viper 9x19mm barrel",
         "shortName": "Pit Viper",
-        "description": "A 9x19mm barrel with front sight post for the JW4 TTI Pit Viper 9x19mm pistol."
+        "description": "A 9x19mm barrel with front sight post for the TTI Pit Viper 9x19mm pistol."
       }
     },
     "addtoInventorySlots": [],
@@ -412,10 +412,10 @@
       ]
     },
     "locales": {
-      "en": {
-        "name": "JW4 TTI Pit Viper (stainless)",
-        "shortName": "Pit Viper S",
-        "description": "test"
+     "en": {
+        "name": "Taran Tactical JW4 Pit Viper 9x19 pistol (Stainless)",
+        "shortName": "Pit Viper",
+        "description": "A High-performance 9x19 sidearm built for speed and precision with a compensated barrel, crisp trigger, and enhanced sights for rapid target acquisition. Designed to deliver fast follow-up shots and controllable recoil in close-to-mid-range engagements. Manufactured by Taran Tactical Innovations. Stainless Steel version."
       }
     },
     "addtoInventorySlots": [],
@@ -550,9 +550,9 @@
     },
     "locales": {
       "en": {
-        "name": "JW4 TTI Pit Viper 9x19mm slide",
+        "name": "TTI Pit Viper 9x19mm pistol slide",
         "shortName": "Pit Viper",
-        "description": "An optics-ready slide for the JW4 TTI Pit Viper 9x19mm pistol."
+        "description": "An optics-ready slide for the TTI Pit Viper 9x19mm pistol."
       }
     },
     "addtoInventorySlots": [],
@@ -607,9 +607,9 @@
     },
     "locales": {
       "en": {
-        "name": "JW4 TTI Pit Viper 9x19mm slide (stainless)",
-        "shortName": "Pit Viper S",
-        "description": "An optics-ready slide for the JW4 TTI Pit Viper 9x19mm pistol."
+        "name": "TTI Pit Viper 9x19mm slide (Stainless)",
+        "shortName": "Pit Viper",
+        "description": "An optics-ready slide for the TTI Pit Viper 9x19mm pistol."
       }
     },
     "addtoInventorySlots": [],
@@ -638,9 +638,9 @@
     },
     "locales": {
       "en": {
-        "name": "JW4 TTI Pit Viper hammer",
+        "name": "TTI Pit Viper hammer",
         "shortName": "Pit Viper",
-        "description": "A lightweight hammer for the JW4 Pit Viper 9x19mm pistol."
+        "description": "A lightweight hammer for the Pit Viper 9x19mm pistol."
       }
     },
     "addtoInventorySlots": [],
@@ -669,9 +669,9 @@
     },
     "locales": {
       "en": {
-        "name": "JW4 TTI Pit Viper trigger",
+        "name": "TTI Pit Viper trigger",
         "shortName": "Pit Viper",
-        "description": "Standard lightweight trigger for the JW4 TTI Pit Viper 9x19mm handgun."
+        "description": "Standard lightweight trigger for the TTI Pit Viper 9x19mm handgun."
       }
     },
     "addtoInventorySlots": [],
@@ -700,9 +700,9 @@
     },
     "locales": {
       "en": {
-        "name": "JW4 TTI Pit Viper trigger (stainless)",
-        "shortName": "Pit Viper S",
-        "description": "Stainless lightweight trigger for the JW4 TTI Pit Viper 9x19mm handgun."
+        "name": "TTI Pit Viper trigger (Stainless)",
+        "shortName": "Pit Viper",
+        "description": "Stainless lightweight trigger for the TTI Pit Viper 9x19mm handgun."
       }
     },
     "addtoInventorySlots": [],
@@ -732,9 +732,9 @@
     },
     "locales": {
       "en": {
-        "name": "JW4 TTI Pit Viper 21-round 9x19mm magazine",
+        "name": "TTI Pit Viper 21-round 9x19mm magazine",
         "shortName": "Pit Viper",
-        "description": "Standard 21-round magazine for the JW4 TTI Pit Viper 9x19mm pistol."
+        "description": "Standard 21-round magazine for the TTI Pit Viper 9x19mm pistol."
       }
     },
     "addtoInventorySlots": [],
@@ -763,9 +763,9 @@
     },
     "locales": {
       "en": {
-        "name": "JW4 TTI Pit Viper rear sight",
+        "name": "TTI Pit Viper rear sight",
         "shortName": "Pit Viper RS",
-        "description": "Standard JW4 TTI Pit Viper rear pistol sight."
+        "description": "Standard TTI Pit Viper rear pistol sight."
       }
     },
     "addtoInventorySlots": [],
@@ -791,9 +791,9 @@
     },
     "locales": {
       "en": {
-        "name": "JW4 TTI Pit Viper rear sight (stainless)",
-        "shortName": "Pit Viper RS S",
-        "description": "Stainless JW4 TTI Pit Viper rear pistol sight."
+        "name": "TTI Pit Viper rear sight (Stainless)",
+        "shortName": "Pit Viper RS",
+        "description": "Stainless TTI Pit Viper rear pistol sight."
       }
     },
     "addtoInventorySlots": [],
