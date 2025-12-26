@@ -8,7 +8,6 @@ using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Dialog;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
-using WTTArmory.ChatBot;
 
 namespace WTTArmory.Chatbot
 {

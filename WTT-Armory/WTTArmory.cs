@@ -12,7 +12,7 @@ namespace WTTArmory;
 
 public record ModMetadata : AbstractModMetadata
 {
-    public override string ModGuid { get; init; } = "com.GrooveypenguinX.WTT-Armory";
+    public override string ModGuid { get; init; } = "com.wtt.armory";
     public override string Name { get; init; } = "WTT-Armory";
     public override string Author { get; init; } = "GrooveypenguinX";
     public override List<string>? Contributors { get; init; } = null;
@@ -51,8 +51,5 @@ public class WTTArmory(
         var coreConfig = configServer.GetConfig<CoreConfig>();
         coreConfig.Features.ChatbotFeatures.Ids[myBot.Info?.Nickname ?? throw new InvalidOperationException()] = myBot.Id;
         coreConfig.Features.ChatbotFeatures.EnabledBots[myBot.Id] = true;
-
-
-        await Task.CompletedTask;
     }
 }

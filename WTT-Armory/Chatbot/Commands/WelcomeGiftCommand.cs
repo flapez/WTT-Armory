@@ -1,17 +1,17 @@
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.Helpers;
 using SPTarkov.Server.Core.Models.Common;
+using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Eft.Dialog;
 using SPTarkov.Server.Core.Models.Eft.Profile;
-using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Enums;
-using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Models.Spt.Dialog;
+using SPTarkov.Server.Core.Services;
 using SPTarkov.Server.Core.Services.Mod;
 using SPTarkov.Server.Core.Utils.Logger;
 using WTTArmory.Models;
 
-namespace WTTArmory.ChatBot.Commands
+namespace WTTArmory.Chatbot.Commands
 {
        [Injectable]
     public class WelcomeGiftCommand(

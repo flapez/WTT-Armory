@@ -4,7 +4,7 @@ using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Dialog;
 using SPTarkov.Server.Core.Models.Eft.Profile;
 
-namespace WTTArmory.ChatBot
+namespace WTTArmory.Chatbot
 {
     [Injectable]
     public class WTTChatBotCommands : IChatCommand

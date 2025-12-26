@@ -9,7 +9,7 @@ using SPTarkov.Server.Core.Servers;
 using SPTarkov.Server.Core.Services.Mod;
 using SPTarkov.Server.Core.Utils;
 using WTTArmory.Chatbot;
-using WTTArmory.ChatBot.Commands;
+using WTTArmory.Chatbot.Commands;
 using WTTArmory.Models;
 
 namespace WTTArmory.Routes;
