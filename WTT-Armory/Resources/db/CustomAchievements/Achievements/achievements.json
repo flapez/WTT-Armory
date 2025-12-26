@@ -68,7 +68,7 @@
     "showConditions": false,
     "progressBarEnabled": true,
     "side": "Pmc",
-    "index": 4001
+    "index": 901
   },
   {
     "id": "694e110ec53e29d1d4682cb4",
@@ -139,7 +139,7 @@
     "showConditions": false,
     "progressBarEnabled": true,
     "side": "Pmc",
-    "index": 4001
+    "index": 901
   },
   {
     "id": "694e10ca6b29ea7d14682cb0",
@@ -207,7 +207,7 @@
     "showNotificationsInGame": true,
     "showProgress": true,
     "prefab": "",
-    "rarity": "Common",
+    "rarity": "Rare",
     "hidden": false,
     "showConditions": false,
     "progressBarEnabled": true,
@@ -288,7 +288,7 @@
     "showConditions": false,
     "progressBarEnabled": true,
     "side": "Pmc",
-    "index": 4001
+    "index": 901
   },
   {
     "id": "694e0fdb0984faf074682ca8",
@@ -370,7 +370,7 @@
     "showConditions": false,
     "progressBarEnabled": true,
     "side": "Pmc",
-    "index": 4001
+    "index": 901
   },
   {
     "id": "694e0d8851fee79757682ca4",
@@ -443,7 +443,7 @@
     "showConditions": false,
     "progressBarEnabled": true,
     "side": "Pmc",
-    "index": 4001
+    "index": 901
   },
   {
     "id": "6910b4469b3fa14d813de155",
@@ -513,7 +513,7 @@
     "showConditions": false,
     "progressBarEnabled": true,
     "side": "Pmc",
-    "index": 4001
+    "index": 901
   },
   {
     "id": "693c94e3b993b9416d6501a3",
