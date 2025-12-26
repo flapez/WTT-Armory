@@ -1144,7 +1144,7 @@
 		"locales": {
 			"en": {
 				"name": "HK XM8 carbine length handguard (FDE)",
-				"shortName": "XM8 Carbine FDE",
+				"shortName": "XM8 Carbine",
 				"description": "A carbine length polymer handguard for the HK XM8 5.56x45mm assault rifle."
 			}
 		},
@@ -1378,7 +1378,7 @@
 		"locales": {
 			"en": {
 				"name": "HK XM8 rifle length handguard (FDE)",
-				"shortName": "XM8 Rifle FDE",
+				"shortName": "XM8 Rifle",
 				"description": "A standard rifle length polymer handguard for the HK XM8 5.56x45mm assault rifle."
 			}
 		},
@@ -1612,7 +1612,7 @@
 		"locales": {
 			"en": {
 				"name": "HK XM8 pdw length handguard (FDE)",
-				"shortName": "XM8 PDW FDE",
+				"shortName": "XM8 PDW",
 				"description": "A PDW length polymer handguard for the HK XM8 5.56x45mm assault rifle."
 			}
 		},
@@ -1846,7 +1846,7 @@
 		"locales": {
 			"en": {
 				"name": "HK XM8 lmg handguard (FDE)",
-				"shortName": "XM8 LMG FDE",
+				"shortName": "XM8 LMG",
 				"description": "A light machine gun polymer handguard with bipod attachment point for the HK XM8 5.56x45mm assault rifle."
 			}
 		},
@@ -1943,7 +1943,7 @@
 		"locales": {
 			"en": {
 				"name": "HK XM8 PCAP-picatinny adapter (Side)",
-				"shortName": "XM8 Rail S",
+				"shortName": "XM8 Rail",
 				"description": "An adapter to convert the XM8's propriteray PCAP system to accept picatinny based attachments."
 			}
 		},
@@ -2053,7 +2053,7 @@
 		"locales": {
 			"en": {
 				"name": "HK XM8 PCAP-picatinny adapter (PDW Foregrip)",
-				"shortName": "XM8 Rail PDW F",
+				"shortName": "XM8 Rail PDW",
 				"description": "An adapter to convert the XM8's propriteray PCAP system to accept picatinny based attachments."
 			}
 		},
@@ -2163,7 +2163,7 @@
 		"locales": {
 			"en": {
 				"name": "HK XM8 PCAP-picatinny adapter (Foregrip)",
-				"shortName": "XM8 Rail F",
+				"shortName": "XM8 Rail",
 				"description": "An adapter to convert the XM8's propriteray PCAP system to accept picatinny based attachments."
 			}
 		},
@@ -2273,7 +2273,7 @@
 		"locales": {
 			"en": {
 				"name": "HK XM8 polymer stock (FDE)",
-				"shortName": "XM8 Stock FDE",
+				"shortName": "XM8 Stock",
 				"description": "Standard adjustable polymer stock for the HK XM8 5.56x45mm assault rifle."
 			}
 		},
@@ -2383,7 +2383,7 @@
 		"locales": {
 			"en": {
 				"name": "HK XM8 polymer end cap (FDE)",
-				"shortName": "XM8 Cap FDE",
+				"shortName": "XM8 Cap",
 				"description": "PDW polymer end cap for the HK XM8 5.56x45mm assault rifle."
 			}
 		},
@@ -2495,7 +2495,7 @@
 		"locales": {
 			"en": {
 				"name": "HK XM8 polymer folding stock (FDE)",
-				"shortName": "XM8 Folding FDE",
+				"shortName": "XM8 Folding",
 				"description": "Standard polymer folding stock for the HK XM8 5.56x45mm assault rifle."
 			}
 		},
@@ -2609,7 +2609,7 @@
 		"locales": {
 			"en": {
 				"name": "HK XM8 PDW collapsible stock (FDE)",
-				"shortName": "XM8 PDW FDE",
+				"shortName": "XM8 PDW",
 				"description": "PDW collapsible stock for the HK XM8 5.56x45mm assault rifle."
 			}
 		},
@@ -2799,9 +2799,9 @@
 		},
 		"locales": {
 			"en": {
-				"name": "",
-				"shortName": "",
-				"description": ""
+				"name": "HK XM8 carbine top rail",
+				"shortName": "XM8 carbine",
+				"description": "A top-rail/carryhandle assembly for the XM8 carbine system."
 			}
 		},
 		"clearClonedProps": false,
@@ -2967,9 +2967,9 @@
 		},
 		"locales": {
 			"en": {
-				"name": "",
-				"shortName": "",
-				"description": ""
+				"name": "HK XM8 full-length top rail",
+				"shortName": "XM8 full",
+				"description": "A top-rail/carryhandle assembly for the full-length XM8 system."
 			}
 		},
 		"clearClonedProps": false,
