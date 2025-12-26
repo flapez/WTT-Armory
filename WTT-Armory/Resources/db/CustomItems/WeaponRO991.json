@@ -213,14 +213,14 @@
       "en": {
         "name": "Colt RO991 9x19 submachine gun",
         "shortName": "RO991",
-        "description": "The AEK-971 is a selective fire 5.45x39mm assault rifle that was developed at the Kovrov Mechanical Plant (KMZ) by chief designer Stanislav Ivanovich Koksharov in the late 1970s and 1980s."
+        "description": "The RO991 is a compact 9x19 submachine gun combining classic Colt reliability with modern tactical handling capable of delivering controllable automatic fire and reliable suppression in close-quarters combat."
       }
     },
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
-    "fleaPriceRoubles": 189000,
-    "handbookPriceRoubles": 86000,
+    "fleaPriceRoubles": 56639,
+    "handbookPriceRoubles": 35853,
     "addtoTraders": false,
     "addtoBots": false,
     "addtoStaticLootContainers": false,
