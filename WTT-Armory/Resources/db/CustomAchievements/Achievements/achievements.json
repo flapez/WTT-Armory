@@ -339,8 +339,8 @@
                   "to": 0
                 },
                 "distance": {
-                  "compareMethod": ">=",
-                  "value": 0
+                  "compareMethod": "<=",
+                  "value": 5
                 },
                 "resetOnSessionEnd": false,
                 "savageRole": [
