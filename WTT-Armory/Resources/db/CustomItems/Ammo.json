@@ -819,7 +819,7 @@
       "Damage": 199,
       "ammoAccr": 2,
       "ammoRec": 5,
-      "PenetrationPower": 1,
+      "PenetrationPower": 20,
       "PenetrationPowerDiviation": 0.01,
       "ArmorDamage": 85,
       "HeatFactor": 1.37,
