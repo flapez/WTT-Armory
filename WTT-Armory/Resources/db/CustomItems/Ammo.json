@@ -708,8 +708,8 @@
       "ArmorDamage": 74,
       "HeatFactor": 1.37,
       "MalfFeedChance": 0.036,
-	  "MinExplosionDistance": 1
-	  "MaxExplosionDistance": 3
+	  "MinExplosionDistance": 1,
+	  "MaxExplosionDistance": 3,
 	  "ExplosionStrength": 85,
       "ExplosionType": "smallgrenade_expl",
 	  "FuzeArmTimeSec": 0.1,
