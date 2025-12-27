@@ -1145,7 +1145,7 @@
         "rcid": ""
       },
       "BackgroundColor": "yellow",
-      "CanSellOnRagfair": true,
+      "CanSellOnRagfair": false,
       "Weight": 0.020,
       "ArmorDamage": 49,
       "BallisticCoeficient": 0.112,
