@@ -207,9 +207,11 @@
     "staticLootContainers": [],
     "masterySections": [
       {
-        "Name": "AK74",
+        "Name": "57",
+        "Level2": 125,
+        "Level3": 225,
         "Templates": [
-          "678fe4a4906c7bd23722c71f"
+          "692f77045371aadbbb0ada2e"
         ]
       }
     ]

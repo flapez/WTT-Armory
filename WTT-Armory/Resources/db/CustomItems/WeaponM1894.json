@@ -301,9 +301,11 @@
     "staticLootContainers": [],
     "masterySections": [
       {
-        "Name": "Wren Metal Works Marlin .357",
+        "Name": "M1894 Dark Tracker",
+        "Level2": 250,
+        "Level3": 500,
         "Templates": [
-          "6925eae6b1f1b81dcf03db66"
+          "69417a3f787395b8cc0ab13e"
         ]
       }
     ]
