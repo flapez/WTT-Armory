@@ -43,7 +43,8 @@ namespace WTTArmory.Helpers
         private const string MK23 = "68b7f4060a4536984f82cf4b";
         private const string AG042 = "68c23b960f579b9b5fe021e7";
         private const string AG043 = "68cf56067ff6ceab0c2fd49e";
-        private const string HK_XM8 = "66b1770c5f8b2271bb5887dc";
+        private const string HK_XM8 = "6920b28eabc4f9d229cb7e49";
+        private const string HK_XM8FDE = "6920a431c8f2ed5000c540a0";
         private const string IWI_CARMEL = "66ba249b102a9dd6040a6e7e";
         private const string IWI_CARMEL_FDE = "66ba26a6925f9921573224c9";
         private const string IWI_TAVOR_X95 = "66a47e98c486ec9d1af3a4da";
@@ -64,8 +65,17 @@ namespace WTTArmory.Helpers
         private const string CHEYTAC_M200 = "68fd4feab87d77a5aaf6bf64";
         private const string XM109 = "6945dc69fe52c2415de357f7";
         private const string M1894 = "69417a3f787395b8cc0ab13e";
-            
-        
+        private const string PMM12 = "68d40fb07130ef271f60991f";
+        private const string PITVIPER = "684b257022b8260501141308";
+        private const string PITVIPERCHROME = "684b64658c4c5f37f2c4e56a";
+        private const string RUGER57 = "692f77045371aadbbb0ada2e";
+        private const string PSAROCK = "68bf41bbb786f6e9315a5cab";
+        private const string RO991 = "690ebacfc047a9a9f1a98782";
+        private const string MASADA = "69066bef905ee9e06c462009";
+        private const string MASADAFDE = "6906a1aeef59ca68d128e8b7";
+        private const string MASADABOSS = "69161a1d649768162e8219ef";
+        private const string UMP9 = "67b05e25d83f07b7b587c0b5";
+        private const string SV98M = "69236a0b2d1260dbca41ef92";
         
         public void ModifyQuests()
         {
@@ -88,12 +98,12 @@ namespace WTTArmory.Helpers
             AddWeaponsToKillCondition(quests, "64e7b99017ab941a6f7bf9d7", [
                 BERETTA_92FS, CZ75B, CZ75B_OMEGA, HI_POINT_C9, HK_UCP,
                 LAR_GRIZZLY_MK5, LAR_GRIZZLY_MK5_GOLD, LAR_GRIZZLY_MK5_STAINLESS,
-                ARMORY_PRODIGY, SR2_UDAV, STACCATO_XC, WILSON_COMBAT_EDC_X9, MK23
+                ARMORY_PRODIGY, SR2_UDAV, STACCATO_XC, WILSON_COMBAT_EDC_X9, MK23, PMM12, PITVIPERCHROME, PITVIPER, RUGER57, PSAROCK
             ]);
 
             // Tickets, Please (64e7b9a4aac4cd0a726562cb)
             AddWeaponsToKillCondition(quests, "64e7b9a4aac4cd0a726562cb", [
-                CZ_SCORPION_EVO, MINEBEA_PM9
+                CZ_SCORPION_EVO, MINEBEA_PM9, RO991, UMP9
             ]);
 
             // District Patrol (64e7b9bffd30422ed03dad38)
@@ -103,7 +113,7 @@ namespace WTTArmory.Helpers
                 IWI_TAVOR_X95_FDE, KNIGHTS_ARMAMENT_PDW, PATRIOT, REMINGTON_ACR,
                 REMINGTON_ACR_FDE, WAGES_OF_SIN_AR15, WAGES_OF_SIN_AR15_FDE,
                 WAGES_OF_SIN_AR15_RED, ZASTAVA_M76, SVD_DRAGUNOV, SVD_DRAGUNOV_GREEN,
-                AG042, AG043
+                AG042, AG043, HK_XM8FDE, MASADA, MASADAFDE, MASADABOSS
             ]);
 
             // ====================== SKIER QUESTS ======================
@@ -112,7 +122,7 @@ namespace WTTArmory.Helpers
             AddWeaponsToKillCondition(quests, "596b455186f77457cb50eccb", [
                 BERETTA_92FS, CZ75B, CZ75B_OMEGA, HI_POINT_C9, HK_UCP,
                 LAR_GRIZZLY_MK5, LAR_GRIZZLY_MK5_GOLD, LAR_GRIZZLY_MK5_STAINLESS,
-                ARMORY_PRODIGY, SR2_UDAV, STACCATO_XC, WILSON_COMBAT_EDC_X9, MK23
+                ARMORY_PRODIGY, SR2_UDAV, STACCATO_XC, WILSON_COMBAT_EDC_X9, MK23, PMM12, PITVIPERCHROME, PITVIPER, RUGER57, PSAROCK
             ]);
 
             // Silent Caliber (5c0bc91486f7746ab41857a2)
@@ -127,7 +137,7 @@ namespace WTTArmory.Helpers
 
             // Connections Up North (6764174c86addd02bc033d68)
             AddWeaponsToKillCondition(quests, "6764174c86addd02bc033d68", [
-                REMINGTON_MSR, CHEYTAC_M200,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY
+                REMINGTON_MSR, CHEYTAC_M200,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY, SV98M
             ]);
 
             // ====================== PEACEKEEPER QUESTS ======================
@@ -146,7 +156,7 @@ namespace WTTArmory.Helpers
 
             var tarkovShooterWeapons = new[]
             {
-                REMINGTON_MSR, CHEYTAC_M200,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY
+                REMINGTON_MSR, CHEYTAC_M200,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY, SV98M
             };
 
             // Tarkov Shooter Part 1-8
@@ -168,12 +178,12 @@ namespace WTTArmory.Helpers
 
             // Psycho Sniper (5c0be13186f7746f016734aa)
             AddWeaponsToKillCondition(quests, "5c0be13186f7746f016734aa", [
-                REMINGTON_MSR, CHEYTAC_M200,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY
+                REMINGTON_MSR, CHEYTAC_M200,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY, SV98M
             ]);
 
             // Shooter Born in Heaven (5c0bde0986f77479cf22c2f8)
             AddWeaponsToKillCondition(quests, "5c0bde0986f77479cf22c2f8", [
-                REMINGTON_MSR, CHEYTAC_M200,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY
+                REMINGTON_MSR, CHEYTAC_M200,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY, SV98M
             ]);
 
             // Make Amends Equipment (6261482fa4eb80027c4f2e11)
