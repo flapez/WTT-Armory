@@ -63,6 +63,8 @@ namespace WTTArmory.Helpers
         private const string AXMC_300_WINMAG = "68a3836826dffa87b5767c04";
         private const string HENRY_BIG_BOY = "6924c2f800ff4b8d9d689a5c";
         private const string CHEYTAC_M200 = "68fd4feab87d77a5aaf6bf64";
+        private const string CHEYTAC_M200_FDE = "68fd7a61f2b8d96bb3119b19";
+        private const string CHEYTAC_M200_BOSS = "68fd7d14ff5a09197b5ab82a";
         private const string XM109 = "6945dc69fe52c2415de357f7";
         private const string M1894 = "69417a3f787395b8cc0ab13e";
         private const string PMM12 = "68d40fb07130ef271f60991f";
@@ -137,7 +139,7 @@ namespace WTTArmory.Helpers
 
             // Connections Up North (6764174c86addd02bc033d68)
             AddWeaponsToKillCondition(quests, "6764174c86addd02bc033d68", [
-                REMINGTON_MSR, CHEYTAC_M200,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY, SV98M
+                REMINGTON_MSR, CHEYTAC_M200, CHEYTAC_M200_FDE, CHEYTAC_M200_BOSS,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY, SV98M
             ]);
 
             // ====================== PEACEKEEPER QUESTS ======================
@@ -156,7 +158,7 @@ namespace WTTArmory.Helpers
 
             var tarkovShooterWeapons = new[]
             {
-                REMINGTON_MSR, CHEYTAC_M200,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY, SV98M
+                REMINGTON_MSR, CHEYTAC_M200, CHEYTAC_M200_FDE, CHEYTAC_M200_BOSS,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY, SV98M
             };
 
             // Tarkov Shooter Part 1-8
@@ -178,12 +180,12 @@ namespace WTTArmory.Helpers
 
             // Psycho Sniper (5c0be13186f7746f016734aa)
             AddWeaponsToKillCondition(quests, "5c0be13186f7746f016734aa", [
-                REMINGTON_MSR, CHEYTAC_M200,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY, SV98M
+                REMINGTON_MSR, CHEYTAC_M200, CHEYTAC_M200_FDE, CHEYTAC_M200_BOSS,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY, SV98M
             ]);
 
             // Shooter Born in Heaven (5c0bde0986f77479cf22c2f8)
             AddWeaponsToKillCondition(quests, "5c0bde0986f77479cf22c2f8", [
-                REMINGTON_MSR, CHEYTAC_M200,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY, SV98M
+                REMINGTON_MSR, CHEYTAC_M200, CHEYTAC_M200_FDE, CHEYTAC_M200_BOSS,  M1894, M700_XL_ACTION, M700_XL_ACTION_NORMA, AXMC_300_WINMAG, HENRY_BIG_BOY, SV98M
             ]);
 
             // Make Amends Equipment (6261482fa4eb80027c4f2e11)
