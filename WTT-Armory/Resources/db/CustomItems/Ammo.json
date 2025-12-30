@@ -559,7 +559,7 @@
       "en": {
         "name": ".408 Cheyenne Tactical FMJ",
         "shortName": "FMJ",
-        "description": ""
+        "description": "A .408 Cheyenne Tactical (10.36x77mm) FMJ cartridge with a 22.5 gram bullet. Each round is carefully engineered to achieve optimal ballistic performance, offering superior trajectory and minimal wind drift."
       }
     },
     "addCaliberToAllCloneLocations": false,
@@ -617,7 +617,7 @@
       "en": {
         "name": ".408 Cheyenne Tactical AP",
         "shortName": "AP",
-        "description": ""
+        "description": "A .408 Cheyenne Tactical (10.36x77mm) Armor Piercing cartridge with a 26.9 gram tungsten penetrator bullet. Each round is carefully engineered to achieve optimal ballistic performance, offering superior trajectory and minimal wind drift."
       }
     },
     "addCaliberToAllCloneLocations": false,
@@ -673,9 +673,9 @@
     },
     "locales": {
       "en": {
-        "name": ".408 Cheyenne Tactical Match",
+        "name": ".408 Cheyenne Tactical DTM Match",
         "shortName": "Match",
-        "description": ""
+        "description": "A .408 Cheyenne Tactical (10.36x77mm) Match cartridge with a 19.7 gram bullet, manufactured by Desert Tech munitions. Each round is carefully engineered to achieve optimal ballistic performance, offering superior trajectory and minimal wind drift."
       }
     },
     "addCaliberToAllCloneLocations": false,
