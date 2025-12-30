@@ -654,7 +654,7 @@
         "rcid": ""
       },
 	  "CenterOfImpact": 0.011,
-	  "Velocity": -5,
+	  "Velocity": 2.05,
       "ExaminedByDefault": true,
       "CanSellOnRagfair": true,
       "Ergonomics": -7,
@@ -686,7 +686,7 @@
     },
     "locales": {
       "en": {
-        "name": "Barrett M107A1 29 inch fluted barrel ",
+        "name": "Barrett M107A1 29 inch fluted barrel",
         "shortName": "M107A1 29\"",
         "description": "Standard 29 inch 1:15\"twist fluted barrel for the Barrett M107A1 .50 bmg anti-material rifle."
       }
@@ -714,7 +714,7 @@
         "rcid": ""
       },
 	  "CenterOfImpact": 0.012,
-	  "Velocity": 2.05,
+	  "Velocity": 5,
       "ExaminedByDefault": true,
       "CanSellOnRagfair": true,
       "Ergonomics": -2,
