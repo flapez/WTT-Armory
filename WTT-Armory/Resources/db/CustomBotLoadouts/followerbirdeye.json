@@ -66,9 +66,6 @@
 				"mod_stock": [
 					"68fd56409c78353ecc08f32c"
 				],
-				"mod_foregrip": [
-					"68fd79a09bd9b65b910edb4a"
-				],
 				"mod_handguard": [
 					"68fd75e399c0ae29b3d0d2ae"
 				]
@@ -76,6 +73,11 @@
 			"68fd609fd746b88631211f6a": {
 				"mod_muzzle": [
 					"68fd61c1fe2ac956b9c5ef92"
+				]
+			},
+			"68fd75e399c0ae29b3d0d2ae": {
+				"mod_foregrip": [
+					"68fd79a09bd9b65b910edb4a"
 				]
 			},
 			"1bf618e47cce6d69bec01e9f": {

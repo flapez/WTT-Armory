@@ -34,6 +34,7 @@
         "description": "7.92x57mm Full Metal Jacket (FMJ) is a 198 grain match round with an 8 gram lead core designed to penetrate up to NIJ Level III armor; Intended for hunting, home defense, and target practice, produced by Rifle Line Ammunition. Despite not being a commonly adopted caliber, this cartridge is capable of outputting oustanding damage to its targets."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -81,6 +82,7 @@
         "description": "7.92x57mm Soft Point (SP) is a 196 grain round with a soft-point bullet; intended for hunting, home defense, and target practice, produced by Rifle Line Ammunition. This round, despite it's aim towards flesh-based target, is still plenty capable at penetrating most soft armors."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [
@@ -127,6 +129,7 @@
         "description": "A surplus variant of the 8mm Mauser FMJ round commonly used during the second World War. Due to it's age and materials, this round may be more likely to jam or damage any weapon it is run though."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [
@@ -178,6 +181,7 @@
         "description": "A .300 Winchester Magnum (7.62x67B) FMJ cartridge with a 13.9 gram lead core with a copper jacket and brass casing. Despite it's simplicity, this round proves plenty capable of piercing simple to intermediate ballistic armor, as well as having considerable stopping power; however, this also means the round has a high probability of bouncing off various surfaces."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [
@@ -229,6 +233,7 @@
         "description": "A .300 Winchester Magnum (7.62x67B) AP cartridge with a 220-grain Sierra MatchKing bullet. This cartridge was designed to penetrate intermediate (and greater) ballistic armor all the way up to some lightly armored vehicles. Due to it's hardened core and hard jacket, this round is highly likely to bounce off of various surfaces."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -278,6 +283,7 @@
         "description": "A .300 Winchester Magnum (7.62x67B) HP cartridge with a 10.9 gram lead core with a hollow copper tip and brass casing; intended for hunting and target practice, This cartridge is intended for use against Big Game as it has an oustanding stopping power effect and is capable of causing severe damage on the target post-impact and can even pierce some rudimentary ballistic armor."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [
@@ -334,6 +340,7 @@
         "description": "A .338 Norma Magnum (8.6x63mm) 300-grain Norma Golden Target HPBT precision cartridge.\nEngineered for extreme long-range accuracy, this boat-tail match projectile emphasizes ballistic coefficient, wind stability, and consistent shot-to-shot performance. It is not designed for rapid expansion, but its mass and sectional density allow it to retain energy exceptionally well downrange. Manufactured with premium Norma brass and optimized for professional marksman platforms."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -426,6 +433,7 @@
         "description": "A .338 Norma Magnum (8.6x63mm) 250-grain Sierra MatchKing HPBT precision cartridge loaded in high-quality match brass.\nThe MatchKing series is a gold standard among competitive shooters and long-range specialists, built for minimum drag, superb accuracy, and stable supersonic flight at extreme distances. While not built for terminal expansion, its ballistic efficiency and penetration performance make it a formidable choice for precision shooters engaging hardened or distant targets."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -551,10 +559,10 @@
       "en": {
         "name": ".408 Cheyenne Tactical FMJ",
         "shortName": "FMJ",
-        "description": ""
+        "description": "A .408 Cheyenne Tactical (10.36x77mm) FMJ cartridge with a 22.5 gram bullet. Each round is carefully engineered to achieve optimal ballistic performance, offering superior trajectory and minimal wind drift."
       }
     },
-    "addCaliberToAllCloneLocations": true,
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -609,10 +617,10 @@
       "en": {
         "name": ".408 Cheyenne Tactical AP",
         "shortName": "AP",
-        "description": ""
+        "description": "A .408 Cheyenne Tactical (10.36x77mm) Armor Piercing cartridge with a 26.9 gram tungsten penetrator bullet. Each round is carefully engineered to achieve optimal ballistic performance, offering superior trajectory and minimal wind drift."
       }
     },
-    "addCaliberToAllCloneLocations": true,
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -665,12 +673,12 @@
     },
     "locales": {
       "en": {
-        "name": ".408 Cheyenne Tactical Match",
+        "name": ".408 Cheyenne Tactical DTM Match",
         "shortName": "Match",
-        "description": ""
+        "description": "A .408 Cheyenne Tactical (10.36x77mm) Match cartridge with a 19.7 gram bullet, manufactured by Desert Tech munitions. Each round is carefully engineered to achieve optimal ballistic performance, offering superior trajectory and minimal wind drift."
       }
     },
-    "addCaliberToAllCloneLocations": true,
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -733,6 +741,7 @@
         "description": "A 25x59mm XM1103 High Explosive (HE) grenade round."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -793,6 +802,7 @@
         "description": "A 25x59mm XM1019 High Explosive (HE) grenade round with a 2.5 second timed fuse intended for use by airbursting before impact."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -852,6 +862,7 @@
         "description": "A 25x59mm XM1099 Armor Piercing Incendiary (API) grenade round intended to pierce heavy armor and burn anything past the armor."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -911,6 +922,7 @@
         "description": "A 25x59mm XM1049 Armor Piercing (AP) grenade round intended to pierce heavy armor."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -958,6 +970,7 @@
         "description": "The .44 Magnum cartridge was the result of years of tuned handloading of the .44 Special. In the early 20th century, experimenters loaded the .44 Special and other large-bore handgun cartridges with heavy bullets and higher than normal powder charges to achieve superior ballistics and better hunting performance. One of these hand-loaders was Elmer Keith, a prominent writer and outdoorsman of the 20th century."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -1030,6 +1043,7 @@
         "description": "The .44 Magnum cartridge was the result of years of tuned handloading of the .44 Special. In the early 20th century, experimenters loaded the .44 Special and other large-bore handgun cartridges with heavy bullets and higher than normal powder charges to achieve superior ballistics and better hunting performance. One of these hand-loaders was Elmer Keith, a prominent writer and outdoorsman of the 20th century."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -1102,6 +1116,7 @@
         "description": "The .44 Magnum cartridge was the result of years of tuned handloading of the .44 Special. In the early 20th century, experimenters loaded the .44 Special and other large-bore handgun cartridges with heavy bullets and higher than normal powder charges to achieve superior ballistics and better hunting performance. One of these hand-loaders was Elmer Keith, a prominent writer and outdoorsman of the 20th century."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -1174,6 +1189,7 @@
         "description": "The .44 Magnum cartridge was the result of years of tuned handloading of the .44 Special. In the early 20th century, experimenters loaded the .44 Special and other large-bore handgun cartridges with heavy bullets and higher than normal powder charges to achieve superior ballistics and better hunting performance. One of these hand-loaders was Elmer Keith, a prominent writer and outdoorsman of the 20th century."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
@@ -1249,6 +1265,7 @@
         "description": "The .44 Magnum cartridge was the result of years of tuned handloading of the .44 Special. In the early 20th century, experimenters loaded the .44 Special and other large-bore handgun cartridges with heavy bullets and higher than normal powder charges to achieve superior ballistics and better hunting performance. One of these hand-loaders was Elmer Keith, a prominent writer and outdoorsman of the 20th century."
       }
     },
+    "addCaliberToAllCloneLocations": false,
     "addtoInventorySlots": [],
     "addtoModSlots": false,
     "modSlot": [],
