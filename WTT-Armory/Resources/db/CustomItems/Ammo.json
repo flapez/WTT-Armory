@@ -529,6 +529,9 @@
         "path": "Ammo/patron_1036x77_fmj.bundle",
         "rcid": ""
       },
+      "ConflictingItems": [
+        "5fc23426900b1d5091531e15"
+      ],
       "PenetrationChanceObstacle": 0.6,
       "PenetrationDamageMod": 0.25,
       "RicochetChance": 0.33,
@@ -587,6 +590,9 @@
         "path": "Ammo/patron_1036x77_ap.bundle",
         "rcid": ""
       },
+      "ConflictingItems": [
+        "5fc23426900b1d5091531e15"
+      ],
       "PenetrationChanceObstacle": 0.9,
       "PenetrationDamageMod": 0.35,
       "RicochetChance": 0.25,
@@ -645,6 +651,9 @@
         "path": "Ammo/patron_1036x77_match.bundle",
         "rcid": ""
       },
+      "ConflictingItems": [
+        "5fc23426900b1d5091531e15"
+      ],
       "PenetrationChanceObstacle": 0.3,
       "PenetrationDamageMod": 0.2,
       "RicochetChance": 0.15,
